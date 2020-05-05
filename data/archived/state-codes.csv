@@ -1,0 +1,57 @@
+name,ap,usps,fips,is_state
+Alabama,Ala.,AL,01,TRUE
+Alaska,Alaska,AK,02,TRUE
+American Samoa,,AS,60,FALSE
+Arizona,Ariz.,AZ,04,TRUE
+Arkansas,Ark.,AR,05,TRUE
+California,Calif.,CA,06,TRUE
+Colorado,Colo.,CO,08,TRUE
+Connecticut,Conn.,CT,09,TRUE
+Delaware,Del.,DE,10,TRUE
+District of Columbia,D.C.,DC,11,FALSE
+Florida,Fla.,FL,12,TRUE
+Georgia,Ga.,GA,13,TRUE
+Guam,,GU,66,FALSE
+Hawaii,Hawaii,HI,15,TRUE
+Idaho,Idaho,ID,16,TRUE
+Illinois,Ill.,IL,17,TRUE
+Indiana,Ind.,IN,18,TRUE
+Iowa,Iowa,IA,19,TRUE
+Kansas,Kan.,KS,20,TRUE
+Kentucky,Ky.,KY,21,TRUE
+Louisiana,La.,LA,22,TRUE
+Maine,Maine,ME,23,TRUE
+Maryland,Md.,MD,24,TRUE
+Massachusetts,Mass.,MA,25,TRUE
+Michigan,Mich.,MI,26,TRUE
+Minnesota,Minn.,MN,27,TRUE
+Mississippi,Miss.,MS,28,TRUE
+Missouri,Mo.,MO,29,TRUE
+Montana,Mont.,MT,30,TRUE
+Nebraska,Neb.,NE,31,TRUE
+Nevada,Nev.,NV,32,TRUE
+New Hampshire,N.H.,NH,33,TRUE
+New Jersey,N.J.,NJ,34,TRUE
+New Mexico,N.M.,NM,35,TRUE
+New York,N.Y.,NY,36,TRUE
+North Carolina,N.C.,NC,37,TRUE
+North Dakota,N.D.,ND,38,TRUE
+Northern Mariana Islands,,MP,69,FALSE
+Ohio,Ohio,OH,39,TRUE
+Oklahoma,Okla.,OK,40,TRUE
+Oregon,Ore.,OR,41,TRUE
+Pennsylvania,Pa.,PA,42,TRUE
+Puerto Rico,,PR,72,FALSE
+Rhode Island,R.I.,RI,44,TRUE
+South Carolina,S.C.,SC,45,TRUE
+South Dakota,S.D.,SD,46,TRUE
+Tennessee,Tenn.,TN,47,TRUE
+Texas,Texas,TX,48,TRUE
+Utah,Utah,UT,49,TRUE
+Vermont,Vt.,VT,50,TRUE
+Virginia,Va.,VA,51,TRUE
+Virgin Islands,Wash.,VI,78,FALSE
+Washington,W.Va.,WA,53,TRUE
+West Virginia,Wis.,WV,54,TRUE
+Wisconsin,Wyo.,WI,55,TRUE
+Wyoming,,WY,56,TRUE
