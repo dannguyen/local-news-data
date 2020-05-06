@@ -1,0 +1,4554 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "CA"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/151",
+      "attributes": {
+        "donation": {
+          "paymentGatewayToken": "I73GLq9eFC854Eo4zSJmpl6wOJs"
+        },
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kqed-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "151",
+        "network": {
+          "name": "KQED",
+          "inheritingFrom": "150",
+          "usesInheritance": true,
+          "currentOrgId": "151",
+          "tier1": {
+            "name": "KQED Public Media",
+            "id": "150",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KQED-FM",
+                "id": "151",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KQEI-FM",
+                    "id": "851",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "150",
+          "recency": 360
+        },
+        "guid": "4fcf700f033f429a9965f073dbc2afdf",
+        "brand": {
+          "band": "FM",
+          "call": "KQED",
+          "frequency": "88.5",
+          "marketCity": "San Francisco",
+          "marketState": "CA",
+          "name": "KQED",
+          "tagline": "KQED Public Media"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5ec23e67cf2b421aa9d1b0518ab6cfb0",
+                "typeId": "10",
+                "href": "https://streams.kqed.org/kqedradio.mp3"
+              }
+            ],
+            "guid": "514afffd028e455fb0f5b35301f9afc5",
+            "title": "KQED Listen Live",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kqed.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kqed.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kqed.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/150_72bcf37974cde42a9a222d02e1c6c5c4.mp4?1552088214698",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/150_a87891753a8f2866ae912648ae2ab31f.mp4?1552088195513",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/150_7b10ba7cbcdaf690baead777bede3ead.mp4?1552088235960",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/150_32d2e4ca335097fcda33c37e15c58caf.mp4?1552088172405",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/150_5dd3abbf27055c5dd748103e744b1055.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/150_6883aa8fa968f64a59ad0b0f04532017.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/150_9a1166fb9d3174b76d49fe9a4f33d796.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/150_9b981fc9063f7e9d585b70fa3fee7065.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/150_e02e8dcc4203dfe2751e8367120a2fb9.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KQED/11319471190",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KQEDnews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "5ec23e67cf2b421aa9d1b0518ab6cfb0",
+            "href": "https://streams.kqed.org/kqedradio.mp3",
+            "isPrimaryStream": true,
+            "title": "KQED Listen Live",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "14274eb9e443410299a5fb4b08d60eba",
+            "href": "https://ww2.kqed.org/forum/category/forum/feed/podcast",
+            "title": "Forum",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cc53303a9249419f9fc0d1afd34a8b0e",
+            "href": "https://ww2.kqed.org/news/programs/qedup/feed/podcast/",
+            "title": "Q'ed Up",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3c021148492848a2b2858f05f57b5773",
+            "href": "https://ww2.kqed.org/news/programs/the-leap/feed/podcast",
+            "title": "The Leap",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7fe5c8b4f492412faae586f15ace462d",
+            "href": "https://ww2.kqed.org/news/tag/tcrmag/feed/podcast",
+            "title": "The California Report Magazine",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2838f3e6ec3c4f92a0ca5b363bf4eb22",
+            "href": "https://ww2.kqed.org/news/tag/political-breakdown/feed/podcast",
+            "title": "Political Breakdown",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8c8b7f905a6e4a70ab1b77596b681ca1",
+            "href": "https://ww2.kqed.org/news/series/jerrybrown/feed/podcast",
+            "title": "The Political Mind of Jerry Brown",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ebf5febcf85f42ffbd6bc131e63a8a0e",
+            "href": "https://feeds.podcastmirror.com/mindshift-podcast",
+            "title": "MindShift Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7285f55ad79f40208afe247a81cf4301",
+            "href": "https://ww2.kqed.org/pop/category/the-cooler/feed/podcast",
+            "title": "The Cooler",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2d334a336fd84bbdbf3ebe787320a481",
+            "href": "https://www.kqed.org/.pod/thedolist",
+            "title": "The Do List",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d74e5bfe4cbb4590bb426e304b10c810",
+            "href": "https://ww2.kqed.org/news/tag/tcram/feed/podcast",
+            "title": "The California Report",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1237c4e9adb2409ca77e19ef99676712",
+            "href": "https://ww2.kqed.org/science/category/science-podcast/feed/podcast",
+            "title": "KQED Science News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b8c51517602047c186871b18f9958a17",
+            "href": "https://ww2.kqed.org/arts/programs/rightnowish/feed/podcast",
+            "title": "Rightnowish",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "777943b67b894d038912baf833c47670",
+            "href": "https://ww2.kqed.org/perspectives/category/perspectives/feed/podcast",
+            "title": "Perspectives",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "34ed636a918f49579255f9439ce0bc9f",
+            "href": "https://ww2.kqed.org/podcasts/programs/truth-be-told/feed/podcast",
+            "title": "Truth Be Told",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d92339ac6e3248cdb5f77d17ed633889",
+            "href": "https://ww2.kqed.org/news/series/american-suburb-podcast/feed/podcast",
+            "title": "American Suburb",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a8babebaf40d404bac78b3922537fa2a",
+            "href": "https://feeds.megaphone.fm/KQINC5783919432",
+            "title": "Bay Curious",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "91078147143b4c548b53b785709a0979",
+            "href": "https://ww2.kqed.org/news/tag/the-bay/feed/podcast",
+            "title": "The Bay",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "657f1b608c394e6eb0126e27f45c4011",
+            "href": "https://kqed.secure.force.com/donate/rc_connect__campaign_designform?id=7011Y00000270sGQAQ&form=00P1Y00001A4d9MUAR",
+            "title": "Support KQED",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b40bb646502c4da5bcf030fa1fc28419",
+            "href": "https://kqed.secure.force.com/donate/rc_connect__campaign_designform?id=7011Y00000270sGQAQ&form=00P1Y00001A4d9MUAR",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "b570a7b9662c4e34a85338c0c48231ea",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/150_8eab90461e5f1cdae792aa5b76d1b367.mp4",
+            "title": "Michelle's Donation Ask",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/145",
+      "attributes": {
+        "donation": {
+          "paymentGatewayToken": "1SLIl6J4ovAPH1bYoMmSazY78LD"
+        },
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kpcc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "145",
+        "network": {
+          "name": "KPCC",
+          "inheritingFrom": "144",
+          "usesInheritance": true,
+          "currentOrgId": "145",
+          "tier1": {
+            "name": "Southern California Public Radio",
+            "id": "144",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KPCC-FM",
+                "id": "145",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KVLA-FM",
+                    "id": "1078",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUOR-FM",
+                    "id": "1089",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KJAI-FM",
+                    "id": "1500",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "144",
+          "recency": 240
+        },
+        "guid": "4fcf700f01ca43ca82fac5999a619d3a",
+        "brand": {
+          "band": "FM",
+          "call": "KPCC",
+          "frequency": "89.3",
+          "marketCity": "Pasadena",
+          "marketState": "CA",
+          "name": "KPCC",
+          "tagline": "Southern California Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3c70d1c15ff9435495f8669e24cb74bf",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPCC_FM.mp3?dist=tparty"
+              }
+            ],
+            "guid": "4fcf713e156a4d079f7b23aa482df659",
+            "title": "KPCC - Southern California Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kpcc.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/scpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/scpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/144_bdf7e113a4917fbaec99401d3a4cc53b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/144_56b7cd3ccff056d5c5e79ad336096c4f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/144_13911a2a459ebb11afeec6c838220587.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/144_60465374c65c19e92b219319d54d38a0.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/144_8c2c92facae45465f378663d0e886168.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/144_37ef5e772aac9aa55ca28fa0346e9bfb.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/144_e64a7008d7add87ad37133a385873364.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kpcc",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/kpcc",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3c70d1c15ff9435495f8669e24cb74bf",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPCC_FM.mp3?dist=tparty",
+            "isPrimaryStream": true,
+            "title": "KPCC - Southern California Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e5c69d9fcc374cbd9607ddd85167c6b8",
+            "href": "https://feeds.megaphone.fm/bigone",
+            "title": "The Big One: Your Survival Guide",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d71daff1668347f28580b7da81cdce25",
+            "href": "https://feeds.megaphone.fm/repeat",
+            "title": "Repeat",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c0133e4e190f4301967647556b7acb21",
+            "href": "https://www.omnycontent.com/d/playlist/acc8cc57-ff7c-44c5-9bd6-ab0900fbdc43/6fb6a6fb-9da9-4228-a1fe-ab91017920b8/2c429706-e067-4cd8-aa80-ab91017a4f72/podcast.rss",
+            "title": "The LAist Reporter Roundup",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0899ea564e174395a5ac25e1627192ee",
+            "href": "https://www.scpr.org/podcasts/loh_down",
+            "title": "The Loh Down on Science",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "df26068248ac4e7284b6f49dbab250e9",
+            "href": "https://feeds.megaphone.fm/tellthemiam",
+            "title": "Tell Them, I Am",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "63fa783b1e1d4d4cb87fd60ed94d0d80",
+            "href": "https://www.scpr.org/podcasts/filmweek",
+            "title": "FilmWeek",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7aee83d3d2bd466bac3bfe92e86593c4",
+            "href": "https://www.scpr.org/podcasts/marquee",
+            "title": "FilmWeek Marquee",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "65c06af902c74a74991b2254a16ec258",
+            "href": "https://www.scpr.org/podcasts/take-two",
+            "title": "Take Two",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1ca85389ea2842c1b9356b3a35579d5c",
+            "href": "https://www.scpr.org/podcasts/airtalk",
+            "title": "AirTalk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d1f4597f626a490f8e4d4e8781f24c4a",
+            "href": "https://www.scpr.org/podcasts/the-frame",
+            "title": "The Frame",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "54a541ac3dd542bc9b9a753670d87aa4",
+            "href": "https://support.kpcc.org/npr",
+            "title": "Support KPCC",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "234c494ad1d84da7be5644d3270f3d34",
+            "href": "https://support.kpcc.org/nprone",
+            "title": "Support KPCC",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "089497a809fd4969bddeccb261fa96ce",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/144_2a322795a9cf91285a2a75d180fe6df3.mp4",
+            "title": "NPR One Sep 2019 Rabe",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "3b505c676a364e2f8e3b80e96c5f2450",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/144_30fa8fd3f81ae596b893d0c077f860bb.mp4",
+            "title": "NPR One Sep 2019 Rodriguez",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "c9aee9d7808c40e4b6f7803363be339d",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/144_1dd1fb9b7c8c235fd42d720fae2c6608.mp4?1568240835875",
+            "title": "NPR One Sep 2019 Baughman",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/139",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kpbs-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "139",
+        "network": {
+          "inheritingFrom": "139",
+          "usesInheritance": false,
+          "currentOrgId": "139",
+          "tier1": {
+            "name": "KPBS-FM",
+            "id": "139",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KQVO-FM",
+                "id": "937",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "139",
+          "recency": 360
+        },
+        "guid": "4fcf700e26924144a7cb9462359290d1",
+        "brand": {
+          "band": "FM",
+          "call": "KPBS",
+          "frequency": "89.5",
+          "marketCity": "San Diego",
+          "marketState": "CA",
+          "name": "KPBS Radio",
+          "tagline": "San Diego's NPR Station - Where News Matters"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "22e6299585ca4f12a674f875bc677eea",
+                "typeId": "10",
+                "href": "https://kpbs.streamguys1.com/"
+              }
+            ],
+            "guid": "13dcc34a3bd02ad49b194c9d870d0dcb",
+            "title": "KPBS: News & Information",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "03da1f601ce94ecbb9182cf17252fbbc",
+                "typeId": "10",
+                "href": "https://kpbs-classical.streamguys1.com/kpbs-classical.mp3"
+              }
+            ],
+            "guid": "4fcf716821a54d71a5062df0060ce0b5",
+            "title": "Classical San Diego",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kpbs.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kpbs_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kpbs_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/139_29f4129d7402d931c9b6c4c2193b754a.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/139_7056dbdd1efe99b581983387f2dd778b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/139_7f29c99d22a8f1a8392c338882ee956f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/139_c4472f05113d8e637d1fa04c2b08c895.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/139_fbb940d4dbb523d97ffb866b36386a63.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KPBSSanDiego",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/KPBS",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "22e6299585ca4f12a674f875bc677eea",
+            "href": "https://kpbs.streamguys1.com/",
+            "isPrimaryStream": true,
+            "title": "KPBS: News & Information",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "03da1f601ce94ecbb9182cf17252fbbc",
+            "href": "https://kpbs-classical.streamguys1.com/kpbs-classical.mp3",
+            "isPrimaryStream": false,
+            "title": "Classical San Diego",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "de7f32ffc8494fe394b32db475c2608a",
+            "href": "https://feeds.kpbs.org/rad-scientist",
+            "title": "Rad Scientist",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6b1ed0e29ed843b78724d5f938d8d0b9",
+            "href": "https://feeds.kpbs.org/cinema-junkie",
+            "title": "Cinema Junkie",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f20990fbfdb94778b0ce23f129b5b613",
+            "href": "https://feeds.kpbs.org/roundtable",
+            "title": "KPBS Roundtable",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2bc40d57a14b416bbbefd38d9e9a9504",
+            "href": "https://feeds.kpbs.org/only-here",
+            "title": "Only Here",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f43c4b9cf44e4e59be73d8ee3d372c5b",
+            "href": "https://feeds.kpbs.org/dr-js",
+            "title": "Dr J\u2019s",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "33dedd8028634f40b600976743f14a3f",
+            "href": "https://feeds.kpbs.org/my-first-day",
+            "title": "My First Day",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8ae1b26b18ec4c63960344affd4f63f5",
+            "href": "https://feeds.kpbs.org/incoming",
+            "title": "Incoming",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e29c6ed94c324d69ba324d9fe31d3880",
+            "href": "https://feeds.kpbs.org/device",
+            "title": "Device",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a05d2cc4bbda469ea6829df5f7c31030",
+            "href": "https://feeds.kpbs.org/midday-edition",
+            "title": "KPBS Midday Edition",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fe8bee298970401884a95f8b2e25d41f",
+            "href": "https://feeds.kpbs.org/san-diego-stories",
+            "title": "San Diego News Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d4f230a0af7f4716ae0aa411859c22bb",
+            "href": "https://feeds.kpbs.org/first-person",
+            "title": "First Person",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "cbf994c1731f479ca1f453c6454cd8c6",
+            "href": "https://www.kpbs.org/membership/",
+            "title": "Become a Member",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "1f3f6e6daa684c18b525c9033de551ed",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/139_57e7679e98599a667d12957362d37e25.mp4",
+            "title": "Giving Tuesday Now NPR One",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/139.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/55",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kcrw-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "55",
+        "network": {
+          "inheritingFrom": "55",
+          "usesInheritance": false,
+          "currentOrgId": "55",
+          "tier1": {
+            "name": "KCRW-FM",
+            "id": "55",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KCRI-FM",
+                "id": "56",
+                "usesInheritance": true
+              },
+              {
+                "name": "KCRU-FM",
+                "id": "57",
+                "usesInheritance": true
+              },
+              {
+                "name": "KCRY-FM",
+                "id": "1147",
+                "usesInheritance": true
+              },
+              {
+                "name": "KDRW-FM",
+                "id": "1485",
+                "usesInheritance": true
+              },
+              {
+                "name": "KERW-FM",
+                "id": "1565",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700e0d594514b770cbe2cbe96886",
+        "brand": {
+          "band": "FM",
+          "call": "KCRW",
+          "frequency": "89.9",
+          "marketCity": "Santa Monica",
+          "marketState": "CA",
+          "name": "KCRW",
+          "tagline": "NPR's flagship station for Southern California featuring an independent mix of eclectic music, news, art and talk programming."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "070fc5e78025445d846f1dc5fc7b9410",
+                "typeId": "10",
+                "href": "https://kcrw.streamguys1.com/kcrw_192k_mp3_news"
+              }
+            ],
+            "guid": "4fcf7140044745829c1d51accf723565",
+            "title": "KCRW All News",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c27a3566f54144fd979e8e62b491186a",
+                "typeId": "10",
+                "href": "https://kcrw.streamguys1.com/kcrw_192k_mp3_e24"
+              }
+            ],
+            "guid": "99cffd6263b24ab7aa9e9404c07171d6",
+            "title": "KCRW Eclectic24 All Music",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bf2977acecf24cfd8fcdd3aad836167d",
+                "typeId": "10",
+                "href": "https://kcrw.streamguys1.com/kcrw_192k_mp3_on_air"
+              }
+            ],
+            "guid": "ae77f58ad68b47e8aac25d9466f7f158",
+            "title": "KCRW On-Air Music, News, Art",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kcrw.com",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kcrw_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kcrw_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/55.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kcrwradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/kcrw",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "070fc5e78025445d846f1dc5fc7b9410",
+            "href": "https://kcrw.streamguys1.com/kcrw_192k_mp3_news",
+            "isPrimaryStream": false,
+            "title": "KCRW All News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c27a3566f54144fd979e8e62b491186a",
+            "href": "https://kcrw.streamguys1.com/kcrw_192k_mp3_e24",
+            "isPrimaryStream": false,
+            "title": "KCRW Eclectic24 All Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bf2977acecf24cfd8fcdd3aad836167d",
+            "href": "https://kcrw.streamguys1.com/kcrw_192k_mp3_on_air",
+            "isPrimaryStream": true,
+            "title": "KCRW On-Air Music, News, Art",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "bfae8afc585d48fe8d1119e897359d9f",
+            "href": "https://www.kcrw.com/podcast/show/tt",
+            "title": "KCRW's The Treatment",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f017141a0ee44a00bb227a7f3b9f3202",
+            "href": "https://www.kcrw.com/podcast/show/to",
+            "title": "KCRW's The Organist",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d2983e7c112249e5827c3322ee043939",
+            "href": "https://www.kcrw.com/podcast/show/wt",
+            "title": "KCRW's Welcome to LA",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7f4de5d320cd47c79c7d40bc3785d936",
+            "href": "https://kcrw.com/news/shows/the-legal-eagle-files/rss.xml",
+            "title": "The Legal Eagle Files",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e0da9bf4837743508e47b73b5bdfc2f2",
+            "href": "https://www.kcrw.com/podcast/show/at",
+            "title": "KCRW's Art Talk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "39b5097e372e4bc5978c6648a20df986",
+            "href": "https://feeds.feedburner.com/wnyc_neighborhood",
+            "title": "There Goes the Neighborhood",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "686cfdb26e47482b8caaff92e789add0",
+            "href": "https://www.kcrw.com/podcast/show/uf",
+            "title": "KCRW's UnFictional",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "44982d11a8294835bafe1c2b1858220f",
+            "href": "https://www.kcrw.com/podcast/show/tb",
+            "title": "KCRW's The Business",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d76d3447e4b0414e9ee2d9b5b129f1b3",
+            "href": "https://www.kcrw.com/podcast/show/gf",
+            "title": "KCRW's Good Food",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1cc4cad34e764ff1a7f98ef10af4e1d8",
+            "href": "https://www.kcrw.com/podcast/show/tu",
+            "title": "KCRW's Today's Top Tune",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "849645cd023a4d95be58830e3be7f430",
+            "href": "https://www.kcrw.com/podcast/show/cg",
+            "title": "KCRW's Cargoland",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e50feeb0270f46beade0af36608048d3",
+            "href": "https://www.kcrw.com/podcast/show/fr",
+            "title": "KCRW's Film Reviews",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "578e4a936fa046638353b0c88daaa973",
+            "href": "https://www.kcrw.com/podcast/show/so",
+            "title": "KCRW's Second Opinion",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a2617319f11d42c4a3289196944223ce",
+            "href": "https://www.kcrw.com/podcast/show/si",
+            "title": "KCRW's Scheer Intelligence",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "76b64bf71ea74eedbd68eee820a999e9",
+            "href": "https://www.kcrw.com/podcast/show/lr",
+            "title": "KCRW's Left, Right & Center",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fa4a9ae1230a41449ed2a089bbea72a3",
+            "href": "https://www.kcrw.com/podcast/show/ma",
+            "title": "KCRW's Martini Shot",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d7affa4aa93744fdbda0663e175aceef",
+            "href": "https://www.kcrw.com/podcast/show/gd",
+            "title": "KCRW's Guest DJ Project",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2373d7243688421393fe2f0879e51da2",
+            "href": "https://www.kcrw.com/podcast/show/mh",
+            "title": "KCRW's The Document",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b9cfc4ddc994434691cb9c025c9d26be",
+            "href": "https://www.kcrw.com/podcast/show/de",
+            "title": "KCRW's Design and Architecture",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5dff3612160e45d0b3cf0c9d896b5494",
+            "href": "https://www.kcrw.com/podcast/show/lo",
+            "title": "KCRW's LA Observed",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ec7eb541abb24eaabf35d206feab899c",
+            "href": "https://www.kcrw.com/podcast/show/pp",
+            "title": "KCRW's Press Play with Madeleine Brand",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3c382ad50cb740e384badd5e4bd7ab36",
+            "href": "https://www.kcrw.com/podcast/show/jg",
+            "title": "KCRW's Good Food on the Road",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "76d7081b4d71493c86d284318230b69b",
+            "href": "https://www.kcrw.com/podcast/show/oy",
+            "title": "KCRW's One Year Later",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fe73d0712ba442febece9338b0a64b61",
+            "href": "https://www.kcrw.com/podcast/show/tp",
+            "title": "KCRW's To the Point",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "49bde4110c1d4fd8bc70183df20647ce",
+            "href": "https://www.kcrw.com/podcast/show/bd",
+            "title": "KCRW's Bodies",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d99fbd1a5c3f4ce2b6dee6fbbb78fb86",
+            "href": "https://www.kcrw.com/podcast/show/bw",
+            "title": "KCRW's Bookworm",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "27e895c3bb9845c6833b2cfcd64336a3",
+            "href": "https://www.kcrw.com/podcast/show/ms",
+            "title": "KCRW's Screengrab",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "648f81a6883b421997be207868baeb78",
+            "href": "https://kcrw.com/culture/shows/foxhole/rss.xml",
+            "title": "Foxhole",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ef9395e2ed18445ebde461fa7b706373",
+            "href": "https://www.kcrw.com/podcast/show/ab",
+            "title": "KCRW's Opening the Curtain",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3e6d181d90374488a064c5b56ae790a8",
+            "href": "https://www.kcrw.com/podcast/show/ln",
+            "title": "KCRW's Lost Notes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b2a102e3330f47f99ad295e9f2475dbe",
+            "href": "https://www.kcrw.com/news/shows/greater-la/rss.xml",
+            "title": "KCRW's Greater LA",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7e51205571d94d72be3aad4d083110d6",
+            "href": "https://www.kcrw.com/podcast/show/bm",
+            "title": "KCRW's Here Be Monsters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4f2659c1659045bdbc3ef3c17b813076",
+            "href": "https://www.kcrw.com/podcast/show/hb",
+            "title": "KCRW's Hollywood Breakdown",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ded2477155e34cfc9afca9e6b1d00050",
+            "href": "https://www.kcrw.com/podcast/show/lp",
+            "title": "KCRW's LRC Presents: All the Presidents Lawyers",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "9cb71f4529c14fecbc125bbd2fbbf0cc",
+            "href": "https://www.kcrw.com/join?utm_source=NPR&utm_medium=referral&utm_campaign=NPR_donate_page",
+            "title": "Membership",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/55.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/286",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kxjz-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "286",
+        "network": {
+          "inheritingFrom": "286",
+          "usesInheritance": false,
+          "currentOrgId": "286"
+        },
+        "newscast": {
+          "id": "286",
+          "recency": 240
+        },
+        "guid": "4fcf700f25e34b7d975dada953de2d06",
+        "brand": {
+          "band": "FM",
+          "call": "KXJZ",
+          "frequency": "90.9",
+          "marketCity": "Sacramento",
+          "marketState": "CA",
+          "name": "CapRadio News",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d572c601e8254c238bd8e14905553c9c",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KXJZ.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "3d1332dc52d84307949d6321fbbd946e",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KXJZAAC.pls"
+              }
+            ],
+            "guid": "4fcf7156032c4c82a33c94c868ed4713",
+            "title": "CapRadio News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.capradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kxjz.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kxjz.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/286.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/capradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/CapRadioNews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "d572c601e8254c238bd8e14905553c9c",
+            "href": "https://playerservices.streamtheworld.com/pls/KXJZ.pls",
+            "isPrimaryStream": true,
+            "title": "CapRadio News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "3d1332dc52d84307949d6321fbbd946e",
+            "href": "https://playerservices.streamtheworld.com/pls/KXJZAAC.pls",
+            "isPrimaryStream": true,
+            "title": "CapRadio News",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "21f37e638ae140d8906f1b1f363be708",
+            "href": "https://feeds.feedburner.com/RuralSuicide",
+            "title": "Rural Suicide",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e272f3ac13834981967df7a1d69e056c",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioHeyListenPodcast",
+            "title": "Hey, Listen!",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "567210a071d8411682809e0ce3a9b0be",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioCapitolChatPodcast",
+            "title": "Capitol Chat",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "75994925246b4080b7721dbfe5381f95",
+            "href": "https://feeds.feedburner.com/CaliforniasNextGovernor",
+            "title": "California's Next Governor",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2fef68758d3d4adeb0524089594fa503",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioConPod",
+            "title": "ConPod",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a0029aedaf334f7c8d19ac28aae26f17",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioPolitifactPodcast",
+            "title": "PolitiFact California",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "16bae1d30c61496597e9383514085206",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioSoundAdvicePodcast",
+            "title": "Sound Advice",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d0df791ef43e4ba4b90fc241d5fe8a70",
+            "href": "https://feeds.feedburner.com/KeysToTheHouse",
+            "title": "Keys To The House",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f0c1870dc29b43e19849c88978564183",
+            "href": "https://feeds.feedburner.com/threeninefive",
+            "title": "395",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "69741ff43905473db46268cf67eed3ed",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioPoliticalJunkieGoesWestPodcast",
+            "title": "Political Junkie Goes West",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f7eebc2cc9ea4f509eb45a56d0f1da02",
+            "href": "https://feeds.feedburner.com/capradioreads",
+            "title": "CapRadio Reads",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "69e00a99ec7d4ca8a93612ea11622c7f",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioInsightMusicPodcast",
+            "title": "Insight Music",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "20ab1c486fa0445eb34ba1ef93e79842",
+            "href": "https://feeds.feedburner.com/Yosemiteland",
+            "title": "TahoeLand",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8136a4509d0843f29d334671743c0cdf",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioInsightPodcast",
+            "title": "Insight With Beth Ruyak",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cb2c7ca662f442ff9877210ed7ec548d",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioTheViewFromHerePodcast",
+            "title": "The View From Here",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6ff3868cea1b4c979809e3f6bafb1b48",
+            "href": "https://feeds.feedburner.com/ALFTheDrive",
+            "title": "The Drive",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1a418a03be024882a3cda2c6030c7adb",
+            "href": "https://community.capradio.org/site/Donation2?df_id=1520&1520.donation=form1&mfc_pref=T&s_src=nprone",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "12390ed350c7460782915474011b1786",
+            "href": "https://community.capradio.org/site/Donation2?df_id=1520&1520.donation=form1&mfc_pref=T&s_src=npr",
+            "title": "Support",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/286.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/2",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kalw-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "2",
+        "network": {
+          "inheritingFrom": "2",
+          "usesInheritance": false,
+          "currentOrgId": "2",
+          "tier1": {
+            "name": "KALW-FM",
+            "id": "2",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "2",
+          "recency": 360
+        },
+        "guid": "4fcf700d1c004dfdb7b2e951ac4408d9",
+        "brand": {
+          "band": "FM",
+          "call": "KALW",
+          "frequency": "91.7",
+          "marketCity": "San Francisco",
+          "marketState": "CA",
+          "name": "KALW",
+          "tagline": "Local Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f01f5894be3b45878ca06728c9a0f747",
+                "typeId": "10",
+                "href": "https://live.streamguys1.com:2435/kalw"
+              }
+            ],
+            "guid": "4fcf716919cb449d9ba016bbc0cb4243",
+            "title": "KALW-FM Local Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kalw.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kalw_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kalw_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/2_9bea6f8911ddf568f65894be775cf7b7.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KALW/61445632314",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/kalw",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f01f5894be3b45878ca06728c9a0f747",
+            "href": "https://live.streamguys1.com:2435/kalw",
+            "isPrimaryStream": true,
+            "title": "KALW-FM Local Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "9f1d2453751340af8ab573036394586c",
+            "href": "http://rss.acast.com/thespecialist",
+            "title": "The Specialist",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4d0549e2028546eeb02ede3c70ec0949",
+            "href": "http://feeds.feedburner.com/fsfsf",
+            "title": "FSFSF",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "007423fa65e8423c9b75d267cd792f8c",
+            "href": "http://feeds.feedburner.com/thebridgekalw",
+            "title": "The Bridge",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "060eaa235f1849bb8a70627ab3e9ceaa",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/66083/rss.xml",
+            "title": "Kamau Right Now!",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "89ccd8b911794df9a15e08301bd73295",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/term/21835/rss.xml",
+            "title": "BOUNCE: The Warriors' Last Season in Oakland",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f4c93885d530420e85092ba705811160",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/term/23198/rss.xml",
+            "title": "tbh",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b34e5043c2c64dd7b4b373236a45ea41",
+            "href": "http://feeds.feedburner.com/InflectionPointRadio",
+            "title": "Inflection Point",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5310acfb6b614f46a3e6b189ac1697be",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/655/rss.xml",
+            "title": "Your Legal Rights",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0b1cafddb42f4d4eae541171d07aeb38",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/2094/rss.xml",
+            "title": "Your Call Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e795113484804c99a1ac20ff9c850488",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/118562/rss.xml",
+            "title": "Uncuffed",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "963a296fc91448ccb4376b3c471de64d",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/623/rss.xml",
+            "title": "City Visions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3f8191770ac14fb5ac25ffb4ebbcc37a",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/517/rss.xml",
+            "title": "Out in the Bay",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b4052186faa04edc80a0a6308c3651dd",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/16246/rss.xml",
+            "title": "Sandip Roy's Dispatches from Kolkata",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "59a32baf1367415e9484ec00d23eb1d0",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/term/23782/rss.xml",
+            "title": "Day By Day: Quarantine Diaries",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1b6a71db3d0e475f956af6d41857f47b",
+            "href": "http://feeds.feedburner.com/soundcloud/sands",
+            "title": "Sights & Sounds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ea0aac2e2eb24ef1bf94aad744ac9b87",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/643/rss.xml",
+            "title": "Minds Over Matter",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "99c02786205e4ed68568ecc1f02814ea",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/term/23465/rss.xml",
+            "title": "Golden Gate Parkcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4c5ce82a0e8b44bba01aa5c27d31ed75",
+            "href": "https://intersectionfm.libsyn.com/rss",
+            "title": "The Intersection",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8115f0eef6964d5fbe5458ae2b3a397b",
+            "href": "https://kalw.drupal.publicbroadcasting.net/podcasts/term/192/rss.xml",
+            "title": "Crosscurrents",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "debe69400e5a4cfb995b196a49a4d39a",
+            "href": "https://donate.nprstations.org/kalw/",
+            "title": "Support KALW",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/2.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/45",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kclu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "45",
+        "network": {
+          "inheritingFrom": "45",
+          "usesInheritance": false,
+          "currentOrgId": "45",
+          "tier1": {
+            "name": "KCLU-FM",
+            "id": "45",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KCLU-AM",
+                "id": "1081",
+                "usesInheritance": true
+              },
+              {
+                "name": "KCLM-FM",
+                "id": "1385",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "45",
+          "recency": 120
+        },
+        "guid": "4fcf700e0aa54f94a545341e4f6a695a",
+        "brand": {
+          "band": "FM",
+          "call": "KCLU",
+          "frequency": "88.3",
+          "marketCity": "Thousand Oaks",
+          "marketState": "CA",
+          "name": "KCLU",
+          "tagline": "NPR and Local News"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4f250ad0ef8e45078671dfb8fbf27907",
+                "typeId": "10",
+                "href": "https://kclustream.callutheran.edu:8090/kclump3"
+              }
+            ],
+            "guid": "e794c123d86744dc83c8b1e843744094",
+            "title": "KCLU Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kclu.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kclu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kclu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/45.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "4f250ad0ef8e45078671dfb8fbf27907",
+            "href": "https://kclustream.callutheran.edu:8090/kclump3",
+            "isPrimaryStream": true,
+            "title": "KCLU Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "0a9018b3acfa437aa73274c92c45623a",
+            "href": "https://donate.nprstations.org/kclu/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/45.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/15",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kazu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "15",
+        "network": {
+          "inheritingFrom": "15",
+          "usesInheritance": false,
+          "currentOrgId": "15",
+          "tier1": {
+            "name": "KAZU-FM",
+            "id": "15",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf700e01214f00a857d54cc8091fec",
+        "brand": {
+          "band": "FM",
+          "call": "KAZU",
+          "frequency": "90.3",
+          "marketCity": "Seaside",
+          "marketState": "CA",
+          "name": "KAZU",
+          "tagline": "NPR for the Monterey Bay Area"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5f8a450c6cea4d659180bc737b9e3408",
+                "typeId": "10",
+                "href": "https://icecastle.csumb.edu/livehd2high"
+              }
+            ],
+            "guid": "4fcf713d12574ea1b6e0c181d35e11db",
+            "title": "KAZU HD2 Classical (Broadband)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "da75c38e795a4095b5f53e97cbf32c52",
+                "typeId": "10",
+                "href": "https://icecastle.csumb.edu/live128"
+              }
+            ],
+            "guid": "4fcf713d0ebe4be3941d2d1a7add696e",
+            "title": "KAZU News (Broadband)",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kazu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kazu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kazu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/15_f9241158901e9d710bcf4f684081b9e7.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/15_702f4998e8ef97fdf8201a7ef063dd75.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/15_02eb788d32ea9e0664953e69053d9815.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/15_dc8118cbf7b3dafb4b0be145d87a4313.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/15_0457d7b92bc084782d77d5c706abee2c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/15_0174c57f8f4c6c8026dbfb177def5950.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KAZU/293612389773",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/903KAZU",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "5f8a450c6cea4d659180bc737b9e3408",
+            "href": "https://icecastle.csumb.edu/livehd2high",
+            "isPrimaryStream": false,
+            "title": "KAZU HD2 Classical (Broadband)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "da75c38e795a4095b5f53e97cbf32c52",
+            "href": "https://icecastle.csumb.edu/live128",
+            "isPrimaryStream": true,
+            "title": "KAZU News (Broadband)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "427f308c52e74c8380bd99e4bb25a81f",
+            "href": "https://kazu.drupal.publicbroadcasting.net/podcasts/term/274/rss.xml",
+            "title": "KAZU - Listen Local Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2e3fb44c0e7f4736bc32b45005550604",
+            "href": "https://support.kazu.org/NPROne",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "274bb0f22c6b4ad9836f5db628c6ac46",
+            "href": "https://support.kazu.org/NPROne",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "bdeb75d6f2ce4949a65bb4da4def2661",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/15_05ae8ee7fef17d7130455d3e84acdf83.mp4",
+            "title": "Donation Ask - Erika 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "f5bcd57915594bb18b568806a63e6572",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/15_c82e167751556ba7e6c304d92fb4f81b.mp4?1536710041693",
+            "title": "Donation Ask - Krista 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/15.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/270",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kvcr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "270",
+        "network": {
+          "inheritingFrom": "270",
+          "usesInheritance": false,
+          "currentOrgId": "270",
+          "tier1": {
+            "name": "KVCR-FM",
+            "id": "270",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf700f21734cee85cf2afb93b20466",
+        "brand": {
+          "band": "FM",
+          "call": "KVCR",
+          "frequency": "91.9",
+          "marketCity": "San Bernardino",
+          "marketState": "CA",
+          "name": "KVCR",
+          "tagline": "Learn something new every day."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b0d1690f5fea45e683d83aa5edf85b32",
+                "typeId": "10",
+                "href": "https://mp3.kvcr.org/live.mp3"
+              }
+            ],
+            "guid": "4fcf714307ce411e98f410b3a128c12d",
+            "title": "KVCR 91.9",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kvcrnews.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kvcr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kvcr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/270_a0e6abafc3e761c395c3f6fc6697b953.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KVCR.TVFM",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "b0d1690f5fea45e683d83aa5edf85b32",
+            "href": "https://mp3.kvcr.org/live.mp3",
+            "isPrimaryStream": true,
+            "title": "KVCR 91.9",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "c620227d32a245d3b61dc7fb0f754d42",
+            "href": "https://kvcr.drupal.publicbroadcasting.net/podcasts/750/rss.xml",
+            "title": "KVCaRts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3e99c3ed272f4069afa6ae68c30f39a2",
+            "href": "https://kvcr.drupal.publicbroadcasting.net/podcasts/1157/rss.xml",
+            "title": "American Parlor Songbook",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a0d7a9f31880460a9776f8e4b2ff5364",
+            "href": "https://kvcr.drupal.publicbroadcasting.net/podcasts/78033/rss.xml",
+            "title": "Inland Edition",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5c68e01756324b04b7229043d90c7ea4",
+            "href": "https://kvcr.drupal.publicbroadcasting.net/podcasts/48787/rss.xml",
+            "title": "Lifestyles with Lillian Vasquez",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "5ccf4d523585410a87ec4e6d4c41269e",
+            "href": "https://kvcr.secureallegiance.com/kvcr/WebModule/Donate.aspx?P=MAINWEBFM5&PAGETYPE=PLG&CHECK=nC%2fuh0qfpKlrAq10DqQssb1YhDw50SikSh2nq0qouhg%3d",
+            "title": "Membership",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/270.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/289",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "289",
+        "network": {
+          "name": "CapRadio News",
+          "inheritingFrom": "285",
+          "usesInheritance": true,
+          "currentOrgId": "289",
+          "tier1": {
+            "name": "Capital Public Radio",
+            "id": "285",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KXJZ-FM",
+                "id": "286",
+                "usesInheritance": false,
+                "tier3": [
+                  {
+                    "name": "KKTO-FM",
+                    "id": "287",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUOP-FM",
+                    "id": "289",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KQNC-FM",
+                    "id": "985",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "KXPR-FM",
+                "id": "288",
+                "usesInheritance": false,
+                "tier3": [
+                  {
+                    "name": "KXSR-FM",
+                    "id": "290",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KXJS-FM",
+                    "id": "999",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "285",
+          "recency": 240
+        },
+        "guid": "4fcf700f26bf4379ba1ac5c8383aaa6a",
+        "brand": {
+          "band": "FM",
+          "call": "KUOP",
+          "frequency": "91.3",
+          "marketCity": "Stockton",
+          "marketState": "CA",
+          "name": "CapRadio News",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d572c601e8254c238bd8e14905553c9c",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KXJZ.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "3d1332dc52d84307949d6321fbbd946e",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KXJZAAC.pls"
+              }
+            ],
+            "guid": "4fcf7156032c4c82a33c94c868ed4713",
+            "title": "CapRadio News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.capradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kxjz.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kxjz.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/285_1c7028d0b3bff228916d433732c7f72c.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "d572c601e8254c238bd8e14905553c9c",
+            "href": "https://playerservices.streamtheworld.com/pls/KXJZ.pls",
+            "isPrimaryStream": true,
+            "title": "CapRadio News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "3d1332dc52d84307949d6321fbbd946e",
+            "href": "https://playerservices.streamtheworld.com/pls/KXJZAAC.pls",
+            "isPrimaryStream": true,
+            "title": "CapRadio News",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "d0df791ef43e4ba4b90fc241d5fe8a70",
+            "href": "https://feeds.feedburner.com/KeysToTheHouse",
+            "title": "Keys To The House",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "69741ff43905473db46268cf67eed3ed",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioPoliticalJunkieGoesWestPodcast",
+            "title": "Political Junkie Goes West",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "16bae1d30c61496597e9383514085206",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioSoundAdvicePodcast",
+            "title": "Sound Advice",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f7eebc2cc9ea4f509eb45a56d0f1da02",
+            "href": "https://feeds.feedburner.com/capradioreads",
+            "title": "CapRadio Reads",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "69e00a99ec7d4ca8a93612ea11622c7f",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioInsightMusicPodcast",
+            "title": "Insight Music",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "20ab1c486fa0445eb34ba1ef93e79842",
+            "href": "https://feeds.feedburner.com/Yosemiteland",
+            "title": "TahoeLand",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e272f3ac13834981967df7a1d69e056c",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioHeyListenPodcast",
+            "title": "Hey, Listen!",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6ff3868cea1b4c979809e3f6bafb1b48",
+            "href": "https://feeds.feedburner.com/ALFTheDrive",
+            "title": "The Drive",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "21f37e638ae140d8906f1b1f363be708",
+            "href": "https://feeds.feedburner.com/RuralSuicide",
+            "title": "Rural Suicide",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a0029aedaf334f7c8d19ac28aae26f17",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioPolitifactPodcast",
+            "title": "PolitiFact California",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f0c1870dc29b43e19849c88978564183",
+            "href": "https://feeds.feedburner.com/threeninefive",
+            "title": "395",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "75994925246b4080b7721dbfe5381f95",
+            "href": "https://feeds.feedburner.com/CaliforniasNextGovernor",
+            "title": "California's Next Governor",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2fef68758d3d4adeb0524089594fa503",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioConPod",
+            "title": "ConPod",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cb2c7ca662f442ff9877210ed7ec548d",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioTheViewFromHerePodcast",
+            "title": "The View From Here",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "567210a071d8411682809e0ce3a9b0be",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioCapitolChatPodcast",
+            "title": "Capitol Chat",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8136a4509d0843f29d334671743c0cdf",
+            "href": "https://feeds.feedburner.com/CapitalPublicRadioInsightPodcast",
+            "title": "Insight With Beth Ruyak",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "fd1faaaa8aa34d13a7f615c790453477",
+            "href": "https://community.capradio.org/site/Donation2?df_id=1520&1520.donation=form1&mfc_pref=T&s_src=nprone",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "382384e391234a719f807b09ee6ef20a",
+            "href": "https://community.capradio.org/site/Donation2?df_id=1520&1520.donation=form1&mfc_pref=T&s_src=npr",
+            "title": "Support",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/273",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kvpr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "273",
+        "network": {
+          "name": "Valley Public Radio",
+          "inheritingFrom": "272",
+          "usesInheritance": true,
+          "currentOrgId": "273",
+          "tier1": {
+            "name": "Valley Public Radio",
+            "id": "272",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KVPR-FM",
+                "id": "273",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KPRX-FM",
+                    "id": "274",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700f222e46b1b15764adf29854c5",
+        "brand": {
+          "band": "FM",
+          "call": "KVPR",
+          "frequency": "89.3",
+          "marketCity": "Fresno",
+          "marketState": "CA",
+          "name": "Valley Public Radio",
+          "tagline": "Valley Public Radio - NPR News and classical music for Central California"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "166658e716d74f59807fff2816fdbad6",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVPRFM.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "787df4895f0f4f4cae8e4615c614b74f",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVPRFMAAC.aac"
+              }
+            ],
+            "guid": "4fcf714a21d14323a373a3e9944815fc",
+            "title": "Valley Public Radio - NPR News & Classical Music",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5f980e87634349b1b0337c7d99fcc691",
+                "typeId": "10",
+                "href": "https://17253.live.streamtheworld.com/KVPR_CLASSICAL.mp3"
+              }
+            ],
+            "guid": "9ced0d2b3d0b440f85b0921a2a4243c7",
+            "title": "KVPR Classical",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kvpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kvpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kvpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/272_0ad3be784fb64d149da8277058722cea.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/valleypublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "166658e716d74f59807fff2816fdbad6",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVPRFM.mp3",
+            "isPrimaryStream": true,
+            "title": "Valley Public Radio - NPR News & Classical Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5f980e87634349b1b0337c7d99fcc691",
+            "href": "https://17253.live.streamtheworld.com/KVPR_CLASSICAL.mp3",
+            "isPrimaryStream": false,
+            "title": "KVPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "787df4895f0f4f4cae8e4615c614b74f",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVPRFMAAC.aac",
+            "isPrimaryStream": true,
+            "title": "Valley Public Radio - NPR News & Classical Music",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "460df88b946744a49936e3bf47852c54",
+            "href": "https://kvpr.drupal.publicbroadcasting.net/podcasts/19/rss.xml",
+            "title": "Valley Edition",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "33f7f336d0be44c2bee2c61c2628876f",
+            "href": "https://kvpr.drupal.publicbroadcasting.net/podcasts/443/rss.xml",
+            "title": "Valley Public Radio News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "db22e8d630874c098113bdcf3f43019f",
+            "href": "https://kvpr.drupal.publicbroadcasting.net/podcasts/116196/rss.xml",
+            "title": "The Time of Our Life",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3e4b9c1b3863455e8bca8772183707ec",
+            "href": "https://kvpr.drupal.publicbroadcasting.net/podcasts/68061/rss.xml",
+            "title": "Outdoorsy",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "7be4934af6ed447397111b3f3a8c5fee",
+            "href": "https://donate.nprstations.org/kvpr/",
+            "title": "Support Valley Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "35ea1dc3cbda45909794603f2d77733d",
+            "href": "https://donate.nprstations.org/kvpr/",
+            "title": "Support Valley Public Radio",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "94517d03de0942bc93c9fe1d2d5bf1a6",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/272_3d352f1be9f087d97f6fa95677dca81f.mp4",
+            "title": "Donation Audio 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "edfe575151d846dc9ad7072ddda1a3d4",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/272_22f27ebc144ae2fd836a4c593db72a98.mp4",
+            "title": "Donation Audio 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/27",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kcbx-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "27",
+        "network": {
+          "inheritingFrom": "27",
+          "usesInheritance": false,
+          "currentOrgId": "27",
+          "tier1": {
+            "name": "KCBX-FM",
+            "id": "27",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KSBX-FM",
+                "id": "882",
+                "usesInheritance": true
+              },
+              {
+                "name": "KNBX-FM",
+                "id": "1127",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700e0563432d9fb41d500d95c722",
+        "brand": {
+          "band": "FM",
+          "call": "KCBX",
+          "frequency": "90.1",
+          "marketCity": "San Luis Obispo",
+          "marketState": "CA",
+          "name": "KCBX",
+          "tagline": "Central Coast Public Radio, serving San Luis Obispo, Santa Barbara and Monterey Counties"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5c1c3d32674845878659c316c7c2d522",
+                "typeId": "10",
+                "href": "https://kcbx-ice.streamguys1.com/hd2"
+              }
+            ],
+            "guid": "190046da1b7c4149865070dab9d6f07f",
+            "title": "KCBX HD2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "89b2cd7f03a14a6783099bcf96653b69",
+                "typeId": "10",
+                "href": "https://kcbx-ice.streamguys1.com/kcbx-hi"
+              }
+            ],
+            "guid": "146aae6222b00f34d6092094490f84df",
+            "title": "KCBX Live",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kcbx.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kcbx_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kcbx_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/27.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "5c1c3d32674845878659c316c7c2d522",
+            "href": "https://kcbx-ice.streamguys1.com/hd2",
+            "isPrimaryStream": false,
+            "title": "KCBX HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "89b2cd7f03a14a6783099bcf96653b69",
+            "href": "https://kcbx-ice.streamguys1.com/kcbx-hi",
+            "isPrimaryStream": true,
+            "title": "KCBX Live",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "c9dca7cb5418489381bce33d69a8d937",
+            "href": "https://kcbx.drupal.publicbroadcasting.net/podcasts/72/rss.xml",
+            "title": "Central Coast Voices",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "062aac7e418642a6b8e207ab3477ea9b",
+            "href": "https://kcbx.drupal.publicbroadcasting.net/podcasts/903/rss.xml",
+            "title": "A Conversation with the Reluctant Therapist",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "07b1a7779b1d43be81d65bbea4840373",
+            "href": "https://kcbx.drupal.publicbroadcasting.net/podcasts/39050/rss.xml",
+            "title": "Journeys of Discovery with Tom Wilmer",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3991368b651d49f4b9ec959ad9264853",
+            "href": "https://donate.nprstations.org/kcbx/support-kcbx",
+            "title": "Pledge Online",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "1e37b0e2853549839dd6bc31ebb4c6d1",
+            "href": "https://donate.nprstations.org/kcbx/support-kcbx",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "8d48ae50336a48c0a0c3aea8f88ba2de",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/27_65465e149a1a573ccb4ed3a13c8d3e20.mp4",
+            "title": "Greta's general spot",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/27.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/43",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kcho-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "43",
+        "network": {
+          "name": "North State Public Radio",
+          "inheritingFrom": "42",
+          "usesInheritance": true,
+          "currentOrgId": "43",
+          "tier1": {
+            "name": "Northstate Public Radio",
+            "id": "42",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KCHO-FM",
+                "id": "43",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KFPR-FM",
+                    "id": "44",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "42",
+          "recency": 360
+        },
+        "guid": "4fcf700e09be4b708ccb16ff0db54132",
+        "brand": {
+          "band": "FM",
+          "call": "KCHO",
+          "frequency": "91.7",
+          "marketCity": "Chico",
+          "marketState": "CA",
+          "name": "North State Public Radio",
+          "tagline": "North State Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a008fd800b4644a5890181957920850e",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KCHOFM_24.pls"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "61a355009d0e4768a97fe04ca7f6cc0d",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KCHOFM_64.pls"
+              }
+            ],
+            "guid": "4fcf714106dd48598c8a2fb99e88f4c3",
+            "title": "North State Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://mynspr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nspr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nspr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Northstate-Public-Radio/182009526083",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a008fd800b4644a5890181957920850e",
+            "href": "https://playerservices.streamtheworld.com/pls/KCHOFM_24.pls",
+            "isPrimaryStream": true,
+            "title": "North State Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "61a355009d0e4768a97fe04ca7f6cc0d",
+            "href": "https://playerservices.streamtheworld.com/pls/KCHOFM_64.pls",
+            "isPrimaryStream": true,
+            "title": "North State Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "8830caee61ad49098cafa55ab6169d09",
+            "href": "https://feedpress.me/cultivatingplace",
+            "title": "Cultivating Place: Conversations on Natural History and the Human Impulse to Garden",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0d4d02001b8047cc81e6a9cb986f0e25",
+            "href": "https://kcho.drupal.publicbroadcasting.net/podcasts/413/rss.xml",
+            "title": "Blue Dot",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cb29dfe144f845b39c9069ee4d4a063e",
+            "href": "https://kcho.drupal.publicbroadcasting.net/podcasts/831/rss.xml",
+            "title": "Nancy's Bookshelf",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "639bd7dabffc48c495ea654cb6f5447c",
+            "href": "https://kcho.drupal.publicbroadcasting.net/podcasts/66667/rss.xml",
+            "title": "After Paradise",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "defe0f22a8f540b0aeeccb2d5eb2b29b",
+            "href": "https://kcho.drupal.publicbroadcasting.net/podcasts/75590/rss.xml",
+            "title": "California Burning: Solutions To California's Wildfire Problem",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "21091b4a7ac746e582a6af3d02b9acc8",
+            "href": "https://pledge.mynspr.org/?NSPRCode=6202",
+            "title": "Pledge North State Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "70e876b9fa3b4ad09c0fee75f00cf6ec",
+            "href": "https://pledge.mynspr.org/",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/92",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf700e191b4c5cb5fce7b5a92203ad",
+        "brand": {
+          "band": "FM",
+          "call": "KHSU",
+          "frequency": "90.5",
+          "marketCity": "Arcata",
+          "marketState": "CA",
+          "name": "KHSU",
+          "tagline": "Diverse Public Radio"
+        },
+        "orgId": "92",
+        "network": {
+          "inheritingFrom": "92",
+          "usesInheritance": false,
+          "currentOrgId": "92",
+          "tier1": {
+            "name": "KHSU-FM",
+            "id": "92",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KHSR-FM",
+                "id": "93",
+                "usesInheritance": true
+              },
+              {
+                "name": "KHSG-FM",
+                "id": "1452",
+                "usesInheritance": true
+              },
+              {
+                "name": "KHSF-FM",
+                "id": "1453",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4f4fa4a2a03746909aa998025cfc886e",
+                "typeId": "10",
+                "href": "https://peace.streamguys1.com:6655/live"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "c1c1150ec19d4c3b97754294919c6d02",
+                "typeId": "13",
+                "href": "https://peace.streamguys1.com:6655/live-aac"
+              }
+            ],
+            "guid": "4fcf7145020e4bd398c971c018a107c7",
+            "title": "KHSU",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://khsu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/khsu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/khsu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/905KHSU",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/905KHSU ",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "4f4fa4a2a03746909aa998025cfc886e",
+            "href": "https://peace.streamguys1.com:6655/live",
+            "isPrimaryStream": true,
+            "title": "KHSU",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c1c1150ec19d4c3b97754294919c6d02",
+            "href": "https://peace.streamguys1.com:6655/live-aac",
+            "isPrimaryStream": true,
+            "title": "KHSU",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "5dd5fa203c8848d59a6baf0c428bb1b7",
+            "href": "http://khsu.org/give",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "d90e1a5f87cc40979dfda4c69942e066",
+            "href": "http://khsu.org/give",
+            "title": "YES, I support KHSU!",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/92.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/175",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/ksor-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "175",
+        "network": {
+          "name": "Jefferson Public Radio",
+          "inheritingFrom": "172",
+          "usesInheritance": true,
+          "currentOrgId": "175",
+          "tier1": {
+            "name": "Jefferson Public Radio",
+            "id": "172",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KSOR-FM",
+                "id": "173",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KNCA-FM",
+                    "id": "175",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSQ-FM",
+                    "id": "176",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNYR-FM",
+                    "id": "177",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSBA-FM",
+                    "id": "178",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSKF-FM",
+                    "id": "180",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSMF-FM",
+                    "id": "181",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSRG-FM",
+                    "id": "182",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSRS-FM",
+                    "id": "183",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KOOZ-FM",
+                    "id": "184",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNHT-FM",
+                    "id": "185",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLMF-FM",
+                    "id": "852",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLDD-FM",
+                    "id": "1114",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZBY-FM",
+                    "id": "1402",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KHEC-FM",
+                    "id": "1562",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KWCA-FM",
+                    "id": "1729",
+                    "usesInheritance": false
+                  }
+                ]
+              },
+              {
+                "name": "KSJK-AM",
+                "id": "179",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KAGI-AM",
+                    "id": "174",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTBR-AM",
+                    "id": "186",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPMO-AM",
+                    "id": "928",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSYC-AM",
+                    "id": "929",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KMJC-AM",
+                    "id": "930",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KJPR-AM",
+                    "id": "997",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNHM-FM",
+                    "id": "1050",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "KRVM-AM",
+                "id": "187",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "172",
+          "recency": 120
+        },
+        "guid": "4fcf700f09ce4d41821a05ecc77ff695",
+        "brand": {
+          "band": "FM",
+          "call": "KNCA",
+          "frequency": "89.7",
+          "marketCity": "Burney",
+          "marketState": "CA",
+          "name": "Jefferson Public Radio",
+          "tagline": "Jefferson Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e80b720728db4621be72b4c5bf030dd1",
+                "typeId": "10",
+                "href": "https://jpr-ice.streamguys1.com/jpr-news"
+              }
+            ],
+            "guid": "4fcf71381cbf41c7b0312cc8517117f0",
+            "title": "JPR News & Information",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7606dfbb98fa4eda954a4abe3fe348ef",
+                "typeId": "10",
+                "href": "https://jpr-ice.streamguys1.com/jpr-rhythm"
+              }
+            ],
+            "guid": "4fcf713901774fd986f64cf5ae171afd",
+            "title": "JPR Rhythm & News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "8e06e39b1cf647178f00fc136caa971e",
+                "typeId": "10",
+                "href": "https://jpr-ice.streamguys1.com/jpr-classics"
+              }
+            ],
+            "guid": "4fcf71380d8a43d2b44151cff2b09117",
+            "title": "JPR Classics & News",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.ijpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/jpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/jpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/172_5ce4cbcd6b8e04e4bbc53a948c621f15.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/172_b022bb8cddfe2ac25d8516653ccf4295.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/JeffersonPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e80b720728db4621be72b4c5bf030dd1",
+            "href": "https://jpr-ice.streamguys1.com/jpr-news",
+            "isPrimaryStream": false,
+            "title": "JPR News & Information",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7606dfbb98fa4eda954a4abe3fe348ef",
+            "href": "https://jpr-ice.streamguys1.com/jpr-rhythm",
+            "isPrimaryStream": true,
+            "title": "JPR Rhythm & News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "8e06e39b1cf647178f00fc136caa971e",
+            "href": "https://jpr-ice.streamguys1.com/jpr-classics",
+            "isPrimaryStream": false,
+            "title": "JPR Classics & News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "9f0473d946e14d07b6894c7644fff73b",
+            "href": "https://ksor.drupal.publicbroadcasting.net/podcasts/100/rss.xml",
+            "title": "JPR Live Sessions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "29503550ef7340278f08f78329091604",
+            "href": "https://ksor.drupal.publicbroadcasting.net/podcasts/168/rss.xml",
+            "title": "The Jefferson Exchange Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "94559b8b414c4c9aa5ea73c8a2031814",
+            "href": "https://ksor.drupal.publicbroadcasting.net/podcasts/123/rss.xml",
+            "title": "As It Was",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "5f01d2e7c9384c2f9a5937af346cc51f",
+            "href": "https://www.ijpr.org/thanks-your-support",
+            "title": "Donate to JPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "9df71725553e468682df3ab48796cf4f",
+            "href": "https://www.ijpr.org/thanks-your-support",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/288",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf700f267b43aaa25748a70f102128",
+        "brand": {
+          "band": "FM",
+          "call": "KXPR",
+          "frequency": "88.9",
+          "marketCity": "Sacramento",
+          "marketState": "CA",
+          "name": "CapRadio Music",
+          "tagline": ""
+        },
+        "orgId": "288",
+        "network": {
+          "inheritingFrom": "288",
+          "usesInheritance": false,
+          "currentOrgId": "288"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "394c71748d97477d847ac6bdb130766b",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KXPR.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "287fa224c4a14822b4ec8de44ad86827",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KXPRAAC.pls"
+              }
+            ],
+            "guid": "4fcf715607614dd78c143b86cf1bce22",
+            "title": "CapRadio Music",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "92700015a181464787dd85e768ef2e7c",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/JazzStream.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "2d8c24c1e0144ae691670b77587a103d",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/JazzStreamAAC.pls"
+              }
+            ],
+            "guid": "4fcf7156011840bbb1678f4daa780ce9",
+            "title": "CapRadio JazzStream",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2ffa6d5e129f4081b3c952a427ba3dd1",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/ClassicalStream.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "13515abe71a34bcd9ba3c9324c7b25ca",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/ClassicalStreamAAC.pls"
+              }
+            ],
+            "guid": "13f1aa85fe4027c477dbe71ea5ab902d",
+            "title": "CapRadio ClassicalStream ",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.capradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kxpr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kxpr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/288.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://facebook.com/capradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/CapRadioNews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "394c71748d97477d847ac6bdb130766b",
+            "href": "https://playerservices.streamtheworld.com/pls/KXPR.pls",
+            "isPrimaryStream": true,
+            "title": "CapRadio Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "92700015a181464787dd85e768ef2e7c",
+            "href": "https://playerservices.streamtheworld.com/pls/JazzStream.pls",
+            "isPrimaryStream": false,
+            "title": "CapRadio JazzStream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "2ffa6d5e129f4081b3c952a427ba3dd1",
+            "href": "https://playerservices.streamtheworld.com/pls/ClassicalStream.pls",
+            "isPrimaryStream": false,
+            "title": "CapRadio ClassicalStream ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "13515abe71a34bcd9ba3c9324c7b25ca",
+            "href": "https://playerservices.streamtheworld.com/pls/ClassicalStreamAAC.pls",
+            "isPrimaryStream": false,
+            "title": "CapRadio ClassicalStream ",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "287fa224c4a14822b4ec8de44ad86827",
+            "href": "https://playerservices.streamtheworld.com/pls/KXPRAAC.pls",
+            "isPrimaryStream": true,
+            "title": "CapRadio Music",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "2d8c24c1e0144ae691670b77587a103d",
+            "href": "https://playerservices.streamtheworld.com/pls/JazzStreamAAC.pls",
+            "isPrimaryStream": false,
+            "title": "CapRadio JazzStream",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b47bf12a977043259111658fcca0267d",
+            "href": "http://www.capradio.org/donate",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/288.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/292",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "292",
+        "network": {
+          "name": "Mendocino County Public Broadcasting",
+          "inheritingFrom": "291",
+          "usesInheritance": true,
+          "currentOrgId": "292",
+          "tier1": {
+            "name": "Mendocino County Public Broadcasting",
+            "id": "291",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KZYX-FM",
+                "id": "292",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KZYZ-FM",
+                    "id": "293",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "291",
+          "recency": 240
+        },
+        "guid": "4fcf7010008c47f8991b57f4a3c0d676",
+        "brand": {
+          "band": "FM",
+          "call": "KZYX",
+          "frequency": "90.7",
+          "marketCity": "Philo",
+          "marketState": "CA",
+          "name": "Mendocino County Public Broadcasting",
+          "tagline": "Mendocino County Public Broadcasting"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0c3eb8bdd1fe4be4aa72252bf41527e7",
+                "typeId": "10",
+                "href": "https://kzyx.mcn.org/kzyxliveapp"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "92173b42eae84b059273b0c96c112c2b",
+                "typeId": "10",
+                "href": "https://kzyx.mcn.org/kzyxliveD"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4efb4924e96747279cd09c3f870c4d7e",
+                "typeId": "10",
+                "href": "https://kzyx.mcn.org/kzyxlive"
+              }
+            ],
+            "guid": "6fd4e6d7d2334c71ae40d95ed18a7625",
+            "title": "KZYX and KZYZ Mendocino County Public Broadcasting, Listener Supported Community Radio.",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3987de7a70204ad588228327f54d6034",
+                "typeId": "10",
+                "href": "https://kzyx.mcn.org/kzyxlive"
+              }
+            ],
+            "guid": "1c614cd30b6a4fd083b72e18247ba189",
+            "title": "KZYX and KZYZ Mendocino County Public Broadcasting, Listener Supported Community Radio.",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kzyx.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kzyx.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kzyx.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KZYXZ-Mendocino-County-Public-Broadcasting/128158242288",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "0c3eb8bdd1fe4be4aa72252bf41527e7",
+            "href": "https://kzyx.mcn.org/kzyxliveapp",
+            "isPrimaryStream": false,
+            "title": "KZYX and KZYZ Mendocino County Public Broadcasting, Listener Supported Community Radio.",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "3987de7a70204ad588228327f54d6034",
+            "href": "https://kzyx.mcn.org/kzyxlive",
+            "isPrimaryStream": true,
+            "title": "KZYX and KZYZ Mendocino County Public Broadcasting, Listener Supported Community Radio.",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "92173b42eae84b059273b0c96c112c2b",
+            "href": "https://kzyx.mcn.org/kzyxliveD",
+            "isPrimaryStream": false,
+            "title": "KZYX and KZYZ Mendocino County Public Broadcasting, Listener Supported Community Radio.",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "4efb4924e96747279cd09c3f870c4d7e",
+            "href": "https://kzyx.mcn.org/kzyxlive",
+            "isPrimaryStream": false,
+            "title": "KZYX and KZYZ Mendocino County Public Broadcasting, Listener Supported Community Radio.",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2c31aeb4006945d4ab199325c77ab270",
+            "href": "https://kzyx.secureallegiance.com/kzyx/WebModule/Donate.aspx?P=WEBDEFAULT&PAGETYPE=PLG&CHECK=f/gKaPLij/aMU3qkouquZ71YhDw50SikSh2nq0qouhg%3D",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/59",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf700e0e3e4efba3b33a47ad2859b9",
+        "brand": {
+          "band": "FM",
+          "call": "KCSM",
+          "frequency": "91.1",
+          "marketCity": "San Mateo",
+          "marketState": "CA",
+          "name": "KCSM",
+          "tagline": "The Bay Area's Jazz Station"
+        },
+        "orgId": "59",
+        "network": {
+          "inheritingFrom": "59",
+          "usesInheritance": false,
+          "currentOrgId": "59",
+          "tier1": {
+            "name": "KCSM-FM",
+            "id": "59",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "81b241db2cbb45da9676adae6715378c",
+                "typeId": "10",
+                "href": "https://ice7.securenetsystems.net/KCSM2"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "65a0cd14cdfa4a128117a3748cd1d678",
+                "typeId": "13",
+                "href": "https://ice5.securenetsystems.net/KCSM"
+              }
+            ],
+            "guid": "4fcf71311f844f5bbdc239574305da97",
+            "title": "Jazz 91.1: The Bay Area's Jazz Station",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kcsm.org/jazz91/index.php",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kcsm_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/59.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KCSM-Jazz-91/193349651122",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "81b241db2cbb45da9676adae6715378c",
+            "href": "https://ice7.securenetsystems.net/KCSM2",
+            "isPrimaryStream": true,
+            "title": "Jazz 91.1: The Bay Area's Jazz Station",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "65a0cd14cdfa4a128117a3748cd1d678",
+            "href": "https://ice5.securenetsystems.net/KCSM",
+            "isPrimaryStream": true,
+            "title": "Jazz 91.1: The Bay Area's Jazz Station",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/59.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/153",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "153",
+        "network": {
+          "inheritingFrom": "153",
+          "usesInheritance": false,
+          "currentOrgId": "153",
+          "tier1": {
+            "name": "KRCB-FM",
+            "id": "153",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf700f03d44f528659ad3568c346df",
+        "brand": {
+          "band": "FM",
+          "call": "KRCB",
+          "frequency": "91.1",
+          "marketCity": "Santa Rosa",
+          "marketState": "CA",
+          "name": "KRCB-FM",
+          "tagline": "KRCB-FM Radio 91"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c97d2056025040f497f7f33bdb221b02",
+                "typeId": "10",
+                "href": "https://amber.streamguys1.com:5545/live"
+              }
+            ],
+            "guid": "3883ccabb8574cbf9e03c1a4ae2e9263",
+            "title": "KRCB-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://radio.krcb.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/krcb_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/krcb_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/153.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KRCB-Radio-91-FM/85205399264",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "c97d2056025040f497f7f33bdb221b02",
+            "href": "https://amber.streamguys1.com:5545/live",
+            "isPrimaryStream": true,
+            "title": "KRCB-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "45994c69413f4c28952be0280f4b03c7",
+            "href": "https://feeds.feedblitz.com/KRCBSonomaSpotlight",
+            "title": "Sonoma Spotlight",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "af69f533825b4816b277770500628fc3",
+            "href": "https://feeds.feedblitz.com/KRCBNorthBayReport",
+            "title": "North Bay Report",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f022bd35c284481fb5206ebd1c5686de",
+            "href": "https://feeds.feedblitz.com/krcbmouthful&x=1",
+            "title": "Mouthful - Smart Talk About Food, Wine & Farming in the North Bay and Beyond",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2620868f1a3648e6a0ce44244f7169a9",
+            "href": "https://feeds.feedblitz.com/wonderland_radio_hour",
+            "title": "Wonderland Radio Hour",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f2e9aa06e5214bd8bb64f2f4a4b1dbf3",
+            "href": "https://forthewild.podbean.com/feed.xml",
+            "title": "For The Wild",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6801a533bd114bacb214d73665433d3e",
+            "href": "https://feeds.feedblitz.com/KRCBANovelIdea",
+            "title": "A Novel Idea",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "df5b4298f4874f72accffcf7d02ee7f1",
+            "href": "https://feeds.feedblitz.com/KRCBWordByWord",
+            "title": "Word by Word",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "439fd43aba454bc783273879f88a0537",
+            "href": "https://feeds.feedblitz.com/KRCBSecondRowCenter",
+            "title": "Second Row Center",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e3d320fdba7b43238cf6b95b5a569c07",
+            "href": "https://feeds.feedblitz.com/living_downstream",
+            "title": "Living Downstream",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "48f62c0cc8f54545afe1c56cf0457ac9",
+            "href": "https://donate.nprstations.org/krcb/support-krcb-radio",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "ffcb6b39df924fb39143ea002b2e1761",
+            "href": "https://donate.nprstations.org/krcb/",
+            "title": "Donate to KRCB",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/153.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/290",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf700f2705498eace6129a7b176ed6",
+        "brand": {
+          "band": "FM",
+          "call": "KXSR",
+          "frequency": "91.7",
+          "marketCity": "Groveland",
+          "marketState": "CA",
+          "name": "CapRadio",
+          "tagline": "CapRadio Music "
+        },
+        "orgId": "290",
+        "network": {
+          "inheritingFrom": "290",
+          "usesInheritance": false,
+          "currentOrgId": "290"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2ffa6d5e129f4081b3c952a427ba3dd1",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/ClassicalStream.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "13515abe71a34bcd9ba3c9324c7b25ca",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/ClassicalStreamAAC.pls"
+              }
+            ],
+            "guid": "13f1aa85fe4027c477dbe71ea5ab902d",
+            "title": "CapRadio ClassicalStream ",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "92700015a181464787dd85e768ef2e7c",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/JazzStream.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "2d8c24c1e0144ae691670b77587a103d",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/JazzStreamAAC.pls"
+              }
+            ],
+            "guid": "4fcf7156011840bbb1678f4daa780ce9",
+            "title": "CapRadio JazzStream",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "394c71748d97477d847ac6bdb130766b",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KXPR.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "287fa224c4a14822b4ec8de44ad86827",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KXPRAAC.pls"
+              }
+            ],
+            "guid": "4fcf715607614dd78c143b86cf1bce22",
+            "title": "CapRadio Music",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.capradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kxsr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kxsr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/290.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "2ffa6d5e129f4081b3c952a427ba3dd1",
+            "href": "https://playerservices.streamtheworld.com/pls/ClassicalStream.pls",
+            "isPrimaryStream": false,
+            "title": "CapRadio ClassicalStream ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "92700015a181464787dd85e768ef2e7c",
+            "href": "https://playerservices.streamtheworld.com/pls/JazzStream.pls",
+            "isPrimaryStream": false,
+            "title": "CapRadio JazzStream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "394c71748d97477d847ac6bdb130766b",
+            "href": "https://playerservices.streamtheworld.com/pls/KXPR.pls",
+            "isPrimaryStream": true,
+            "title": "CapRadio Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "2d8c24c1e0144ae691670b77587a103d",
+            "href": "https://playerservices.streamtheworld.com/pls/JazzStreamAAC.pls",
+            "isPrimaryStream": false,
+            "title": "CapRadio JazzStream",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "13515abe71a34bcd9ba3c9324c7b25ca",
+            "href": "https://playerservices.streamtheworld.com/pls/ClassicalStreamAAC.pls",
+            "isPrimaryStream": false,
+            "title": "CapRadio ClassicalStream ",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "287fa224c4a14822b4ec8de44ad86827",
+            "href": "https://playerservices.streamtheworld.com/pls/KXPRAAC.pls",
+            "isPrimaryStream": true,
+            "title": "CapRadio Music",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "29b659bfc35c4145a4a8fffd755fb7f1",
+            "href": "https://www.capradio.org/donate",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/290.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1565",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "d432058ff32247c98d691ca5715ad9ce",
+        "brand": {
+          "band": "FM",
+          "call": "KERW",
+          "frequency": "101.3",
+          "marketCity": "Los Osos-Baywood Park",
+          "marketState": "CA",
+          "name": "KERW-FM",
+          "tagline": null
+        },
+        "orgId": "1565",
+        "network": {
+          "inheritingFrom": "1565",
+          "usesInheritance": false,
+          "currentOrgId": "1565"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/999",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701406cf4baca492ff68fdc50e6c",
+        "brand": {
+          "band": "FM",
+          "call": "KXJS",
+          "frequency": "88.7",
+          "marketCity": "Sutter",
+          "marketState": "CA",
+          "name": "CapRadio",
+          "tagline": "CapRadio Music"
+        },
+        "orgId": "999",
+        "network": {
+          "inheritingFrom": "999",
+          "usesInheritance": false,
+          "currentOrgId": "999"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2ffa6d5e129f4081b3c952a427ba3dd1",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/ClassicalStream.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "13515abe71a34bcd9ba3c9324c7b25ca",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/ClassicalStreamAAC.pls"
+              }
+            ],
+            "guid": "13f1aa85fe4027c477dbe71ea5ab902d",
+            "title": "CapRadio ClassicalStream ",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "92700015a181464787dd85e768ef2e7c",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/JazzStream.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "2d8c24c1e0144ae691670b77587a103d",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/JazzStreamAAC.pls"
+              }
+            ],
+            "guid": "4fcf7156011840bbb1678f4daa780ce9",
+            "title": "CapRadio JazzStream",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "394c71748d97477d847ac6bdb130766b",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KXPR.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "287fa224c4a14822b4ec8de44ad86827",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KXPRAAC.pls"
+              }
+            ],
+            "guid": "4fcf715607614dd78c143b86cf1bce22",
+            "title": "CapRadio Music",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.capradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kxjs_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kxjs_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/999.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "2ffa6d5e129f4081b3c952a427ba3dd1",
+            "href": "https://playerservices.streamtheworld.com/pls/ClassicalStream.pls",
+            "isPrimaryStream": false,
+            "title": "CapRadio ClassicalStream ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "92700015a181464787dd85e768ef2e7c",
+            "href": "https://playerservices.streamtheworld.com/pls/JazzStream.pls",
+            "isPrimaryStream": false,
+            "title": "CapRadio JazzStream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "394c71748d97477d847ac6bdb130766b",
+            "href": "https://playerservices.streamtheworld.com/pls/KXPR.pls",
+            "isPrimaryStream": true,
+            "title": "CapRadio Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "2d8c24c1e0144ae691670b77587a103d",
+            "href": "https://playerservices.streamtheworld.com/pls/JazzStreamAAC.pls",
+            "isPrimaryStream": false,
+            "title": "CapRadio JazzStream",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "13515abe71a34bcd9ba3c9324c7b25ca",
+            "href": "https://playerservices.streamtheworld.com/pls/ClassicalStreamAAC.pls",
+            "isPrimaryStream": false,
+            "title": "CapRadio ClassicalStream ",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "287fa224c4a14822b4ec8de44ad86827",
+            "href": "https://playerservices.streamtheworld.com/pls/KXPRAAC.pls",
+            "isPrimaryStream": true,
+            "title": "CapRadio Music",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "56d911ddfad340e28b1991cf6b8f3e7c",
+            "href": "https://www.capradio.org/donate",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/999.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

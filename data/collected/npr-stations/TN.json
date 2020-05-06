@@ -1,0 +1,1244 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "TN"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/578",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wpln-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "578",
+        "network": {
+          "name": "WPLN",
+          "inheritingFrom": "577",
+          "usesInheritance": true,
+          "currentOrgId": "578",
+          "tier1": {
+            "name": "Nashville Public Radio",
+            "id": "577",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WPLN-FM",
+                "id": "578",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WHRS-FM",
+                    "id": "579",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WPLN-AM",
+                    "id": "580",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WTML-FM",
+                    "id": "581",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WFCL-FM",
+                    "id": "1271",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "577",
+          "recency": 240
+        },
+        "guid": "4fcf701121f84960aba57dcba50a63b0",
+        "brand": {
+          "band": "FM",
+          "call": "WPLN",
+          "frequency": "90.3",
+          "marketCity": "Nashville",
+          "marketState": "TN",
+          "name": "WPLN",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "90125f6459d54afb93b14c015a11d7ed",
+                "typeId": "10",
+                "href": "https://wpln.streamguys1.com/wplnam.mp3"
+              }
+            ],
+            "guid": "4fcf71510a4e44738ee570f2c921b722",
+            "title": "WPLN-AM 1430",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b18e0465a2fe4f7c81bf1a0498be310d",
+                "typeId": "10",
+                "href": "https://wpln.streamguys1.com/wfclfm.mp3"
+              }
+            ],
+            "guid": "4fcf715108d0453d9c85548dd43fa321",
+            "title": "91Classical from Nashville Public Radio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c16db9b45f9f4db9a313008cd60415ea",
+                "typeId": "10",
+                "href": "https://wpln.streamguys1.com/wplnfm.mp3"
+              }
+            ],
+            "guid": "4fcf715104204c18b2469ede20e80435",
+            "title": "WPLN-FM 90.3",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://nashvillepublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wpln.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wpln.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/577_e510ab37a308800a3f7dc4c91f635fd9.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/NashvillePublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "90125f6459d54afb93b14c015a11d7ed",
+            "href": "https://wpln.streamguys1.com/wplnam.mp3",
+            "isPrimaryStream": false,
+            "title": "WPLN-AM 1430",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b18e0465a2fe4f7c81bf1a0498be310d",
+            "href": "https://wpln.streamguys1.com/wfclfm.mp3",
+            "isPrimaryStream": false,
+            "title": "91Classical from Nashville Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c16db9b45f9f4db9a313008cd60415ea",
+            "href": "https://wpln.streamguys1.com/wplnfm.mp3",
+            "isPrimaryStream": true,
+            "title": "WPLN-FM 90.3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "535fcb0f2b0f40e7a147d34467c1ed8e",
+            "href": "https://feeds.feedburner.com/tnpoliticspodcast",
+            "title": "The Tri-Star State",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "17d50c1e97984e798fe3586981faa878",
+            "href": "https://feeds.feedburner.com/versifypodcast",
+            "title": "Versify",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbc958e7f9a044c4a8c440cbc77fada3",
+            "href": "https://feeds.feedburner.com/curiousnashvillepodcast",
+            "title": "Curious Nashville",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "32a3441c97864e7ca1589ae7b12e837b",
+            "href": "https://feeds.feedburner.com/neighborspodcast",
+            "title": "Neighbors",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "93c665e065524706ae1dc9e6113698fe",
+            "href": "https://feeds.feedburner.com/thepromisepodcast",
+            "title": "The Promise",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e0f112484b40462ca1df290560ee5b0f",
+            "href": "https://feeds.feedburner.com/moversandthinkerspodcast",
+            "title": "Movers & Thinkers",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e95d32db72134841abc6855345b4faf1",
+            "href": "https://feeds.feedburner.com/keepingscorepod",
+            "title": "Classically Speaking",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "821513cbd3c242979756b9a7b046536b",
+            "href": "https://f.prxu.org/276/feed-rss.xml",
+            "title": "WPLN News Investigates: Deadly Force",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "cd18c6a046384d80923dd39fa839210b",
+            "href": "https://wpln.secureallegiance.com/wpln/WebModule/Donate.aspx?P=NPRLINK&PAGETYPE=PLG&CHECK=rJMDfT6z%2b53G5qUEQyU6G%2bzWDeZ%2beA1M",
+            "title": "Make a Donation",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "3da6febf1d5145a1a0016a5d25e36197",
+            "href": "https://wpln.secureallegiance.com/wpln/WebModule/Donate.aspx?P=NPRLINK&PAGETYPE=PLG&CHECK=rJMDfT6z%2b53G5qUEQyU6G%2bzWDeZ%2beA1M",
+            "title": "Contribute",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "7788dad896ea42d094222e844b63e52b",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/577_c60e6c2759a0ffd196f3c9a71ec04547.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/669",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wuot-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "669",
+        "network": {
+          "inheritingFrom": "669",
+          "usesInheritance": false,
+          "currentOrgId": "669",
+          "tier1": {
+            "name": "WUOT-FM",
+            "id": "669",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf7012101c4945bf39ee4433aba508",
+        "brand": {
+          "band": "FM",
+          "call": "WUOT",
+          "frequency": "91.9",
+          "marketCity": "Knoxville",
+          "marketState": "TN",
+          "name": "WUOT",
+          "tagline": "Listener-Supported WUOT 91.9 FM, Knoxville"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1e5e6dcb41ee43d48e08740dbe8c9fc0",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUOTFM.mp3"
+              }
+            ],
+            "guid": "4fcf714322e74aeaac07ed0eaa688aec",
+            "title": "WUOT-FM ",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "27ae3940d7fe4de394fd3ccf5c6ce531",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUOTHD2.mp3"
+              }
+            ],
+            "guid": "4fcf714325df44678e840d60dc53d064",
+            "title": "WUOT-2 HD2 ",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wuot.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wuot_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wuot_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WUOT-919-FM-Knoxville/137172092988710",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/WUOTFM",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1e5e6dcb41ee43d48e08740dbe8c9fc0",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUOTFM.mp3",
+            "isPrimaryStream": true,
+            "title": "WUOT-FM ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "27ae3940d7fe4de394fd3ccf5c6ce531",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUOTHD2.mp3",
+            "isPrimaryStream": false,
+            "title": "WUOT-2 HD2 ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "2e3cc8b3441b43e286cc4a547b7d2bbf",
+            "href": "https://wuot.drupal.publicbroadcasting.net/mt/",
+            "title": "WUOT Podcasts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3da8a23f9e9645b3a7f3d3f071888778",
+            "href": "https://www.wuot.org/",
+            "title": "Support ",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/669.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/672",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wutc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "672",
+        "network": {
+          "inheritingFrom": "672",
+          "usesInheritance": false,
+          "currentOrgId": "672",
+          "tier1": {
+            "name": "WUTC-FM",
+            "id": "672",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf701210e6447ab9c886b0880114eb",
+        "brand": {
+          "band": "FM",
+          "call": "WUTC",
+          "frequency": "88.1",
+          "marketCity": "Chattanooga",
+          "marketState": "TN",
+          "name": "WUTC",
+          "tagline": "Chattanooga's NPR station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d646d0aeed5942ea9473e94b934a1dea",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WUTCHD2.pls"
+              }
+            ],
+            "guid": "5bc54058466a4e31a173fbcd4ab9980e",
+            "title": "WUTC HD-2: Genre Free Radio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f2fc2c3e58dd47e99ae40e4de7b8f88b",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WUTCFM.pls"
+              }
+            ],
+            "guid": "4fcf715b0d7b4fa2a581e072f2aa38eb",
+            "title": "WUTC-FM 88.1",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wutc.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wutc_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wutc_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/672_897e878ddd91fa3c64c63fcf6a9a94d3.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WUTC-Around-and-About/134928766540494",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "d646d0aeed5942ea9473e94b934a1dea",
+            "href": "https://playerservices.streamtheworld.com/pls/WUTCHD2.pls",
+            "isPrimaryStream": false,
+            "title": "WUTC HD-2: Genre Free Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f2fc2c3e58dd47e99ae40e4de7b8f88b",
+            "href": "https://playerservices.streamtheworld.com/pls/WUTCFM.pls",
+            "isPrimaryStream": true,
+            "title": "WUTC-FM 88.1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "2cfb27da3b754c738ab6e860d3f10743",
+            "href": "https://wutc.drupal.publicbroadcasting.net/feeds/term/1633/rss.xml",
+            "title": "Scenic Roots",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "18a356309dcc40e9947184def896b474",
+            "href": "https://wutc.drupal.publicbroadcasting.net/feeds/term/1632/rss.xml",
+            "title": "Tennessee Valley StoryCorps",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6941b72839734da2807e9c5d608cc875",
+            "href": "https://wutc.drupal.publicbroadcasting.net/podcasts/103100/rss.xml",
+            "title": "Stories from the Big 9",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "767c833b7a08473db0ee9f1779fad82c",
+            "href": "http://wutc.org/membership-wutc",
+            "title": "Support WUTC",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "a9b22bbd686043d28b82d94b9049778f",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/672_61c49bd2a3f16f0700cefb97278f3087.mp4",
+            "title": "Ray Donation",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/672.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/467",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wkno-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "467",
+        "network": {
+          "inheritingFrom": "467",
+          "usesInheritance": false,
+          "currentOrgId": "467",
+          "tier1": {
+            "name": "WKNO-FM",
+            "id": "467",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WKNP-FM",
+                "id": "469",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf7011079646af9f33d025a0b0e641",
+        "brand": {
+          "band": "FM",
+          "call": "WKNO",
+          "frequency": "91.1",
+          "marketCity": "Memphis",
+          "marketState": "TN",
+          "name": "WKNO",
+          "tagline": "NPR for the Mid-South"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b40e2220ce4547ff99bf1f06fbf147af",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WKNOFM.pls"
+              }
+            ],
+            "guid": "4fcf71650bae4c1fb677935f91950b5c",
+            "title": "WKNO-FM",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "90be5a8640af459984e8c931168a1a0c",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WKNOHD2.pls"
+              }
+            ],
+            "guid": "4fcf71650e33452684c002c5be28a03b",
+            "title": "WKNO-FM HD2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c737124345ea4cdcb6850d9a626d6f25",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WFNOBBCWS.pls"
+              }
+            ],
+            "guid": "35fc64fabb704132bd4b18ef743b251b",
+            "title": "WKNO-FM HD3",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wknofm.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wkno_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wkno_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/467_85b88b8ef1ae25158cee88d79f60230f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/467_0ebb108fc26bee1a65626ee8d93e22bd.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WKNOFM",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wknofm",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "b40e2220ce4547ff99bf1f06fbf147af",
+            "href": "https://playerservices.streamtheworld.com/pls/WKNOFM.pls",
+            "isPrimaryStream": true,
+            "title": "WKNO-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "90be5a8640af459984e8c931168a1a0c",
+            "href": "https://playerservices.streamtheworld.com/pls/WKNOHD2.pls",
+            "isPrimaryStream": false,
+            "title": "WKNO-FM HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c737124345ea4cdcb6850d9a626d6f25",
+            "href": "https://playerservices.streamtheworld.com/pls/WFNOBBCWS.pls",
+            "isPrimaryStream": false,
+            "title": "WKNO-FM HD3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "869751d8e8e14773b9477d9fd06301b3",
+            "href": "https://afg.secureallegiance.com/wkno/WebModule/Donate.aspx?P=WKNPFMTEMP&PAGETYPE=PLG&CHECK=%2bYFvRJtAuxA%2foyT4gKYANr1YhDw50SikSh2nq0qouhg%3d",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "40ce05ec6f65455b9a97e222fe9f16f8",
+            "href": "https://secure.etransfer.com/EFT/Custom/wkno/donation480/donation1.cfm?d2org=WKNOFM&d2tool=donate",
+            "title": "Support",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "98232d58142447c0831acb7cf7dc2bd3",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/467_4fc785092c53e0cf1a899b3b1c2860d2.mp4",
+            "title": "donate 1 test",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/467.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/374",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wets-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "374",
+        "network": {
+          "inheritingFrom": "374",
+          "usesInheritance": false,
+          "currentOrgId": "374",
+          "tier1": {
+            "name": "WETS-FM",
+            "id": "374",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf70101497431ea280c9bf59a6d6ee",
+        "brand": {
+          "band": "FM",
+          "call": "WETS",
+          "frequency": "89.5",
+          "marketCity": "Johnson City",
+          "marketState": "TN",
+          "name": "WETS",
+          "tagline": "Public Radio for East Tennessee, Southwest Virginia & Western North Carolina"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "968fec834d064239be61c346cd6ec555",
+                "typeId": "10",
+                "href": "https://wets-fm.streamguys1.com/live-3"
+              }
+            ],
+            "guid": "4fcf713507aa4f3fb811bd6dd14180d8",
+            "title": "WETS-FM HD3 Classical",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a90d85aff2d7414799c8967b25f6a152",
+                "typeId": "10",
+                "href": "https://wets-fm.streamguys1.com/live-2"
+              }
+            ],
+            "guid": "4fcf7135064f4ea8b2aee6ef2b99e997",
+            "title": "WETS-FM HD2 Americana",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e59c021ac09d4783af3b162153a64e59",
+                "typeId": "10",
+                "href": "https://wets-fm.streamguys1.com/live-1"
+              }
+            ],
+            "guid": "4fcf713503bb4461bb34f8dc00a1d527",
+            "title": "WETS-FM News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wets.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wets_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wets_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/374.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WETS-FM-895-FM-Fan-Page/255316886815",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "968fec834d064239be61c346cd6ec555",
+            "href": "https://wets-fm.streamguys1.com/live-3",
+            "isPrimaryStream": false,
+            "title": "WETS-FM HD3 Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a90d85aff2d7414799c8967b25f6a152",
+            "href": "https://wets-fm.streamguys1.com/live-2",
+            "isPrimaryStream": false,
+            "title": "WETS-FM HD2 Americana",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "e59c021ac09d4783af3b162153a64e59",
+            "href": "https://wets-fm.streamguys1.com/live-1",
+            "isPrimaryStream": true,
+            "title": "WETS-FM News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b30c2c437b79429b96aa4a6f10176d8a",
+            "href": "https://www.etsu.edu/wets/pledge.php",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "23fe06f5816f443bba0e53578cb62081",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/374_f2b5785dea7b92feefd6b5d1cbba3330.mp4",
+            "title": "NPR One Pledge Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/374.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/508",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Americana",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701111fa4ae4b8f322e21848622d",
+        "brand": {
+          "band": "FM",
+          "call": "WMOT",
+          "frequency": "89.5",
+          "marketCity": "Murfreesboro",
+          "marketState": "TN",
+          "name": "WMOT",
+          "tagline": "WMOT Roots Radio"
+        },
+        "orgId": "508",
+        "network": {
+          "inheritingFrom": "508",
+          "usesInheritance": false,
+          "currentOrgId": "508",
+          "tier1": {
+            "name": "WMOT-FM",
+            "id": "508",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f3b9783d34784a68b7cb33ac93900be6",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WMOTFM.pls"
+              }
+            ],
+            "guid": "4fcf716520a84fa994d5a8bf21dfb6d7",
+            "title": "WMOT-FM 89.5",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "263880eea61b4b5ca69ccd67a76fe10f",
+                "typeId": "10",
+                "href": "https://ice64.securenetsystems.net/WMOT?playSessionID=2B37DC13-9B5D-E875-0914C402CDA3EAF6"
+              }
+            ],
+            "guid": "5186ec438e514a219f99e26e4f014871",
+            "title": "MTSU Jazz Network",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wmot.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wmot_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wmot_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/508.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/people/Wmot-Station/1656167826",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/895fmwmot",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f3b9783d34784a68b7cb33ac93900be6",
+            "href": "https://playerservices.streamtheworld.com/pls/WMOTFM.pls",
+            "isPrimaryStream": true,
+            "title": "WMOT-FM 89.5",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "263880eea61b4b5ca69ccd67a76fe10f",
+            "href": "https://ice64.securenetsystems.net/WMOT?playSessionID=2B37DC13-9B5D-E875-0914C402CDA3EAF6",
+            "isPrimaryStream": false,
+            "title": "MTSU Jazz Network",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "dd7aa761c84943db84a16921449eb730",
+            "href": "https://donate.nprstations.org/wmot/clone-wmot-annual-option-1?_ga=1.118721025.908547214.1452537373",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "514020e0c00148308c1cd58525851e31",
+            "href": "https://donate.nprstations.org/wmot/?_ga=1.193324709.908547214.1452537373",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/508.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1271",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "1271",
+        "network": {
+          "inheritingFrom": "1271",
+          "usesInheritance": false,
+          "currentOrgId": "1271"
+        },
+        "guid": "4fcf70150c3944b3b5509ef4dbaf9b0a",
+        "brand": {
+          "band": "FM",
+          "call": "WFCL",
+          "frequency": "91.1",
+          "marketCity": "Nashville",
+          "marketState": "TN",
+          "name": "91Classical",
+          "tagline": "Nashville's home for classical music and the arts"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c16db9b45f9f4db9a313008cd60415ea",
+                "typeId": "10",
+                "href": "https://wpln.streamguys1.com/wplnfm.mp3"
+              }
+            ],
+            "guid": "4fcf715104204c18b2469ede20e80435",
+            "title": "WPLN-FM 90.3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "90125f6459d54afb93b14c015a11d7ed",
+                "typeId": "10",
+                "href": "https://wpln.streamguys1.com/wplnam.mp3"
+              }
+            ],
+            "guid": "4fcf71510a4e44738ee570f2c921b722",
+            "title": "WPLN-AM 1430",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b18e0465a2fe4f7c81bf1a0498be310d",
+                "typeId": "10",
+                "href": "https://wpln.streamguys1.com/wfclfm.mp3"
+              }
+            ],
+            "guid": "4fcf715108d0453d9c85548dd43fa321",
+            "title": "91Classical from Nashville Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nashvillepublicradio.org/topic/91classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wfcl_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wfcl_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1271.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "c16db9b45f9f4db9a313008cd60415ea",
+            "href": "https://wpln.streamguys1.com/wplnfm.mp3",
+            "isPrimaryStream": false,
+            "title": "WPLN-FM 90.3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "90125f6459d54afb93b14c015a11d7ed",
+            "href": "https://wpln.streamguys1.com/wplnam.mp3",
+            "isPrimaryStream": false,
+            "title": "WPLN-AM 1430",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b18e0465a2fe4f7c81bf1a0498be310d",
+            "href": "https://wpln.streamguys1.com/wfclfm.mp3",
+            "isPrimaryStream": true,
+            "title": "91Classical from Nashville Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "17d50c1e97984e798fe3586981faa878",
+            "href": "https://feeds.feedburner.com/versifypodcast",
+            "title": "Versify",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "32a3441c97864e7ca1589ae7b12e837b",
+            "href": "https://feeds.feedburner.com/neighborspodcast",
+            "title": "Neighbors",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbc958e7f9a044c4a8c440cbc77fada3",
+            "href": "https://feeds.feedburner.com/curiousnashvillepodcast",
+            "title": "Curious Nashville",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "93c665e065524706ae1dc9e6113698fe",
+            "href": "https://feeds.feedburner.com/thepromisepodcast",
+            "title": "The Promise",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "535fcb0f2b0f40e7a147d34467c1ed8e",
+            "href": "https://feeds.feedburner.com/tnpoliticspodcast",
+            "title": "The Tri-Star State",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e0f112484b40462ca1df290560ee5b0f",
+            "href": "https://feeds.feedburner.com/moversandthinkerspodcast",
+            "title": "Movers & Thinkers",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e95d32db72134841abc6855345b4faf1",
+            "href": "https://feeds.feedburner.com/keepingscorepod",
+            "title": "Classically Speaking",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "686b4af88f2e4b7da29d70f3d098c4fc",
+            "href": "https://wpln.secureallegiance.com/wpln/WebModule/Donate.aspx?P=2018PLP&PAGETYPE=PLG&CHECK=pfDvFtF4GrAsQ0aMi8KUZezWDeZ%2beA1M",
+            "title": "Make a Donation",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "c5e8e8cce06e42d9b0c83b3a0ac0656f",
+            "href": "https://wpln.secureallegiance.com/wpln/WebModule/Donate.aspx?P=2018PLP&PAGETYPE=PLG&CHECK=pfDvFtF4GrAsQ0aMi8KUZezWDeZ%2beA1M",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1271.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

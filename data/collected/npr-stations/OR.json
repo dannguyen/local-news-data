@@ -1,0 +1,1214 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "OR"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/135",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kopb-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "135",
+        "network": {
+          "name": "Oregon Public Broadcasting",
+          "inheritingFrom": "134",
+          "usesInheritance": true,
+          "currentOrgId": "135",
+          "tier1": {
+            "name": "Oregon Public Broadcasting",
+            "id": "134",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KOPB-FM",
+                "id": "135",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KOAC-AM",
+                    "id": "132",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KOAB-FM",
+                    "id": "136",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KRBM-FM",
+                    "id": "137",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTMK-FM",
+                    "id": "1045",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTVR-FM",
+                    "id": "1046",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KOAP-FM",
+                    "id": "1047",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KOBK-FM",
+                    "id": "1048",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KOPB-AM",
+                    "id": "1052",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KMHD-FM",
+                    "id": "1117",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KHRV-FM",
+                    "id": "1203",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KETP-FM",
+                    "id": "1204",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KOAC-FM",
+                    "id": "1205",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KOTD-FM",
+                    "id": "1276",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KOGL-FM",
+                    "id": "1277",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KOJD-FM",
+                    "id": "1278",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KOBN-FM",
+                    "id": "1413",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "134",
+          "recency": 120
+        },
+        "guid": "4fcf700e2561433e89ecbad1e6402fe1",
+        "brand": {
+          "band": "FM",
+          "call": "KOPB",
+          "frequency": "91.5",
+          "marketCity": "Portland",
+          "marketState": "OR",
+          "name": "Oregon Public Broadcasting",
+          "tagline": "News. Arts. Life."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e9f46d01e7184879a7e9021920a0dcf3",
+                "typeId": "10",
+                "href": "https://stream5.opb.org/opbmusic_player.mp3"
+              }
+            ],
+            "guid": "4fcf71441d2048778f6f9d9004fc3496",
+            "title": "opbmusic",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1dc09e1006ee4300a890dc755ffabfd4",
+                "typeId": "10",
+                "href": "https://stream5.opb.org/radio_player.mp3"
+              }
+            ],
+            "guid": "4fcf714411d449d9975fb2c35f1bf61c",
+            "title": "Oregon Public Broadcasting",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.opb.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/opb.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/opb.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/134_781d58f0c57658ac7d2bbac60278906a.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/134_c166954158227ac883b8885702f6d461.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/134_b4b01133194f6f333d9cce5f0ede4037.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/134_ea0fd91fe0c9d054b6ff5218dff3e632.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/134.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/oregonpublicbroadcasting",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/opb",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e9f46d01e7184879a7e9021920a0dcf3",
+            "href": "https://stream5.opb.org/opbmusic_player.mp3",
+            "isPrimaryStream": false,
+            "title": "opbmusic",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1dc09e1006ee4300a890dc755ffabfd4",
+            "href": "https://stream5.opb.org/radio_player.mp3",
+            "isPrimaryStream": true,
+            "title": "Oregon Public Broadcasting",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "a1f36a3910c141b7894aba7c73f5325d",
+            "href": "https://podcasts.opb.org/rss/bundyville",
+            "title": "Bundyville",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6b0c0e82d2204ec8a640ca500ee6bbff",
+            "href": "https://podcasts.opb.org/rss/tol",
+            "title": "Think Out Loud",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "180867667ad340d3975bfe1165c73348",
+            "href": "https://podcasts.opb.org/rss/thislandisourland",
+            "title": "OPB's This Land Is Our Land",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a45425c565bc46e6a05ef70f454749c6",
+            "href": "https://podcasts.opb.org/rss/sow",
+            "title": "State of Wonder",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c4c29537b1c54688abb8d76e7216170e",
+            "href": "https://podcasts.opb.org/rss/thefourtop",
+            "title": "The Four Top",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ab3225adddf94a579466e4466d888259",
+            "href": "https://podcasts.opb.org/rss/classof2025",
+            "title": "OPB's Class of 2025",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4401662b3b08473b8f76a70878c4dd0e",
+            "href": "https://podcasts.opb.org/rss/clasedel2025",
+            "title": "OPB's Clase del 2025",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "45953649fac74be4a996af3a6399c628",
+            "href": "https://podcasts.opb.org/rss/politicsnow",
+            "title": "OPB Politics Now",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "fb95b198eee343478115929990259908",
+            "href": "https://give.opb.org/opb/?s=OAMEGNW000703009&utm_source=npr&utm_medium=npr&utm_campaign=npr",
+            "title": "Support OPB",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "3c6d5f2bd3c34a73a4c7c11c8a356213",
+            "href": "https://give.opb.org/opb/?s=OAMEGNW000703009&utm_source=npr&utm_medium=nprone&utm_campaign=nprone",
+            "title": "Contribute now",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "ca509588f01d4291a293650c21cdf159",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/134_2b079a5fd22266a0d867c985b0f0900a.mp4",
+            "title": "Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/96",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/klcc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "96",
+        "network": {
+          "inheritingFrom": "96",
+          "usesInheritance": false,
+          "currentOrgId": "96",
+          "tier1": {
+            "name": "KLCC-FM",
+            "id": "96",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KLCO-FM",
+                "id": "97",
+                "usesInheritance": true
+              },
+              {
+                "name": "KLFO-FM",
+                "id": "98",
+                "usesInheritance": true
+              },
+              {
+                "name": "KLFR-FM",
+                "id": "99",
+                "usesInheritance": true
+              },
+              {
+                "name": "KMPQ-FM",
+                "id": "947",
+                "usesInheritance": true
+              },
+              {
+                "name": "KLBR-FM",
+                "id": "1021",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "96",
+          "recency": 360
+        },
+        "guid": "4fcf700e1a4a4a2faf133fde7bf6a307",
+        "brand": {
+          "band": "FM",
+          "call": "KLCC",
+          "frequency": "89.7",
+          "marketCity": "Eugene",
+          "marketState": "OR",
+          "name": "KLCC",
+          "tagline": "NPR for Oregonians"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "83c662e5ebac4e6eaa45bb542ab62e94",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5025/klcc.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "608d1efe5d30409bad4a2e81b060b7e3",
+                "typeId": "13",
+                "href": "https://tektite.streamguys1.com:5025/klcc.aac"
+              }
+            ],
+            "guid": "4fcf713726504af09451e48debd7297c",
+            "title": "KLCC - NPR for Oregonians",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://klcc.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/klcc_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/klcc_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/96.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KLCCEugeneOR",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/KLCCEugeneOR",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "83c662e5ebac4e6eaa45bb542ab62e94",
+            "href": "https://tektite.streamguys1.com:5025/klcc.mp3",
+            "isPrimaryStream": true,
+            "title": "KLCC - NPR for Oregonians",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "608d1efe5d30409bad4a2e81b060b7e3",
+            "href": "https://tektite.streamguys1.com:5025/klcc.aac",
+            "isPrimaryStream": true,
+            "title": "KLCC - NPR for Oregonians",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "98c458ce3b7b40deb7bc322604decfe7",
+            "href": "https://klcc.drupal.publicbroadcasting.net/feeds/104113/rss.xml",
+            "title": "Northwest Passage Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "bad5b83fd33048cea4abd53a47bf0c04",
+            "href": "https://donate.nprstations.org/klcc/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "2bc899043d5f47f4bde579ade9f92c98",
+            "href": "https://donate.nprstations.org/klcc/",
+            "title": "Donate Now",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/96.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/181",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/ksor-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "181",
+        "network": {
+          "name": "Jefferson Public Radio",
+          "inheritingFrom": "172",
+          "usesInheritance": true,
+          "currentOrgId": "181",
+          "tier1": {
+            "name": "Jefferson Public Radio",
+            "id": "172",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KSOR-FM",
+                "id": "173",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KNCA-FM",
+                    "id": "175",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSQ-FM",
+                    "id": "176",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNYR-FM",
+                    "id": "177",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSBA-FM",
+                    "id": "178",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSKF-FM",
+                    "id": "180",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSMF-FM",
+                    "id": "181",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSRG-FM",
+                    "id": "182",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSRS-FM",
+                    "id": "183",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KOOZ-FM",
+                    "id": "184",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNHT-FM",
+                    "id": "185",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLMF-FM",
+                    "id": "852",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLDD-FM",
+                    "id": "1114",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZBY-FM",
+                    "id": "1402",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KHEC-FM",
+                    "id": "1562",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KWCA-FM",
+                    "id": "1729",
+                    "usesInheritance": false
+                  }
+                ]
+              },
+              {
+                "name": "KSJK-AM",
+                "id": "179",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KAGI-AM",
+                    "id": "174",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTBR-AM",
+                    "id": "186",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPMO-AM",
+                    "id": "928",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSYC-AM",
+                    "id": "929",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KMJC-AM",
+                    "id": "930",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KJPR-AM",
+                    "id": "997",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNHM-FM",
+                    "id": "1050",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "KRVM-AM",
+                "id": "187",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "172",
+          "recency": 120
+        },
+        "guid": "4fcf700f0b7f4c599bf894ee5a75534a",
+        "brand": {
+          "band": "FM",
+          "call": "KSMF",
+          "frequency": "89.1",
+          "marketCity": "Ashland",
+          "marketState": "OR",
+          "name": "Jefferson Public Radio",
+          "tagline": "Jefferson Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e80b720728db4621be72b4c5bf030dd1",
+                "typeId": "10",
+                "href": "https://jpr-ice.streamguys1.com/jpr-news"
+              }
+            ],
+            "guid": "4fcf71381cbf41c7b0312cc8517117f0",
+            "title": "JPR News & Information",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7606dfbb98fa4eda954a4abe3fe348ef",
+                "typeId": "10",
+                "href": "https://jpr-ice.streamguys1.com/jpr-rhythm"
+              }
+            ],
+            "guid": "4fcf713901774fd986f64cf5ae171afd",
+            "title": "JPR Rhythm & News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "8e06e39b1cf647178f00fc136caa971e",
+                "typeId": "10",
+                "href": "https://jpr-ice.streamguys1.com/jpr-classics"
+              }
+            ],
+            "guid": "4fcf71380d8a43d2b44151cff2b09117",
+            "title": "JPR Classics & News",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.ijpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/jpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/jpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/172_5ce4cbcd6b8e04e4bbc53a948c621f15.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/172_b022bb8cddfe2ac25d8516653ccf4295.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/JeffersonPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e80b720728db4621be72b4c5bf030dd1",
+            "href": "https://jpr-ice.streamguys1.com/jpr-news",
+            "isPrimaryStream": false,
+            "title": "JPR News & Information",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7606dfbb98fa4eda954a4abe3fe348ef",
+            "href": "https://jpr-ice.streamguys1.com/jpr-rhythm",
+            "isPrimaryStream": true,
+            "title": "JPR Rhythm & News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "8e06e39b1cf647178f00fc136caa971e",
+            "href": "https://jpr-ice.streamguys1.com/jpr-classics",
+            "isPrimaryStream": false,
+            "title": "JPR Classics & News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "9f0473d946e14d07b6894c7644fff73b",
+            "href": "https://ksor.drupal.publicbroadcasting.net/podcasts/100/rss.xml",
+            "title": "JPR Live Sessions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "29503550ef7340278f08f78329091604",
+            "href": "https://ksor.drupal.publicbroadcasting.net/podcasts/168/rss.xml",
+            "title": "The Jefferson Exchange Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "94559b8b414c4c9aa5ea73c8a2031814",
+            "href": "https://ksor.drupal.publicbroadcasting.net/podcasts/123/rss.xml",
+            "title": "As It Was",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "5f01d2e7c9384c2f9a5937af346cc51f",
+            "href": "https://www.ijpr.org/thanks-your-support",
+            "title": "Donate to JPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "9df71725553e468682df3ab48796cf4f",
+            "href": "https://www.ijpr.org/thanks-your-support",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/756",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf701223594a05924c9e7bf085a9af",
+        "brand": {
+          "band": "FM",
+          "call": "KMUN",
+          "frequency": "91.9",
+          "marketCity": "Astoria",
+          "marketState": "OR",
+          "name": "Coast Community Radio",
+          "tagline": "Serving the Lower Columbia Pacific region - Local & Independent since 1983"
+        },
+        "orgId": "756",
+        "network": {
+          "inheritingFrom": "756",
+          "usesInheritance": false,
+          "currentOrgId": "756",
+          "tier1": {
+            "name": "KMUN-FM",
+            "id": "756",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KTCB-FM",
+                "id": "916",
+                "usesInheritance": true
+              },
+              {
+                "name": "KCPB-FM",
+                "id": "1014",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6df78962f3684809ace2365b1a6e6971",
+                "typeId": "10",
+                "href": "https://ice10.securenetsystems.net/KMUN2"
+              }
+            ],
+            "guid": "1f8076ff48b745689bfc4f282ab158af",
+            "title": "KMUN/KTCB Coast Community Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://coastradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kmun_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kmun_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/756.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "6df78962f3684809ace2365b1a6e6971",
+            "href": "https://ice10.securenetsystems.net/KMUN2",
+            "isPrimaryStream": true,
+            "title": "KMUN/KTCB Coast Community Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "8a1ae926075041d19eecd7ccbd0931d3",
+            "href": "https://secure.lglforms.com/form_engine/s/mhYz6YhsfWGNZWTx3PMgfg",
+            "title": "Support Page",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "14e34f05e4c1435fa903343b27809173",
+            "href": "http://coastradio.org/support/donate/",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/756.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1014",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf70140975450290049930e7a7a3bd",
+        "brand": {
+          "band": "FM",
+          "call": "KCPB",
+          "frequency": "90.9",
+          "marketCity": "Warrenton",
+          "marketState": "OR",
+          "name": "Coast Community Radio",
+          "tagline": "Serving the Lower Columbia Pacific region - Local & Independent since 1983"
+        },
+        "orgId": "1014",
+        "network": {
+          "inheritingFrom": "1014",
+          "usesInheritance": false,
+          "currentOrgId": "1014"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3c64ba363c01401f9f8211e94db1b241",
+                "typeId": "10",
+                "href": "https://ice10.securenetsystems.net/KCPB2"
+              }
+            ],
+            "guid": "bbf3629d16ae4c2c82790e32427e1abb",
+            "title": "KCPB Classical Music and News",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://coastradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kmun_fm.png?1502908649699",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kmun_fm.gif?1502908965076",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1014.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3c64ba363c01401f9f8211e94db1b241",
+            "href": "https://ice10.securenetsystems.net/KCPB2",
+            "isPrimaryStream": false,
+            "title": "KCPB Classical Music and News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b3a0eda7f2a540c3948a4b2b6d0b15b4",
+            "href": "https://secure.lglforms.com/form_engine/s/mhYz6YhsfWGNZWTx3PMgfg",
+            "title": "Support Page",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "34a73878cfc14b48b9a989d361e7da33",
+            "href": "https://secure.lglforms.com/form_engine/s/mhYz6YhsfWGNZWTx3PMgfg",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1014.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1562",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "6ddfdfa700854c05be6703584e577e56",
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/ksor-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "brand": {
+          "band": "FM",
+          "call": "KHEC",
+          "frequency": "91.1",
+          "marketCity": "Crescent City",
+          "marketState": "OR",
+          "name": "KHEC-FM",
+          "tagline": null
+        },
+        "orgId": "1562",
+        "network": {
+          "inheritingFrom": "1562",
+          "usesInheritance": false,
+          "currentOrgId": "1562"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1729",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Hot AC",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "032735cc74bd45619041b43b9e2c229a",
+        "brand": {
+          "band": "FM",
+          "call": "KWCA",
+          "frequency": "101.1",
+          "marketCity": "Palo Cedro",
+          "marketState": "OR",
+          "name": "KWCA-FM",
+          "tagline": null
+        },
+        "orgId": "1729",
+        "network": {
+          "inheritingFrom": "1729",
+          "usesInheritance": false,
+          "currentOrgId": "1729"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1117",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Jazz",
+          "status": "15",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kopb-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1117",
+        "network": {
+          "inheritingFrom": "1117",
+          "usesInheritance": false,
+          "currentOrgId": "1117"
+        },
+        "guid": "4fcf70141b694345b8d68172bb06c73d",
+        "brand": {
+          "band": "FM",
+          "call": "KMHD",
+          "frequency": "89.1",
+          "marketCity": "Gresham",
+          "marketState": "OR",
+          "name": "Oregon Public Broadcasting",
+          "tagline": "Jazz Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "956e334aa0ed4f08b76d85fb38cd967c",
+                "typeId": "10",
+                "href": "https://stream5.opb.org/kmhd_web.mp3"
+              }
+            ],
+            "guid": "4fcf715c0943492283acb61db1ffcdda",
+            "title": "KMHD Jazz Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kmhd.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kmhd_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1117.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "956e334aa0ed4f08b76d85fb38cd967c",
+            "href": "https://stream5.opb.org/kmhd_web.mp3",
+            "isPrimaryStream": true,
+            "title": "KMHD Jazz Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b45f5a30a48f404b8f0fe0004068cada",
+            "href": "https://give.opb.org/kmhd/",
+            "title": "Support KMHD",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1117.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

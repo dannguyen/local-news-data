@@ -1,0 +1,2703 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "OH"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/566",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wosu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "566",
+        "network": {
+          "name": "WOSU 89.7 NPR News",
+          "inheritingFrom": "560",
+          "usesInheritance": true,
+          "currentOrgId": "566",
+          "tier1": {
+            "name": "WOSU Public Media",
+            "id": "560",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WOSU-FM",
+                "id": "566",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WOSB-FM",
+                    "id": "562",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WOSE-FM",
+                    "id": "563",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WOSP-FM",
+                    "id": "564",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WOSV-FM",
+                    "id": "565",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "560",
+          "recency": 360
+        },
+        "guid": "4fcf70111ee14ccebca95753fd7fa373",
+        "brand": {
+          "band": "FM",
+          "call": "WOSU",
+          "frequency": "89.7",
+          "marketCity": "Columbus",
+          "marketState": "OH",
+          "name": "WOSU 89.7 NPR News",
+          "tagline": "89.7 NPR News - Global. Local."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "577efeb181814b47b28be5be1a0efb2c",
+                "typeId": "10",
+                "href": "https://wosu.streamguys1.com/NPR_128"
+              }
+            ],
+            "guid": "4fcf71491c664e688f898472f1da53ae",
+            "title": "WOSU FM News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "64b7ecaf359b41bb97a5efccf9c19985",
+                "typeId": "10",
+                "href": "https://wosu.streamguys1.com/Classical_128"
+              }
+            ],
+            "guid": "4fcf7149213e46689d0ab703450b155f",
+            "title": "Classical 101 from WOSU",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wosu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wosu.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wosu.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/560_ea4a43aaa21c0298e8f876fc57ae93fe.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wosupublicmedia",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/wosu",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "577efeb181814b47b28be5be1a0efb2c",
+            "href": "https://wosu.streamguys1.com/NPR_128",
+            "isPrimaryStream": true,
+            "title": "WOSU FM News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "64b7ecaf359b41bb97a5efccf9c19985",
+            "href": "https://wosu.streamguys1.com/Classical_128",
+            "isPrimaryStream": false,
+            "title": "Classical 101 from WOSU",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "209a472eb2414cf9ad826ae71df93dea",
+            "href": "http://feeds.feedburner.com/AfterTheScorePodcast",
+            "title": "After The Score",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f3f7e0b3c54040dc8e07844a6e6d826a",
+            "href": "https://feedpress.me/storycorpsCOLUMBUS",
+            "title": "StoryCorps COLUMBUS",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "03801d905ec447fd9a42ee7629509d62",
+            "href": "https://feedpress.me/AllSides",
+            "title": "All Sides with Ann Fisher",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "283dc7cd52214db4957bacdd3d526779",
+            "href": "https://feedpress.me/Classical101Podcasts",
+            "title": "Classical 101 Podcasts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f6029ba1e17b461b861975c18debe421",
+            "href": "https://feedpress.me/rivetpodcast",
+            "title": "Rivet",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8cd7ffb2055044f88cbdd1f20e30f7ef",
+            "href": "https://feedpress.me/snollygoster",
+            "title": "Snollygoster",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "56cc14c9c8994d14b2ffa3a582c9e3d9",
+            "href": "http://feeds.feedburner.com/PopColumbusWOSU",
+            "title": "Pop Columbus",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "496a69def0f7425e8c4d977250cbe6c5",
+            "href": "https://wosu2.drupal.publicbroadcasting.net/podcasts/605080/rss.xml",
+            "title": "Stories for the Ages",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "815a611ef3e541c9b01cf7e17241f1f4",
+            "href": "http://wosu.org/pledge",
+            "title": "Pledge",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "e2bac74377e041d2ae5a83da1b8f7bd2",
+            "href": "https://wosu.org/pledge",
+            "title": "Donate to WOSU Public Media",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/353",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wcpn-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "353",
+        "network": {
+          "name": "90.3 WCPN ideastream",
+          "inheritingFrom": "352",
+          "usesInheritance": true,
+          "currentOrgId": "353",
+          "tier1": {
+            "name": "Cleveland Public Radio",
+            "id": "352",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WCPN-FM",
+                "id": "353",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WCLV-FM",
+                    "id": "1366",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "StateImpact Ohio",
+                    "id": "20005",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "352",
+          "recency": 120
+        },
+        "guid": "4fcf70100f514716a8cb24af1ca07123",
+        "brand": {
+          "band": "FM",
+          "call": "WCPN",
+          "frequency": "90.3",
+          "marketCity": "Cleveland",
+          "marketState": "OH",
+          "name": "90.3 WCPN ideastream",
+          "tagline": "Northeast Ohio's NPR News Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "25eb86906ec54ad597428a091dd167e8",
+                "typeId": "10",
+                "href": "https://ideastream.streamguys1.com/wcpn.mp3"
+              }
+            ],
+            "guid": "4fcf713307004f9aa2edd36f62a13608",
+            "title": "90.3 WCPN Live Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://wcpn.ideastream.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wcpn.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wcpn.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/903wcpn",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wcpn",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "25eb86906ec54ad597428a091dd167e8",
+            "href": "https://ideastream.streamguys1.com/wcpn.mp3",
+            "isPrimaryStream": true,
+            "title": "90.3 WCPN Live Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "374e2957e95043eb97490ac31caee08f",
+            "href": "https://www.ideastream.org/podcast/healths-up",
+            "title": "Health's Up",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "091fa785ce3448d7ba14a961163b6acc",
+            "href": "https://www.ideastream.org/podcast/soi",
+            "title": "The Sound of Ideas",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fe80e301460a48ec82150eeab30a92c2",
+            "href": "https://www.ideastream.org/podcast/the-downtowner",
+            "title": "The Downtowner",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d5120ad93e8f4d6f8c95b9e3d12262c1",
+            "href": "https://www.ideastream.org/podcast/soa",
+            "title": "ideastream Arts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "52229ead3da64b099fb9be5a4ad98d56",
+            "href": "https://www.ideastream.org/wcpn-donate",
+            "title": "Support WCPN",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "520e42bba21e4cdc8fb0ada921896ef4",
+            "href": "https://www.ideastream.org/wcpn-donate",
+            "title": "Support WCPN",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/704",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvxu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "704",
+        "network": {
+          "name": "91.7 WVXU",
+          "inheritingFrom": "703",
+          "usesInheritance": true,
+          "currentOrgId": "704",
+          "tier1": {
+            "name": "CINCINNATI PUBLIC RADIO, INC.",
+            "id": "703",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WGUC-FM",
+                "id": "408",
+                "usesInheritance": false
+              },
+              {
+                "name": "WVXU-FM",
+                "id": "704",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WMUB-FM",
+                    "id": "1093",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "703",
+          "recency": 120
+        },
+        "guid": "4fcf701218e742528ff8d4379dda3fe8",
+        "brand": {
+          "band": "FM",
+          "call": "WVXU",
+          "frequency": "91.7",
+          "marketCity": "Cincinnati",
+          "marketState": "OH",
+          "name": "91.7 WVXU",
+          "tagline": "Connecting You to a World of Ideas"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2b8b7215047a462ba49b62e82b5927a3",
+                "typeId": "10",
+                "href": "https://stream.cinradio.org/wvxuhd2"
+              }
+            ],
+            "guid": "0faffbf5da6a4017a0bdf3b47d3cd780",
+            "title": "Radio Artifact on WVXU HD-2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7524b68db1c440d7815f3536f9d8a879",
+                "typeId": "10",
+                "href": "https://stream.cinradio.org/wvxu"
+              }
+            ],
+            "guid": "4fcf716a1e104dffb7fa66211fe2fc14",
+            "title": "91.7 WVXU",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wvxu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wvxu.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wvxu.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "2b8b7215047a462ba49b62e82b5927a3",
+            "href": "https://stream.cinradio.org/wvxuhd2",
+            "isPrimaryStream": false,
+            "title": "Radio Artifact on WVXU HD-2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7524b68db1c440d7815f3536f9d8a879",
+            "href": "https://stream.cinradio.org/wvxu",
+            "isPrimaryStream": true,
+            "title": "91.7 WVXU",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "35d01196cbad4c6aa125970bd7897363",
+            "href": "https://wvxu.drupal.publicbroadcasting.net/podcasts/1568/rss.xml",
+            "title": "Cincinnati Edition",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4db9e9f4374d4f41bf8f6763efc6a55b",
+            "href": "https://www.classicsforkids.com/podcasts/classicsforkids.xml",
+            "title": "Classics for Kids",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b08db932bd0f4b3da29375a82f33f4cd",
+            "href": "https://wvxu.drupal.publicbroadcasting.net/podcasts/74914/rss.xml",
+            "title": "Start Hear",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1ab121baad014fd5bb20409dd64bc95f",
+            "href": "https://wvxu.drupal.publicbroadcasting.net/podcasts/1659/rss.xml",
+            "title": "Focus on Technology",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e09151e6ce364409bccbed0eb3c33d89",
+            "href": "https://wvxu.drupal.publicbroadcasting.net/podcasts/83551/rss.xml",
+            "title": "Local Exposure",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5b78cb8c0714452ca9e715c3fc333b19",
+            "href": "https://wvxu.drupal.publicbroadcasting.net/podcasts/1564/rss.xml",
+            "title": "Around Cincinnati",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6aacc0d17cc443eb93986f9d810344a9",
+            "href": "https://wvxu.drupal.publicbroadcasting.net/podcasts/80646/rss.xml",
+            "title": "Looking Up",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c170031981094825a3c585bc9cd73995",
+            "href": "https://www.democracyandme.org/feed/podcast/dem_z",
+            "title": "Democracy & Z",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c5aaced02ada4b93bf55650359cabb89",
+            "href": "https://www.cinradio.org/podcasts/90secondnaturalist.xml",
+            "title": "The 90-Second Naturalist",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b7018e717d4341adaa1ad939030f8a24",
+            "href": "https://bit.ly/supportwvxu",
+            "title": "Pledge Online",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "c92597fc2ce14c1bb39f6be195b9b102",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/703_05aeebc5866d9508b1d3d768528007c0.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/471",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wksu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "471",
+        "network": {
+          "inheritingFrom": "471",
+          "usesInheritance": false,
+          "currentOrgId": "471",
+          "tier1": {
+            "name": "WKSU-FM",
+            "id": "471",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WKRJ-FM",
+                "id": "472",
+                "usesInheritance": true
+              },
+              {
+                "name": "WKRW-FM",
+                "id": "473",
+                "usesInheritance": true
+              },
+              {
+                "name": "WKSV-FM",
+                "id": "474",
+                "usesInheritance": true
+              },
+              {
+                "name": "WNRK-FM",
+                "id": "910",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "471",
+          "recency": 360
+        },
+        "guid": "4fcf7011080e4934a77e8ee38cd04803",
+        "brand": {
+          "band": "FM",
+          "call": "WKSU",
+          "frequency": "89.7",
+          "marketCity": "Kent",
+          "marketState": "OH",
+          "name": "WKSU",
+          "tagline": "Your Source for NPR, News and Information"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4536048f5daf42e3a387c7c691d2164c",
+                "typeId": "10",
+                "href": "https://stream.wksu.org/wksu3.mp3.128.m3u"
+              }
+            ],
+            "guid": "4fcf71461b9a4ddfb97b3115df9cad20",
+            "title": "WKSU Classical (HD3)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "eb2bb76c7ebd4f08b842df54410be1a3",
+                "typeId": "10",
+                "href": "https://freshgrass.streamguys1.com/folkalley-128mp3"
+              }
+            ],
+            "guid": "4fcf71461d0a4443ac288b01dc637734",
+            "title": "Folk Alley",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "54c5f4b565584c9287c73f519deeacf6",
+                "typeId": "10",
+                "href": "https://stream.wksu.org/wksu1.mp3.128.m3u"
+              }
+            ],
+            "guid": "4fcf714610c64303a4fe7b21bdca1cee",
+            "title": "WKSU-FM 89.7",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ec399cb121ab401f951122b883386546",
+                "typeId": "10",
+                "href": "https://freshgrass.streamguys1.com/freshcuts-128mp3"
+              }
+            ],
+            "guid": "13f58d45350018840a8b762a3d26f26d",
+            "title": "Folk Alley Fresh Cuts",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "35cfa8a847474c8a8a5a651554066e80",
+                "typeId": "10",
+                "href": "https://stream.wksu.org/wksuholiday-128"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "6878af6566e943af98dffd1a7ff3624b",
+                "typeId": "13",
+                "href": "https://stream.wksu.org/wksuholiday-64.aac"
+              }
+            ],
+            "guid": "757853b452044466ab7fd3e87e989d6f",
+            "title": "WKSU Holiday Classical",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9a59c90fd5a144048fc1baffa8526fe8",
+                "typeId": "10",
+                "href": "https://stream.wksu.org/wksu4.mp3.128.m3u"
+              }
+            ],
+            "guid": "4fcf7146191f42e8acccbbe9bddb1afb",
+            "title": "WKSU All News/Talk (HD4)",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wksu.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wksu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wksu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/471_3505c839f1bf18b4f58f2b045080a3f7.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/471_4b32cde417ca129211619606ca836c2e.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WKSU.FM",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wksu",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "4536048f5daf42e3a387c7c691d2164c",
+            "href": "https://stream.wksu.org/wksu3.mp3.128.m3u",
+            "isPrimaryStream": false,
+            "title": "WKSU Classical (HD3)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "eb2bb76c7ebd4f08b842df54410be1a3",
+            "href": "https://freshgrass.streamguys1.com/folkalley-128mp3",
+            "isPrimaryStream": false,
+            "title": "Folk Alley",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "54c5f4b565584c9287c73f519deeacf6",
+            "href": "https://stream.wksu.org/wksu1.mp3.128.m3u",
+            "isPrimaryStream": true,
+            "title": "WKSU-FM 89.7",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ec399cb121ab401f951122b883386546",
+            "href": "https://freshgrass.streamguys1.com/freshcuts-128mp3",
+            "isPrimaryStream": false,
+            "title": "Folk Alley Fresh Cuts",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "35cfa8a847474c8a8a5a651554066e80",
+            "href": "https://stream.wksu.org/wksuholiday-128",
+            "isPrimaryStream": false,
+            "title": "WKSU Holiday Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "9a59c90fd5a144048fc1baffa8526fe8",
+            "href": "https://stream.wksu.org/wksu4.mp3.128.m3u",
+            "isPrimaryStream": false,
+            "title": "WKSU All News/Talk (HD4)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6878af6566e943af98dffd1a7ff3624b",
+            "href": "https://stream.wksu.org/wksuholiday-64.aac",
+            "isPrimaryStream": false,
+            "title": "WKSU Holiday Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "820393747b85443aa83122e202a49080",
+            "href": "https://wksu.drupal.publicbroadcasting.net/podcasts/19596/rss.xml",
+            "title": "The Feed from WKSU News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9c602ef480d14d0d8b3cbb2dbf98d88c",
+            "href": "https://wksu.drupal.publicbroadcasting.net/podcasts/39077/rss.xml",
+            "title": "Elevations",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d81bea34acf346a18e924afd10e470f1",
+            "href": "https://wksu.drupal.publicbroadcasting.net/podcasts/1519/rss.xml",
+            "title": "State of the Arts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "52c952e191114be0a5a1bac935daf49f",
+            "href": "https://wksu.drupal.publicbroadcasting.net/podcasts/19591/rss.xml",
+            "title": "WKSU News Presents",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "052595372d194a8e85a36375edb23e05",
+            "href": "https://wksu.drupal.publicbroadcasting.net/podcasts/7048/rss.xml",
+            "title": "Your Voice Ohio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a4df9ff3311d44bc9f29968fb1e3b2a0",
+            "href": "https://wksu.drupal.publicbroadcasting.net/podcasts/49552/rss.xml",
+            "title": "OH Really?",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b71b8be2efbd49989e31c776181cec86",
+            "href": "https://wksu.drupal.publicbroadcasting.net/podcasts/46294/rss.xml",
+            "title": "Mark's Almanac",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6bc1c94bb93b4bb19104b32f31f0b931",
+            "href": "https://wksu.drupal.publicbroadcasting.net/podcasts/20480/rss.xml",
+            "title": "Shuffle",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "55b5730abc4f40749ba36147baf17297",
+            "href": "https://wksu.drupal.publicbroadcasting.net/podcasts/21189/rss.xml",
+            "title": "The View Beyond Pluto",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "718ed704c63b414f958163bdc7fc849b",
+            "href": "https://wksu.drupal.publicbroadcasting.net/podcasts/46053/rss.xml",
+            "title": "Exploradio Origins",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "49f31c91e77e491e9aea4915e41c60c3",
+            "href": "https://wksu.drupal.publicbroadcasting.net/podcasts/1742/rss.xml",
+            "title": "Exploradio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "627c29f1cdf64662a13c94ef34fdc1fc",
+            "href": "https://wksu.drupal.publicbroadcasting.net/podcasts/2737/rss.xml",
+            "title": "The View from Pluto",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "86a3d7e5b33740ea8a46df85d46ae169",
+            "href": "https://www.wksu.org/support/pledge/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "3aa690bf7014410fb21ef25218df13f6",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/471_df41e3bd353fde41f2ee7dd05762bd41.mp4",
+            "title": "WKSU Jeff donation",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "958b0035e82545c08f10df67367bc389",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/471_14e741821193e74a652fd390ded58ad9.mp4",
+            "title": "WKSU Amanda donation",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/471.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/726",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wyso-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "726",
+        "network": {
+          "inheritingFrom": "726",
+          "usesInheritance": false,
+          "currentOrgId": "726",
+          "tier1": {
+            "name": "WYSO-FM",
+            "id": "726",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "726",
+          "recency": 240
+        },
+        "guid": "4fcf70121cc449d9bc795c0f11853790",
+        "brand": {
+          "band": "FM",
+          "call": "WYSO",
+          "frequency": "91.3",
+          "marketCity": "Yellow Springs",
+          "marketState": "OH",
+          "name": "WYSO",
+          "tagline": "Our Community. Our Nation. Our World."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "8e313685e5ef4e2e8b758b60c5a6f9b8",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WYSOFM.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "7c508bd2344d42dda73d078ca03a0fcb",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYSOFM_ADP.m3u8"
+              }
+            ],
+            "guid": "4fcf71681cfd4f89afacf41aef5ed986",
+            "title": "WYSO 91.3 FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wyso.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wyso_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wyso_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/726_720acf7018be0e2780c848f438a639f2.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/726_0d665d1f078d7d26f131deb79efe5d48.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/726_746239ec92327ebe345de2b2a24bf12c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/726_996d80f632102c47ee3f23937779e3ca.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/726_1f572d9ed4d953da5a820dd2bd47b017.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/726.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wyso91.3",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/wyso",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "8e313685e5ef4e2e8b758b60c5a6f9b8",
+            "href": "https://playerservices.streamtheworld.com/pls/WYSOFM.pls",
+            "isPrimaryStream": true,
+            "title": "WYSO 91.3 FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7c508bd2344d42dda73d078ca03a0fcb",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYSOFM_ADP.m3u8",
+            "isPrimaryStream": true,
+            "title": "WYSO 91.3 FM",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "b87205872ec6440d930333e00e89e32e",
+            "href": "https://thisisgonnahurt.libsyn.com/rss",
+            "title": "This Is Gonna Hurt: Widows Mentoring Widows",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "62c01024030845e9a3c5737e97ea618c",
+            "href": "https://wyso.drupal.publicbroadcasting.net/podcasts/598/rss.xml",
+            "title": "Poor Will's Miami Valley Almanack",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d9f3c18532184baf9fadb8bae7c1bfea",
+            "href": "https://wyso.drupal.publicbroadcasting.net/podcasts/95649/rss.xml",
+            "title": "Stats + Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "babcb7204db744f99ad036e84228558c",
+            "href": "https://wyso.drupal.publicbroadcasting.net/podcasts/62115/rss.xml",
+            "title": "Dayton Youth Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6b43298ef3b44eaf9a678f2b70879382",
+            "href": "https://wyso.drupal.publicbroadcasting.net/podcasts/907/rss.xml",
+            "title": "WYSO Weekend",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e6e348629de640ab92d44f469952e94c",
+            "href": "https://wyso.drupal.publicbroadcasting.net/podcasts/693/rss.xml",
+            "title": "Conrad's Corner",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "45f444953997410f9d8bfc767c072424",
+            "href": "https://wyso.drupal.publicbroadcasting.net/podcasts/15003/rss.xml",
+            "title": "History Talk from Origins",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "baf2bd27fdaf4dca845ba1c9d89683d0",
+            "href": "https://wyso.drupal.publicbroadcasting.net/podcasts/47/rss.xml",
+            "title": "Book Nook",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5fc18b04d56942c792c85968a7a64c21",
+            "href": "https://wyso.drupal.publicbroadcasting.net/podcasts/56519/rss.xml",
+            "title": "PoliticsOhio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6212e4584e894e45bbfe8ea35c0b9d5c",
+            "href": "https://wyso.drupal.publicbroadcasting.net/podcasts/43114/rss.xml",
+            "title": "WYSO Curious",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "4493dc1b1f1847a5988c3bfd1ce303f9",
+            "href": "http://bit.ly/supportwyso",
+            "title": "Donate to WYSO 91.3FM",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "3da14575a8f544b79fdcf5e2794660a6",
+            "href": "http://bit.ly/supportwyso",
+            "title": "Donate to WYSO 91.3FM",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "3633a5adb1614354a7a8d8a5ad163e07",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/726_00c3db85fb02617ca0e505b6511cb44b.mp4",
+            "title": "NPR One Pledge Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/726.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/338",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wcbe-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "338",
+        "network": {
+          "inheritingFrom": "338",
+          "usesInheritance": false,
+          "currentOrgId": "338",
+          "tier1": {
+            "name": "WCBE-FM",
+            "id": "338",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf70100bda45e99106ad233ebc9d10",
+        "brand": {
+          "band": "FM",
+          "call": "WCBE",
+          "frequency": "90.5",
+          "marketCity": "Columbus",
+          "marketState": "OH",
+          "name": "WCBE 90.5FM",
+          "tagline": "Central Ohio's NPR Station - Innovative, Provocative, Real"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e468a34109e24fb2b7a70463b9c7cc5a",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WCBEFM.pls"
+              }
+            ],
+            "guid": "4fcf7163063b424580b5eb772dfd9927",
+            "title": "WCBE 90.5FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wcbe.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wcbe_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wcbe_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/338.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WCBE90.5",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WCBE905Columbus",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e468a34109e24fb2b7a70463b9c7cc5a",
+            "href": "https://playerservices.streamtheworld.com/pls/WCBEFM.pls",
+            "isPrimaryStream": true,
+            "title": "WCBE 90.5FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "238eea4bdfbe412bb4268e0f6b30982b",
+            "href": "https://afg.secureallegiance.com/wcbe/WebModule/Donate.aspx?P=WCBEGEN&PAGETYPE=PLG&CHECK=KzoFzvBJt%2bf%2fEB8%2fo5U42OzWDeZ%2beA1M",
+            "title": "Pledge Online",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/338.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/404",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wgte-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "404",
+        "network": {
+          "name": "WGTE",
+          "inheritingFrom": "403",
+          "usesInheritance": true,
+          "currentOrgId": "404",
+          "tier1": {
+            "name": "WGTE Public Broadcasting",
+            "id": "403",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WGTE-FM",
+                "id": "404",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WGBE-FM",
+                    "id": "405",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WGDE-FM",
+                    "id": "406",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WGLE-FM",
+                    "id": "407",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf70101eb6421ba109e8a13691e9ce",
+        "brand": {
+          "band": "FM",
+          "call": "WGTE",
+          "frequency": "91.3",
+          "marketCity": "Toledo",
+          "marketState": "OH",
+          "name": "WGTE",
+          "tagline": "A trusted source for NPR News and a voice for the arts in Northwest Ohio and Southeast Michigan"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6ad948d8b31e4345a971b17e5f93c88f",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WGTEFM.pls"
+              }
+            ],
+            "guid": "4fcf715e0dfd43509ad768027a084581",
+            "title": "WGTE Public Media",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wgte.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wgte.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wgte.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/403_1e27442cb779046fa56b5d483b937765.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wgtepublic",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "6ad948d8b31e4345a971b17e5f93c88f",
+            "href": "https://playerservices.streamtheworld.com/pls/WGTEFM.pls",
+            "isPrimaryStream": true,
+            "title": "WGTE Public Media",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e56f410b5bc3413783d3f974900c580e",
+            "href": "https://www.wgte.org/podcast-feed/23317",
+            "title": "Toledo SymphonyLAB\u2122",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "12f45f51be1f4624a1975d97d2f6f621",
+            "href": "https://www.wgte.org/podcast-feed/119",
+            "title": "The Rough Draft Diaries with Haley Taylor",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "949a06247faf4936a49e10b0c6d61b96",
+            "href": "https://wgte.secureallegiance.com/wgte/WebModule/Donate.aspx?P=WEBAPR19&PAGETYPE=PLG&CHECK=3g5pZJUdu8xD1N3qAMguAm3L5BYddGq6PVAl6UEf65g%3d",
+            "title": "Support WGTE",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "05adf98fdea4487892f682e5068b3982",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/403_06201f51474d2cfb0740704f4245c782.mp4?1568807620667",
+            "title": "Generic Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/569",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/woub-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "569",
+        "network": {
+          "name": "WOUB Public Media",
+          "inheritingFrom": "567",
+          "usesInheritance": true,
+          "currentOrgId": "569",
+          "tier1": {
+            "name": "WOUB Radio Network",
+            "id": "567",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WOUB-AM",
+                "id": "568",
+                "usesInheritance": false
+              },
+              {
+                "name": "WOUB-FM",
+                "id": "569",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WOUC-FM",
+                    "id": "570",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WOUH-FM",
+                    "id": "571",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WOUL-FM",
+                    "id": "572",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WOUZ-FM",
+                    "id": "573",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "567",
+          "recency": 120
+        },
+        "guid": "4fcf70111fc64ecaa5a043f9816601ea",
+        "brand": {
+          "band": "FM",
+          "call": "WOUB",
+          "frequency": "91.3",
+          "marketCity": "Athens",
+          "marketState": "OH",
+          "name": "WOUB Public Media",
+          "tagline": "WOUB Public Media"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "268094147ead4e6d8aec0ce450232003",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WOUBFM.pls"
+              }
+            ],
+            "guid": "4fcf716616c0481ea4127be4a1a9a3f2",
+            "title": "WOUB-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://woub.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/woub.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/woub.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/567_769c0cc221f99ad438536b41f36c2cf9.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WOUB-Public-Media/376137337431",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "268094147ead4e6d8aec0ce450232003",
+            "href": "https://playerservices.streamtheworld.com/pls/WOUBFM.pls",
+            "isPrimaryStream": true,
+            "title": "WOUB-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "5cfd223c7ee148a199d1dbf129a6dd01",
+            "href": "https://ohio.streamguys1.com/JazzedAboutWork/JazzedAboutWork.xml",
+            "title": "Jazzed About Work",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "01662a28cf4d49b8b7c0260cc13a9c89",
+            "href": "https://ohio.streamguys1.com/DefiningMoments/DefiningMoments.xml",
+            "title": "Defining Moments",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b16cb0c61b9149029b531fc17f8db0bd",
+            "href": "https://ohio.streamguys1.com/TheKindnessPodcast/TheKindnessPodcast.xml",
+            "title": "The Kindness Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c53f2449c1ba487791600053e9b54922",
+            "href": "https://ohio.streamguys1.com/FurPeace/livefromfurpeace.xml",
+            "title": "Live from Jorma Kaukonen's Fur Peace Ranch",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "413532534aa44140b1d65fe3b862ae49",
+            "href": "https://ohio.streamguys1.com/Lifespan/Lifespan.xml",
+            "title": "Lifespan: Stories of Illness, Accident, and Recovery",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1bacaa287e454ebe837ed2cf9c101174",
+            "href": "https://ohio.streamguys1.com/457seo/457SEO.xml",
+            "title": "#457SEO",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e5bdd73105934d92b60758c009e3764e",
+            "href": "https://ohio.streamguys1.com/Spectrum/Spectrum.xml",
+            "title": "Spectrum",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a862b323e02940a7b35b2e07d429834f",
+            "href": "https://ohio.streamguys1.com/TeachingMatters/TeachingMatters.xml",
+            "title": "Teaching Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "fc610775e1ad4199b90b0ba8b6d31dd4",
+            "href": "http://woub.org/support-woub/",
+            "title": "Support - WOUB Digital",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "d8e077dda82143f6bcd167b027f34c4a",
+            "href": "http://woub.org/support-woub/",
+            "title": "Support - WOUB Digital",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "96982b421937445fb079d7169cf3527b",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/567_df93cefaf62db3f1b9dc3c765325a895.mp4",
+            "title": "Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/727",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "727",
+        "network": {
+          "inheritingFrom": "727",
+          "usesInheritance": false,
+          "currentOrgId": "727",
+          "tier1": {
+            "name": "WYSU-FM",
+            "id": "727",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf70121d054684954318e36251cd3e",
+        "brand": {
+          "band": "FM",
+          "call": "WYSU",
+          "frequency": "88.5",
+          "marketCity": "Youngstown",
+          "marketState": "OH",
+          "name": "WYSU",
+          "tagline": "Radio you need to know."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "78410924486c410d85932a92844132d7",
+                "typeId": "10",
+                "href": "https://live.streamguys1.com:3181/hd1"
+              }
+            ],
+            "guid": "4fcf7141024c4183ad2691b92951f1df",
+            "title": "WYSU Main Channel",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c4e0fbef42194387bbc0f094ff402c3a",
+                "typeId": "10",
+                "href": "https://live.streamguys1.com:3181/hd2"
+              }
+            ],
+            "guid": "4fcf71410533470588401c244aa8b813",
+            "title": "WYSU All Classical Channel",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://wysu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wysu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wysu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/727.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/wysufm",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WYSU",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "78410924486c410d85932a92844132d7",
+            "href": "https://live.streamguys1.com:3181/hd1",
+            "isPrimaryStream": true,
+            "title": "WYSU Main Channel",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c4e0fbef42194387bbc0f094ff402c3a",
+            "href": "https://live.streamguys1.com:3181/hd2",
+            "isPrimaryStream": false,
+            "title": "WYSU All Classical Channel",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "493363be76e34b3f9912ab37992579a9",
+            "href": "https://wysu.org/rss/doinggood.xml",
+            "title": "Doing Good",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "6e0c6494a1b74499832d4330548e28b7",
+            "href": "https://wysu.org/npr-give",
+            "title": "Give",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "d0c0824de0c443d083bd2b5bb60533a7",
+            "href": "https://wysu.org/npr-give",
+            "title": "Give",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/727.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/787",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Urban Contemporary",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701303604503b975340457f23526",
+        "brand": {
+          "band": "FM",
+          "call": "WCSU",
+          "frequency": "88.9",
+          "marketCity": "Wilberforce",
+          "marketState": "OH",
+          "name": "WCSU",
+          "tagline": "Central State University"
+        },
+        "orgId": "787",
+        "network": {
+          "inheritingFrom": "787",
+          "usesInheritance": false,
+          "currentOrgId": "787",
+          "tier1": {
+            "name": "WCSU-FM",
+            "id": "787",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "20769e6a5122421db1bb753f6bf48126",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WCSUFM.pls"
+              }
+            ],
+            "guid": "2113007873564808a9ebe6b9b703eb42",
+            "title": "WCSU",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "www.wcsufm.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/787.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/pages/WCSUFM-JAZZY-889/217660031632924",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/Wcsufm",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "20769e6a5122421db1bb753f6bf48126",
+            "href": "https://playerservices.streamtheworld.com/pls/WCSUFM.pls",
+            "isPrimaryStream": true,
+            "title": "WCSU",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d2224558f6b0461795f34a27f053bf7e",
+            "href": "http://wcsufm.org/support-public-radio-jazzy-889",
+            "title": null,
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/787.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/568",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf70111f8b404185432b2de5cc92f9",
+        "brand": {
+          "band": "AM",
+          "call": "WOUB",
+          "frequency": "1340",
+          "marketCity": "Athens",
+          "marketState": "OH",
+          "name": "WOUB Public Media",
+          "tagline": "Athens News and Music"
+        },
+        "orgId": "568",
+        "network": {
+          "inheritingFrom": "568",
+          "usesInheritance": false,
+          "currentOrgId": "568"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2d4b9953567d45adaeb6983a89ab467d",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WOUBAM.pls"
+              }
+            ],
+            "guid": "4fcf71661d1747e298922c0169c62b59",
+            "title": "WOUB-AM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://woub.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/woub_am.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/568.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WOUB-Public-Media/376137337431",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "2d4b9953567d45adaeb6983a89ab467d",
+            "href": "https://playerservices.streamtheworld.com/pls/WOUBAM.pls",
+            "isPrimaryStream": true,
+            "title": "WOUB-AM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "11ee7af5208d4e9dbfbabc753d70b406",
+            "href": "http://woub.org/support-woub/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/564",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wosu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "564",
+        "network": {
+          "inheritingFrom": "564",
+          "usesInheritance": false,
+          "currentOrgId": "564"
+        },
+        "guid": "4fcf70111e674f479c926fb1b56389da",
+        "brand": {
+          "band": "FM",
+          "call": "WOSP",
+          "frequency": "91.5",
+          "marketCity": "Portsmouth",
+          "marketState": "OH",
+          "name": "WOSU Public Media",
+          "tagline": "Classical Music All Day, Every Day"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "64b7ecaf359b41bb97a5efccf9c19985",
+                "typeId": "10",
+                "href": "https://wosu.streamguys1.com/Classical_128"
+              }
+            ],
+            "guid": "4fcf7149213e46689d0ab703450b155f",
+            "title": "Classical 101 from WOSU",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wosu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wosp_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wosp_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/564.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/classical101",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/classical101",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "64b7ecaf359b41bb97a5efccf9c19985",
+            "href": "https://wosu.streamguys1.com/Classical_128",
+            "isPrimaryStream": true,
+            "title": "Classical 101 from WOSU",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "f578fcf862484b83adf165709802c633",
+            "href": "http://wosu.org/pledge",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/564.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/565",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wosu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "565",
+        "network": {
+          "inheritingFrom": "565",
+          "usesInheritance": false,
+          "currentOrgId": "565"
+        },
+        "guid": "4fcf70111ead479faf82db3f249bc241",
+        "brand": {
+          "band": "FM",
+          "call": "WOSV",
+          "frequency": "91.7",
+          "marketCity": "Mansfield",
+          "marketState": "OH",
+          "name": "WOSU Public Media",
+          "tagline": "Classical Music All Day, Every Day"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "64b7ecaf359b41bb97a5efccf9c19985",
+                "typeId": "10",
+                "href": "https://wosu.streamguys1.com/Classical_128"
+              }
+            ],
+            "guid": "4fcf7149213e46689d0ab703450b155f",
+            "title": "Classical 101 from WOSU",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wosu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wosv_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/565.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/classical101",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/classical101",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "64b7ecaf359b41bb97a5efccf9c19985",
+            "href": "https://wosu.streamguys1.com/Classical_128",
+            "isPrimaryStream": true,
+            "title": "Classical 101 from WOSU",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "0cd0699990d64e7fa0febd8087606cce",
+            "href": "http://wosu.org/pledge",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/565.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/562",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wosu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "562",
+        "network": {
+          "inheritingFrom": "562",
+          "usesInheritance": false,
+          "currentOrgId": "562"
+        },
+        "guid": "4fcf70111de1446d92fcf00879881b68",
+        "brand": {
+          "band": "FM",
+          "call": "WOSB",
+          "frequency": "91.1",
+          "marketCity": "Marion",
+          "marketState": "OH",
+          "name": "WOSU Public Media",
+          "tagline": "Classical Music All Day, Every Day"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "64b7ecaf359b41bb97a5efccf9c19985",
+                "typeId": "10",
+                "href": "https://wosu.streamguys1.com/Classical_128"
+              }
+            ],
+            "guid": "4fcf7149213e46689d0ab703450b155f",
+            "title": "Classical 101 from WOSU",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wosu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wosb_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wosb_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/562.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/classical101",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/classical101",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "64b7ecaf359b41bb97a5efccf9c19985",
+            "href": "https://wosu.streamguys1.com/Classical_128",
+            "isPrimaryStream": true,
+            "title": "Classical 101 from WOSU",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "23a7272d994e49cfb722f1f93447cade",
+            "href": "http://wosu.org/pledge",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/562.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/563",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wosu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "563",
+        "network": {
+          "inheritingFrom": "563",
+          "usesInheritance": false,
+          "currentOrgId": "563"
+        },
+        "guid": "4fcf70111e2942c6a29786b6bb1a868c",
+        "brand": {
+          "band": "FM",
+          "call": "WOSE",
+          "frequency": "91.1",
+          "marketCity": "Coshocton",
+          "marketState": "OH",
+          "name": "WOSU Public Media",
+          "tagline": "Classical Music All Day, Every Day"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "64b7ecaf359b41bb97a5efccf9c19985",
+                "typeId": "10",
+                "href": "https://wosu.streamguys1.com/Classical_128"
+              }
+            ],
+            "guid": "4fcf7149213e46689d0ab703450b155f",
+            "title": "Classical 101 from WOSU",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wosu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wose_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wose_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/563.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/classical101",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/classical101",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "64b7ecaf359b41bb97a5efccf9c19985",
+            "href": "https://wosu.streamguys1.com/Classical_128",
+            "isPrimaryStream": true,
+            "title": "Classical 101 from WOSU",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1a2fde28a70848739623e6c4cf2d7a9e",
+            "href": "http://wosu.org/pledge",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/563.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1197",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "12",
+          "musicOnly": true
+        },
+        "guid": "4fcf7014255348a89456c21d241a8717",
+        "brand": {
+          "band": "FM",
+          "call": "WOSA",
+          "frequency": "101.1",
+          "marketCity": "Grove Ctiy",
+          "marketState": "OH",
+          "name": "Classical 101",
+          "tagline": "Classical Music All Day, Every Day"
+        },
+        "orgId": "1197",
+        "network": {
+          "inheritingFrom": "1197",
+          "usesInheritance": false,
+          "currentOrgId": "1197",
+          "tier1": {
+            "name": "WOSA-FM",
+            "id": "1197",
+            "usesInheritance": false,
+            "status": "12"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "64b7ecaf359b41bb97a5efccf9c19985",
+                "typeId": "10",
+                "href": "https://wosu.streamguys1.com/Classical_128"
+              }
+            ],
+            "guid": "4fcf7149213e46689d0ab703450b155f",
+            "title": "Classical 101 from WOSU",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wosu.org/classical101",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wosa_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1197.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/classical101",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/classical101",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "64b7ecaf359b41bb97a5efccf9c19985",
+            "href": "https://wosu.streamguys1.com/Classical_128",
+            "isPrimaryStream": false,
+            "title": "Classical 101 from WOSU",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "af114231770c4b87a20a8bd96dc9d48c",
+            "href": "http://wosu.org/2012/give/",
+            "title": "Support Classical 101",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1197.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1366",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "15",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wcpn-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1366",
+        "network": {
+          "inheritingFrom": "1366",
+          "usesInheritance": false,
+          "currentOrgId": "1366"
+        },
+        "guid": "51af46d721da4ce7ae6c613b4164beb1",
+        "brand": {
+          "band": "FM",
+          "call": "WCLV",
+          "frequency": "104.9",
+          "marketCity": "Lorain",
+          "marketState": "OH",
+          "name": "WCLV Classical 104.9 ideastream",
+          "tagline": "Northeast Ohio's Classical Music Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "15523425873945c994c1f270be0ec315",
+                "typeId": "10",
+                "href": "https://ideastream.streamguys1.com/wclv.mp3"
+              }
+            ],
+            "guid": "1408787f75c02344497bfdc372cfbe4e",
+            "title": "WCLV 104.9 Classical Live Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://wclv.ideastream.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wclv_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1366.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/WCLV1049",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "15523425873945c994c1f270be0ec315",
+            "href": "https://ideastream.streamguys1.com/wclv.mp3",
+            "isPrimaryStream": true,
+            "title": "WCLV 104.9 Classical Live Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "a7a1102add6a41d2a0eeea4ba8cca73d",
+            "href": "https://www.ideastream.org/wclv-donate",
+            "title": "Support WCLV",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "e2166c1a50064c61b5622d70ab10916d",
+            "href": "https://www.ideastream.org/wclv-donate",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1366.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

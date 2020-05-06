@@ -1,0 +1,527 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "MS"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/510",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wmpn-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "510",
+        "network": {
+          "inheritingFrom": "510",
+          "usesInheritance": false,
+          "currentOrgId": "510",
+          "tier1": {
+            "name": "WMPN-FM",
+            "id": "510",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WMAB-FM",
+                "id": "511",
+                "usesInheritance": true
+              },
+              {
+                "name": "WMAE-FM",
+                "id": "512",
+                "usesInheritance": true
+              },
+              {
+                "name": "WMAH-FM",
+                "id": "513",
+                "usesInheritance": true
+              },
+              {
+                "name": "WMAO-FM",
+                "id": "514",
+                "usesInheritance": true
+              },
+              {
+                "name": "WMAU-FM",
+                "id": "515",
+                "usesInheritance": true
+              },
+              {
+                "name": "WMAV-FM",
+                "id": "516",
+                "usesInheritance": true
+              },
+              {
+                "name": "WMAW-FM",
+                "id": "517",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "510",
+          "recency": 360
+        },
+        "guid": "4fcf701112704f51a4e222a58560e19c",
+        "brand": {
+          "band": "FM",
+          "call": "WMPN",
+          "frequency": "91.3",
+          "marketCity": "Jackson",
+          "marketState": "MS",
+          "name": "MPB Think Radio",
+          "tagline": "Mississippi is our Mission."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "45ff218025d84ca689ca4e1819391b14",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WMPNFM_56.pls"
+              }
+            ],
+            "guid": "13f1f33492900b9459c92b3e3ad6a5ad",
+            "title": "MPB Music Radio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "47dbf8ed72e24ec084141d2531615c5b",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WMPNHD3_56.pls"
+              }
+            ],
+            "guid": "4fcf712f0e98465e99293bcc196a2dae",
+            "title": "MPB Think Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpbonline.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wmpn_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wmpn_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/510_645e79373939536b53a9d31d8d64e390.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/510_8885be1de4027f0309ed24dc7c1ccf1a.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/510_7a56f24aaeec46a774f9f221fbcbaba5.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/MPBOnline",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "45ff218025d84ca689ca4e1819391b14",
+            "href": "https://playerservices.streamtheworld.com/pls/WMPNFM_56.pls",
+            "isPrimaryStream": false,
+            "title": "MPB Music Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "47dbf8ed72e24ec084141d2531615c5b",
+            "href": "https://playerservices.streamtheworld.com/pls/WMPNHD3_56.pls",
+            "isPrimaryStream": true,
+            "title": "MPB Think Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "2d9a8cc84b1945cb8a404f89ad676614",
+            "href": "https://feeds.acast.com/public/shows/5c7d614909e215fd7b527542",
+            "title": "Deep South Dining",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ea5730cec82c4144bef21dbb80d9bfec",
+            "href": "https://feeds.acast.com/public/shows/5d893336bd7d8a2b67020ead",
+            "title": "Now You're Talking with Marshall Ramsey",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d51c50c2e3db4a8ea779fb1ec646c172",
+            "href": "https://feeds.acast.com/public/shows/5c82f1828aad6b8827ee23a0",
+            "title": "Southern Remedy",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "36ac960f559b40118b55b1bb934bf5bc",
+            "href": "https://feeds.acast.com/public/shows/5d8932fa719a100a4a0192c0",
+            "title": "Next Stop, Mississippi",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "08cd2d56102a46ed9596bfee1ebb2106",
+            "href": "https://feeds.acast.com/public/shows/5c82f085c1f1f55f193322c5",
+            "title": "The Gestalt Gardener",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e0742ecc97ef40cfaccc9e99f49c93c0",
+            "href": "https://feeds.acast.com/public/shows/5cffdbed5d22166347cec3d8",
+            "title": "Conversations",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c445d77083c240d4a4cea309cae7d851",
+            "href": "https://feeds.acast.com/public/shows/5e32e846f85b2ea1184099da",
+            "title": "MPB's Season Pass",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5ff1b0ffaa564524806755f41de7caad",
+            "href": "https://feeds.acast.com/public/shows/5d892b22719a100a4a0192bd",
+            "title": "Mississippi Edition",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e5659a75495e430ea4d2a19a42524a89",
+            "href": "https://feeds.acast.com/public/shows/5c82f148f1ba53a405a4c227",
+            "title": "Fix It 101",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "96d9e722a29641c5be2ce32e7292834b",
+            "href": "https://feeds.acast.com/public/shows/5cd31efb995459133c97ab7d",
+            "title": "Money Talks",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "44e368d1e9c54c01af77efff709652f4",
+            "href": "https://feeds.acast.com/public/shows/5cd2d68043b416d4617f91c9",
+            "title": "In Legal Terms",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "67679258917046c7879e35b5b593c47a",
+            "href": "https://feeds.acast.com/public/shows/5cd2da93d59f73d577da1cd5",
+            "title": "Auto Correct",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cfe2b7efe97a4633bd205dd5033a0136",
+            "href": "https://feeds.acast.com/public/shows/5cd42df8e8b7d3577670d4a1",
+            "title": "Creature Comforts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "68576689b9c34f3b8be9266004ca2006",
+            "href": "https://feeds.acast.com/public/shows/5c82f2368aad6b8827ee23a2",
+            "title": "Everyday Tech",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "af37c7e8f6284713ac066fc7a6629f6d",
+            "href": "https://be.mpbfoundation.org/donate/index.html",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "ac08ba828d77417bb95943243deb85d6",
+            "href": "https://be.mpbfoundation.org/donate/index.html",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "45a44222e7d1467280fa0771c225a4d2",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/510_5e1f66d7d116c954ae20c49c6bf0c456.mp4",
+            "title": "Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/510.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/460",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701105ed4c51bf4328f5545ae5f4",
+        "brand": {
+          "band": "FM",
+          "call": "WJSU",
+          "frequency": "88.5",
+          "marketCity": "Jackson",
+          "marketState": "MS",
+          "name": "WJSU",
+          "tagline": "WJSU is \"Cool and Current\""
+        },
+        "orgId": "460",
+        "network": {
+          "inheritingFrom": "460",
+          "usesInheritance": false,
+          "currentOrgId": "460",
+          "tier1": {
+            "name": "WJSU-FM",
+            "id": "460",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wjsu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wjsu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/460.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WJSUstation",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/wjsu885",
+            "content-type": "text/html"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "43318c0fe0b946c39fe4b4ecea5d6531",
+            "href": "https://wjsu.drupal.publicbroadcasting.net/podcasts",
+            "title": "WJSU",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b38df24f7a794ce59aff4d0cd2b47b4a",
+            "href": "https://secure.publicbroadcasting.net/wjsu/default/form.pledgemain",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/460.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/582",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf701122e4441f9e34c6c15ae00336",
+        "brand": {
+          "band": "FM",
+          "call": "WPRL",
+          "frequency": "91.7",
+          "marketCity": "Lorman",
+          "marketState": "MS",
+          "name": "WPRL",
+          "tagline": "Alcorn Public Radio"
+        },
+        "orgId": "582",
+        "network": {
+          "inheritingFrom": "582",
+          "usesInheritance": false,
+          "currentOrgId": "582",
+          "tier1": {
+            "name": "WPRL-FM",
+            "id": "582",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wprl.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/582.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "0fbd74ec09e1460e96eed6b91302a573",
+            "href": "http://www.wprl.org/support-us",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/582.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/670",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf7012106b40838c53c863e5f843d2",
+        "brand": {
+          "band": "FM",
+          "call": "WURC",
+          "frequency": "88.1",
+          "marketCity": "Holly Springs",
+          "marketState": "MS",
+          "name": "WURC",
+          "tagline": "Your station that cares"
+        },
+        "orgId": "670",
+        "network": {
+          "inheritingFrom": "670",
+          "usesInheritance": false,
+          "currentOrgId": "670",
+          "tier1": {
+            "name": "WURC-FM",
+            "id": "670",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wurc.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/670.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "00b0403e8c844a99a5004df611803f95",
+            "href": "http://www.wurc.org/index.htm",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/670.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

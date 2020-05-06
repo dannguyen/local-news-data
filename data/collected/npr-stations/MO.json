@@ -1,0 +1,1548 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "MO"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/60",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kcur-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "60",
+        "network": {
+          "inheritingFrom": "60",
+          "usesInheritance": false,
+          "currentOrgId": "60",
+          "tier1": {
+            "name": "KCUR-FM",
+            "id": "60",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "60",
+          "recency": 240
+        },
+        "guid": "4fcf700e0e8449129b10cb607c82f887",
+        "brand": {
+          "band": "FM",
+          "call": "KCUR",
+          "frequency": "89.3",
+          "marketCity": "Kansas City",
+          "marketState": "MO",
+          "name": "KCUR 89.3",
+          "tagline": "Listen and discover."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "dcccd57c8d2841e5a6c76c01f7fda172",
+                "typeId": "10",
+                "href": "https://kcurlive.umkc.edu/kcur893"
+              }
+            ],
+            "guid": "4fcf713d171e48bcbdcd43348fae0358",
+            "title": "KCUR 89.3",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kcur.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kcur_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kcur_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/60_688c87877d857d71e18fe25a2753509e.mp4?1505313031399",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/60_c9c2596b48ae7269053f426cecfc6f04.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KCURKansasCity",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/kcur",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "dcccd57c8d2841e5a6c76c01f7fda172",
+            "href": "https://kcurlive.umkc.edu/kcur893",
+            "isPrimaryStream": true,
+            "title": "KCUR 89.3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "4304e78831a84d02bf04e02705789dea",
+            "href": "https://www.kcur.org/podcast/question-quest/rss.xml",
+            "title": "Question Quest",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e69bd851bdb54029a24dd75c32330ff3",
+            "href": "https://www.kcur.org/podcast/statehouse-blend-kansas/rss.xml",
+            "title": "Statehouse Blend Kansas",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "92e4d647a9bb4cdaa9efe6f2f587ce7c",
+            "href": "https://www.kcur.org/podcast/central-standard/rss.xml",
+            "title": "Central Standard",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cc83a78047614208b9a1e1a2529908d7",
+            "href": "https://www.kcur.org/podcast/up-to-date/rss.xml",
+            "title": "Up To Date",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "24f27e295bb14e60844854e78adc3f5e",
+            "href": "https://www.kcur.org/podcast/a-peoples-history-of-kansas-city/rss.xml",
+            "title": "A People's History of Kansas City",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d6344ada9fd84a4494f2fea784bfc7ab",
+            "href": "https://kcur.drupal.publicbroadcasting.net/podcasts/101152/rss.xml",
+            "title": "Midwesternish",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ec11e4ccf5cd4859aaeafa2895941155",
+            "href": "https://www.kcur.org/podcast/statehouse-blend-missouri/rss.xml",
+            "title": "Statehouse Blend Missouri",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b7dca9b7a602430692315cca07046154",
+            "href": "https://www.kcur.org/podcast/my-fellow-kansans/rss.xml",
+            "title": "My Fellow Kansans",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "ee3185a64a134f37bbb66bff5d267278",
+            "href": "https://kcurwebdonate.umkc.edu/alleg/WebModule/Donate.aspx?P=NPRONE&PAGETYPE=PLG&CHECK=nypELGXM3xAhrOSvjvOZaxiCxtaFReuS",
+            "title": "Donate to KCUR 89.3",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "fa3cb2dbdc274728841b4eca8e4c1bef",
+            "href": "http://goo.gl/qiGx8j",
+            "title": "Donate to KCUR 89.3",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "152d31b92568475da46b50f9dc099e59",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/60_8e47d94506343aa07a974e6ec83b1949.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "e7db11b070c24698ada9421a139f15f4",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/60_89adec1e4aa0e495b3036ca6655c6319.mp4",
+            "title": "Spring 2020 Pledge - C",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "956fe3a20a6642a3ae853df607f1818d",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/60_5701d178a42d10436c3541f5e36bee86.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "330b2a4133ab435f85d154ccccd4aa97",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/60_eaafba32d6f22a21cafe413d47018089.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/60.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/278",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kwmu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "278",
+        "network": {
+          "inheritingFrom": "278",
+          "usesInheritance": false,
+          "currentOrgId": "278",
+          "tier1": {
+            "name": "KWMU-FM",
+            "id": "278",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KMST-FM",
+                "id": "222",
+                "usesInheritance": true
+              },
+              {
+                "name": "WQUB-FM",
+                "id": "593",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "278",
+          "recency": 360
+        },
+        "guid": "4fcf700f23b34528a61a692e91495613",
+        "brand": {
+          "band": "FM",
+          "call": "KWMU",
+          "frequency": "90.7",
+          "marketCity": "St. Louis",
+          "marketState": "MO",
+          "name": "St. Louis Public Radio",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "654baf7d6b2448bf9c8b0e0d1ee8fd6d",
+                "typeId": "10",
+                "href": "https://kwmu2-ice.streamguys1.com/jazz-128"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "84af6a14e4044873816814728071eeda",
+                "typeId": "13",
+                "href": "https://kwmu2-ice.streamguys1.com/jazz-aac"
+              }
+            ],
+            "guid": "c8a3e2a309cc424eabef7bd052fbd8e6",
+            "title": "Jazz KWMU-2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f98f2c8c09434a6a8049ce833d732bf6",
+                "typeId": "10",
+                "href": "https://kwmu3-ice.streamguys1.com/kwmu3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "4ac8d6b63a7f4c35abd5d2967bb9f0aa",
+                "typeId": "13",
+                "href": "https://kwmu3-ice.streamguys1.com/kwmu3-aac"
+              }
+            ],
+            "guid": "4fcf713f1f9440159e62c0d89db3f285",
+            "title": "Classical KWMU-3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0f2ad2da9b87496fb6482a1307d56ee8",
+                "typeId": "10",
+                "href": "https://kwmu1-ice.streamguys1.com/kwmu1"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "01eb34c6cd60434d91afb532e1bcaf9a",
+                "typeId": "13",
+                "href": "https://kwmu1-ice.streamguys1.com/kwmu-itunes.aac"
+              }
+            ],
+            "guid": "4fcf713f1a164729b01822ebf6cfa35d",
+            "title": "St. Louis Public Radio KWMU-1",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.stlpublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kwmu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kwmu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/278_d2ec4a4558cb5bb6b0f0160e246ebc67.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/278_c364d7385b4de7f0054a0015952a8b16.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/278_3d2786cc4ce624dc6adf819db70c15de.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/278_411aefb793c5a5819f99e6471faf5882.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/stlpublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/stlpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "654baf7d6b2448bf9c8b0e0d1ee8fd6d",
+            "href": "https://kwmu2-ice.streamguys1.com/jazz-128",
+            "isPrimaryStream": false,
+            "title": "Jazz KWMU-2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f98f2c8c09434a6a8049ce833d732bf6",
+            "href": "https://kwmu3-ice.streamguys1.com/kwmu3",
+            "isPrimaryStream": false,
+            "title": "Classical KWMU-3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "0f2ad2da9b87496fb6482a1307d56ee8",
+            "href": "https://kwmu1-ice.streamguys1.com/kwmu1",
+            "isPrimaryStream": true,
+            "title": "St. Louis Public Radio KWMU-1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "84af6a14e4044873816814728071eeda",
+            "href": "https://kwmu2-ice.streamguys1.com/jazz-aac",
+            "isPrimaryStream": false,
+            "title": "Jazz KWMU-2",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "01eb34c6cd60434d91afb532e1bcaf9a",
+            "href": "https://kwmu1-ice.streamguys1.com/kwmu-itunes.aac",
+            "isPrimaryStream": true,
+            "title": "St. Louis Public Radio KWMU-1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "4ac8d6b63a7f4c35abd5d2967bb9f0aa",
+            "href": "https://kwmu3-ice.streamguys1.com/kwmu3-aac",
+            "isPrimaryStream": false,
+            "title": "Classical KWMU-3",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "405ffd96eab64de686b514a5f011fe84",
+            "href": "https://kwmu-rss.streamguys1.com/cut_and_paste/cut-and-paste-npr.xml",
+            "title": "Cut & Paste",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a324892da923488ca6ea245cac59ef0b",
+            "href": "https://feeds.feedburner.com/weliveherestl",
+            "title": "We Live Here",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5da38211a379451a8e03e0f8937ceb61",
+            "href": "https://kwmu-rss.streamguys1.com/gateway/gateway-npr.xml",
+            "title": "The Gateway",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "17b100a9d26a4ab09313759427d890f6",
+            "href": "https://kwmu-rss.streamguys1.com/stl_on_the_air/st-louis-on-the-air-npr.xml",
+            "title": "St. Louis on the Air",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d2f97120b63342dd84b640d2cc4a4b60",
+            "href": "https://kwmu-rss.streamguys1.com/politically_speaking/politically-speaking-npr.xml",
+            "title": "Politically Speaking",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a091af32a4de496481f3eecca731de48",
+            "href": "https://kwmu-rss.streamguys1.com/wake_up_to_politics/wake-up-to-politics-npr.xml",
+            "title": "Wake Up To Politics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "97e10fe256e04dfcbc5fe306618deda7",
+            "href": "https://stlpublicradio.org/npr-donate",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "199684b27d4644089f2dec183c90f44b",
+            "href": "https://stlpublicradio.org/npr-one-donate",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "2def91d5d72e4863b91fa39718108fa3",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/278_9fec98c8180dbdc44e0918324adc5f71.mp4",
+            "title": "Rachel PS20 Digital",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "98ef94d04f274e2a8264d162fdd008f6",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/278_4a63e826cfd0ecf219bcbfd0fce965d7.mp4",
+            "title": "MLT PS20 Digital",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/278.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/17",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kbia-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "17",
+        "network": {
+          "inheritingFrom": "17",
+          "usesInheritance": false,
+          "currentOrgId": "17",
+          "tier1": {
+            "name": "KBIA-FM",
+            "id": "17",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KAUD-FM",
+                "id": "1501",
+                "usesInheritance": true
+              },
+              {
+                "name": "KKTR-FM",
+                "id": "1505",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700e02434c1bbfbb73b834a1c1f0",
+        "brand": {
+          "band": "FM",
+          "call": "KBIA",
+          "frequency": "91.3",
+          "marketCity": "Columbia",
+          "marketState": "MO",
+          "name": "KBIA",
+          "tagline": "Mid-Missouri's NPR station."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "31c6169071c7424fa8a91c6cfeba9815",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KBIAHD3.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "906b35fd6f56423987c86a9e89f99968",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KBIAHD3AAC.pls"
+              }
+            ],
+            "guid": "4fcf71590d934d6d95016f956394d396",
+            "title": "KBIA 3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "45fa97acd57142dfb824de65fded0ffa",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KBIAHD2.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "f82947c1d13c4c94bf00194934d5b019",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KBIAHD2.pls"
+              }
+            ],
+            "guid": "4fcf715908bd49b6b23a9df0362c5ee0",
+            "title": "KBIA 2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "65fb40d9ada4442d9c24de140ca587d0",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KBIAFM.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "5097a560b2cf43b4b6bde1b76a59d697",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KBIAFMAAC_256.pls"
+              }
+            ],
+            "guid": "4fcf715826a0423c8ffab082f4f2dd65",
+            "title": "KBIA",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kbia.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kbia_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kbia_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/17.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/KBIAnews",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/KBIA",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "31c6169071c7424fa8a91c6cfeba9815",
+            "href": "https://playerservices.streamtheworld.com/pls/KBIAHD3.pls",
+            "isPrimaryStream": false,
+            "title": "KBIA 3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "45fa97acd57142dfb824de65fded0ffa",
+            "href": "https://playerservices.streamtheworld.com/pls/KBIAHD2.pls",
+            "isPrimaryStream": false,
+            "title": "KBIA 2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "65fb40d9ada4442d9c24de140ca587d0",
+            "href": "https://playerservices.streamtheworld.com/pls/KBIAFM.pls",
+            "isPrimaryStream": true,
+            "title": "KBIA",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f82947c1d13c4c94bf00194934d5b019",
+            "href": "https://playerservices.streamtheworld.com/pls/KBIAHD2.pls",
+            "isPrimaryStream": false,
+            "title": "KBIA 2",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "906b35fd6f56423987c86a9e89f99968",
+            "href": "https://playerservices.streamtheworld.com/pls/KBIAHD3AAC.pls",
+            "isPrimaryStream": false,
+            "title": "KBIA 3",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "5097a560b2cf43b4b6bde1b76a59d697",
+            "href": "https://playerservices.streamtheworld.com/pls/KBIAFMAAC_256.pls",
+            "isPrimaryStream": true,
+            "title": "KBIA",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "58109729c9574aedb4156705b67d276f",
+            "href": "https://feeds.podtrac.com/fAVl1rFEzvR8",
+            "title": "Intersection",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "721675b45c1242b99f7e5903e341167b",
+            "href": "https://feeds.podtrac.com/iU2PX2lJIoKJ",
+            "title": "Under the Microscope",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cb2d7fc094ed454abed1c5d0c54dadec",
+            "href": "https://feedpress.me/obvious-question",
+            "title": "The Obvious Question",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d0db6f9ea3bf44deb0af4fb8b9ff0d2a",
+            "href": "https://feedpress.me/ViewsOnKBIA",
+            "title": "Views of the News on KBIA",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f8bbe12864404d24a84f9b5af999392f",
+            "href": "https://feedpress.me/truefalse",
+            "title": "True/False",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "92fec83da2f043369e8b9ee64e39d807",
+            "href": "https://kbia.drupal.publicbroadcasting.net/podcasts/346/rss.xml",
+            "title": "Global Journalist",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f1251ffe8ee64eadabb0ddc32c00d310",
+            "href": "https://feedpress.me/show-me-the-state",
+            "title": "Show Me The State",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "66453c8ff7e64f4cada4fc93ed4b493d",
+            "href": "https://kbia.missouri.edu/alleg/WebModule/Donate.aspx?P=MAIN&PAGETYPE=PLG&CHECK=r7ZyK9McKTWqK20krF35cqUOstgWaB20",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/17.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/170",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/ksmu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "170",
+        "network": {
+          "inheritingFrom": "170",
+          "usesInheritance": false,
+          "currentOrgId": "170",
+          "tier1": {
+            "name": "KSMU-FM",
+            "id": "170",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KSMS-FM",
+                "id": "171",
+                "usesInheritance": true
+              },
+              {
+                "name": "KSMW-FM",
+                "id": "840",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "170",
+          "recency": 120
+        },
+        "guid": "4fcf700f08834e7b8863f9691e6ee730",
+        "brand": {
+          "band": "FM",
+          "call": "KSMU",
+          "frequency": "91.1",
+          "marketCity": "Springfield",
+          "marketState": "MO",
+          "name": "KSMU",
+          "tagline": "On the Web, On the Air, and Where You Live"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9683a760bbaf43f5b70e386c6f540935",
+                "typeId": "10",
+                "href": "https://ksmu.streamguys1.com/ksmu3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "ddaadf53c3d241e9a8abf196525ac87e",
+                "typeId": "13",
+                "href": "https://ksmu.streamguys1.com/ksmu1"
+              }
+            ],
+            "guid": "4fcf713e1e73472fa756ea39634396bc",
+            "title": "KSMU-FM / HD1",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "860df24f5f3e451cb023647d7b2091aa",
+                "typeId": "10",
+                "href": "https://ksmu.streamguys1.com/ksmu4"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "99c493c042014757aa5da5a004968c7c",
+                "typeId": "13",
+                "href": "https://ksmu.streamguys1.com/ksmu2"
+              }
+            ],
+            "guid": "4fcf713e231c45ad9a97008c21d0c05d",
+            "title": "KSMU-FM / HD2",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.ksmu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/ksmu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ksmu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/170.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KSMU",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/ksmu",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "9683a760bbaf43f5b70e386c6f540935",
+            "href": "https://ksmu.streamguys1.com/ksmu3",
+            "isPrimaryStream": true,
+            "title": "KSMU-FM / HD1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "860df24f5f3e451cb023647d7b2091aa",
+            "href": "https://ksmu.streamguys1.com/ksmu4",
+            "isPrimaryStream": false,
+            "title": "KSMU-FM / HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "99c493c042014757aa5da5a004968c7c",
+            "href": "https://ksmu.streamguys1.com/ksmu2",
+            "isPrimaryStream": false,
+            "title": "KSMU-FM / HD2",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "ddaadf53c3d241e9a8abf196525ac87e",
+            "href": "https://ksmu.streamguys1.com/ksmu1",
+            "isPrimaryStream": true,
+            "title": "KSMU-FM / HD1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "5dd2bf7b8a1f44b6bacaabc680cda59b",
+            "href": "https://ksmumain.drupal.publicbroadcasting.net/podcasts/446/rss.xml",
+            "title": "Rountree News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0662e54e31bc46748a8f53440e35e5af",
+            "href": "https://ksmumain.drupal.publicbroadcasting.net/podcasts/832/rss.xml",
+            "title": "Making A Difference: Stories of Hope and Help",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "115495884a6f4a0b9c68dcd33a527f92",
+            "href": "https://ksmumain.drupal.publicbroadcasting.net/podcasts/445/rss.xml",
+            "title": "Making Democracy Work",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ff489334953049568211063b367d31f3",
+            "href": "https://ksmumain.drupal.publicbroadcasting.net/podcasts/44/rss.xml",
+            "title": "Engaging the Community",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cc711b000ba9404cac8671ccf701b12a",
+            "href": "https://ksmumain.drupal.publicbroadcasting.net/podcasts/208/rss.xml",
+            "title": "These Ozarks Hills",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b3b6ef808dc440f19540f7f716007c61",
+            "href": "https://ksmumain.drupal.publicbroadcasting.net/podcasts/833/rss.xml",
+            "title": "Sense of Community",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "18d99c4021454bf19b0951308f71d3a3",
+            "href": "https://ksmumain.drupal.publicbroadcasting.net/podcasts/41/rss.xml",
+            "title": "Arts News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b6d150e2816c4001a0c717af86968e3a",
+            "href": "https://ksmumain.drupal.publicbroadcasting.net/podcasts/29909/rss.xml",
+            "title": "STEM Spots",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ce696ad7f69f40f98fa55d76d2407919",
+            "href": "https://ksmumain.drupal.publicbroadcasting.net/podcasts/598/rss.xml",
+            "title": "Missouri State Journal",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f1f818aeb79d4248a5ffef4ecca3b142",
+            "href": "https://ksmumain.drupal.publicbroadcasting.net/podcasts/444/rss.xml",
+            "title": "Weekend Outlook",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "bc6e97c22daf42ada2e455686e9ede86",
+            "href": "https://ksmumain.drupal.publicbroadcasting.net/podcasts",
+            "title": "KSMU News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "afa9bcabf12849cb8d859b04d150a960",
+            "href": "https://optv.secureallegiance.com/kozk/WebModule/Donate.aspx?P=NPRKSMU&PAGETYPE=PLG&CHECK=cEDiiN9%2bIrN9eHj%2byZsin%2bzWDeZ%2beA1M",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "d6578234f3db49f3bf8970a9ebc8fdc2",
+            "href": "https://optv.secureallegiance.com/kozk/WebModule/Donate.aspx?P=NPRKSMU&PAGETYPE=PLG&CHECK=cEDiiN9%2bIrN9eHj%2byZsin%2bzWDeZ%2beA1M",
+            "title": "Support",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "45f7a1b6c8954eea9fee0212d20c8066",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/170_29a2468bf14bf2c365202371caf1c1cd.mp4",
+            "title": "Michele Donation Spot",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "8d65bb0c4a764e6c8aca0da53b27286c",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/170_ad4eacd8cb76bfde496a44c7522981d4.mp4",
+            "title": "Kathryn Donation Spot",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/170.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/193",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "193",
+        "network": {
+          "inheritingFrom": "193",
+          "usesInheritance": false,
+          "currentOrgId": "193",
+          "tier1": {
+            "name": "KTBG-FM",
+            "id": "193",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf700f0f51414fa914413e6af9e5b2",
+        "brand": {
+          "band": "FM",
+          "call": "KTBG",
+          "frequency": "90.9",
+          "marketCity": "Warrensburg",
+          "marketState": "MO",
+          "name": "The Bridge",
+          "tagline": "Turn On. Tune In. Listen Local."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "14234d6db3f74e57b0a4ba9d6e2e8a12",
+                "typeId": "10",
+                "href": "https://live.wostreaming.net/playlist/publictv19-ktbgfmaac-imc1.m3u"
+              }
+            ],
+            "guid": "c9c1581ff8a84003bb669fc3723f4516",
+            "title": "The Bridge",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://bridge909.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/ktbg_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ktbg_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/193.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/909thebridge",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/909thebridge",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "14234d6db3f74e57b0a4ba9d6e2e8a12",
+            "href": "https://live.wostreaming.net/playlist/publictv19-ktbgfmaac-imc1.m3u",
+            "isPrimaryStream": true,
+            "title": "The Bridge",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "0aea9f107a214d46b42c7d6db263457d",
+            "href": "https://bridge909.org/podcasts/eightonesixty/feed/",
+            "title": "Eight One Sixty with Chris Haghirian",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a36868ede7c34ecf8c97acdd774f7edb",
+            "href": "https://bridge909.org/podcasts/mixtapes-mixology/feed/",
+            "title": "Mixtapes & Mixology",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b2531eed1b394a9e87a2f75f6697b498",
+            "href": "https://bridge909.org/donate/",
+            "title": "Support The Bridge",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/193.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/155",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/krcu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "155",
+        "network": {
+          "inheritingFrom": "155",
+          "usesInheritance": false,
+          "currentOrgId": "155",
+          "tier1": {
+            "name": "KRCU-FM",
+            "id": "155",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KSEF-FM",
+                "id": "998",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "155",
+          "recency": 240
+        },
+        "guid": "4fcf700f045c4b2dbb4632dfd39b0f06",
+        "brand": {
+          "band": "FM",
+          "call": "KRCU",
+          "frequency": "90.9",
+          "marketCity": "Cape Girardeau",
+          "marketState": "MO",
+          "name": "KRCU Public Radio",
+          "tagline": "Southeast Missouri's NPR station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "6878d31e3eb245bbacbada105bcac6a1",
+                "typeId": "13",
+                "href": "https://krculive.semo.edu:8443/mobile"
+              }
+            ],
+            "guid": "6e34db70582d45ce9474d2044a761b16",
+            "title": "KRCU (64k aac)",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "58287105e8be45a594b9cb620f4eee05",
+                "typeId": "13",
+                "href": "https://krculive.semo.edu:8443/live"
+              }
+            ],
+            "guid": "ee0022d106e54ea1a8ece1cb5243c41c",
+            "title": "KRCU (128k aac)",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.krcu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/krcu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/krcu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/155_adae33dfb34360516fa891bd34b93b86.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/KRCUFM",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/krcufm",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "6878d31e3eb245bbacbada105bcac6a1",
+            "href": "https://krculive.semo.edu:8443/mobile",
+            "isPrimaryStream": true,
+            "title": "KRCU (64k aac)",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "58287105e8be45a594b9cb620f4eee05",
+            "href": "https://krculive.semo.edu:8443/live",
+            "isPrimaryStream": false,
+            "title": "KRCU (128k aac)",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "97efe4b073394e2fb1c73a3c22097375",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/46847/rss.xml",
+            "title": "KRCU's to Your Health",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3ed640e22bf44b85b2f1654c85c1f597",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/65604/rss.xml",
+            "title": "KRCU's All About Cape",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "60b7d8c34d69499b83a3207f025a29f3",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/62082/rss.xml",
+            "title": "KRCU's Two-Minute Drill",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0e84c326a3364b1aa6bcd7e270c70170",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/1023/rss.xml",
+            "title": "KRCU's Almost Yesterday",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "dc7303b694744bfa94000e2eb5401ffa",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/1041/rss.xml",
+            "title": "KRCU's Discover Nature",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8f6cbc17343f4c4fad8faee0c9e65de8",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/103006/rss.xml",
+            "title": "KRCU's Exposition: An Arts + Culture Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "45a3cc366bd6407293b3436e83f37faa",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/62130/rss.xml",
+            "title": "KRCU's Going Public",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "11c1ca94ac9b47cfb8732ad72cda0a9e",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/111272/rss.xml",
+            "title": "KRCU's SEMO Spotlight",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5269359ef3ec4890876a95012c8918f0",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/5172/rss.xml",
+            "title": "KRCU's A Harte Appetite",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b90fa91fcaf545babe67b7d8a0c64a49",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/99176/rss.xml",
+            "title": "KRCU's Martin's Must Reads",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6ceaac73eb2a471ba5a81ff50ef262bb",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/50624/rss.xml",
+            "title": "KRCU's Consumer Handbook",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "15ee48046c5f4ddcb0775e88a2b30fcd",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/58345/rss.xml",
+            "title": "KRCU's Vargas Speaks",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ff1dcd0bbb424886ab76a7dfedffa9a0",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/109544/rss.xml",
+            "title": "KRCU Local Newscasts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "94551849461746d4860f8226f617e58a",
+            "href": "https://krcu.drupal.publicbroadcasting.net/podcasts/term/2315/rss.xml",
+            "title": "KRCU's Living in the Shadows",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "5d85595c37f647d885bce879a77fbb7c",
+            "href": "https://donate.nprstations.org/krcu/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "a07cfc5a22884e11adaff8873ad5cc4a",
+            "href": "https://donate.nprstations.org/krcu/",
+            "title": "Contribute to KRCU",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "f5d4f1a56cc5414e9f16a925fc1b1ddd",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/155_734a2264baef60c15ada0a7f87ce01c2.mp4",
+            "title": "KRCU Fundraising Jason Mug",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/155.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/283",
+      "attributes": {
+        "newscast": {
+          "id": "283",
+          "recency": null
+        },
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf700f24e74f78bb845a25157cf52c",
+        "brand": {
+          "band": "FM",
+          "call": "KXCV",
+          "frequency": "90.5",
+          "marketCity": "Maryville",
+          "marketState": "MO",
+          "name": "KXCV",
+          "tagline": "Public Radio from Northwest Missouri State University"
+        },
+        "orgId": "283",
+        "network": {
+          "inheritingFrom": "283",
+          "usesInheritance": false,
+          "currentOrgId": "283",
+          "tier1": {
+            "name": "KXCV-FM",
+            "id": "283",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KRNW-FM",
+                "id": "284",
+                "usesInheritance": true
+              }
+            ]
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kxcv.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kxcv_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kxcv_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/283.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KXCV-KRNW/59502663577",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "9e94d95c899340a0b597a7d3f7c9c754",
+            "href": "http://www.kxcv.org/pledge.htm",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/283.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

@@ -1,0 +1,3147 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "AK"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/169",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kska-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "169",
+        "network": {
+          "name": "Alaska Public Media",
+          "inheritingFrom": "168",
+          "usesInheritance": true,
+          "currentOrgId": "169",
+          "tier1": {
+            "name": "Alaska Public Telecommunications Inc.",
+            "id": "168",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KSKA-FM",
+                "id": "169",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "168",
+          "recency": 120
+        },
+        "guid": "4fcf700f083a478f80488d5298bc079b",
+        "brand": {
+          "band": "FM",
+          "call": "KSKA",
+          "frequency": "91.1",
+          "marketCity": "Anchorage",
+          "marketState": "AK",
+          "name": "Alaska Public Media",
+          "tagline": "Connecting Alaskans. Life Informed."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "453a90549cdb4ea0a9f7600ee567e24e",
+                "typeId": "10",
+                "href": "https://quarrel.streamguys1.com:8295/xstream"
+              }
+            ],
+            "guid": "4fcf7137177a49c39092e7ae2a8ebfb5",
+            "title": "Alaska Public Media - KSKA Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.alaskapublic.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/apti.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/apti.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/168_c71c7b314d372b4b362cfa692956599b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/alaskapublic",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/alaskapublic",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "453a90549cdb4ea0a9f7600ee567e24e",
+            "href": "https://quarrel.streamguys1.com:8295/xstream",
+            "isPrimaryStream": true,
+            "title": "Alaska Public Media - KSKA Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "1e262eeab3f543dfa06b97493a459a9b",
+            "href": "https://hunkerdownalaska.libsyn.com/rss",
+            "title": "Alaska Interrupted",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7c855375007b40de97ff374034050dd7",
+            "href": "https://payingdividends.libsyn.com/rss",
+            "title": "Paying Dividends",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0fe99055da5a4e82b61ecb01d02798a9",
+            "href": "https://solutionsdesk.libsyn.com/rss",
+            "title": "Solutions Desk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4e80d49c8f6b43408b81db26e1681127",
+            "href": "https://midnightoil.libsyn.com/rss",
+            "title": "Midnight Oil: The Big Thaw",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9d35f29980b5413b8e91f9f056fc16de",
+            "href": "https://www.alaskapublic.org/alaska-news-nightly/feed/",
+            "title": "Alaska News Nightly",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "13bd34648e74449eb13504051ed945e0",
+            "href": "https://iditapod.libsyn.com/rss",
+            "title": "Iditapod",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b907f5e3b63240d18f1d0fcc42661b76",
+            "href": "https://www.alaskapublic.org/support/donate-splash-page/",
+            "title": "Contribute to Alaska Public Media",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "bd885088636649808943dc65b5c44ecb",
+            "href": "http://www.alaskapublic.org/support/",
+            "title": "Contribute to Alaska Public Media",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/195",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/ktoo-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "195",
+        "network": {
+          "inheritingFrom": "195",
+          "usesInheritance": false,
+          "currentOrgId": "195",
+          "tier1": {
+            "name": "KTOO-FM",
+            "id": "195",
+            "usesInheritance": false,
+            "status": "9",
+            "tier2": [
+              {
+                "name": "KXLL-FM",
+                "id": "1000",
+                "usesInheritance": false
+              },
+              {
+                "name": "KRNN-FM",
+                "id": "1005",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "195",
+          "recency": 360
+        },
+        "guid": "4fcf700f0fbe45fcb9ebeda2b4efbbcd",
+        "brand": {
+          "band": "FM",
+          "call": "KTOO",
+          "frequency": "104.3",
+          "marketCity": "Juneau",
+          "marketState": "AK",
+          "name": "KTOO",
+          "tagline": "Juneau's 24 hour news station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9026d4892267414cb2ed2028c47c21fb",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KTOOFM.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "16df0820bc154fafb8a067eab83a10cd",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KTOOFMAAC.pls"
+              }
+            ],
+            "guid": "4fcf715c1cf549cca90197be99024935",
+            "title": "KTOO News 104.3 ",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.ktoo.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/ktoo_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ktoo_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/195.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/ktoopublicmedia",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KTOOpubmedia",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "9026d4892267414cb2ed2028c47c21fb",
+            "href": "https://playerservices.streamtheworld.com/pls/KTOOFM.pls",
+            "isPrimaryStream": true,
+            "title": "KTOO News 104.3 ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "16df0820bc154fafb8a067eab83a10cd",
+            "href": "https://playerservices.streamtheworld.com/pls/KTOOFMAAC.pls",
+            "isPrimaryStream": true,
+            "title": "KTOO News 104.3 ",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "66d3dd89e98e40c0bbab5e64636fc451",
+            "href": "https://feeds.ktoo.org/curiousjuneau",
+            "title": "Curious Juneau",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0bd4139d23bf485b94255986528cbf59",
+            "href": "https://feeds.ktoo.org/Gardentalk-Juneau",
+            "title": "Gardentalk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2421d8f35acd4353938c29cca418fc8f",
+            "href": "https://midnightoil.libsyn.com/rss",
+            "title": "Midnight Oil",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "152a2135bcdf4f1891bb2242fc382f13",
+            "href": "https://ktoojuneau.libsyn.com/rss",
+            "title": "Cruise Town",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "72b69f74a09546f3845d6d831c818c34",
+            "href": "https://feeds.ktoo.org/juneauafternoon",
+            "title": "Juneau Afternoon",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2cb03e90ccd44f779aa014214ea16bd5",
+            "href": "https://www.ktoo.org/donate",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/195.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/196",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "orgId": "196",
+        "network": {
+          "inheritingFrom": "196",
+          "usesInheritance": false,
+          "currentOrgId": "196",
+          "tier1": {
+            "name": "KUAC-FM",
+            "id": "196",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        },
+        "newscast": {
+          "id": "196",
+          "recency": 360
+        },
+        "guid": "4fcf700f0ff3472ab41cbfc4daf1a875",
+        "brand": {
+          "band": "FM",
+          "call": "KUAC",
+          "frequency": "89.9",
+          "marketCity": "Fairbanks",
+          "marketState": "AK",
+          "name": "KUAC",
+          "tagline": "Public Radio for Alaska's Interior"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "9e8d08733e66460bbe834c451fd9009a",
+                "typeId": "13",
+                "href": "https://kuac.streamon.fm/listen.m3u"
+              }
+            ],
+            "guid": "4fcf7140060b48c1911e512a46af6236",
+            "title": "KUAC-FM ",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "8a2d29f8b4dc4802992c003b3e0174e2",
+                "typeId": "13",
+                "href": "https://kuaciii.streamon.fm/listen.m3u"
+              }
+            ],
+            "guid": "141c7ad8a1c0054475fb919f1654e874",
+            "title": "KUAC3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "ff34b8527259416aa9ba49dc1aa4b8b2",
+                "typeId": "13",
+                "href": "https://kuacii.streamon.fm/listen.m3u"
+              }
+            ],
+            "guid": "141c7ab555101f1471ea10e7152f2d52",
+            "title": "KUAC2",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kuac.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kuac_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kuac_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/196.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KUAC/132219969921",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KUACFM",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "9e8d08733e66460bbe834c451fd9009a",
+            "href": "https://kuac.streamon.fm/listen.m3u",
+            "isPrimaryStream": true,
+            "title": "KUAC-FM ",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "8a2d29f8b4dc4802992c003b3e0174e2",
+            "href": "https://kuaciii.streamon.fm/listen.m3u",
+            "isPrimaryStream": false,
+            "title": "KUAC3",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "ff34b8527259416aa9ba49dc1aa4b8b2",
+            "href": "https://kuacii.streamon.fm/listen.m3u",
+            "isPrimaryStream": false,
+            "title": "KUAC2",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "084655bfd2644a2e9d04be84e53b3426",
+            "href": "https://kuac.org/kuac-friends-group/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "f590498f61924aab8cbfa269272642de",
+            "href": "https://www.alaska.edu/foundation/kuac-give-now/index.xml",
+            "title": "Support",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/196.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/731",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Variety",
+          "status": "9",
+          "musicOnly": true
+        },
+        "orgId": "731",
+        "network": {
+          "inheritingFrom": "731",
+          "usesInheritance": false,
+          "currentOrgId": "731",
+          "tier1": {
+            "name": "KNBA-FM",
+            "id": "731",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        },
+        "guid": "4fcf70121d804daa924e85064d60abb3",
+        "brand": {
+          "band": "FM",
+          "call": "KNBA",
+          "frequency": "90.3",
+          "marketCity": "Anchorage",
+          "marketState": "AK",
+          "name": "KNBA",
+          "tagline": "Koahnic Broadcast Corporation"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "95a84198c86e489d964add9a274e6d95",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KNBAFM.pls"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3643642e429e4b1e98ab34db96bfca8b",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KNBAFM.pls"
+              }
+            ],
+            "guid": "987c4343b3324caea5e8f52183e09719",
+            "title": "KNBA 90.3FM Anchorage",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.knba.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/knba_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/knba_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/731.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "95a84198c86e489d964add9a274e6d95",
+            "href": "https://playerservices.streamtheworld.com/pls/KNBAFM.pls",
+            "isPrimaryStream": true,
+            "title": "KNBA 90.3FM Anchorage",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "3643642e429e4b1e98ab34db96bfca8b",
+            "href": "https://playerservices.streamtheworld.com/pls/KNBAFM.pls",
+            "isPrimaryStream": true,
+            "title": "KNBA 90.3FM Anchorage",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "cac8ee3c7c3947cf8c789400d6287f7b",
+            "href": "https://kbc.drupal.publicbroadcasting.net/podcasts/term/2493/rss.xml",
+            "title": "KNBA News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "8a59164a1a5c464d83521d9deb95dd8c",
+            "href": "http://bit.ly/2fxbmce",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/816",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "orgId": "816",
+        "network": {
+          "inheritingFrom": "816",
+          "usesInheritance": false,
+          "currentOrgId": "816",
+          "tier1": {
+            "name": "KYUK-AM",
+            "id": "816",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        },
+        "newscast": {
+          "id": "816",
+          "recency": 120
+        },
+        "guid": "4fcf701308d9468f94ea0689e74d33a4",
+        "brand": {
+          "band": "AM",
+          "call": "KYUK",
+          "frequency": "640",
+          "marketCity": "Bethel",
+          "marketState": "AK",
+          "name": "KYUK",
+          "tagline": "Bethel Broadcasting"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f3436ca2a6d6434784b177eaaa0c3be8",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KYUKAM.pls"
+              }
+            ],
+            "guid": "4fcf71601898449e9eda3fd418e6a160",
+            "title": "KYUK English News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kyuk.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kyuk_am.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kyuk_am.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/816.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f3436ca2a6d6434784b177eaaa0c3be8",
+            "href": "https://playerservices.streamtheworld.com/pls/KYUKAM.pls",
+            "isPrimaryStream": true,
+            "title": "KYUK English News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "737b5a412f134150bc7f95351f7d3351",
+            "href": "https://kyuk.drupal.publicbroadcasting.net/podcasts/604/rss.xml",
+            "title": "Yuk to Yuk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7d31dc7bf02d43a88d6eec55dc425200",
+            "href": "https://kyuk.drupal.publicbroadcasting.net/podcasts/3519/rss.xml",
+            "title": "Wellness Wednesday",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "410ee9d970bd431fbcd551dd77e1c2a1",
+            "href": "https://kyuk.drupal.publicbroadcasting.net/podcasts/4278/rss.xml",
+            "title": "Bethel City Council",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "837167897047478a9895f8127b76c462",
+            "href": "https://kyuk.drupal.publicbroadcasting.net/podcasts/3547/rss.xml",
+            "title": "Ikayutet",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9cb8362848d6475c93bc8998bc101705",
+            "href": "https://kyuk.drupal.publicbroadcasting.net/podcasts/605/rss.xml",
+            "title": "Talkline",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6c94aaffe3f047e886e3a2274336d5d8",
+            "href": "https://kyuk.drupal.publicbroadcasting.net/podcasts/3122/rss.xml",
+            "title": "Coffee@KYUK",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b068dfc8036744ed8612632f0dc5dfda",
+            "href": "https://kyuk.drupal.publicbroadcasting.net/podcasts/607/rss.xml",
+            "title": "Ketvarrluku",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8d23beb4d1324a2ab9a8bb499c4ffbd0",
+            "href": "https://kyuk.drupal.publicbroadcasting.net/podcasts/4276/rss.xml",
+            "title": "KYUK Local English And Yup'ik News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "849e8c3f45e64b1db12c9dd6db50f03a",
+            "href": "https://coastalaska.secureallegiance.com/ktoo/WebModule/Donate.aspx?P=09WEB&PAGETYPE=PLG&CHECK=O1YiXHM%2BnvHiQl%2ByqVkEd4HJipnY8PNT",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/816.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/736",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "orgId": "736",
+        "network": {
+          "inheritingFrom": "736",
+          "usesInheritance": false,
+          "currentOrgId": "736",
+          "tier1": {
+            "name": "KBBI-AM",
+            "id": "736",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        },
+        "guid": "4fcf70121ec24b9090be82f5587f158d",
+        "brand": {
+          "band": "AM",
+          "call": "KBBI",
+          "frequency": "890",
+          "marketCity": "Homer",
+          "marketState": "AK",
+          "name": "KBBI",
+          "tagline": "Where the Sound Meets the Sea"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b56e1fe5646f432c83e5800873ea8887",
+                "typeId": "10",
+                "href": "https://kbbi.streamguys1.com/xstream"
+              }
+            ],
+            "guid": "4903d5f458824437ae3d38a037829b23",
+            "title": "Listen to KBBI - AM 890",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kbbi.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kbbi_am.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kbbi_am.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/736_a198672791a141cc162db18746f09c2a.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/736_928c398650c899533aa0e38f042c32ad.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/736_244a73c9dc69d4e1b8f5e16022644bb0.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KBBI-AM-890-Homer-Alaska/127663558413",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/kbbinews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "b56e1fe5646f432c83e5800873ea8887",
+            "href": "https://kbbi.streamguys1.com/xstream",
+            "isPrimaryStream": true,
+            "title": "Listen to KBBI - AM 890",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "268aada8c63d42f585f5cf6d5986adc7",
+            "href": "https://kbbi.drupal.publicbroadcasting.net/podcasts/45959/rss.xml",
+            "title": "Check the Pantry",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "88a8680ee2e34765ad2cad3f3ecc1e87",
+            "href": "https://app.etapestry.com/onlineforms/KachemakBayBroadcastingKBBI/membership.html",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "ca33cea7ef2f4af09b853a58ea0f9e51",
+            "href": "https://app.etapestry.com/onlineforms/KachemakBayBroadcastingKBBI/membership.html",
+            "title": "Donate Today",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "ffd3678c4ef646079515dc67ae1d9f23",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/736_2739c825186e0b2db96d764a4f4d2d8a.mp4",
+            "title": "0708 Ask 1 Jeff",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "a6015a31ee814717924f2bfa74fc43a2",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/736_e3571ab67ddaefec5bdf7414359f8d45.mp4",
+            "title": "0708 Ask 2 Jeff",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/736.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/743",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "orgId": "743",
+        "network": {
+          "inheritingFrom": "743",
+          "usesInheritance": false,
+          "currentOrgId": "743",
+          "tier1": {
+            "name": "KUCB-FM",
+            "id": "743",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        },
+        "guid": "4fcf7012206b471db76a514ba3f8525b",
+        "brand": {
+          "band": "FM",
+          "call": "KUCB",
+          "frequency": "89.7",
+          "marketCity": "Unalaska",
+          "marketState": "AK",
+          "name": "KIAL",
+          "tagline": "Unalaska Community Broadcasting"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "235e5559df324aae8d0af63395169fc1",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUCBFM.mp3"
+              }
+            ],
+            "guid": "4fcf71591c934e6caed70fa8e8759002",
+            "title": "KUCB-FM",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2c7d1561eafd4aaf9beba99ec16df9d3",
+                "typeId": "10",
+                "href": "https://kucb.streamguys1.com/live"
+              }
+            ],
+            "guid": "32fa6480d53c4f8cb974b7275ad64f94",
+            "title": "KUCB",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kucb.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/743.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KUCB.Unalaska",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "235e5559df324aae8d0af63395169fc1",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUCBFM.mp3",
+            "isPrimaryStream": true,
+            "title": "KUCB-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "2c7d1561eafd4aaf9beba99ec16df9d3",
+            "href": "https://kucb.streamguys1.com/live",
+            "isPrimaryStream": false,
+            "title": "KUCB",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "cebad7f09ad444b983be625d89faede6",
+            "href": "https://kucb2.drupal.publicbroadcasting.net/podcasts/969/rss.xml",
+            "title": "KUCB-FM Newsroom",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "fe434756fcfd40f3b3addd792b6f2acc",
+            "href": "http://secure.publicbroadcasting.net/kial/pledge.pledgemain",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "6f025e5f985b440d877e25d21b5e0a54",
+            "href": "http://secure.publicbroadcasting.net/kial/pledge.pledgemain",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/743.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/730",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "4fcf70121d3c45da9eadb87b1eae36bc",
+        "brand": {
+          "band": "FM",
+          "call": "KDLL",
+          "frequency": "91.9",
+          "marketCity": "Kenai",
+          "marketState": "AK",
+          "name": "KDLL",
+          "tagline": "Public Radio for the Central Kenai Peninsula"
+        },
+        "orgId": "730",
+        "network": {
+          "inheritingFrom": "730",
+          "usesInheritance": false,
+          "currentOrgId": "730",
+          "tier1": {
+            "name": "KDLL-FM",
+            "id": "730",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kdll.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kdll_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/730.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KDLL-News/112355038890108",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/Pickle_Hill",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "511d5aa538b84bb3a3e35a80d8169f83",
+            "href": "https://app.etapestry.com/onlineforms/PickleHillPublicBroadcastingI/membership.html",
+            "title": "Support | KDLL",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/730.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1005",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "4fcf701407d24110b55bbad86e7e792a",
+        "brand": {
+          "band": "FM",
+          "call": "KRNN",
+          "frequency": "102.7",
+          "marketCity": "Juneau",
+          "marketState": "AK",
+          "name": "KRNN",
+          "tagline": "Music and Arts from Alaska's Capital City"
+        },
+        "orgId": "1005",
+        "network": {
+          "inheritingFrom": "1005",
+          "usesInheritance": false,
+          "currentOrgId": "1005"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cfff614d86a04b0cb121f0a46167f848",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KRNNFM.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "79b41a1bbc1d414f9f4226052f605e4d",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KRNNFMAAC.pls"
+              }
+            ],
+            "guid": "4fcf715c14fd453387be896d57752d2b",
+            "title": "KRNN Music and Arts - 102.7 FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.ktoo.org/krnn/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/krnn_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1005.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/krnnradio?ref=hl",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "cfff614d86a04b0cb121f0a46167f848",
+            "href": "https://playerservices.streamtheworld.com/pls/KRNNFM.pls",
+            "isPrimaryStream": true,
+            "title": "KRNN Music and Arts - 102.7 FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "79b41a1bbc1d414f9f4226052f605e4d",
+            "href": "https://playerservices.streamtheworld.com/pls/KRNNFMAAC.pls",
+            "isPrimaryStream": true,
+            "title": "KRNN Music and Arts - 102.7 FM",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d9f84e5a4f3048d69ff25101dfbac6f7",
+            "href": "http://www.ktoo.org/donate",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1005.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1372",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "51af4761168f4756b831bd6bfc9d28ad",
+        "brand": {
+          "band": "FM",
+          "call": "KDLG",
+          "frequency": "89.9",
+          "marketCity": "Dillingham",
+          "marketState": "AK",
+          "name": "KDLG 670AM",
+          "tagline": "Public Radio for Alaska's Bristol Bay"
+        },
+        "orgId": "1372",
+        "network": {
+          "name": "KDLG 670AM",
+          "inheritingFrom": "733",
+          "usesInheritance": true,
+          "currentOrgId": "1372",
+          "tier1": {
+            "name": "KDLG-AM",
+            "id": "733",
+            "usesInheritance": false,
+            "status": "9",
+            "tier2": [
+              {
+                "name": "KDLG-FM",
+                "id": "1372",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2b5a321cc0644390b03d2fba9e74b0df",
+                "typeId": "10",
+                "href": "https://peace.streamguys1.com:6095/kdlg"
+              }
+            ],
+            "guid": "4fcf71442279409fad59949233b8f49b",
+            "title": "KDLG 670AM Live On-Air Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kdlg.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kdlg_am.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/kdlgradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/kdlgradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "2b5a321cc0644390b03d2fba9e74b0df",
+            "href": "https://peace.streamguys1.com:6095/kdlg",
+            "isPrimaryStream": true,
+            "title": "KDLG 670AM Live On-Air Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "067835494e124f10906f581428dd341b",
+            "href": "https://donate.nprstations.org/kdlg/",
+            "title": "Support KDLG",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/820",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "4fcf701309a5430e8d13fa862f3e9b17",
+        "brand": {
+          "band": "AM",
+          "call": "KOTZ",
+          "frequency": "720",
+          "marketCity": "Kotzebue",
+          "marketState": "AK",
+          "name": "Kotzebue Broadcasting",
+          "tagline": "The Voice of Northwest Alaska"
+        },
+        "orgId": "820",
+        "network": {
+          "inheritingFrom": "820",
+          "usesInheritance": false,
+          "currentOrgId": "820",
+          "tier1": {
+            "name": "KOTZ-AM",
+            "id": "820",
+            "usesInheritance": false,
+            "status": "9",
+            "tier2": [
+              {
+                "name": "KUUK-FM",
+                "id": "1491",
+                "usesInheritance": false
+              },
+              {
+                "name": "KZNR-FM",
+                "id": "1492",
+                "usesInheritance": true
+              },
+              {
+                "name": "KORI-FM",
+                "id": "1493",
+                "usesInheritance": false
+              },
+              {
+                "name": "KIAN-FM",
+                "id": "1494",
+                "usesInheritance": true
+              },
+              {
+                "name": "KBUQ-FM",
+                "id": "1495",
+                "usesInheritance": true
+              },
+              {
+                "name": "KZNC-FM",
+                "id": "1496",
+                "usesInheritance": false
+              },
+              {
+                "name": "KDRG-FM",
+                "id": "1497",
+                "usesInheritance": true
+              },
+              {
+                "name": "KQVK-FM",
+                "id": "1498",
+                "usesInheritance": true
+              },
+              {
+                "name": "KIEA-FM",
+                "id": "1499",
+                "usesInheritance": true
+              }
+            ]
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kotz.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/820.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b6f614ee18dc457fa8713cb89065bfbc",
+            "href": "https://www.paypal.com/donate/?token=GRWttrKXsKYvNLZ1tr_qH-k_-zgC4ljBRFXUwnY1F9y2trPbIR6rlLW-237ByuqVFPL-qW&fromUL=true&country.x=US&locale.x=en_US",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/820.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1422",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "5329c04b21bc4ac79b562adc0ea0d28c",
+        "brand": {
+          "band": "FM",
+          "call": "KNKO",
+          "frequency": "88.5",
+          "marketCity": "Shageluk",
+          "marketState": "AK",
+          "name": "KSKO",
+          "tagline": "Kuskokwin Public Broadcasting"
+        },
+        "orgId": "1422",
+        "network": {
+          "name": "KSKO",
+          "inheritingFrom": "738",
+          "usesInheritance": true,
+          "currentOrgId": "1422",
+          "tier1": {
+            "name": "KSKO-FM",
+            "id": "738",
+            "usesInheritance": false,
+            "status": "9",
+            "tier2": [
+              {
+                "name": "KNKO-FM",
+                "id": "1422",
+                "usesInheritance": true
+              },
+              {
+                "name": "KGYA-FM",
+                "id": "1423",
+                "usesInheritance": true
+              },
+              {
+                "name": "KMGS-FM",
+                "id": "1424",
+                "usesInheritance": true
+              },
+              {
+                "name": "KLOP-FM",
+                "id": "1425",
+                "usesInheritance": true
+              },
+              {
+                "name": "KNIB-FM",
+                "id": "1582",
+                "usesInheritance": false
+              }
+            ]
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kskopublicradio.com/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/738.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "donation": [
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/738.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1479",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "e15deee37b2d418990df03ad45a68781",
+        "brand": {
+          "band": "FM",
+          "call": "KODK",
+          "frequency": "90.7",
+          "marketCity": "Kodiak",
+          "marketState": "AK",
+          "name": "KODK-FM",
+          "tagline": null
+        },
+        "orgId": "1479",
+        "network": {
+          "inheritingFrom": "1479",
+          "usesInheritance": false,
+          "currentOrgId": "1479"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1491",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "b396538e2b5c49269e992de70de82499",
+        "brand": {
+          "band": "FM",
+          "call": "KUUK",
+          "frequency": "91.9",
+          "marketCity": "Noatak",
+          "marketState": "AK",
+          "name": "KUUK-FM",
+          "tagline": null
+        },
+        "orgId": "1491",
+        "network": {
+          "inheritingFrom": "1491",
+          "usesInheritance": false,
+          "currentOrgId": "1491"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1493",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "70e3f2cb08274ceba137d859f9b3c916",
+        "brand": {
+          "band": "FM",
+          "call": "KORI",
+          "frequency": "91.9",
+          "marketCity": "Noorvik",
+          "marketState": "AK",
+          "name": "KORI-FM",
+          "tagline": null
+        },
+        "orgId": "1493",
+        "network": {
+          "inheritingFrom": "1493",
+          "usesInheritance": false,
+          "currentOrgId": "1493"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1496",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "f866677e3e174ee3a323cb4e2f0c2e7a",
+        "brand": {
+          "band": "FM",
+          "call": "KZNC",
+          "frequency": "91.9",
+          "marketCity": "Red Dog Port",
+          "marketState": "AK",
+          "name": "KZNC-FM",
+          "tagline": null
+        },
+        "orgId": "1496",
+        "network": {
+          "inheritingFrom": "1496",
+          "usesInheritance": false,
+          "currentOrgId": "1496"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1539",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "f1e2acb4edb5429d83ee444a4f171d1e",
+        "brand": {
+          "band": "AM",
+          "call": "KNSA",
+          "frequency": "930",
+          "marketCity": "Unalakleet",
+          "marketState": "AK",
+          "name": "KNSA-AM",
+          "tagline": null
+        },
+        "orgId": "1539",
+        "network": {
+          "inheritingFrom": "1539",
+          "usesInheritance": false,
+          "currentOrgId": "1539",
+          "tier1": {
+            "name": "KNSA-AM",
+            "id": "1539",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1540",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "8105c8875eda4ba193dcad4e3a8a7965",
+        "brand": {
+          "band": "AM",
+          "call": "KZPA",
+          "frequency": "900",
+          "marketCity": "Fort Yukon",
+          "marketState": "AK",
+          "name": "KZPA-AM",
+          "tagline": null
+        },
+        "orgId": "1540",
+        "network": {
+          "inheritingFrom": "1540",
+          "usesInheritance": false,
+          "currentOrgId": "1540",
+          "tier1": {
+            "name": "KZPA-AM",
+            "id": "1540",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1576",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "618965aa56a64c1fb32d6a377a99bce2",
+        "brand": {
+          "band": "FM",
+          "call": "KTYU",
+          "frequency": "99.1",
+          "marketCity": "Tanana",
+          "marketState": "AK",
+          "name": "KTYU-FM",
+          "tagline": null
+        },
+        "orgId": "1576",
+        "network": {
+          "inheritingFrom": "1576",
+          "usesInheritance": false,
+          "currentOrgId": "1576"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1582",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Unknown Format",
+          "status": "9",
+          "musicOnly": true
+        },
+        "guid": "07f77dbbe4a24459a2d0beb75890912b",
+        "brand": {
+          "band": "FM",
+          "call": "KNIB",
+          "frequency": "89.5",
+          "marketCity": "Nikolai",
+          "marketState": "AK",
+          "name": "KNIB-FM",
+          "tagline": null
+        },
+        "orgId": "1582",
+        "network": {
+          "inheritingFrom": "1582",
+          "usesInheritance": false,
+          "currentOrgId": "1582"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1726",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "f710a02a037d4053a12497204a2acd75",
+        "brand": {
+          "band": "FM",
+          "call": "KHUU",
+          "frequency": "97.1",
+          "marketCity": "Hughes",
+          "marketState": "AK",
+          "name": "KHUU-FM",
+          "tagline": null
+        },
+        "orgId": "1726",
+        "network": {
+          "inheritingFrom": "1726",
+          "usesInheritance": false,
+          "currentOrgId": "1726"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1727",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "f22f5fbf3efc4327bdc76deeb0310487",
+        "brand": {
+          "band": "FM",
+          "call": "KSYU",
+          "frequency": "98.1",
+          "marketCity": "Saint Mary's",
+          "marketState": "AK",
+          "name": "KSYU-FM",
+          "tagline": null
+        },
+        "orgId": "1727",
+        "network": {
+          "inheritingFrom": "1727",
+          "usesInheritance": false,
+          "currentOrgId": "1727"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1728",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "75357a5267ca4451ac8edafb722f0aee",
+        "brand": {
+          "band": "FM",
+          "call": "KKET",
+          "frequency": "95.9",
+          "marketCity": "Allakaket",
+          "marketState": "AK",
+          "name": "KKET-FM",
+          "tagline": null
+        },
+        "orgId": "1728",
+        "network": {
+          "inheritingFrom": "1728",
+          "usesInheritance": false,
+          "currentOrgId": "1728"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/18",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "4fcf700e028d42728be12ba2632f4312",
+        "brand": {
+          "band": "AM",
+          "call": "KBRW",
+          "frequency": "680",
+          "marketCity": "Barrow",
+          "marketState": "AK",
+          "name": "KBRW",
+          "tagline": "Public Radio from the Top of the World"
+        },
+        "orgId": "18",
+        "network": {
+          "inheritingFrom": "18",
+          "usesInheritance": false,
+          "currentOrgId": "18",
+          "tier1": {
+            "name": "KBRW-AM",
+            "id": "18",
+            "usesInheritance": false,
+            "status": "9",
+            "tier2": [
+              {
+                "name": "KBRW-FM",
+                "id": "19",
+                "usesInheritance": true
+              }
+            ]
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kbrw.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kbrw_am.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/18.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b70c0953e1304a1fb63ec4f2303d187f",
+            "href": "https://coastalaska.secureallegiance.com/ktoo/WebModule/Donate.aspx?P=12ONETIME&PAGETYPE=PLG&CHECK=CWUaBH%2bD%2b93sFY62husfZq1gzMC6uhq5nDjkJobrCdg%3d",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/18.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/846",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "4fcf70130f6548e2ae2cdf2e976d7281",
+        "brand": {
+          "band": "AM",
+          "call": "KSDP",
+          "frequency": "830",
+          "marketCity": "Sand Point",
+          "marketState": "AK",
+          "name": "KSDP",
+          "tagline": "Alaska Broadcasters Association"
+        },
+        "orgId": "846",
+        "network": {
+          "inheritingFrom": "846",
+          "usesInheritance": false,
+          "currentOrgId": "846",
+          "tier1": {
+            "name": "KSDP-AM",
+            "id": "846",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://apradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/846.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "e4e404cb847148ea99829a2fde2875ec",
+            "href": "http://apradio.org/members/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/846.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/152",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "4fcf700f0385400a948ad672537dffc1",
+        "brand": {
+          "band": "FM",
+          "call": "KRBD",
+          "frequency": "105.3",
+          "marketCity": "Ketchikan",
+          "marketState": "AK",
+          "name": "KRBD",
+          "tagline": "Ketchikan's Public Radio"
+        },
+        "orgId": "152",
+        "network": {
+          "inheritingFrom": "152",
+          "usesInheritance": false,
+          "currentOrgId": "152",
+          "tier1": {
+            "name": "KRBD-FM",
+            "id": "152",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.krbd.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/152.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e0ba8a00b1f7488a965d7757ecb4a658",
+            "href": "http://krbd.org/modules/local_news/regional_podcast.php",
+            "title": "KRBD-FM Southeast News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "7dfdb907348d4009ad13b974d5874e71",
+            "href": "http://www.krbd.org/membership-faqs/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/152.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/745",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "orgId": "745",
+        "network": {
+          "inheritingFrom": "745",
+          "usesInheritance": false,
+          "currentOrgId": "745",
+          "tier1": {
+            "name": "KSTK-FM",
+            "id": "745",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        },
+        "guid": "4fcf701220e74f49b7f82ad99c5b97fc",
+        "brand": {
+          "band": "FM",
+          "call": "KSTK",
+          "frequency": "101.7",
+          "marketCity": "Wrangell",
+          "marketState": "AK",
+          "name": "KSTK",
+          "tagline": "Stikine River Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "8e1930bbe162473f9cda7f2e721e16f7",
+                "typeId": "10",
+                "href": "https://war.streamguys1.com:7165/"
+              }
+            ],
+            "guid": "630970b1a9704dec8af518a53c6fd5a0",
+            "title": "KSTK Wrangell Alaska - Stikine River Radio",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kstk.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/745.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/kstkradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KSTKradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "8e1930bbe162473f9cda7f2e721e16f7",
+            "href": "https://war.streamguys1.com:7165/",
+            "isPrimaryStream": false,
+            "title": "KSTK Wrangell Alaska - Stikine River Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "39bdf8b6c9aa40e8a0f37baa911a39f1",
+            "href": "http://kstk.org/modules/local_news/regional_podcast.php",
+            "title": "KSTK-FM Southeast News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "a4d465ff9e724730b37af035aac72c02",
+            "href": "http://www.kstk.org/membership-2/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/745.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/734",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "4fcf70121e41459aa8b67a4b5316cdfd",
+        "brand": {
+          "band": "AM",
+          "call": "KIYU",
+          "frequency": "910",
+          "marketCity": "Galena",
+          "marketState": "AK",
+          "name": "KIYU",
+          "tagline": "Big River Public Broadcasting Corp"
+        },
+        "orgId": "734",
+        "network": {
+          "inheritingFrom": "734",
+          "usesInheritance": false,
+          "currentOrgId": "734",
+          "tier1": {
+            "name": "KIYU-AM",
+            "id": "734",
+            "usesInheritance": false,
+            "status": "9",
+            "tier2": [
+              {
+                "name": "KTYU-FM",
+                "id": "1576",
+                "usesInheritance": false
+              },
+              {
+                "name": "KHUU-FM",
+                "id": "1726",
+                "usesInheritance": false
+              },
+              {
+                "name": "KSYU-FM",
+                "id": "1727",
+                "usesInheritance": false
+              },
+              {
+                "name": "KKET-FM",
+                "id": "1728",
+                "usesInheritance": false
+              }
+            ]
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kiyu.com/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/734.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "39188c0466084f52a39f7a00c421447c",
+            "href": "http://www.kiyu.com/membership.html",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/734.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/735",
+      "attributes": {
+        "newscast": {
+          "id": "735",
+          "recency": 360
+        },
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "4fcf70121e864d3c9a2a66350a7dd66e",
+        "brand": {
+          "band": "FM",
+          "call": "KHNS",
+          "frequency": "102.3",
+          "marketCity": "Haines",
+          "marketState": "AK",
+          "name": "KHNS",
+          "tagline": "The Voice of the Upper Lynn Canal"
+        },
+        "orgId": "735",
+        "network": {
+          "inheritingFrom": "735",
+          "usesInheritance": false,
+          "currentOrgId": "735",
+          "tier1": {
+            "name": "KHNS-FM",
+            "id": "735",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.khns.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/khns_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/735_cc3a73719a870fbcf23fa1b3cba33ab5.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/735_aa439bd43b8f83589d47f44a0cbccb5c.mp4?1543446750843",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/KHNS.FM",
+            "content-type": "text/html"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "18905230490c4ecbb15c24631deb9cdf",
+            "href": "http://feeds.feedburner.com/aprn-ann",
+            "title": "Alaska Public Radio News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2d3783ef492f4914913c5745d5053482",
+            "href": "https://www.khns.org/feed",
+            "title": "KHNS-FM Local News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "07c31bb6aac1451d8006773a37d62084",
+            "href": "https://coastalaska.secureallegiance.com/ktoo/WebModule/Donate.aspx?P=34ONETIME&PAGETYPE=PLG&CHECK=Mu3g3Pb4317sFY62husfZq1gzMC6uhq5nDjkJobrCdg%3d",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/735.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/739",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "orgId": "739",
+        "network": {
+          "inheritingFrom": "739",
+          "usesInheritance": false,
+          "currentOrgId": "739",
+          "tier1": {
+            "name": "KFSK-FM",
+            "id": "739",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        },
+        "newscast": {
+          "id": "739",
+          "recency": 120
+        },
+        "guid": "4fcf70121f854280a154e001fac97efd",
+        "brand": {
+          "band": "FM",
+          "call": "KFSK",
+          "frequency": "100.9",
+          "marketCity": "Petersburg",
+          "marketState": "AK",
+          "name": "KFSK",
+          "tagline": "Fish Head Community Radio, Petersburg, Alaska"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "782a220df9694a9caf992e7803fdbccc",
+                "typeId": "10",
+                "href": "https://amber.streamguys1.com:4625/kfsk"
+              }
+            ],
+            "guid": "894d049c32784b06af94d539bcd82717",
+            "title": "Listen to KFSK-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kfsk.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kfsk_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kfsk_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/739.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "782a220df9694a9caf992e7803fdbccc",
+            "href": "https://amber.streamguys1.com:4625/kfsk",
+            "isPrimaryStream": true,
+            "title": "Listen to KFSK-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "debf99d7df8641bc82ff489fbe21190a",
+            "href": "https://coastalaska.secureallegiance.com/ktoo/WebModule/Donate.aspx?P=03ONETIME&PAGETYPE=PLG&CHECK=mQlwTHEHMf7sFY62husfZq1gzMC6uhq5nDjkJobrCdg%3d",
+            "title": "Support KFSK",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b1512d88bad44d00a8beb07faab7806a",
+            "href": "https://coastalaska.secureallegiance.com/ktoo/WebModule/Donate.aspx?P=03ONETIME&PAGETYPE=PLG&CHECK=mQlwTHEHMf7sFY62husfZq1gzMC6uhq5nDjkJobrCdg%3d",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/739.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/740",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "orgId": "740",
+        "network": {
+          "inheritingFrom": "740",
+          "usesInheritance": false,
+          "currentOrgId": "740",
+          "tier1": {
+            "name": "KCAW-FM",
+            "id": "740",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        },
+        "guid": "4fcf70121fca4d53b0dedfc0e74584fe",
+        "brand": {
+          "band": "FM",
+          "call": "KCAW",
+          "frequency": "104.7",
+          "marketCity": "Sitka",
+          "marketState": "AK",
+          "name": "KCAW",
+          "tagline": "Raven Radio Foundation"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "61d17783ddb944889cae7db21d1e7340",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5195/live"
+              }
+            ],
+            "guid": "4fcf714b056c45428d16c7a9b73c0c62",
+            "title": "KCAW Live Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kcaw.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kcaw_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kcaw_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/RavenRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/ravenradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "61d17783ddb944889cae7db21d1e7340",
+            "href": "https://tektite.streamguys1.com:5195/live",
+            "isPrimaryStream": true,
+            "title": "KCAW Live Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "fc5bd9e063eb44779f096c58f0b189a0",
+            "href": "http://www.kcaw.org/category/news/local-news/",
+            "title": "KCAW-FM LocalNews",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2cc9fe1e96fc4f668a05c097c186be4d",
+            "href": "https://coastalaska.secureallegiance.com/ktoo/WebModule/Donate.aspx?P=02WEB&PAGETYPE=PLG&CHECK=YfBVXDKRa3%2fiQl%2byqVkEd4HJipnY8PNT",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/740.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/741",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "4fcf701220014b88ae1b3d62f0884cd8",
+        "brand": {
+          "band": "FM",
+          "call": "KUHB",
+          "frequency": "91.9",
+          "marketCity": "St. Paul",
+          "marketState": "AK",
+          "name": "KUHB",
+          "tagline": "Voice of the Pribilof's"
+        },
+        "orgId": "741",
+        "network": {
+          "inheritingFrom": "741",
+          "usesInheritance": false,
+          "currentOrgId": "741",
+          "tier1": {
+            "name": "KUHB-FM",
+            "id": "741",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kuhbradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/741.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "70ba8d0614ea48b88bcec87183b63b30",
+            "href": "http://www.ask4direct.com/promotions/kuhb",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/741.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/742",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "orgId": "742",
+        "network": {
+          "inheritingFrom": "742",
+          "usesInheritance": false,
+          "currentOrgId": "742",
+          "tier1": {
+            "name": "KTNA-FM",
+            "id": "742",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        },
+        "newscast": {
+          "id": "742",
+          "recency": 120
+        },
+        "guid": "4fcf7012203748d5b52a64eb73a75bd2",
+        "brand": {
+          "band": "FM",
+          "call": "KTNA",
+          "frequency": "88.9",
+          "marketCity": "Talkeetna",
+          "marketState": "AK",
+          "name": "KTNA",
+          "tagline": "Talkeetna Community Radio Inc."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b0e477ae97dc46258051721149c651ed",
+                "typeId": "10",
+                "href": "https://amber.streamguys1.com:4755/live"
+              }
+            ],
+            "guid": "8831bbce4ade4d41831ec12ded4eb96e",
+            "title": "KTNA 88.9FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://ktna.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/742.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "b0e477ae97dc46258051721149c651ed",
+            "href": "https://amber.streamguys1.com:4755/live",
+            "isPrimaryStream": true,
+            "title": "KTNA 88.9FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "cb80f5d213ce48728a4379e07f10bbcc",
+            "href": "https://ktna.org/support-ktna",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/742.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/744",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "4fcf7012209d42f9bd5e670a15e3d9fb",
+        "brand": {
+          "band": "AM",
+          "call": "KCHU",
+          "frequency": "770",
+          "marketCity": "Valdez",
+          "marketState": "AK",
+          "name": "KCHU",
+          "tagline": "Public Radio for Prince William Sound and the Copper River Valley"
+        },
+        "orgId": "744",
+        "network": {
+          "inheritingFrom": "744",
+          "usesInheritance": false,
+          "currentOrgId": "744",
+          "tier1": {
+            "name": "KCHU-AM",
+            "id": "744",
+            "usesInheritance": false,
+            "status": "9",
+            "tier2": [
+              {
+                "name": "KXGA-FM",
+                "id": "805",
+                "usesInheritance": true
+              },
+              {
+                "name": "KXKM-FM",
+                "id": "806",
+                "usesInheritance": true
+              }
+            ]
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kchu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/744.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kchupublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "bd36309ef1f34d5691862b0e29b52673",
+            "href": "http://www.kchu.org/pages/donations-memberships.php",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/744.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/732",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "4fcf70121dc746bcaffcc99556717693",
+        "brand": {
+          "band": "FM",
+          "call": "KCUK",
+          "frequency": "88.1",
+          "marketCity": "Chevak",
+          "marketState": "AK",
+          "name": "KCUK",
+          "tagline": "The Native American Radio Service"
+        },
+        "orgId": "732",
+        "network": {
+          "inheritingFrom": "732",
+          "usesInheritance": false,
+          "currentOrgId": "732",
+          "tier1": {
+            "name": "KCUK-FM",
+            "id": "732",
+            "usesInheritance": false,
+            "status": "9"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.nv1.org/kcuk.html",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/732.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Native-Voice-One-NV1/47649094666",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NativeVoiceOne",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "42111ac809234f5bbaf496abe6c67236",
+            "href": "http://secure.publicbroadcasting.net/nv1/pledge.pledgemain",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/732.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/737",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "9",
+          "musicOnly": false
+        },
+        "guid": "4fcf70121f074171ba206340d0581d4b",
+        "brand": {
+          "band": "FM",
+          "call": "KMXT",
+          "frequency": "100.1",
+          "marketCity": "Kodiak",
+          "marketState": "AK",
+          "name": "KMXT",
+          "tagline": "Public Radio for the Kodiak Community."
+        },
+        "orgId": "737",
+        "network": {
+          "inheritingFrom": "737",
+          "usesInheritance": false,
+          "currentOrgId": "737",
+          "tier1": {
+            "name": "KMXT-FM",
+            "id": "737",
+            "usesInheritance": false,
+            "status": "9",
+            "tier2": [
+              {
+                "name": "KODK-FM",
+                "id": "1479",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "1ebbe6d245b84431a1ba0b78b8849573",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KMXTFMAAC.pls"
+              }
+            ],
+            "guid": "a83e9f10c2b4433cbd747c4b72188138",
+            "title": "KMXT Primary Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kmxt.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kmxt_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kmxt_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/737_eaceae5601cbfb3bdd2700168fad3706.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KTTZ891FM",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1ebbe6d245b84431a1ba0b78b8849573",
+            "href": "https://playerservices.streamtheworld.com/pls/KMXTFMAAC.pls",
+            "isPrimaryStream": true,
+            "title": "KMXT Primary Stream",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "e6886db631df41babbd0b01afab94c36",
+            "href": "https://kmxtkodiak.networkforgood.com/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "1c80848725c4432786442c889d02659c",
+            "href": "https://kmxtkodiak.networkforgood.com/",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "f57e238d17b24c46ac4542e4a6871a2c",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/737_b875e8293c04a3d282936bc43f454494.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/737.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

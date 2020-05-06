@@ -1,0 +1,939 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "KS"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/5",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kanu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "5",
+        "network": {
+          "name": "Kansas Public Radio",
+          "inheritingFrom": "4",
+          "usesInheritance": true,
+          "currentOrgId": "5",
+          "tier1": {
+            "name": "Kansas Public Radio",
+            "id": "4",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KANU-FM",
+                "id": "5",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KANH-FM",
+                    "id": "6",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KANV-FM",
+                    "id": "817",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KANQ-FM",
+                    "id": "1302",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "4",
+          "recency": 360
+        },
+        "guid": "4fcf700d23be4b2eb635aeae2d30f338",
+        "brand": {
+          "band": "FM",
+          "call": "KANU",
+          "frequency": "91.5",
+          "marketCity": "Lawrence",
+          "marketState": "KS",
+          "name": "Kansas Public Radio",
+          "tagline": "Your place for classical, jazz and NPR news."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "70dd24d7555d4f9dab5bfee888bdf259",
+                "typeId": "10",
+                "href": "https://streaming.kansaspublicradio.org:8001/kpr2"
+              }
+            ],
+            "guid": "149a034ea8f035f44e2ba21212549dc8",
+            "title": "Kansas Public Radio - KPR2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c6989ac1090b42d58a90bb1c30b1547f",
+                "typeId": "10",
+                "href": "https://streaming.kansaspublicradio.org:8001/kpr1"
+              }
+            ],
+            "guid": "4fcf713102934c6da8c4f8964c59d4f8",
+            "title": "Kansas Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://kansaspublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/4_26dfa818ad83649f544187fe87e97f5d.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "70dd24d7555d4f9dab5bfee888bdf259",
+            "href": "https://streaming.kansaspublicradio.org:8001/kpr2",
+            "isPrimaryStream": false,
+            "title": "Kansas Public Radio - KPR2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c6989ac1090b42d58a90bb1c30b1547f",
+            "href": "https://streaming.kansaspublicradio.org:8001/kpr1",
+            "isPrimaryStream": true,
+            "title": "Kansas Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "7133465c37b04f14ae49815fdc55a721",
+            "href": "https://kansaspublicradio.org/widgets/podcasts/commentaries.php",
+            "title": "KPR Commentaries",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5aad259ee29f473887860c34ada0ed01",
+            "href": "https://kansaspublicradio.org/widgets/podcasts/kpr-presents.php",
+            "title": "KPR Presents",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ab26dd9e0b6248b0af6b960221b9b907",
+            "href": "https://kansaspublicradio.org/widgets/podcasts/conversations.php",
+            "title": "Conversations",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "8d89419d99a246ab8407e851f82a6485",
+            "href": "https://kansaspublicradio.org/info/support",
+            "title": "Donate to or Join KPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "4f9d6d02634444b0ba8e563ebd413762",
+            "href": "https://kansaspublicradio.org/support/",
+            "title": "Donate to or Join KPR",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/103",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kmuw-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "103",
+        "network": {
+          "inheritingFrom": "103",
+          "usesInheritance": false,
+          "currentOrgId": "103",
+          "tier1": {
+            "name": "KMUW-FM",
+            "id": "103",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "103",
+          "recency": 360
+        },
+        "guid": "4fcf700e1bf74b1481093ce76b3bc7d5",
+        "brand": {
+          "band": "FM",
+          "call": "KMUW",
+          "frequency": "89.1",
+          "marketCity": "Wichita",
+          "marketState": "KS",
+          "name": "KMUW | NPR for Wichita",
+          "tagline": "KMUW | NPR for Wichita"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "042c4ab8c820478bab089c4fa60c0479",
+                "typeId": "10",
+                "href": "https://kmuw-streamer.wichita.edu/kmuw"
+              }
+            ],
+            "guid": "13e484f2d8502a545dfb0f3b1456fb3d",
+            "title": "KMUW-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kmuw.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kmuw_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kmuw_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/103_a08bd9c4032a94f7cf79b7854b00f776.mp4?1536267095532",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/103_f9d882c78256c67cd46a032ca6e5f364.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KMUW89",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KMUW",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "042c4ab8c820478bab089c4fa60c0479",
+            "href": "https://kmuw-streamer.wichita.edu/kmuw",
+            "isPrimaryStream": true,
+            "title": "KMUW-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "0cd5b0de05ca4e8d95faf56e9bc49c7d",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/103688/rss.xml",
+            "title": "You're Saying It Wrong",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9f8ffdbc73f4413d88b02e8b8a1b12db",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/53/rss.xml",
+            "title": "Musical Space",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5d9a5001bd33442ca74e3d03495fee75",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/2791/rss.xml",
+            "title": "New American Songbook",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2eb91905c84740aabfeb0466f389691b",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/106123/rss.xml",
+            "title": "Cultural Shorts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e27dcd9c69f84899865050bff08a41c5",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/36/rss.xml",
+            "title": "An Artist's Perspective",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c2c20e8866604fb49a3b8802fee27967",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/2792/rss.xml",
+            "title": "Editorial Commentary with Ken Ciboski",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "747c68fd5a2c439bbb8c012194b810c6",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/3411/rss.xml",
+            "title": "Cooking with Fire",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d335a9342d2b485ea30b3b8a8a8bfae0",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/1001/rss.xml",
+            "title": "Your Move",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d8b96716b3b144fe8456e672d85ce1d7",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/1005/rss.xml",
+            "title": "A Musical Life",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "12bbc024b62a443c9a8735e303929433",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/3222/rss.xml",
+            "title": "Marginalia",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b075269e6a554f1e8911015a0b2ccf04",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/122206/rss.xml",
+            "title": "The Range",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "66bb612ac58e424d8a9b827a075e6836",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/1002/rss.xml",
+            "title": "OnWords",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3fb2fc3d48fe47c9bc940e8eb5b78449",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/999/rss.xml",
+            "title": "Past & Present",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f4a0a0d6ce154187b96178cfb865bf87",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/55/rss.xml",
+            "title": "Political Commentary with Richard Crowson",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0617df1bc881414dafd4dc340f6070a2",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/49/rss.xml",
+            "title": "Book Review",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c74da52af1c84057a02bd0470deab8fc",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/2495/rss.xml",
+            "title": "On Stage",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8fe0322a658e4b9da1a6c19da2a1cacd",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/50/rss.xml",
+            "title": "Fletcher Powell's Movie Review",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7017a843ad6a4ac78b070e34f699cdea",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/124068/rss.xml",
+            "title": "Hindsight: Looking Back at 100 Years of Women's Suffrage",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0acec472d9ca4ed087aa8e807f3b5d62",
+            "href": "https://kmuw.drupal.publicbroadcasting.net/podcasts/term/3190/rss.xml",
+            "title": "KMUW Movie Club",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d2dbc7c0427c4e17a8be6176065284f3",
+            "href": "https://secure.kmuw.org/donate",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "71154e12918342a082d612051354b12c",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/103_9b20bd4149ce5cf17d4c4e205ce65847.mp4",
+            "title": "Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/103.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/165",
+      "attributes": {
+        "newscast": {
+          "id": "165",
+          "recency": 120
+        },
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf700f07344e08b4aab463f8926ae5",
+        "brand": {
+          "band": "FM",
+          "call": "KRPS",
+          "frequency": "89.9",
+          "marketCity": "Pittsburg",
+          "marketState": "KS",
+          "name": "89.9 FM KRPS",
+          "tagline": "Four States Public Radio "
+        },
+        "orgId": "165",
+        "network": {
+          "inheritingFrom": "165",
+          "usesInheritance": false,
+          "currentOrgId": "165",
+          "tier1": {
+            "name": "KRPS-FM",
+            "id": "165",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.krps.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/krps_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/krps_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/165.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "a8fcb3532d6c481b9c1a1e1f06d06ef9",
+            "href": "https://psufoundation.givingfuel.com/krps",
+            "title": "Pledge Online",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "e7ff9f50d97c492883b906d26a3da799",
+            "href": "https://psufoundation.givingfuel.com/krps",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/165.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/84",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf700e16bd4086a18c219b7caa9a7a",
+        "brand": {
+          "band": "FM",
+          "call": "KHCC",
+          "frequency": "90.1",
+          "marketCity": "Hutchinson",
+          "marketState": "KS",
+          "name": "Radio Kansas",
+          "tagline": "Listener-supported Public Radio"
+        },
+        "orgId": "84",
+        "network": {
+          "name": "Radio Kansas",
+          "inheritingFrom": "83",
+          "usesInheritance": true,
+          "currentOrgId": "84",
+          "tier1": {
+            "name": "Radio Kansas",
+            "id": "83",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KHCC-FM",
+                "id": "84",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KHCD-FM",
+                    "id": "85",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KHCT-FM",
+                    "id": "86",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "43b2dbbceef94955bbead423a8157f49",
+                "typeId": "13",
+                "href": "https://5d497a7ce1964.streamlock.net/RK/HD3.stream/playlist.m3u8"
+              }
+            ],
+            "guid": "09dd055db615476b9ca2d9dc66441176",
+            "title": "The Breeze",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "1826a63cdf7a40cf998925b4d71592eb",
+                "typeId": "13",
+                "href": "https://5d497a7ce1964.streamlock.net/RK/HD1.stream/playlist.m3u8"
+              }
+            ],
+            "guid": "b0da7ccb9aea4fb0aa9fe4179a488fa2",
+            "title": "Radio Kansas FM",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "f6e2031884f44bcab17d3e5afed6a7b4",
+                "typeId": "13",
+                "href": "https://5d497a7ce1964.streamlock.net/RK/HD2.stream/playlist.m3u8"
+              }
+            ],
+            "guid": "6956de7ccd8b44b38cca4989d1ed155c",
+            "title": "NewGrass Valley",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.radiokansas.com/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/rk.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/rk.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/83_d79a9a19a92ce789de3a1a9185fc99fc.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/RadioKansas",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/RadioKansas",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "43b2dbbceef94955bbead423a8157f49",
+            "href": "https://5d497a7ce1964.streamlock.net/RK/HD3.stream/playlist.m3u8",
+            "isPrimaryStream": false,
+            "title": "The Breeze",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "1826a63cdf7a40cf998925b4d71592eb",
+            "href": "https://5d497a7ce1964.streamlock.net/RK/HD1.stream/playlist.m3u8",
+            "isPrimaryStream": true,
+            "title": "Radio Kansas FM",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "f6e2031884f44bcab17d3e5afed6a7b4",
+            "href": "https://5d497a7ce1964.streamlock.net/RK/HD2.stream/playlist.m3u8",
+            "isPrimaryStream": false,
+            "title": "NewGrass Valley",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "49284a6f297d484f90ade13127c66bfd",
+            "href": "http://www.radiokansas.com/pledge_form.cfm",
+            "title": "Support your favorite shows!",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "057c531374e044228377fb09d65ba8ef",
+            "href": "http://www.radiokansas.com/mobile/",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/9",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kanz-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "9",
+        "network": {
+          "name": "High Plains Public Radio",
+          "inheritingFrom": "8",
+          "usesInheritance": true,
+          "currentOrgId": "9",
+          "tier1": {
+            "name": "High Plains Public Radio",
+            "id": "8",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KANZ-FM",
+                "id": "9",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KZNA-FM",
+                    "id": "10",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTOT-FM",
+                    "id": "854",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZAN-FM",
+                    "id": "855",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KJJP-FM",
+                    "id": "932",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTXP-FM",
+                    "id": "981",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KGUY-FM",
+                    "id": "1406",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZCK-FM",
+                    "id": "1407",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZNZ-FM",
+                    "id": "1408",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTDH-FM",
+                    "id": "1409",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KCSE-FM",
+                    "id": "1410",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZNK-FM",
+                    "id": "1411",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700d25a84169939ab3dc76fbd182",
+        "brand": {
+          "band": "FM",
+          "call": "KANZ",
+          "frequency": "91.1",
+          "marketCity": "Garden City",
+          "marketState": "KS",
+          "name": "High Plains Public Radio",
+          "tagline": "In touch with the world, at home on the High Plains."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "02cce909af3d4b1eb164a3010920e2ca",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANZFM_HPPR2.mp3"
+              }
+            ],
+            "guid": "e06c6da55d59488e8d36e34ae19572bf",
+            "title": "HPPR Connect (News & Information)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b9b86ef677274f00b215523dcb2c006f",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANZFM_HPPR.mp3"
+              }
+            ],
+            "guid": "4fcf7158013749df96cd0b37e9686a81",
+            "title": "High Plains Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.hppr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/hppr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/hppr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/8_0b79e164d0dc14c0338a960eaeac3108.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/HighPlainsPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://www.twitter.com/hppr",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "02cce909af3d4b1eb164a3010920e2ca",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANZFM_HPPR2.mp3",
+            "isPrimaryStream": false,
+            "title": "HPPR Connect (News & Information)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b9b86ef677274f00b215523dcb2c006f",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANZFM_HPPR.mp3",
+            "isPrimaryStream": true,
+            "title": "High Plains Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "bb97a35af8ec4a4c90e3f181eb55c35e",
+            "href": "https://hppr.drupal.publicbroadcasting.net/feeds/50769/rss.xml",
+            "title": "HPPR Radio Readers Book Club",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "59faf99bfaa34d14857bb64127b16e3b",
+            "href": "https://hppr.drupal.publicbroadcasting.net/feeds/84719/rss.xml",
+            "title": "Little Spouse on the Prairie",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "126998a5e0bc494780a3f176d20f9d3f",
+            "href": "https://hppr.drupal.publicbroadcasting.net/feeds/5123/rss.xml",
+            "title": "High Plains Outdoors",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1cfde9bb7ec840cd96fea7c43212ef1e",
+            "href": "https://donate.nprstations.org/hppr/",
+            "title": "High Plains Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

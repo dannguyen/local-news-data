@@ -1,0 +1,147 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "RI"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/333",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": false,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "333",
+        "network": {
+          "name": "The Public's Radio",
+          "inheritingFrom": "1289",
+          "usesInheritance": true,
+          "currentOrgId": "333",
+          "tier1": {
+            "name": "Rhode Island Public Radio",
+            "id": "1289",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WNPN-FM",
+                "id": "333",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WELH-FM",
+                    "id": "1298",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WCVY-FM",
+                    "id": "1300",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WNPE-FM",
+                    "id": "1587",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf70100b5f44f7b5887c17c58a19c1",
+        "brand": {
+          "band": "FM",
+          "call": "WNPN",
+          "frequency": "89.3",
+          "marketCity": "Newport",
+          "marketState": "RI",
+          "name": "The Public's Radio",
+          "tagline": "89.3 FM in Rhode Island and The Southcoast"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f6850221fdf645ccb861863dfb4e166c",
+                "typeId": "10",
+                "href": "https://amber.streamguys1.com:5595/stationconnect"
+              }
+            ],
+            "guid": "4fcf715f122e441280fddfb5117f402b",
+            "title": "The Public's Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.thepublicsradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/ripr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ripr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1289_c0e37daa813d35bf69b42afd44f6d9bf.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f6850221fdf645ccb861863dfb4e166c",
+            "href": "https://amber.streamguys1.com:5595/stationconnect",
+            "isPrimaryStream": true,
+            "title": "The Public's Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "43f1504d353e41129e3ae765921c73d9",
+            "href": "https://thepublicsradio.org/show/artscape/feed.xml",
+            "title": "Artscape",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2e600c493c1b4c3e92c8e86452bac8fe",
+            "href": "https://ripr.net/news/DirCasterV09j/dircaster.php",
+            "title": "The Public's Radio Local Newscast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "35191fd9f4614f438ea0d844a2653f93",
+            "href": "http://www.thepublicsradio.org/give",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

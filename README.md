@@ -20,10 +20,13 @@ how easy is it to gather all the local news sites in the U.S.? Extremely hard I 
 ## Data to capture
 
 - name
-- state (primary)
-- city (metro area)
+- state (primary market)
+- city (metro area, mailing address)
+- motto/tagline
+- description
 - mailing zipcode (just for reference)
 - url
+    - RSS feed?
 - wikipedia
 - specific geographical entities (e.g. Atlanta metro area)
 - owner/conglomerate

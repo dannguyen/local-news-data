@@ -1,0 +1,490 @@
+org_id,network_name,eformat,estatus,music_only,name,band,callsign,tagline
+5,Kansas Public Radio,,1,False,Kansas Public Radio,FM,KANU,"Your place for classical, jazz and NPR news."
+103,,Public Radio,1,False,KMUW | NPR for Wichita,FM,KMUW,KMUW | NPR for Wichita
+165,,Public Radio,1,False,89.9 FM KRPS,FM,KRPS,Four States Public Radio 
+84,Radio Kansas,,1,False,Radio Kansas,FM,KHCC,Listener-supported Public Radio
+9,High Plains Public Radio,,1,False,High Plains Public Radio,FM,KANZ,"In touch with the world, at home on the High Plains."
+213,,Public Radio,1,False,KUER 90.1,FM,KUER,NPR Utah
+250,Utah Public Radio,,1,False,Utah Public Radio,FM,KUSU,Utah Public Radio
+1511,,Public Radio,1,False,KUSL-FM,FM,KUSL,
+974,Nevada Public Radio,,1,False,Nevada Public Radio,FM,KSGU,Nevada Public Radio
+146,,Public Radio,1,False,KPCW,FM,KPCW,Listen Like a Local
+1510,,Public Radio,1,False,KUSK-FM,FM,KUSK,
+1267,,Variety,1,True,KRCL,FM,KRCL,Community Connection - Music Discovery
+1513,,Public Radio,1,False,KCEU-FM,FM,KCEU,
+1512,,Public Radio,1,False,KUST-FM,FM,KUST,
+135,Oregon Public Broadcasting,,1,False,Oregon Public Broadcasting,FM,KOPB,News. Arts. Life.
+96,,Public Radio,1,False,KLCC,FM,KLCC,NPR for Oregonians
+181,Jefferson Public Radio,,1,False,Jefferson Public Radio,FM,KSMF,Jefferson Public Radio
+756,,Public Radio,1,False,Coast Community Radio,FM,KMUN,Serving the Lower Columbia Pacific region - Local & Independent since 1983
+1014,,Public Radio,1,False,Coast Community Radio,FM,KCPB,Serving the Lower Columbia Pacific region - Local & Independent since 1983
+1562,,Classical,1,True,KHEC-FM,FM,KHEC,
+1729,,Hot AC,1,True,KWCA-FM,FM,KWCA,
+1117,,Jazz,15,True,Oregon Public Broadcasting,FM,KMHD,Jazz Radio
+305,,Public Radio,1,False,WAMU 88.5,FM,WAMU,
+372,,Classical,1,True,Classical WETA,FM,WETA,Classical for Washington
+81,,Public Radio,1,False,KGOU,FM,KGOU,Your NPR Source
+276,,Public Radio,1,False,Public Radio Tulsa,FM,KWGS,Public Radio 89.5 from The University of Tulsa
+138,,Public Radio,1,False,KOSU,FM,KOSU,Uniquely Oklahoma
+28,,Public Radio,1,False,KCCU,FM,KCCU,Your Public Radio Station
+1575,,Public Radio,1,False,KQOU-FM,FM,KQOU,
+920,,Classical,1,True,Public Radio Tulsa,FM,KWTU,Classical 88.7 from The University of Tulsa
+227,,Public Radio,1,False,KUNM,FM,KUNM,A Public Service Of The University Of New Mexico
+7,,Public Radio,1,False,KANW New Mexico Public Media,FM,KANW,KANW New Mexico Public Media
+167,,Public Radio,1,False,KRWG,FM,KRWG,News That Matters
+75,,Public Radio,1,False,KENW,FM,KENW,Public Radio for Eastern New Mexico and West Texas
+1535,,Public Radio,1,False,KUSW-FM,FM,KUSW,
+1718,,Public Radio,1,False,KANM-FM,FM,KANM,
+1536,,Public Radio,1,False,KUUT-FM,FM,KUUT,
+711,,Public Radio,1,False,WWNO - New Orleans Public Radio,FM,WWNO,"NPR news, music and culture for New Orleans and Southeast Louisiana."
+595,WRKF,,1,False,WRKF,FM,WRKF,40 years of NPR for Baton Rouge.
+166,,Public Radio,1,False,KRVS,FM,KRVS,Radio Acadie
+62,Red River Radio,,1,False,Red River Radio,FM,KDAQ,Your source for great music and in-depth news.
+66,,Public Radio,1,False,KEDM Public Radio,FM,KEDM,"NPR News, Classical and Jazz in the Delta"
+232,KUOW,,1,False,KUOW,FM,KUOW,Sound stories. Sound voices.
+148,,Public Radio,1,False,KNKX Public Radio,FM,KNKX,"Connecting you to jazz, blues and NPR news"
+141,Spokane Public Radio,,1,False,Spokane Public Radio,FM,KPBX,"Spokane Public Radio, stations KPBX, KSFC, KPBZ"
+143,,Public Radio,1,False,KSFC Spokane Public Radio,FM,KSFC,"Spokane Public Radio, stations KPBX, KSFC, KPBZ"
+282,,Public Radio,1,False,Northwest Public Broadcasting,FM,KWWS,NPR News
+158,,Public Radio,1,False,NWPB Classical,FM,KFAE,NPR and Classical Music
+280,,Public Radio,1,False,Northwest Public Broadcasting,FM,KLWS,NPR News
+161,,Public Radio,1,False,NWPB Classical,FM,KNWR,NPR and Classical Music
+1174,,Public Radio,1,False,Northwest Public Broadcasting,FM,KSWS,NPR News
+279,,Public Radio,1,False,Northwest Public Broadcasting,AM,KWSU,NPR News
+164,,Classical,1,True,NWPB Classical,FM,KZAZ,NPR and Classical Music
+163,,Public Radio,1,False,NWPB Classical,FM,KNWY,NPR and Classical Music
+160,,Public Radio,1,False,NWPB Classical,FM,KNWP,NPR and Classical Music
+838,,Public Radio,1,False,Northwest Public Broadcasting,FM,KMWS,NPR News
+281,,Public Radio,1,False,Northwest Public Broadcasting,FM,KQWS,NPR News
+162,,Public Radio,1,False,NWPB Classical,FM,KNWV,NPR and Classical Music
+1334,,Public Radio,1,False,NWPB Classical,FM,KHNW,NPR and Classical Music
+1404,,Jazz,1,True,KJEM,FM,KJEM,KJEM Jazz
+1442,,Public Radio,1,False,KPBZ Spokane Public Radio,FM,KPBZ,
+1405,,Public Radio,1,False,NWPB Classical,FM,KNWU,NPR and Classical Music
+79,,Public Radio,1,False,KEXP,FM,KEXP,Where the Music Matters
+1171,,Public Radio,15,False,NWPB Classical,FM,KVTI,NPR and Classical Music
+1350,,Public Radio,15,False,Northwest Public Broadcasting,FM,KYVT,NPR News
+554,WNYC Radio,,1,False,WNYC Radio,FM,WNYC,New York Public Radio
+298,WAMC Northeast Public Radio,,1,False,WAMC Northeast Public Radio,FM,WAMC,WAMC/Northeast Public Radio
+553,,Public Radio,1,False,WNYC Radio - AM ,AM,WNYC,New York Public Radio
+310,,Public Radio,1,False,WBFO,FM,WBFO,Your NPR Station
+604,WRVO,,1,False,WRVO,FM,WRVO,Your Source for NPR News
+619,WSKG,,1,False,WSKG,FM,WSKG,"Trusted News, Thoughtful Conversations"
+721,WXXI News,,1,False,WXXI News,AM,WXXI,"Rochester and the Finger Lakes home for news, information, and NPR"
+613,WSHU,,1,False,WSHU,FM,WSUF,NPR News and Classical Music
+296,,Public Radio,1,False,WAER,FM,WAER,Your Local NPR Station from Syracuse University
+555,,Public Radio,1,False,WNYE,FM,WNYE,"WNYE-FM, New York"
+393,,Adult Album Alternative,1,True,WFUV,FM,WFUV,Listener Supported Public Media from Fordham University in New York City
+575,WPPB,,1,False,WPPB,FM,WPPB,Long Island's Only NPR Station
+503,,Classical,1,True,WMHT,FM,WMHT,Community. Culture. Connections. Life Amplified.
+632,NCPR,,1,False,NCPR,FM,WXLU,North Country Public Radio
+1041,,College,1,True,WRVO,FM,WSUC,Your Source for NPR News
+722,,Classical,1,True,Classical 91.5 WXXI-FM,FM,WXXI,Perfectly tuned to your day
+624,,Classical,1,True,WSKG Classical,FM,WSQX,Music and More
+958,,Adult Album Alternative,1,True,WEXT,FM,WEXT,Leave Regular Radio Behind
+1031,,Classical,1,True,VPR Classical,FM,WOXR,VPR Classical on WOXR Schuyler Falls/Burlington 90.9FM
+1547,,Public Radio,1,False,WMVQ-FM,FM,WMVQ,
+1244,,Public Radio,1,False,WNJY Radio - FM,FM,WNJY,New York Public Radio
+1245,,Public Radio,1,False,WNJO Radio - FM ,FM,WNJO,New York Public Radio
+510,,Public Radio,1,False,MPB Think Radio,FM,WMPN,Mississippi is our Mission.
+460,,Jazz,1,True,WJSU,FM,WJSU,"WJSU is ""Cool and Current"""
+582,,Public Radio,1,False,WPRL,FM,WPRL,Alcorn Public Radio
+670,,Public Radio,1,False,WURC,FM,WURC,Your station that cares
+256,Wyoming Public Radio,,1,False,Wyoming Public Radio,FM,KUWR,Wyoming Public Media Statewide Network
+1546,,Public Radio,1,False,KEUW-FM,FM,KEUW,
+1544,,Public Radio,1,False,KUWW-FM,FM,KUWW,
+1056,Yellowstone Public Radio,,1,False,Yellowstone Public Radio,FM,KPRQ,Yellowstone Public Radio
+1543,,Classical,1,True,KZUW-FM,FM,KZUW,
+1537,,Public Radio,1,False,KUWE-FM,FM,KUWE,
+1538,,Public Radio,1,False,KUWV-FM,FM,KUWV,
+692,Vermont Public Radio,,1,False,Vermont Public Radio,FM,WVPS,
+894,,Classical,1,True,VPR Classical,FM,WNCH,VPR Classical on WNCH Norwich 88.1FM
+1003,,Classical,1,True,VPR Classical,FM,WVTQ,VPR Classical on WVTQ Sunderland/Manchester 95.1FM
+1176,,Classical,1,True,VPR Classical,FM,WVXR,VPR Classical on WVXR Randolph 102.1FM
+1163,,Classical,1,True,VPR Classical,FM,WOXM,VPR Classical on WOXM Middlebury 90.1FM
+1370,,Classical,1,True,VPR Classical,FM,WVNK,VPR Classical on 91.1FM in Manchester.
+1490,,Classical,1,True,VPR Classical,FM,WOXM,VPR Classical on WVXM Middlebury 90.1 FM
+1116,,Classical,1,True,VPR Classical,FM,WVTI,VPR Classical on WVTI Island Pond/Brighton 106.9FM
+1091,NCPR,,1,False,NCPR,FM,WXLQ,North Country Public Radio
+1333,,Public Radio,1,False,Delaware Public Media,FM,WDDE,Delaware's NPR News station
+600,WRTI Your Classical and Jazz Source,,1,False,WRTI Your Classical and Jazz Source,FM,WRTX,Your Member-Supported Classical & Jazz Source
+1420,,Grade School (K-12),15,False,WMPH-FM,FM,WMPH,
+215,Montana Public Radio,,1,False,Montana Public Radio,FM,KUFM,Learn something new every day.
+71,Yellowstone Public Radio,,1,False,Yellowstone Public Radio,FM,KEMC,Yellowstone Public Radio
+388,,Public Radio,1,False,89.3 WFPL News Louisville,FM,WFPL,News Louisville
+362,,Public Radio,1,False,WEKU,FM,WEKU,NPR For Central And Eastern Kentucky
+466,,Public Radio,1,False,WKMS,FM,WKMS,"Listener Supported Public Radio from Murray State. Serving Western Kentucky, Northwestern Tennessee, and Southern Illinois."
+655,,Public Radio,1,False,WUKY,FM,WUKY,NPR Rocks @ 91.3
+476,WKU Public Radio,,1,False,WKU Public Radio,FM,WKYU,WKU Public Radio
+505,,Public Radio,1,False,Morehead State Public Radio,FM,WMKY,Morehead State's Public Radio - From the Bluegrass to the Mountains
+1080,,Classical,12,True,90.5 WUOL Classical Louisville,FM,WUOL,Classical Louisville
+387,,Adult Album Alternative,12,True,91.9 WFPK Independent Louisville,FM,WFPK,Independent Louisville
+698,RADIO IQ ,,1,False,RADIO IQ ,FM,WVTF,Virginia's NPR News Station
+430,,Public Radio,1,False,WHRV,FM,WHRV,Public Radio for Eastern Virginia
+356,,Public Radio,1,False,VPM,FM,WCVE,Virginia's home for Public Media
+518,,Public Radio,1,False,WMRA,FM,WMRA,"More News, Less Noise"
+1487,,Variety,1,True,WNRN,FM,WNRN,Independent Music Radio
+1579,,Classical,1,True,WBBT-FM,FM,WBBT,
+431,,Classical,1,True,WHRO,FM,WHRO,Virginia's Classic Sound
+1578,,Classical,1,True,WWLB-FM,FM,WWLB,
+870,,Classical,1,True,WVTF Music,FM,WWVT,Virginia's NPR Music Station
+1233,,Classical,1,True,WHRO,FM,WHRJ,Virginia's Classic Sound!
+1439,,Classical,1,True,WHRF-FM,FM,WHRF,
+702,,Public Radio,1,False,WVTF Music,AM,WWVT,Virginia's NPR Music Station
+1024,,Classical,15,True,WMRA,FM,WEMC,The Valley's Source for Classical Music
+78,KERA,,1,False,KERA,FM,KERA,"NPR, News and Information for North Texas"
+252,,Public Radio,1,False,KUT 90.5,FM,KUT,Austin's NPR Station
+220,,Public Radio,1,False,Houston Public Media News 88.7,FM,KUHF,Public Media for Houston 
+189,Texas Public Radio,,1,False,Texas Public Radio,FM,KSTX,Hear Yourself Think
+194,,Public Radio,1,False,KTEP,FM,KTEP,Your NPR Station for the Southwest
+68,KEDT,,1,False,KEDT,FM,KEDT,Your Community-owned station  
+1131,,Adult Album Alternative,1,True,KXT 91.7,FM,KKXT,
+3,,Public Radio,1,False,KAMU,FM,KAMU,Public Media for the Brazos Valley - The Quality Choice
+275,,Public Radio,1,False,KWBU,FM,KWBU,103.3 Waco Public Radio
+133,,Public Radio,1,False,KTTZ 89.1FM,FM,KTTZ,Texas Tech Public Media
+932,High Plains Public Radio,,1,False,High Plains Public Radio,FM,KJJP,"In touch with the world, at home on the High Plains."
+271,,Public Radio,1,False,KVLU,FM,KVLU,Supported by listeners like you
+757,,Public Radio,1,False,KACU,FM,KACU,Abilene Public Radio
+758,Marfa Public Radio,Public Radio,1,False,Marfa Public Radio,FM,KXWT,Radio for a Wide Range
+888,,Public Radio,1,False,88.9 KETR,FM,KETR,Your Station
+1280,,Adult Album Alternative,1,True,KUTX 98.9,FM,KUTX,The Austin Music Experience
+64,Red River Radio,,1,False,Red River Radio,FM,KLDN,Your source for great music and in-depth news.
+1161,,Public Radio,1,False,KTTZ,FM,KNCH,Texas Tech Public Broadcasting
+869,KCCU,Public Radio,1,False,KCCU,FM,KMCU,Your Public Radio Station
+765,,Public Radio,1,False,KPVU,FM,KPVU,Prairie View A&M University
+1532,,Public Radio,1,False,KRTP-FM,FM,KRTP,
+1450,,Adult Album Alternative,1,True,KXBT-FM,FM,KXBT,
+1531,,Public Radio,1,False,KDKY-FM,FM,KDKY,
+1721,,Public Radio,1,False,KOJP-FM,FM,KOJP,
+1181,,Public Radio,15,False,KAMU,FM,KTRL,Public Media for the Brazos Valley - The Quality Choice
+330,WBUR,,1,False,WBUR,FM,WBUR,Boston's NPR News Station
+396,WGBH Radio,,1,False,WGBH Radio,FM,WGBH,Listen Live: Boston's Local NPR
+382,,Public Radio,1,False,New England Public Radio,FM,WFCR,Listen Up.
+397,,Public Radio,1,False,WCAI,FM,WCAI,"Local NPR for the Cape, the Coast, and the Islands"
+300,WAMC Northeast Public Radio,,1,False,WAMC Northeast Public Radio,FM,WAMQ,WAMC/Northeast Public Radio
+1142,,Classical,1,True,WCRB,FM,WCRB,Classical Radio Boston
+1458,,Public Radio,1,False,Nantucket Public Radio,FM,WNCK,The Cape and Islands NPR Stations
+1474,,Adult Album Alternative,1,True,WMVY-FM,FM,WMVY,mvyradio - Martha's Vineyard & The World
+1716,,College,1,True,WERS,FM,WERS,new.music.discovery
+1581,,Public Radio,1,False,WBUH-FM,FM,WBUH,
+168809220,,Public Radio,1,False,WGBH,,WGBH,"89.7, WGBH - Boston Public Radio"
+398,,Public Radio,1,False,WCAI,FM,WNAN,"Local NPR for the Cape, the Coast, and the Islands"
+1040,,Public Radio,1,False,WCAI,FM,WZAI,"Local NPR for the Cape, the Coast, and the Islands"
+1095,WHDD,Public Radio,15,False,WHDD,FM,WBSL,Robin Hood Radio
+309,WBEZ Chicago,,1,False,WBEZ Chicago,FM,WBEZ,Chicago’s NPR News Station
+529,Northern Public Radio,,1,False,Northern Public Radio,FM,WNIJ,Where You Learn Something New Every Day
+653,,Public Radio,1,False,NPR Illinois | 91.9 UIS,FM,WUIS,Stand with the Facts
+402,,Public Radio,1,False,WGLT,FM,WGLT,Bloomington-Normal's Public Media
+440,Illinois Public Media - WILL,,1,False,Illinois Public Media - WILL,AM,WILL,News and NPR for Downstate Illinois
+339,,Public Radio,1,False,WCBU,FM,WCBU,Peoria Public Radio
+679,,Public Radio,1,False,"WVIK, Quad Cities NPR",FM,WVIK,"News, Music, Arts, Culture"
+441,,Classical,1,True,WILL-FM,FM,WILL,Music and Performance
+615,,Public Radio,1,False,WSIU Public Radio,FM,WSIU,Powered by You
+444,Tri States Public Radio,,1,False,Tri States Public Radio,FM,WIUM,"Serving west central Illinois, southeast Iowa and northeast Missouri with NPR news and diverse music."
+593,St. Louis Public Radio,Public Radio,1,False,St. Louis Public Radio,FM,WQUB,
+1559,,Public Radio,1,False,WBEK-FM,FM,WBEK,
+534,,Classical,1,True,Northern Public Radio,FM,WNIU,Northern Public Radio
+614,,Jazz,1,True,WSIE,FM,WSIE,"WSIE, 88.7 The Sound"
+967,Wisconsin Public Radio,,15,False,Wisconsin Public Radio,FM,WEPS,Wisconsin Public Radio
+95,,Public Radio,1,False,KJZZ,FM,KJZZ,"Your News and Information Station: Informed, Accurate, Credible"
+201,Arizona Public Media,,1,False,Arizona Public Media,FM,KUAZ,Your Source for NPR News and Genuine Jazz
+105,KNAU News Talk,,1,False,KNAU News Talk,FM,KNAU,Arizona Public Radio
+13,,Public Radio,1,False,KAWC,FM,KAWC,Colorado River Public Media
+1717,,Public Radio,1,False,KUAS-FM,FM,KUAS,
+12,,Public Radio,1,False,KOFA,AM,KOFA,Border Radio
+896,,Classical,12,True,KUAT,FM,KUAT,Southern Arizona's Classical Music Station
+433,WHYY,,1,False,WHYY,FM,WHYY,"Public Media serving Southeastern Pennsylvania, Delaware, South Jersey and the world"
+360,,Public Radio,1,False,90.5 WESA,FM,WESA,Pittsburgh's NPR News Station
+442,,Public Radio,1,False,WITF,FM,WITF,Your Home for NPR News and All Things Regional
+715,,Adult Album Alternative,1,True,XPN,FM,WXPN,Vinyl at heart
+678,WVIA,,1,False,WVIA,FM,WVIA,Your Arts and Information Station
+584,WPSU,,1,False,WPSU,FM,WPSU,Penn State Public Media
+597,WRTI Your Classical and Jazz Source,,1,False,WRTI Your Classical and Jazz Source,FM,WRTI,Your Member-Supported Classical & Jazz Source
+359,,Public Radio,1,False,WDIY,FM,WDIY,Lehigh Valley Public Radio
+592,WQLN,,1,False,WQLN,FM,WQLN,Learning Brought To Life
+717,,Adult Album Alternative,1,True,XPN,FM,WXPH,It's All About the Music
+1044,,Classical,1,True,WWFM The Classical Network,FM,WWPJ,
+1720,,Public Radio,1,False,WLVR News,FM,WLVR,Your Local NPR News Source
+1719,,College,1,True,WVBU-FM,FM,WVBU,
+724,,Adult Album Alternative,1,True,WYEP,FM,WYEP,Where the Music Matters
+33,CPR News,,1,False,CPR News,FM,KCFR,From Colorado Public Radio
+223,,Public Radio,1,False,KUNC,FM,KUNC,Community Radio for Northern Colorado
+154,,Public Radio,1,False,91.5 KRCC,FM,KRCC,Southern Colorado's NPR station.
+192,,Public Radio,1,False,Four Corners Public Radio,FM,KSUT,Four Corners Public Radio
+747,,Public Radio,1,False,Aspen Public Radio ,FM,KAJX,NPR News for Aspen and the Valley
+254,,Jazz,1,True,KUVO ,FM,KUVO,"Community, Culture, Music"
+752,,Public Radio,1,False,KVNF - Mountain Grown Community Radio,FM,KVNF, Mountain Grown Community Radio
+749,,Public Radio,1,False,KDNK,FM,KDNK,Carbondale Community Access Radio
+1528,,Adult Album Alternative,1,True,The Colorado Sound,FM,KJAC,The Colorado Sound
+751,,Public Radio,1,False,KBUT,FM,KBUT,Community Radio for the Gunnison Valley
+847,Four Corners Public Radio,,1,False,Four Corners Public Radio,FM,KUTE,Four Corners Public Radio
+750,,Public Radio,1,False,KSJD,FM,KSJD,Ideas. Stories. Community.
+1534,,Public Radio,1,False,KDNG-FM,FM,KDNG,
+1410,High Plains Public Radio,,1,False,High Plains Public Radio,FM,KCSE,"In touch with the world, at home on the High Plains."
+1438,,Jazz,1,True,KVJZ-FM,FM,KVJZ,
+1507,,Adult Album Alternative,1,True,Indie 102.3,FM,KVOQ,Music Matters
+1515,,Classical,1,True,Indie 102.3,FM,KVXO,Music Matters
+1529,,Public Radio,1,False,KCCS-FM,FM,KCCS,
+1533,,Public Radio,1,False,KPGS-FM,FM,KPGS,
+1566,,Public Radio,1,False,KXRE-AM,AM,KXRE,
+35,,Classical,1,True,CPR Classical,FM,KCFP,
+40,,Classical,1,True,CPR Classical,FM,KPRU,
+41,,Classical,1,True,CPR Classical,FM,KVOD,From Colorado Public Radio
+970,,Classical,1,True,CPR Classical,FM,KVOV,
+558,Iowa Public Radio News,,1,False,Iowa Public Radio News,FM,WOI,Iowa Public Radio enriches the civic and cultural life in Iowa through high quality news and cultural programming.
+277,,Public Radio,1,False,KWIT,FM,KWIT,A station for everyone
+1421,,Classical,1,True,Classical MPR,FM,KLCD,Member supported
+115,MPR News,,1,False,MPR News,FM,KLNI,Discovering what matters. Member supported.
+1291,,Classical,1,True,Iowa Public Radio Classical,FM,KICP,"Iowa Public Radio informs, enriches and engages Iowans through high quality news and cultural programming."
+1292,,Classical,1,True,Iowa Public Radio Classical,FM,KICL,"Iowa Public Radio informs, enriches and engages Iowans through high quality news and cultural programming."
+1378,,Classical,1,True,Iowa Public Radio Classical,FM,KICG,"Iowa Public Radio informs, enriches and engages Iowans through high quality news and cultural programming."
+1106,,Classical,1,True,Iowa Public Radio Classical,FM,KICW,"Iowa Public Radio informs, enriches and engages Iowans through high quality news and cultural programming."
+226,,Public Radio,15,False,Iowa Public Radio Studio One,FM,KNSM,"Iowa Public Radio informs, enriches and engages Iowans through high quality news and cultural programming."
+1029,,Classical,15,True,Iowa Public Radio,FM,KSUI,Iowa Public Radio enriches the civic and cultural life in Iowa through high quality news and cultural programming.
+1020,,Classical,15,True,Iowa Public Radio Classical,FM,KHKE,Iowa Public Radio enriches the civic and cultural life in Iowa through high quality news and cultural programming.
+987,,Classical,15,True,Iowa Public Radio Classical,FM,KICJ,"Iowa Public Radio informs, enriches and engages Iowans through high quality news and cultural programming."
+314,WBGO,,1,False,WBGO,FM,WBGO,The Jazz Source
+1243,,Public Radio,1,False,WNJT Radio - FM,FM,WNJT,New York Public Radio
+1130,,Classical,1,True,WQXR Radio,FM,WQXR,The Classical Music Station of NYC
+781,,Adult Album Alternative,1,True,WNTI,FM,WXPJ,Public Radio from Centenary College
+918,,Classical,1,True,WWFM The Classical Network,FM,WWFM,WWFM The Classical Network
+599,WRTI Your Classical and Jazz Source,,1,False,WRTI Your Classical and Jazz Source,FM,WRTQ,Your Member-Supported Classical & Jazz Source
+977,,Classical,1,True,WWFM The Classical Network,FM,WWNJ,WWFM The Classical Network
+978,,Classical,1,True,WWFM The Classical Network,FM,WWCJ,WWFM The Classical Network
+317,,Adult Album Alternative,1,True,90.5 The Night,FM,WBJB,90.5 The Night
+539,WHYY,,1,False,WHYY,FM,WNJN,"Public Media serving Southeastern Pennsylvania, Delaware, South Jersey and the world"
+540,,Public Radio,1,False,WNJP Radio - FM,FM,WNJP,New York Public Radio
+238,SDPB Radio,,1,False,SDPB Radio,FM,KUSD,Learn. Dream. Grow.
+830,,Classical,1,True,Classical MPR,FM,KRSD,Member supported
+60,,Public Radio,1,False,KCUR 89.3,FM,KCUR,Listen and discover.
+278,,Public Radio,1,False,St. Louis Public Radio,FM,KWMU,
+17,,Public Radio,1,False,KBIA,FM,KBIA,Mid-Missouri's NPR station.
+170,,Public Radio,1,False,KSMU,FM,KSMU,"On the Web, On the Air, and Where You Live"
+193,,Adult Album Alternative,1,True,The Bridge,FM,KTBG,Turn On. Tune In. Listen Local.
+155,,Public Radio,1,False,KRCU Public Radio,FM,KRCU,Southeast Missouri's NPR station
+283,,Public Radio,1,False,KXCV,FM,KXCV,Public Radio from Northwest Missouri State University
+675,WUWM 89.7 FM - Milwaukee's NPR,,1,False,WUWM 89.7 FM - Milwaukee's NPR,FM,WUWM,
+366,Wisconsin Public Radio,,1,False,Wisconsin Public Radio,FM,WERN,Wisconsin Public Radio
+718,,Public Radio,1,False,WXPR,FM,WXPR,Local. Public. Radio.
+921,,Adult Album Alternative,1,True,88Nine Radio Milwaukee,FM,WYMS,Discover New Music
+295,,Public Radio,1,False,WABE 90.1,FM,WABE,Where ATL Meets NPR
+635,Georgia Public Broadcasting,,1,False,Georgia Public Broadcasting,FM,WSVH,Your Source for State & NPR News
+652,,Public Radio,1,False,WUGA,FM,WUGA,Your source for NPR News and great music.
+340,,Jazz,1,True,Jazz 91.9 WCLK,FM,WCLK,The Jazz of the City
+644,Troy Public Radio,,1,False,Troy Public Radio,FM,WTJB,It's Time to Listen.
+975,,Classical,1,True,WFSU,FM,WFSL,Your Classical Music Source
+394,,Public Radio,1,False,WFYI Public Radio,FM,WFYI,Indiana's Premier NPR & PBS Member Station
+385,,Public Radio,1,False,WFIU,FM,WFIU,Indiana Public Media
+680,,Public Radio,1,False,WVPE 88.1 Elkhart/South Bend,FM,WVPE,Inform. Entertain. Inspire.
+322,89.1 WBOI,,1,False,89.1 WBOI,FM,WBOI,NPR News and Diverse Music
+533,,Public Radio,1,False,WNIN,FM,WNIN,Building a Better Tri-State Together
+324,Indiana Public Radio,,1,False,Indiana Public Radio,FM,WBST,Your Local Source for Classical Music and NPR News
+306,,Classical,1,True,WBAA Classical,FM,WBAA,Your Classical Companion for West Central Indiana & Worldwide
+307,,Public Radio,1,False,WBAA News,AM,WBAA,Purdue University's NPR Station
+1088,,Public Radio,1,False,Lakeshore Public Radio,FM,WLPR,Listener supported public radio in Northwest Indiana.
+321,,Classical,1,True,94.1 WBNI,FM,WBNI,"Classical Music | Fort Wayne, Indiana"
+842,WBEZ Chicago,,1,False,WBEZ Chicago,FM,WBEW,Chicago’s NPR News Station
+984,,Hot AC,1,True,WVUB,FM,WVUB,Vincennes University Broadcasting
+94,,Public Radio,1,False,KIOS,FM,KIOS,Omaha Public Radio
+204,NET Radio,,1,False,NET Radio,FM,KUCV,Nebraska's NPR Station
+315,,Public Radio,1,False,WBHM 90.3 FM,FM,WBHM,Public Radio for the Heart of Alabama
+480,,Public Radio,1,False,WLRH 89.3 FM/HD,FM,WLRH,Huntsville Public Radio for the Tennessee Valley
+1229,Alabama Public Radio,,1,False,Alabama Public Radio,FM,WHIL,We are Alabama Public Radio
+642,Troy Public Radio,,1,False,Troy Public Radio,FM,WTSU,It's Time to Listen.
+446,,Jazz,1,True,WJAB,FM,WJAB,"Hot Blues, Cool Jazz"
+676,,Jazz,1,True,WVAS,FM,WVAS,"Jazz, Blues, News and Views"
+547,Connecticut Public Radio,,1,False,Connecticut Public Radio,FM,WNPR,Media for the curious.
+611,WSHU,,1,False,WSHU,FM,WSHU,NPR News and Classical Music
+1072,,Public Radio,1,False,WHDD,FM,WHDD,Robin Hood Radio
+47,Prairie Public Broadcasting,,1,False,Prairie Public Broadcasting,FM,KCND,Prairie Public
+88,Hawaii Public Radio,,1,False,Hawaii Public Radio,FM,KHPR,"Radio with vision, listen and see"
+90,,Classical,1,True,Hawaii Public Radio,FM,KIPO,"Radio with vision, listen and see"
+1346,,Public Radio,1,False,Hawaii Public Radio,FM,KIPH,"Radio with vision, listen and see"
+1347,,Classical,1,True,Hawaii Public Radio,FM,KIPM,"Radio with vision, listen and see"
+1412,,Classical,1,True,Hawaii Public Radio,FM,KAHU,"Radio with vision, listen and see"
+151,KQED,,1,False,KQED,FM,KQED,KQED Public Media
+145,KPCC,,1,False,KPCC,FM,KPCC,Southern California Public Radio
+139,,Public Radio,1,False,KPBS Radio,FM,KPBS,San Diego's NPR Station - Where News Matters
+55,,Public Radio,1,False,KCRW,FM,KCRW,"NPR's flagship station for Southern California featuring an independent mix of eclectic music, news, art and talk programming."
+286,,Public Radio,1,False,CapRadio News,FM,KXJZ,
+2,,Public Radio,1,False,KALW,FM,KALW,Local Public Radio
+45,,Public Radio,1,False,KCLU,FM,KCLU,NPR and Local News
+15,,Public Radio,1,False,KAZU,FM,KAZU,NPR for the Monterey Bay Area
+270,,Public Radio,1,False,KVCR,FM,KVCR,Learn something new every day.
+289,CapRadio News,,1,False,CapRadio News,FM,KUOP,
+273,Valley Public Radio,,1,False,Valley Public Radio,FM,KVPR,Valley Public Radio - NPR News and classical music for Central California
+27,,Public Radio,1,False,KCBX,FM,KCBX,"Central Coast Public Radio, serving San Luis Obispo, Santa Barbara and Monterey Counties"
+43,North State Public Radio,,1,False,North State Public Radio,FM,KCHO,North State Public Radio
+92,,Public Radio,1,False,KHSU,FM,KHSU,Diverse Public Radio
+175,Jefferson Public Radio,,1,False,Jefferson Public Radio,FM,KNCA,Jefferson Public Radio
+288,,Classical,1,True,CapRadio Music,FM,KXPR,
+292,Mendocino County Public Broadcasting,,1,False,Mendocino County Public Broadcasting,FM,KZYX,Mendocino County Public Broadcasting
+59,,Jazz,1,True,KCSM,FM,KCSM,The Bay Area's Jazz Station
+153,,Public Radio,1,False,KRCB-FM,FM,KRCB,KRCB-FM Radio 91
+290,,Classical,1,True,CapRadio,FM,KXSR,CapRadio Music 
+1565,,Public Radio,1,False,KERW-FM,FM,KERW,
+999,,Classical,1,True,CapRadio,FM,KXJS,CapRadio Music
+112,MPR News,,1,False,MPR News,FM,KNOW,Discovering what matters. Member supported.
+818,,Classical,1,True,Classical MPR,FM,KSJN,Member supported
+14,,Public Radio,1,False,KAXE,FM,KAXE,Connecting you to Northern Minnesota.
+836,,Classical,1,True,Minnesota Public Radio,FM,WSCD,Member supported.
+823,,Classical,1,True,Classical MPR,FM,KCCM,Member supported.
+832,,Classical,1,True,Classical MPR,FM,KSJR,member supported
+828,,Classical,1,True,Classical MPR,FM,KLSE,member supported
+829,,Classical,1,True,Classical MPR,FM,KQMN,Member supported
+831,,Classical,1,True,Classical MPR,FM,KRSW,Member supported
+835,,Classical,1,True,Classical MPR,FM,WMLS,Member supported
+113,,Classical,1,True,Classical MPR,FM,KBPR,Member supported
+936,,Adult Album Alternative,1,True,The Current,FM,KCMP,Great music lives here
+1064,,Adult Album Alternative,1,True,The Current,FM,KMSE,Great music lives here.
+826,,Classical,1,True,Classical MPR,FM,KGAC,Member supported
+824,,Classical,1,True,Classical MPR,FM,KCMF,Member supported
+825,,Classical,1,True,Classical MPR,FM,KCRB,Member supported
+834,,Classical,1,True,Classical MPR,FM,WIRR,Member supported
+867,,Classical,1,True,Classical MPR,FM,KRSU,Member supported
+578,WPLN,,1,False,WPLN,FM,WPLN,
+669,,Public Radio,1,False,WUOT,FM,WUOT,"Listener-Supported WUOT 91.9 FM, Knoxville"
+672,,Public Radio,1,False,WUTC,FM,WUTC,Chattanooga's NPR station
+467,,Public Radio,1,False,WKNO,FM,WKNO,NPR for the Mid-South
+374,,Public Radio,1,False,WETS,FM,WETS,"Public Radio for East Tennessee, Southwest Virginia & Western North Carolina"
+508,,Americana,1,True,WMOT,FM,WMOT,WMOT Roots Radio
+1271,,Classical,1,True,91Classical,FM,WFCL,Nashville's home for classical music and the arts
+376,New Hampshire Public Radio,,1,False,New Hampshire Public Radio,FM,WEVO,New Hampshire Public Radio
+1478,,Classical,1,True,WCNH-FM,FM,WCNH,
+666,Michigan Radio,,1,False,Michigan Radio,FM,WUOM,Michigan's NPR News Leader
+358,,Public Radio,1,False,WDET 101.9 FM,FM,WDET,Detroit's Public Radio Station
+463,WKAR Public Media,,1,False,WKAR Public Media,FM,WKAR,from Michigan State University
+412,WGVU News,,1,False,WGVU News,FM,WGVU,WGVU News
+364,,Public Radio,1,False,89.1 WEMU,FM,WEMU,Your Community NPR Station. 
+436,Interlochen Public Radio,,1,False,Interlochen Public Radio,FM,WICA,News and Classical Music from northern Michigan
+523,,Public Radio,1,False,WMUK,FM,WMUK,Public radio from Western Michigan University
+342,WCMU,,1,False,WCMU,FM,WCMU,Music and NPR News for Central and Northern Michigan
+347,,Public Radio,1,False,Q-90.1 FM,FM,WUCX,Quality Public Radio.
+545,"Public Radio 90, WNMU",,1,False,"Public Radio 90, WNMU",FM,WNMU,
+319,Blue Lake Public Radio,Classical,1,True,Blue Lake Public Radio,FM,WBLU,Blue Lake Public Radio
+124,MPR News,,1,False,MPR News,FM,WGGL,Discovering what matters. Member supported.
+1282,,Classical,1,True,Interlochen Public Radio,FM,WIAA,News and Classical Music from northern Michigan
+945,,Classical,1,True,Interlochen Public Radio,FM,WIAB,Classical IPR
+410,,Oldies,1,True,WGVU AM - Real Oldies,AM,WGVU,"Music from the 50s, 60s, and 70s"
+411,,Oldies,1,True,WGVU AM - Real Oldies,AM,WGVS,"Real Oldies, the way they were meant to be heard"
+1585,,Public Radio,15,False,WRSX-FM,FM,WRSX,
+128,Nevada Public Radio,,1,False,Nevada Public Radio,FM,KNPR,Nevada Public Radio
+228,,Public Radio,1,False,KUNR Public Radio,FM,KUNR,News and Information from Northern Nevada and the Eastern Sierra
+887,,Classical,1,True,Classical Vegas,FM,KCNV,Classical 89.7 KCNV Nevada Public Radio
+812,Boise State Public Radio News,,1,False,Boise State Public Radio News,FM,KBSJ,Enriching Your Life
+1561,,Public Radio,1,False,Nevada Public Radio,FM,KVNV,Nevada Public Radio
+1560,,Classical,1,True,KNCJ,FM,KNCJ,Nevada's Classical & Jazz
+661,,Public Radio,1,False,North Carolina Public Radio,FM,WUNC,Bringing the World Home to You: North Carolina Public Radio - WUNC
+380,,Public Radio,1,False,WFAE,FM,WFAE,Charlotte's NPR News Source
+383,,Public Radio,1,False,88.5 WFDD - Public Radio For The Piedmont,FM,WFDD,Public Radio for the Piedmont
+354,,Public Radio,1,False,BPR Classic,FM,WCQS,NPR for Western North Carolina
+429,,Public Radio,1,False,WHQR,FM,WHQR,High Quality Radio
+525,,Public Radio,1,False,WNCW,FM,WNCW,A Member Supported Public Radio Station Broadcasting a World of Music
+638,PRE News & Ideas,,1,False,PRE News & Ideas,FM,WTEB,
+389,,Public Radio,1,False,WFSS,FM,WFSS,Your Public Radio Station for NPR News and Jazz Music
+1084,,Public Radio,1,False,BPR News,FM,WYQS,NPR for Western North Carolina
+357,,Classical,1,True,WDAV,FM,WDAV,Classical Public Radio
+1273,,Public Radio,1,False,WSGE-FM,FM,WSGE,Your Independent Music Source
+913,,Jazz,1,True,WSNC,FM,WSNC,What we play is life
+763,,Public Radio,1,False,WRVS,FM,WRVS,Your Community Voice
+524,,Jazz,1,True,WNCU,FM,WNCU,North Carolina Central University's Jazz and Information Station
+872,,Classical,1,True,WCPE - The Classical Station,FM,WCPE,"Great Classical Music, 24 Hours A Day"
+1042,,Classical,1,True,WCPE,FM,WZPE,"Great Classical Music, 24 Hours A Day."
+496,Maine Public,,1,False,Maine Public,FM,WMEA,Stay connected with Maine Public!
+1574,,Classical,1,True,WBQA-FM,FM,WBQA,
+1555,,Classical,1,True,WBQE-FM,FM,WBQE,
+1549,,Classical,1,True,Maine Public,FM,WBQF,
+26,Boise State Public Radio News,,1,False,Boise State Public Radio News,FM,KBSX,Enriching Your Life
+157,,Public Radio,1,False,NWPB Classical,FM,KRFA,NPR and Classical Music
+159,,Public Radio,1,False,NWPB Classical,FM,KNWO,NPR and Classical Music
+1200,,Public Radio,1,False,Spokane Public Radio,FM,KXJO,"Spokane Public Radio, stations KPBX, KSFC, KPBZ"
+1443,Spokane Public Radio,,1,False,Spokane Public Radio,FM,KLGG,"Spokane Public Radio, stations KPBX, KSFC, KPBZ"
+833,,Classical,1,True,Classical MPR,FM,KWRV,Member supported
+688,West Virginia Public Broadcasting,,1,False,West Virginia Public Broadcasting,FM,WVPM,Telling West Virginia's Story
+1567,,Public Radio,1,False,WVKM-FM,FM,WVKM,
+566,WOSU 89.7 NPR News,,1,False,WOSU 89.7 NPR News,FM,WOSU,89.7 NPR News - Global. Local.
+353,90.3 WCPN ideastream,,1,False,90.3 WCPN ideastream,FM,WCPN,Northeast Ohio's NPR News Station
+704,91.7 WVXU,,1,False,91.7 WVXU,FM,WVXU,Connecting You to a World of Ideas
+471,,Public Radio,1,False,WKSU,FM,WKSU,"Your Source for NPR, News and Information"
+726,,Public Radio,1,False,WYSO,FM,WYSO,Our Community. Our Nation. Our World.
+338,,Public Radio,1,False,WCBE 90.5FM,FM,WCBE,"Central Ohio's NPR Station - Innovative, Provocative, Real"
+404,WGTE,,1,False,WGTE,FM,WGTE,A trusted source for NPR News and a voice for the arts in Northwest Ohio and Southeast Michigan
+569,WOUB Public Media,,1,False,WOUB Public Media,FM,WOUB,WOUB Public Media
+727,,Public Radio,1,False,WYSU,FM,WYSU,Radio you need to know.
+787,,Urban Contemporary,1,True,WCSU,FM,WCSU,Central State University
+568,,Public Radio,1,False,WOUB Public Media,AM,WOUB,Athens News and Music
+564,,Classical,1,True,WOSU Public Media,FM,WOSP,"Classical Music All Day, Every Day"
+565,,Classical,1,True,WOSU Public Media,FM,WOSV,"Classical Music All Day, Every Day"
+562,,Classical,1,True,WOSU Public Media,FM,WOSB,"Classical Music All Day, Every Day"
+563,,Classical,1,True,WOSU Public Media,FM,WOSE,"Classical Music All Day, Every Day"
+1197,,Classical,12,True,Classical 101,FM,WOSA,"Classical Music All Day, Every Day"
+1366,,Classical,15,True,WCLV Classical 104.9 ideastream,FM,WCLV,Northeast Ohio's Classical Music Station
+482,WLRN 91.3 FM,,1,False,WLRN 91.3 FM,FM,WLRN,WLRN Public Media
+671,,Public Radio,1,False,WUSF Public Media - WUSF 89.7,FM,WUSF,"News, Information & All Night Jazz"
+502,,Public Radio,1,False,WMFE,FM,WMFE,Public Radio for Central Florida
+447,,Public Radio,1,False,WJCT 89.9 FM Jacksonville,FM,WJCT,
+400,WGCU,,1,False,WGCU,FM,WGCU,WGCU Public Media
+587,,Public Radio,1,False,WQCS,FM,WQCS,NPR for the Treasure Coast.
+390,,Public Radio,1,False,WFSU,FM,WFSU,Your News & Information Station
+650,,Public Radio,1,False,WUFT 89.1,FM,WUFT,NPR News and Talk for Gainesville and Ocala
+673,,Public Radio,1,False,WUWF,FM,WUWF,NPR for Florida's Great Northwest
+384,,Public Radio,1,False,WFIT,FM,WFIT,Public Radio for The Florida Space Coast
+1577,,Public Radio,1,False,WMFV-FM,FM,WMFV,"Serving The Villages, Leesburg and The Golden Triangle areas of Central Florida"
+651,,Public Radio,1,False,WUFT 90.1,FM,WJUF,NPR News & Talk for the Nature Coast and The Villages
+1184,,Classical,1,True,Classical WSMR,FM,WSMR,Classical WSMR 89.1 & 103.9
+464,,Public Radio,1,False,WKGC,FM,WKGC,Here When You Need Us
+649,,Jazz,1,True,WUCF FM,FM,WUCF,89.9 Jazz & More
+391,,Classical,1,True,WFSQ,FM,WFSQ,Your Classical Music Source
+507,,Public Radio,1,False,WMNF,FM,WMNF,Community Conscious Radio
+488,South Carolina Public Radio,,1,False,South Carolina Public Radio,FM,WEPR,South Carolina Public Radio
+778,,Jazz,1,True,WSSB,FM,WSSB,South Carolina's Jazz Station
+199,KUAR,,1,False,KUAR,FM,KUAR,News And Culture For Arkansas
+197,,Public Radio,1,False,KUAF,FM,KUAF,KUAF - Your indispensable connection to the world
+11,,Public Radio,1,False,KASU,FM,KASU,"Music, News, Arts, and Views"
+63,Red River Radio,,1,False,Red River Radio,FM,KBSA,Your source for great music and in-depth news.
+200,,Classical,1,True,KLRE,FM,KLRE,Classical Music For Central Arkansas
+725,,Public Radio,1,False,WYPR - 88.1 FM Baltimore,FM,WYPR,WYPR 88.1 FM Your NPR News Station
+1162,WAMU 88.5,Public Radio,1,False,WAMU 88.5,FM,WRAU,
+361,,Jazz,1,True,WEAA,FM,WEAA,WEAA 88.9 FM The Voice Of The Community
+608,,Classical,1,True,Delmarva Public Radio,FM,WSCL,Fine Arts and Culture
+371,,Jazz,1,True,WESM 91.3 FM,FM,WESM,"Your Source for Jazz, Blues & NPR News"
+939,,Adult Album Alternative,1,True,WTMD,FM,WTMD,Radio for Music People  -- 89.7 WTMD
+373,Classical WETA,Classical,1,True,Classical WETA,FM,WGMS,Classical for Washington
+716,,Grade School (K-12),15,False,XPN,FM,WKHS,It's All About The Music
+169,Alaska Public Media,,1,False,Alaska Public Media,FM,KSKA,Connecting Alaskans. Life Informed.
+195,,Public Radio,9,False,KTOO,FM,KTOO,Juneau's 24 hour news station
+196,,Public Radio,9,False,KUAC,FM,KUAC,Public Radio for Alaska's Interior
+731,,Variety,9,True,KNBA,FM,KNBA,Koahnic Broadcast Corporation
+816,,Public Radio,9,False,KYUK,AM,KYUK,Bethel Broadcasting
+736,,Public Radio,9,False,KBBI,AM,KBBI,Where the Sound Meets the Sea
+743,,Public Radio,9,False,KIAL,FM,KUCB,Unalaska Community Broadcasting
+730,,Public Radio,9,False,KDLL,FM,KDLL,Public Radio for the Central Kenai Peninsula
+1005,,Public Radio,9,False,KRNN,FM,KRNN,Music and Arts from Alaska's Capital City
+1372,KDLG 670AM,Public Radio,9,False,KDLG 670AM,FM,KDLG,Public Radio for Alaska's Bristol Bay
+820,,Public Radio,9,False,Kotzebue Broadcasting,AM,KOTZ,The Voice of Northwest Alaska
+1422,KSKO,Public Radio,9,False,KSKO,FM,KNKO,Kuskokwin Public Broadcasting
+1479,,Public Radio,9,False,KODK-FM,FM,KODK,
+1491,,Public Radio,9,False,KUUK-FM,FM,KUUK,
+1493,,Public Radio,9,False,KORI-FM,FM,KORI,
+1496,,Public Radio,9,False,KZNC-FM,FM,KZNC,
+1539,,Public Radio,9,False,KNSA-AM,AM,KNSA,
+1540,,Public Radio,9,False,KZPA-AM,AM,KZPA,
+1576,,Public Radio,9,False,KTYU-FM,FM,KTYU,
+1582,,Unknown Format,9,True,KNIB-FM,FM,KNIB,
+1726,,Public Radio,9,False,KHUU-FM,FM,KHUU,
+1727,,Public Radio,9,False,KSYU-FM,FM,KSYU,
+1728,,Public Radio,9,False,KKET-FM,FM,KKET,
+18,,Public Radio,9,False,KBRW,AM,KBRW,Public Radio from the Top of the World
+846,,Public Radio,9,False,KSDP,AM,KSDP,Alaska Broadcasters Association
+152,,Public Radio,9,False,KRBD,FM,KRBD,Ketchikan's Public Radio
+745,,Public Radio,9,False,KSTK,FM,KSTK,Stikine River Radio
+734,,Public Radio,9,False,KIYU,AM,KIYU,Big River Public Broadcasting Corp
+735,,Public Radio,9,False,KHNS,FM,KHNS,The Voice of the Upper Lynn Canal
+739,,Public Radio,9,False,KFSK,FM,KFSK,"Fish Head Community Radio, Petersburg, Alaska"
+740,,Public Radio,9,False,KCAW,FM,KCAW,Raven Radio Foundation
+741,,Public Radio,9,False,KUHB,FM,KUHB,Voice of the Pribilof's
+742,,Public Radio,9,False,KTNA,FM,KTNA,Talkeetna Community Radio Inc.
+744,,Public Radio,9,False,KCHU,AM,KCHU,Public Radio for Prince William Sound and the Copper River Valley
+732,,Public Radio,9,False,KCUK,FM,KCUK,The Native American Radio Service
+737,,Public Radio,9,False,KMXT,FM,KMXT,Public Radio for the Kodiak Community.
+333,The Public's Radio,,1,False,The Public's Radio,FM,WNPN,89.3 FM in Rhode Island and The Southcoast

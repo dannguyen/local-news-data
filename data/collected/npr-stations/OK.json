@@ -1,0 +1,939 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "OK"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/81",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kgou-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "81",
+        "network": {
+          "inheritingFrom": "81",
+          "usesInheritance": false,
+          "currentOrgId": "81",
+          "tier1": {
+            "name": "KGOU-FM",
+            "id": "81",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KROU-FM",
+                "id": "82",
+                "usesInheritance": true
+              },
+              {
+                "name": "KOUA-FM",
+                "id": "1308",
+                "usesInheritance": true
+              },
+              {
+                "name": "KWOU-FM",
+                "id": "1309",
+                "usesInheritance": true
+              },
+              {
+                "name": "KQOU-FM",
+                "id": "1575",
+                "usesInheritance": false
+              },
+              {
+                "name": "StateImpact Oklahoma",
+                "id": "20009",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "81",
+          "recency": 240
+        },
+        "guid": "4fcf700e15c040089d3b7c0e69e26770",
+        "brand": {
+          "band": "FM",
+          "call": "KGOU",
+          "frequency": "106.3",
+          "marketCity": "Norman",
+          "marketState": "OK",
+          "name": "KGOU",
+          "tagline": "Your NPR Source"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d195d445b13b49e1acded534d0173558",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KGOUFM_64.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "99958fd23e2f4bf98fb5053dbccecbf1",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGOUFMAAC.aac"
+              }
+            ],
+            "guid": "4fcf7145255746e9ab3730e92c52dc21",
+            "title": "KGOU-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kgou.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kgou_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kgou_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/81_621d5ecb60232e36919ac2b15ca0d364.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kgounews",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/kgounews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "d195d445b13b49e1acded534d0173558",
+            "href": "https://playerservices.streamtheworld.com/pls/KGOUFM_64.pls",
+            "isPrimaryStream": true,
+            "title": "KGOU-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "99958fd23e2f4bf98fb5053dbccecbf1",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KGOUFMAAC.aac",
+            "isPrimaryStream": true,
+            "title": "KGOU-FM",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "0d64d98ae22849718a55699b1809d314",
+            "href": "https://kgou.drupal.publicbroadcasting.net/podcasts/89086/rss.xml",
+            "title": "Capitol Insider",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5a630de8ed534d8c878f94cbdb8aba7a",
+            "href": "https://kgou.drupal.publicbroadcasting.net/podcasts/114826/rss.xml",
+            "title": "How Curious",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1b56285798ed46029efec5eab35ea9a2",
+            "href": "https://www.kgou.org/donate-online",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "dfaab6534ffc4f8ea413ed91db37103e",
+            "href": "https://secureallegiance.com/kgou/WebModule/Donate.aspx?P=WEBNPR&PAGETYPE=PLG&CHECK=0XXz7vbVFVxEIkmdxt0MhRiCxtaFReuS",
+            "title": "Support",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "6c4834d089574e9c973243bf2e736208",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/81_981c3adee4631d887a05f35ce1904b4f.mp4",
+            "title": "KGOU Donation Audio 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "e26c7261df7a42d1ba4ade640ba7e30f",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/81_3c3c0a3a4c94b76c5f4a2475106b3fc4.mp4?1499119893460",
+            "title": "KGOU Donation Audio 3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "8b3275f8f7eb4a8d8ebe0cde80d45228",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/81_be6c241a81b44720c831975e32d5d490.mp4?1499119856630",
+            "title": "KGOU Donation Audio 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/81.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/276",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kwgs-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "276",
+        "network": {
+          "inheritingFrom": "276",
+          "usesInheritance": false,
+          "currentOrgId": "276",
+          "tier1": {
+            "name": "KWGS-FM",
+            "id": "276",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KWTU-FM",
+                "id": "920",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700f22d845659c48415745369bb5",
+        "brand": {
+          "band": "FM",
+          "call": "KWGS",
+          "frequency": "89.5",
+          "marketCity": "Tulsa",
+          "marketState": "OK",
+          "name": "Public Radio Tulsa",
+          "tagline": "Public Radio 89.5 from The University of Tulsa"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "86eacfdf793e47b58c8aea3234da61bc",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWGSFM.mp3"
+              }
+            ],
+            "guid": "4fcf71600cee415ba62d042a28350ad6",
+            "title": "Public Radio 89.5 \u2022 KWGS, Tulsa",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "ba3e820aba1e4721be368fe274aac8b2",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KWGSHD3AAC.pls"
+              }
+            ],
+            "guid": "aa3dae3b624b44c8be929e94a7b8fabe",
+            "title": "World Radio 89.5 \u2022 KWGS, Tulsa",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "42d1ca358bd1496d980f9b01c9843358",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KWGSHD2AAC.pls"
+              }
+            ],
+            "guid": "109ab39a548148d7a06a88674b0ff6ed",
+            "title": "Jazz 89.5 \u2022 KWGS, Tulsa",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "50963235fb5348119c2fa34ac43a3a3e",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KWTUFMAAC.pls"
+              }
+            ],
+            "guid": "4fcf716010f548c0b07f7d6537e5bb50",
+            "title": "Classical 88.7 \u2022 KWTU, Tulsa",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://publicradiotulsa.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kwgs_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kwgs_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/276.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Public-Radio-Tulsa/143362999180",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/KWGSNEWS",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "86eacfdf793e47b58c8aea3234da61bc",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KWGSFM.mp3",
+            "isPrimaryStream": true,
+            "title": "Public Radio 89.5 \u2022 KWGS, Tulsa",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ba3e820aba1e4721be368fe274aac8b2",
+            "href": "https://playerservices.streamtheworld.com/pls/KWGSHD3AAC.pls",
+            "isPrimaryStream": false,
+            "title": "World Radio 89.5 \u2022 KWGS, Tulsa",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "42d1ca358bd1496d980f9b01c9843358",
+            "href": "https://playerservices.streamtheworld.com/pls/KWGSHD2AAC.pls",
+            "isPrimaryStream": false,
+            "title": "Jazz 89.5 \u2022 KWGS, Tulsa",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "50963235fb5348119c2fa34ac43a3a3e",
+            "href": "https://playerservices.streamtheworld.com/pls/KWTUFMAAC.pls",
+            "isPrimaryStream": false,
+            "title": "Classical 88.7 \u2022 KWTU, Tulsa",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "fd855d806f274c9bb112ea3aff5dfcb4",
+            "href": "https://kwgs.drupal.publicbroadcasting.net/podcasts/138810/rss.xml",
+            "title": "Found@TU",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "96eb493da0f04c14a0d815f25d37d592",
+            "href": "https://kwgs.drupal.publicbroadcasting.net/podcasts/125642/rss.xml",
+            "title": "Classical Tulsa",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1cba6e669f994951b2311e64af7d41f2",
+            "href": "https://kwgs.drupal.publicbroadcasting.net/podcasts/161894/rss.xml",
+            "title": "Focus: Black Oklahoma",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "85c8700eafa6486d87bae08a8624708d",
+            "href": "https://kwgs.drupal.publicbroadcasting.net/podcasts/123392/rss.xml",
+            "title": "Museum Confidential",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "dceda5dd902e494184e769aa2fe3fbe7",
+            "href": "https://kwgs.drupal.publicbroadcasting.net/podcasts/2293/rss.xml",
+            "title": "StudioTulsa",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "7ff7218ab4304d088ff786f9a797b5d2",
+            "href": "https://payments.utulsa.edu/kwgs/",
+            "title": "Pledge Online",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/276.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/138",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kosu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "138",
+        "network": {
+          "inheritingFrom": "138",
+          "usesInheritance": false,
+          "currentOrgId": "138",
+          "tier1": {
+            "name": "KOSU-FM",
+            "id": "138",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KOSN-FM",
+                "id": "926",
+                "usesInheritance": true
+              },
+              {
+                "name": "KOSR-FM",
+                "id": "1293",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "138",
+          "recency": 240
+        },
+        "guid": "4fcf700e26564a49a4523f22bc2be705",
+        "brand": {
+          "band": "FM",
+          "call": "KOSU",
+          "frequency": "91.7",
+          "marketCity": "Stillwater",
+          "marketState": "OK",
+          "name": "KOSU",
+          "tagline": "Uniquely Oklahoma"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "43f6771a9f834078bc33ad90bb4fa1bc",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KOSUHD2.pls"
+              }
+            ],
+            "guid": "4fcf713e03b44f2d827ea4894341124c",
+            "title": "The Spy",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "266e2a2dcafd4aeeb60bff8ac564266e",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KOSUFM_NEWS.pls"
+              }
+            ],
+            "guid": "4fcf713e08b749a68a56af73664a8f22",
+            "title": "KOSU",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kosu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kosu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kosu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/138_0b1506c6082fbe55084c65ae3192c2c6.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/138_14b527ece209af6cc93a6a24de7f33b0.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/138_0ec1f485cadb8700bce85bc0979bcbe1.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kosuradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KOSUradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "43f6771a9f834078bc33ad90bb4fa1bc",
+            "href": "https://playerservices.streamtheworld.com/pls/KOSUHD2.pls",
+            "isPrimaryStream": false,
+            "title": "The Spy",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "266e2a2dcafd4aeeb60bff8ac564266e",
+            "href": "https://playerservices.streamtheworld.com/pls/KOSUFM_NEWS.pls",
+            "isPrimaryStream": true,
+            "title": "KOSU",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "a9b010bc05194f2eb20db4366eeaf134",
+            "href": "https://feeds.captivate.fm/imaginary-oklahoma/",
+            "title": "Imaginary Oklahoma",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4cc973d79da1472a8bf299ee3945a135",
+            "href": "https://feeds.captivate.fm/oklahoma-politics/",
+            "title": "This Week in Oklahoma Politics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "decf4dacb4d44f8099a46fddac415ff5",
+            "href": "https://feeds.captivate.fm/no-cover/",
+            "title": "No Cover",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "76e18b688bd74fb289696f6dda100b85",
+            "href": "https://kosu.drupal.publicbroadcasting.net/podcasts/58580/rss.xml",
+            "title": "StateImpact Oklahoma",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5266bc2380fc4d7abff2d099bc7fcd08",
+            "href": "https://feeds.captivate.fm/storycorps-oklahoma/",
+            "title": "StoryCorps Oklahoma",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "8de34d7468eb43cb91d68f6a75c95d58",
+            "href": "https://kosu.secureallegiance.com/kosu/WebModule/Donate.aspx?P=NPRORG&PAGETYPE=PLG&CHECK=z15Ot1lWvWtirnhqggI3XhiCxtaFReuS",
+            "title": "Support KOSU!",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "630f2f2f384349ae857328b597e8a6a4",
+            "href": "https://bit.ly/kosunprone",
+            "title": "Support This Station",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "363de40dd37b478689a264a6f5132047",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/138_ceeb031eed0a455cf21e8fdad73dda2d.mp4",
+            "title": "Spring 2020 - MKT2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "803955508eeb4e1fa11f23b727e1dd16",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/138_c2fcf1c0b922709f842b054e4c5b4bcf.mp4",
+            "title": "Spring 2020 - MKT5",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "d35eaedcf0bb4614970ee0c36e5bf2c7",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/138_ffd8f5a712437bae04cb2b82bcb0bf8a.mp4",
+            "title": "Spring 2020 - MKT1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "288f6e4b6e8546389d3a1834ffe02128",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/138_4cbf50c8337e7e8a11ba041f246e86c8.mp4",
+            "title": "Spring 2020 - MKT3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "77e2441bbd95403095633e35a3fab6ad",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/138_829c7732705bb7295fd1d0e064dd6bbc.mp4",
+            "title": "Spring 2020 - MKT4",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/138.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/28",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "28",
+        "network": {
+          "inheritingFrom": "28",
+          "usesInheritance": false,
+          "currentOrgId": "28",
+          "tier1": {
+            "name": "KCCU-FM",
+            "id": "28",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KLCU-FM",
+                "id": "31",
+                "usesInheritance": true
+              },
+              {
+                "name": "KOCU-FM",
+                "id": "809",
+                "usesInheritance": true
+              },
+              {
+                "name": "KMCU-FM",
+                "id": "869",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "28",
+          "recency": 360
+        },
+        "guid": "4fcf700e05eb457e9719b15ab3a4dcc2",
+        "brand": {
+          "band": "FM",
+          "call": "KCCU",
+          "frequency": "89.3",
+          "marketCity": "Lawton",
+          "marketState": "OK",
+          "name": "KCCU",
+          "tagline": "Your Public Radio Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6d270a20b50242a69fd0daacbe764bb4",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KCCUFM.pls"
+              }
+            ],
+            "guid": "13dcc6ea338028045d0a23450ed29a4c",
+            "title": "KCCU-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kccu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kccu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/28.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KCCU/76165160801",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "6d270a20b50242a69fd0daacbe764bb4",
+            "href": "https://playerservices.streamtheworld.com/pls/KCCUFM.pls",
+            "isPrimaryStream": true,
+            "title": "KCCU-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3214bdf575b84767876886f01ce670b7",
+            "href": "https://www.cameron.edu/CU/kccu/giving_to_cu.php",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/28.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1575",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "08d233a190ac4f7a9e4bec42c5659ffc",
+        "brand": {
+          "band": "FM",
+          "call": "KQOU",
+          "frequency": "89.1",
+          "marketCity": "Clinton",
+          "marketState": "OK",
+          "name": "KQOU-FM",
+          "tagline": null
+        },
+        "orgId": "1575",
+        "network": {
+          "inheritingFrom": "1575",
+          "usesInheritance": false,
+          "currentOrgId": "1575"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/920",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "920",
+        "network": {
+          "inheritingFrom": "920",
+          "usesInheritance": false,
+          "currentOrgId": "920"
+        },
+        "guid": "4fcf70131ca644c188ab47a19b458b17",
+        "brand": {
+          "band": "FM",
+          "call": "KWTU",
+          "frequency": "88.7",
+          "marketCity": "Tulsa",
+          "marketState": "OK",
+          "name": "Public Radio Tulsa",
+          "tagline": "Classical 88.7 from The University of Tulsa"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "50963235fb5348119c2fa34ac43a3a3e",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KWTUFMAAC.pls"
+              }
+            ],
+            "guid": "4fcf716010f548c0b07f7d6537e5bb50",
+            "title": "Classical 88.7 \u2022 KWTU, Tulsa",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://publicradiotulsa.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kwtu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/920.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Public-Radio-Tulsa/143362999180",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "50963235fb5348119c2fa34ac43a3a3e",
+            "href": "https://playerservices.streamtheworld.com/pls/KWTUFMAAC.pls",
+            "isPrimaryStream": true,
+            "title": "Classical 88.7 \u2022 KWTU, Tulsa",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "96eb493da0f04c14a0d815f25d37d592",
+            "href": "https://kwgs.drupal.publicbroadcasting.net/podcasts/125642/rss.xml",
+            "title": "Classical Tulsa",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "18bc4ce829904f0fb7e58b8e3d7f61e8",
+            "href": "https://payments.utulsa.edu/kwgs/",
+            "title": "Pledge Online",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/920.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

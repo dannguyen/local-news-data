@@ -1,0 +1,650 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "CT"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/547",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wnpr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "547",
+        "network": {
+          "name": "Connecticut Public Radio",
+          "inheritingFrom": "546",
+          "usesInheritance": true,
+          "currentOrgId": "547",
+          "tier1": {
+            "name": "Connecticut Public Radio",
+            "id": "546",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WNPR-FM",
+                "id": "547",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WEDW-FM",
+                    "id": "548",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WPKT-FM",
+                    "id": "549",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRLI-FM",
+                    "id": "550",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WECS-FM",
+                    "id": "1077",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVOF-FM",
+                    "id": "1157",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "546",
+          "recency": 240
+        },
+        "guid": "4fcf70111acd4f39ae7f81f177796624",
+        "brand": {
+          "band": "FM",
+          "call": "WNPR",
+          "frequency": "90.5",
+          "marketCity": "Meriden",
+          "marketState": "CT",
+          "name": "Connecticut Public Radio",
+          "tagline": "Media for the curious."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "37ebc1aaf61f476898d1f3f25e264ba5",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNPRFM.mp3"
+              }
+            ],
+            "guid": "4fcf71560d524fd08e6a34685d3fbe6e",
+            "title": "WNPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wnpr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wnpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wnpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/546_99115e465222e01e8d20b3f17764e5ee.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/546_69242893737bf7562fcf548886d7d86d.mp4?1499354878187",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/546_239ec67d4fb047ca479d04abebd50cc2.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/546_ed0ebce54ea228aa444d5663d64daace.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/546_a0b98f24c67bad7c2b34d2bd484975ef.mp4?1499354555154",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/546_3fad0dfb02d8df3db1a5303044dcbcc9.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/546_184ef1b0aa38e3dbf4a4d125c4bcf2a8.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/546_a6889e8b85e84be0c2fd9fbf2ce7ba4c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/546_b56fa56a5e43932bcb3ee88e2ea560e6.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/546_5c03d7779dbbb19aafc0f40147c67ab8.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/546_a4faa7944fc825ca0833f6cc7cec5f79.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/WNPRNews",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/wnpr",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "37ebc1aaf61f476898d1f3f25e264ba5",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNPRFM.mp3",
+            "isPrimaryStream": true,
+            "title": "WNPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "37c699d30cde41418e09cf487d562e55",
+            "href": "https://www.omnycontent.com/d/playlist/ac0be969-d7df-460c-a66c-a6f900e1ebd1/ffd16754-9f56-4929-b5a9-a707010871e1/725c03dc-cc3b-4cb7-8226-a707010871ea/podcast.rss",
+            "title": "Faith Middleton Food Schmooze",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "da5dcf0c3729415d826975e51ddfdb88",
+            "href": "https://www.omnycontent.com/d/playlist/ac0be969-d7df-460c-a66c-a6f900e1ebd1/f7efad51-a088-437f-919d-a893011d06ab/4e6b3f56-90a8-4eb4-b734-a89301287cc0/podcast.rss",
+            "title": "Extra Credit",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "07a5b9700fd44190a01ace9b5daaada7",
+            "href": "https://www.omnycontent.com/d/playlist/ac0be969-d7df-460c-a66c-a6f900e1ebd1/71dc4a0f-e8ca-4021-aec9-aa030026042d/b695cb87-f6a9-4c76-8f11-aa030026043b/podcast.rss",
+            "title": "The Colin McEnroe Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "84cc0543f1d142f099008b718b0c6011",
+            "href": "https://www.omnycontent.com/d/playlist/ac0be969-d7df-460c-a66c-a6f900e1ebd1/eacb4e2f-1b3b-4a2d-a3f7-a9fb00618620/1580ec4b-de35-48fe-95b6-a9fb00618620/podcast.rss",
+            "title": "Where We Live",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b1c84ba1350048bd9e0b8fe40becd2c8",
+            "href": "https://www.omnycontent.com/d/playlist/ac0be969-d7df-460c-a66c-a6f900e1ebd1/253f0668-0463-4ab4-8eb3-a9fb004c97e7/095040de-af32-45ce-990f-a9fb004c97f5/podcast.rss",
+            "title": "The Wheelhouse",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cdfa26437e0d4575a1cce8f85a729d8b",
+            "href": "https://www.omnycontent.com/d/playlist/ac0be969-d7df-460c-a66c-a6f900e1ebd1/6776aa14-61df-4f78-bda7-a953010b8526/df805e57-fe15-4b3c-b5f6-a953010b852a/podcast.rss",
+            "title": "The Second First Season",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "22853dd4bdea4e7a8eb3dc26788245e0",
+            "href": "https://feeds.wnpr.org/next",
+            "title": "NEXT",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "351e60b0c1aa4f35bdf3959d96a3832c",
+            "href": "https://feeds.wnpr.org/radius",
+            "title": "The Radius Project",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d79e54af1b66478d88d879762ab91be5",
+            "href": "https://www.omnycontent.com/d/playlist/ac0be969-d7df-460c-a66c-a6f900e1ebd1/7b664a92-b7c6-49e5-80d1-ab1901584e92/68155972-f82c-43d6-88a8-ab19015aed52/podcast.rss",
+            "title": "Pardon Me \u2013 Another Damn Impeachment Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c6a2654eba1c4964bb5517cdd09c56a9",
+            "href": "https://www.omnycontent.com/d/playlist/ac0be969-d7df-460c-a66c-a6f900e1ebd1/a9da3866-a00c-4c01-92ac-ab9100d9ea79/10c78da3-7fc3-48ee-b8ad-ab9100e0bb2f/podcast.rss",
+            "title": "Us. In The Time Of Coronavirus",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "74709cd013424a1095e14026051c407d",
+            "href": "https://www.pledgecart.org/pledgeCart3/?campaign=95A53710-3B90-4899-80C1-6EECECF0F446&source=ASW0000WBNPR",
+            "title": "Support WNPR News",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "ecbb7a479a4e48d8a5b6d1d88578a957",
+            "href": "https://www.pledgecart.org/pledgeCart3/?campaign=C5FC9CB6-53BB-4A75-9BBF-13D5827F40BE&source=",
+            "title": "Support WNPR News",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "e869f01548fa4b50a27089cede98bd1d",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/546_54f10b461fbf44f1905637f95800418d.mp4",
+            "title": "PS science donation ask",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "5dc4cc48a93945078554d17a30e9614c",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/546_b1e9149d8667e88f1780d55c8f93d4bb.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/611",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wshu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "611",
+        "network": {
+          "name": "WSHU",
+          "inheritingFrom": "610",
+          "usesInheritance": true,
+          "currentOrgId": "611",
+          "tier1": {
+            "name": "WSHU Public Radio Group",
+            "id": "610",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WSHU-FM",
+                "id": "611",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WSHU-AM",
+                    "id": "612",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSUF-FM",
+                    "id": "613",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WESU-FM",
+                    "id": "933",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WQQQ-FM",
+                    "id": "1213",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "WYBC-AM",
+                "id": "1215",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "610",
+          "recency": 120
+        },
+        "guid": "4fcf701202614ba3a85034c5448af493",
+        "brand": {
+          "band": "FM",
+          "call": "WSHU",
+          "frequency": "91.1",
+          "marketCity": "Fairfield",
+          "marketState": "CT",
+          "name": "WSHU",
+          "tagline": "NPR News and Classical Music"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6e50057c250248f1b5deb844899581b6",
+                "typeId": "10",
+                "href": "https://wshu-iad.streamguys1.com/wshu-classical"
+              }
+            ],
+            "guid": "0d27ef132036461e96973c2e3a141505",
+            "title": "WSHU All Classical",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2a2692864ff446778636c17b19ca18e7",
+                "typeId": "10",
+                "href": "https://wshu-iad.streamguys1.com/wshu-air"
+              }
+            ],
+            "guid": "4fcf71520b084a46bce1a326b90e76fa",
+            "title": "WSHU News & Classical",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e0a20c452a774bbfbd8ce6294de4dd9c",
+                "typeId": "10",
+                "href": "https://wshu-iad.streamguys1.com/wshu-news"
+              }
+            ],
+            "guid": "4fcf7152115f441fa7192bac337f0e89",
+            "title": "WSHU News & Talk",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wshu.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wshu.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wshu.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/610_2308bc202f79f9173745b4f14b52e7e9.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WSHUpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "6e50057c250248f1b5deb844899581b6",
+            "href": "https://wshu-iad.streamguys1.com/wshu-classical",
+            "isPrimaryStream": false,
+            "title": "WSHU All Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "2a2692864ff446778636c17b19ca18e7",
+            "href": "https://wshu-iad.streamguys1.com/wshu-air",
+            "isPrimaryStream": false,
+            "title": "WSHU News & Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "e0a20c452a774bbfbd8ce6294de4dd9c",
+            "href": "https://wshu-iad.streamguys1.com/wshu-news",
+            "isPrimaryStream": true,
+            "title": "WSHU News & Talk",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e340b27384af4a619225ab82601689d0",
+            "href": "https://wshu.drupal.publicbroadcasting.net/podcasts/3635/rss.xml",
+            "title": "A Few Well Chosen Words",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "49c1121500914b8ead151bada1a724f1",
+            "href": "https://wshu.drupal.publicbroadcasting.net/podcasts/43023/rss.xml",
+            "title": "Music Respawn",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "88c13d7dd8f54b08b7b6651e3a7f2b71",
+            "href": "https://wshu.drupal.publicbroadcasting.net/podcasts/111022/rss.xml",
+            "title": "C19",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "52ff70d6e205429289eae68b82a2f47a",
+            "href": "https://wshu.drupal.publicbroadcasting.net/podcasts/73459/rss.xml",
+            "title": "Off the Path from New York to Boston",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9e99ff93c8724570bec1a78609118b8f",
+            "href": "https://wshu.drupal.publicbroadcasting.net/podcasts/72027/rss.xml",
+            "title": "Baum on Books",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "37c8a5302f3243ea8a562361d65dc157",
+            "href": "https://wshu.drupal.publicbroadcasting.net/podcasts/90603/rss.xml",
+            "title": "The Full Story",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5fdaafdf1ebe40fb98671fa1b133e4ed",
+            "href": "https://sundaybaroque.org/podcasts/podcasts.xml",
+            "title": "Sunday Baroque Conversations",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "51bd47061a9f4881a0cdc0b8f172f75f",
+            "href": "https://www.pledgecart.org/pledgeCart3/?campaign=AEF72C98-4288-41E3-82D1-5553FDD1A4AE&source=P1912NPR#/home",
+            "title": "How to Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "25888f78086340bb812250429af9a3ac",
+            "href": "https://www.pledgecart.org/pledgeCart3/?campaign=AEF72C98-4288-41E3-82D1-5553FDD1A4AE&source=P1912NPR#/home",
+            "title": "How to Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1072",
+      "attributes": {
+        "newscast": {
+          "id": "1072",
+          "recency": 120
+        },
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf701413ac4c879a741904a58ff693",
+        "brand": {
+          "band": "FM",
+          "call": "WHDD",
+          "frequency": "91.9",
+          "marketCity": "Sharon",
+          "marketState": "CT",
+          "name": "WHDD",
+          "tagline": "Robin Hood Radio"
+        },
+        "orgId": "1072",
+        "network": {
+          "inheritingFrom": "1072",
+          "usesInheritance": false,
+          "currentOrgId": "1072",
+          "tier1": {
+            "name": "WHDD-FM",
+            "id": "1072",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WHDD-AM",
+                "id": "1073",
+                "usesInheritance": true
+              },
+              {
+                "name": "WBSL-FM",
+                "id": "1095",
+                "usesInheritance": true
+              },
+              {
+                "name": "WLHV-FM",
+                "id": "1359",
+                "usesInheritance": true
+              }
+            ]
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://robinhoodradio.com",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/whdd_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1072.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WHDD-robinhoodradiocom/101953475811",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/whdd",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b59c2a7f4ab240d6a9aece0f7b7612f2",
+            "href": "http://www.robinhoodradio.com/donate.html",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1072.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

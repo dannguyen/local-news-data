@@ -1,0 +1,340 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "SD"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/238",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kusd-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "238",
+        "network": {
+          "name": "SDPB Radio",
+          "inheritingFrom": "237",
+          "usesInheritance": true,
+          "currentOrgId": "238",
+          "tier1": {
+            "name": "South Dakota Public Radio",
+            "id": "237",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KUSD-FM",
+                "id": "238",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KBHE-FM",
+                    "id": "239",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KCSD-FM",
+                    "id": "240",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KDSD-FM",
+                    "id": "241",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KESD-FM",
+                    "id": "242",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPSD-FM",
+                    "id": "243",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KQSD-FM",
+                    "id": "244",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTSD-FM",
+                    "id": "245",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZSD-FM",
+                    "id": "246",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KYSD-FM",
+                    "id": "1219",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KJSD-FM",
+                    "id": "1356",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "237",
+          "recency": 360
+        },
+        "guid": "4fcf700f1a53459ea7dc777ef23d8820",
+        "brand": {
+          "band": "FM",
+          "call": "KUSD",
+          "frequency": "89.7",
+          "marketCity": "Vermillion",
+          "marketState": "SD",
+          "name": "SDPB Radio",
+          "tagline": "Learn. Dream. Grow."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "82f612d63e62453c921c769556a2befc",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KUSDFM.pls"
+              }
+            ],
+            "guid": "4fcf71462167431989e5291c3bc26218",
+            "title": "SDPB Radio",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ce75df76809f40d79525aaa0c8a157d8",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KUSDHD2.pls"
+              }
+            ],
+            "guid": "4fcf7147068e4bf6af553b4ebec18acf",
+            "title": "SDPB Classical",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://listen.sdpb.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/sdpb.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/sdpb.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/SoDakPB",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/sodakpb",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "82f612d63e62453c921c769556a2befc",
+            "href": "https://playerservices.streamtheworld.com/pls/KUSDFM.pls",
+            "isPrimaryStream": true,
+            "title": "SDPB Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ce75df76809f40d79525aaa0c8a157d8",
+            "href": "https://playerservices.streamtheworld.com/pls/KUSDHD2.pls",
+            "isPrimaryStream": false,
+            "title": "SDPB Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e9c987aa96db4cfbb51bd3dd482c6928",
+            "href": "https://sdpb.drupal.publicbroadcasting.net/podcasts/106130/rss.xml",
+            "title": "In the Moment",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3141ccc5912744c583fc97765efb39bc",
+            "href": "https://sdpb.drupal.publicbroadcasting.net/podcasts/80101/rss.xml",
+            "title": "Statehouse: SDPB Radio\u2019s Legislative Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7fbfed0fb4ec42d9a1becb3908d210bc",
+            "href": "https://sdpb.drupal.publicbroadcasting.net/podcasts/11724/rss.xml",
+            "title": "Tech Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "ca4d4c464c4c49418f0466c7e5aaa999",
+            "href": "http://sdpb.org/donate",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "c15ed895755044fbb390bf4748a709bc",
+            "href": "https://sdpb.secureallegiance.com/sdpb/WebModule/Donate.aspx?P=ONLINEINST&PAGETYPE=PLG&CHECK=l65dT%2fJDBFQEVS8d%2bDYJ7b1YhDw50SikSh2nq0qouhg%3d",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/830",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70130c264d2a8d6415210d4912c2",
+        "brand": {
+          "band": "FM",
+          "call": "KRSD",
+          "frequency": "88.1",
+          "marketCity": "Sioux Falls",
+          "marketState": "SD",
+          "name": "Classical MPR",
+          "tagline": "Member supported"
+        },
+        "orgId": "830",
+        "network": {
+          "inheritingFrom": "830",
+          "usesInheritance": false,
+          "currentOrgId": "830"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/krsd_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/krsd_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/830.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "606f121b608741f6b69abafe43212ab1",
+            "href": "http://minnesota.publicradio.org/support/",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/830.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

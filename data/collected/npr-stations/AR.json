@@ -1,0 +1,877 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "AR"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/199",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kuar-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "199",
+        "network": {
+          "name": "KUAR",
+          "inheritingFrom": "198",
+          "usesInheritance": true,
+          "currentOrgId": "199",
+          "tier1": {
+            "name": "UALR Public Radio",
+            "id": "198",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KUAR-FM",
+                "id": "199",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KLRE-FM",
+                    "id": "200",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "198",
+          "recency": 240
+        },
+        "guid": "4fcf700f10e24609bcb328ae69f5bf92",
+        "brand": {
+          "band": "FM",
+          "call": "KUAR",
+          "frequency": "89.1",
+          "marketCity": "Little Rock",
+          "marketState": "AR",
+          "name": "KUAR",
+          "tagline": "News And Culture For Arkansas"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1edbb023526c47adb7065a5c5d301e6d",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KLREFM.pls"
+              }
+            ],
+            "guid": "4fcf715a0137456d8319638188b0952d",
+            "title": "Classical Music from Little Rock",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7d65ed922a83405d8e9c8b008bd68d7a",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KUARFM.pls"
+              }
+            ],
+            "guid": "4fcf715f230349c9b569582530742349",
+            "title": "KUAR FM Listen Live",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kuar.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kuar.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kuar.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/198_c6f64dfe6e87c7ac52051f6056658972.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/kuarpublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/kuarpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1edbb023526c47adb7065a5c5d301e6d",
+            "href": "https://playerservices.streamtheworld.com/pls/KLREFM.pls",
+            "isPrimaryStream": false,
+            "title": "Classical Music from Little Rock",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7d65ed922a83405d8e9c8b008bd68d7a",
+            "href": "https://playerservices.streamtheworld.com/pls/KUARFM.pls",
+            "isPrimaryStream": true,
+            "title": "KUAR FM Listen Live",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "50488df898ee47d6b69c76b9ddf50c9f",
+            "href": "https://kuar.drupal.publicbroadcasting.net/podcasts/117/rss.xml",
+            "title": "Yesterday, Today, and Tomorrow",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "443f470520f7491c83ba4e10117cd6b3",
+            "href": "https://kuar.drupal.publicbroadcasting.net/podcasts/17943/rss.xml",
+            "title": "Arts & Letters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ebd315daaaeb4cfebad528c35d0b48a9",
+            "href": "https://kuar.drupal.publicbroadcasting.net/podcasts/117/rss.xml",
+            "title": "KUAR's Week-In-Review Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f39749e7c7e1456a8c0918ce9cd002e8",
+            "href": "http://www.ualrpublicradio.org/podcasts/118/rss.xml",
+            "title": "Arkansas Arts Scene",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1210fc59daa44c58801e957bb6e8cb83",
+            "href": "https://kuar.secureallegiance.com/kuar/WebModule/Donate.aspx?P=NPRFORM20&PAGETYPE=PLG&CHECK=L%2fMMYv%2fRkU8IXlh0bBXdX61gzMC6uhq5nDjkJobrCdg%3d",
+            "title": "Donate Now",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/197",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kuaf-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "197",
+        "network": {
+          "inheritingFrom": "197",
+          "usesInheritance": false,
+          "currentOrgId": "197",
+          "tier1": {
+            "name": "KUAF-FM",
+            "id": "197",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "197",
+          "recency": 240
+        },
+        "guid": "4fcf700f10644847ba555e0204784b8e",
+        "brand": {
+          "band": "FM",
+          "call": "KUAF",
+          "frequency": "91.3",
+          "marketCity": "Fayetteville",
+          "marketState": "AR",
+          "name": "KUAF",
+          "tagline": "KUAF - Your indispensable connection to the world"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "79ef167889fb4639ae3a30c7e277b5eb",
+                "typeId": "10",
+                "href": "https://war.streamguys1.com:7031/kuaf2"
+              }
+            ],
+            "guid": "4fcf714b023a4949a6bac47aee17716b",
+            "title": "KUAF 2 - Classical",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4acc872fc8e444d7891dbaef3e20ec8c",
+                "typeId": "10",
+                "href": "https://war.streamguys1.com:7031/kuaf1"
+              }
+            ],
+            "guid": "4fcf714a26414a50b31a3198463fc2cd",
+            "title": "KUAF 91.3 Public Radio",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2f364430da934ee180c1a37eb838a981",
+                "typeId": "10",
+                "href": "https://war.streamguys1.com:7031/kuaf3"
+              }
+            ],
+            "guid": "4fcf714b03df4f8fa1b0292aca56f430",
+            "title": "KUAF 3 - Jazz",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kuaf.com",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kuaf_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kuaf_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/197_1d967e9a9b8fa7a4fcc9678521438999.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/197_37bad0120ec930b620cb875873571892.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/197_67f09269891ccd76c797459feadb907d.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/197_71eaa0b805901a0ae9ab1215d78823f2.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/197_476781564250731f4e94004de8ee6bdf.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/197_4b6302c8d2b18f9b7a6d2f5697c238bc.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/197_e18e047d6e86f2abb4928ea0188afcb7.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/197_1789c7b5b7aeece9f48c2fec0497b8e2.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/197_0bd6f561ab34686e81e62f36b16679c6.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KUAFNPR",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/kuaf",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "79ef167889fb4639ae3a30c7e277b5eb",
+            "href": "https://war.streamguys1.com:7031/kuaf2",
+            "isPrimaryStream": false,
+            "title": "KUAF 2 - Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "4acc872fc8e444d7891dbaef3e20ec8c",
+            "href": "https://war.streamguys1.com:7031/kuaf1",
+            "isPrimaryStream": true,
+            "title": "KUAF 91.3 Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "2f364430da934ee180c1a37eb838a981",
+            "href": "https://war.streamguys1.com:7031/kuaf3",
+            "isPrimaryStream": false,
+            "title": "KUAF 3 - Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "b14912475cef40e9a0e57daf77d4eebe",
+            "href": "https://feeds.feedburner.com/KUAFCommunitySpotlight",
+            "title": "KUAF Community Spotlight Series",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e73c1e8efd9749999a86199c34f8ba23",
+            "href": "https://kuaf.drupal.publicbroadcasting.net/podcasts/term/20/rss.xml",
+            "title": "Ozarks At Large",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "caceb12a027d4b29afc728dd089cb0d9",
+            "href": "http://supportkuaf.com",
+            "title": "DONATE",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "024f60c00d5543278f09ed21acdd0542",
+            "href": "http://supportkuaf.com",
+            "title": "Support KUAF",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "8b8503041c704b3e82cb4b1038355637",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/197_a65eb66a46c327c6211c03a83ca299e7.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "e52f63357ae84d91851cbbbfbdffc1af",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/197_386ecc826c647867c12031cd0ce0d0e3.mp4",
+            "title": "",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/197.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/11",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kasu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "11",
+        "network": {
+          "inheritingFrom": "11",
+          "usesInheritance": false,
+          "currentOrgId": "11",
+          "tier1": {
+            "name": "KASU-FM",
+            "id": "11",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf700d2682404e95136ca231a9af2f",
+        "brand": {
+          "band": "FM",
+          "call": "KASU",
+          "frequency": "91.9",
+          "marketCity": "Jonesboro",
+          "marketState": "AR",
+          "name": "KASU",
+          "tagline": "Music, News, Arts, and Views"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "23a18a84556b4088a640f15eefc53e49",
+                "typeId": "10",
+                "href": "https://kasu.streamguys1.com/live"
+              }
+            ],
+            "guid": "4fcf715814a940c4adf8d8ee55e32b1e",
+            "title": "KASU 91.9 FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kasu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kasu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kasu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/11.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/pages/KASU-Public-Radio/287323667255?ref=ts",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/kasuradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "23a18a84556b4088a640f15eefc53e49",
+            "href": "https://kasu.streamguys1.com/live",
+            "isPrimaryStream": true,
+            "title": "KASU 91.9 FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "4950ef6af1a847e9b5a618063e86db55",
+            "href": "https://kasu.drupal.publicbroadcasting.net/podcasts/term/1013/rss.xml",
+            "title": "Create @State Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7641a4bf65144ff29d457659f23285bc",
+            "href": "https://kasu.drupal.publicbroadcasting.net/podcasts/term/715/rss.xml",
+            "title": "KASU Congressional Interviews",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "9d60cc988d584a64a515683570012799",
+            "href": "https://www.astate.edu/giving/kasu/",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "270c4bb5ba4e4b54b7029139da214be7",
+            "href": "https://www.astate.edu/giving/kasu/",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/11.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/63",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "63",
+        "network": {
+          "name": "Red River Radio",
+          "inheritingFrom": "61",
+          "usesInheritance": true,
+          "currentOrgId": "63",
+          "tier1": {
+            "name": "Red River Radio Network",
+            "id": "61",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KDAQ-FM",
+                "id": "62",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KBSA-FM",
+                    "id": "63",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLDN-FM",
+                    "id": "64",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLSA-FM",
+                    "id": "65",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "61",
+          "recency": 360
+        },
+        "guid": "4fcf700e102246fb8f8f35d8e340ef56",
+        "brand": {
+          "band": "FM",
+          "call": "KBSA",
+          "frequency": "90.9",
+          "marketCity": "El Dorado",
+          "marketState": "AR",
+          "name": "Red River Radio",
+          "tagline": "Your source for great music and in-depth news."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d147636331da4875bf5a2a2ecb9f3e66",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQHD2.mp3"
+              }
+            ],
+            "guid": "308efd7d9c234bf28ed6d1e6e7b4be6f",
+            "title": "Red River Radio HD2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c609c2945d7f42adb6052782571358ea",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQHD3.mp3"
+              }
+            ],
+            "guid": "6c70b632a2f247f0a7448bb983c41c06",
+            "title": "Red River Radio HD3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "805ab8b968054c259a079161b907e201",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQFM.mp3"
+              }
+            ],
+            "guid": "e9b4428366034826857faf8ee2d817de",
+            "title": "Red River Radio HD1",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://redriverradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/rrr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/rrr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/61_8991016fb868157c59b53fdf19559900.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Red-River-Radio/110583654120",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/rrrpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "d147636331da4875bf5a2a2ecb9f3e66",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQHD2.mp3",
+            "isPrimaryStream": false,
+            "title": "Red River Radio HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c609c2945d7f42adb6052782571358ea",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQHD3.mp3",
+            "isPrimaryStream": false,
+            "title": "Red River Radio HD3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "805ab8b968054c259a079161b907e201",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQFM.mp3",
+            "isPrimaryStream": true,
+            "title": "Red River Radio HD1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "03858221f65441cf935154da7efa9cca",
+            "href": "http://www.publicbroadcasting.net/rrr/.jukebox?action=viewPodcast&podcastId=461",
+            "title": "The Commentaries of Dr. Archie McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2ad11808c33146b98129c17fe15e6eab",
+            "href": "http://www.publicbroadcasting.net/rrr/.jukebox?action=viewPodcast&podcastId=461",
+            "title": "The Commentaries of Dr. Archie McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ffcb5bad07114c1f944ee4d2bf08e1c9",
+            "href": "http://www.publicbroadcasting.net/rrr/.jukebox?action=viewPodcast&podcastId=461",
+            "title": "The Commentaries of Dr. Archie McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a07f6cc0f0334be392997c4ee94f1322",
+            "href": "http://www.publicbroadcasting.net/rrr/.jukebox?action=viewPodcast&podcastId=461",
+            "title": "The Commentaries of Dr. Archie McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "c5650f4e34fc4965a704e85a231aa783",
+            "href": "https://donate.nprstations.org/rrr/",
+            "title": "Support Red River Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "61f12a54d5704cd195b7663e0c84f8fc",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/61_09f798adfd7e9dff547f38c09bd27735.mp4",
+            "title": "Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/200",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf700f111d49f89aacfa6c03063df7",
+        "brand": {
+          "band": "FM",
+          "call": "KLRE",
+          "frequency": "90.5",
+          "marketCity": "Little Rock",
+          "marketState": "AR",
+          "name": "KLRE",
+          "tagline": "Classical Music For Central Arkansas"
+        },
+        "orgId": "200",
+        "network": {
+          "inheritingFrom": "200",
+          "usesInheritance": false,
+          "currentOrgId": "200"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1edbb023526c47adb7065a5c5d301e6d",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KLREFM.pls"
+              }
+            ],
+            "guid": "4fcf715a0137456d8319638188b0952d",
+            "title": "Classical Music from Little Rock",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.klre.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/klre_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/200.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kuarpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1edbb023526c47adb7065a5c5d301e6d",
+            "href": "https://playerservices.streamtheworld.com/pls/KLREFM.pls",
+            "isPrimaryStream": true,
+            "title": "Classical Music from Little Rock",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "121f63f35dcd4ca299e0496f8f84d2dc",
+            "href": "https://donate.klre.org",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/200.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

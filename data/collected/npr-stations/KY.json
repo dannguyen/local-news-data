@@ -1,0 +1,1522 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "KY"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/388",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wfpl-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "388",
+        "network": {
+          "inheritingFrom": "388",
+          "usesInheritance": false,
+          "currentOrgId": "388"
+        },
+        "newscast": {
+          "id": "388",
+          "recency": 360
+        },
+        "guid": "4fcf7010186047c7953ec796e1c80df0",
+        "brand": {
+          "band": "FM",
+          "call": "WFPL",
+          "frequency": "89.3",
+          "marketCity": "Louisville",
+          "marketState": "KY",
+          "name": "89.3 WFPL News Louisville",
+          "tagline": "News Louisville"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "aca1cc601891423fb5cfd45c34804f3d",
+                "typeId": "10",
+                "href": "https://lpm.streamguys1.com/wfpl-npr"
+              }
+            ],
+            "guid": "4fcf71410c2d40d3a267c6cadeb1d534",
+            "title": "WFPL News Louisville",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wfpl.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wfpl_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wfpl_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/388_fa9214e52f80a4cf273dbefcb7e4fcf8.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/388_644476698e8d66c25addf73af6dceb8d.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/388_f1491bf9876b9f639236dc1277d73131.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/388_766fb3bcbd9807d530629b8dd5c4f4a5.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/388_7d763cdb0693c3524e9adee4c6b7614f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/388_35fb66ca5e7925491c3510d37165b47f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/388_0f35ebc874c7727e943a66813a326cf2.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/388_6c427e730ed5d55cd8569584ca6a77e1.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wfpllouisville",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wfplnews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "aca1cc601891423fb5cfd45c34804f3d",
+            "href": "https://lpm.streamguys1.com/wfpl-npr",
+            "isPrimaryStream": true,
+            "title": "WFPL News Louisville",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "7107bf5585b14f02885df4caf60b1e09",
+            "href": "https://feeds.louisville.org/heretodaypodcast",
+            "title": "Here Today",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4d50f422e51043edb8c6d88a5c377afd",
+            "href": "https://feeds.louisville.org/kpdpodcast",
+            "title": "Kentucky Politics Distilled",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f4be350135c546cf9ea0dedabcf84640",
+            "href": "https://feeds.louisville.org/sayyespodcast",
+            "title": "Say Yes: An Elliott Smith Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2ef3f4499a224effbf81c27c2bad3c50",
+            "href": "https://feeds.louisville.org/thenextlouisvillepodcast",
+            "title": "The Next Louisville",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b51aa60a56104d648c35011abdc204af",
+            "href": "https://feeds.louisville.org/kentuckianasoundspodcast",
+            "title": "Kentuckiana Sounds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1f08dec230e149448214bff8e9db30ed",
+            "href": "https://feeds.louisville.org/strangefruitpodcast",
+            "title": "Strange Fruit",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a580ab877f504e35b94036e58faea8b4",
+            "href": "https://feeds.louisville.org/inconversationpodcast",
+            "title": "In Conversation",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "591c8b9888b247429b7cc2154d725fcd",
+            "href": "https://feeds.louisville.org/themusicboxpodcast",
+            "title": "The Music Box",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5e804dac7c2d45cb8456e6d04eae2f93",
+            "href": "https://feeds.louisville.org/kafpodcast",
+            "title": "The Kentucky Author Forum",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fa2ba3cb2da94330812abcd5da612067",
+            "href": "https://feeds.louisville.org/longconpodcast",
+            "title": "The Pope's Long Con",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c0b63403f21c4e388fbc7f6f88f36f76",
+            "href": "https://feeds.louisville.org/kylemeredithpodcast",
+            "title": "Kyle Meredith With...",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "88b8cc44f75949388b8c73ca153028c0",
+            "href": "https://feeds.louisville.org/digpodcast",
+            "title": "Dig",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "26b2295ce9ee4778bde322ad0987c32a",
+            "href": "https://feeds.louisville.org/fivethingspodcast",
+            "title": "Five Things",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a6d643bbc25c49f6bd0a43b9dc173c9d",
+            "href": "https://feeds.louisville.org/curiouslouisvillepodcast",
+            "title": "Curious Louisville",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "49054ac207b342a6a4b8717e3a5304b8",
+            "href": "https://feeds.louisville.org/toughanduniversalpodcast",
+            "title": "Tough and Universal: Stories of Grit",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c63d148861724090a2d4191632e95078",
+            "href": "https://feeds.louisville.org/thesemiraclesworkpodcast",
+            "title": "These Miracles Work: A Hold Steady Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "99079eb02a9e4bf382fdc124acebbe85",
+            "href": "https://feeds.louisville.org/theguestlistpodcast",
+            "title": "The Guestlist with Sean Cannon",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "75d22c456b2b4454acd602c37fc56ffa",
+            "href": "https://louisvillepublicmedia.org/support?appeal=Lnprstationconnect",
+            "title": "Support WFPL",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "f79f8ea67d214667bbfdab24dedacc81",
+            "href": "https://louisvillepublicmedia.org/support?appeal=Lnprstationconnectmobile",
+            "title": "Support Louisville Today",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "375724e6ae1d4fd7b0e6774da646dce7",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/388_f04492135b0ddf654fcae2145f1ea1c0.mp4?1576186707809",
+            "title": "Generic Jonese",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/388.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/362",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/weku-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "362",
+        "network": {
+          "inheritingFrom": "362",
+          "usesInheritance": false,
+          "currentOrgId": "362",
+          "tier1": {
+            "name": "WEKU-FM",
+            "id": "362",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WEKH-FM",
+                "id": "363",
+                "usesInheritance": true
+              },
+              {
+                "name": "WEKF-FM",
+                "id": "843",
+                "usesInheritance": true
+              },
+              {
+                "name": "WEKP-FM",
+                "id": "1550",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf701011aa4f6dab5cde9361d9a511",
+        "brand": {
+          "band": "FM",
+          "call": "WEKU",
+          "frequency": "88.9",
+          "marketCity": "Richmond",
+          "marketState": "KY",
+          "name": "WEKU",
+          "tagline": "NPR For Central And Eastern Kentucky"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c75232a8f8b84111b93ecf24dff67030",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEKUFM.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "89f39dfc8cba4ff882631c7d6fdd60b9",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEKUFMAAC.m3u8"
+              }
+            ],
+            "guid": "4fcf7163181149a7b51751a23c5cadc0",
+            "title": "WEKU News ",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4f630df8a85a4992a3933a2cfda3741a",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEKUHD2.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "3a0cc04019b042e583719fd7890b302c",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEKUHD2AAC.m3u8"
+              }
+            ],
+            "guid": "4fcf716320cd48ebb637ae39068c103b",
+            "title": "WEKU Classical ",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.weku.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/weku_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/weku_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/362.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/889-WEKU/132319356805498",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/http//twitter.com/889WEKU",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "c75232a8f8b84111b93ecf24dff67030",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEKUFM.mp3",
+            "isPrimaryStream": true,
+            "title": "WEKU News ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "4f630df8a85a4992a3933a2cfda3741a",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEKUHD2.mp3",
+            "isPrimaryStream": false,
+            "title": "WEKU Classical ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "89f39dfc8cba4ff882631c7d6fdd60b9",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEKUFMAAC.m3u8",
+            "isPrimaryStream": true,
+            "title": "WEKU News ",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "3a0cc04019b042e583719fd7890b302c",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEKUHD2AAC.m3u8",
+            "isPrimaryStream": false,
+            "title": "WEKU Classical ",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "b20bdddc7c1f49ceb5c59483f505c8b1",
+            "href": "https://weku.drupal.publicbroadcasting.net/podcasts/term/568/rss.xml",
+            "title": "WEKU Eastern Standard",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "301164293fc04f54b43eeaceb57455c5",
+            "href": "https://afg.secureallegiance.com/weku/WebModule/Donate.aspx?P=NPR&PAGETYPE=PLG&CHECK=xbv059%2fwXxgVQycLjeawDdW0piuR9ZMb",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "5b01c14bee9842a29205e9a1f93ab59a",
+            "href": "https://afg.secureallegiance.com/weku/WebModule/Donate.aspx?P=NPR&PAGETYPE=PLG&CHECK=xbv059%2fwXxgVQycLjeawDdW0piuR9ZMb",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/362.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/466",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wkms-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "466",
+        "network": {
+          "inheritingFrom": "466",
+          "usesInheritance": false,
+          "currentOrgId": "466",
+          "tier1": {
+            "name": "WKMS-FM",
+            "id": "466",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WKMT-FM",
+                "id": "1467",
+                "usesInheritance": true
+              },
+              {
+                "name": "WKMD-FM",
+                "id": "1468",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "466",
+          "recency": 240
+        },
+        "guid": "4fcf7011075a4e0ab127953c618fddd8",
+        "brand": {
+          "band": "FM",
+          "call": "WKMS",
+          "frequency": "91.3",
+          "marketCity": "Murray",
+          "marketState": "KY",
+          "name": "WKMS",
+          "tagline": "Listener Supported Public Radio from Murray State. Serving Western Kentucky, Northwestern Tennessee, and Southern Illinois."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "16688af505924450b5da1c57610f12ef",
+                "typeId": "10",
+                "href": "https://wkms.streamguys1.com/WKMSHD3-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "c08a058c0e5b486a877d1dacde049478",
+                "typeId": "13",
+                "href": "https://wkms.streamguys1.com/WKMSHD3-aac"
+              }
+            ],
+            "guid": "a50fed422541470fa1ac5b372694bc78",
+            "title": "WKMS Music HD-3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4d1a93c911b045c584804a2b36b7c9cb",
+                "typeId": "10",
+                "href": "https://wkms.streamguys1.com/WKMSHD2-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "2593dac70bc7406ba423482f2b2cfaf0",
+                "typeId": "13",
+                "href": "https://wkms.streamguys1.com/WKMSHD2-aac"
+              }
+            ],
+            "guid": "514afff921134b6286a6a96acb8ca453",
+            "title": "WKMS Classical HD-2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "57e92a3132f4450e8eba77843dd7b2b9",
+                "typeId": "10",
+                "href": "https://wkms.streamguys1.com/WKMS1-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "025751d2f9e14ff78841715dbc9ee44f",
+                "typeId": "13",
+                "href": "https://wkms.streamguys1.com/WKMS1-aac"
+              }
+            ],
+            "guid": "514afff916f74e23895d84c43defa24f",
+            "title": "WKMS-FM - News, Music, Variety",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wkms.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wkms_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wkms_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/466_ee66c17acfd3005bdf427b2405e5f056.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/466_697bf244eedfcd23e3a7dc5f003e8c85.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wkmsfm",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WKMS",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "16688af505924450b5da1c57610f12ef",
+            "href": "https://wkms.streamguys1.com/WKMSHD3-mp3",
+            "isPrimaryStream": false,
+            "title": "WKMS Music HD-3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "4d1a93c911b045c584804a2b36b7c9cb",
+            "href": "https://wkms.streamguys1.com/WKMSHD2-mp3",
+            "isPrimaryStream": false,
+            "title": "WKMS Classical HD-2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "57e92a3132f4450e8eba77843dd7b2b9",
+            "href": "https://wkms.streamguys1.com/WKMS1-mp3",
+            "isPrimaryStream": true,
+            "title": "WKMS-FM - News, Music, Variety",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "025751d2f9e14ff78841715dbc9ee44f",
+            "href": "https://wkms.streamguys1.com/WKMS1-aac",
+            "isPrimaryStream": true,
+            "title": "WKMS-FM - News, Music, Variety",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "c08a058c0e5b486a877d1dacde049478",
+            "href": "https://wkms.streamguys1.com/WKMSHD3-aac",
+            "isPrimaryStream": false,
+            "title": "WKMS Music HD-3",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "2593dac70bc7406ba423482f2b2cfaf0",
+            "href": "https://wkms.streamguys1.com/WKMSHD2-aac",
+            "isPrimaryStream": false,
+            "title": "WKMS Classical HD-2",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "3ce4b84f07d944bd9cceee92c9be5045",
+            "href": "https://eisenhowerhour.podbean.com/feed.xml",
+            "title": "The Eisenhower Hour",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e7b66d3240c54ee0900e70e8d19a8084",
+            "href": "https://wkms.drupal.publicbroadcasting.net/podcasts/76843/rss.xml",
+            "title": "Something From Nothing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "65ae8eed946a447d83cbb52450f092d1",
+            "href": "https://wkms.drupal.publicbroadcasting.net/podcasts/77143/rss.xml",
+            "title": "Old Kentucky Tales",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "6265399bf0124b79a3ed488f5447adfb",
+            "href": "https://donate.nprstations.org/wkms/wkms-give-now",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "a6f77914eac345cd8d9492ab745d48de",
+            "href": "https://donate.nprstations.org/wkms/wkms-give-now",
+            "title": "Donate To Keep WKMS and NPR One In Your Ears ",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "7301dd1d38144a9899c59f0e569b547a",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/466_d4805c87253f3639fdc9ced9a74d4c31.mp4",
+            "title": "WKMS Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/466.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/655",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wuky-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "655",
+        "network": {
+          "inheritingFrom": "655",
+          "usesInheritance": false,
+          "currentOrgId": "655",
+          "tier1": {
+            "name": "WUKY-FM",
+            "id": "655",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "655",
+          "recency": 240
+        },
+        "guid": "4fcf70120cad4e08b525a462423e65df",
+        "brand": {
+          "band": "FM",
+          "call": "WUKY",
+          "frequency": "91.3",
+          "marketCity": "Lexington",
+          "marketState": "KY",
+          "name": "WUKY",
+          "tagline": "NPR Rocks @ 91.3"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0fa1546eabd045838d1a6bd46364bd8e",
+                "typeId": "10",
+                "href": "https://stream.qx.net:8000/xstream"
+              }
+            ],
+            "guid": "4fcf712f20a847138e81faf780f3eb41",
+            "title": "WUKY 91.3",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5dbaea8969984f4f9ce162644c14d39c",
+                "typeId": "10",
+                "href": "https://stream.qx.net:8010/xstream"
+              }
+            ],
+            "guid": "140bb5f1ce501ad495b94d147fa391df",
+            "title": "WUKY HD-3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "603a507d9a9442fd8f50dcf9575cd5c7",
+                "typeId": "10",
+                "href": "https://stream.qx.net:8005/xstream"
+              }
+            ],
+            "guid": "4fcf712f19b4413b80330354e9ed3769",
+            "title": "WUKY HD-2",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wuky.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wuky_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wuky_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/655.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/pages/WUKY/358019292197?ref=ts",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/WUKY",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "0fa1546eabd045838d1a6bd46364bd8e",
+            "href": "https://stream.qx.net:8000/xstream",
+            "isPrimaryStream": true,
+            "title": "WUKY 91.3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5dbaea8969984f4f9ce162644c14d39c",
+            "href": "https://stream.qx.net:8010/xstream",
+            "isPrimaryStream": false,
+            "title": "WUKY HD-3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "603a507d9a9442fd8f50dcf9575cd5c7",
+            "href": "https://stream.qx.net:8005/xstream",
+            "isPrimaryStream": false,
+            "title": "WUKY HD-2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "751dca8a2440437f8a804fd58cd52f8a",
+            "href": "https://wuky.drupal.publicbroadcasting.net/podcasts/term/134/rss.xml",
+            "title": "WUKY Local News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7e8f1ea16fcc4128b71dbf9e8fea92ab",
+            "href": "https://wuky.drupal.publicbroadcasting.net/podcasts/term/89/rss.xml",
+            "title": "WUKY In Depth",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "48dbd066b2e149b8bf98acd3799460ce",
+            "href": "https://wuky.drupal.publicbroadcasting.net/podcasts/term/90/rss.xml",
+            "title": "UK Perspectives",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a1a0edfb849f4b4f9e962cea8a827c66",
+            "href": "https://wuky.drupal.publicbroadcasting.net/podcasts/12896/rss.xml",
+            "title": "Hillbilly Solid",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "faa2fb9b3d384b2b819d6af3375d53ad",
+            "href": "https://wuky.drupal.publicbroadcasting.net/podcasts/term/147/rss.xml",
+            "title": "Dr. Greg Davis on Medicine",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4c63aae6ef3f46a198a7fc8ff8ce1d34",
+            "href": "https://wuky.drupal.publicbroadcasting.net/podcasts/95244/rss.xml",
+            "title": "The Business Side",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "67f6bd6754d743ebb0de6674013df6d2",
+            "href": "https://wuky.drupal.publicbroadcasting.net/podcasts/95105/rss.xml",
+            "title": "The ArtBeat",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "509ac62b9d134bbe8dbd7a3dd9a1cad6",
+            "href": "https://donate.nprstations.org/wuky/support-wuky-now",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "f5758e915b814d6490bf30a8a888296d",
+            "href": "https://donate.nprstations.org/wuky/support-wuky-now?_ga=1.263603468.1644493311.1467831128",
+            "title": "Support quality journalism with a gift to WUKY.",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "5b499ab3d3d1445f9da37bad087940c9",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/655_9882be3ed03267b70108a245e1a38d87.mp4",
+            "title": "NPR One Pledge Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "9b7d7db4fc5d4c10a942c0239cced49f",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/655_965310b4d314d114ba502e55c5b2fc77.mp4",
+            "title": "NPR One Pledge Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/655.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/476",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wkyu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "476",
+        "network": {
+          "name": "WKU Public Radio",
+          "inheritingFrom": "475",
+          "usesInheritance": true,
+          "currentOrgId": "476",
+          "tier1": {
+            "name": "Western's Public Broadcasting",
+            "id": "475",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WKYU-FM",
+                "id": "476",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WDCL-FM",
+                    "id": "477",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WKPB-FM",
+                    "id": "478",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WKUE-FM",
+                    "id": "479",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf7011094740fe9b427938acd4960e",
+        "brand": {
+          "band": "FM",
+          "call": "WKYU",
+          "frequency": "88.9",
+          "marketCity": "Bowling Green",
+          "marketState": "KY",
+          "name": "WKU Public Radio",
+          "tagline": "WKU Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2d896c92156648879fc6162ecc7d2946",
+                "typeId": "10",
+                "href": "https://dal-wku-stream-2.neighborhoodca.com/xstream"
+              }
+            ],
+            "guid": "39c33aefd81f4eb39e189f3946c463f8",
+            "title": "WKU Classical",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "51591fa1a6e64179a7160d0d85bd1e6f",
+                "typeId": "10",
+                "href": "https://dal-wku-stream-1.neighborhoodca.com/stream"
+              }
+            ],
+            "guid": "4936cbfa73bc4e1bb0953c74821811e7",
+            "title": "WKU Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wkyufm.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wpb.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wpb.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/475_3b6977994dfdff08f419b7c693304393.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WKU-Public-Radio/302113358575",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "2d896c92156648879fc6162ecc7d2946",
+            "href": "https://dal-wku-stream-2.neighborhoodca.com/xstream",
+            "isPrimaryStream": false,
+            "title": "WKU Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "51591fa1a6e64179a7160d0d85bd1e6f",
+            "href": "https://dal-wku-stream-1.neighborhoodca.com/stream",
+            "isPrimaryStream": true,
+            "title": "WKU Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "0267300971ba499f9b4b8b767323299a",
+            "href": "https://interland3.donorperfect.net/weblink/weblink.aspx?name=E167565&id=4&_ga=2.69820496.1903003532.1505735882-2030352187.1458590989",
+            "title": null,
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "99114d6524a3439c9ee7f5cc13ac7b44",
+            "href": "https://interland3.donorperfect.net/weblink/weblink.aspx?name=E167565&id=4&_ga=2.69820496.1903003532.1505735882-2030352187.1458590989",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "5550219da9bd4fa2bb360ce6e634a4c2",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/475_84e70ff3fec0161696a87d5f575f4199.mp4",
+            "title": "NPR One Pledge Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/505",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wmky-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "505",
+        "network": {
+          "inheritingFrom": "505",
+          "usesInheritance": false,
+          "currentOrgId": "505",
+          "tier1": {
+            "name": "WMKY-FM",
+            "id": "505",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf701110e246fb85faf5809522c6d7",
+        "brand": {
+          "band": "FM",
+          "call": "WMKY",
+          "frequency": "90.3",
+          "marketCity": "Morehead",
+          "marketState": "KY",
+          "name": "Morehead State Public Radio",
+          "tagline": "Morehead State's Public Radio - From the Bluegrass to the Mountains"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3d6f58f30f0c43fbabe8580feae6ec4d",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMKYFM.mp3"
+              }
+            ],
+            "guid": "4fcf71651ded4275bd90cea5c8d16748",
+            "title": "WMKY Live Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wmky.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wmky_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wmky_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/505.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Morehead-State-Public-Radio-WMKY-903FM/162012596307",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3d6f58f30f0c43fbabe8580feae6ec4d",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMKYFM.mp3",
+            "isPrimaryStream": true,
+            "title": "WMKY Live Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "1786ab2709364cb79dd6be52ab8b0ab6",
+            "href": "https://wmky.drupal.publicbroadcasting.net/podcasts/890/rss.xml",
+            "title": "Health Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a04bc168b59545ab89aa40a1ff10aebc",
+            "href": "https://wmky.drupal.publicbroadcasting.net/podcasts/term/61/rss.xml",
+            "title": "WMKY Feature Reports",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2927889bb0c4495c83cd75e50822e619",
+            "href": "https://wmky.drupal.publicbroadcasting.net/podcasts/term/55/rss.xml",
+            "title": "Mountain Edition",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6b7323fe4fe74f4282fbe667ff53336c",
+            "href": "https://wmky.drupal.publicbroadcasting.net/podcasts/term/54/rss.xml",
+            "title": "Front Page with Chuck Mraz",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3b22a9b257474c79ad57ed3fb94c6445",
+            "href": "https://alumni.moreheadstate.edu/givetoMSPR",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/505.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1080",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "12",
+          "musicOnly": true
+        },
+        "orgId": "1080",
+        "network": {
+          "inheritingFrom": "1080",
+          "usesInheritance": false,
+          "currentOrgId": "1080"
+        },
+        "newscast": {
+          "id": "1080",
+          "recency": 120
+        },
+        "guid": "4fcf7014151240beb0d08a39b4d2c90b",
+        "brand": {
+          "band": "FM",
+          "call": "WUOL",
+          "frequency": "90.5",
+          "marketCity": "Louisville",
+          "marketState": "KY",
+          "name": "90.5 WUOL Classical Louisville",
+          "tagline": "Classical Louisville"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0ecaf20eae0b46368f114e4934cb0041",
+                "typeId": "10",
+                "href": "https://lpm.streamguys1.com/wuol-npr"
+              }
+            ],
+            "guid": "13f0fd17cc70277448dae1e3fcf78abe",
+            "title": "WUOL Classical Louisville",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://wuol.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wuol_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wuol_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1080.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/classical90.5",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wuol",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "0ecaf20eae0b46368f114e4934cb0041",
+            "href": "https://lpm.streamguys1.com/wuol-npr",
+            "isPrimaryStream": true,
+            "title": "WUOL Classical Louisville",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "0221a0db474240c9899f02b32db25328",
+            "href": "https://louisvillepublicmedia.org/support?appeal=Unprstationconnect",
+            "title": "Support Classical Louisville",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "2d0af6a6759c454391cf8a47719d562c",
+            "href": "https://louisvillepublicmedia.org/support?appeal=Unprstationconnectmobile",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1080.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/387",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "12",
+          "musicOnly": true
+        },
+        "orgId": "387",
+        "network": {
+          "inheritingFrom": "387",
+          "usesInheritance": false,
+          "currentOrgId": "387"
+        },
+        "newscast": {
+          "id": "387",
+          "recency": 120
+        },
+        "guid": "4fcf7010181246779535a4faa14a74a8",
+        "brand": {
+          "band": "FM",
+          "call": "WFPK",
+          "frequency": "91.9",
+          "marketCity": "Louisville",
+          "marketState": "KY",
+          "name": "91.9 WFPK Independent Louisville",
+          "tagline": "Independent Louisville"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f0d469540b3940c38bf8d5beeb4735ea",
+                "typeId": "10",
+                "href": "https://lpm.streamguys1.com/wfpk-npr"
+              }
+            ],
+            "guid": "4fcf714112634308b16d0e6590bbe124",
+            "title": "WFPK Independent Louisville",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://wfpk.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wfpk_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wfpk_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/387.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wfpklouisville",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wfpk",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f0d469540b3940c38bf8d5beeb4735ea",
+            "href": "https://lpm.streamguys1.com/wfpk-npr",
+            "isPrimaryStream": true,
+            "title": "WFPK Independent Louisville",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "e577f535f6c947b9bfd7fe6da8d737f1",
+            "href": "https://louisvillepublicmedia.org/support?appeal=Knprstationconnect",
+            "title": "Support WFPK",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "07b98a0a73184b50a0885f5fe202aaed",
+            "href": "https://louisvillepublicmedia.org/support?appeal=Knprstationconnectmobile",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/387.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

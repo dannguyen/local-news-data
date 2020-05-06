@@ -1,0 +1,923 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "AL"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/315",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wbhm-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "315",
+        "network": {
+          "inheritingFrom": "315",
+          "usesInheritance": false,
+          "currentOrgId": "315",
+          "tier1": {
+            "name": "WBHM-FM",
+            "id": "315",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "315",
+          "recency": 240
+        },
+        "guid": "4fcf701006684551818e8fded96e7090",
+        "brand": {
+          "band": "FM",
+          "call": "WBHM",
+          "frequency": "90.3",
+          "marketCity": "Birmingham",
+          "marketState": "AL",
+          "name": "WBHM 90.3 FM",
+          "tagline": "Public Radio for the Heart of Alabama"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "24ba38a096af4796bfe6e36c114e3793",
+                "typeId": "10",
+                "href": "https://audio.wbhm.org:8443/live.mp3"
+              }
+            ],
+            "guid": "c08ea8b95cdc453c995d79f4e4095ff7",
+            "title": "WBHM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://wbhm.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wbhm_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wbhm_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/315_104d69ff36506410b2a3e6aac37dadb6.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/315_b7fb3de68526f0c716176dae166a023c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WBHM-903-FM/61774891778",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WBHM903",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "24ba38a096af4796bfe6e36c114e3793",
+            "href": "https://audio.wbhm.org:8443/live.mp3",
+            "isPrimaryStream": true,
+            "title": "WBHM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "4b2d8a613254458198ba30d5fd3d399b",
+            "href": "https://wbhm.org/series-podcast/?series=wbhm-politics",
+            "title": "WBHM Politics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d83c580e65fc4cc9835d9e812d0d69c2",
+            "href": "https://wbhm.org/feature-podcast",
+            "title": "WBHM",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "05c1cefc58904e399c22f899d807586f",
+            "href": "https://wbhm.secureallegiance.com/wbhm/WebModule/Donate.aspx?P=BASIC&PAGETYPE=PLG&CHECK=9dD3CJn2bYniQl%2byqVkEd4HJipnY8PNT",
+            "title": "Support WBHM",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "ce3b765fb7334900b69abda52965a834",
+            "href": "https://wbhm.secureallegiance.com/wbhm/WebModule/Donate.aspx?P=BASIC&PAGETYPE=PLG&CHECK=9dD3CJn2bYniQl%2byqVkEd4HJipnY8PNT",
+            "title": "Support WBHM",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/315.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/480",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wlrh-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "480",
+        "network": {
+          "inheritingFrom": "480",
+          "usesInheritance": false,
+          "currentOrgId": "480",
+          "tier1": {
+            "name": "WLRH-FM",
+            "id": "480",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "480",
+          "recency": 120
+        },
+        "guid": "4fcf70110a504b00843f3700950e1d97",
+        "brand": {
+          "band": "FM",
+          "call": "WLRH",
+          "frequency": "89.3",
+          "marketCity": "Huntsville",
+          "marketState": "AL",
+          "name": "WLRH 89.3 FM/HD",
+          "tagline": "Huntsville Public Radio for the Tennessee Valley"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c6065abfce19453fa48ee557d5b42499",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLRHFM.mp3"
+              }
+            ],
+            "guid": "4fcf71651aee4bf982bed3f640a74237",
+            "title": "WLRH-FM 89.3 Main",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1bdacf0d46cc45c4883579fd3541777c",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLRHHD2.mp3"
+              }
+            ],
+            "guid": "144094ba4e30103474e8bb7894850f29",
+            "title": "WLRH-FM HD2 Classical",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "77ec9573542a4e499154840ca59ebd2b",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLRHHD3.mp3"
+              }
+            ],
+            "guid": "144094c2c7a03ca48cb8113e9c6c681d",
+            "title": "WRH-FM HD3 News/Talk",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wlrh.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wlrh_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wlrh_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/480.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/HuntsvillePublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "c6065abfce19453fa48ee557d5b42499",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLRHFM.mp3",
+            "isPrimaryStream": true,
+            "title": "WLRH-FM 89.3 Main",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1bdacf0d46cc45c4883579fd3541777c",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLRHHD2.mp3",
+            "isPrimaryStream": false,
+            "title": "WLRH-FM HD2 Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "77ec9573542a4e499154840ca59ebd2b",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WLRHHD3.mp3",
+            "isPrimaryStream": false,
+            "title": "WRH-FM HD3 News/Talk",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "3f7b58a0d3924aefae3348611f55f8e9",
+            "href": "http://feeds.feedburner.com/WritersCornerOnWlrhPublicRadio",
+            "title": "The Writers Corner",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b223bc74302b4befaa8c34add881fbcd",
+            "href": "http://wlrh.org/Support/index.asp",
+            "title": "Support Huntsville Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/480.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1229",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wual-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1229",
+        "network": {
+          "name": "Alabama Public Radio",
+          "inheritingFrom": "104",
+          "usesInheritance": true,
+          "currentOrgId": "1229",
+          "tier1": {
+            "name": "Alabama Public Radio",
+            "id": "104",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WUAL-FM",
+                "id": "646",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WQPR-FM",
+                    "id": "647",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHIL-FM",
+                    "id": "1229",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "WAPR-FM",
+                "id": "993",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "104",
+          "recency": 360
+        },
+        "guid": "4fcf701503ae4cc398af5c26b8e50623",
+        "brand": {
+          "band": "FM",
+          "call": "WHIL",
+          "frequency": "91.3",
+          "marketCity": "Mobile",
+          "marketState": "AL",
+          "name": "Alabama Public Radio",
+          "tagline": "We are Alabama Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1185ca82e5f64127bff1212db4334708",
+                "typeId": "10",
+                "href": "https://17513.live.streamtheworld.com/WUAL_HD3.mp3"
+              }
+            ],
+            "guid": "4fcf714a09364334815f9d61aaa269b7",
+            "title": "APR HD3 (BBC World Service)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7e6ed7954aa04f90be896009db73e857",
+                "typeId": "10",
+                "href": "https://17513.live.streamtheworld.com/WUAL_HD1.mp3"
+              }
+            ],
+            "guid": "13f77d802ff029f4467964761c4c1667",
+            "title": "APR-HD1 (APR News & Classics)",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "548b321b2d05496da1fd5a076447d59d",
+                "typeId": "10",
+                "href": "https://17513.live.streamtheworld.com/WUAL_HD2.mp3"
+              }
+            ],
+            "guid": "4fcf714a06ce4909b7c9bac14a4e63fd",
+            "title": "APR HD2 (UA-Info/Xponential Radio)",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.apr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/apr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/apr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/104_083b32fd660cc7748f43df0ae5cc8fba.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/104_451875aa476fcfa375ed925b669f71d8.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1185ca82e5f64127bff1212db4334708",
+            "href": "https://17513.live.streamtheworld.com/WUAL_HD3.mp3",
+            "isPrimaryStream": false,
+            "title": "APR HD3 (BBC World Service)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7e6ed7954aa04f90be896009db73e857",
+            "href": "https://17513.live.streamtheworld.com/WUAL_HD1.mp3",
+            "isPrimaryStream": true,
+            "title": "APR-HD1 (APR News & Classics)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "548b321b2d05496da1fd5a076447d59d",
+            "href": "https://17513.live.streamtheworld.com/WUAL_HD2.mp3",
+            "isPrimaryStream": false,
+            "title": "APR HD2 (UA-Info/Xponential Radio)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "2880ce7745d941d18e747869da039285",
+            "href": "https://wual.drupal.publicbroadcasting.net/podcasts/884/rss.xml",
+            "title": "Speaking of Pets",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2ac32e2394b34abab5af45a72e4c8409",
+            "href": "https://wual.drupal.publicbroadcasting.net/podcasts/150038/rss.xml",
+            "title": "Two-Ways",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "00d1349b840c4280984fef54b8c43811",
+            "href": "http://bit.ly/APR_19EOY",
+            "title": "Pledge",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "a96eccb10ae442d3983edc9b65975be3",
+            "href": "http://bit.ly/APR_19EOY",
+            "title": "Pledge",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "12c3fe2b047c47bc8bd4b21ecc7054e1",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/104_a2a196b25b3fd2532e7238d59f6c2f42.mp4",
+            "title": "Like What You're Hearing?",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "5710b82c8cad49888dbe384edf4cbb12",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/104_da194938242f58cd21b92a739c910730.mp4",
+            "title": "Keep NPR One Going ",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/642",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wtsu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "642",
+        "network": {
+          "name": "Troy Public Radio",
+          "inheritingFrom": "641",
+          "usesInheritance": true,
+          "currentOrgId": "642",
+          "tier1": {
+            "name": "Troy State Public Radio",
+            "id": "641",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WTSU-FM",
+                "id": "642",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WRWA-FM",
+                    "id": "643",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WTJB-FM",
+                    "id": "644",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf701209d940ebaff76e3c73da55c8",
+        "brand": {
+          "band": "FM",
+          "call": "WTSU",
+          "frequency": "89.9",
+          "marketCity": "Montgomery/Troy",
+          "marketState": "AL",
+          "name": "Troy Public Radio",
+          "tagline": "It's Time to Listen."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7a5d62a7337941c081d634c0dd2aed95",
+                "typeId": "10",
+                "href": "https://live.streamguys1.com:2385/troy1"
+              }
+            ],
+            "guid": "0fdb4fbbc8584b5591ad9819579a4800",
+            "title": "Troy Public Radio - It's Time to Listen",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.troypublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/troy_pr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/troy_pr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/641_1f553c852413985daeb363e4e2e99bbc.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/641_105374096cf5e20e04ed77ca934e0f91.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "www.facebook.com/TroyPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "www.twitter.com/TroyPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "7a5d62a7337941c081d634c0dd2aed95",
+            "href": "https://live.streamguys1.com:2385/troy1",
+            "isPrimaryStream": true,
+            "title": "Troy Public Radio - It's Time to Listen",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "56a88044b8804ac89b0551d1beaafd16",
+            "href": "https://www.troy.edu/student-life-resources/campus-media/troy-public-radio/support/index.html",
+            "title": "Support Troy Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "d65f52c5c891409e98a5123cb43d63a0",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/641_1f6f7369be27dc1b1814b8733d4aeb9a.mp4",
+            "title": "Joey - Crisis Giving Spot",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "dbadaa4969744d0c9fba63f5328a7758",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/641_4e5746f3a33b8dcc1ebf858371a7b1ed.mp4",
+            "title": "Ann - Crisis Giving Spot",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "ea88b7c85f83419389c1565fb72002f1",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/641_7ace6dc7330e02f395d84df9954279a0.mp4",
+            "title": "Kyle - Crisis Giving Spot",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/446",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf7011027942a3b5e6f4d98e8b65fe",
+        "brand": {
+          "band": "FM",
+          "call": "WJAB",
+          "frequency": "90.9",
+          "marketCity": "Huntsville",
+          "marketState": "AL",
+          "name": "WJAB",
+          "tagline": "Hot Blues, Cool Jazz"
+        },
+        "orgId": "446",
+        "network": {
+          "inheritingFrom": "446",
+          "usesInheritance": false,
+          "currentOrgId": "446",
+          "tier1": {
+            "name": "WJAB-FM",
+            "id": "446",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www2.aamu.edu/wjab/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wjab_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/446.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WJAB-909FM/151697978194",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1c577024e4e347ad9235ad8d320e4168",
+            "href": "http://www2.aamu.edu/wjab/aboutus.htm",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/446.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/676",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701211ea4505aa0d948d8bd55fe1",
+        "brand": {
+          "band": "FM",
+          "call": "WVAS",
+          "frequency": "90.7",
+          "marketCity": "Montgomery",
+          "marketState": "AL",
+          "name": "WVAS",
+          "tagline": "Jazz, Blues, News and Views"
+        },
+        "orgId": "676",
+        "network": {
+          "inheritingFrom": "676",
+          "usesInheritance": false,
+          "currentOrgId": "676",
+          "tier1": {
+            "name": "WVAS-FM",
+            "id": "676",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "89edb286cc4d4cbd9f024cc37dbfe510",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WVASHD2.pls"
+              }
+            ],
+            "guid": "1fab184dc0c94e33a57869e27c50388c",
+            "title": "WVASHD2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "69c7b347bb6c45649c13351281cf478a",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVASHD3.mp3"
+              }
+            ],
+            "guid": "e8e0fbe1d75a4f7bbbb6178d1f053def",
+            "title": "WVASHD3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "fbe55f77538d45189e0a55e684630af5",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVASFM.mp3"
+              }
+            ],
+            "guid": "4fcf716725f54aaa9be139cdcaa0e26f",
+            "title": "WVAS-FM 90.7",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wvasfm.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wvas_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wvas_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/676.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WVAS-FM/80862097925",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WVAS",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "89edb286cc4d4cbd9f024cc37dbfe510",
+            "href": "https://playerservices.streamtheworld.com/pls/WVASHD2.pls",
+            "isPrimaryStream": false,
+            "title": "WVASHD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "69c7b347bb6c45649c13351281cf478a",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVASHD3.mp3",
+            "isPrimaryStream": false,
+            "title": "WVASHD3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "fbe55f77538d45189e0a55e684630af5",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WVASFM.mp3",
+            "isPrimaryStream": true,
+            "title": "WVAS-FM 90.7",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "eccbe7b9e0d64672b100ff02b1010847",
+            "href": "http://www.wvasfm.org/support-wvas",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/676.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

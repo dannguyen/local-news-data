@@ -1,0 +1,3495 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "IL"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/309",
+      "attributes": {
+        "donation": {
+          "paymentGatewayToken": "HMNjntOwmT6D4o386fryO2TEjPz"
+        },
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wbez-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "309",
+        "network": {
+          "name": "WBEZ Chicago",
+          "inheritingFrom": "308",
+          "usesInheritance": true,
+          "currentOrgId": "309",
+          "tier1": {
+            "name": "Chicago Public Radio",
+            "id": "308",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WBEZ-FM",
+                "id": "309",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WBEW-FM",
+                    "id": "842",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WBEQ-FM",
+                    "id": "889",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WBEK-FM",
+                    "id": "1559",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "308",
+          "recency": 240
+        },
+        "guid": "4fcf701004fb43dcbfc3d701dd3c3b16",
+        "brand": {
+          "band": "FM",
+          "call": "WBEZ",
+          "frequency": "91.5",
+          "marketCity": "Chicago",
+          "marketState": "IL",
+          "name": "WBEZ Chicago",
+          "tagline": "Chicago\u2019s NPR News Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0d6c274dd63043429b932fb9eb3b5256",
+                "typeId": "10",
+                "href": "https://stream.wbez.org/vocalo128"
+              }
+            ],
+            "guid": "2c295a62b7b54b5b9be902d6e8824ed1",
+            "title": "Vocalo Radio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1a93077338404ceab327d0fd132c92eb",
+                "typeId": "10",
+                "href": "https://stream.wbez.org/WBEZ-npr128.mp3"
+              }
+            ],
+            "guid": "13dcbbb26a803284706af9dec180e7da",
+            "title": "WBEZ 91.5 Live Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wbez.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wbez.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wbez.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/308_25a2dd6baf495b915e2ce520f87c70e0.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/308_0cbaa07f9412353a65d7ef050ce51cb0.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/308_0a38be32d5094f5201dac910f4165743.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/308_bd8df26c188ba213736a31314fd0f443.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wbez915",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WBEZ",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "0d6c274dd63043429b932fb9eb3b5256",
+            "href": "https://stream.wbez.org/vocalo128",
+            "isPrimaryStream": false,
+            "title": "Vocalo Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1a93077338404ceab327d0fd132c92eb",
+            "href": "https://stream.wbez.org/WBEZ-npr128.mp3",
+            "isPrimaryStream": true,
+            "title": "WBEZ 91.5 Live Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "d384954aa2024da895e7ef59606ca584",
+            "href": "https://cms.wbez.org/v2/shows/b2c2c10b-1e7f-43ca-b3ad-55d6fd33722c.rss",
+            "title": "Nerdette Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7eb696c579fb44d38493e6a72f590368",
+            "href": "https://cms.wbez.org/v2/shows/71b8de57-b2be-4e03-8481-683258de3ec1.rss",
+            "title": "Making Beyonc\u00e9",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "07db2f52ff8d4ade9cbcdb65463f02bc",
+            "href": "https://api.wbez.org/v2/shows/f307556b-ca9d-4f9d-8b35-e4eeba261538.rss",
+            "title": "South Side Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "eb045ee53e1b4a97aea27edd1a5c4181",
+            "href": "https://cms.wbez.org/v2/shows/680cd4c4-0704-42a1-8b6e-1cf8652df9d0.rss",
+            "title": "Reset with Jenn White",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "aea81e9f57554ee69d8df8cd4db6099c",
+            "href": "https://cms.wbez.org/v2/shows/4fe38399-fbff-4160-a304-57ae27213a8c.rss",
+            "title": "Worldview",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "20bb7e80559143a4983df3293c492890",
+            "href": "https://soundopinions.org/podcast/feed",
+            "title": "Sound Opinions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d54020a60e904ed6aedd85851daa3cdc",
+            "href": "https://cms.wbez.org/v2/shows/7963352d-554b-4b00-a0ab-b70f47d35b00.rss",
+            "title": "On Background: The WBEZ Politics Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "80bcea4a10f94cba91fbabe33d2df3ee",
+            "href": "https://cms.wbez.org/v2/shows/55c63c72-d518-4ad9-b5dc-dd0d841d79a7.rss",
+            "title": "16 Shots: The Police Shooting Of Laquan McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d687e5433ae640e3b0ab14001dd0165b",
+            "href": "https://cms.wbez.org/v2/shows/3da61007-ae20-44e7-9860-2e0b02014526.rss",
+            "title": "The Trouble",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "12ab75fdbde44963839aeea8cf378d17",
+            "href": "https://cms.wbez.org/v2/shows/e80a5741-235b-4d45-9b04-a6b5dbe1f4cf.rss",
+            "title": "Every Other Hour",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "be03ce87241243198484caedaec0ce6e",
+            "href": "https://cms.wbez.org/v2/shows/7c1519a3-db3c-429b-97bb-b36e03302dfc.rss",
+            "title": "Nerdette Recaps His Dark Materials With Peter Sagal",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e011f06a21344d1fa52584e748d5a74e",
+            "href": "https://cms.wbez.org/v2/shows/6b7651a3-2b8b-47c9-a5c4-5175e60bc5b4.rss",
+            "title": "Written Inside: Stories About Prison Cells",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "510c0491d4d941249567a904b3714b31",
+            "href": "https://cms.wbez.org/v2/shows/09be1fbf-e991-4627-88ed-0004c94b48f6.rss",
+            "title": "Public Official A",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "68be3ffdd9a7489390c943ef1db085dc",
+            "href": "https://cms.wbez.org/v2/shows/8c9f445c-4f62-46d6-a7f6-dc70a835e99b.rss",
+            "title": "Motive",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "547cb6bf9e1d4b7da28041f3de9ab796",
+            "href": "https://cms.wbez.org/v2/shows/7b79e16d-f3a9-4156-9b27-4d2cc6ce351e.rss",
+            "title": "Curious City",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "efcaebb0a5a44d19b7b3bf12b5055c4a",
+            "href": "https://donate.chicagopublicmedia.org/give/wbez/?Recurring_Id=WBE--OW2005--003&OT_Id=WBE--OW2005--002",
+            "title": "Support WBEZ",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "bfa70167a64140e59ab49e30c73c581d",
+            "href": "https://donate.chicagopublicmedia.org/give/wbez/?Recurring_Id=WBE--OW2005--003&OT_Id=WBE--OW2005--002",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "431f85a0898845eab5fb6ed437f376ed",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/308_b0a6f0f9fa4b1544febda3436d2139d4.mp4",
+            "title": "Funding 01 FY20 Spot 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "4578f88b265f4e539a9c689c89c25352",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/308_11035a644acd1451777faffa52490ce1.mp4",
+            "title": "Funding 01 FY20 Spot 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "b4934ac7f1954409beb95b65c0b7a3fc",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/308_7c7fe3a89f4e8b3526d43a03f1ba1ecb.mp4",
+            "title": "Funding 01 FY20 Spot 3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/529",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wnij-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "529",
+        "network": {
+          "name": "Northern Public Radio",
+          "inheritingFrom": "528",
+          "usesInheritance": true,
+          "currentOrgId": "529",
+          "tier1": {
+            "name": "Northern Public Radio",
+            "id": "528",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WNIJ-FM",
+                "id": "529",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WNIE-FM",
+                    "id": "530",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WNIQ-FM",
+                    "id": "531",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WNIW-FM",
+                    "id": "532",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WNIU-FM",
+                    "id": "534",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "528",
+          "recency": 240
+        },
+        "guid": "4fcf701116d64be39b7f32fe7fbed79d",
+        "brand": {
+          "band": "FM",
+          "call": "WNIJ",
+          "frequency": "89.5",
+          "marketCity": "Rockford",
+          "marketState": "IL",
+          "name": "Northern Public Radio",
+          "tagline": "Where You Learn Something New Every Day"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f8ae48650b294b429044827baf10af4c",
+                "typeId": "10",
+                "href": "https://peace.streamguys1.com:6845/niris_live_96k"
+              }
+            ],
+            "guid": "248c3f87070e4fc3a026586db60e483e",
+            "title": "NIRIS (Northern Illinois Radio Information Service)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4a5984bad7e04566b25f835c1d56e62b",
+                "typeId": "10",
+                "href": "https://peace.streamguys1.com:6845/live-128k.mp3"
+              }
+            ],
+            "guid": "13f0f997ac6006643d7900d240f4dccd",
+            "title": "WNIU 90.5 Classical Music",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "33429f613bcf4049b96b21b2df253d73",
+                "typeId": "10",
+                "href": "https://peace.streamguys1.com:6815/live-96k-nopreroll"
+              }
+            ],
+            "guid": "13f0f97cd6700b74b9ea02f16b004165",
+            "title": "WNIJ 89.5 News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.northernpublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nopr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nopr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/528_fe75615344fe6c30f55bb93d06afea2f.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f8ae48650b294b429044827baf10af4c",
+            "href": "https://peace.streamguys1.com:6845/niris_live_96k",
+            "isPrimaryStream": false,
+            "title": "NIRIS (Northern Illinois Radio Information Service)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "4a5984bad7e04566b25f835c1d56e62b",
+            "href": "https://peace.streamguys1.com:6845/live-128k.mp3",
+            "isPrimaryStream": false,
+            "title": "WNIU 90.5 Classical Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "33429f613bcf4049b96b21b2df253d73",
+            "href": "https://peace.streamguys1.com:6815/live-96k-nopreroll",
+            "isPrimaryStream": true,
+            "title": "WNIJ 89.5 News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "14fbb0ead8724201bddf4f2124bb765f",
+            "href": "https://wnij.drupal.publicbroadcasting.net/podcasts/86080/rss.xml",
+            "title": "Sessions From Studio A",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0758a23feac94ba19bdf97b41983853e",
+            "href": "https://wnij.drupal.publicbroadcasting.net/podcasts/term/7945/rss.xml",
+            "title": "The Sound of Science",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "18ed32084d14446c83604c2de13ee42f",
+            "href": "https://wnij.drupal.publicbroadcasting.net/podcasts/143482/rss.xml",
+            "title": "Under Rocks",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "682c191bd3dc4f9fa04ca5fd25d907e1",
+            "href": "https://wnij.drupal.publicbroadcasting.net/podcasts/133695/rss.xml",
+            "title": "State Of The Artist",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "096bf2312a4d4a2ca49e26a51ba34918",
+            "href": "https://wnij.drupal.publicbroadcasting.net/podcasts/105109/rss.xml",
+            "title": "The STEM Read Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ed78589cbd9b4f54a49602e33b77350b",
+            "href": "https://wnij.drupal.publicbroadcasting.net/podcasts/130033/rss.xml",
+            "title": "Drinkin' With Lincoln",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "82d152e93e0d4d438a35519d3f931f55",
+            "href": "https://wnij.drupal.publicbroadcasting.net/podcasts/135953/rss.xml",
+            "title": "Teachers' Lounge",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "099856d4ca6c494b876a640f6752d91d",
+            "href": "https://wnij.drupal.publicbroadcasting.net/podcasts/132133/rss.xml",
+            "title": "Curiosity in the Corn",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ed8ee70fe377494bb67c50517536c152",
+            "href": "https://wnij.drupal.publicbroadcasting.net/podcasts/59955/rss.xml",
+            "title": "Perspectives",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f13bdf06cb2c42fd97e044884f1d6978",
+            "href": "https://wnij.drupal.publicbroadcasting.net/podcasts/101648/rss.xml",
+            "title": "Mind-U",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "c2c47a0e94c040ce983c8d651e2889f1",
+            "href": "https://npr.niu.edu/alleg/WebModule/Donate.aspx?P=NATIONAL&PAGETYPE=PLG&CHECK=YtZqYIoRoy0JCxFZE1bmY23L5BYddGq6PVAl6UEf65g%3d",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/653",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wuis-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "653",
+        "network": {
+          "inheritingFrom": "653",
+          "usesInheritance": false,
+          "currentOrgId": "653",
+          "tier1": {
+            "name": "WUIS-FM",
+            "id": "653",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WIPA-FM",
+                "id": "654",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf70120c404c5b94c64d4beb26af85",
+        "brand": {
+          "band": "FM",
+          "call": "WUIS",
+          "frequency": "91.9",
+          "marketCity": "Springfield",
+          "marketState": "IL",
+          "name": "NPR Illinois | 91.9 UIS",
+          "tagline": "Stand with the Facts"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5c934c986c134dc7b9f3f462f6a0d2c5",
+                "typeId": "10",
+                "href": "https://war.streamguys1.com:7785/wuis.mp3"
+              }
+            ],
+            "guid": "4fcf71521b474d4896c932465b3d5430",
+            "title": "NPR Illinois | 91.9 UIS",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3efc5c90a97a401893eead1105b45d1e",
+                "typeId": "10",
+                "href": "https://war.streamguys1.com:7785/WUISRIS-2"
+              }
+            ],
+            "guid": "514afffb13ed45d8b5ca58299882b36d",
+            "title": "NPR Illinois | Classic",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f173b1dac4424b7993f68c622b569d67",
+                "typeId": "10",
+                "href": "https://war.streamguys1.com:7785/WUISRIS-3"
+              }
+            ],
+            "guid": "514afffb0e6643e481d6e42800f6c6ee",
+            "title": "NPR Illinois | The X",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nprillinois.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wuis_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wuis_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/653_753e083c453ec95d95bd37b29c629adc.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/653_3e0c4c02273375fcdca08e806ec23de3.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/653_ccf271d1debbc06282c60bf0bbac85a1.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/653_5ab8e5cf7f72732145c390fcd7fdc5be.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/653_14b89886db3795db184bdc690b6ccb40.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/653_06ae09235a3361d4bc85c7ce1fbf6295.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://bit.ly/hTNFEr",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://bit.ly/eFHr9x",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "5c934c986c134dc7b9f3f462f6a0d2c5",
+            "href": "https://war.streamguys1.com:7785/wuis.mp3",
+            "isPrimaryStream": true,
+            "title": "NPR Illinois | 91.9 UIS",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "3efc5c90a97a401893eead1105b45d1e",
+            "href": "https://war.streamguys1.com:7785/WUISRIS-2",
+            "isPrimaryStream": false,
+            "title": "NPR Illinois | Classic",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f173b1dac4424b7993f68c622b569d67",
+            "href": "https://war.streamguys1.com:7785/WUISRIS-3",
+            "isPrimaryStream": false,
+            "title": "NPR Illinois | The X",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "36dba3d65fb24e3e98cb507ddb7d671e",
+            "href": "https://wuis.drupal.publicbroadcasting.net/podcasts/79238/rss.xml",
+            "title": "Past Due",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8bd62cacfc7943408d25a8d4517efe77",
+            "href": "https://wuis.drupal.publicbroadcasting.net/podcasts/125578/rss.xml",
+            "title": "PodCamp",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3760450e2d3e464a94f83ad65e0bed12",
+            "href": "https://wuis.drupal.publicbroadcasting.net/podcasts/71915/rss.xml",
+            "title": "Illinois Issues",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8364454009a3415596361c88f6269e65",
+            "href": "https://wuis.drupal.publicbroadcasting.net/podcasts/84013/rss.xml",
+            "title": "Let's Talk Kids",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "deb69d7772f145bc85e9dc1540f1585b",
+            "href": "https://wuis.drupal.publicbroadcasting.net/podcasts/71897/rss.xml",
+            "title": "This I Believe Illinois",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "92e0771b07604876bef2af29b16ec557",
+            "href": "https://wuis.drupal.publicbroadcasting.net/podcasts/79307/rss.xml",
+            "title": "Education Desk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ac29bf5c53664a7c82acc6ec9209a7e0",
+            "href": "https://wuis.drupal.publicbroadcasting.net/podcasts/9223/rss.xml",
+            "title": "State Week",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "281c1d6173f441399f04a90a8501a354",
+            "href": "https://wuis.drupal.publicbroadcasting.net/podcasts/69715/rss.xml",
+            "title": "Heartland",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "859855fc8fc340859477da60eb541a98",
+            "href": "https://wuis.drupal.publicbroadcasting.net/podcasts/108081/rss.xml",
+            "title": "To the Front",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2d0b0a933f0c41c1b0416a4a604c6bc0",
+            "href": "https://wuis.drupal.publicbroadcasting.net/podcasts/129481/rss.xml",
+            "title": "Statewide",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "cf56cae7caf14aee9ac1f0414f2cd129",
+            "href": "https://www.nprillinois.org/topic/donate",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "9b2579f7556540e0a986175169fa1c01",
+            "href": "https://www.nprillinois.org/topic/donate",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/653.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/402",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wglt-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "402",
+        "network": {
+          "inheritingFrom": "402",
+          "usesInheritance": false,
+          "currentOrgId": "402",
+          "tier1": {
+            "name": "WGLT-FM",
+            "id": "402",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "402",
+          "recency": 360
+        },
+        "guid": "4fcf70101e314baabecb00d8a5ada46f",
+        "brand": {
+          "band": "FM",
+          "call": "WGLT",
+          "frequency": "89.1",
+          "marketCity": "Normal",
+          "marketState": "IL",
+          "name": "WGLT",
+          "tagline": "Bloomington-Normal's Public Media"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "096f73d0ae6243a0a819680eb76b1ed2",
+                "typeId": "10",
+                "href": "https://wgltradio01b.ilstu.edu:8443/wgltmain.mp3"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bb598774064440edbece2865e367dce6",
+                "typeId": "10",
+                "href": "https://casit.illinoisstate.edu/glt/tls/wglt.pls"
+              }
+            ],
+            "guid": "4fcf714c0557460fa5c1d6164ab527e7",
+            "title": "WGLT, Bloomington-Normal's Public Media",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c3a3cfb7d7a74a52a331e51fb27acb4e",
+                "typeId": "10",
+                "href": "https://wgltradio01b.ilstu.edu:8443/wgltblues.mp3"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c7767a9987a54419a2502f6529dd5940",
+                "typeId": "10",
+                "href": "https://casit.illinoisstate.edu/glt/tls/wgltblues.pls"
+              }
+            ],
+            "guid": "4fcf714c0ce04224a0caced12ecfe7c7",
+            "title": "Highway 309",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wglt.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wglt_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wglt_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/402_123d646d889c450d54e64fee9b312919.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/402_921ee2ebbc3a942c0346672a05a8f421.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/402_04f2514172d67d3adf29c22f636cd1c4.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/402_c7f82ca587a2d98b6620bd68e3c0723e.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/402_e005637a942e1559e6fb4dee579c4f93.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/402_29d03fe2a8b9bfeff40ae193165c5727.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/402_20162ace573882ab701765598329fe60.mp4?1501509065436",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/402_1d9cbd0cefb3be4bc579e8cc47e08cf9.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/402_2eaf0222b5705acdc638d9d608aac670.mp4?1501509107216",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/402_9d577768b9b799b3a063bd7d5d3cffdf.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WGLT/216877900696",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "096f73d0ae6243a0a819680eb76b1ed2",
+            "href": "https://wgltradio01b.ilstu.edu:8443/wgltmain.mp3",
+            "isPrimaryStream": true,
+            "title": "WGLT, Bloomington-Normal's Public Media",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c3a3cfb7d7a74a52a331e51fb27acb4e",
+            "href": "https://wgltradio01b.ilstu.edu:8443/wgltblues.mp3",
+            "isPrimaryStream": false,
+            "title": "Highway 309",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c7767a9987a54419a2502f6529dd5940",
+            "href": "https://casit.illinoisstate.edu/glt/tls/wgltblues.pls",
+            "isPrimaryStream": false,
+            "title": "Highway 309",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bb598774064440edbece2865e367dce6",
+            "href": "https://casit.illinoisstate.edu/glt/tls/wglt.pls",
+            "isPrimaryStream": true,
+            "title": "WGLT, Bloomington-Normal's Public Media",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "8f365e4052114657b7e49d6c3927a8a9",
+            "href": "https://wglt.drupal.publicbroadcasting.net/podcasts/60728/rss.xml",
+            "title": "GLT's McHistory",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f183c22790f84a219fe7daa0084ea13c",
+            "href": "https://wglt.drupal.publicbroadcasting.net/podcasts/17/rss.xml",
+            "title": "GLT's Radio Munson",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b54ca39bc5ff4f9abe06dd89afe95804",
+            "href": "https://wglt.drupal.publicbroadcasting.net/podcasts/1407/rss.xml",
+            "title": "WGLT's Sound Ideas - Full Episodes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "76bf2e4e62d34dfb80ae1ee25b9956f0",
+            "href": "https://wglt.drupal.publicbroadcasting.net/podcasts/31795/rss.xml",
+            "title": "GLT Music Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1a8890c559a04620a9994ac4de69dde4",
+            "href": "https://wglt.drupal.publicbroadcasting.net/podcasts/term/40/rss.xml",
+            "title": "WGLT's Grow",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d094a75ce35042b5ac86ee1acb3f4065",
+            "href": "https://wglt.drupal.publicbroadcasting.net/podcasts/58292/rss.xml",
+            "title": "WGLT's The Leadoff",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9839ae7037bd4eecac8bde80a6df9c25",
+            "href": "https://wglt.drupal.publicbroadcasting.net/podcasts/15/rss.xml",
+            "title": "WGLT's Sound Ideas",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "36159e7eb5f44806939f2ab21b4126bd",
+            "href": "https://suspectconvictions.libsyn.com/rss",
+            "title": "Suspect Convictions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e6175b574a2749868cf4ac9d7389e6c4",
+            "href": "https://wglt.drupal.publicbroadcasting.net/podcasts/60712/rss.xml",
+            "title": "Next to Normal Story Slam",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1ca3adbc789745c9b186b5ddb683faac",
+            "href": "https://wglt.drupal.publicbroadcasting.net/podcasts/16/rss.xml",
+            "title": "GLT's Center Stage",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "80876782d2444f69b824627d05d1f0e4",
+            "href": "https://hatch.illinoisstate.edu/project/20877",
+            "title": "Contribute",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "a1f5eb9848f245cea8baa0b95dd24e7e",
+            "href": "https://hatch.illinoisstate.edu/project/20877",
+            "title": "Contribute",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "4673949e7be94845930e2b80a05da920",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/402_9a4b0f41c73d54aee3884d98608ab900.mp4",
+            "title": "Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "96aa1bac78f94f44bea8f51aa88a5743",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/402_b8f98d45e85c914f98ea98abb6b33d69.mp4",
+            "title": "Melissa Donation 2020 ",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/402.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/440",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "440",
+        "network": {
+          "name": "Illinois Public Media - WILL",
+          "inheritingFrom": "1104",
+          "usesInheritance": true,
+          "currentOrgId": "440",
+          "tier1": {
+            "name": "Illinois Public Media",
+            "id": "1104",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WILL-FM",
+                "id": "441",
+                "usesInheritance": false,
+                "tier3": [
+                  {
+                    "name": "WILL-AM",
+                    "id": "440",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "1104",
+          "recency": 360
+        },
+        "guid": "4fcf7011005c4e3b81f3da04264f1db0",
+        "brand": {
+          "band": "AM",
+          "call": "WILL",
+          "frequency": "580",
+          "marketCity": "Urbana",
+          "marketState": "IL",
+          "name": "Illinois Public Media - WILL",
+          "tagline": "News and NPR for Downstate Illinois"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1cb1be6c62ee4ac69aa5a5d00bcc28b7",
+                "typeId": "10",
+                "href": "https://icecast.will.illinois.edu/WILL-mp3-48"
+              }
+            ],
+            "guid": "4fcf713c0cc1451aaaf085a41d85c9aa",
+            "title": "WILL-AM Live Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://will.illinois.edu",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/ipm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ipm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1104_6e5ad38c0cfcaf37d22b5505c1f7f164.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1104_ba73d55b57de766bcbecbd59d6fdef15.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1104_2047c74aed9aefc591ccc63100cb7694.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1104_d1abcc0ca77c1905de231157f5fdd1f7.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WILLradiotvonline?ref=mf",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/willpublicmedia",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1cb1be6c62ee4ac69aa5a5d00bcc28b7",
+            "href": "https://icecast.will.illinois.edu/WILL-mp3-48",
+            "isPrimaryStream": true,
+            "title": "WILL-AM Live Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "239c50b15d334b2a8a58212f78c14a95",
+            "href": "https://will.illinois.edu/closingmarketreport/rss",
+            "title": "Closing Market Report",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0d7bfc66bf4f465580ca83b04a7163de",
+            "href": "https://will.illinois.edu/bandwagon/rss",
+            "title": "Bandwagon",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5b36f7beb1e144f58dee71dd00b5209e",
+            "href": "https://will.illinois.edu/environmentalalmanac/rss",
+            "title": "Environmental Almanac",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "da38de8459ef45a18288386a94f78f59",
+            "href": "https://will.illinois.edu/legalissuesinthenews/rss",
+            "title": "Legal Issues in the News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2a9cdf9e477e4300a9b891d58da41ff8",
+            "href": "https://will.illinois.edu/longerlisten/rss",
+            "title": "Longer Listen",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5438e2b84656417d8c17018936dafee9",
+            "href": "https://will.illinois.edu/midamericangardener/rss",
+            "title": "Mid-American Gardener",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "630319fde0264ba2a495911c6d5bddf9",
+            "href": "https://will.illinois.edu/commodityweek/rss",
+            "title": "Commodity Week",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3b9a6a2e230c489a8cad81cb8be3d031",
+            "href": "https://will.illinois.edu/news/rss",
+            "title": "Illinois Public Media News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e17f51062f5b4abf91171d51773eb778",
+            "href": "https://will.illinois.edu/21stshow/rss",
+            "title": "The 21st",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "598695b960854a15a6886afbfb885485",
+            "href": "https://will.illinois.edu/shesaid/podcast",
+            "title": "The She Said Project Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "5b4fe6cc74ab4d60a6fe203ffb7c8ecd",
+            "href": "https://willpledge.org",
+            "title": "Support WILL",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "129c0f2634174e388a6f0cabfd58c17a",
+            "href": "https://willpledge.org",
+            "title": "Support WILL",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "f6fdd017d7f84bb09d14abfefa8de8af",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/1104_c603a3d8c55bb3e0ce609b0fbe1ade1a.mp4",
+            "title": "Jason News and Programming Evergreen",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "881e456f079e4f04a738650b3ceb32fc",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/1104_b9b88eee860d3917d443a57e320470a1.mp4",
+            "title": "John NPR One 3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "9f600ac676634ae9955a661425646db1",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/1104_1910e36b826b68cc77a097af6ec50619.mp4",
+            "title": "Relevant regional news evergreen",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "56f69d9b7d0b40baacab1fe4ef34ee03",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/1104_3a5f0b211eb8d47660e449473320b17f.mp4",
+            "title": "John NPR One 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "3f026e4b0ebb486c82a69870cf917c1b",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/1104_6c08b5a805c22cbeb13fcffbe7be1d81.mp4",
+            "title": "John NPR One 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "a91743b6cd9840e08d60a7a15a4c11f9",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/1104_6a36770107e953ec2b74c5127236ce5e.mp4",
+            "title": "WILL and NPR properly Sourced Evergreen",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/339",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wcbu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "339",
+        "network": {
+          "inheritingFrom": "339",
+          "usesInheritance": false,
+          "currentOrgId": "339",
+          "tier1": {
+            "name": "WCBU-FM",
+            "id": "339",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "339",
+          "recency": 360
+        },
+        "guid": "4fcf70100c144cfcb44efade855cc000",
+        "brand": {
+          "band": "FM",
+          "call": "WCBU",
+          "frequency": "89.9",
+          "marketCity": "Peoria",
+          "marketState": "IL",
+          "name": "WCBU",
+          "tagline": "Peoria Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c1bf6d66423b490490733b351192ea88",
+                "typeId": "10",
+                "href": "https://wgltradio01b.ilstu.edu:8443/wcbuclassical.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "058c65e2cd0046bea77ff7ddf313140f",
+                "typeId": "13",
+                "href": "https://wgltradio01a.ilstu.edu:8443/wcbuclassical.aac"
+              }
+            ],
+            "guid": "4fcf714718914fd8a648a62c88f43a9d",
+            "title": "Classical WCBU2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "dafd98b031474ae3a5a5728b85ed5eb6",
+                "typeId": "10",
+                "href": "https://wgltradio01b.ilstu.edu:8443/wcbumain.mp3"
+              }
+            ],
+            "guid": "4fcf714714954cd5a1afca77bfce90da",
+            "title": "WCBU 89.9 News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.peoriapublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wcbu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wcbu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/339_2e521889c151ca3c2a9e646a53148fae.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/339_0b1b6c55d9659f73076a858c8889a943.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/339_d597a89511580c764ff4377475450da4.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/339_399277654d8392c9ab82ee609d9c659c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WCBU/111842538834634",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "c1bf6d66423b490490733b351192ea88",
+            "href": "https://wgltradio01b.ilstu.edu:8443/wcbuclassical.mp3",
+            "isPrimaryStream": false,
+            "title": "Classical WCBU2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dafd98b031474ae3a5a5728b85ed5eb6",
+            "href": "https://wgltradio01b.ilstu.edu:8443/wcbumain.mp3",
+            "isPrimaryStream": true,
+            "title": "WCBU 89.9 News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "058c65e2cd0046bea77ff7ddf313140f",
+            "href": "https://wgltradio01a.ilstu.edu:8443/wcbuclassical.aac",
+            "isPrimaryStream": false,
+            "title": "Classical WCBU2",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "4f9fc2b569f64b0e9c1cc94d255f0271",
+            "href": "https://wcbu.drupal.publicbroadcasting.net/podcasts/term/81/rss.xml",
+            "title": "Out and About Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "37ee4120fad84e7c9cc9780f7c9b3eb8",
+            "href": "https://wcbu.drupal.publicbroadcasting.net/podcasts/term/32/rss.xml",
+            "title": "Peoria Public Radio News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "bf79f456bad0445b9b993fb319b2bcb5",
+            "href": "https://hatch.illinoisstate.edu/project/20893",
+            "title": "WCBU Online Pledge Page",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "ff87c10a1a384650bc7e9e06efaf77bd",
+            "href": "https://hatch.illinoisstate.edu/project/20893",
+            "title": "Donate Today to Support Peoria Public Radio ",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "9a654a7470c14a2e9f890daa050307f1",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/339_b28b4527c2d9a69dcaa5308dc8a10f46.mp4",
+            "title": "Tim Shelley Donation 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "7efa3be318974c6595182282fda6242f",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/339_af46d705d1aadb2e94e79ec7efae41d8.mp4",
+            "title": "Dana Vollmer Donation Ask 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/339.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/679",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvik-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "679",
+        "network": {
+          "inheritingFrom": "679",
+          "usesInheritance": false,
+          "currentOrgId": "679",
+          "tier1": {
+            "name": "WVIK-FM",
+            "id": "679",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "679",
+          "recency": 360
+        },
+        "guid": "4fcf701212b44795b8473898ccb983a8",
+        "brand": {
+          "band": "FM",
+          "call": "WVIK",
+          "frequency": "90.3",
+          "marketCity": "Rock Island",
+          "marketState": "IL",
+          "name": "WVIK, Quad Cities NPR",
+          "tagline": "News, Music, Arts, Culture"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2d85ac50764d4b26a9a3cd414ee39ee7",
+                "typeId": "10",
+                "href": "https://wvik.streamguys1.com/apris.mp3"
+              }
+            ],
+            "guid": "72af9fd8b4a74f189f6354c293ec0fcc",
+            "title": "APRIS, Augustana Public Radio Information Service",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "26dcd07a9dc745ecb58826a2f552877d",
+                "typeId": "10",
+                "href": "https://wvik.streamguys1.com/hd2.mp3"
+              }
+            ],
+            "guid": "f1e1ff592bfd4bf3b71eb4c469df20d3",
+            "title": "WVIK-HD2, Quad Cities NPR",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f5ef26bc7a2c4b18aff91d33284cabb0",
+                "typeId": "10",
+                "href": "https://wvik.streamguys1.com:443/live.mp3"
+              }
+            ],
+            "guid": "14059639f7b034348bb80a2bf3cf878f",
+            "title": "WVIK, Quad Cities NPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wvik.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wvik_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wvik_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/679.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WVIKfm",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wvikfm",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "2d85ac50764d4b26a9a3cd414ee39ee7",
+            "href": "https://wvik.streamguys1.com/apris.mp3",
+            "isPrimaryStream": false,
+            "title": "APRIS, Augustana Public Radio Information Service",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "26dcd07a9dc745ecb58826a2f552877d",
+            "href": "https://wvik.streamguys1.com/hd2.mp3",
+            "isPrimaryStream": false,
+            "title": "WVIK-HD2, Quad Cities NPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f5ef26bc7a2c4b18aff91d33284cabb0",
+            "href": "https://wvik.streamguys1.com:443/live.mp3",
+            "isPrimaryStream": true,
+            "title": "WVIK, Quad Cities NPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "c556b4e01a754460b49b95cb8143e5a5",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/true-admissions.xml",
+            "title": "True Admissions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "03203321c07b42389afd18378bc74a80",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/perspective.xml",
+            "title": "Perspective",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "dd291ed8537e4cc8a1307d8ca407e184",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/good-morning-from-wvik-news.xml",
+            "title": "Good Morning",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b05c166e9de14ad98c2f31cb5f9fdf90",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/the-gallery-gap.xml",
+            "title": "The Gallery Gap",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5bd805bd156c47a8a5dbf20373186824",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/scribble.xml",
+            "title": "Scribble",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "36159e7eb5f44806939f2ab21b4126bd",
+            "href": "https://suspectconvictions.libsyn.com/rss",
+            "title": "Suspect Convictions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c6aa48ff05b146fcb7b258c4f2700dcc",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/saturdaymorninglive.xml",
+            "title": "Saturday Morning Live!",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e57ec9d945764007ba983e9ee69b58dc",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/music-101.xml",
+            "title": "Music 101",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5ddd527a9df14d758a7a9514c7fa4e89",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/the-great-quad-cities-listen.xml",
+            "title": "The Great Quad Cities Listen",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3f3ec5e6e46846f0b84b722ae254c623",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/margins.xml",
+            "title": "Margins",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c93a2947c3ca48599bbf18058bc72737",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/the-cities.xml",
+            "title": "The Cities",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "75c687cac03d4b78a59463edb707d61e",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/wellness-wake-up-call.xml",
+            "title": "Wellness Wake Up Call",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5533dd2ced6f4518bb36c857e851912d",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/midwest-week.xml",
+            "title": "Midwest Week",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1d77911c87cc464e9dc30c0d4143f8a2",
+            "href": "https://wvik-rss.streamguys1.com/wvik/rmeradio.xml",
+            "title": "RME Radio Hour",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f3b5d04a57d14849bbe6270fe37bc0f3",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/talking-art.xml",
+            "title": "Talking Art",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cc4f73d7a72d44f4949a02fcebc62418",
+            "href": "https://wvik-rss.streamguys1.com/wvik/jazzafterhours.xml",
+            "title": "Jazz After Hours",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5727341b8c774bd58753e5fe4acf5f7e",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/river-way-stories.xml",
+            "title": "RiverWay Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c15925d7a40c4c4fb31f77b19c457932",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/love-girls-the-podcast.xml",
+            "title": "Love Girls - The Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d66513d2cc954604b53c6ace3ac6a0aa",
+            "href": "https://wvik-rss.streamguys1.com/wvik/swingshift.xml",
+            "title": "Swing Shift",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "999afdfa2a304dd4be71f741b57bf9b5",
+            "href": "https://wvik-rss.streamguys1.com/wvik/serenade.xml",
+            "title": "Serenade with Sunday Concerts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5b425826131f437684079bf3f2b4765d",
+            "href": "https://wvik-rss.streamguys1.com/wvikfm/morningclassics.xml",
+            "title": "Morning Classics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "506bd488668346ab8afae3e8af0984bf",
+            "href": "https://donate.nprstations.org/wvik/wvik-pledge-form-station-connect",
+            "title": "Pledge to WVIK today!",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b5c9fb42a51446ae81c1a0d4119e43cb",
+            "href": "https://donate.nprstations.org/wvik/wvik-npr-one-mobile-form",
+            "title": "Pledge to WVIK today!",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "5400146088984c2fb6c516752221f535",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/679_86be963ba8eeb8749635f99b077dba22.mp4",
+            "title": "Giving Tuesday Ask 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "4aaea5e6ceca411b8034946a1df227a3",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/679_8faef96277558e93b23c3100f59a7892.mp4",
+            "title": "Giving Tuesday Ask 3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "93c604b776e54360b6fb1ce1704f266e",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/679_e05d7e873a04ac3dabd0cbc65d6737b8.mp4",
+            "title": "Giving Tuesday Ask 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/679.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/441",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/will-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "441",
+        "network": {
+          "inheritingFrom": "441",
+          "usesInheritance": false,
+          "currentOrgId": "441"
+        },
+        "guid": "4fcf701100a2477bb211020d69c20d6e",
+        "brand": {
+          "band": "FM",
+          "call": "WILL",
+          "frequency": "90.9",
+          "marketCity": "Urbana",
+          "marketState": "IL",
+          "name": "WILL-FM",
+          "tagline": "Music and Performance"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2b9bf89646d34045a00093b899fc8965",
+                "typeId": "10",
+                "href": "https://icecast.will.illinois.edu/WILLFM-48"
+              }
+            ],
+            "guid": "13d8e7f7b0d004d49eb8291499419926",
+            "title": "WILL-FM Live Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://will.illinois.edu/fm/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/will_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/will_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/441.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WILLradiotvonline",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/willpublicmedia",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "2b9bf89646d34045a00093b899fc8965",
+            "href": "https://icecast.will.illinois.edu/WILLFM-48",
+            "isPrimaryStream": true,
+            "title": "WILL-FM Live Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "4563575e6b534821b61d89e9c153669b",
+            "href": "https://willpledge.org",
+            "title": "Support WILL",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "ac893283b92d41fab174ccd41b4d3ec7",
+            "href": "https://willpledge.org",
+            "title": "Support WILL",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "cd11574a16c84a4a83914f2f018283bb",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/441_256c929a3bef24194ed3f6b1e3b63c62.mp4",
+            "title": "NPR One Pledge Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "d18dadff00104bc5b1643bb65cfe4451",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/441_b885dd112cb57e102bebf6b1e352e6ba.mp4",
+            "title": "NPR One Pledge Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/441.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/615",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wsiu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "615",
+        "network": {
+          "inheritingFrom": "615",
+          "usesInheritance": false,
+          "currentOrgId": "615",
+          "tier1": {
+            "name": "WSIU-FM",
+            "id": "615",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WUSI-FM",
+                "id": "616",
+                "usesInheritance": true
+              },
+              {
+                "name": "WVSI-FM",
+                "id": "617",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "615",
+          "recency": 360
+        },
+        "guid": "4fcf701203a54360947353504b3804ab",
+        "brand": {
+          "band": "FM",
+          "call": "WSIU",
+          "frequency": "91.9",
+          "marketCity": "Carbondale",
+          "marketState": "IL",
+          "name": "WSIU Public Radio",
+          "tagline": "Powered by You"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e88460b4e15a4891bb65e62eead1072a",
+                "typeId": "10",
+                "href": "https://peridot.streamguys1.com:5235/wsiu-hd1"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4e11649ac48646bb8cbd9ac0b58c5369",
+                "typeId": "10",
+                "href": "https://wsiu-itunes.streamguys1.com/itunes/smil:itunes.smil/playlist.m3u8"
+              }
+            ],
+            "guid": "4fcf7167206045bba737c02d00dfbc12",
+            "title": "WSIU Public Radio",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a986633da3e149f8b634321a854acd13",
+                "typeId": "10",
+                "href": "https://peridot.streamguys1.com:5245/wsiu-hd2"
+              }
+            ],
+            "guid": "13e19d86a2a01e24f1e989840afc07f7",
+            "title": "WSIU HD2",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://news.wsiu.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wsiu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wsiu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/615.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WSIURadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/WSIURadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e88460b4e15a4891bb65e62eead1072a",
+            "href": "https://peridot.streamguys1.com:5235/wsiu-hd1",
+            "isPrimaryStream": true,
+            "title": "WSIU Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "4e11649ac48646bb8cbd9ac0b58c5369",
+            "href": "https://wsiu-itunes.streamguys1.com/itunes/smil:itunes.smil/playlist.m3u8",
+            "isPrimaryStream": true,
+            "title": "WSIU Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a986633da3e149f8b634321a854acd13",
+            "href": "https://peridot.streamguys1.com:5245/wsiu-hd2",
+            "isPrimaryStream": false,
+            "title": "WSIU HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "7b190b0e4d6347c7a431b45ff4765b85",
+            "href": "https://wsiu.drupal.publicbroadcasting.net/podcasts/term/846/rss.xml",
+            "title": "WSIU InFocus",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "59e6e817b6a542ae8f60e84c087ed5da",
+            "href": "https://wsiu.drupal.publicbroadcasting.net/podcasts/13742/rss.xml",
+            "title": "WSIU Radio News Updates",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8fa28721c445461a8c793b4afb83b0d2",
+            "href": "https://wsiu.drupal.publicbroadcasting.net/podcasts/13456/rss.xml",
+            "title": "Reading Baseball",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "469a0d26e14c49179ee4f0745111b3ac",
+            "href": "http://www.wsiu.org/donate-now.aspx",
+            "title": "Support WSIU",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "91f0cd33a15e44a6bb2c0885cc8b8767",
+            "href": "http://www.wsiu.org/donate-now.aspx",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/615.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/444",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "444",
+        "network": {
+          "name": "Tri States Public Radio",
+          "inheritingFrom": "443",
+          "usesInheritance": true,
+          "currentOrgId": "444",
+          "tier1": {
+            "name": "Tri States Public Radio",
+            "id": "443",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WIUM-FM",
+                "id": "444",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WIUW-FM",
+                    "id": "445",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVKC-FM",
+                    "id": "1034",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "443",
+          "recency": 360
+        },
+        "guid": "4fcf701101ba473d808d236bae8f2140",
+        "brand": {
+          "band": "FM",
+          "call": "WIUM",
+          "frequency": "91.3",
+          "marketCity": "Macomb",
+          "marketState": "IL",
+          "name": "Tri States Public Radio",
+          "tagline": "Serving west central Illinois, southeast Iowa and northeast Missouri with NPR news and diverse music."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3ef6c09f39da4e02b1df11439eb9fe7e",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIUMHD2.mp3"
+              }
+            ],
+            "guid": "f5720b72a5864515adc60901a72e1db5",
+            "title": "Tri States Public Radio 2 - Undercurrents",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ac1e1cbdaa8d46589b750b3fd5f65e3c",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIUMFM.mp3"
+              }
+            ],
+            "guid": "4fcf7165035f483abfbed7b36da28ec7",
+            "title": "WIUM-FM Tri States Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://tspr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/tspr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/tspr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/443_3fe682b8217e280015ad7de78d52ecd1.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/tristatespublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3ef6c09f39da4e02b1df11439eb9fe7e",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIUMHD2.mp3",
+            "isPrimaryStream": false,
+            "title": "Tri States Public Radio 2 - Undercurrents",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ac1e1cbdaa8d46589b750b3fd5f65e3c",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIUMFM.mp3",
+            "isPrimaryStream": true,
+            "title": "WIUM-FM Tri States Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d33e38ae479847be99018a5b7f4badab",
+            "href": "https://donate.nprstations.org/tspr/",
+            "title": "Support TSPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "5659284d8a1346929c7bd710d41ce32d",
+            "href": "https://donate.nprstations.org/tspr/",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "c8f8a34d231747d78ddf5314cc81d2d9",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/443_3654f18d8379357d4ca1f35d8a7099c7.mp4",
+            "title": "drive 4",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "591f82d3ea114b459b97ac3b441da727",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/443_07fef68004b9a59a4bcdf68b2b4b4c12.mp4",
+            "title": "drive 3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "63ed3c2320e747528a900ac926dde4e8",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/443_0710424d49d62332e723e36b48667feb.mp4",
+            "title": "drive 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "d4f8a8fe2d36458c87998ead10ab6a7d",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/443_e79006e6d9da90574cb858dd92340618.mp4",
+            "title": "drive 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/593",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "593",
+        "network": {
+          "name": "St. Louis Public Radio",
+          "inheritingFrom": "278",
+          "usesInheritance": true,
+          "currentOrgId": "593",
+          "tier1": {
+            "name": "KWMU-FM",
+            "id": "278",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KMST-FM",
+                "id": "222",
+                "usesInheritance": true
+              },
+              {
+                "name": "WQUB-FM",
+                "id": "593",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "278",
+          "recency": 360
+        },
+        "guid": "4fcf7011250647d98e047275062a4fec",
+        "brand": {
+          "band": "FM",
+          "call": "WQUB",
+          "frequency": "90.3",
+          "marketCity": "Quincy",
+          "marketState": "IL",
+          "name": "St. Louis Public Radio",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "654baf7d6b2448bf9c8b0e0d1ee8fd6d",
+                "typeId": "10",
+                "href": "https://kwmu2-ice.streamguys1.com/jazz-128"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "84af6a14e4044873816814728071eeda",
+                "typeId": "13",
+                "href": "https://kwmu2-ice.streamguys1.com/jazz-aac"
+              }
+            ],
+            "guid": "c8a3e2a309cc424eabef7bd052fbd8e6",
+            "title": "Jazz KWMU-2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f98f2c8c09434a6a8049ce833d732bf6",
+                "typeId": "10",
+                "href": "https://kwmu3-ice.streamguys1.com/kwmu3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "4ac8d6b63a7f4c35abd5d2967bb9f0aa",
+                "typeId": "13",
+                "href": "https://kwmu3-ice.streamguys1.com/kwmu3-aac"
+              }
+            ],
+            "guid": "4fcf713f1f9440159e62c0d89db3f285",
+            "title": "Classical KWMU-3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0f2ad2da9b87496fb6482a1307d56ee8",
+                "typeId": "10",
+                "href": "https://kwmu1-ice.streamguys1.com/kwmu1"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "01eb34c6cd60434d91afb532e1bcaf9a",
+                "typeId": "13",
+                "href": "https://kwmu1-ice.streamguys1.com/kwmu-itunes.aac"
+              }
+            ],
+            "guid": "4fcf713f1a164729b01822ebf6cfa35d",
+            "title": "St. Louis Public Radio KWMU-1",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.stlpublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kwmu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kwmu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/278_d2ec4a4558cb5bb6b0f0160e246ebc67.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/278_c364d7385b4de7f0054a0015952a8b16.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/278_3d2786cc4ce624dc6adf819db70c15de.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/278_411aefb793c5a5819f99e6471faf5882.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/stlpublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/stlpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "654baf7d6b2448bf9c8b0e0d1ee8fd6d",
+            "href": "https://kwmu2-ice.streamguys1.com/jazz-128",
+            "isPrimaryStream": false,
+            "title": "Jazz KWMU-2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f98f2c8c09434a6a8049ce833d732bf6",
+            "href": "https://kwmu3-ice.streamguys1.com/kwmu3",
+            "isPrimaryStream": false,
+            "title": "Classical KWMU-3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "0f2ad2da9b87496fb6482a1307d56ee8",
+            "href": "https://kwmu1-ice.streamguys1.com/kwmu1",
+            "isPrimaryStream": true,
+            "title": "St. Louis Public Radio KWMU-1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "84af6a14e4044873816814728071eeda",
+            "href": "https://kwmu2-ice.streamguys1.com/jazz-aac",
+            "isPrimaryStream": false,
+            "title": "Jazz KWMU-2",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "01eb34c6cd60434d91afb532e1bcaf9a",
+            "href": "https://kwmu1-ice.streamguys1.com/kwmu-itunes.aac",
+            "isPrimaryStream": true,
+            "title": "St. Louis Public Radio KWMU-1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "4ac8d6b63a7f4c35abd5d2967bb9f0aa",
+            "href": "https://kwmu3-ice.streamguys1.com/kwmu3-aac",
+            "isPrimaryStream": false,
+            "title": "Classical KWMU-3",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "405ffd96eab64de686b514a5f011fe84",
+            "href": "https://kwmu-rss.streamguys1.com/cut_and_paste/cut-and-paste-npr.xml",
+            "title": "Cut & Paste",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a324892da923488ca6ea245cac59ef0b",
+            "href": "https://feeds.feedburner.com/weliveherestl",
+            "title": "We Live Here",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5da38211a379451a8e03e0f8937ceb61",
+            "href": "https://kwmu-rss.streamguys1.com/gateway/gateway-npr.xml",
+            "title": "The Gateway",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "17b100a9d26a4ab09313759427d890f6",
+            "href": "https://kwmu-rss.streamguys1.com/stl_on_the_air/st-louis-on-the-air-npr.xml",
+            "title": "St. Louis on the Air",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d2f97120b63342dd84b640d2cc4a4b60",
+            "href": "https://kwmu-rss.streamguys1.com/politically_speaking/politically-speaking-npr.xml",
+            "title": "Politically Speaking",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a091af32a4de496481f3eecca731de48",
+            "href": "https://kwmu-rss.streamguys1.com/wake_up_to_politics/wake-up-to-politics-npr.xml",
+            "title": "Wake Up To Politics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "97e10fe256e04dfcbc5fe306618deda7",
+            "href": "https://stlpublicradio.org/npr-donate",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "199684b27d4644089f2dec183c90f44b",
+            "href": "https://stlpublicradio.org/npr-one-donate",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "2def91d5d72e4863b91fa39718108fa3",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/278_9fec98c8180dbdc44e0918324adc5f71.mp4",
+            "title": "Rachel PS20 Digital",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "98ef94d04f274e2a8264d162fdd008f6",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/278_4a63e826cfd0ecf219bcbfd0fce965d7.mp4",
+            "title": "MLT PS20 Digital",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/278.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1559",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "e44dfc27fb92419c938ab291cad72c51",
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wbez-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "brand": {
+          "band": "FM",
+          "call": "WBEK",
+          "frequency": "91.1",
+          "marketCity": "Kankakee",
+          "marketState": "IL",
+          "name": "WBEK-FM",
+          "tagline": null
+        },
+        "orgId": "1559",
+        "network": {
+          "inheritingFrom": "1559",
+          "usesInheritance": false,
+          "currentOrgId": "1559"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [],
+        "podcasts": [
+          {
+            "guid": "510c0491d4d941249567a904b3714b31",
+            "href": "https://cms.wbez.org/v2/shows/09be1fbf-e991-4627-88ed-0004c94b48f6.rss",
+            "title": "Public Official A",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "68be3ffdd9a7489390c943ef1db085dc",
+            "href": "https://cms.wbez.org/v2/shows/8c9f445c-4f62-46d6-a7f6-dc70a835e99b.rss",
+            "title": "Motive",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d687e5433ae640e3b0ab14001dd0165b",
+            "href": "https://cms.wbez.org/v2/shows/3da61007-ae20-44e7-9860-2e0b02014526.rss",
+            "title": "The Trouble",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/534",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wnij-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "534",
+        "network": {
+          "inheritingFrom": "534",
+          "usesInheritance": false,
+          "currentOrgId": "534"
+        },
+        "guid": "542318f51c77443192ce6c3763c37694",
+        "brand": {
+          "band": "FM",
+          "call": "WNIU",
+          "frequency": "90.5",
+          "marketCity": "Rockford",
+          "marketState": "IL",
+          "name": "Northern Public Radio",
+          "tagline": "Northern Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4a5984bad7e04566b25f835c1d56e62b",
+                "typeId": "10",
+                "href": "https://peace.streamguys1.com:6845/live-128k.mp3"
+              }
+            ],
+            "guid": "13f0f997ac6006643d7900d240f4dccd",
+            "title": "WNIU 90.5 Classical Music",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f8ae48650b294b429044827baf10af4c",
+                "typeId": "10",
+                "href": "https://peace.streamguys1.com:6845/niris_live_96k"
+              }
+            ],
+            "guid": "248c3f87070e4fc3a026586db60e483e",
+            "title": "NIRIS (Northern Illinois Radio Information Service)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "33429f613bcf4049b96b21b2df253d73",
+                "typeId": "10",
+                "href": "https://peace.streamguys1.com:6815/live-96k-nopreroll"
+              }
+            ],
+            "guid": "13f0f97cd6700b74b9ea02f16b004165",
+            "title": "WNIJ 89.5 News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.northernpublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nopr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nopr.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "4a5984bad7e04566b25f835c1d56e62b",
+            "href": "https://peace.streamguys1.com:6845/live-128k.mp3",
+            "isPrimaryStream": false,
+            "title": "WNIU 90.5 Classical Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f8ae48650b294b429044827baf10af4c",
+            "href": "https://peace.streamguys1.com:6845/niris_live_96k",
+            "isPrimaryStream": false,
+            "title": "NIRIS (Northern Illinois Radio Information Service)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "33429f613bcf4049b96b21b2df253d73",
+            "href": "https://peace.streamguys1.com:6815/live-96k-nopreroll",
+            "isPrimaryStream": true,
+            "title": "WNIJ 89.5 News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "14fbb0ead8724201bddf4f2124bb765f",
+            "href": "https://wnij.drupal.publicbroadcasting.net/podcasts/86080/rss.xml",
+            "title": "Sessions From Studio A",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d0f7663e7bdf4d37880d560c1c2fca5d",
+            "href": "https://npr.niu.edu/alleg/WebModule/Donate.aspx?P=NPRDEFAULT&PAGETYPE=PLG&CHECK=7qtgli2MgOaMU3qkouquZ71YhDw50SikSh2nq0qouhg%3d",
+            "title": "Pledge Now",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/614",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf7012035e4683a5f7ad0b19f63e2b",
+        "brand": {
+          "band": "FM",
+          "call": "WSIE",
+          "frequency": "88.7",
+          "marketCity": "Edwardsville",
+          "marketState": "IL",
+          "name": "WSIE",
+          "tagline": "WSIE, 88.7 The Sound"
+        },
+        "orgId": "614",
+        "network": {
+          "inheritingFrom": "614",
+          "usesInheritance": false,
+          "currentOrgId": "614",
+          "tier1": {
+            "name": "WSIE-FM",
+            "id": "614",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.siue.edu/wsie/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wsie_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wsie_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/614.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WSIETheJazzStation",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "ce87cf1d119b4e3d9b7bdcbe82bb6f19",
+            "href": "http://www.siue.edu/wsie/donations.shtml",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "616d98a7d8cc4733bc88a939b58bfffc",
+            "href": "https://relay-ccon.foundation.siue.edu/ccon/new_gift.do?action=newGift&giving_page_id=22",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/614.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/967",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "",
+          "status": "15",
+          "musicOnly": false
+        },
+        "orgId": "967",
+        "network": {
+          "name": "Wisconsin Public Radio",
+          "inheritingFrom": "365",
+          "usesInheritance": true,
+          "currentOrgId": "967",
+          "tier1": {
+            "name": "Wisconsin Public Radio",
+            "id": "365",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WERN-FM",
+                "id": "366",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WHND-FM",
+                    "id": "367",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHRM-FM",
+                    "id": "368",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHSA-FM",
+                    "id": "369",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WPNE-FM",
+                    "id": "370",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WGTD-FM",
+                    "id": "804",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSSW-FM",
+                    "id": "1054",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSSU-FM",
+                    "id": "1362",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHWA-FM",
+                    "id": "1508",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "WHA-AM",
+                "id": "414",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KUWS-FM",
+                    "id": "415",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHID-FM",
+                    "id": "416",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRFW-FM",
+                    "id": "417",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRST-FM",
+                    "id": "418",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSHS-FM",
+                    "id": "419",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WUWS-FM",
+                    "id": "1363",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "WHAD-FM",
+                "id": "420",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WHBM-FM",
+                    "id": "421",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHDI-FM",
+                    "id": "422",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHHI-FM",
+                    "id": "423",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHLA-FM",
+                    "id": "424",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHWC-FM",
+                    "id": "425",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WLBL-AM",
+                    "id": "426",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WLBL-FM",
+                    "id": "427",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHAA-FM",
+                    "id": "1192",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHSF-FM",
+                    "id": "1415",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "WLSU-FM",
+                "id": "483",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WUEC-FM",
+                    "id": "484",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVSS-FM",
+                    "id": "485",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "WEPS-FM",
+                "id": "967",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "365",
+          "recency": 360
+        },
+        "guid": "e69c35100bfb4a76a6e02268fa95cbf0",
+        "brand": {
+          "band": "FM",
+          "call": "WEPS",
+          "frequency": "88.9",
+          "marketCity": "Elgin",
+          "marketState": "IL",
+          "name": "Wisconsin Public Radio",
+          "tagline": "Wisconsin Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3b8b18402f8e4c88bddb5b8bb6fc0a20",
+                "typeId": "10",
+                "href": "https://wpr-ice.streamguys1.com/wpr-music-mp3-96"
+              }
+            ],
+            "guid": "4fcf71322056413bb9b9bd1cccc7d737",
+            "title": "WPR's NPR News & Classical Network",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9b1ec489ee08400f9b4626b7d0be8ed1",
+                "typeId": "10",
+                "href": "https://wpr-ice.streamguys1.com/wpr-ideas-mp3-64"
+              }
+            ],
+            "guid": "4fcf71320cd2401eb6d6f1d7aef16a0e",
+            "title": "WPR's Ideas Network",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f6c78a5092a34d53aed77345df52d1eb",
+                "typeId": "10",
+                "href": "https://wpr-ice.streamguys1.com/wpr-hd2-mp3-96"
+              }
+            ],
+            "guid": "4fcf71510fb148369f88ab7dab4d2580",
+            "title": "WPR's All Classical Music Network",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wpr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/365_e20392f34654048b153d3289d723cefb.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/365_7311d721536ae0ee65a0a94395094eff.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/365_591716e56e12a8cf696e7f13fc99905f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wisconsinpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3b8b18402f8e4c88bddb5b8bb6fc0a20",
+            "href": "https://wpr-ice.streamguys1.com/wpr-music-mp3-96",
+            "isPrimaryStream": true,
+            "title": "WPR's NPR News & Classical Network",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "9b1ec489ee08400f9b4626b7d0be8ed1",
+            "href": "https://wpr-ice.streamguys1.com/wpr-ideas-mp3-64",
+            "isPrimaryStream": false,
+            "title": "WPR's Ideas Network",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f6c78a5092a34d53aed77345df52d1eb",
+            "href": "https://wpr-ice.streamguys1.com/wpr-hd2-mp3-96",
+            "isPrimaryStream": false,
+            "title": "WPR's All Classical Music Network",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "0dee4a00d9b5475f96070dbf167d327c",
+            "href": "https://www.wpr.org/feeds/garden-talk/rss.xml",
+            "title": "Garden Talk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b27ba0f31bb448908dba4bfc663002e8",
+            "href": "https://www.wpr.org/feeds/beta/rss.xml",
+            "title": "BETA",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3ed9917dad9d4f6a8722a255b4d56326",
+            "href": "https://feeds.podcastmirror.com/derailed",
+            "title": "Derailed",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "eb32b29bc2e8433d80f8b222f359a093",
+            "href": "https://www.wpr.org/feeds/wpr-politics/rss.xml",
+            "title": "WPR Politics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9d4f11bc9db743d5a750cf68c4cd123f",
+            "href": "https://www.wisconsinlife.org/feed/?post_type=story&story_type=audio",
+            "title": "Wisconsin Life",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c6b8e614a06a4d69bae82ed0cd62fbad",
+            "href": "https://www.wpr.org/feeds/university-of-the-air/rss.xml",
+            "title": "University Of The Air",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7d126ff2409643abb3550c8a1d865f5e",
+            "href": "https://www.wpr.org/feeds/the-midday/rss.xml",
+            "title": "The Midday",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4188749b512c4769bcfa593ccbfe61c6",
+            "href": "https://www.wpr.org/feeds/spectrum-west-with-al-ross/rss.xml",
+            "title": "Spectrum West With Al Ross",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ec86011297b343d5817f060c0dec16c2",
+            "href": "https://f.prxu.org/120/feed-rss.xml",
+            "title": "To The Best Of Our Knowledge",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a2f27e9680b444b1bfb1e83289e6a687",
+            "href": "https://www.wpr.org/feeds/the-west-side-with-rich-kremer/rss.xml",
+            "title": "The West Side",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4d167eacbed0435cacd3757fcb53c243",
+            "href": "https://feeds.feedburner.com/bookmarkspodcast",
+            "title": "Bookmarks",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2f2d380228d743189f3d8e3b4c3bd534",
+            "href": "https://www.wpr.org/feeds/the-larry-meiller-show/rss.xml",
+            "title": "The Larry Meiller Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4375a3ee545047a2b87d04f55cd17538",
+            "href": "https://www.wpr.org/feeds/route-51/rss.xml",
+            "title": "Route 51",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "acbb9e47989447c1a45ce4dfa5d4aad7",
+            "href": "https://www.wpr.org/feeds/zorba-paster-on-your-health/rss.xml",
+            "title": "Zorba Paster On Your Health",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4fa13d00fac64dfaa4907d0d65c4deaf",
+            "href": "https://www.wpr.org/feeds/central-time/rss.xml",
+            "title": "Central Time",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "376dd0701a354fa9bbebb34ac4031101",
+            "href": "https://www.wpr.org/feeds/newsmakers/rss.xml",
+            "title": "Newsmakers",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8fb25aa88b1643d59249cb86c9952ca1",
+            "href": "https://www.wpr.org/podcasts/series/simply-folk-interviews/rss.xml",
+            "title": "Simply Folk Interviews",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5e1a9b553ef2466f938ba1f5b5fc9ca7",
+            "href": "https://www.wpr.org/feeds/the-morning-show/rss.xml",
+            "title": "The Morning Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "e118b4019d6d4e8b91c7c125706a15a9",
+            "href": "https://www.wpr.org/donatenpr",
+            "title": "Support WPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "f4b647d07af4432391b6c715e927c03c",
+            "href": "https://www.wpr.org/donatenpr",
+            "title": "NPR One Mobile",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "4ab083faabcb4735a1e57659ed18db8f",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/365_04c512a2041e301f189d815b94803841.mp4",
+            "title": "Donation Audio (MG)",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

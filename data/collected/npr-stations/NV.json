@@ -1,0 +1,991 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "NV"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/128",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/knpr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "128",
+        "network": {
+          "name": "Nevada Public Radio",
+          "inheritingFrom": "127",
+          "usesInheritance": true,
+          "currentOrgId": "128",
+          "tier1": {
+            "name": "Nevada Public Radio",
+            "id": "127",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KNPR-FM",
+                "id": "128",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KLNR-FM",
+                    "id": "129",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTPH-FM",
+                    "id": "130",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KWPR-FM",
+                    "id": "131",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSGU-FM",
+                    "id": "974",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLKR-FM",
+                    "id": "1414",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KVNV-FM",
+                    "id": "1561",
+                    "usesInheritance": false
+                  }
+                ]
+              },
+              {
+                "name": "KCNV-FM",
+                "id": "887",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "127",
+          "recency": 360
+        },
+        "guid": "4fcf700e23584043b9de34325ca90176",
+        "brand": {
+          "band": "FM",
+          "call": "KNPR",
+          "frequency": "88.9",
+          "marketCity": "Las Vegas",
+          "marketState": "NV",
+          "name": "Nevada Public Radio",
+          "tagline": "Nevada Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "332e51fc24ca45049f6afbcd6707fc83",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KNPRFM.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "ae08bde700d04748b90f90bbdd6ff47d",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNPRFMAAC.aac"
+              }
+            ],
+            "guid": "4fcf713624ea4549806a9080f9252f7e",
+            "title": "KNPR-FM News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.knpr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/knpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/knpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/127_e8213d2396b116c46250de9df50707e3.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Nevada-Public-Radio/14503967975",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "332e51fc24ca45049f6afbcd6707fc83",
+            "href": "https://playerservices.streamtheworld.com/pls/KNPRFM.pls",
+            "isPrimaryStream": true,
+            "title": "KNPR-FM News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ae08bde700d04748b90f90bbdd6ff47d",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNPRFMAAC.aac",
+            "isPrimaryStream": true,
+            "title": "KNPR-FM News",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e04a0b4c223e4166ad874018148e7586",
+            "href": "https://www.knpr.org/discussions.xml",
+            "title": "KNPR's State of Nevada",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "db40aee65f514400b0313068e7832457",
+            "href": "https://www.knpr.org/features.xml",
+            "title": "KNPR Features",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1e804e0f6e124b68801d679ec8b55e0c",
+            "href": "https://knpr.org/support",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "955a0971d39e4a0eb5365c67f0ec56ea",
+            "href": "https://knpr.org/support",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "6aed3d015ea3485d8e1876a10b4ae58a",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/127_621ddfcdce24c0b353a5f3c327fea5e6.mp4",
+            "title": "Generic donation 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "714394075c61488a89c440ea1e2830f0",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/127_72c769184dc1f1d90ed9aa100efe0efd.mp4",
+            "title": "Generic donation 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/228",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kunr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "228",
+        "network": {
+          "inheritingFrom": "228",
+          "usesInheritance": false,
+          "currentOrgId": "228",
+          "tier1": {
+            "name": "KUNR-FM",
+            "id": "228",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KNCC-FM",
+                "id": "229",
+                "usesInheritance": true
+              },
+              {
+                "name": "KNCJ-FM",
+                "id": "1560",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "228",
+          "recency": 240
+        },
+        "guid": "4fcf700f1872493585cf1d76bbd0358b",
+        "brand": {
+          "band": "FM",
+          "call": "KUNR",
+          "frequency": "88.7",
+          "marketCity": "Reno",
+          "marketState": "NV",
+          "name": "KUNR Public Radio",
+          "tagline": "News and Information from Northern Nevada and the Eastern Sierra"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b1775d18ae59439883486152e23d721a",
+                "typeId": "10",
+                "href": "https://kunrstream.com:8443/live"
+              }
+            ],
+            "guid": "4fcf713c24804135a15728f31849fe7b",
+            "title": "88.7 KUNR Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kunr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kunr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kunr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/228_cf25de3345ce827390c7290468ce9892.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/228_643b95b7197fd8d2b56383156ac71866.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/228_e310853196656a24ce970f1deb37869b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/228_ca2023892e52116d6f87624a2c268707.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/228_fdf35714347c9aa2b59931969aca9134.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/228_7d719365e6b407bd86ba174f2117a26e.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/228_8942d56bc9df800b745cd05abf7720c3.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/228_0ec191de2b595a63e07b0fb01d6ed735.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/228_9c27af6878eba6f5f5dfc4817167473b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/228_67b41649ecc71a2d93194f635724f1fb.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/228_e74a0b67f4c8898c685966058d9a3d5c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/228_232d6df795cf1027920749d7af6ca3ca.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/228_db2bce56a90335e48f36c7cbde2ca8bb.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/228_85561b60c713949a6185651b4b9ba31c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/228_650ab7efcd2c1aa6afcf84f4cc8f0007.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/RenoPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/RenoPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "b1775d18ae59439883486152e23d721a",
+            "href": "https://kunrstream.com:8443/live",
+            "isPrimaryStream": true,
+            "title": "88.7 KUNR Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "12d752b1141e42a0a52d40cff764bcaf",
+            "href": "https://kunr.drupal.publicbroadcasting.net/podcasts/3572/rss.xml",
+            "title": "Parenting with Cheryl Erwin",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "03205f2c1532431095cc9a2ae9f58a29",
+            "href": "https://kunr.drupal.publicbroadcasting.net/podcasts/3582/rss.xml",
+            "title": "Movie Minutes with Robin Holabird",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2e951381d1864df6896079925e85eced",
+            "href": "https://kunr.drupal.publicbroadcasting.net/podcasts/59669/rss.xml",
+            "title": "Time & Place with Alicia Barber",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fff7a8a0a9b341009d2fa2628423019e",
+            "href": "https://kunr.drupal.publicbroadcasting.net/podcasts/92027/rss.xml",
+            "title": "Science Distilled",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8154aa053ec642a5acb29392cb760a61",
+            "href": "https://kunr.drupal.publicbroadcasting.net/podcasts/77081/rss.xml",
+            "title": "Priced Out",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "52b6aff6786c4f94af306cbd266ccab5",
+            "href": "https://kunr.drupal.publicbroadcasting.net/podcasts/63087/rss.xml",
+            "title": "KUNR Public Radio: Local News Feed",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1277c3a972c34dc092d4944e22322635",
+            "href": "https://kunr.drupal.publicbroadcasting.net/podcasts/3573/rss.xml",
+            "title": "Relationships with Dr. Rebecca Jankovich",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "16af8db2e893481386979f5ec206012f",
+            "href": "https://secure.touchnet.com/C22384_ustores/web/store_cat.jsp?STOREID=5&CATID=46&SINGLESTORE=true",
+            "title": "Support Reno Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "28de7b5c4a0e4762a43dc71dff298d27",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/228_76a2ff9d30329b40fa61af7f18d44a58.mp4",
+            "title": "3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "83d28d16667e40f5b2f06ace5c823a36",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/228_12774ec14d05f9e29dba3e2cd1ebaa69.mp4",
+            "title": "2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "5361f1a8502d4df2b36efef5ab09e8c5",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/228_cf0e29d9b0ebe98b27f8f69baf41d6c8.mp4",
+            "title": "1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/228.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/887",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701316994dfd99649707dda50d03",
+        "brand": {
+          "band": "FM",
+          "call": "KCNV",
+          "frequency": "89.7",
+          "marketCity": "Las Vegas",
+          "marketState": "NV",
+          "name": "Classical Vegas",
+          "tagline": "Classical 89.7 KCNV Nevada Public Radio"
+        },
+        "orgId": "887",
+        "network": {
+          "inheritingFrom": "887",
+          "usesInheritance": false,
+          "currentOrgId": "887"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "64a571cba3e14586a14e6deca4d4964e",
+                "typeId": "10",
+                "href": "https://18703.live.streamtheworld.com:443/KCNVFM_SC"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ed97a7100a6c4e418ab54467896aa9fc",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KCNVFM.pls"
+              }
+            ],
+            "guid": "31993d7a786b4e7b9a884c927fa48bca",
+            "title": "Classical 89.7 KCNV",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.classical.vegas",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kcnv_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kcnv_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/887.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "64a571cba3e14586a14e6deca4d4964e",
+            "href": "https://18703.live.streamtheworld.com:443/KCNVFM_SC",
+            "isPrimaryStream": true,
+            "title": "Classical 89.7 KCNV",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ed97a7100a6c4e418ab54467896aa9fc",
+            "href": "https://playerservices.streamtheworld.com/pls/KCNVFM.pls",
+            "isPrimaryStream": true,
+            "title": "Classical 89.7 KCNV",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1aeaa418c3b94a85b47cebf2d2f310a3",
+            "href": "https://www.knpr.org/support",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b13f5cb0b38546aa999273fce296f97e",
+            "href": "https://www.knpr.org/support",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/887.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/812",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kbsw-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "812",
+        "network": {
+          "name": "Boise State Public Radio News",
+          "inheritingFrom": "20",
+          "usesInheritance": true,
+          "currentOrgId": "812",
+          "tier1": {
+            "name": "Boise State Public Radio",
+            "id": "20",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KBSU-FM",
+                "id": "21",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KBSM-FM",
+                    "id": "22",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "KBSW-FM",
+                "id": "25",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KBSX-FM",
+                    "id": "26",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KBSJ-FM",
+                    "id": "812",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KBSQ-FM",
+                    "id": "813",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KBSY-FM",
+                    "id": "814",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KBSK-FM",
+                    "id": "837",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KBSS-FM",
+                    "id": "1049",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "20",
+          "recency": 240
+        },
+        "guid": "4fcf701307e04f7cadc43800747ed68e",
+        "brand": {
+          "band": "FM",
+          "call": "KBSJ",
+          "frequency": "91.3",
+          "marketCity": "Jackpot",
+          "marketState": "NV",
+          "name": "Boise State Public Radio News",
+          "tagline": "Enriching Your Life"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7b054e1663d94fab9aac4dcdf99fe8b9",
+                "typeId": "10",
+                "href": "https://icy1.boisestatepublicradio.org:444/KBSU-mp3"
+              }
+            ],
+            "guid": "13efbfa4a8101a148f7a75cef72df682",
+            "title": "Boise State Public Radio Music",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bd72f5cc3d7848d18214a7e83527b69f",
+                "typeId": "10",
+                "href": "https://icy1.boisestatepublicradio.org:443/KBSX-mp3"
+              }
+            ],
+            "guid": "4fcf713611314542b4280007519615d3",
+            "title": "Boise State Public Radio News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.boisestatepublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/bspr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/bspr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/20_5550f6e9100989d7f8b5531c340cdfc2.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/boisestatepublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/kbsx915",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "7b054e1663d94fab9aac4dcdf99fe8b9",
+            "href": "https://icy1.boisestatepublicradio.org:444/KBSU-mp3",
+            "isPrimaryStream": false,
+            "title": "Boise State Public Radio Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bd72f5cc3d7848d18214a7e83527b69f",
+            "href": "https://icy1.boisestatepublicradio.org:443/KBSX-mp3",
+            "isPrimaryStream": true,
+            "title": "Boise State Public Radio News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "49da77064f1a4bc6b7cec8bae2b48874",
+            "href": "https://idaho.drupal.publicbroadcasting.net/podcasts/98165/rss.xml",
+            "title": "Wanna Know Idaho",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cc789302693f4397b063457f62bbbf2c",
+            "href": "https://idaho.drupal.publicbroadcasting.net/podcasts/113706/rss.xml",
+            "title": "You Know The Place",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "000cef51692645eea270068393d15f62",
+            "href": "https://idaho.drupal.publicbroadcasting.net/podcasts/110001/rss.xml",
+            "title": "Legislative Breakdown",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6b945440f4cf4929882ebe554abf116f",
+            "href": "https://idaho.drupal.publicbroadcasting.net/podcasts/115/rss.xml",
+            "title": "Reader's Corner",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8d84a5cdd41c485bb292d89fb0059c76",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:86575649/sounds.rss",
+            "title": "Speaking of Serial",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0dcf5778162b47adb122ad1b7167c4f1",
+            "href": "https://idaho.drupal.publicbroadcasting.net/podcasts/115909/rss.xml",
+            "title": "Idaho Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "73861574e3634c28a883ab16ae3174f0",
+            "href": "https://idaho.drupal.publicbroadcasting.net/podcasts/96880/rss.xml",
+            "title": "Some of the Parts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e6fd12b68ba54f988ff56cea2874687f",
+            "href": "https://idaho.drupal.publicbroadcasting.net/podcasts/133874/rss.xml",
+            "title": "LOCKED",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9aa0b423f2514568b4fdaa7b37416d3f",
+            "href": "https://idaho.drupal.publicbroadcasting.net/podcasts/138561/rss.xml",
+            "title": "The Nebulous",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c0680c2b358d444280c8cabd92796d0f",
+            "href": "http://feeds.feedburner.com/StoryStoryNightBoiseStatePublicRadioPodcast",
+            "title": "Story Story Night",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d80f13ef5f5949c9852be20fd1cbd560",
+            "href": "https://www.callswithoutwalls.com/pledgeCart3/?campaign=4354612D-281E-425C-B4D1-2A24B82A11C6&source=",
+            "title": "Donate to BSPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "e2fa5269bcd54a6db8a8a31d84e93b7e",
+            "href": "https://www.callswithoutwalls.com/pledgeCart3/?campaign=4354612D-281E-425C-B4D1-2A24B82A11C6&source=",
+            "title": "Donate to BSPR",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "76f805c358d641968482a2b7a398c8a6",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/20_830a1931b8d084b9f3df53944ae8f504.mp4",
+            "title": "Fancy Meeting You Here - LD",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1561",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "a24b23de7e304da9a0c43aad764e2ff2",
+        "brand": {
+          "band": "FM",
+          "call": "KVNV",
+          "frequency": "89.1",
+          "marketCity": "Reno",
+          "marketState": "NV",
+          "name": "Nevada Public Radio",
+          "tagline": "Nevada Public Radio"
+        },
+        "orgId": "1561",
+        "network": {
+          "inheritingFrom": "1561",
+          "usesInheritance": false,
+          "currentOrgId": "1561"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.knpr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kvnv_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kvnv_fm.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "893a5d3dcaf74462be63ded1a1527565",
+            "href": "https://knpr.org/support",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "e96a894d2f3a463bad6108c9eebd4fae",
+            "href": "https://knpr.org/support",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1560",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4c24029f3aae43fab858d81208698e58",
+        "brand": {
+          "band": "FM",
+          "call": "KNCJ",
+          "frequency": "89.5",
+          "marketCity": "Reno",
+          "marketState": "NV",
+          "name": "KNCJ",
+          "tagline": "Nevada's Classical & Jazz"
+        },
+        "orgId": "1560",
+        "network": {
+          "inheritingFrom": "1560",
+          "usesInheritance": false,
+          "currentOrgId": "1560"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kncj_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kncj_fm.gif",
+            "content-type": "image/gif"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

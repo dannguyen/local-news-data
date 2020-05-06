@@ -1,0 +1,1835 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "VA"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/698",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvtf-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "698",
+        "network": {
+          "name": "RADIO IQ ",
+          "inheritingFrom": "697",
+          "usesInheritance": true,
+          "currentOrgId": "698",
+          "tier1": {
+            "name": "WVTF Public Radio",
+            "id": "697",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WVTF-FM",
+                "id": "698",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WVTR-FM",
+                    "id": "699",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVTU-FM",
+                    "id": "700",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVTW-FM",
+                    "id": "701",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WWVT-AM",
+                    "id": "702",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WWVT-FM",
+                    "id": "870",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WISE-FM",
+                    "id": "938",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WLUR-FM",
+                    "id": "1001",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WEHC-FM",
+                    "id": "1156",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRIQ-FM",
+                    "id": "1275",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WQIQ-FM",
+                    "id": "1357",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "697",
+          "recency": 120
+        },
+        "guid": "4fcf7012176b4f5095e4cfaec0a3686b",
+        "brand": {
+          "band": "FM",
+          "call": "WVTF",
+          "frequency": "89.1",
+          "marketCity": "Roanoke",
+          "marketState": "VA",
+          "name": "RADIO IQ ",
+          "tagline": "Virginia's NPR News Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "09e6f68a46804f32aafeef7dd2723578",
+                "typeId": "10",
+                "href": "https://wvtf-ice2.streamguys1.com/radioiq-mp3-64"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "b7c2011d919d4b2aba75ea68fa543ff1",
+                "typeId": "13",
+                "href": "https://wvtf-ice2.streamguys1.com/radioiq-aac-64"
+              }
+            ],
+            "guid": "4fcf715d00f540b287f70ddad0a4ee3c",
+            "title": "RADIO IQ",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5f8aef44308844b99542eac737881f52",
+                "typeId": "10",
+                "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5344bb1ba6194c06950e80daa8e0b255",
+                "typeId": "10",
+                "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-128"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "7f8dacf0c87a447d871e6e7a8731ad7d",
+                "typeId": "13",
+                "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-aac-64"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "59f1cf4fb6ec4b41bdf4adcb6fe8304e",
+                "typeId": "13",
+                "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-aac-128"
+              }
+            ],
+            "guid": "4fcf715325bb4f5d9994db06baee16ad",
+            "title": "WVTF",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.radioiq.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wvtf.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wvtf.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/697_f6bbf672933ce16e3047bfeb2f4bc8b2.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WVTF.RADIOIQ",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "09e6f68a46804f32aafeef7dd2723578",
+            "href": "https://wvtf-ice2.streamguys1.com/radioiq-mp3-64",
+            "isPrimaryStream": true,
+            "title": "RADIO IQ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5f8aef44308844b99542eac737881f52",
+            "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64",
+            "isPrimaryStream": false,
+            "title": "WVTF",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5344bb1ba6194c06950e80daa8e0b255",
+            "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-128",
+            "isPrimaryStream": false,
+            "title": "WVTF",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7f8dacf0c87a447d871e6e7a8731ad7d",
+            "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-aac-64",
+            "isPrimaryStream": false,
+            "title": "WVTF",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "59f1cf4fb6ec4b41bdf4adcb6fe8304e",
+            "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-aac-128",
+            "isPrimaryStream": false,
+            "title": "WVTF",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "b7c2011d919d4b2aba75ea68fa543ff1",
+            "href": "https://wvtf-ice2.streamguys1.com/radioiq-aac-64",
+            "isPrimaryStream": true,
+            "title": "RADIO IQ",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2604a3bb85a64f1e80c5fcd244f1b240",
+            "href": "https://secure.virginiapublicmedia.org/index.php?formid=1&src=WE1612NB&res=WEB",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b7e3e938be324b848ef7c4940d902faf",
+            "href": "https://secure.virginiapublicmedia.org/index.php?formid=1&src=WE1612NB&res=WEB",
+            "title": "Support",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/430",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/whrv-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "430",
+        "network": {
+          "inheritingFrom": "430",
+          "usesInheritance": false,
+          "currentOrgId": "430",
+          "tier1": {
+            "name": "WHRV-FM",
+            "id": "430",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WHRO-FM",
+                "id": "431",
+                "usesInheritance": false
+              },
+              {
+                "name": "WHRG-FM",
+                "id": "1232",
+                "usesInheritance": true
+              },
+              {
+                "name": "WHRJ-FM",
+                "id": "1233",
+                "usesInheritance": false
+              },
+              {
+                "name": "WHRE-FM",
+                "id": "1241",
+                "usesInheritance": true
+              },
+              {
+                "name": "WHRL-FM",
+                "id": "1306",
+                "usesInheritance": true
+              },
+              {
+                "name": "WHRX-FM",
+                "id": "1307",
+                "usesInheritance": true
+              },
+              {
+                "name": "WHRF-FM",
+                "id": "1439",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "430",
+          "recency": 360
+        },
+        "guid": "4fcf701025004978bde4f43915aaf1d3",
+        "brand": {
+          "band": "FM",
+          "call": "WHRV",
+          "frequency": "89.5",
+          "marketCity": "Norfolk",
+          "marketState": "VA",
+          "name": "WHRV",
+          "tagline": "Public Radio for Eastern Virginia"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bbfe3e3e9d6349ae821b1de50f67e2a2",
+                "typeId": "10",
+                "href": "https://stationwhrv.whro.org/128"
+              }
+            ],
+            "guid": "4fcf714e22754c91a1441615606ceda0",
+            "title": "WHRV-FM NPR for Eastern Virginia",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f4799a53e94a4d31b15a66b7f23d22cd",
+                "typeId": "10",
+                "href": "https://stationaltradio.whro.org/128"
+              }
+            ],
+            "guid": "4fcf714f01814ee78fc17c5596caad37",
+            "title": "AltRadio",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.whrv.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/whrv_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/whrv_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/430.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/whropublicmedia",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WHRO",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "bbfe3e3e9d6349ae821b1de50f67e2a2",
+            "href": "https://stationwhrv.whro.org/128",
+            "isPrimaryStream": true,
+            "title": "WHRV-FM NPR for Eastern Virginia",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f4799a53e94a4d31b15a66b7f23d22cd",
+            "href": "https://stationaltradio.whro.org/128",
+            "isPrimaryStream": false,
+            "title": "AltRadio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "2c807ef8e925427b98de3d61120d9235",
+            "href": "https://podcasts.whro.org/gyroscope/podcast.xml",
+            "title": "Gyroscope",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "bcd6d54ccd344f208b78dc1115f29bc7",
+            "href": "https://podcasts.whro.org/watchingAmerica/podcast.xml",
+            "title": "Watching America",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "90621e8ad91e4d15a674990fbd97353d",
+            "href": "https://podcasts.whro.org/ootb/podcast.xml",
+            "title": "Out of the Box CD of the Week with Paul Shugrue",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0224774f4fb040ddae2a424d8f6c6231",
+            "href": "https://podcasts.whro.org/studentsInSession/podcast.xml",
+            "title": "Students in Session with Jae Sinnett",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fc42e44973644f1ca7033d06cd772455",
+            "href": "https://podcasts.whro.org/innovationnow/podcast.xml",
+            "title": "Innovation Now",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a6dd47c301054bf3bb50be7049a18075",
+            "href": "https://podcasts.whro.org/hearsay/podcast.xml",
+            "title": "HearSay with Cathy Lewis",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6e5838a3320b4858b0fc9f44d03ed497",
+            "href": "https://podcasts.whro.org/thisWeekInMalsWorld/podcast.xml",
+            "title": "This Week in Mal's World",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cb6330aea88c4371b605e5ca7ba833f5",
+            "href": "https://podcasts.whro.org/lyrical/podcast.xml",
+            "title": "Lyrical",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "90a451aa2aef48a9975b984781fe6093",
+            "href": "https://podcasts.whro.org/stromeBusinessMinute/podcast.xml",
+            "title": "Strome Business Minute with Dr. Jeff Tanner",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7ea38b3a816b41c0aeba74bfeb8996eb",
+            "href": "https://podcasts.whro.org/takeMyWordForIt/podcast.xml",
+            "title": "Take My Word For It",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "363b785568af441692f383bc4a5f80e0",
+            "href": "https://podcasts.whro.org/moonLandingMemories/podcast.xml",
+            "title": "Moon Landing Memories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "49db48b9e557407ba4f2d961012bcc9e",
+            "href": "https://podcasts.whro.org/openingNight/podcast.xml",
+            "title": "Opening Night with Rebecca Evans",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "21df98557852463eae80ef081c4e07e2",
+            "href": "https://podcasts.whro.org/vietnam/podcast.xml",
+            "title": "Vietnam: Stories From the Wall",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b3479df66efd4d3b867af800e87687cd",
+            "href": "https://podcasts.whro.org/mindOverManners/podcast.xml",
+            "title": "Mind Over Manners",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8b2cf6043a08461b820a908a65e5a9f7",
+            "href": "https://podcasts.whro.org/anotherviewradioshow/podcast.xml",
+            "title": "Another View Radio Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "39e520fd313d4156b4ce7156c99ae58d",
+            "href": "https://podcasts.whro.org/educationallySpeaking/podcast.xml",
+            "title": "Educationally Speaking",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d599a68c2b4a47158cead4adf3a0ef2f",
+            "href": "https://podcasts.whro.org/smartPill/podcast.xml",
+            "title": "Smart Pill",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a2b0a3335b864cf5be9435c3519f5975",
+            "href": "https://podcasts.whro.org/whroReports/podcast.xml",
+            "title": "WHRO Reports",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "600410656e2047c896b37caac55fb874",
+            "href": "https://podcasts.whro.org/whatWeDo/podcast.xml",
+            "title": "What We Do",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "a953ed5cfa62444fa14a35ca318a4049",
+            "href": "https://members.whro.org/pledge.php?technique=NPR.org%20Online%20Donation",
+            "title": "Support WHRV",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "a5e181b101474bc2b536f7c13678e3ae",
+            "href": "https://members.whro.org/pledge.php?technique=NPR%20One",
+            "title": "Support WHRV",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/430.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/356",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wcve-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "356",
+        "network": {
+          "inheritingFrom": "356",
+          "usesInheritance": false,
+          "currentOrgId": "356",
+          "tier1": {
+            "name": "WCVE-FM",
+            "id": "356",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WCNV-FM",
+                "id": "1036",
+                "usesInheritance": true
+              },
+              {
+                "name": "WMVE-FM",
+                "id": "1037",
+                "usesInheritance": true
+              },
+              {
+                "name": "WWLB-FM",
+                "id": "1578",
+                "usesInheritance": false
+              },
+              {
+                "name": "WBBT-FM",
+                "id": "1579",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "356",
+          "recency": 360
+        },
+        "guid": "4fcf701010094ee8b310399d0b82eebc",
+        "brand": {
+          "band": "FM",
+          "call": "WCVE",
+          "frequency": "88.9",
+          "marketCity": "Richmond",
+          "marketState": "VA",
+          "name": "VPM",
+          "tagline": "Virginia's home for Public Media"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a8788cb1c5c84434875afeea14d16dcc",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCVEFM.mp3"
+              }
+            ],
+            "guid": "4fcf713b0b984349b156ca4d83fac103",
+            "title": "VPM News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7ff22e9341ac4023bda0759295914ad0",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCVEHD2.mp3"
+              }
+            ],
+            "guid": "4fcf713b08f04bf8a006d89e64d8495d",
+            "title": "VPM Music",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://vpm.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wcve_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wcve_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/356_c4901bd64c67deef8af647a170307dbe.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/WCVE.VA",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WCVE",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a8788cb1c5c84434875afeea14d16dcc",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCVEFM.mp3",
+            "isPrimaryStream": true,
+            "title": "VPM News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7ff22e9341ac4023bda0759295914ad0",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WCVEHD2.mp3",
+            "isPrimaryStream": false,
+            "title": "VPM Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "186dec3a6b774495965f11fcbe32cfd2",
+            "href": "https://feeds.megaphone.fm/socialdistanceassistance",
+            "title": "Social Distance Assistance",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "48650def31fb4154bd643ded5ae1a866",
+            "href": "https://feeds.megaphone.fm/VPM6782120659",
+            "title": "Full Disclosure with Roben Farzad",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2a3b66b5585e4c6482f36ee6fcc4a0b4",
+            "href": "https://vpm.org/donate",
+            "title": "Support 88.9 WCVE",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/356.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/518",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wmra-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "518",
+        "network": {
+          "inheritingFrom": "518",
+          "usesInheritance": false,
+          "currentOrgId": "518",
+          "tier1": {
+            "name": "WMRA-FM",
+            "id": "518",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WMLU-FM",
+                "id": "519",
+                "usesInheritance": true
+              },
+              {
+                "name": "WMRL-FM",
+                "id": "520",
+                "usesInheritance": true
+              },
+              {
+                "name": "WMRY-FM",
+                "id": "521",
+                "usesInheritance": true
+              },
+              {
+                "name": "WEMC-FM",
+                "id": "1024",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "518",
+          "recency": 360
+        },
+        "guid": "4fcf701114514e51b1bb6eed69ea07e8",
+        "brand": {
+          "band": "FM",
+          "call": "WMRA",
+          "frequency": "90.7",
+          "marketCity": "Harrisonburg",
+          "marketState": "VA",
+          "name": "WMRA",
+          "tagline": "More News, Less Noise"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "979be4d58fe744eb9b4b094a2e27d384",
+                "typeId": "10",
+                "href": "https://media.wmra.org:8001/wmra"
+              }
+            ],
+            "guid": "4fcf715b229a4ff79bc47599f6a234ca",
+            "title": "WMRA - More News, Less Noise",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wmra.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wmra_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wmra_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/518_c3491facaf7e1b6b7149503ff655700d.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/518_cfded217cd78656f3cf49e883839e0bb.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WMRAPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "979be4d58fe744eb9b4b094a2e27d384",
+            "href": "https://media.wmra.org:8001/wmra",
+            "isPrimaryStream": true,
+            "title": "WMRA - More News, Less Noise",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "4938a1e719c74d8bb83257193ca13bb3",
+            "href": "https://wmra.drupal.publicbroadcasting.net/podcasts/52562/rss.xml",
+            "title": "Our Island Universe",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "77fe1c4d22d64c83addcf8a5af0bd747",
+            "href": "https://wmra.drupal.publicbroadcasting.net/podcasts/85931/rss.xml",
+            "title": "WMRA Daily",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "8b7a8a3107884884943cb9373d47e56a",
+            "href": "http://www.wmra.org/support",
+            "title": "Support WMRA",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "f1991b72ba5047b589a98d224fa6cd59",
+            "href": "https://support.wmra.org/Load/wmra.html",
+            "title": "Support WMRA",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/518.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1487",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Variety",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "b3db3f0ad69d473684affe8fa44c9eab",
+        "brand": {
+          "band": "FM",
+          "call": "WNRN",
+          "frequency": "91.9",
+          "marketCity": "Charlottesville",
+          "marketState": "VA",
+          "name": "WNRN",
+          "tagline": "Independent Music Radio"
+        },
+        "orgId": "1487",
+        "network": {
+          "inheritingFrom": "1487",
+          "usesInheritance": false,
+          "currentOrgId": "1487",
+          "tier1": {
+            "name": "WNRN-FM",
+            "id": "1487",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0a3b5f0011da422b915db4d2108a8d63",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNRNFM.mp3"
+              }
+            ],
+            "guid": "b2ab095b04c345e8855e11e8bdffa209",
+            "title": "WNRN",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wnrn.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wnrn_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wnrn_fm.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "0a3b5f0011da422b915db4d2108a8d63",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WNRNFM.mp3",
+            "isPrimaryStream": true,
+            "title": "WNRN",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "6e110e87066d4ff4bd5d2abd8f7c38b1",
+            "href": "http://www.wnrn.org/support/membership",
+            "title": null,
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1579",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "356a5b1adbbd4258b13ea00e02470934",
+        "brand": {
+          "band": "FM",
+          "call": "WBBT",
+          "frequency": "107.3",
+          "marketCity": "Powhatan",
+          "marketState": "VA",
+          "name": "WBBT-FM",
+          "tagline": null
+        },
+        "orgId": "1579",
+        "network": {
+          "inheritingFrom": "1579",
+          "usesInheritance": false,
+          "currentOrgId": "1579"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/431",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "431",
+        "network": {
+          "inheritingFrom": "431",
+          "usesInheritance": false,
+          "currentOrgId": "431"
+        },
+        "guid": "4fcf7010253c4ed7a269ed0f8a0d4f38",
+        "brand": {
+          "band": "FM",
+          "call": "WHRO",
+          "frequency": "90.3",
+          "marketCity": "Norfolk",
+          "marketState": "VA",
+          "name": "WHRO",
+          "tagline": "Virginia's Classic Sound"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "059ed134823642e8b0f4f6564637e1fd",
+                "typeId": "10",
+                "href": "https://station1920s.whro.org/128"
+              }
+            ],
+            "guid": "4fcf714f04b8459ba00637f0c14eed2e",
+            "title": "The 1920's Radio Network",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2e20bf3cc5de421fb2bb8d2981834ca6",
+                "typeId": "10",
+                "href": "https://stationwhro.whro.org/128"
+              }
+            ],
+            "guid": "4fcf714e1b31499ba249d5ce3faa34fa",
+            "title": "WHRO Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://whro.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/whro_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/431.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/whropublicmedia",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WHRO",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "059ed134823642e8b0f4f6564637e1fd",
+            "href": "https://station1920s.whro.org/128",
+            "isPrimaryStream": false,
+            "title": "The 1920's Radio Network",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "2e20bf3cc5de421fb2bb8d2981834ca6",
+            "href": "https://stationwhro.whro.org/128",
+            "isPrimaryStream": true,
+            "title": "WHRO Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "c31f3f05153e40dc9842110774c18388",
+            "href": "https://podcasts.whro.org/ArtsConversations/podcast.xml",
+            "title": "Arts Conversations",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "49db48b9e557407ba4f2d961012bcc9e",
+            "href": "https://podcasts.whro.org/openingNight/podcast.xml",
+            "title": "Opening Night with Rebecca Evans",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cf6abe02cf34441c8996793226d28f78",
+            "href": "https://podcasts.whro.org/artsundercurrent/podcast.xml",
+            "title": "Arts Undercurrent with Rebecca Evans",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6e5838a3320b4858b0fc9f44d03ed497",
+            "href": "https://podcasts.whro.org/thisWeekInMalsWorld/podcast.xml",
+            "title": "This Week in Mal's World",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "dd0dcfca4d7741259324970fbd8ca2d3",
+            "href": "https://podcasts.whro.org/birdnotes/audio/podcast.xml",
+            "title": "Bird Notes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "8d9919c5250341d4a0572c8da2a24b01",
+            "href": "https://members.whro.org/pledge.php?technique=NPR.org%20Online%20Donation",
+            "title": "Support WHRO",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/431.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1578",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "fa5503be34e141928ab7fbabc2a77e43",
+        "brand": {
+          "band": "FM",
+          "call": "WWLB",
+          "frequency": "93.1",
+          "marketCity": "Ettrick",
+          "marketState": "VA",
+          "name": "WWLB-FM",
+          "tagline": null
+        },
+        "orgId": "1578",
+        "network": {
+          "inheritingFrom": "1578",
+          "usesInheritance": false,
+          "currentOrgId": "1578"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/870",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "870",
+        "network": {
+          "inheritingFrom": "870",
+          "usesInheritance": false,
+          "currentOrgId": "870"
+        },
+        "newscast": {
+          "id": "870",
+          "recency": 120
+        },
+        "guid": "4fcf70131415458ca0aca9194bb0d264",
+        "brand": {
+          "band": "FM",
+          "call": "WWVT",
+          "frequency": "89.9",
+          "marketCity": "Ferrum",
+          "marketState": "VA",
+          "name": "WVTF Music",
+          "tagline": "Virginia's NPR Music Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5344bb1ba6194c06950e80daa8e0b255",
+                "typeId": "10",
+                "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-128"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5f8aef44308844b99542eac737881f52",
+                "typeId": "10",
+                "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "7f8dacf0c87a447d871e6e7a8731ad7d",
+                "typeId": "13",
+                "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-aac-64"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "59f1cf4fb6ec4b41bdf4adcb6fe8304e",
+                "typeId": "13",
+                "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-aac-128"
+              }
+            ],
+            "guid": "4fcf715325bb4f5d9994db06baee16ad",
+            "title": "WVTF",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "09e6f68a46804f32aafeef7dd2723578",
+                "typeId": "10",
+                "href": "https://wvtf-ice2.streamguys1.com/radioiq-mp3-64"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "b7c2011d919d4b2aba75ea68fa543ff1",
+                "typeId": "13",
+                "href": "https://wvtf-ice2.streamguys1.com/radioiq-aac-64"
+              }
+            ],
+            "guid": "4fcf715d00f540b287f70ddad0a4ee3c",
+            "title": "RADIO IQ",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wvtf.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wffc_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wffc_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/870.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WVTF.RADIOIQ",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "5344bb1ba6194c06950e80daa8e0b255",
+            "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-128",
+            "isPrimaryStream": true,
+            "title": "WVTF",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "09e6f68a46804f32aafeef7dd2723578",
+            "href": "https://wvtf-ice2.streamguys1.com/radioiq-mp3-64",
+            "isPrimaryStream": false,
+            "title": "RADIO IQ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5f8aef44308844b99542eac737881f52",
+            "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64",
+            "isPrimaryStream": true,
+            "title": "WVTF",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7f8dacf0c87a447d871e6e7a8731ad7d",
+            "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-aac-64",
+            "isPrimaryStream": true,
+            "title": "WVTF",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "59f1cf4fb6ec4b41bdf4adcb6fe8304e",
+            "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-aac-128",
+            "isPrimaryStream": true,
+            "title": "WVTF",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "b7c2011d919d4b2aba75ea68fa543ff1",
+            "href": "https://wvtf-ice2.streamguys1.com/radioiq-aac-64",
+            "isPrimaryStream": false,
+            "title": "RADIO IQ",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "6561a4a4a9e647a2b859e2c83ef5879e",
+            "href": "https://secure.virginiapublicmedia.org/index.php?formid=1&src=WE1612NB&res=WEB",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "88f423e7e5434231a53d59338f71d781",
+            "href": "https://secure.virginiapublicmedia.org/index.php?formid=1&src=WE1612NB&res=WEB",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/870.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1233",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701504804eebaa75a1ae645e7590",
+        "brand": {
+          "band": "FM",
+          "call": "WHRJ",
+          "frequency": "89.9",
+          "marketCity": "Gloucester Courthouse",
+          "marketState": "VA",
+          "name": "WHRO",
+          "tagline": "Virginia's Classic Sound!"
+        },
+        "orgId": "1233",
+        "network": {
+          "inheritingFrom": "1233",
+          "usesInheritance": false,
+          "currentOrgId": "1233"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bbfe3e3e9d6349ae821b1de50f67e2a2",
+                "typeId": "10",
+                "href": "https://stationwhrv.whro.org/128"
+              }
+            ],
+            "guid": "4fcf714e22754c91a1441615606ceda0",
+            "title": "WHRV-FM NPR for Eastern Virginia",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://whro.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1233.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/whropublicmedia",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com//WHRO",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "bbfe3e3e9d6349ae821b1de50f67e2a2",
+            "href": "https://stationwhrv.whro.org/128",
+            "isPrimaryStream": true,
+            "title": "WHRV-FM NPR for Eastern Virginia",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "315e3ef1bc1c485bbc56e4b1affe5f6b",
+            "href": "https://members.whro.org/pledge.php",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1233.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1439",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "539619ec0b314704b4a103f88923ac81",
+        "brand": {
+          "band": "FM",
+          "call": "WHRF",
+          "frequency": "98.3",
+          "marketCity": "Belle Haven",
+          "marketState": "VA",
+          "name": "WHRF-FM",
+          "tagline": null
+        },
+        "orgId": "1439",
+        "network": {
+          "inheritingFrom": "1439",
+          "usesInheritance": false,
+          "currentOrgId": "1439"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/702",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "702",
+        "network": {
+          "inheritingFrom": "702",
+          "usesInheritance": false,
+          "currentOrgId": "702"
+        },
+        "newscast": {
+          "id": "702",
+          "recency": 120
+        },
+        "guid": "4fcf7012185448209b66663b7e530a95",
+        "brand": {
+          "band": "AM",
+          "call": "WWVT",
+          "frequency": "1260",
+          "marketCity": "Christiansburg",
+          "marketState": "VA",
+          "name": "WVTF Music",
+          "tagline": "Virginia's NPR Music Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5f8aef44308844b99542eac737881f52",
+                "typeId": "10",
+                "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5344bb1ba6194c06950e80daa8e0b255",
+                "typeId": "10",
+                "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-128"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "59f1cf4fb6ec4b41bdf4adcb6fe8304e",
+                "typeId": "13",
+                "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-aac-128"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "7f8dacf0c87a447d871e6e7a8731ad7d",
+                "typeId": "13",
+                "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-aac-64"
+              }
+            ],
+            "guid": "4fcf715325bb4f5d9994db06baee16ad",
+            "title": "WVTF",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "09e6f68a46804f32aafeef7dd2723578",
+                "typeId": "10",
+                "href": "https://wvtf-ice2.streamguys1.com/radioiq-mp3-64"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "b7c2011d919d4b2aba75ea68fa543ff1",
+                "typeId": "13",
+                "href": "https://wvtf-ice2.streamguys1.com/radioiq-aac-64"
+              }
+            ],
+            "guid": "4fcf715d00f540b287f70ddad0a4ee3c",
+            "title": "RADIO IQ",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wvtf.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wwvt_am.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wwvt_am.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/702.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WVTF.RADIOIQ",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "5f8aef44308844b99542eac737881f52",
+            "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-64",
+            "isPrimaryStream": true,
+            "title": "WVTF",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "09e6f68a46804f32aafeef7dd2723578",
+            "href": "https://wvtf-ice2.streamguys1.com/radioiq-mp3-64",
+            "isPrimaryStream": false,
+            "title": "RADIO IQ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5344bb1ba6194c06950e80daa8e0b255",
+            "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-mp3-128",
+            "isPrimaryStream": true,
+            "title": "WVTF",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b7c2011d919d4b2aba75ea68fa543ff1",
+            "href": "https://wvtf-ice2.streamguys1.com/radioiq-aac-64",
+            "isPrimaryStream": false,
+            "title": "RADIO IQ",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "59f1cf4fb6ec4b41bdf4adcb6fe8304e",
+            "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-aac-128",
+            "isPrimaryStream": true,
+            "title": "WVTF",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "7f8dacf0c87a447d871e6e7a8731ad7d",
+            "href": "https://wvtf-ice2.streamguys1.com/wvtfmusic-aac-64",
+            "isPrimaryStream": true,
+            "title": "WVTF",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "cbf4bb357a3b4ed9bf3386b46602761c",
+            "href": "https://secure.virginiapublicmedia.org/index.php?formid=1&src=WE1612NB&res=WEB",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "a1d92feae9344b96a93f6bb40724810c",
+            "href": "https://secure.virginiapublicmedia.org/index.php?formid=1&src=WE1612NB&res=WEB",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/702.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1024",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "15",
+          "musicOnly": true
+        },
+        "guid": "4fcf70140b134f6d9c90aedc90a70df0",
+        "brand": {
+          "band": "FM",
+          "call": "WEMC",
+          "frequency": "91.7",
+          "marketCity": "Harrisonburg",
+          "marketState": "VA",
+          "name": "WMRA",
+          "tagline": "The Valley's Source for Classical Music"
+        },
+        "orgId": "1024",
+        "network": {
+          "inheritingFrom": "1024",
+          "usesInheritance": false,
+          "currentOrgId": "1024"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "01853c37b974450ab55f8cdf6a63eacb",
+                "typeId": "10",
+                "href": "https://media.wmra.org:8001/wemc"
+              }
+            ],
+            "guid": "8f6c47370f39487f899b1b3353f06a73",
+            "title": "WEMC - Classical Music",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wemcradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wemc_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1024.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "01853c37b974450ab55f8cdf6a63eacb",
+            "href": "https://media.wmra.org:8001/wemc",
+            "isPrimaryStream": false,
+            "title": "WEMC - Classical Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "22eacfa5277e42adb30689a036cc960c",
+            "href": "http://www.wmra.org/support",
+            "title": "Support WEMC - Classical and More",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1024.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

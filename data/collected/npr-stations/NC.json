@@ -1,0 +1,2354 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "NC"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/661",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wunc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "661",
+        "network": {
+          "inheritingFrom": "661",
+          "usesInheritance": false,
+          "currentOrgId": "661",
+          "tier1": {
+            "name": "WUNC-FM",
+            "id": "661",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WFSS-FM",
+                "id": "389",
+                "usesInheritance": false
+              },
+              {
+                "name": "WBUX-FM",
+                "id": "662",
+                "usesInheritance": true
+              },
+              {
+                "name": "WRQM-FM",
+                "id": "663",
+                "usesInheritance": true
+              },
+              {
+                "name": "WURI-FM",
+                "id": "664",
+                "usesInheritance": true
+              },
+              {
+                "name": "WUND-FM",
+                "id": "866",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "661",
+          "recency": 240
+        },
+        "guid": "4fcf70120e2745eebd3c49d39738d981",
+        "brand": {
+          "band": "FM",
+          "call": "WUNC",
+          "frequency": "91.5",
+          "marketCity": "Chapel Hill",
+          "marketState": "NC",
+          "name": "North Carolina Public Radio",
+          "tagline": "Bringing the World Home to You: North Carolina Public Radio - WUNC"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "8f017fcd03554e47a3f52d2a32648d8b",
+                "typeId": "10",
+                "href": "https://edg-iad-wunc-ice.streamguys1.com/wunc-128-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "2acfbb7df2724890aa1ca885df16b91b",
+                "typeId": "13",
+                "href": "https://edg-iad-wunc-ice.streamguys1.com/wunc-64-aac"
+              }
+            ],
+            "guid": "844815615e9643ffb4ee70dfc3fe05fd",
+            "title": "North Carolina Public Radio - WUNC",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4dbfe3608aaf42a7bbd1beadf81af330",
+                "typeId": "10",
+                "href": "https://edg-iad-wunc-ice.streamguys1.com/wunc-hd2-128-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "4143bc3d6f7c4b658f048b8f63a36498",
+                "typeId": "13",
+                "href": "https://edg-iad-wunc-ice.streamguys1.com/wunc-hd2-128-aac"
+              }
+            ],
+            "guid": "785c3896acb6452aae6b74c07eae7f0b",
+            "title": "WUNC Music",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wunc.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wunc_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wunc_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/661.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/915wunc?fref=ts",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wunc",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "8f017fcd03554e47a3f52d2a32648d8b",
+            "href": "https://edg-iad-wunc-ice.streamguys1.com/wunc-128-mp3",
+            "isPrimaryStream": true,
+            "title": "North Carolina Public Radio - WUNC",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "4dbfe3608aaf42a7bbd1beadf81af330",
+            "href": "https://edg-iad-wunc-ice.streamguys1.com/wunc-hd2-128-mp3",
+            "isPrimaryStream": false,
+            "title": "WUNC Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "4143bc3d6f7c4b658f048b8f63a36498",
+            "href": "https://edg-iad-wunc-ice.streamguys1.com/wunc-hd2-128-aac",
+            "isPrimaryStream": false,
+            "title": "WUNC Music",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "2acfbb7df2724890aa1ca885df16b91b",
+            "href": "https://edg-iad-wunc-ice.streamguys1.com/wunc-64-aac",
+            "isPrimaryStream": true,
+            "title": "North Carolina Public Radio - WUNC",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "3f15c680fdc145ac8298bccb9616361a",
+            "href": "https://feedpress.me/WUNCPolitics",
+            "title": "WUNCPolitics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4dfca6b27f1e420b8e8f503f330e8fe8",
+            "href": "https://feedpress.me/WUNC_Heartbeat2",
+            "title": "Stories With A Heartbeat",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9e67db58c92b4cef988ab1bd9424e62e",
+            "href": "https://feedpress.me/wunc_newscast",
+            "title": "News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5ae92599df6d46cca930b2954a28d98b",
+            "href": "https://feedpress.me/youthradiopodcast",
+            "title": "WUNC Youth Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d7c2ea3e570844a4b2522831719f0e3d",
+            "href": "https://www.peoplespharmacy.com/feed/podcast/",
+            "title": "The People's Pharmacy Radio Program",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "738dee064ed94cb5b77e73302e2f0c6a",
+            "href": "https://feedpress.me/WUNC_occasionalshivers",
+            "title": "Occasional Shivers",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a28d15e2a39a47ec87dbe13ee8d183c1",
+            "href": "https://feedpress.me/WUNC_SongsWeLove",
+            "title": "WUNC's Songs We Love",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6782f29fb3b34426821b3f9967ef899d",
+            "href": "https://feedpress.me/ftbraggstories",
+            "title": "Ft. Bragg Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4742f075c1d04c81829069e1c71feaa4",
+            "href": "https://feedpress.me/WUNC_americansongster",
+            "title": "American Songster Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ae4d0d400742490d82c4b6c11a3f8aac",
+            "href": "https://feedpress.me/wunc_tested",
+            "title": "Tested",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6aa37dccdb474810800532832ad88663",
+            "href": "https://everythinghappens.libsyn.com/rss",
+            "title": "Everything Happens",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "bd537754b36a474e96bc4ad627858c38",
+            "href": "https://feedpress.me/WUNC_SOT",
+            "title": "The State of Things from North Carolina Public Radio - WUNC",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "dd117af656e3481d90992ae9afe68b85",
+            "href": "http://wunc.convio.net/pledge-s",
+            "title": "Support North Carolina Public Radio - WUNC",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "6ea77e63644a41f39fcc292264e5c38e",
+            "href": "http://wunc.convio.net/pledge-s",
+            "title": "Your donations create North Carolina Public Radio",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/661.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/380",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wfae-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "380",
+        "network": {
+          "inheritingFrom": "380",
+          "usesInheritance": false,
+          "currentOrgId": "380",
+          "tier1": {
+            "name": "WFAE-FM",
+            "id": "380",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WFHE-FM",
+                "id": "381",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "380",
+          "recency": 120
+        },
+        "guid": "4fcf701016134de794d1f93b87249167",
+        "brand": {
+          "band": "FM",
+          "call": "WFAE",
+          "frequency": "90.7",
+          "marketCity": "Charlotte",
+          "marketState": "NC",
+          "name": "WFAE",
+          "tagline": "Charlotte's NPR News Source"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "029f68eaf6304cbfb11e25d0ee5269ba",
+                "typeId": "10",
+                "href": "https://wfae-ice.streamguys1.com/nopreroll-jazz"
+              }
+            ],
+            "guid": "514afff521e648c1a902939c7108d288",
+            "title": "WFAE HD2 - The Charlotte Jazz Channel",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6b1203a5f6644e02a85a8b11a19aeef6",
+                "typeId": "10",
+                "href": "https://wfae-ice.streamguys1.com/nopreroll-remix"
+              }
+            ],
+            "guid": "514afff51bc14f0b8e4c24712136e4b9",
+            "title": "WFAE HD3 - Public Radio Remix",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "41928e214d1b4d7498293ff89ced8f96",
+                "typeId": "10",
+                "href": "https://wfae-ice.streamguys1.com/wfae1"
+              }
+            ],
+            "guid": "4fcf714b2366418aa2c03b148601ef7a",
+            "title": "WFAE-FM: News & Information in Charlotte",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wfae.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wfae_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wfae_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/380_69df190bd8048e0ec6863ade1c3ff265.mp4?1537329873390",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/380_b8a55c100d9d718ad4548b8b72e619ca.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/380_9ea8febd0691e3e2f9ccefd2a2945f1f.mp4?1562169000367",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WFAE90.7",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/WFAE",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "029f68eaf6304cbfb11e25d0ee5269ba",
+            "href": "https://wfae-ice.streamguys1.com/nopreroll-jazz",
+            "isPrimaryStream": false,
+            "title": "WFAE HD2 - The Charlotte Jazz Channel",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6b1203a5f6644e02a85a8b11a19aeef6",
+            "href": "https://wfae-ice.streamguys1.com/nopreroll-remix",
+            "isPrimaryStream": false,
+            "title": "WFAE HD3 - Public Radio Remix",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "41928e214d1b4d7498293ff89ced8f96",
+            "href": "https://wfae-ice.streamguys1.com/wfae1",
+            "isPrimaryStream": true,
+            "title": "WFAE-FM: News & Information in Charlotte",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "0033330bb74f4065997162b17080c3a5",
+            "href": "https://wfae.drupal.publicbroadcasting.net/podcasts/121694/rss.xml",
+            "title": "FAQ City",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1555d26e0d1b41178b7820c0ee2cdcaf",
+            "href": "https://wfae.drupal.publicbroadcasting.net/podcasts/370/rss.xml",
+            "title": "WFAE - Charlotte Talks",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1957806444c247bc84283668e5d251ec",
+            "href": "https://wfae.drupal.publicbroadcasting.net/podcasts/term/35/rss.xml",
+            "title": "WFAE - Public Conversations",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "941fdb35831c4db585793a8725ae4703",
+            "href": "https://wfae.drupal.publicbroadcasting.net/podcasts/119853/rss.xml",
+            "title": "Candidate ME",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbf3fe4a46a04dc1a630e2fccf1b1a8c",
+            "href": "https://wfae.drupal.publicbroadcasting.net/podcasts/term/5404/rss.xml",
+            "title": "SouthBound",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "214f5c892a0b4564939ea0b2e1b4cfb7",
+            "href": "https://wfae.drupal.publicbroadcasting.net/podcasts/139638/rss.xml",
+            "title": "She Says",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fe68c7ac21d14b4e8aa2644e6698f9b0",
+            "href": "https://feeds.feedburner.com/WFAEAmplifier",
+            "title": "Amplifier",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2888e665b5334af1993c59f51cd349f4",
+            "href": "https://wfae.report/insidepolitics/feed/podcast/",
+            "title": "Inside Politics: The RNC in Charlotte",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "40d43bf244d74ed8aac480102f01554a",
+            "href": "https://wfae.secureallegiance.com/wfae/WebModule/Donate.aspx?P=WFAEORG&PAGETYPE=PLG&CHECK=LhKggVHwkm2rNzv5YORWzezWDeZ%2beA1M",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "618a819458bb431e8124f06e360be92c",
+            "href": "https://wfae.secureallegiance.com/wfae/WebModule/Donate.aspx?P=WFAEORG&PAGETYPE=PLG&CHECK=LhKggVHwkm2rNzv5YORWzezWDeZ%2beA1M",
+            "title": "Support WFAE",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "1505e1f6c16846a2871ef7112cac6fbc",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/380_586fd197f6fa224b3a3756ab55aa63f4.mp4",
+            "title": "Joe Donation (Coronavirus)",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/383",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wfdd-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "383",
+        "network": {
+          "inheritingFrom": "383",
+          "usesInheritance": false,
+          "currentOrgId": "383",
+          "tier1": {
+            "name": "WFDD-FM",
+            "id": "383",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "383",
+          "recency": 120
+        },
+        "guid": "4fcf701016d14c45ba5bbe4cf48b54ff",
+        "brand": {
+          "band": "FM",
+          "call": "WFDD",
+          "frequency": "88.5",
+          "marketCity": "Winston-Salem",
+          "marketState": "NC",
+          "name": "88.5 WFDD - Public Radio For The Piedmont",
+          "tagline": "Public Radio for the Piedmont"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e13be5d2c0f94b85b04df7d05ddb0792",
+                "typeId": "10",
+                "href": "https://wfdd.streamguys1.com/wfdd2"
+              }
+            ],
+            "guid": "4fcf71401f4349308c69a8cbcaec91a8",
+            "title": "WFDD 2: Classical Music",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1c51ef6c79fc492c9359625972c95a9d",
+                "typeId": "10",
+                "href": "https://wfdd.streamguys1.com/wfdd1"
+              }
+            ],
+            "guid": "4fcf71401af9452a91e2a6bbddc013d7",
+            "title": "WFDD-FM",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9cfa350886184791bbf9e36a355eb8f0",
+                "typeId": "10",
+                "href": "https://wfdd.streamguys1.com/wfdd3"
+              }
+            ],
+            "guid": "4fcf7140219f4c06ab3cd293caa17537",
+            "title": "WFDD 3: WAKE Radio",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wfdd.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wfdd_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wfdd_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/383_88ce265d1a4fc7515e3d587d7b6324f8.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/383_1a929adef3e5f0e7841dd73d3bf6c325.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/383_79e736e40ca89ca3c2ed03d4a00c22f3.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/383_c8e60c5cc9566205054610bb6db4bf6c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/383_6d4304c86a5b4f4db8c1d2a69f65abf9.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/383_1e09b6bc34898927589e288544a55959.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/383_532a129df72efafde49ffa46115f7e4b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/383_e5b2abb7af8f7634026b52f0323c2f0c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/383_b9360b9d02f05252a2e18ff09bf33a55.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/383_e096a449099d00a3bc9d8d918b08d99e.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/383_a1df2fc7f89e705999f1f21c1b269630.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/383_2879a449be21c85c2d41a99a5abeee26.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/383_785f32a3b411e2c59a761c7add792341.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/885WFDD",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wfdd",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e13be5d2c0f94b85b04df7d05ddb0792",
+            "href": "https://wfdd.streamguys1.com/wfdd2",
+            "isPrimaryStream": false,
+            "title": "WFDD 2: Classical Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1c51ef6c79fc492c9359625972c95a9d",
+            "href": "https://wfdd.streamguys1.com/wfdd1",
+            "isPrimaryStream": true,
+            "title": "WFDD-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "9cfa350886184791bbf9e36a355eb8f0",
+            "href": "https://wfdd.streamguys1.com/wfdd3",
+            "isPrimaryStream": false,
+            "title": "WFDD 3: WAKE Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "14face7fc28449adaf6b7a8484a35739",
+            "href": "https://wfdd.drupal.publicbroadcasting.net/podcasts/wfddnews.rss",
+            "title": "88.5 WFDD News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a55f408107d64640be21b8bc479c71b3",
+            "href": "https://www.wfdd.org/show/45275/feed",
+            "title": "Carolina Curious",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2272711be52d466a9694efd50b54e842",
+            "href": "https://wfdd.secureallegiance.com/wfdd/WebModule/Donate.aspx?P=NPRONE&PAGETYPE=PLG&CHECK=nypELGXM3xAhrOSvjvOZaxiCxtaFReuS",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "73fe771adfda4af88b65c610c58e5a46",
+            "href": "https://wfdd.secureallegiance.com/wfdd/WebModule/Donate.aspx?P=NPRONE&PAGETYPE=PLG&CHECK=nypELGXM3xAhrOSvjvOZaxiCxtaFReuS",
+            "title": "Support 88.5 WFDD",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/383.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/354",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wcqs-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "354",
+        "network": {
+          "inheritingFrom": "354",
+          "usesInheritance": false,
+          "currentOrgId": "354",
+          "tier1": {
+            "name": "WCQS-FM",
+            "id": "354",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WFQS-FM",
+                "id": "355",
+                "usesInheritance": true
+              },
+              {
+                "name": "WYQS-FM",
+                "id": "1084",
+                "usesInheritance": false
+              },
+              {
+                "name": "WMQS-FM",
+                "id": "1382",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf70100f8d4ec3b7213a4dad1b4725",
+        "brand": {
+          "band": "FM",
+          "call": "WCQS",
+          "frequency": "88.1",
+          "marketCity": "Asheville",
+          "marketState": "NC",
+          "name": "BPR Classic",
+          "tagline": "NPR for Western North Carolina"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "98194972fae642c990630d23fc6e17b1",
+                "typeId": "10",
+                "href": "https://live.wostreaming.net/direct/wncpr-wcqshd1mp364-icy2"
+              }
+            ],
+            "guid": "4fcf714b14c947cd8cef23a6449a047b",
+            "title": "BPR Classic - NPR for Western North Carolina",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bd91ae0a92264867a21374c71f8d6414",
+                "typeId": "10",
+                "href": "https://live.wostreaming.net/direct/wncpr-wcqshd2mp3-icy2"
+              }
+            ],
+            "guid": "255c4d51316e48a19254cf9582f6869a",
+            "title": "BPR News - NPR for Western North Carolina",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.bpr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wcqs_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wcqs_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/354_a71279c9b4c30bc5c6fe38abb1dec041.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WCQS-WYQS-The-Mountain-Air-Network/87649743793?v=wall",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/wcqs",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "98194972fae642c990630d23fc6e17b1",
+            "href": "https://live.wostreaming.net/direct/wncpr-wcqshd1mp364-icy2",
+            "isPrimaryStream": true,
+            "title": "BPR Classic - NPR for Western North Carolina",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bd91ae0a92264867a21374c71f8d6414",
+            "href": "https://live.wostreaming.net/direct/wncpr-wcqshd2mp3-icy2",
+            "isPrimaryStream": false,
+            "title": "BPR News - NPR for Western North Carolina",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "d92a77ddffa54ff1b54052d7547bff0f",
+            "href": "https://wcqs.drupal.publicbroadcasting.net/podcasts/term/1928/rss.xml",
+            "title": "BPR News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e70b78b7fade4af2851749de7396fb07",
+            "href": "https://wcqs.drupal.publicbroadcasting.net/podcasts/term/1930/rss.xml",
+            "title": "BPR News Extended",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1cad4723f2174fbf8ce4d268712da537",
+            "href": "https://wcqs.drupal.publicbroadcasting.net/podcasts/term/2010/rss.xml",
+            "title": "The Waters and Harvey Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "037a3429a8934c49ac61bf3025dc7611",
+            "href": "https://afg.secureallegiance.com/wcqs/WebModule/Donate.aspx?P=GENPAGE&PAGETYPE=PLG&CHECK=%2fRzh%2byzD2d9oKjsYD2DDbezWDeZ%2beA1M",
+            "title": "Support WCQS",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b695a65df16f421e9b452b528f07dc77",
+            "href": "https://afg.secureallegiance.com/wcqs/WebModule/Donate.aspx?P=GENPAGE&PAGETYPE=PLG&CHECK=%2fRzh%2byzD2d9oKjsYD2DDbezWDeZ%2beA1M",
+            "title": "Support WCQS",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "31cdaa35783841ceac3f6d928428b2fa",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/354_40cc9fa79973dfd1b5f6d9856dff7ed9.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/354.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/429",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/whqr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "429",
+        "network": {
+          "inheritingFrom": "429",
+          "usesInheritance": false,
+          "currentOrgId": "429",
+          "tier1": {
+            "name": "WHQR-FM",
+            "id": "429",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf701024c64bbd9932ce41c41a5292",
+        "brand": {
+          "band": "FM",
+          "call": "WHQR",
+          "frequency": "91.3",
+          "marketCity": "Wilmington",
+          "marketState": "NC",
+          "name": "WHQR",
+          "tagline": "High Quality Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2e8f8edb05e9468fb7a50a458df3ccb9",
+                "typeId": "10",
+                "href": "https://audio-mp3.ibiblio.org:/whqr_hd1"
+              }
+            ],
+            "guid": "4fcf71641edb4057ade2e191e1bacd25",
+            "title": "HQR News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ff706db72122425b83220389b7546cd2",
+                "typeId": "10",
+                "href": "https://audio-mp3.ibiblio.org:/whqr_hd2"
+              }
+            ],
+            "guid": "14b9974dad500dd48218bad2f682df5b",
+            "title": "Classical HQR",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.whqr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/whqr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/whqr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/429.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WHQRPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/whqr",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "2e8f8edb05e9468fb7a50a458df3ccb9",
+            "href": "https://audio-mp3.ibiblio.org:/whqr_hd1",
+            "isPrimaryStream": true,
+            "title": "HQR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ff706db72122425b83220389b7546cd2",
+            "href": "https://audio-mp3.ibiblio.org:/whqr_hd2",
+            "isPrimaryStream": false,
+            "title": "Classical HQR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "2ab8cd78c89b41dca4ca4a24ab38ad99",
+            "href": "https://whqr.drupal.publicbroadcasting.net/podcasts/65047/rss.xml",
+            "title": "WHQR's CoastLine",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "ed3302d13ee443adb238c11fdb1a14ce",
+            "href": "https://donate.nprstations.org/whqr/?__utma=97149913.2068621570.1366298199.1444246406.1444319409.451&__utmb=97149913.82.9.144432&_ga=2.230333979.609149986.1515422750-658201645.1502890327",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/429.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/525",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wncw-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "525",
+        "network": {
+          "inheritingFrom": "525",
+          "usesInheritance": false,
+          "currentOrgId": "525",
+          "tier1": {
+            "name": "WNCW-FM",
+            "id": "525",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WSIF-FM",
+                "id": "1139",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf701115f545a097bfd8b59f0920bf",
+        "brand": {
+          "band": "FM",
+          "call": "WNCW",
+          "frequency": "88.7",
+          "marketCity": "Spindale",
+          "marketState": "NC",
+          "name": "WNCW",
+          "tagline": "A Member Supported Public Radio Station Broadcasting a World of Music"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7f58170f8e304f95bc80a8a9c82c7d06",
+                "typeId": "10",
+                "href": "https://audio-mp3.ibiblio.org/wncw-128k"
+              }
+            ],
+            "guid": "4845e6714d3f4410ae366954eb90d31a",
+            "title": "WNCW-FM 88.7",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wncw.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wncw_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wncw_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/525.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WNCW/75290953316",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wncw",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "7f58170f8e304f95bc80a8a9c82c7d06",
+            "href": "https://audio-mp3.ibiblio.org/wncw-128k",
+            "isPrimaryStream": true,
+            "title": "WNCW-FM 88.7",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "7b405a5fab034f1da2de16670cf5be8b",
+            "href": "http://www.wncw.org/podcasts",
+            "title": "WNCW",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0ab8f8e56310415aaac3ef76f069e437",
+            "href": "https://wncw.drupal.publicbroadcasting.net/podcasts/68190/rss.xml",
+            "title": "On The Way Up",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "222084c9315540cba33c2c36968859c0",
+            "href": "https://wncw.drupal.publicbroadcasting.net/programs/weekend-window",
+            "title": "WNCW Weekend Window",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "317854da484043e9a787afcd3eda7aa1",
+            "href": "http://support.wncw.org/thankyougifts",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "76e5f96877614b1886eb0d2c687b8997",
+            "href": "http://support.wncw.org/thankyougifts",
+            "title": "Pledge Now!",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/525.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/638",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wteb-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "638",
+        "network": {
+          "name": "PRE News & Ideas",
+          "inheritingFrom": "637",
+          "usesInheritance": true,
+          "currentOrgId": "638",
+          "tier1": {
+            "name": "Public Radio East",
+            "id": "637",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WTEB-FM",
+                "id": "638",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WBJD-FM",
+                    "id": "639",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WKNS-FM",
+                    "id": "640",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WZNB-FM",
+                    "id": "845",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "637",
+          "recency": 240
+        },
+        "guid": "4fcf70120935473aa78af44f147ccb4a",
+        "brand": {
+          "band": "FM",
+          "call": "WTEB",
+          "frequency": "89.3",
+          "marketCity": "New Bern",
+          "marketState": "NC",
+          "name": "PRE News & Ideas",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "667e3c24442244f4863f6f052215eb6b",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WTEBFM.pls"
+              }
+            ],
+            "guid": "13d8ea16a6d002d42439606ea0f2919e",
+            "title": "Public Radio East - News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "70d06c14fddc47fdb3fe9df97593554c",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WZNBFM.pls"
+              }
+            ],
+            "guid": "4fcf715005e3489a87901de642335537",
+            "title": "Public Radio East - Classical",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.publicradioeast.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/pre.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/pre.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/637_6ad2b8cc0299ceda4608c1aa79fcb393.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/637_a4e5b72b2ac462f4b46eda984466fbf0.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/637_2121dd3fb8cafb588b0934ce0ed2a080.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/637_cfdc94b6a2d606e93a7b057cb1114d60.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Public-Radio-East/40233874304",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "667e3c24442244f4863f6f052215eb6b",
+            "href": "https://playerservices.streamtheworld.com/pls/WTEBFM.pls",
+            "isPrimaryStream": true,
+            "title": "Public Radio East - News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "70d06c14fddc47fdb3fe9df97593554c",
+            "href": "https://playerservices.streamtheworld.com/pls/WZNBFM.pls",
+            "isPrimaryStream": false,
+            "title": "Public Radio East - Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "95e198cb284545a884a724f2ca34c9db",
+            "href": "https://pre.drupal.publicbroadcasting.net/podcasts/12/rss.xml",
+            "title": "The Sound free song downloads",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3fa72366aea54f76b72a3967ba8b960a",
+            "href": "https://pre.drupal.publicbroadcasting.net/podcasts/term/186/rss.xml",
+            "title": "ENC features on PRE",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7fbbd9de63a64155b2e40ed80f1a6866",
+            "href": "https://pre.drupal.publicbroadcasting.net/podcasts/term/257/rss.xml",
+            "title": "PRE Regional News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "002ddf3e8c8543ce8cd0d773cec45ed7",
+            "href": "https://donate.nprstations.org/pre/",
+            "title": null,
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "d708ba6a50cf42f9bcdf4a6097a8f31c",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/637_d3828ae33aca9e87966f7882a2ec2c81.mp4",
+            "title": "JB GO donation ask",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "c162c0a5e9c0486f979db9e598fc3f79",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/637_1bebf187dcaeb3d9707c1c878fd05e1f.mp4",
+            "title": "GO KY donation ask",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "e719de77bdc546069384652243515fd1",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/637_cfbd9548711d42e1a06763eda5cfffc7.mp4",
+            "title": "VC JB donation ask",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/389",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf70101898463193d60901c447497a",
+        "brand": {
+          "band": "FM",
+          "call": "WFSS",
+          "frequency": "91.9",
+          "marketCity": "Fayetteville",
+          "marketState": "NC",
+          "name": "WFSS",
+          "tagline": "Your Public Radio Station for NPR News and Jazz Music"
+        },
+        "orgId": "389",
+        "network": {
+          "inheritingFrom": "389",
+          "usesInheritance": false,
+          "currentOrgId": "389"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wfss.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/389.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WFSS-919-FM/281253969441",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WFSS919",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "4e90f0b4a0cc404da7f2dea110bb4d19",
+            "href": "https://www.applyweb.com/public/contribute?wfss",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/389.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1084",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "1084",
+        "network": {
+          "inheritingFrom": "1084",
+          "usesInheritance": false,
+          "currentOrgId": "1084"
+        },
+        "newscast": {
+          "id": "1084",
+          "recency": 360
+        },
+        "guid": "4fcf701415ef4ee1963880d711273c28",
+        "brand": {
+          "band": "FM",
+          "call": "WYQS",
+          "frequency": "90.5",
+          "marketCity": "Mars Hill",
+          "marketState": "NC",
+          "name": "BPR News",
+          "tagline": "NPR for Western North Carolina"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bd91ae0a92264867a21374c71f8d6414",
+                "typeId": "10",
+                "href": "https://live.wostreaming.net/direct/wncpr-wcqshd2mp3-icy2"
+              }
+            ],
+            "guid": "255c4d51316e48a19254cf9582f6869a",
+            "title": "BPR News - NPR for Western North Carolina",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "98194972fae642c990630d23fc6e17b1",
+                "typeId": "10",
+                "href": "https://live.wostreaming.net/direct/wncpr-wcqshd1mp364-icy2"
+              }
+            ],
+            "guid": "4fcf714b14c947cd8cef23a6449a047b",
+            "title": "BPR Classic - NPR for Western North Carolina",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://bpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wyqs_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wyqs_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1084_7be12fa96dca193aa3b6e22b80df125a.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WCQS-WYQS-The-Mountain-Air-Network/87649743793",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/wcqs",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "bd91ae0a92264867a21374c71f8d6414",
+            "href": "https://live.wostreaming.net/direct/wncpr-wcqshd2mp3-icy2",
+            "isPrimaryStream": true,
+            "title": "BPR News - NPR for Western North Carolina",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "98194972fae642c990630d23fc6e17b1",
+            "href": "https://live.wostreaming.net/direct/wncpr-wcqshd1mp364-icy2",
+            "isPrimaryStream": false,
+            "title": "BPR Classic - NPR for Western North Carolina",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e70b78b7fade4af2851749de7396fb07",
+            "href": "https://wcqs.drupal.publicbroadcasting.net/podcasts/term/1930/rss.xml",
+            "title": "BPR News Extended",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1cad4723f2174fbf8ce4d268712da537",
+            "href": "https://wcqs.drupal.publicbroadcasting.net/podcasts/term/2010/rss.xml",
+            "title": "The Waters and Harvey Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "a19a52770f5449349c9c5f204689a070",
+            "href": "https://afg.secureallegiance.com/wcqs/WebModule/Donate.aspx?P=GENPAGE&PAGETYPE=PLG&CHECK=%2fRzh%2byzD2d9oKjsYD2DDbezWDeZ%2beA1M",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "08bd7bc9a89743b4b3eedebb7f8f2617",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/1084_9b534e57b102900a81b8b49f4e8c8587.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1084.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/357",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701010414b46891aa07a539b44cb",
+        "brand": {
+          "band": "FM",
+          "call": "WDAV",
+          "frequency": "89.9",
+          "marketCity": "Davidson",
+          "marketState": "NC",
+          "name": "WDAV",
+          "tagline": "Classical Public Radio"
+        },
+        "orgId": "357",
+        "network": {
+          "inheritingFrom": "357",
+          "usesInheritance": false,
+          "currentOrgId": "357",
+          "tier1": {
+            "name": "WDAV-FM",
+            "id": "357",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e079e3bd2fac4f5090af4b1369b9bc46",
+                "typeId": "10",
+                "href": "https://audio-mp3.ibiblio.org/wdav-112k"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2a21fcc397dc4ec58c87995a1eb11836",
+                "typeId": "10",
+                "href": "https://audio-mp3.ibiblio.org/wdav-56k"
+              }
+            ],
+            "guid": "4fcf714b18ab453dace011707e537fd3",
+            "title": "WDAV 89.9 Classical Public Radio",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c0c41d987b06445989d613736db99f32",
+                "typeId": "10",
+                "href": "https://audio-mp3.ibiblio.org/concierto"
+              }
+            ],
+            "guid": "fc40ae9b48144d5ca48ada7a306869e9",
+            "title": "Concierto",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wdav.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wdav_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wdav_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/357.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WDAV/12074834460",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wdav",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e079e3bd2fac4f5090af4b1369b9bc46",
+            "href": "https://audio-mp3.ibiblio.org/wdav-112k",
+            "isPrimaryStream": true,
+            "title": "WDAV 89.9 Classical Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "2a21fcc397dc4ec58c87995a1eb11836",
+            "href": "https://audio-mp3.ibiblio.org/wdav-56k",
+            "isPrimaryStream": true,
+            "title": "WDAV 89.9 Classical Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c0c41d987b06445989d613736db99f32",
+            "href": "https://audio-mp3.ibiblio.org/concierto",
+            "isPrimaryStream": false,
+            "title": "Concierto",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "512cc0e9c575492b9d3448f697a19832",
+            "href": "https://www.wdav.org/contribute",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "740a84df013141e294c4292021634459",
+            "href": "https://donate.wdav.org/pledge/",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/357.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1273",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf70150ca142f69624642e18ff64a3",
+        "brand": {
+          "band": "FM",
+          "call": "WSGE",
+          "frequency": "91.7",
+          "marketCity": "Dallas",
+          "marketState": "NC",
+          "name": "WSGE-FM",
+          "tagline": "Your Independent Music Source"
+        },
+        "orgId": "1273",
+        "network": {
+          "inheritingFrom": "1273",
+          "usesInheritance": false,
+          "currentOrgId": "1273",
+          "tier1": {
+            "name": "WSGE-FM",
+            "id": "1273",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wsge.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wsge_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1273.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wsgeradio?ref=ts",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WSGERadio",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1f379d1ca2ba48959ca4ba6b12364966",
+            "href": "http://www.wsge.org/support/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1273.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/913",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70131a2f41fea2de66b406724380",
+        "brand": {
+          "band": "FM",
+          "call": "WSNC",
+          "frequency": "90.5",
+          "marketCity": "Winston-Salem",
+          "marketState": "NC",
+          "name": "WSNC",
+          "tagline": "What we play is life"
+        },
+        "orgId": "913",
+        "network": {
+          "inheritingFrom": "913",
+          "usesInheritance": false,
+          "currentOrgId": "913",
+          "tier1": {
+            "name": "WSNC-FM",
+            "id": "913",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wsncradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wsnc_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wsnc_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/913.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/wsnc90.5?fref=ts",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "cb304a0530174a81a5432f99ec49150c",
+            "href": "https://secure.acceptiva.com/?cst=c86883",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/913.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/763",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf701224f646638f08adddcf10a201",
+        "brand": {
+          "band": "FM",
+          "call": "WRVS",
+          "frequency": "89.9",
+          "marketCity": "Elizabeth City",
+          "marketState": "NC",
+          "name": "WRVS",
+          "tagline": "Your Community Voice"
+        },
+        "orgId": "763",
+        "network": {
+          "inheritingFrom": "763",
+          "usesInheritance": false,
+          "currentOrgId": "763",
+          "tier1": {
+            "name": "WRVS-FM",
+            "id": "763",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.ecsu.edu/about/communications-and-marketing/radio-and-tv-service/index.html",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/763.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WRVSFM",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "49fee8d1579944888afde700765a2d82",
+            "href": "https://app.mobilecause.com/public/peer_fundraisers/436493/peer_fundraiser_donations/new",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/763.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/524",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "524",
+        "network": {
+          "inheritingFrom": "524",
+          "usesInheritance": false,
+          "currentOrgId": "524",
+          "tier1": {
+            "name": "WNCU-FM",
+            "id": "524",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf701115af4c3eacaf35c3a80cc416",
+        "brand": {
+          "band": "FM",
+          "call": "WNCU",
+          "frequency": "90.7",
+          "marketCity": "Durham",
+          "marketState": "NC",
+          "name": "WNCU",
+          "tagline": "North Carolina Central University's Jazz and Information Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f542dfb38d9847999088d56498fd4132",
+                "typeId": "10",
+                "href": "https://wncu.streamguys1.com/live"
+              }
+            ],
+            "guid": "4fcf716524d44dda9e573770eeef57b8",
+            "title": "WNCU 90.7",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wncu.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wncu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/524.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WNCU-Radio/73420291906",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f542dfb38d9847999088d56498fd4132",
+            "href": "https://wncu.streamguys1.com/live",
+            "isPrimaryStream": true,
+            "title": "WNCU 90.7",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "ebe6a59ce69e495cb57adaf8c7e018cf",
+            "href": "http://www.wncu.org/feed/",
+            "title": "WNCU/Podcasts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "4f26671cdff743809dba88a424d4c8ba",
+            "href": "https://www.nccu.edu/donation/wncuMembership.cfm",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/524.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/872",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf7013145b4ff1ab5ff3e928ef431d",
+        "brand": {
+          "band": "FM",
+          "call": "WCPE",
+          "frequency": "89.7",
+          "marketCity": "Raleigh",
+          "marketState": "NC",
+          "name": "WCPE - The Classical Station",
+          "tagline": "Great Classical Music, 24 Hours A Day"
+        },
+        "orgId": "872",
+        "network": {
+          "inheritingFrom": "872",
+          "usesInheritance": false,
+          "currentOrgId": "872",
+          "tier1": {
+            "name": "WCPE-FM",
+            "id": "872",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WZPE-FM",
+                "id": "1042",
+                "usesInheritance": false
+              }
+            ]
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://theclassicalstation.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/872.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/TheClassicalStation",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WCPE",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "a13415a6ae8c4e8c9d956e0d41b76d63",
+            "href": "https://theclassicalstation.org/pledge/index.shtml",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/872.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1042",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70140db94cde9eb6915147a06165",
+        "brand": {
+          "band": "FM",
+          "call": "WZPE",
+          "frequency": "90.1",
+          "marketCity": "Bath",
+          "marketState": "NC",
+          "name": "WCPE",
+          "tagline": "Great Classical Music, 24 Hours A Day."
+        },
+        "orgId": "1042",
+        "network": {
+          "inheritingFrom": "1042",
+          "usesInheritance": false,
+          "currentOrgId": "1042"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://theclassicalstation.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1042.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/TheClassicalStation",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "fa9ff7e449524465817d0dadc285346a",
+            "href": "http://theclassicalstation.org/membership.shtml",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1042.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

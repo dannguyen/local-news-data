@@ -1,0 +1,751 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "NM"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/227",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kunm-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "227",
+        "network": {
+          "inheritingFrom": "227",
+          "usesInheritance": false,
+          "currentOrgId": "227",
+          "tier1": {
+            "name": "KUNM-FM",
+            "id": "227",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KBOM-FM",
+                "id": "1446",
+                "usesInheritance": true
+              },
+              {
+                "name": "KRAR-FM",
+                "id": "1447",
+                "usesInheritance": true
+              },
+              {
+                "name": "KRRE-FM",
+                "id": "1448",
+                "usesInheritance": true
+              },
+              {
+                "name": "KRRT-FM",
+                "id": "1449",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "227",
+          "recency": 360
+        },
+        "guid": "4fcf700f182d4b239a5971324bb3b623",
+        "brand": {
+          "band": "FM",
+          "call": "KUNM",
+          "frequency": "89.9",
+          "marketCity": "Albuquerque",
+          "marketState": "NM",
+          "name": "KUNM",
+          "tagline": "A Public Service Of The University Of New Mexico"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "69474a64cdce43a398a6fd0be1550416",
+                "typeId": "10",
+                "href": "https://18543.live.streamtheworld.com/KUNMFM_128.mp3"
+              }
+            ],
+            "guid": "4fcf716007484eaf83f64a4342d2d9c3",
+            "title": "KUNM-1",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "a08543149a354f6dae80375c02b01b87",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUNMFM_2AAC.aac"
+              }
+            ],
+            "guid": "f460ff220d5b46b5894720a2cbe6b7e1",
+            "title": "KUNM-2",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kunm.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kunm_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kunm_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/227_f790c2f5f8f55fdf1a470837d26e224d.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KUNMRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/kunmnews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "69474a64cdce43a398a6fd0be1550416",
+            "href": "https://18543.live.streamtheworld.com/KUNMFM_128.mp3",
+            "isPrimaryStream": true,
+            "title": "KUNM-1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a08543149a354f6dae80375c02b01b87",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUNMFM_2AAC.aac",
+            "isPrimaryStream": false,
+            "title": "KUNM-2",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "f0f9839ef1974103a999331877d13c27",
+            "href": "https://kunm.drupal.publicbroadcasting.net/podcasts/18/rss.xml",
+            "title": "Let's Talk New Mexico",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6fa8443d94db40ddb4bb2b5cdd3056eb",
+            "href": "https://feeds.captivate.fm/thewellwomanshow/",
+            "title": "The Well Woman Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "563e04d6eece43928db2ecf23b0ec411",
+            "href": "https://kunm.drupal.publicbroadcasting.net/podcasts/2175/rss.xml",
+            "title": "University Showcase",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b84e87e2dd004249801c8d0f6b300ac9",
+            "href": "https://kunm.drupal.publicbroadcasting.net/podcasts/346/rss.xml",
+            "title": "Espejos de Aztlan",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9a2ad1a34e164a59a961db24604887a4",
+            "href": "https://kunm.drupal.publicbroadcasting.net/podcasts/56348/rss.xml",
+            "title": "Drilling Deep",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "273196c8593f441fa742b45835acbe03",
+            "href": "https://kunm.drupal.publicbroadcasting.net/podcasts/117553/rss.xml",
+            "title": "Augmented Humanity",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "bdc5bacd2e7a4c43b5870f3e58d98d55",
+            "href": "https://kunm.drupal.publicbroadcasting.net/podcasts/8810/rss.xml",
+            "title": "Spencer Beckwith On The Arts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6c448d00c6d341559c8ecf73a47280d5",
+            "href": "https://kunm.drupal.publicbroadcasting.net/podcasts/123929/rss.xml",
+            "title": "Your New Mexico Government",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "37455d37243b48bfa6997f57b775339a",
+            "href": "http://donate.kunm.org/donate",
+            "title": "Give Now",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "f457dfee43954c20bd2bf3266f65b354",
+            "href": "https://secure3.convio.net/unm/site/Donation2?df_id=1060&mfc_pref=T&1060.donation=form1",
+            "title": "Give Now",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/227.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/7",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kanw-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "7",
+        "network": {
+          "inheritingFrom": "7",
+          "usesInheritance": false,
+          "currentOrgId": "7",
+          "tier1": {
+            "name": "KANW-FM",
+            "id": "7",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KANR-FM",
+                "id": "907",
+                "usesInheritance": true
+              },
+              {
+                "name": "KIDS-FM",
+                "id": "1179",
+                "usesInheritance": true
+              },
+              {
+                "name": "KANM-FM",
+                "id": "1718",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700d24a845cea537648602dfcad9",
+        "brand": {
+          "band": "FM",
+          "call": "KANW",
+          "frequency": "89.1",
+          "marketCity": "Albuquerque",
+          "marketState": "NM",
+          "name": "KANW New Mexico Public Media",
+          "tagline": "KANW New Mexico Public Media"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ffc6e1b570a44d40be75dabf3dca37f7",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KANWFM.pls"
+              }
+            ],
+            "guid": "4fcf71580ee446d48188cf89d615621b",
+            "title": "KANW-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kanw.com/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kanw_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kanw_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/7.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/891-KANW-FM/194453545346",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "ffc6e1b570a44d40be75dabf3dca37f7",
+            "href": "https://playerservices.streamtheworld.com/pls/KANWFM.pls",
+            "isPrimaryStream": true,
+            "title": "KANW-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "fbfde98bc97544139aaefcf341716bf3",
+            "href": "https://donate.nprstations.org/kanw/?_ga=1.12333042.794753229.1362506606",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/7.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/167",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/krwg-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "167",
+        "network": {
+          "inheritingFrom": "167",
+          "usesInheritance": false,
+          "currentOrgId": "167",
+          "tier1": {
+            "name": "KRWG-FM",
+            "id": "167",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KRXG-FM",
+                "id": "1477",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700f07b448f0bd19fbd013fc4420",
+        "brand": {
+          "band": "FM",
+          "call": "KRWG",
+          "frequency": "90.7",
+          "marketCity": "Las Cruces",
+          "marketState": "NM",
+          "name": "KRWG",
+          "tagline": "News That Matters"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "021c541f4b784b04b896c26b0a80671f",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRWGFM.mp3"
+              }
+            ],
+            "guid": "4fcf715f179a48d499ad88097aa5c42d",
+            "title": "KRWG Public Media",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.krwg.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/krwg_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/krwg_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/167.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KRWG/144752845590316",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/krwg",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "021c541f4b784b04b896c26b0a80671f",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KRWGFM.mp3",
+            "isPrimaryStream": true,
+            "title": "KRWG Public Media",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "9b01a4fd723b4914aeb2a3393cea8529",
+            "href": "http://supportkrwg.nmsu.edu/",
+            "title": "Donate Now",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "287cada81b9c4616945cbef318eccbe4",
+            "href": "http://supportkrwg.nmsu.edu/",
+            "title": "Donate Now",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/167.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/75",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kenw-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "75",
+        "network": {
+          "inheritingFrom": "75",
+          "usesInheritance": false,
+          "currentOrgId": "75",
+          "tier1": {
+            "name": "KENW-FM",
+            "id": "75",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KMTH-FM",
+                "id": "76",
+                "usesInheritance": true
+              },
+              {
+                "name": "KENG-FM",
+                "id": "1516",
+                "usesInheritance": true
+              },
+              {
+                "name": "KENM-FM",
+                "id": "1517",
+                "usesInheritance": true
+              },
+              {
+                "name": "KENU-FM",
+                "id": "1518",
+                "usesInheritance": true
+              },
+              {
+                "name": "KENE-FM",
+                "id": "1519",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700e1329404891781829d91be151",
+        "brand": {
+          "band": "FM",
+          "call": "KENW",
+          "frequency": "89.5",
+          "marketCity": "Portales",
+          "marketState": "NM",
+          "name": "KENW",
+          "tagline": "Public Radio for Eastern New Mexico and West Texas"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f9ecebdf33594339b4e9000025da0b12",
+                "typeId": "10",
+                "href": "https://ice42.securenetsystems.net/KENWFM2"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "9657adf733de43edbd27bd51910805b5",
+                "typeId": "13",
+                "href": "https://ice10.securenetsystems.net/KENWFM"
+              }
+            ],
+            "guid": "75ec10c307fa448eb5cdb8f1e0033ea6",
+            "title": "KENW Public Radio Network",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kenw.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kenw_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kenw_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/75.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kenw.enmu",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f9ecebdf33594339b4e9000025da0b12",
+            "href": "https://ice42.securenetsystems.net/KENWFM2",
+            "isPrimaryStream": true,
+            "title": "KENW Public Radio Network",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "9657adf733de43edbd27bd51910805b5",
+            "href": "https://ice10.securenetsystems.net/KENWFM",
+            "isPrimaryStream": true,
+            "title": "KENW Public Radio Network",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d033b7140a464bb6affe4fcacff27eac",
+            "href": "http://www.kenw.org/support",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/75.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1535",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "5ce52bbd016b4ff1b3cbf0fd2b549c53",
+        "brand": {
+          "band": "FM",
+          "call": "KUSW",
+          "frequency": "88.1",
+          "marketCity": "Flora Vista",
+          "marketState": "NM",
+          "name": "KUSW-FM",
+          "tagline": null
+        },
+        "orgId": "1535",
+        "network": {
+          "inheritingFrom": "1535",
+          "usesInheritance": false,
+          "currentOrgId": "1535"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1718",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "e5af771fb1d64a0da52f9dc88c04a329",
+        "brand": {
+          "band": "FM",
+          "call": "KANM",
+          "frequency": "90.3",
+          "marketCity": "Grants",
+          "marketState": "NM",
+          "name": "KANM-FM",
+          "tagline": null
+        },
+        "orgId": "1718",
+        "network": {
+          "inheritingFrom": "1718",
+          "usesInheritance": false,
+          "currentOrgId": "1718"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1536",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "f5ae208a92b44a1ba1866855e8ef2259",
+        "brand": {
+          "band": "FM",
+          "call": "KUUT",
+          "frequency": "89.7",
+          "marketCity": "Farmington",
+          "marketState": "NM",
+          "name": "KUUT-FM",
+          "tagline": null
+        },
+        "orgId": "1536",
+        "network": {
+          "inheritingFrom": "1536",
+          "usesInheritance": false,
+          "currentOrgId": "1536"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

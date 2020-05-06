@@ -1,0 +1,3291 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "CO"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/33",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kcfr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "33",
+        "network": {
+          "name": "CPR News",
+          "inheritingFrom": "32",
+          "usesInheritance": true,
+          "currentOrgId": "33",
+          "tier1": {
+            "name": "Colorado Public Radio",
+            "id": "32",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KCFR-FM",
+                "id": "33",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KCFC-AM",
+                    "id": "34",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KCFP-FM",
+                    "id": "35",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KKPC-AM",
+                    "id": "36",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPRE-FM",
+                    "id": "37",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPRH-FM",
+                    "id": "38",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPRN-FM",
+                    "id": "39",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPRU-FM",
+                    "id": "40",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KVOD-FM",
+                    "id": "41",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KVOV-FM",
+                    "id": "970",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KPYR-FM",
+                    "id": "971",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KVOQ-FM",
+                    "id": "1507",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KVXO-FM",
+                    "id": "1515",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KXRE-AM",
+                    "id": "1566",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "32",
+          "recency": 120
+        },
+        "guid": "4fcf700e06e143c788a613aabb40efc6",
+        "brand": {
+          "band": "FM",
+          "call": "KCFR",
+          "frequency": "90.1",
+          "marketCity": "Denver",
+          "marketState": "CO",
+          "name": "CPR News",
+          "tagline": "From Colorado Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "233723699135455fb73d2c63e79f56a3",
+                "typeId": "10",
+                "href": "https://livestream.cprnetwork.org/pls/live_newsinfo_mp3_ssl.pls"
+              }
+            ],
+            "guid": "4fcf71561b024af39759655591e7fc55",
+            "title": "Colorado Public Radio News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.cpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/cpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/cpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/32_1d55f45b9febcca7443fcf34fef99284.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/32_9bd87f8164d768b763ec14caf531da9e.mp4?1582316144273",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/32_01a4de83184ac792dc1353510dc20722.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/32_ab0303f579285b48f06e2f369c55e61f.mp4?1499715296470",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/32_c9513a8a738fe67eadc821d5ae374d0f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/32_467babfb64c700c449d7f32a9d2848ac.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/32_a76302c65c4074acc9ca8fa6f2feba43.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/32_e54a9ef26ca7340bfd16a29c181a16e4.mp4?1499712995514",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/32_0a4b30eefb0e25c4df4be9c1bfe31e4b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/32_c571bc40fd26a1fcd7fcb59c75d0527c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/ColoradoPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/COPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "233723699135455fb73d2c63e79f56a3",
+            "href": "https://livestream.cprnetwork.org/pls/live_newsinfo_mp3_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Colorado Public Radio News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "5e08c5a6875b41ccbb4cc71a7d50ca25",
+            "href": "https://www.cpr.org/rss/whos-gonna-govern.podcast.rss",
+            "title": "Who's Gonna Govern?",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "bf779a3479f8419c818f8e70b7c61595",
+            "href": "https://www.cpr.org/rss/the-great-composers.podcast.rss",
+            "title": "The Great Composers",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "73abaee8aecf470e8d82ad96bfa85fbe",
+            "href": "https://feeds.feedburner.com/AtADistance",
+            "title": "At A Distance",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d3c69b4a0f844ff89fefd0b56967b20c",
+            "href": "https://www.cpr.org/rss/since-columbine.podcast.rss",
+            "title": "Since Columbine",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f411d59da2b346f48d7eec27316c7729",
+            "href": "https://feeds.feedburner.com/onsomethingpodcast",
+            "title": "On Something",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "73e30424f6054f149c70ad254eeb0946",
+            "href": "https://www.cpr.org/rss/beethoven.podcast.rss",
+            "title": "The Beethoven 9",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3cac858a618b477583945a65fc66231e",
+            "href": "https://www.cpr.org/rss/the-taxman.podcast.rss",
+            "title": "The Taxman",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "da74704203da4812a509889fffb842f1",
+            "href": "https://feeds.feedburner.com/backfrombroken",
+            "title": "Back From Broken",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "617b9e6448a84c3db01d63bf02d74570",
+            "href": "https://www.cpr.org/rss/the-playlist-league.podcast.rss",
+            "title": "The Playlist League",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c692a1fb2df9463da5116175ef346737",
+            "href": "https://www.cpr.org/rss/inside-track.podcast.rss",
+            "title": "Inside Track",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "456fc3f7ac5844dda3b62ae2f2fa38c7",
+            "href": "https://www.cpr.org/rss/colorado_matters.podcast.rss",
+            "title": "Colorado Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e29b9b1119434b83bbc67526f254b830",
+            "href": "https://www.cpr.org/rss/centennial-sounds.podcast.rss",
+            "title": "Centennial Sounds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "69fbffb69f80444f85f56491a6c04902",
+            "href": "https://www.cpr.org/rss/purplish.podcast.rss",
+            "title": "Purplish",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c74ad450b3e547aea6a4d47055158894",
+            "href": "https://www.cpr.org/rss/indie-102-3-sessions.podcast.rss",
+            "title": "Indie 102.3 Sessions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "fbe334f0e2da49bf9303814f43b29cd6",
+            "href": "https://secure.cpr.org/subscribe/renew.php",
+            "title": "Support CPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "6ecc014d2d7d4b628690008bdc418e00",
+            "href": "https://secure.cpr.org/subscribe/renew.php?utm_source=nprone",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "5e15d1a9149f416b8bb47c1fc4e2b79d",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/32_34f11d941c5888f1f583611ff167c469.mp4",
+            "title": "Coronavirus Time - Ray White",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "a9102f7cc6f2445ebb56d0138985c378",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/32_b1a726e3401977395afe9ff6291dcefd.mp4",
+            "title": "Coronavirus Gratitude - Jeremy ",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "aee9e2ad94214cc983e8873a20e9af68",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/32_d8e328a54fcd2629dac7f7e4eb65bbe1.mp4",
+            "title": "Evergreen Membership - Karla",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/223",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kunc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "223",
+        "network": {
+          "inheritingFrom": "223",
+          "usesInheritance": false,
+          "currentOrgId": "223",
+          "tier1": {
+            "name": "KUNC-FM",
+            "id": "223",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KRNC-FM",
+                "id": "924",
+                "usesInheritance": true
+              },
+              {
+                "name": "KMPB-FM",
+                "id": "1399",
+                "usesInheritance": true
+              },
+              {
+                "name": "KVNC-FM",
+                "id": "1400",
+                "usesInheritance": true
+              },
+              {
+                "name": "KENC-FM",
+                "id": "1401",
+                "usesInheritance": true
+              },
+              {
+                "name": "KJAC-FM",
+                "id": "1528",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "223",
+          "recency": 360
+        },
+        "guid": "4fcf700f173f4f3e99795cd3e07d72a5",
+        "brand": {
+          "band": "FM",
+          "call": "KUNC",
+          "frequency": "91.5",
+          "marketCity": "Greeley",
+          "marketState": "CO",
+          "name": "KUNC",
+          "tagline": "Community Radio for Northern Colorado"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cccfac1c8fb04e92b6d88027a3379c4e",
+                "typeId": "10",
+                "href": "https://kunc.streamguys1.com/kunc"
+              }
+            ],
+            "guid": "4fcf716000614a74884af9a4a3ea5ea4",
+            "title": "KUNC 91.5",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c0e6ac55126049f3947fc567545f06ca",
+                "typeId": "10",
+                "href": "https://kunc.streamguys1.com/kjac"
+              }
+            ],
+            "guid": "141ff619289025943549c5910e22c55b",
+            "title": "The Colorado Sound",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://us.netdonor.net/page/16365/donate/1",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kunc_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kunc_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/223_963c240a4d58402b864c20c01f393f1f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/223_a0591dc3f0bd6176f2ef7381fbafc104.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/223_8201bbbfb0f97dd39b539451ddc68e11.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/223_41df371a568c9cadca9de81a1ebe1ece.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/223_67e5bd0e5ac78e1b6521731a49ac71bb.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/223_1febd25460f2a4fbc1652418678bf697.mp4?1559599997949",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/223_b267360969b4c54f3886e1c3d44d9516.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/223_0f4f27fc542c36fb389a1b7ca08af378.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/223_e8d10fa36c24542d872b3c457f3f28d9.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/223_c1d7d2a3d6b6bd9de0b929b498f0e565.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/223_bbf3ca89ffca60d977b34c7c7269f010.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/223_f1ac23adb161bbb4807dbdcbcd5eb09f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/223_01bb4677204ea9a130bd1d8783b4accd.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/223_c49b0d5e445ed556bcb0d5c9592ce0da.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KUNC915",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/KUNC",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "cccfac1c8fb04e92b6d88027a3379c4e",
+            "href": "https://kunc.streamguys1.com/kunc",
+            "isPrimaryStream": true,
+            "title": "KUNC 91.5",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c0e6ac55126049f3947fc567545f06ca",
+            "href": "https://kunc.streamguys1.com/kjac",
+            "isPrimaryStream": false,
+            "title": "The Colorado Sound",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "5197813f095b4ebcb6a580e1bfbf1d9e",
+            "href": "https://kunc-rss.streamguys1.com/kunc/kuncs-colorado-edition.xml",
+            "title": "KUNC's Colorado Edition",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "798d347ba3fa4145b39c6edc181e5f41",
+            "href": "https://kunc-rss.streamguys1.com/kunc/seminars-at-steamboat.xml",
+            "title": "Seminars at Steamboat",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3e38adbb01dd49b08658e0d32f83c14d",
+            "href": "https://kunc-rss.streamguys1.com/colosound/this-day-in-music-history.xml",
+            "title": "This Day In Music History",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "c2e73885e2b541d1a9116d22389ee5d2",
+            "href": "https://us.netdonor.net/page/16365/donate/1",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "586ba533a60040ba83f938a4f4ed9e55",
+            "href": "https://us.netdonor.net/page/16365/donate/1",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "6fcc1198cf884df7813c4d1346720229",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/223_fa0e917770dc75e711566c5660662667.mp4",
+            "title": "6-3-19 - Matt",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "1965dc0f337e412ab516c11d0cb4d409",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/223_1cf73c7fe886df80459460e1d9256bbe.mp4",
+            "title": "Ask 3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "a5c11132c9994abcba57799f4f2cb7f8",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/223_d2707dc3e8c198d36a5bf083baebf077.mp4",
+            "title": "Ask 4",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "a73dd541529d433490b347db3dd756c1",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/223_446f4a7a5525aef1e556434175e67cc0.mp4",
+            "title": "6-3-19 - Brian",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/223.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/154",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/krcc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "154",
+        "network": {
+          "inheritingFrom": "154",
+          "usesInheritance": false,
+          "currentOrgId": "154",
+          "tier1": {
+            "name": "KRCC-FM",
+            "id": "154",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KECC-FM",
+                "id": "839",
+                "usesInheritance": true
+              },
+              {
+                "name": "KCCS-FM",
+                "id": "1529",
+                "usesInheritance": false
+              },
+              {
+                "name": "KWCC-FM",
+                "id": "1568",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "154",
+          "recency": 240
+        },
+        "guid": "4fcf700f04154d899eb4a05be30cd8c5",
+        "brand": {
+          "band": "FM",
+          "call": "KRCC",
+          "frequency": "91.5",
+          "marketCity": "Colorado Springs",
+          "marketState": "CO",
+          "name": "91.5 KRCC",
+          "tagline": "Southern Colorado's NPR station."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1635fa491e1e409eae8838d32da7e544",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KRCCHD2.pls"
+              }
+            ],
+            "guid": "f227c8cf5a67486b872441264d3ffeb0",
+            "title": "KRCC 2 - BBC World Service",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1b7dd79a40a2479494c8aaadde1dffd4",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KRCCFM_96.pls"
+              }
+            ],
+            "guid": "bceb1a9a13c54a3ebcec05324a6496c5",
+            "title": "91.5 KRCC",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.krcc.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/krcc_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/krcc_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/154.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KRCC.FM",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KRCC",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1635fa491e1e409eae8838d32da7e544",
+            "href": "https://playerservices.streamtheworld.com/pls/KRCCHD2.pls",
+            "isPrimaryStream": false,
+            "title": "KRCC 2 - BBC World Service",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1b7dd79a40a2479494c8aaadde1dffd4",
+            "href": "https://playerservices.streamtheworld.com/pls/KRCCFM_96.pls",
+            "isPrimaryStream": true,
+            "title": "91.5 KRCC",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "10f757694c304689beaf37efabba1e07",
+            "href": "https://krcc.drupal.publicbroadcasting.net/podcasts/30371/rss.xml",
+            "title": "91.5 KRCC's Looking Up",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d583e0ab853b48ffbf363485fd2dc296",
+            "href": "https://krcc.drupal.publicbroadcasting.net/podcasts/5160/rss.xml",
+            "title": "91.5 KRCC Local & Regional News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ba59f4a839a1468b955407deabc36ce9",
+            "href": "https://krcc.drupal.publicbroadcasting.net/podcasts/21325/rss.xml",
+            "title": "91.5 KRCC's Wish We Were Here",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c05576c6744f4a959ac98a0671538107",
+            "href": "https://krcc.drupal.publicbroadcasting.net/podcasts/term/707/rss.xml",
+            "title": "91.5 KRCC Local Newscasts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4074484809004260b768532cb4855c58",
+            "href": "https://krcc.drupal.publicbroadcasting.net/podcasts/46347/rss.xml",
+            "title": "91.5 KRCC's Air Check",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2e18b390fb9449949cdb6e2eaf3393ad",
+            "href": "https://support.krcc.org/page.aspx?pid=492",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "2b4c598ef2714646a944d9929143f737",
+            "href": "https://support.krcc.org/page.aspx?pid=491",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/154.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/192",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf700f0ef64eca85a9d6a5287b3ae6",
+        "brand": {
+          "band": "FM",
+          "call": "KSUT",
+          "frequency": "91.3",
+          "marketCity": "Ignacio",
+          "marketState": "CO",
+          "name": "Four Corners Public Radio",
+          "tagline": "Four Corners Public Radio"
+        },
+        "orgId": "192",
+        "network": {
+          "inheritingFrom": "192",
+          "usesInheritance": false,
+          "currentOrgId": "192"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "94125789794f45839fb48738e0091295",
+                "typeId": "10",
+                "href": "https://ksut.streamguys1.com/kute"
+              }
+            ],
+            "guid": "4fcf715f1aff45f280bbcead9c499fff",
+            "title": "KSUT - Four Corners Public Radio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7f8d0b2c27d849d6a728daf6b1a1ddd7",
+                "typeId": "10",
+                "href": "https://ksut.streamguys1.com/ksut"
+              }
+            ],
+            "guid": "bff1db8f56ae4289bb76438bf98de386",
+            "title": "KSUT Southern Ute Tribal Radio",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.ksut.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KSUT/51837464441",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "94125789794f45839fb48738e0091295",
+            "href": "https://ksut.streamguys1.com/kute",
+            "isPrimaryStream": false,
+            "title": "KSUT - Four Corners Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7f8d0b2c27d849d6a728daf6b1a1ddd7",
+            "href": "https://ksut.streamguys1.com/ksut",
+            "isPrimaryStream": false,
+            "title": "KSUT Southern Ute Tribal Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/192.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/747",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kajx-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "747",
+        "network": {
+          "inheritingFrom": "747",
+          "usesInheritance": false,
+          "currentOrgId": "747",
+          "tier1": {
+            "name": "KAJX-FM",
+            "id": "747",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KCJX-FM",
+                "id": "912",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "747",
+          "recency": 360
+        },
+        "guid": "4fcf701221684f20b58fbbfde6818284",
+        "brand": {
+          "band": "FM",
+          "call": "KAJX",
+          "frequency": "91.5",
+          "marketCity": "Aspen",
+          "marketState": "CO",
+          "name": "Aspen Public Radio ",
+          "tagline": "NPR News for Aspen and the Valley"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6e58936cfa5140a8b0027b7016069772",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KAJXFM.pls"
+              }
+            ],
+            "guid": "4fcf71450af94706b2e46675539d2cba",
+            "title": "Aspen Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.aspenpublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kajx_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kajx_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/747.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/aspenradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/aspenpubradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "6e58936cfa5140a8b0027b7016069772",
+            "href": "https://playerservices.streamtheworld.com/pls/KAJXFM.pls",
+            "isPrimaryStream": true,
+            "title": "Aspen Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "a168c3ade2d342b3980f145c77ca23b8",
+            "href": "https://kajx.drupal.publicbroadcasting.net/podcasts/100943/rss.xml",
+            "title": "Gen Z Tea",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3287677a4a6642a5b049f92799769b8c",
+            "href": "https://interland3.donorperfect.net/weblink/weblink.aspx?name=E103121&id=57",
+            "title": "Aspen Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "f6330a610e724e70a452f6cbe1dcfe44",
+            "href": "https://interland3.donorperfect.net/weblink/weblink.aspx?name=E103121&id=57",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "5b667c3352f94013ba51da6f6b291fc7",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/747_acdadfd56f0d734fa0e1a63dab30ee90.mp4",
+            "title": "Alex Hager Special Response April 2020",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "84fdad4305d5459ea9bfa18402b274c5",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/747_8a75527f2d643c440b6d4ee75ba49baf.mp4",
+            "title": "Christin Kay Special Response April 2020",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/747.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/254",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf700f1d7c4708b4134f882156161f",
+        "brand": {
+          "band": "FM",
+          "call": "KUVO",
+          "frequency": "89.3",
+          "marketCity": "Denver",
+          "marketState": "CO",
+          "name": "KUVO ",
+          "tagline": "Community, Culture, Music"
+        },
+        "orgId": "254",
+        "network": {
+          "inheritingFrom": "254",
+          "usesInheritance": false,
+          "currentOrgId": "254",
+          "tier1": {
+            "name": "KUVO-FM",
+            "id": "254",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KVJZ-FM",
+                "id": "1438",
+                "usesInheritance": false
+              },
+              {
+                "name": "Inside Energy",
+                "id": "316496000",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3a62077198e94af4a467e726e2b4a3ae",
+                "typeId": "10",
+                "href": "https://kuvo-ice.streamguys1.com/kuvohd2-mp3-128"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "bbff077b21c9431cb874472054efcb89",
+                "typeId": "13",
+                "href": "https://kuvo-ice.streamguys1.com/kuvohd2-aac-128"
+              }
+            ],
+            "guid": "d7900b89790d4e02aafda8745e2bca01",
+            "title": "The DROP 303",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6227a23bcb744e40bdcef38b8751cdfc",
+                "typeId": "10",
+                "href": "https://kuvo-ice.streamguys1.com/kuvo-mp3-128"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "1c4ed840270f450a8176a6f32e333eac",
+                "typeId": "13",
+                "href": "https://kuvo-ice.streamguys1.com/kuvo-aac-128"
+              }
+            ],
+            "guid": "c416bd92f2cf458e827142694653b24d",
+            "title": "KUVO Jazz",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kuvo.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kuvo_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kuvo_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/254.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/jazz89kuvo",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KUVOJazz89",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3a62077198e94af4a467e726e2b4a3ae",
+            "href": "https://kuvo-ice.streamguys1.com/kuvohd2-mp3-128",
+            "isPrimaryStream": true,
+            "title": "The DROP 303",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6227a23bcb744e40bdcef38b8751cdfc",
+            "href": "https://kuvo-ice.streamguys1.com/kuvo-mp3-128",
+            "isPrimaryStream": false,
+            "title": "KUVO Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1c4ed840270f450a8176a6f32e333eac",
+            "href": "https://kuvo-ice.streamguys1.com/kuvo-aac-128",
+            "isPrimaryStream": false,
+            "title": "KUVO Jazz",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "bbff077b21c9431cb874472054efcb89",
+            "href": "https://kuvo-ice.streamguys1.com/kuvohd2-aac-128",
+            "isPrimaryStream": true,
+            "title": "The DROP 303",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "baad3cf9c9674d9a88ead42f5f1fa98e",
+            "href": "https://rmpm.secure.force.com/support/kuvo",
+            "title": "Donate to KUVO",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "d5a790f8350f4e02b695d0858abbc1d0",
+            "href": "https://rmpm.secure.force.com/support/kuvo",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/254.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/752",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "752",
+        "network": {
+          "inheritingFrom": "752",
+          "usesInheritance": false,
+          "currentOrgId": "752",
+          "tier1": {
+            "name": "KVNF-FM",
+            "id": "752",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KVMT-FM",
+                "id": "807",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf701222b24d64b726d7c7cc3b4e1c",
+        "brand": {
+          "band": "FM",
+          "call": "KVNF",
+          "frequency": "90.9",
+          "marketCity": "Paonia",
+          "marketState": "CO",
+          "name": "KVNF - Mountain Grown Community Radio",
+          "tagline": " Mountain Grown Community Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "15723b419942418193b2d6f04aa92caa",
+                "typeId": "10",
+                "href": "https://peridot.streamguys1.com:7145/live"
+              }
+            ],
+            "guid": "13f20281f1a02e24834b971527a3436e",
+            "title": "KVNF Mountain Grown Community Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kvnf.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kvnf_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kvnf_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/752.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "15723b419942418193b2d6f04aa92caa",
+            "href": "https://peridot.streamguys1.com:7145/live",
+            "isPrimaryStream": true,
+            "title": "KVNF Mountain Grown Community Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "0045a04fb35c433b8dd11b8d3c6882f4",
+            "href": "https://kvnf.drupal.publicbroadcasting.net/podcasts/9315/rss.xml",
+            "title": "As the Worm Turns",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "82b94bc61f0b4d2eb6bfb76943645a15",
+            "href": "https://kvnf.drupal.publicbroadcasting.net/podcasts/58/rss.xml",
+            "title": "Talkin' Music",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "992895207e56401e828fce48ad0d6582",
+            "href": "https://kvnf.drupal.publicbroadcasting.net/podcasts/82/rss.xml",
+            "title": "KVNF's Local Motion",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e253795ea2b54c59b2e210c63cb5f8d8",
+            "href": "https://kvnf.drupal.publicbroadcasting.net/podcasts/110/rss.xml",
+            "title": "Western Slope Skies",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "013c07055f97480793efbcff884e01bf",
+            "href": "https://kvnf.secureallegiance.com/kvnf/WebModule/Donate.aspx?P=DONATENOW&PAGETYPE=PLG&CHECK=8COsTukH9pGD7jmvqnjsMK1gzMC6uhq5nDjkJobrCdg%3d",
+            "title": "KVNF - Donate Now",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/752.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/749",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kdnk-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "749",
+        "network": {
+          "inheritingFrom": "749",
+          "usesInheritance": false,
+          "currentOrgId": "749",
+          "tier1": {
+            "name": "KDNK-FM",
+            "id": "749",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf701221df4ddcbd5745ab4d1fa1d0",
+        "brand": {
+          "band": "FM",
+          "call": "KDNK",
+          "frequency": "88.1",
+          "marketCity": "Carbondale",
+          "marketState": "CO",
+          "name": "KDNK",
+          "tagline": "Carbondale Community Access Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "8d438e298560491dbd360ecc9e13034d",
+                "typeId": "10",
+                "href": "https://kdnk.streamguys1.com/live"
+              }
+            ],
+            "guid": "514afffc0ec94fa8af7ef195bf5e6808",
+            "title": "KDNK Community Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kdnk.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kdnk_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/749.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "8d438e298560491dbd360ecc9e13034d",
+            "href": "https://kdnk.streamguys1.com/live",
+            "isPrimaryStream": true,
+            "title": "KDNK Community Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "6222b03d90b34a8d94e381e94b55089c",
+            "href": "https://kdnk.drupal.publicbroadcasting.net/podcasts/752/rss.xml",
+            "title": "Living Permaculture",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9499c8e022c641e895ae8cfca9359721",
+            "href": "https://kdnk.drupal.publicbroadcasting.net/podcasts/699/rss.xml",
+            "title": "The Andy Zanca Youth Empowerment Program",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "63d403fba15245ab920d4e2c69c01a76",
+            "href": "https://kdnk.drupal.publicbroadcasting.net/podcasts/796/rss.xml",
+            "title": "Express Yourself",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a51701bf7e1c4e4999f5155b1ef2d110",
+            "href": "https://kdnk.drupal.publicbroadcasting.net/podcasts/750/rss.xml",
+            "title": "Senior Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "38a00b38e4604c869b2c07d202473940",
+            "href": "https://kdnk.drupal.publicbroadcasting.net/podcasts/747/rss.xml",
+            "title": "Shifting Gears",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "db7dfd41821648bbb2308f5a33200dba",
+            "href": "https://kdnk.drupal.publicbroadcasting.net/podcasts/778/rss.xml",
+            "title": "Valley Voices",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4a75b4d51ccf463c811f24b78cd97396",
+            "href": "http://www.kdnk.org/rss/GeekSpeak.xml",
+            "title": "Geek Speak",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "288eaf4c37784d61b0a4f6ac6922dead",
+            "href": "https://connect.clickandpledge.com/w/Form/990f31b8-1388-4e3f-ac6f-ef09ddfc41dd",
+            "title": "Membership",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/749.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1528",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "1528",
+        "network": {
+          "inheritingFrom": "1528",
+          "usesInheritance": false,
+          "currentOrgId": "1528"
+        },
+        "guid": "e8fd7eb76ac2416a8549588227c388de",
+        "brand": {
+          "band": "FM",
+          "call": "KJAC",
+          "frequency": "105.5",
+          "marketCity": "Timnath",
+          "marketState": "CO",
+          "name": "The Colorado Sound",
+          "tagline": "The Colorado Sound"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c0e6ac55126049f3947fc567545f06ca",
+                "typeId": "10",
+                "href": "https://kunc.streamguys1.com/kjac"
+              }
+            ],
+            "guid": "141ff619289025943549c5910e22c55b",
+            "title": "The Colorado Sound",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://coloradosound.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kjac_fm.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "c0e6ac55126049f3947fc567545f06ca",
+            "href": "https://kunc.streamguys1.com/kjac",
+            "isPrimaryStream": true,
+            "title": "The Colorado Sound",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "3e38adbb01dd49b08658e0d32f83c14d",
+            "href": "https://kunc-rss.streamguys1.com/colosound/this-day-in-music-history.xml",
+            "title": "This Day In Music History",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "5611c7ba6e734cdda99480a779ed0b32",
+            "href": "http://kunc.convio.net/colosound",
+            "title": "Membership",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/751",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kbut-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "751",
+        "network": {
+          "inheritingFrom": "751",
+          "usesInheritance": false,
+          "currentOrgId": "751",
+          "tier1": {
+            "name": "KBUT-FM",
+            "id": "751",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "751",
+          "recency": 360
+        },
+        "guid": "4fcf7012226f4b10842693276a0d1cdb",
+        "brand": {
+          "band": "FM",
+          "call": "KBUT",
+          "frequency": "90.3",
+          "marketCity": "Crested Butte",
+          "marketState": "CO",
+          "name": "KBUT",
+          "tagline": "Community Radio for the Gunnison Valley"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "fe512bfa9bc64fe0b3f2cb8204d90749",
+                "typeId": "10",
+                "href": "https://media.publicbroadcasting.net/kbut/newscast/newscast.wav"
+              }
+            ],
+            "guid": "86ee71fe9cf34a699f47fb5b5ece982c",
+            "title": "newscast",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "06aa3716a052480f860dbdeed7306650",
+                "typeId": "10",
+                "href": "https://media.publicbroadcasting.net/kbut/newscast/newscast.wav"
+              }
+            ],
+            "guid": "2ebca61667b545b99a791bd8a4f5bade",
+            "title": "KBUT Newscast",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "834d1c2f70f64f3cb68c46a77a7fef5c",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBUTFM.mp3"
+              }
+            ],
+            "guid": "589e46aacd0a4f26acd439ac412bb6e7",
+            "title": "Listen Live to KBUT",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kbut.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kbut_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/751.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/KBUTCB",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KBUTRADIO",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "fe512bfa9bc64fe0b3f2cb8204d90749",
+            "href": "https://media.publicbroadcasting.net/kbut/newscast/newscast.wav",
+            "isPrimaryStream": false,
+            "title": "newscast",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "06aa3716a052480f860dbdeed7306650",
+            "href": "https://media.publicbroadcasting.net/kbut/newscast/newscast.wav",
+            "isPrimaryStream": false,
+            "title": "KBUT Newscast",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "834d1c2f70f64f3cb68c46a77a7fef5c",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KBUTFM.mp3",
+            "isPrimaryStream": true,
+            "title": "Listen Live to KBUT",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3ad0d034f7594ffb948759ba138a979d",
+            "href": "https://www.kbut.org/give",
+            "title": null,
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/751.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/847",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf70130f9e41ae8b4e683a0415dec0",
+        "brand": {
+          "band": "FM",
+          "call": "KUTE",
+          "frequency": "90.1",
+          "marketCity": "Ignacio",
+          "marketState": "CO",
+          "name": "Four Corners Public Radio",
+          "tagline": "Four Corners Public Radio"
+        },
+        "orgId": "847",
+        "network": {
+          "name": "Four Corners Public Radio",
+          "inheritingFrom": "191",
+          "usesInheritance": true,
+          "currentOrgId": "847",
+          "tier1": {
+            "name": "Four Corners Public Radio",
+            "id": "191",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KSUT-FM",
+                "id": "192",
+                "usesInheritance": false,
+                "tier3": [
+                  {
+                    "name": "KUTE-FM",
+                    "id": "847",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPGS-FM",
+                    "id": "1533",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KDNG-FM",
+                    "id": "1534",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KUSW-FM",
+                    "id": "1535",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KUUT-FM",
+                    "id": "1536",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7f8d0b2c27d849d6a728daf6b1a1ddd7",
+                "typeId": "10",
+                "href": "https://ksut.streamguys1.com/ksut"
+              }
+            ],
+            "guid": "bff1db8f56ae4289bb76438bf98de386",
+            "title": "KSUT Southern Ute Tribal Radio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "94125789794f45839fb48738e0091295",
+                "typeId": "10",
+                "href": "https://ksut.streamguys1.com/kute"
+              }
+            ],
+            "guid": "4fcf715f1aff45f280bbcead9c499fff",
+            "title": "KSUT - Four Corners Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.ksut.org",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "7f8d0b2c27d849d6a728daf6b1a1ddd7",
+            "href": "https://ksut.streamguys1.com/ksut",
+            "isPrimaryStream": false,
+            "title": "KSUT Southern Ute Tribal Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "94125789794f45839fb48738e0091295",
+            "href": "https://ksut.streamguys1.com/kute",
+            "isPrimaryStream": true,
+            "title": "KSUT - Four Corners Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b793043883e14ff782f13cf12ca7cf31",
+            "href": "https://donate.nprstations.org/ksut",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/750",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf7012221d4254ace8ef367d1becf1",
+        "brand": {
+          "band": "FM",
+          "call": "KSJD",
+          "frequency": "91.5",
+          "marketCity": "Cortez",
+          "marketState": "CO",
+          "name": "KSJD",
+          "tagline": "Ideas. Stories. Community."
+        },
+        "orgId": "750",
+        "network": {
+          "inheritingFrom": "750",
+          "usesInheritance": false,
+          "currentOrgId": "750",
+          "tier1": {
+            "name": "KSJD-FM",
+            "id": "750",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KICO-FM",
+                "id": "1214",
+                "usesInheritance": true
+              },
+              {
+                "name": "KZET-FM",
+                "id": "1352",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "53298e1d55d14bdebaf27459f184bc05",
+                "typeId": "10",
+                "href": "https://war.streamguys1.com:8435/"
+              }
+            ],
+            "guid": "144b2496e3c02bc4d1db87c3743262da",
+            "title": "KSJD",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.ksjd.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/750.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/KSJDradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KSJDRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "53298e1d55d14bdebaf27459f184bc05",
+            "href": "https://war.streamguys1.com:8435/",
+            "isPrimaryStream": true,
+            "title": "KSJD",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "6a966f785b424d419f3b69a635a42198",
+            "href": "http://www.ksjd.org/support-ksjd",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/750.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1534",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "a22a0e1fd39443b39c3377030ffef56f",
+        "brand": {
+          "band": "FM",
+          "call": "KDNG",
+          "frequency": "89.3",
+          "marketCity": "Durango",
+          "marketState": "CO",
+          "name": "KDNG-FM",
+          "tagline": null
+        },
+        "orgId": "1534",
+        "network": {
+          "inheritingFrom": "1534",
+          "usesInheritance": false,
+          "currentOrgId": "1534"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1410",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "1410",
+        "network": {
+          "name": "High Plains Public Radio",
+          "inheritingFrom": "8",
+          "usesInheritance": true,
+          "currentOrgId": "1410",
+          "tier1": {
+            "name": "High Plains Public Radio",
+            "id": "8",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KANZ-FM",
+                "id": "9",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KZNA-FM",
+                    "id": "10",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTOT-FM",
+                    "id": "854",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZAN-FM",
+                    "id": "855",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KJJP-FM",
+                    "id": "932",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTXP-FM",
+                    "id": "981",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KGUY-FM",
+                    "id": "1406",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZCK-FM",
+                    "id": "1407",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZNZ-FM",
+                    "id": "1408",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTDH-FM",
+                    "id": "1409",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KCSE-FM",
+                    "id": "1410",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZNK-FM",
+                    "id": "1411",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "52a9e6fd0c554719bcb570d67be2894e",
+        "brand": {
+          "band": "FM",
+          "call": "KCSE",
+          "frequency": "90.7",
+          "marketCity": "Lamar",
+          "marketState": "CO",
+          "name": "High Plains Public Radio",
+          "tagline": "In touch with the world, at home on the High Plains."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "02cce909af3d4b1eb164a3010920e2ca",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANZFM_HPPR2.mp3"
+              }
+            ],
+            "guid": "e06c6da55d59488e8d36e34ae19572bf",
+            "title": "HPPR Connect (News & Information)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b9b86ef677274f00b215523dcb2c006f",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANZFM_HPPR.mp3"
+              }
+            ],
+            "guid": "4fcf7158013749df96cd0b37e9686a81",
+            "title": "High Plains Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.hppr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/hppr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/hppr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/8_0b79e164d0dc14c0338a960eaeac3108.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/HighPlainsPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://www.twitter.com/hppr",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "02cce909af3d4b1eb164a3010920e2ca",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANZFM_HPPR2.mp3",
+            "isPrimaryStream": false,
+            "title": "HPPR Connect (News & Information)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b9b86ef677274f00b215523dcb2c006f",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANZFM_HPPR.mp3",
+            "isPrimaryStream": true,
+            "title": "High Plains Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "bb97a35af8ec4a4c90e3f181eb55c35e",
+            "href": "https://hppr.drupal.publicbroadcasting.net/feeds/50769/rss.xml",
+            "title": "HPPR Radio Readers Book Club",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "59faf99bfaa34d14857bb64127b16e3b",
+            "href": "https://hppr.drupal.publicbroadcasting.net/feeds/84719/rss.xml",
+            "title": "Little Spouse on the Prairie",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "126998a5e0bc494780a3f176d20f9d3f",
+            "href": "https://hppr.drupal.publicbroadcasting.net/feeds/5123/rss.xml",
+            "title": "High Plains Outdoors",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1cfde9bb7ec840cd96fea7c43212ef1e",
+            "href": "https://donate.nprstations.org/hppr/",
+            "title": "High Plains Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1438",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "539619ec0aa645d38dd2397242b3e111",
+        "brand": {
+          "band": "FM",
+          "call": "KVJZ",
+          "frequency": "88.5",
+          "marketCity": "Vail",
+          "marketState": "CO",
+          "name": "KVJZ-FM",
+          "tagline": null
+        },
+        "orgId": "1438",
+        "network": {
+          "inheritingFrom": "1438",
+          "usesInheritance": false,
+          "currentOrgId": "1438"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1507",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kcfr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1507",
+        "network": {
+          "inheritingFrom": "1507",
+          "usesInheritance": false,
+          "currentOrgId": "1507"
+        },
+        "guid": "0a58ac0c85804e7297a292501c448c14",
+        "brand": {
+          "band": "FM",
+          "call": "KVOQ",
+          "frequency": "102.3",
+          "marketCity": "Greenwood Village",
+          "marketState": "CO",
+          "name": "Indie 102.3",
+          "tagline": "Music Matters"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1f672ec43f0a446cb1fa6ab0849f771a",
+                "typeId": "10",
+                "href": "https://livestream.cprnetwork.org/pls/live_openair_mp3_ssl.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "86a4880ae94e422fb62a4f2ad326ffab",
+                "typeId": "13",
+                "href": "https://livestream.cprnetwork.org/pls/live_openair_aac_ssl.pls"
+              }
+            ],
+            "guid": "4fcf715620ac4d409ce441250528367c",
+            "title": "Indie 102.3",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.cpr.org/indie/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kvoq_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kvoq_fm.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1f672ec43f0a446cb1fa6ab0849f771a",
+            "href": "https://livestream.cprnetwork.org/pls/live_openair_mp3_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Indie 102.3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "86a4880ae94e422fb62a4f2ad326ffab",
+            "href": "https://livestream.cprnetwork.org/pls/live_openair_aac_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Indie 102.3",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "5e08c5a6875b41ccbb4cc71a7d50ca25",
+            "href": "https://www.cpr.org/rss/whos-gonna-govern.podcast.rss",
+            "title": "Who's Gonna Govern?",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c74ad450b3e547aea6a4d47055158894",
+            "href": "https://www.cpr.org/rss/indie-102-3-sessions.podcast.rss",
+            "title": "Indie 102.3 Sessions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "617b9e6448a84c3db01d63bf02d74570",
+            "href": "https://www.cpr.org/rss/the-playlist-league.podcast.rss",
+            "title": "The Playlist League",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3cac858a618b477583945a65fc66231e",
+            "href": "https://www.cpr.org/rss/the-taxman.podcast.rss",
+            "title": "The Taxman",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c692a1fb2df9463da5116175ef346737",
+            "href": "https://www.cpr.org/rss/inside-track.podcast.rss",
+            "title": "Inside Track",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2e95a3078ec44131bf88659f1326eabc",
+            "href": "https://secure.cpr.org/subscribe/renew.php",
+            "title": "Support CPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1515",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kcfr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1515",
+        "network": {
+          "inheritingFrom": "1515",
+          "usesInheritance": false,
+          "currentOrgId": "1515"
+        },
+        "guid": "11c1c83d87c341ee8c970c97155f9339",
+        "brand": {
+          "band": "FM",
+          "call": "KVXO",
+          "frequency": "88.3",
+          "marketCity": "Fort Collins",
+          "marketState": "CO",
+          "name": "Indie 102.3",
+          "tagline": "Music Matters"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1f672ec43f0a446cb1fa6ab0849f771a",
+                "typeId": "10",
+                "href": "https://livestream.cprnetwork.org/pls/live_openair_mp3_ssl.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "86a4880ae94e422fb62a4f2ad326ffab",
+                "typeId": "13",
+                "href": "https://livestream.cprnetwork.org/pls/live_openair_aac_ssl.pls"
+              }
+            ],
+            "guid": "4fcf715620ac4d409ce441250528367c",
+            "title": "Indie 102.3",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.cpr.org/indie/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kvxo_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kvxo_fm.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1f672ec43f0a446cb1fa6ab0849f771a",
+            "href": "https://livestream.cprnetwork.org/pls/live_openair_mp3_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Indie 102.3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "86a4880ae94e422fb62a4f2ad326ffab",
+            "href": "https://livestream.cprnetwork.org/pls/live_openair_aac_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Indie 102.3",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "c692a1fb2df9463da5116175ef346737",
+            "href": "https://www.cpr.org/rss/inside-track.podcast.rss",
+            "title": "Inside Track",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c74ad450b3e547aea6a4d47055158894",
+            "href": "https://www.cpr.org/rss/indie-102-3-sessions.podcast.rss",
+            "title": "Indie 102.3 Sessions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "0f486709b27c4be888b7c3acefdfb735",
+            "href": "https://secure.cpr.org/subscribe/renew.php",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1529",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "0cdf352843474329bb7e24e68652d6f0",
+        "brand": {
+          "band": "FM",
+          "call": "KCCS",
+          "frequency": "91.7",
+          "marketCity": "Starkville",
+          "marketState": "CO",
+          "name": "KCCS-FM",
+          "tagline": null
+        },
+        "orgId": "1529",
+        "network": {
+          "inheritingFrom": "1529",
+          "usesInheritance": false,
+          "currentOrgId": "1529"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1533",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "fd9788c00a1b41bb90d6f8d33884151f",
+        "brand": {
+          "band": "FM",
+          "call": "KPGS",
+          "frequency": "88.1",
+          "marketCity": "Pagosa Springs",
+          "marketState": "CO",
+          "name": "KPGS-FM",
+          "tagline": null
+        },
+        "orgId": "1533",
+        "network": {
+          "inheritingFrom": "1533",
+          "usesInheritance": false,
+          "currentOrgId": "1533"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1566",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "207ababf02de4d589494303cca10d5c6",
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kcfr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "brand": {
+          "band": "AM",
+          "call": "KXRE",
+          "frequency": "1490",
+          "marketCity": "Manitou Springs",
+          "marketState": "CO",
+          "name": "KXRE-AM",
+          "tagline": null
+        },
+        "orgId": "1566",
+        "network": {
+          "inheritingFrom": "1566",
+          "usesInheritance": false,
+          "currentOrgId": "1566"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/35",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kcfr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "35",
+        "network": {
+          "inheritingFrom": "35",
+          "usesInheritance": false,
+          "currentOrgId": "35"
+        },
+        "guid": "4fcf700e077d475fae54fb87cab821aa",
+        "brand": {
+          "band": "FM",
+          "call": "KCFP",
+          "frequency": "91.9",
+          "marketCity": "Pueblo",
+          "marketState": "CO",
+          "name": "CPR Classical",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e1e0ee14477a4ec09fcdf1ad696a74ba",
+                "typeId": "10",
+                "href": "https://livestream.cprnetwork.org/pls/live_classical_mp3_ssl.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "9267167ddcec48d9b5ba248f7c730f61",
+                "typeId": "13",
+                "href": "https://livestream.cprnetwork.org/pls/live_classical_aac_ssl.pls"
+              }
+            ],
+            "guid": "4fcf7156166a453991682ff335006aed",
+            "title": "Colorado Public Radio Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.cpr.org/classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kcfp_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kcfp_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/35.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/CPRclassical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/CPRClassical",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e1e0ee14477a4ec09fcdf1ad696a74ba",
+            "href": "https://livestream.cprnetwork.org/pls/live_classical_mp3_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Colorado Public Radio Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "9267167ddcec48d9b5ba248f7c730f61",
+            "href": "https://livestream.cprnetwork.org/pls/live_classical_aac_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Colorado Public Radio Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "fad17fe931f94f6cb0320d060320d3f0",
+            "href": "https://secure.cpr.org/subscribe/renew.php",
+            "title": "Support CPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/35.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/40",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kcfr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "40",
+        "network": {
+          "inheritingFrom": "40",
+          "usesInheritance": false,
+          "currentOrgId": "40"
+        },
+        "guid": "4fcf700e08e04a08b93a4105816cb4be",
+        "brand": {
+          "band": "FM",
+          "call": "KPRU",
+          "frequency": "103.3",
+          "marketCity": "Delta",
+          "marketState": "CO",
+          "name": "CPR Classical",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e1e0ee14477a4ec09fcdf1ad696a74ba",
+                "typeId": "10",
+                "href": "https://livestream.cprnetwork.org/pls/live_classical_mp3_ssl.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "9267167ddcec48d9b5ba248f7c730f61",
+                "typeId": "13",
+                "href": "https://livestream.cprnetwork.org/pls/live_classical_aac_ssl.pls"
+              }
+            ],
+            "guid": "4fcf7156166a453991682ff335006aed",
+            "title": "Colorado Public Radio Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.cpr.org/classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kpru_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kpru_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/40.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/CPRclassical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/CPRClassical",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e1e0ee14477a4ec09fcdf1ad696a74ba",
+            "href": "https://livestream.cprnetwork.org/pls/live_classical_mp3_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Colorado Public Radio Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "9267167ddcec48d9b5ba248f7c730f61",
+            "href": "https://livestream.cprnetwork.org/pls/live_classical_aac_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Colorado Public Radio Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "f2511fe17a4141f1963ba1c2845ea15e",
+            "href": "https://secure.cpr.org/subscribe/renew.php",
+            "title": "Support CPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/40.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/41",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kcfr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "41",
+        "network": {
+          "inheritingFrom": "41",
+          "usesInheritance": false,
+          "currentOrgId": "41"
+        },
+        "newscast": {
+          "id": "41",
+          "recency": 120
+        },
+        "guid": "4fcf700e09264881b46f042e01369f30",
+        "brand": {
+          "band": "FM",
+          "call": "KVOD",
+          "frequency": "88.1",
+          "marketCity": "Lakewood",
+          "marketState": "CO",
+          "name": "CPR Classical",
+          "tagline": "From Colorado Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e1e0ee14477a4ec09fcdf1ad696a74ba",
+                "typeId": "10",
+                "href": "https://livestream.cprnetwork.org/pls/live_classical_mp3_ssl.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "9267167ddcec48d9b5ba248f7c730f61",
+                "typeId": "13",
+                "href": "https://livestream.cprnetwork.org/pls/live_classical_aac_ssl.pls"
+              }
+            ],
+            "guid": "4fcf7156166a453991682ff335006aed",
+            "title": "Colorado Public Radio Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.cpr.org/classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kvod_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kvod_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/32_a76302c65c4074acc9ca8fa6f2feba43.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/cprclassical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/cprclassical",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e1e0ee14477a4ec09fcdf1ad696a74ba",
+            "href": "https://livestream.cprnetwork.org/pls/live_classical_mp3_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Colorado Public Radio Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "9267167ddcec48d9b5ba248f7c730f61",
+            "href": "https://livestream.cprnetwork.org/pls/live_classical_aac_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Colorado Public Radio Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e29b9b1119434b83bbc67526f254b830",
+            "href": "https://www.cpr.org/rss/centennial-sounds.podcast.rss",
+            "title": "Centennial Sounds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "73e30424f6054f149c70ad254eeb0946",
+            "href": "https://www.cpr.org/rss/beethoven.podcast.rss",
+            "title": "The Beethoven 9",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c692a1fb2df9463da5116175ef346737",
+            "href": "https://www.cpr.org/rss/inside-track.podcast.rss",
+            "title": "Inside Track",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3cac858a618b477583945a65fc66231e",
+            "href": "https://www.cpr.org/rss/the-taxman.podcast.rss",
+            "title": "The Taxman",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c74ad450b3e547aea6a4d47055158894",
+            "href": "https://www.cpr.org/rss/indie-102-3-sessions.podcast.rss",
+            "title": "Indie 102.3 Sessions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "456fc3f7ac5844dda3b62ae2f2fa38c7",
+            "href": "https://www.cpr.org/rss/colorado_matters.podcast.rss",
+            "title": "Colorado Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5e08c5a6875b41ccbb4cc71a7d50ca25",
+            "href": "https://www.cpr.org/rss/whos-gonna-govern.podcast.rss",
+            "title": "Who's Gonna Govern?",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "bf779a3479f8419c818f8e70b7c61595",
+            "href": "https://www.cpr.org/rss/the-great-composers.podcast.rss",
+            "title": "The Great Composers",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "368eae7401394d92acbf12b58642bc5e",
+            "href": "https://secure.cpr.org/subscribe/renew.php",
+            "title": "Support CPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/41.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/970",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kcfr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "970",
+        "network": {
+          "inheritingFrom": "970",
+          "usesInheritance": false,
+          "currentOrgId": "970"
+        },
+        "guid": "4fcf7014002640d29c02fb4d19bcc7c0",
+        "brand": {
+          "band": "FM",
+          "call": "KVOV",
+          "frequency": "90.5",
+          "marketCity": "Carbondale",
+          "marketState": "CO",
+          "name": "CPR Classical",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e1e0ee14477a4ec09fcdf1ad696a74ba",
+                "typeId": "10",
+                "href": "https://livestream.cprnetwork.org/pls/live_classical_mp3_ssl.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "9267167ddcec48d9b5ba248f7c730f61",
+                "typeId": "13",
+                "href": "https://livestream.cprnetwork.org/pls/live_classical_aac_ssl.pls"
+              }
+            ],
+            "guid": "4fcf7156166a453991682ff335006aed",
+            "title": "Colorado Public Radio Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.cpr.org/classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kvov_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kvov_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/970.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/CPRclassical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/CPRClassical",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e1e0ee14477a4ec09fcdf1ad696a74ba",
+            "href": "https://livestream.cprnetwork.org/pls/live_classical_mp3_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Colorado Public Radio Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "9267167ddcec48d9b5ba248f7c730f61",
+            "href": "https://livestream.cprnetwork.org/pls/live_classical_aac_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "Colorado Public Radio Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "5c93455072f14f369a72b4e5da0956c8",
+            "href": "https://secure.cpr.org/subscribe/renew.php",
+            "title": "Support CPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/970.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

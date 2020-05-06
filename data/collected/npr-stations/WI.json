@@ -1,0 +1,1105 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "WI"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/675",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wuwm-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "675",
+        "network": {
+          "name": "WUWM 89.7 FM - Milwaukee's NPR",
+          "inheritingFrom": "674",
+          "usesInheritance": true,
+          "currentOrgId": "675",
+          "tier1": {
+            "name": "Milwaukee Public Radio",
+            "id": "674",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WUWM-FM",
+                "id": "675",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf701211a0498297876e7fb9daf777",
+        "brand": {
+          "band": "FM",
+          "call": "WUWM",
+          "frequency": "89.7",
+          "marketCity": "Milwaukee",
+          "marketState": "WI",
+          "name": "WUWM 89.7 FM - Milwaukee's NPR",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6bc032cb754b4dcfb915b154fecb657f",
+                "typeId": "10",
+                "href": "https://wuwm.streamguys1.com/live.mp3"
+              }
+            ],
+            "guid": "4fcf715a2709485891fac14776d2eeed",
+            "title": "WUWM 89.7 FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wuwm.com/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wuwm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wuwm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/674_c6b52e3cc365d90d2cd00ef158c3a8b2.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/674_ad7851717a85c3723bde6cbea285139c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/674_85e4adf27384baffce529ef15c776012.mp4?1581372409390",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/674_1d725b0032b95541d44838e2f912d663.mp4?1581370810257",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/674_1c2869fbec68748743d07d15b111754a.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/674_98c671b0fd7a724e0497e08643c732b5.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/674_41b54c64dbb639c862c2e33c4a3551e7.mp4?1581372383440",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/674_2dd607a5e06b7cb7622577904169512e.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/674_8b026c8bd74cfa881f20e48cc32eb6a6.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/674_9e60b194dcd88b0072579dc603f6bb91.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/674_ee289c9f038702914947477b8e262eaf.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/674_4feb03a894bbe1e14e9ac99d33053998.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/674_1cdcad9240c1fded3b3dab62dfb76d2e.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wuwmradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WUWMradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "6bc032cb754b4dcfb915b154fecb657f",
+            "href": "https://wuwm.streamguys1.com/live.mp3",
+            "isPrimaryStream": true,
+            "title": "WUWM 89.7 FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "2287e9ca6d02451e950bb0f62b04ad88",
+            "href": "https://feedpress.me/bubblertalk",
+            "title": "Bubbler Talk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a197ff99e17f455d8c322d6a43b77178",
+            "href": "https://feedpress.me/lakeeffect",
+            "title": "Lake Effect: Full Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6ca79c6d72854e6fa2387b27cbe32f93",
+            "href": "https://feedpress.me/lakeffectsegments",
+            "title": "Lake Effect: Segments",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3b40da753ec84d809f212ed043d6fce5",
+            "href": "https://feedpress.me/projectmilwaukee",
+            "title": "Project Milwaukee",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ec2fe22275374fbe87d73a93792cb6a7",
+            "href": "https://feedpress.me/beatsme",
+            "title": "Beats Me",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "507146bb76ed40f0867cf73b6d5d957e",
+            "href": "https://wuwm.drupal.publicbroadcasting.net/podcasts/term/3691/rss.xml",
+            "title": "Lake Effect Spotlight",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d159ea8a28164aff8537e8aea1ce6274",
+            "href": "https://feedpress.me/uwmtoday",
+            "title": "UWM Today",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8dcda427943148b5a9aa7ca5880ce404",
+            "href": "https://feedpress.me/pretzelpodcast",
+            "title": "The Pretzel Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "35cc90d3417f4de4acc55cdc151f5316",
+            "href": "https://feedpress.me/capitolnotes",
+            "title": "Capitol Notes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d96f886a083a42b9a1685596fe07d160",
+            "href": "https://feedpress.me/howdidyoudothat",
+            "title": "How Did You Do That?",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "750a2e1f13cb43cbb11c72617ad7c404",
+            "href": "https://feedpress.me/wuwmnews",
+            "title": "WUWM News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "6ff5af95977042ba94dd8d3a7301e33e",
+            "href": "https://donate.nprstations.org/wuwm/npr",
+            "title": "Support WUWM",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "88dac952c4b54d6c8ed6bbf8510b65a6",
+            "href": "https://donate.nprstations.org/wuwm/npr",
+            "title": "Support WUWM",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "43697e5ec94a417d8adad1dc56816b2a",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/674_26a946f43f0a8306c1012318bf42610d.mp4",
+            "title": "9/24/18 - Lauri",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "50b271e4710044138701aca64eb52176",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/674_9bfe0b0779a6f8605aa64f8f33d9d809.mp4",
+            "title": "9/24/18 - Lauri",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/366",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wern-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "366",
+        "network": {
+          "name": "Wisconsin Public Radio",
+          "inheritingFrom": "365",
+          "usesInheritance": true,
+          "currentOrgId": "366",
+          "tier1": {
+            "name": "Wisconsin Public Radio",
+            "id": "365",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WERN-FM",
+                "id": "366",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WHND-FM",
+                    "id": "367",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHRM-FM",
+                    "id": "368",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHSA-FM",
+                    "id": "369",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WPNE-FM",
+                    "id": "370",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WGTD-FM",
+                    "id": "804",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSSW-FM",
+                    "id": "1054",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSSU-FM",
+                    "id": "1362",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHWA-FM",
+                    "id": "1508",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "WHA-AM",
+                "id": "414",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KUWS-FM",
+                    "id": "415",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHID-FM",
+                    "id": "416",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRFW-FM",
+                    "id": "417",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRST-FM",
+                    "id": "418",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSHS-FM",
+                    "id": "419",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WUWS-FM",
+                    "id": "1363",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "WHAD-FM",
+                "id": "420",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WHBM-FM",
+                    "id": "421",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHDI-FM",
+                    "id": "422",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHHI-FM",
+                    "id": "423",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHLA-FM",
+                    "id": "424",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHWC-FM",
+                    "id": "425",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WLBL-AM",
+                    "id": "426",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WLBL-FM",
+                    "id": "427",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHAA-FM",
+                    "id": "1192",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHSF-FM",
+                    "id": "1415",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "WLSU-FM",
+                "id": "483",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WUEC-FM",
+                    "id": "484",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVSS-FM",
+                    "id": "485",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "WEPS-FM",
+                "id": "967",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "365",
+          "recency": 360
+        },
+        "guid": "4fcf701012ad4a82ac1eb3e419dda5d8",
+        "brand": {
+          "band": "FM",
+          "call": "WERN",
+          "frequency": "88.7",
+          "marketCity": "Madison",
+          "marketState": "WI",
+          "name": "Wisconsin Public Radio",
+          "tagline": "Wisconsin Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3b8b18402f8e4c88bddb5b8bb6fc0a20",
+                "typeId": "10",
+                "href": "https://wpr-ice.streamguys1.com/wpr-music-mp3-96"
+              }
+            ],
+            "guid": "4fcf71322056413bb9b9bd1cccc7d737",
+            "title": "WPR's NPR News & Classical Network",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9b1ec489ee08400f9b4626b7d0be8ed1",
+                "typeId": "10",
+                "href": "https://wpr-ice.streamguys1.com/wpr-ideas-mp3-64"
+              }
+            ],
+            "guid": "4fcf71320cd2401eb6d6f1d7aef16a0e",
+            "title": "WPR's Ideas Network",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f6c78a5092a34d53aed77345df52d1eb",
+                "typeId": "10",
+                "href": "https://wpr-ice.streamguys1.com/wpr-hd2-mp3-96"
+              }
+            ],
+            "guid": "4fcf71510fb148369f88ab7dab4d2580",
+            "title": "WPR's All Classical Music Network",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wpr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/365_e20392f34654048b153d3289d723cefb.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/365_7311d721536ae0ee65a0a94395094eff.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/365_591716e56e12a8cf696e7f13fc99905f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wisconsinpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3b8b18402f8e4c88bddb5b8bb6fc0a20",
+            "href": "https://wpr-ice.streamguys1.com/wpr-music-mp3-96",
+            "isPrimaryStream": true,
+            "title": "WPR's NPR News & Classical Network",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "9b1ec489ee08400f9b4626b7d0be8ed1",
+            "href": "https://wpr-ice.streamguys1.com/wpr-ideas-mp3-64",
+            "isPrimaryStream": false,
+            "title": "WPR's Ideas Network",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f6c78a5092a34d53aed77345df52d1eb",
+            "href": "https://wpr-ice.streamguys1.com/wpr-hd2-mp3-96",
+            "isPrimaryStream": false,
+            "title": "WPR's All Classical Music Network",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "0dee4a00d9b5475f96070dbf167d327c",
+            "href": "https://www.wpr.org/feeds/garden-talk/rss.xml",
+            "title": "Garden Talk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b27ba0f31bb448908dba4bfc663002e8",
+            "href": "https://www.wpr.org/feeds/beta/rss.xml",
+            "title": "BETA",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3ed9917dad9d4f6a8722a255b4d56326",
+            "href": "https://feeds.podcastmirror.com/derailed",
+            "title": "Derailed",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "eb32b29bc2e8433d80f8b222f359a093",
+            "href": "https://www.wpr.org/feeds/wpr-politics/rss.xml",
+            "title": "WPR Politics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9d4f11bc9db743d5a750cf68c4cd123f",
+            "href": "https://www.wisconsinlife.org/feed/?post_type=story&story_type=audio",
+            "title": "Wisconsin Life",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c6b8e614a06a4d69bae82ed0cd62fbad",
+            "href": "https://www.wpr.org/feeds/university-of-the-air/rss.xml",
+            "title": "University Of The Air",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7d126ff2409643abb3550c8a1d865f5e",
+            "href": "https://www.wpr.org/feeds/the-midday/rss.xml",
+            "title": "The Midday",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4188749b512c4769bcfa593ccbfe61c6",
+            "href": "https://www.wpr.org/feeds/spectrum-west-with-al-ross/rss.xml",
+            "title": "Spectrum West With Al Ross",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ec86011297b343d5817f060c0dec16c2",
+            "href": "https://f.prxu.org/120/feed-rss.xml",
+            "title": "To The Best Of Our Knowledge",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a2f27e9680b444b1bfb1e83289e6a687",
+            "href": "https://www.wpr.org/feeds/the-west-side-with-rich-kremer/rss.xml",
+            "title": "The West Side",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4d167eacbed0435cacd3757fcb53c243",
+            "href": "https://feeds.feedburner.com/bookmarkspodcast",
+            "title": "Bookmarks",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2f2d380228d743189f3d8e3b4c3bd534",
+            "href": "https://www.wpr.org/feeds/the-larry-meiller-show/rss.xml",
+            "title": "The Larry Meiller Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4375a3ee545047a2b87d04f55cd17538",
+            "href": "https://www.wpr.org/feeds/route-51/rss.xml",
+            "title": "Route 51",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "acbb9e47989447c1a45ce4dfa5d4aad7",
+            "href": "https://www.wpr.org/feeds/zorba-paster-on-your-health/rss.xml",
+            "title": "Zorba Paster On Your Health",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4fa13d00fac64dfaa4907d0d65c4deaf",
+            "href": "https://www.wpr.org/feeds/central-time/rss.xml",
+            "title": "Central Time",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "376dd0701a354fa9bbebb34ac4031101",
+            "href": "https://www.wpr.org/feeds/newsmakers/rss.xml",
+            "title": "Newsmakers",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8fb25aa88b1643d59249cb86c9952ca1",
+            "href": "https://www.wpr.org/podcasts/series/simply-folk-interviews/rss.xml",
+            "title": "Simply Folk Interviews",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5e1a9b553ef2466f938ba1f5b5fc9ca7",
+            "href": "https://www.wpr.org/feeds/the-morning-show/rss.xml",
+            "title": "The Morning Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "e118b4019d6d4e8b91c7c125706a15a9",
+            "href": "https://www.wpr.org/donatenpr",
+            "title": "Support WPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "f4b647d07af4432391b6c715e927c03c",
+            "href": "https://www.wpr.org/donatenpr",
+            "title": "NPR One Mobile",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "4ab083faabcb4735a1e57659ed18db8f",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/365_04c512a2041e301f189d815b94803841.mp4",
+            "title": "Donation Audio (MG)",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/718",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "718",
+        "network": {
+          "inheritingFrom": "718",
+          "usesInheritance": false,
+          "currentOrgId": "718",
+          "tier1": {
+            "name": "WXPR-FM",
+            "id": "718",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WXPW-FM",
+                "id": "719",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "718",
+          "recency": 360
+        },
+        "guid": "4fcf70121ac44255b01e4500a06dd9fa",
+        "brand": {
+          "band": "FM",
+          "call": "WXPR",
+          "frequency": "91.7",
+          "marketCity": "Rhinelander",
+          "marketState": "WI",
+          "name": "WXPR",
+          "tagline": "Local. Public. Radio."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c3cc0c4a0ceb45479cd5934235984cba",
+                "typeId": "10",
+                "href": "https://amber.streamguys1.com:4372/wxpr2"
+              }
+            ],
+            "guid": "4fcf713b043d4fb2ad3428e1f9d05c2d",
+            "title": "WXPR-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wxpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wxpr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wxpr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/718_c080e15c62fd89f9ef3e301a31a71a24.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WXPRPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "c3cc0c4a0ceb45479cd5934235984cba",
+            "href": "https://amber.streamguys1.com:4372/wxpr2",
+            "isPrimaryStream": true,
+            "title": "WXPR-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "47c39aaa144b4d87996f21d822982686",
+            "href": "https://wxpr.drupal.publicbroadcasting.net/podcasts/30093/rss.xml",
+            "title": "WXPR Local Features",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8e8fef3bc9ab4ddd8a220d698c484ebd",
+            "href": "https://wxpr.drupal.publicbroadcasting.net/podcasts/53310/rss.xml",
+            "title": "WXPR Wildlife Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "36521f72b4e443dca63e3a4a9c96f30f",
+            "href": "https://wxpr.drupal.publicbroadcasting.net/podcasts/76881/rss.xml",
+            "title": "WXPR A Northwoods Moment In History",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6902ae8db4334f35ba1de3b99ccbf812",
+            "href": "https://wxpr.drupal.publicbroadcasting.net/podcasts/93546/rss.xml",
+            "title": "WXPR The Stream",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "bdfef09fa203475fab41e0c0c844c9f6",
+            "href": "https://wxpr.drupal.publicbroadcasting.net/podcasts/76880/rss.xml",
+            "title": "WXPR We Live Up Here",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fb812ba6624a483289da1dafe1ad7249",
+            "href": "https://wxpr.drupal.publicbroadcasting.net/podcasts/58338/rss.xml",
+            "title": "WXPR Local Newscast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c181bb2982dd45248bd88a06fe28d64e",
+            "href": "https://wxpr.drupal.publicbroadcasting.net/podcasts/30082/rss.xml",
+            "title": "WXPR Field Notes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "736b83dcc7a94a35856637949229893b",
+            "href": "https://donate.wxpr.org/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "7657cec7f5d44668aa962fc5c1062b78",
+            "href": "https://donate.wxpr.org/",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "3a95efff6b4c4204ae5c01eb1c12e049",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/718_735301c4a211812a74d6cc2190917000.mp4",
+            "title": "Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/718.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/921",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "921",
+        "network": {
+          "inheritingFrom": "921",
+          "usesInheritance": false,
+          "currentOrgId": "921",
+          "tier1": {
+            "name": "WYMS-FM",
+            "id": "921",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "921",
+          "recency": 120
+        },
+        "guid": "4fcf70131cf8410ebb17fae632b572c7",
+        "brand": {
+          "band": "FM",
+          "call": "WYMS",
+          "frequency": "88.9",
+          "marketCity": "Milwaukee",
+          "marketState": "WI",
+          "name": "88Nine Radio Milwaukee",
+          "tagline": "Discover New Music"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "68b0c84694aa463c9b4e5337eb297a25",
+                "typeId": "10",
+                "href": "https://wyms.streamguys1.com/414music_aac"
+              }
+            ],
+            "guid": "e4b1a6a19c6a400b992d2d3eee5234ff",
+            "title": "414Music.FM",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0771da0edaf84d33a05f35adad0f4a7b",
+                "typeId": "10",
+                "href": "https://wyms.streamguys1.com/live?platform=NPR"
+              }
+            ],
+            "guid": "c7d1024c2bd4445a9c031a7e1d904f5a",
+            "title": "88Nine Radio Milwaukee",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.radiomilwaukee.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wyms_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wyms_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/921.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "68b0c84694aa463c9b4e5337eb297a25",
+            "href": "https://wyms.streamguys1.com/414music_aac",
+            "isPrimaryStream": false,
+            "title": "414Music.FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "0771da0edaf84d33a05f35adad0f4a7b",
+            "href": "https://wyms.streamguys1.com/live?platform=NPR",
+            "isPrimaryStream": true,
+            "title": "88Nine Radio Milwaukee",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "2111e43307db45a9ba1d32928be43380",
+            "href": "https://www.spreaker.com/show/3602709/episodes/feed",
+            "title": "Backspin: Milwaukee's First Hip-Hop Song",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "69363c6d7e7148768c337eee32b4d3e3",
+            "href": "https://www.spreaker.com/show/2860814/episodes/feed",
+            "title": "Tap'd In",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5e1768a1ffc548c48aee1711855119e4",
+            "href": "https://www.spreaker.com/show/2861960/episodes/feed",
+            "title": "This Bites",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b6411e89e7f940a69a0699b69c7662f4",
+            "href": "https://www.spreaker.com/show/2862012/episodes/feed",
+            "title": "Urban Spelunking",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5e48c7daecd94fa784d4b5c1f21a92cd",
+            "href": "https://www.spreaker.com/show/2862013/episodes/feed",
+            "title": "Cinebuds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "bc4a40f2c309409ab09eb7975179a692",
+            "href": "https://www.spreaker.com/show/2862009/episodes/feed",
+            "title": "88Nine Community Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "a5118924d036438d88d02198fd618279",
+            "href": "https://radiomilwaukee.org/support-us/membership/",
+            "title": "Donate to 88Nine RadioMilwaukee",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/921.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

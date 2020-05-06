@@ -1,0 +1,1365 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "GA"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/295",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wabe-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "295",
+        "network": {
+          "inheritingFrom": "295",
+          "usesInheritance": false,
+          "currentOrgId": "295",
+          "tier1": {
+            "name": "WABE-FM",
+            "id": "295",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "295",
+          "recency": 360
+        },
+        "guid": "4fcf701001134f3a9202e7d72786be11",
+        "brand": {
+          "band": "FM",
+          "call": "WABE",
+          "frequency": "90.1",
+          "marketCity": "Atlanta",
+          "marketState": "GA",
+          "name": "WABE 90.1",
+          "tagline": "Where ATL Meets NPR"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4bf1d28b1cd74bacb013cb89d992539f",
+                "typeId": "10",
+                "href": "https://pba-ice.wabe.org/wabe.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "42499e40de63463baecbd52e49d3618d",
+                "typeId": "13",
+                "href": "https://pba-ice.wabe.org/wabe.aac"
+              }
+            ],
+            "guid": "514affff1f814f2b945d33cf3a5ceddc",
+            "title": "WABE 90.1 FM",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf23e74960964adeb5e319b355f340e6",
+                "typeId": "10",
+                "href": "https://pba-ice.wabe.org/classical.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "bc93ef4ae8054cbba910f61bb14684da",
+                "typeId": "13",
+                "href": "https://pba-ice.wabe.org/classical.aac"
+              }
+            ],
+            "guid": "4fcf713412b74909b119cbe28d5e0481",
+            "title": "WABE Classics ",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "16c932a669d643d6be90e295a2701bf7",
+                "typeId": "13",
+                "href": "https://pba-ice.wabe.org/news.aac"
+              }
+            ],
+            "guid": "cb2304bbcf5643469a66a2e7ec50f36f",
+            "title": "WABE World News",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wabe.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wabe_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wabe_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/295_c0d13e9f66a17e7f56b66a99b54a8116.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/295_0ae97f6856e920ad8aa52fe15039d980.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/295_32e4fb32fdb71f2c159703638ce98815.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wabe",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wabenews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "4bf1d28b1cd74bacb013cb89d992539f",
+            "href": "https://pba-ice.wabe.org/wabe.mp3",
+            "isPrimaryStream": true,
+            "title": "WABE 90.1 FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf23e74960964adeb5e319b355f340e6",
+            "href": "https://pba-ice.wabe.org/classical.mp3",
+            "isPrimaryStream": false,
+            "title": "WABE Classics ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bc93ef4ae8054cbba910f61bb14684da",
+            "href": "https://pba-ice.wabe.org/classical.aac",
+            "isPrimaryStream": false,
+            "title": "WABE Classics ",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "42499e40de63463baecbd52e49d3618d",
+            "href": "https://pba-ice.wabe.org/wabe.aac",
+            "isPrimaryStream": true,
+            "title": "WABE 90.1 FM",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "16c932a669d643d6be90e295a2701bf7",
+            "href": "https://pba-ice.wabe.org/news.aac",
+            "isPrimaryStream": false,
+            "title": "WABE World News",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "177f5c663cb245a1b0010ec9459afd39",
+            "href": "https://rss.art19.com/buried-truths",
+            "title": "Buried Truths",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0bb26d21754f42af9e0c74cc476f95db",
+            "href": "https://rss.art19.com/political-breakfast-with-denis-ohayer",
+            "title": "Political Breakfast with Denis O’Hayer",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "87307f7d780e477d8dba3d8e5afa8f07",
+            "href": "https://rss.art19.com/closer-look-with-rose-scott",
+            "title": "Closer Look with Rose Scott",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1808361460d449dd9bb63aaade63b165",
+            "href": "https://www.wabe.org/shows/closer-look/feed/",
+            "title": "Closer Look with Rose Scott",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e4b3091ace0046ec819051a1a83065c6",
+            "href": "https://www.wabe.org/shows/city-lights/feed/",
+            "title": "City Lights with Lois Reitzes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "12d7259726ed4885b99e2e051cbae47f",
+            "href": "https://rss.art19.com/america-amplified-life-community-and-covid-19",
+            "title": "America Amplified: Life, Community, and COVID-19",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3690608690794c1a9daf09a43c1c395a",
+            "href": "https://rss.art19.com/city-lights-with-lois-reitzes",
+            "title": "City Lights with Lois Reitzes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fcbc47571af140eaaa0e93d3065c5151",
+            "href": "https://wabe.drupal.publicbroadcasting.net/podcasts/14820/rss.xml",
+            "title": "StoryCorps Atlanta",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "af423cbf0ed5418bb467ad56571eafbd",
+            "href": "https://f.prxu.org/212/feed-rss.xml",
+            "title": "Bottom of the Map",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d5897c20c8854ca3aa3f37cae5d2d75a",
+            "href": "https://rss.art19.com/did-you-wash-your-hands",
+            "title": "Did You Wash Your Hands?",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d1570b52d0264352abd29de8a72ea31e",
+            "href": "https://www.pledgecart.org/pledgeCart3/?campaign=29AFC0CD-FCCA-40B4-8FA0-2328A3FE3C16",
+            "title": "Support WABE",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "1085b1d8d74a4ff59239ed9b3b8985fc",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/295_853cb45318d19feffc4e0d11fb65273b.mp4",
+            "title": "Pre Pledge S20 Wonya",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "6db340edd9134ad59b9ac16cd9972259",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/295_295ed363c26d92222c54575b51638bb3.mp4",
+            "title": "Pre Pledge S20 Scott",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/295.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/635",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wjsp-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "635",
+        "network": {
+          "name": "Georgia Public Broadcasting",
+          "inheritingFrom": "448",
+          "usesInheritance": true,
+          "currentOrgId": "635",
+          "tier1": {
+            "name": "Georgia Public Broadcasting",
+            "id": "448",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WJSP-FM",
+                "id": "449",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WABR-FM",
+                    "id": "450",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WACG-FM",
+                    "id": "451",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WJWV-FM",
+                    "id": "453",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WNGU-FM",
+                    "id": "454",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WPPR-FM",
+                    "id": "455",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WUNV-FM",
+                    "id": "456",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WWET-FM",
+                    "id": "457",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WUWG-FM",
+                    "id": "458",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WXVS-FM",
+                    "id": "459",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSVH-FM",
+                    "id": "635",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WWIO-FM",
+                    "id": "636",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WGPB-FM",
+                    "id": "989",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WMUM-FM",
+                    "id": "1012",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WNGH-FM",
+                    "id": "1075",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRGC-FM",
+                    "id": "1202",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRAS-FM",
+                    "id": "1314",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "WUGA-FM",
+                "id": "652",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "448",
+          "recency": 360
+        },
+        "guid": "4fcf7012089243dda4be02630300c0be",
+        "brand": {
+          "band": "FM",
+          "call": "WSVH",
+          "frequency": "91.1",
+          "marketCity": "Warm Springs",
+          "marketState": "GA",
+          "name": "Georgia Public Broadcasting",
+          "tagline": "Your Source for State & NPR News"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "92eaf11118d84b719ccc92f18b26229b",
+                "typeId": "10",
+                "href": "https://gpb.streamguys1.com/gpb-atlanta-mp3-npr-one"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "c2ed69afa9504a4cab5f39ac7458b235",
+                "typeId": "13",
+                "href": "https://gpb.streamguys1.com/gpb-atlanta-aac-npr-one"
+              }
+            ],
+            "guid": "8ca920f4e78449d4a6f1c91ea216bcba",
+            "title": "GPB Radio - Atlanta",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f0eaf571c63d4a05a8696e194f2f4926",
+                "typeId": "10",
+                "href": "https://wuga-ice.streamguys1.com/live-mp3"
+              }
+            ],
+            "guid": "140a75049cd02354b128ccda85660a68",
+            "title": "WUGA",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "851206076638483c8ba07d50dc03c8d4",
+                "typeId": "10",
+                "href": "https://gpb.streamguys1.com/gpb-savannah-mp3-npr-one"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "078f4d84a6914af6a37d5f88c4d83b5f",
+                "typeId": "13",
+                "href": "https://gpb.streamguys1.com/gpb-savannah-aac-npr-one"
+              }
+            ],
+            "guid": "93182cd41648486c9abf0ba04be897e6",
+            "title": "GPB Radio - Savannah",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6de3c6daff4547d2849d004605e14bee",
+                "typeId": "10",
+                "href": "https://gpb.streamguys1.com/gpb-radio-mp3-npr-one"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "a25e288b69084afeae25c1afce587819",
+                "typeId": "13",
+                "href": "https://gpb.streamguys1.com/gpb-radio-aac-npr-one"
+              }
+            ],
+            "guid": "374992afa1f346669d70f055239edb3b",
+            "title": "GPB Radio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "261d5cde972d4d3daf9ab3eb7dd546e5",
+                "typeId": "10",
+                "href": "https://gpb.streamguys1.com/gpb-macon-mp3-npr-one"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "bccf7c8134a2420b985ceba638f282ef",
+                "typeId": "13",
+                "href": "https://gpb.streamguys1.com/gpb-macon-aac-npr-one"
+              }
+            ],
+            "guid": "39278ad0272e48cfac8972b6da04e489",
+            "title": "GPB Radio - Macon",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.gpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/gpb.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/gpb.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/448_7ccd75835cb7ff0e55785f3483ca895b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Georgia-Public-Broadcasting/20904146327",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/@mygpb",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "92eaf11118d84b719ccc92f18b26229b",
+            "href": "https://gpb.streamguys1.com/gpb-atlanta-mp3-npr-one",
+            "isPrimaryStream": true,
+            "title": "GPB Radio - Atlanta",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f0eaf571c63d4a05a8696e194f2f4926",
+            "href": "https://wuga-ice.streamguys1.com/live-mp3",
+            "isPrimaryStream": false,
+            "title": "WUGA",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "851206076638483c8ba07d50dc03c8d4",
+            "href": "https://gpb.streamguys1.com/gpb-savannah-mp3-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio - Savannah",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6de3c6daff4547d2849d004605e14bee",
+            "href": "https://gpb.streamguys1.com/gpb-radio-mp3-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "261d5cde972d4d3daf9ab3eb7dd546e5",
+            "href": "https://gpb.streamguys1.com/gpb-macon-mp3-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio - Macon",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "078f4d84a6914af6a37d5f88c4d83b5f",
+            "href": "https://gpb.streamguys1.com/gpb-savannah-aac-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio - Savannah",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "c2ed69afa9504a4cab5f39ac7458b235",
+            "href": "https://gpb.streamguys1.com/gpb-atlanta-aac-npr-one",
+            "isPrimaryStream": true,
+            "title": "GPB Radio - Atlanta",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "a25e288b69084afeae25c1afce587819",
+            "href": "https://gpb.streamguys1.com/gpb-radio-aac-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "bccf7c8134a2420b985ceba638f282ef",
+            "href": "https://gpb.streamguys1.com/gpb-macon-aac-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio - Macon",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "5912c564a9184f338e98b75c68691fee",
+            "href": "https://gpb-rss.streamguys1.com/gpb/political-rewind-npr-one.xml",
+            "title": "Political Rewind",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2b740e35d8754c21bc83a238b7a8de46",
+            "href": "https://gpb-rss.streamguys1.com/gpb/on-second-thought-npr-one.xml",
+            "title": "On Second Thought",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7fd040f0e77a4be697e0bdd7f05278d5",
+            "href": "https://wjsp.drupal.publicbroadcasting.net/podcasts/1465/rss.xml",
+            "title": "Diggin' the Field",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0aecab1e9b0645389975e766cd86b4f3",
+            "href": "https://gpb-od.streamguys1.com/gpb/thecredits-nprone.xml",
+            "title": "The Credits",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "51ac4460831f447196953c5422f9efba",
+            "href": "https://wjsp.drupal.publicbroadcasting.net/podcasts/75/rss.xml",
+            "title": "Georgia Playlist",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f812f52105674df4bb333183f193cb9e",
+            "href": "https://gpb-rss.streamguys1.com/gpb/shots-in-the-back-npr-one.xml",
+            "title": "Shots in the Back: Exhuming the 1970 Augusta Riot",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6bc4a462d75a4d0685681aaa83238678",
+            "href": "https://gpb-rss.streamguys1.com/gpb/speakeasy-nprone.xml",
+            "title": "Speakeasy with Denene",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2f4301fe072642d9947d95c89a0bdb6b",
+            "href": "https://gpb-rss.streamguys1.com/gpb/gpb-qfk-npr-one.xml",
+            "title": "Ask the Mayor: Questions for Keisha",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8c748822cc1348c1913f9e2092fb323a",
+            "href": "https://gpb-od.streamguys1.com/gpb/bitter-southerner-nprone.xml",
+            "title": "The Bitter Southerner Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5249fa9293f1406e8a378c3220911d8a",
+            "href": "https://gpb-rss.streamguys1.com/gpb/nfam-npr-one.xml",
+            "title": "Nothing Funny About Money",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fe8f4523b7e942e0a9ff6129bf4f8a8d",
+            "href": "https://gpb-od.streamguys1.com/gpb/troydavis-nprone.xml",
+            "title": "Beyond Reasonable Doubt: The Troy Davis Project",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "16f39d6962ba4823accca83a8ac1834f",
+            "href": "https://wjsp.drupal.publicbroadcasting.net/podcasts/term/5563/rss.xml",
+            "title": "What's In A Name?",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "92ccbed0768c48a084048c218fe3debb",
+            "href": "https://feeds.feedburner.com/gpbnews/JOTRadarPod",
+            "title": "Just Off the Radar",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5306e89336594e2bb0249f0c3942b83a",
+            "href": "https://wjsp.drupal.publicbroadcasting.net/podcasts/5/rss.xml",
+            "title": "Two Way Street",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4fbf5c941ad04b92a09694630c3e197c",
+            "href": "https://gpb-od.streamguys1.com/gpb/ffig-npr-one.xml",
+            "title": "Football Fridays in Georgia",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "ef6900b6b7f844118a0a41e27165020c",
+            "href": "http://www.gpb.org/support",
+            "title": "Support GPB",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "ed50879c7a624ecd8923bf318de3f616",
+            "href": "https://secure3.convio.net/gpb/site/Donation2;jsessionid=00000000.app30103b?df_id=37941&mfc_pref=T&37941.donation=form1&NONCE_TOKEN=72DA0A39C6B5F94E22B7CE93CAA72E37",
+            "title": "Help Support GPB!",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "51a55903fab541c5805e039560ac149c",
+            "href": "https://secure3.convio.net/gpb/site/Donation2;jsessionid=00000000.app30103b?df_id=37941&mfc_pref=T&37941.donation=form1&NONCE_TOKEN=72DA0A39C6B5F94E22B7CE93CAA72E37",
+            "title": "Support GPB Digital!",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/652",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wuga-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "652",
+        "network": {
+          "inheritingFrom": "652",
+          "usesInheritance": false,
+          "currentOrgId": "652"
+        },
+        "guid": "4fcf70120c074918bb52afa17982e301",
+        "brand": {
+          "band": "FM",
+          "call": "WUGA",
+          "frequency": "91.7",
+          "marketCity": "Athens",
+          "marketState": "GA",
+          "name": "WUGA",
+          "tagline": "Your source for NPR News and great music."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "261d5cde972d4d3daf9ab3eb7dd546e5",
+                "typeId": "10",
+                "href": "https://gpb.streamguys1.com/gpb-macon-mp3-npr-one"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "bccf7c8134a2420b985ceba638f282ef",
+                "typeId": "13",
+                "href": "https://gpb.streamguys1.com/gpb-macon-aac-npr-one"
+              }
+            ],
+            "guid": "39278ad0272e48cfac8972b6da04e489",
+            "title": "GPB Radio - Macon",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "92eaf11118d84b719ccc92f18b26229b",
+                "typeId": "10",
+                "href": "https://gpb.streamguys1.com/gpb-atlanta-mp3-npr-one"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "c2ed69afa9504a4cab5f39ac7458b235",
+                "typeId": "13",
+                "href": "https://gpb.streamguys1.com/gpb-atlanta-aac-npr-one"
+              }
+            ],
+            "guid": "8ca920f4e78449d4a6f1c91ea216bcba",
+            "title": "GPB Radio - Atlanta",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6de3c6daff4547d2849d004605e14bee",
+                "typeId": "10",
+                "href": "https://gpb.streamguys1.com/gpb-radio-mp3-npr-one"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "a25e288b69084afeae25c1afce587819",
+                "typeId": "13",
+                "href": "https://gpb.streamguys1.com/gpb-radio-aac-npr-one"
+              }
+            ],
+            "guid": "374992afa1f346669d70f055239edb3b",
+            "title": "GPB Radio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "851206076638483c8ba07d50dc03c8d4",
+                "typeId": "10",
+                "href": "https://gpb.streamguys1.com/gpb-savannah-mp3-npr-one"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "078f4d84a6914af6a37d5f88c4d83b5f",
+                "typeId": "13",
+                "href": "https://gpb.streamguys1.com/gpb-savannah-aac-npr-one"
+              }
+            ],
+            "guid": "93182cd41648486c9abf0ba04be897e6",
+            "title": "GPB Radio - Savannah",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f0eaf571c63d4a05a8696e194f2f4926",
+                "typeId": "10",
+                "href": "https://wuga-ice.streamguys1.com/live-mp3"
+              }
+            ],
+            "guid": "140a75049cd02354b128ccda85660a68",
+            "title": "WUGA",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wuga.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wuga_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wuga_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/448_7ccd75835cb7ff0e55785f3483ca895b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/FANS-OF-WUGA-FM/334541793095",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "261d5cde972d4d3daf9ab3eb7dd546e5",
+            "href": "https://gpb.streamguys1.com/gpb-macon-mp3-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio - Macon",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "92eaf11118d84b719ccc92f18b26229b",
+            "href": "https://gpb.streamguys1.com/gpb-atlanta-mp3-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio - Atlanta",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6de3c6daff4547d2849d004605e14bee",
+            "href": "https://gpb.streamguys1.com/gpb-radio-mp3-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "851206076638483c8ba07d50dc03c8d4",
+            "href": "https://gpb.streamguys1.com/gpb-savannah-mp3-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio - Savannah",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f0eaf571c63d4a05a8696e194f2f4926",
+            "href": "https://wuga-ice.streamguys1.com/live-mp3",
+            "isPrimaryStream": true,
+            "title": "WUGA",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bccf7c8134a2420b985ceba638f282ef",
+            "href": "https://gpb.streamguys1.com/gpb-macon-aac-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio - Macon",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "078f4d84a6914af6a37d5f88c4d83b5f",
+            "href": "https://gpb.streamguys1.com/gpb-savannah-aac-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio - Savannah",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "a25e288b69084afeae25c1afce587819",
+            "href": "https://gpb.streamguys1.com/gpb-radio-aac-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "c2ed69afa9504a4cab5f39ac7458b235",
+            "href": "https://gpb.streamguys1.com/gpb-atlanta-aac-npr-one",
+            "isPrimaryStream": false,
+            "title": "GPB Radio - Atlanta",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "2b740e35d8754c21bc83a238b7a8de46",
+            "href": "https://gpb-rss.streamguys1.com/gpb/on-second-thought-npr-one.xml",
+            "title": "On Second Thought",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5306e89336594e2bb0249f0c3942b83a",
+            "href": "https://wjsp.drupal.publicbroadcasting.net/podcasts/5/rss.xml",
+            "title": "Two Way Street",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7fd040f0e77a4be697e0bdd7f05278d5",
+            "href": "https://wjsp.drupal.publicbroadcasting.net/podcasts/1465/rss.xml",
+            "title": "Diggin' the Field",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "16f39d6962ba4823accca83a8ac1834f",
+            "href": "https://wjsp.drupal.publicbroadcasting.net/podcasts/term/5563/rss.xml",
+            "title": "What's In A Name?",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5912c564a9184f338e98b75c68691fee",
+            "href": "https://gpb-rss.streamguys1.com/gpb/political-rewind-npr-one.xml",
+            "title": "Political Rewind",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "92ccbed0768c48a084048c218fe3debb",
+            "href": "https://feeds.feedburner.com/gpbnews/JOTRadarPod",
+            "title": "Just Off the Radar",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "cc1cff82975c4544ab120fce11dba118",
+            "href": "http://www.wuga.org",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b3b86d3fb8d94b049499e8ddf61d5a3f",
+            "href": "http://www.wuga.org",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/652.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/340",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70100c534ea780743d6c2fe67b95",
+        "brand": {
+          "band": "FM",
+          "call": "WCLK",
+          "frequency": "91.9",
+          "marketCity": "Atlanta",
+          "marketState": "GA",
+          "name": "Jazz 91.9 WCLK",
+          "tagline": "The Jazz of the City"
+        },
+        "orgId": "340",
+        "network": {
+          "inheritingFrom": "340",
+          "usesInheritance": false,
+          "currentOrgId": "340",
+          "tier1": {
+            "name": "WCLK-FM",
+            "id": "340",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wclk.com",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wclk_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/340.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/groups/Jazz91.9WCLK/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/Jazz91_9WCLK ",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "6d2cda869be74915a62e84517989dd3e",
+            "href": "https://bit.ly/2CNpTPm",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/340.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/644",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wtsu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "644",
+        "network": {
+          "name": "Troy Public Radio",
+          "inheritingFrom": "641",
+          "usesInheritance": true,
+          "currentOrgId": "644",
+          "tier1": {
+            "name": "Troy State Public Radio",
+            "id": "641",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WTSU-FM",
+                "id": "642",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WRWA-FM",
+                    "id": "643",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WTJB-FM",
+                    "id": "644",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf70120a5c431bad4f4e79a05356a3",
+        "brand": {
+          "band": "FM",
+          "call": "WTJB",
+          "frequency": "91.7",
+          "marketCity": "Columbus",
+          "marketState": "GA",
+          "name": "Troy Public Radio",
+          "tagline": "It's Time to Listen."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7a5d62a7337941c081d634c0dd2aed95",
+                "typeId": "10",
+                "href": "https://live.streamguys1.com:2385/troy1"
+              }
+            ],
+            "guid": "0fdb4fbbc8584b5591ad9819579a4800",
+            "title": "Troy Public Radio - It's Time to Listen",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.troypublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/troy_pr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/troy_pr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/641_1f553c852413985daeb363e4e2e99bbc.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/641_105374096cf5e20e04ed77ca934e0f91.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "www.facebook.com/TroyPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "www.twitter.com/TroyPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "7a5d62a7337941c081d634c0dd2aed95",
+            "href": "https://live.streamguys1.com:2385/troy1",
+            "isPrimaryStream": true,
+            "title": "Troy Public Radio - It's Time to Listen",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "56a88044b8804ac89b0551d1beaafd16",
+            "href": "https://www.troy.edu/student-life-resources/campus-media/troy-public-radio/support/index.html",
+            "title": "Support Troy Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "d65f52c5c891409e98a5123cb43d63a0",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/641_1f6f7369be27dc1b1814b8733d4aeb9a.mp4",
+            "title": "Joey - Crisis Giving Spot",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "dbadaa4969744d0c9fba63f5328a7758",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/641_4e5746f3a33b8dcc1ebf858371a7b1ed.mp4",
+            "title": "Ann - Crisis Giving Spot",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "ea88b7c85f83419389c1565fb72002f1",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/641_7ace6dc7330e02f395d84df9954279a0.mp4",
+            "title": "Kyle - Crisis Giving Spot",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/975",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf7014015640fc930fdf41ce22cdad",
+        "brand": {
+          "band": "FM",
+          "call": "WFSL",
+          "frequency": "90.7",
+          "marketCity": "Thomasville",
+          "marketState": "GA",
+          "name": "WFSU",
+          "tagline": "Your Classical Music Source"
+        },
+        "orgId": "975",
+        "network": {
+          "inheritingFrom": "975",
+          "usesInheritance": false,
+          "currentOrgId": "975"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wfsu.org/radio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wfsl_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/975.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d2bf99b71b1d4628acee30f0c91696ee",
+            "href": "https://wfsu.secureallegiance.com/wfsu/WebModule/Donate.aspx?P=FMWEB&PAGETYPE=PLG&CHECK=ekRAVG1IVZLiQl%2ByqVkEd4HJipnY8PNT",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/975.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

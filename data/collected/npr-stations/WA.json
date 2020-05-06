@@ -1,0 +1,4387 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "WA"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/232",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kuow-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "232",
+        "network": {
+          "name": "KUOW",
+          "inheritingFrom": "231",
+          "usesInheritance": true,
+          "currentOrgId": "232",
+          "tier1": {
+            "name": "Puget Sound Public Radio",
+            "id": "231",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KUOW-FM",
+                "id": "232",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KUOW-AM",
+                    "id": "986",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KQOW-FM",
+                    "id": "1349",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "231",
+          "recency": 120
+        },
+        "guid": "4fcf700f1961470192866c678e1752b6",
+        "brand": {
+          "band": "FM",
+          "call": "KUOW",
+          "frequency": "94.9",
+          "marketCity": "Seattle",
+          "marketState": "WA",
+          "name": "KUOW",
+          "tagline": "Sound stories. Sound voices."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "987d1a7fdcaf472a97afef9fe6ecf247",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUOWFM_HIGH_MP3.mp3"
+              }
+            ],
+            "guid": "14b3d09c63e02d64e9d89d2ca4954b93",
+            "title": "KUOW-FM",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bc83d16fefdd45f8ab9c9d13c1fcc640",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUOWFM_LOW_MP3.mp3"
+              }
+            ],
+            "guid": "13d8e00399c00fc4a0295f4afccf587b",
+            "title": "KUOW-FM - Mobile/Low",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kuow.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kuow.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kuow.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/231_be26583f92137e41f3ba2c5ae65dde3a.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/231_e1747d0a74ddb9277d4c25c8d5e38e9f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/231_cc45abd4b1e196deaf7a7d126ca1e6c3.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/231_424934e6d46f3164e8ec0ceab7a96432.mp4?1582066931148",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/231_2d6a9f45275b1834bfcefad2a10f1226.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/231_098310c3d309d449398524ddcc689111.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/231_28509bda8321830d76bce1d1fd851c2c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/231_64f14f2cf020e961f31e74c9530cbc06.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/231_ad014a1ffdfc488366ba5498dc748a05.mp4?1582067057377",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/231_9576361abca914887f29b2912c08df46.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/231_3d440cc875330c693df69a077ab54ba4.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kuowpublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/kuow",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "987d1a7fdcaf472a97afef9fe6ecf247",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUOWFM_HIGH_MP3.mp3",
+            "isPrimaryStream": true,
+            "title": "KUOW-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bc83d16fefdd45f8ab9c9d13c1fcc640",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUOWFM_LOW_MP3.mp3",
+            "isPrimaryStream": false,
+            "title": "KUOW-FM - Mobile/Low",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "445710d562bb4ab4bd21929a52a17cdf",
+            "href": "https://feeds.feedburner.com/secondwavepodcast",
+            "title": "Second Wave",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "02dd27d917ff4dee8a25bc1622cd7a0c",
+            "href": "https://www.kuow.org/feeds/podcasts/terrestrial/podcasts/rss.xml",
+            "title": "Terrestrial",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3b3750c1c55741ed963e4b2f131510da",
+            "href": "https://www.kuow.org/feeds/podcasts/primed/podcasts/rss.xml",
+            "title": "Primed",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c58789fb97e24f7dac8e4b46be6cc922",
+            "href": "https://kuow.drupal.publicbroadcasting.net/podcasts/719/rss.xml",
+            "title": "KUOW's RadioActive",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3f490e8e32394a049648b438432811eb",
+            "href": "https://kuow.drupal.publicbroadcasting.net/podcasts/89001/rss.xml",
+            "title": "How To Be A Girl",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d59b16e9dfd64a53af829ef3c7617342",
+            "href": "https://kuow.drupal.publicbroadcasting.net/podcasts/101863/rss.xml",
+            "title": "How's Your Day?",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9c9b94ff31c14577b807ddf83ccdba38",
+            "href": "https://www.kuow.org/feeds/podcasts/week-in-review/podcasts/rss.xml",
+            "title": "KUOW's Week In Review",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8c29171a814e4947a361d6997be40f50",
+            "href": "https://www.kuow.org/feeds/podcasts/the-record/podcasts/rss.xml",
+            "title": "KUOW's The Record",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2a7d81db1d8c42d0b27c9d66824d8efe",
+            "href": "https://feeds.feedburner.com/btsw",
+            "title": "Battle Tactics For Your Sexist Workplace",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c154172a1f2142dc9784d4c7ae8d29ea",
+            "href": "HTTPS://www.kuow.org/feeds/podcasts/speakers-forum/podcasts/rss.xml",
+            "title": "KUOW's Speakers Forum",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a3b9a9694ad84ed286cc0b55a04f57b2",
+            "href": "https://www.kuow.org/feeds/podcasts/soundqs/podcasts/rss.xml",
+            "title": "SoundQs",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4c7de387a50345e0ad622f6968bdad94",
+            "href": "https://feeds.feedburner.com/thewildpodcast",
+            "title": "The Wild",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c78a3be019e64109b10951d5e9e9cff8",
+            "href": "https://www.kuow.org/feeds/podcasts/seattlenow/podcasts/rss.xml",
+            "title": "Seattle Now",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "36ca529b686048fb903bc2e6a2a2bf23",
+            "href": "https://www.kuow.org/donate/givebig2020webads?utm_source=nprone&utm_medium=donate&utm_campaign=gtgb2020",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "bd4db909a50140629f0f508ea15598c3",
+            "href": "https://www.kuow.org/donate/givebig2020webads?utm_source=nprone&utm_medium=donate&utm_campaign=gtgb2020",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "403e2550431f48929230fcaa359866ca",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/231_be5f6ee24441b2e8c9fff1def2cb0f00.mp4?1588647103846",
+            "title": "Give Big/Giving Tuesday 2020 (Steve Williams)",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/231.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/148",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/knkx-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "148",
+        "network": {
+          "inheritingFrom": "148",
+          "usesInheritance": false,
+          "currentOrgId": "148",
+          "tier1": {
+            "name": "KNKX-FM",
+            "id": "148",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KPLI-FM",
+                "id": "1006",
+                "usesInheritance": true
+              },
+              {
+                "name": "KVIX-FM",
+                "id": "1007",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "148",
+          "recency": 240
+        },
+        "guid": "4fcf700f026c40229c010d593c9b540a",
+        "brand": {
+          "band": "FM",
+          "call": "KNKX",
+          "frequency": "88.5",
+          "marketCity": "Tacoma",
+          "marketState": "WA",
+          "name": "KNKX Public Radio",
+          "tagline": "Connecting you to jazz, blues and NPR news"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2da806a3ff5b44f9a29b427b25fd614b",
+                "typeId": "10",
+                "href": "https://live.wostreaming.net/direct/ppm-knkxfmmp3-ibc1?source=npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "d6d83a81da2f486596d020d2806555be",
+                "typeId": "13",
+                "href": "https://live.wostreaming.net/direct/ppm-knkxfmaac256-ibc1?source=npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "6fbfc2d7a478451b8911cd05c51aa181",
+                "typeId": "13",
+                "href": "https://live.wostreaming.net/direct/ppm-knkxfmaac-ibc1?source=npr"
+              }
+            ],
+            "guid": "13dcc43d3ac03e447dc85f99b1197d02",
+            "title": "You are listening to KNKX",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bc856442fcfb4e6b9f400b45eb89d868",
+                "typeId": "10",
+                "href": "https://live.wostreaming.net/direct/ppm-jazz24mp3-ibc1?source=npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "aa3fb872eb1e4971bc6f3a6e9423953e",
+                "typeId": "13",
+                "href": "https://live.wostreaming.net/direct/ppm-jazz24aac-ibc1?source=npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "71148ae65e654ae4b879e0c23b5d49c8",
+                "typeId": "13",
+                "href": "https://live.wostreaming.net/direct/ppm-jazz24aac256-ibc1?source=npr"
+              }
+            ],
+            "guid": "4fcf713c182b4b6095b9b13837299888",
+            "title": "Jazz24",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.knkx.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/knkx_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/knkx_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/148_c60251c472227993baab9cc8dc1e7a4a.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KPLU.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/KPLU",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "2da806a3ff5b44f9a29b427b25fd614b",
+            "href": "https://live.wostreaming.net/direct/ppm-knkxfmmp3-ibc1?source=npr",
+            "isPrimaryStream": true,
+            "title": "You are listening to KNKX",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bc856442fcfb4e6b9f400b45eb89d868",
+            "href": "https://live.wostreaming.net/direct/ppm-jazz24mp3-ibc1?source=npr",
+            "isPrimaryStream": false,
+            "title": "Jazz24",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "d6d83a81da2f486596d020d2806555be",
+            "href": "https://live.wostreaming.net/direct/ppm-knkxfmaac256-ibc1?source=npr",
+            "isPrimaryStream": true,
+            "title": "You are listening to KNKX",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "aa3fb872eb1e4971bc6f3a6e9423953e",
+            "href": "https://live.wostreaming.net/direct/ppm-jazz24aac-ibc1?source=npr",
+            "isPrimaryStream": false,
+            "title": "Jazz24",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "6fbfc2d7a478451b8911cd05c51aa181",
+            "href": "https://live.wostreaming.net/direct/ppm-knkxfmaac-ibc1?source=npr",
+            "isPrimaryStream": true,
+            "title": "You are listening to KNKX",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "71148ae65e654ae4b879e0c23b5d49c8",
+            "href": "https://live.wostreaming.net/direct/ppm-jazz24aac256-ibc1?source=npr",
+            "isPrimaryStream": false,
+            "title": "Jazz24",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "890d8d5e45b04bfe8cd26b921e4cd47c",
+            "href": "https://kplu.drupal.publicbroadcasting.net/podcasts/term/6467/rss.xml",
+            "title": "Sound Effect",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "52d636ec4f75437cbc8f6d3b6f1401bf",
+            "href": "https://kplu.drupal.publicbroadcasting.net/podcasts/76811/rss.xml",
+            "title": "Outsiders",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1c29840835a74f3f8e564dea0d430f6c",
+            "href": "https://kplu.drupal.publicbroadcasting.net/podcasts/term/1024/rss.xml",
+            "title": "Sports With Art Thiel",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "980d8de25a6442cabc00b801fb7f8ccd",
+            "href": "https://www.knkx.org/podcasts/78797/rss.xml",
+            "title": "Transmission",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "20c5821ac45a4945a9994a1c48824ae5",
+            "href": "https://www.knkx.org/podcasts/4358/rss.xml",
+            "title": "Jazz Northwest",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b70ee4ccdc804d8e8174555f504dee12",
+            "href": "https://kplu.drupal.publicbroadcasting.net/podcasts/47659/rss.xml",
+            "title": "School Of Jazz",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "368dff728f53463d861a67220699ea72",
+            "href": "https://kplu.drupal.publicbroadcasting.net/podcasts/term/2766/rss.xml",
+            "title": "Weather With Cliff Mass",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "76bdebe356c349998404479410c841c6",
+            "href": "https://kplu.drupal.publicbroadcasting.net/podcasts/term/5710/rss.xml",
+            "title": "Going Places",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9cae251b36bf42c8aa6435f40083897b",
+            "href": "https://www.knkx.org/podcasts/68845/rss.xml",
+            "title": "Forgotten Prison",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "291603183a3a46069b2680ea88198572",
+            "href": "https://kplu.drupal.publicbroadcasting.net/podcasts/term/27/rss.xml",
+            "title": "Food For Thought",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c35b9eb151804ecdab3ebece6fdd62ad",
+            "href": "https://kplu.drupal.publicbroadcasting.net/podcasts/term/5376/rss.xml",
+            "title": "Live Studio Sessions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a3ae48af527941ce9186c4c5c2a504e3",
+            "href": "https://kplu.drupal.publicbroadcasting.net/podcasts/term/3177/rss.xml",
+            "title": "I Wonder Why...?",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6c7758146c9e4139af3a60e9f475dbc5",
+            "href": "https://kplu.drupal.publicbroadcasting.net/podcasts",
+            "title": "KNKX News Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "edf2c723656447cd9fcc338a81d4875f",
+            "href": "https://donate.nprstations.org/knkx/knkx-nprone-sustainer-form",
+            "title": "Support knkx",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "4eb75b0e8eeb4d3c93dad53906d52015",
+            "href": "https://donate.nprstations.org/knkx/knkx-nprone-sustainer-form",
+            "title": "Support knkx",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "2ff5d5b2ba334a1c804ed08268956ebc",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/148_62032c57210e5964a0e3498bb053f5a2.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/148.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/141",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kpbx-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "141",
+        "network": {
+          "name": "Spokane Public Radio",
+          "inheritingFrom": "140",
+          "usesInheritance": true,
+          "currentOrgId": "141",
+          "tier1": {
+            "name": "Spokane Public Radio",
+            "id": "140",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KPBX-FM",
+                "id": "141",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KIBX-FM",
+                    "id": "142",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSFC-FM",
+                    "id": "143",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KXJO-FM",
+                    "id": "1200",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KPBG-FM",
+                    "id": "1288",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTWP-FM",
+                    "id": "1290",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPBZ-FM",
+                    "id": "1442",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KLGG-FM",
+                    "id": "1443",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KOMQ-FM",
+                    "id": "1444",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPBW-FM",
+                    "id": "1445",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "140",
+          "recency": 360
+        },
+        "guid": "4fcf700f002847f9a8a2fd657cc8bb01",
+        "brand": {
+          "band": "FM",
+          "call": "KPBX",
+          "frequency": "91.1",
+          "marketCity": "Spokane",
+          "marketState": "WA",
+          "name": "Spokane Public Radio",
+          "tagline": "Spokane Public Radio, stations KPBX, KSFC, KPBZ"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "12c2dac3254f42d1afb3d7111d8e6266",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5012/KPBX-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "980f14cb2b2d4ecb85aaa369f2c28efb",
+                "typeId": "13",
+                "href": "https://tektite.streamguys1.com:5012/KPBX-aac"
+              }
+            ],
+            "guid": "4fcf715515834d06a86fb304b324792a",
+            "title": "KPBX 91.1",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6019a3656c89435499b421207c9fdcc2",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5012/KSFC-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "455b063baa3c4035834a70878d78e68e",
+                "typeId": "13",
+                "href": "https://tektite.streamguys1.com:5012/KSFC-aac"
+              }
+            ],
+            "guid": "4fcf71551de645be98e43f989626ab56",
+            "title": "KSFC 91.9",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ca0c40ba390e42a185921ae5bc7d513c",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5012/KPBZ-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "cd5573e5b0af49b98e1ddda2a995b91a",
+                "typeId": "13",
+                "href": "https://tektite.streamguys1.com:5012/KPBZ-aac"
+              }
+            ],
+            "guid": "ddec879738b040398777bcf9d8738e25",
+            "title": "KPBZ 90.3",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://spokanepublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/spr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/spr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/140_5375eb1e1c2466a60799595e111a528f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/140_f3a032a17672b16c537ac4bfb911a002.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/140_3fee809c93717439df02d9cb21fd453b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/140_a52f5975187d3bdb66bbe04581189bba.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "12c2dac3254f42d1afb3d7111d8e6266",
+            "href": "https://tektite.streamguys1.com:5012/KPBX-mp3",
+            "isPrimaryStream": true,
+            "title": "KPBX 91.1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6019a3656c89435499b421207c9fdcc2",
+            "href": "https://tektite.streamguys1.com:5012/KSFC-mp3",
+            "isPrimaryStream": false,
+            "title": "KSFC 91.9",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ca0c40ba390e42a185921ae5bc7d513c",
+            "href": "https://tektite.streamguys1.com:5012/KPBZ-mp3",
+            "isPrimaryStream": false,
+            "title": "KPBZ 90.3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "980f14cb2b2d4ecb85aaa369f2c28efb",
+            "href": "https://tektite.streamguys1.com:5012/KPBX-aac",
+            "isPrimaryStream": true,
+            "title": "KPBX 91.1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "455b063baa3c4035834a70878d78e68e",
+            "href": "https://tektite.streamguys1.com:5012/KSFC-aac",
+            "isPrimaryStream": false,
+            "title": "KSFC 91.9",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "cd5573e5b0af49b98e1ddda2a995b91a",
+            "href": "https://tektite.streamguys1.com:5012/KPBZ-aac",
+            "isPrimaryStream": false,
+            "title": "KPBZ 90.3",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e7fdbeca80424a098e5cee8f20d7f9e6",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/8643/rss.xml",
+            "title": "Men in Charge",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a121c6e8af314b6b95b6c976d17a1ac0",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/72893/rss.xml",
+            "title": "Pivot Spokane",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "56177722de2d4e46ad0883c09f797f2a",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/2344/rss.xml",
+            "title": "From The Studio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8afdbf3710014c9ab15fa586cfeefd59",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/1731/rss.xml",
+            "title": "Movies 101",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ea533ed17f53486ca5d5d3784c2e1200",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/58687/rss.xml",
+            "title": "Poetry Moment",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c23f9899508c459a8c75f4527b2561fb",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/44291/rss.xml",
+            "title": "Inland Journal",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fd9de09608f2405aa36fd2ddeef83d7b",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/2318/rss.xml",
+            "title": "SPR Movie Reviews",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a2b60be829714460a6b935505bc9d94c",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/992/rss.xml",
+            "title": "The Bookshelf",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "30821d81b5014140a3568363ba336ddc",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/63923/rss.xml",
+            "title": "Northwest Arts Review",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "823c52b3b1864946992ea440e83644ec",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/77016/rss.xml",
+            "title": "Miller Cane: A True and Exact History",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "53a4e19383854fcfacbfa502f37dbcdf",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/term/36/rss.xml",
+            "title": "Spokane Public Radio News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "a272d9e706544345a165edfab3be6d5c",
+            "href": "https://donate.nprstations.org/spokanepublicradio/",
+            "title": "Support Spokane Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b60784fe30e04cb287021dab4f2b8d64",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/140_7f8588fdf907ca615ed94b28188624a9.mp4?1554492206200",
+            "title": "Subscribe #4",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "3a6ef332718348a79a9f9ed7dfe297ec",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/140_34d97b17b28ca2bedcedaaef70551211.mp4?1550188292719",
+            "title": "Donation Audio1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "39e367bc283a4ec89f896e31d86b5f0f",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/140_f4b74473ce412a24b231583c0ff6219d.mp4?1554492157189",
+            "title": "Subscribe #2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/143",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kpbx-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "143",
+        "network": {
+          "inheritingFrom": "143",
+          "usesInheritance": false,
+          "currentOrgId": "143"
+        },
+        "newscast": {
+          "id": "143",
+          "recency": 360
+        },
+        "guid": "4fcf700f014942fe9ee60b00b0897074",
+        "brand": {
+          "band": "FM",
+          "call": "KSFC",
+          "frequency": "91.9",
+          "marketCity": "Spokane",
+          "marketState": "WA",
+          "name": "KSFC Spokane Public Radio",
+          "tagline": "Spokane Public Radio, stations KPBX, KSFC, KPBZ"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ca0c40ba390e42a185921ae5bc7d513c",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5012/KPBZ-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "cd5573e5b0af49b98e1ddda2a995b91a",
+                "typeId": "13",
+                "href": "https://tektite.streamguys1.com:5012/KPBZ-aac"
+              }
+            ],
+            "guid": "ddec879738b040398777bcf9d8738e25",
+            "title": "KPBZ 90.3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "12c2dac3254f42d1afb3d7111d8e6266",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5012/KPBX-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "980f14cb2b2d4ecb85aaa369f2c28efb",
+                "typeId": "13",
+                "href": "https://tektite.streamguys1.com:5012/KPBX-aac"
+              }
+            ],
+            "guid": "4fcf715515834d06a86fb304b324792a",
+            "title": "KPBX 91.1",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6019a3656c89435499b421207c9fdcc2",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5012/KSFC-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "455b063baa3c4035834a70878d78e68e",
+                "typeId": "13",
+                "href": "https://tektite.streamguys1.com:5012/KSFC-aac"
+              }
+            ],
+            "guid": "4fcf71551de645be98e43f989626ab56",
+            "title": "KSFC 91.9",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://spokanepublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/spr.png?1514422631137",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/spr.gif?1514422549650",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/143.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Spokane-Public-Radio/235860405299",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "ca0c40ba390e42a185921ae5bc7d513c",
+            "href": "https://tektite.streamguys1.com:5012/KPBZ-mp3",
+            "isPrimaryStream": false,
+            "title": "KPBZ 90.3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "12c2dac3254f42d1afb3d7111d8e6266",
+            "href": "https://tektite.streamguys1.com:5012/KPBX-mp3",
+            "isPrimaryStream": false,
+            "title": "KPBX 91.1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6019a3656c89435499b421207c9fdcc2",
+            "href": "https://tektite.streamguys1.com:5012/KSFC-mp3",
+            "isPrimaryStream": true,
+            "title": "KSFC 91.9",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "455b063baa3c4035834a70878d78e68e",
+            "href": "https://tektite.streamguys1.com:5012/KSFC-aac",
+            "isPrimaryStream": true,
+            "title": "KSFC 91.9",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "cd5573e5b0af49b98e1ddda2a995b91a",
+            "href": "https://tektite.streamguys1.com:5012/KPBZ-aac",
+            "isPrimaryStream": false,
+            "title": "KPBZ 90.3",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "980f14cb2b2d4ecb85aaa369f2c28efb",
+            "href": "https://tektite.streamguys1.com:5012/KPBX-aac",
+            "isPrimaryStream": false,
+            "title": "KPBX 91.1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "30821d81b5014140a3568363ba336ddc",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/63923/rss.xml",
+            "title": "Northwest Arts Review",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a121c6e8af314b6b95b6c976d17a1ac0",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/72893/rss.xml",
+            "title": "Pivot Spokane",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "823c52b3b1864946992ea440e83644ec",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/77016/rss.xml",
+            "title": "Miller Cane: A True and Exact History",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fd9de09608f2405aa36fd2ddeef83d7b",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/2318/rss.xml",
+            "title": "SPR Movie Reviews",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a2b60be829714460a6b935505bc9d94c",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/992/rss.xml",
+            "title": "The Bookshelf",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "53a4e19383854fcfacbfa502f37dbcdf",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/term/36/rss.xml",
+            "title": "Spokane Public Radio News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8afdbf3710014c9ab15fa586cfeefd59",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/1731/rss.xml",
+            "title": "Movies 101",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "56177722de2d4e46ad0883c09f797f2a",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/2344/rss.xml",
+            "title": "From The Studio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e7fdbeca80424a098e5cee8f20d7f9e6",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/8643/rss.xml",
+            "title": "Men in Charge",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c23f9899508c459a8c75f4527b2561fb",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/44291/rss.xml",
+            "title": "Inland Journal",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ea533ed17f53486ca5d5d3784c2e1200",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/58687/rss.xml",
+            "title": "Poetry Moment",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "245b89aab0764f969bb079e2bf131897",
+            "href": "https://donate.nprstations.org/spokanepublicradio/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/143.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/282",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "282",
+        "network": {
+          "inheritingFrom": "282",
+          "usesInheritance": false,
+          "currentOrgId": "282"
+        },
+        "guid": "4fcf700f24b2448c94e0a2bacfa785a7",
+        "brand": {
+          "band": "FM",
+          "call": "KWWS",
+          "frequency": "89.7",
+          "marketCity": "Walla Walla",
+          "marketState": "WA",
+          "name": "Northwest Public Broadcasting",
+          "tagline": "NPR News"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/282.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/northwestpublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": true,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": false,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "431c5a70ec644ab1863d132a7504b923",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "43c47f5fd2f1490592388f6217d6e492",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/282.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/158",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "158",
+        "network": {
+          "inheritingFrom": "158",
+          "usesInheritance": false,
+          "currentOrgId": "158"
+        },
+        "guid": "4fcf700f05284fbe95d384ccbb4f7635",
+        "brand": {
+          "band": "FM",
+          "call": "KFAE",
+          "frequency": "89.1",
+          "marketCity": "Richland",
+          "marketState": "WA",
+          "name": "NWPB Classical",
+          "tagline": "NPR and Classical Music"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/158.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Northwest-Public-Radio/116868471665933",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": true,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": false,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3a4dbad6dae14f1296c7df7ebd7ee302",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "2fda4d0fe08047a382eb5ed9010c4b5a",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/158.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/280",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "280",
+        "network": {
+          "inheritingFrom": "280",
+          "usesInheritance": false,
+          "currentOrgId": "280"
+        },
+        "guid": "4fcf700f244046458d85f6ee5e2c4669",
+        "brand": {
+          "band": "FM",
+          "call": "KLWS",
+          "frequency": "91.5",
+          "marketCity": "Moses Lake",
+          "marketState": "WA",
+          "name": "Northwest Public Broadcasting",
+          "tagline": "NPR News"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/280.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": true,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": false,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "27f4db2acf7940dab3987722155181d0",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "f09ce91b856d42f8804b0a528b7d71a0",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/280.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/161",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "161",
+        "network": {
+          "inheritingFrom": "161",
+          "usesInheritance": false,
+          "currentOrgId": "161"
+        },
+        "guid": "4fcf700f06284f68b285a2e4e6bc4fef",
+        "brand": {
+          "band": "FM",
+          "call": "KNWR",
+          "frequency": "90.7",
+          "marketCity": "Ellensburg",
+          "marketState": "WA",
+          "name": "NWPB Classical",
+          "tagline": "NPR and Classical Music"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/161.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Northwest-Public-Radio/116868471665933",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": false,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": true,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "0e0f69cf959e4085ba53bd90a0e171bf",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "a215a789ba104966ba8015d3cc2c5a01",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/161.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1174",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "1174",
+        "network": {
+          "inheritingFrom": "1174",
+          "usesInheritance": false,
+          "currentOrgId": "1174"
+        },
+        "guid": "4fcf701421b242fe9194cb092c4327ed",
+        "brand": {
+          "band": "FM",
+          "call": "KSWS",
+          "frequency": "88.9",
+          "marketCity": "Chehalis",
+          "marketState": "WA",
+          "name": "Northwest Public Broadcasting",
+          "tagline": "NPR News"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1174.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Northwest-Public-Radio/116868471665933",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": true,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": false,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "0a8e3055e38a43089468584e159830f7",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "5de197bd80c1497a9b8e9c1b054f0aaa",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1174.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/279",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kwsu-am.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "279",
+        "network": {
+          "inheritingFrom": "279",
+          "usesInheritance": false,
+          "currentOrgId": "279"
+        },
+        "guid": "4fcf700f23fa4084839fee72cec5e6fb",
+        "brand": {
+          "band": "AM",
+          "call": "KWSU",
+          "frequency": "1250",
+          "marketCity": "Pullman",
+          "marketState": "WA",
+          "name": "Northwest Public Broadcasting",
+          "tagline": "NPR News"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/279.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Northwest-Public-Radio/116868471665933",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": true,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": false,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1cfc2a94e3284b4b8b2905f11525b285",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "4b4333d4a8034869b24feaa1d6820e31",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/279.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/164",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "164",
+        "network": {
+          "inheritingFrom": "164",
+          "usesInheritance": false,
+          "currentOrgId": "164"
+        },
+        "guid": "4fcf700f06f24c51a3055f591aa0bd9e",
+        "brand": {
+          "band": "FM",
+          "call": "KZAZ",
+          "frequency": "91.7",
+          "marketCity": "Bellingham",
+          "marketState": "WA",
+          "name": "NWPB Classical",
+          "tagline": "NPR and Classical Music"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/164.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Northwest-Public-Radio/116868471665933",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": false,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": true,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "95cc89ce1199417c9615113893e295a0",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "d6003989d35049b7911a92ff3b33147f",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/164.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/163",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "163",
+        "network": {
+          "inheritingFrom": "163",
+          "usesInheritance": false,
+          "currentOrgId": "163"
+        },
+        "guid": "4fcf700f06b34de6bb56e403f2f98805",
+        "brand": {
+          "band": "FM",
+          "call": "KNWY",
+          "frequency": "90.3",
+          "marketCity": "Yakima",
+          "marketState": "WA",
+          "name": "NWPB Classical",
+          "tagline": "NPR and Classical Music"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/163.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Northwest-Public-Radio/116868471665933",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": false,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": true,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1d6914cb2fc447e3a83a355cb5906a7f",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "65e04ef5e8e74571a8bf7ff320823e3f",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/163.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/160",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "160",
+        "network": {
+          "inheritingFrom": "160",
+          "usesInheritance": false,
+          "currentOrgId": "160"
+        },
+        "guid": "4fcf700f05c94ebfaf3c2900b0ed6a6d",
+        "brand": {
+          "band": "FM",
+          "call": "KNWP",
+          "frequency": "90.1",
+          "marketCity": "Port Angeles",
+          "marketState": "WA",
+          "name": "NWPB Classical",
+          "tagline": "NPR and Classical Music"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/160.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Northwest-Public-Radio/116868471665933",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": false,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": true,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "ac2ae9dff9b74c0d8cd300e745917606",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "137d29fe416c4d55b037322a99b39719",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/160.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/838",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "838",
+        "network": {
+          "inheritingFrom": "838",
+          "usesInheritance": false,
+          "currentOrgId": "838"
+        },
+        "guid": "4fcf70130deb42d3a6d90ff84d4bb3e4",
+        "brand": {
+          "band": "FM",
+          "call": "KMWS",
+          "frequency": "89.7",
+          "marketCity": "Mount Vernon",
+          "marketState": "WA",
+          "name": "Northwest Public Broadcasting",
+          "tagline": "NPR News"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/838.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": true,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": false,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "db0db6788c054b1380e045ee1984d504",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "1128650c04bb4ecbb161b1164ed5af2d",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/838.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/281",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "281",
+        "network": {
+          "inheritingFrom": "281",
+          "usesInheritance": false,
+          "currentOrgId": "281"
+        },
+        "guid": "4fcf700f2479489587fcda898ba09b4d",
+        "brand": {
+          "band": "FM",
+          "call": "KQWS",
+          "frequency": "90.1",
+          "marketCity": "Omak",
+          "marketState": "WA",
+          "name": "Northwest Public Broadcasting",
+          "tagline": "NPR News"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/281.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": true,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": false,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d985e3318cb74dd3a69e3beb719fa0fb",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "fa81fe3b4ce341a4af8932b55f73c46d",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/281.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/162",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "162",
+        "network": {
+          "inheritingFrom": "162",
+          "usesInheritance": false,
+          "currentOrgId": "162"
+        },
+        "guid": "4fcf700f06764fdebf522c3326bd1cde",
+        "brand": {
+          "band": "FM",
+          "call": "KNWV",
+          "frequency": "90.5",
+          "marketCity": "Clarkston",
+          "marketState": "WA",
+          "name": "NWPB Classical",
+          "tagline": "NPR and Classical Music"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/162.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Northwest-Public-Radio/116868471665933",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": false,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": true,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "4445a2fc72c54b9cb4e5aa0ffb8876a1",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "6304f12f8a5d40ad9a40f8b4dc3d0ea5",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/162.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1334",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "1334",
+        "network": {
+          "inheritingFrom": "1334",
+          "usesInheritance": false,
+          "currentOrgId": "1334"
+        },
+        "guid": "503cebe823fb400aa232841fa4a831d0",
+        "brand": {
+          "band": "FM",
+          "call": "KHNW",
+          "frequency": "88.3",
+          "marketCity": "Manson",
+          "marketState": "WA",
+          "name": "NWPB Classical",
+          "tagline": "NPR and Classical Music"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1334.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/northwestpublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": false,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": true,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "a7c40bd24e204e7f99f85eef7f132bfe",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "29f7a48bd5a24c689c0cd5c1e19d3e29",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1334.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1404",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "1404",
+        "network": {
+          "inheritingFrom": "1404",
+          "usesInheritance": false,
+          "currentOrgId": "1404"
+        },
+        "guid": "5228cf4c21414f259fbaac322fa9397f",
+        "brand": {
+          "band": "FM",
+          "call": "KJEM",
+          "frequency": "89.9",
+          "marketCity": "Pullman",
+          "marketState": "WA",
+          "name": "KJEM",
+          "tagline": "KJEM Jazz"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1404.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Northwest-Public-Radio/116868471665933",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": false,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": true,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": false,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "bb88e67df5a84ce9a8f6aa0991086a60",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1404.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1442",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kpbx-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1442",
+        "network": {
+          "inheritingFrom": "1442",
+          "usesInheritance": false,
+          "currentOrgId": "1442"
+        },
+        "guid": "539619ec0cb945639495d3e47ec3218e",
+        "brand": {
+          "band": "FM",
+          "call": "KPBZ",
+          "frequency": "90.3",
+          "marketCity": "Spokane",
+          "marketState": "WA",
+          "name": "KPBZ Spokane Public Radio",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "12c2dac3254f42d1afb3d7111d8e6266",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5012/KPBX-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "980f14cb2b2d4ecb85aaa369f2c28efb",
+                "typeId": "13",
+                "href": "https://tektite.streamguys1.com:5012/KPBX-aac"
+              }
+            ],
+            "guid": "4fcf715515834d06a86fb304b324792a",
+            "title": "KPBX 91.1",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ca0c40ba390e42a185921ae5bc7d513c",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5012/KPBZ-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "cd5573e5b0af49b98e1ddda2a995b91a",
+                "typeId": "13",
+                "href": "https://tektite.streamguys1.com:5012/KPBZ-aac"
+              }
+            ],
+            "guid": "ddec879738b040398777bcf9d8738e25",
+            "title": "KPBZ 90.3",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6019a3656c89435499b421207c9fdcc2",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5012/KSFC-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "455b063baa3c4035834a70878d78e68e",
+                "typeId": "13",
+                "href": "https://tektite.streamguys1.com:5012/KSFC-aac"
+              }
+            ],
+            "guid": "4fcf71551de645be98e43f989626ab56",
+            "title": "KSFC 91.9",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://spokanepublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/spr.png?1514422631137",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/spr.gif?1514422549650",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "12c2dac3254f42d1afb3d7111d8e6266",
+            "href": "https://tektite.streamguys1.com:5012/KPBX-mp3",
+            "isPrimaryStream": false,
+            "title": "KPBX 91.1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ca0c40ba390e42a185921ae5bc7d513c",
+            "href": "https://tektite.streamguys1.com:5012/KPBZ-mp3",
+            "isPrimaryStream": true,
+            "title": "KPBZ 90.3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6019a3656c89435499b421207c9fdcc2",
+            "href": "https://tektite.streamguys1.com:5012/KSFC-mp3",
+            "isPrimaryStream": false,
+            "title": "KSFC 91.9",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cd5573e5b0af49b98e1ddda2a995b91a",
+            "href": "https://tektite.streamguys1.com:5012/KPBZ-aac",
+            "isPrimaryStream": true,
+            "title": "KPBZ 90.3",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "455b063baa3c4035834a70878d78e68e",
+            "href": "https://tektite.streamguys1.com:5012/KSFC-aac",
+            "isPrimaryStream": false,
+            "title": "KSFC 91.9",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "980f14cb2b2d4ecb85aaa369f2c28efb",
+            "href": "https://tektite.streamguys1.com:5012/KPBX-aac",
+            "isPrimaryStream": false,
+            "title": "KPBX 91.1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "a2b60be829714460a6b935505bc9d94c",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/992/rss.xml",
+            "title": "The Bookshelf",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e7fdbeca80424a098e5cee8f20d7f9e6",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/8643/rss.xml",
+            "title": "Men in Charge",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "823c52b3b1864946992ea440e83644ec",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/77016/rss.xml",
+            "title": "Miller Cane: A True and Exact History",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c23f9899508c459a8c75f4527b2561fb",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/44291/rss.xml",
+            "title": "Inland Journal",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "53a4e19383854fcfacbfa502f37dbcdf",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/term/36/rss.xml",
+            "title": "Spokane Public Radio News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ea533ed17f53486ca5d5d3784c2e1200",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/58687/rss.xml",
+            "title": "Poetry Moment",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8afdbf3710014c9ab15fa586cfeefd59",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/1731/rss.xml",
+            "title": "Movies 101",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "56177722de2d4e46ad0883c09f797f2a",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/2344/rss.xml",
+            "title": "From The Studio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fd9de09608f2405aa36fd2ddeef83d7b",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/2318/rss.xml",
+            "title": "SPR Movie Reviews",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "30821d81b5014140a3568363ba336ddc",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/63923/rss.xml",
+            "title": "Northwest Arts Review",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a121c6e8af314b6b95b6c976d17a1ac0",
+            "href": "https://kpbx.drupal.publicbroadcasting.net/podcasts/72893/rss.xml",
+            "title": "Pivot Spokane",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "0b965de132484bcfad5b1eb44d273884",
+            "href": "https://donate.nprstations.org/spokanepublicradio/",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1405",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "1405",
+        "network": {
+          "inheritingFrom": "1405",
+          "usesInheritance": false,
+          "currentOrgId": "1405"
+        },
+        "guid": "5228cf4c21994c8c85a3f2a69014bee5",
+        "brand": {
+          "band": "FM",
+          "call": "KNWU",
+          "frequency": "91.5",
+          "marketCity": "Forks",
+          "marketState": "WA",
+          "name": "NWPB Classical",
+          "tagline": "NPR and Classical Music"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1405.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": true,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": false,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "233acdc38d304a2b992e3905129d6932",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "4a0a99374aff4c2d9120331e3dad86f8",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1405.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/79",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "79",
+        "network": {
+          "inheritingFrom": "79",
+          "usesInheritance": false,
+          "currentOrgId": "79",
+          "tier1": {
+            "name": "KEXP-FM",
+            "id": "79",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf700e150f4225b239c1f9f1c34837",
+        "brand": {
+          "band": "FM",
+          "call": "KEXP",
+          "frequency": "90.3",
+          "marketCity": "Seattle",
+          "marketState": "WA",
+          "name": "KEXP",
+          "tagline": "Where the Music Matters"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5afce20e3d564898aa47aa128768e158",
+                "typeId": "10",
+                "href": "https://kexp-mp3-128.streamguys1.com/kexp128.mp3"
+              }
+            ],
+            "guid": "4fcf713d22c7435c85380a8d1fe87750",
+            "title": "KEXP: Where The Music Matters",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kexp.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kexp_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kexp_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/79.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kexp.fm",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "5afce20e3d564898aa47aa128768e158",
+            "href": "https://kexp-mp3-128.streamguys1.com/kexp128.mp3",
+            "isPrimaryStream": true,
+            "title": "KEXP: Where The Music Matters",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "805c6ddbc9b04ffb9145a1f8b90492c3",
+            "href": "https://www.omnycontent.com/d/playlist/bad5d079-8dcb-4630-8770-aa090049131d/2ab375e3-fdca-4b2b-8bb8-aa7d0148d501/f67a40e1-a60f-4eae-8310-aa7d014b4a62/podcast.rss",
+            "title": "KEXP's Sound & Vision",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "32b93ec772b841648b242b37a8631bb5",
+            "href": "https://www.omnycontent.com/d/playlist/bad5d079-8dcb-4630-8770-aa090049131d/2a8dbc3b-941c-445b-a311-aa400020390f/02c3cab1-f35c-4281-94a8-aa400020391d/podcast.rss",
+            "title": "KEXP's Music That Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "73e5bab828ae44c3834d09f2d7a71bcb",
+            "href": "https://www.omnycontent.com/d/playlist/bad5d079-8dcb-4630-8770-aa090049131d/18f3a48e-1c64-43e8-96e9-aa40002038ee/856f4314-821f-46ca-bc8e-aa40002038f2/podcast.rss",
+            "title": "KEXP Live Performances Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e25f2d1ceb544636b7d48755af67ba93",
+            "href": "https://www.omnycontent.com/d/playlist/bad5d079-8dcb-4630-8770-aa090049131d/32b2ac38-5a48-4300-9fa6-aa40002038b5/4ac1c451-4315-4096-ab9b-aa40002038c4/podcast.rss",
+            "title": "KEXP's Song of the Day",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "140d228bb8644cf79a46bbf41c1b3ca8",
+            "href": "https://www.kexp.org/donate/",
+            "title": "Donate to KEXP",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/79.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1171",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "15",
+          "musicOnly": false
+        },
+        "orgId": "1171",
+        "network": {
+          "inheritingFrom": "1171",
+          "usesInheritance": false,
+          "currentOrgId": "1171"
+        },
+        "guid": "4fcf701421304b229715e9b7522db15e",
+        "brand": {
+          "band": "FM",
+          "call": "KVTI",
+          "frequency": "90.9",
+          "marketCity": "Tacoma",
+          "marketState": "WA",
+          "name": "NWPB Classical",
+          "tagline": "NPR and Classical Music"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1171.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Northwest-Public-Radio/116868471665933",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": true,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": false,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "7bffde941f6146d38b7c7cfa31c78bf4",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "f1a97fa77be6476a872432e041999f93",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1171.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1350",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "15",
+          "musicOnly": false
+        },
+        "orgId": "1350",
+        "network": {
+          "inheritingFrom": "1350",
+          "usesInheritance": false,
+          "currentOrgId": "1350"
+        },
+        "guid": "505f5b1821824c5cbcc3646dd9793557",
+        "brand": {
+          "band": "FM",
+          "call": "KYVT",
+          "frequency": "88.5",
+          "marketCity": "Yakima",
+          "marketState": "WA",
+          "name": "Northwest Public Broadcasting",
+          "tagline": "NPR News"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL"
+              }
+            ],
+            "guid": "9555219984474b71b15cdff32b4831e1",
+            "title": "NPR and Classical",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "575611e93e814b7da597be700117cd07",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRKJEM"
+              }
+            ],
+            "guid": "59c4cad91ebd4f4681a903383ef2f861",
+            "title": "KJEM Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+                "typeId": "10",
+                "href": "https://streams.nwpr.org:8443/NWPRNEWS"
+              }
+            ],
+            "guid": "5732de03148041a098f9b3a8b2e9e13d",
+            "title": "NPR News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.nwpb.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nwpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nwpr.gif?1514768111741",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1350.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/northwestpublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/NWPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "cf6fd63f99be4ae0ac7878c2eabe4292",
+            "href": "https://streams.nwpr.org:8443/NWPRCLASSICAL",
+            "isPrimaryStream": false,
+            "title": "NPR and Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "575611e93e814b7da597be700117cd07",
+            "href": "https://streams.nwpr.org:8443/NWPRKJEM",
+            "isPrimaryStream": false,
+            "title": "KJEM Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "59439dc9d9de42ea97cf8fa5873b9f9e",
+            "href": "https://streams.nwpr.org:8443/NWPRNEWS",
+            "isPrimaryStream": true,
+            "title": "NPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "172e2ac2a5674a7b9ac6be1f322911c6",
+            "href": "http://feeds.soundcloud.com/users/soundcloud:users:220959899/sounds.rss",
+            "title": "De-Composing",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d95ce11bf7224709a15beddf701fce06",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "Support NWPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "0716deba848e445fb2a99bd722f67acd",
+            "href": "https://nwpb.secureallegiance.com/nwpr/WebModule/Donate.aspx?P=RWEB&PAGETYPE=PLG&CHECK=zqN2En4FvJeqK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1350.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

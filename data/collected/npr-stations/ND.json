@@ -1,0 +1,311 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "ND"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/47",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/KCND-FM.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "47",
+        "network": {
+          "name": "Prairie Public Broadcasting",
+          "inheritingFrom": "46",
+          "usesInheritance": true,
+          "currentOrgId": "47",
+          "tier1": {
+            "name": "Prairie Public Broadcasting",
+            "id": "46",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KCND-FM",
+                "id": "47",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KDPR-FM",
+                    "id": "48",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KDSU-FM",
+                    "id": "49",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KMPR-FM",
+                    "id": "50",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPPR-FM",
+                    "id": "51",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPRJ-FM",
+                    "id": "52",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUND-FM",
+                    "id": "53",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KFJM-FM",
+                    "id": "902",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPPD-FM",
+                    "id": "1373",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPPW-FM",
+                    "id": "1374",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "46",
+          "recency": 360
+        },
+        "guid": "4fcf700e0b2c4701bf967497304cabdc",
+        "brand": {
+          "band": "FM",
+          "call": "KCND",
+          "frequency": "90.5",
+          "marketCity": "Bismarck",
+          "marketState": "ND",
+          "name": "Prairie Public Broadcasting",
+          "tagline": "Prairie Public"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e61363e0b3e948e181ca1a6dbd2f74c3",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KCNDHD3.pls"
+              }
+            ],
+            "guid": "4fcf7134116241928a3e1b42a0475921",
+            "title": "KDSU-FM",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c098233479cb407aab35f6d390516c21",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KCNDHD2.pls"
+              }
+            ],
+            "guid": "4fcf71340aa844b78431388de34fa6e7",
+            "title": "PPB News Channel",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ed35b7b886f44e2e9e38ca81c86fd5a1",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KCNDFM.pls"
+              }
+            ],
+            "guid": "4fcf713400234b6a98bded95a006bef9",
+            "title": "PPB FM 2: Roots, Rock, and Jazz",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.prairiepublic.org/radio/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/ndpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ndpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/46_04536984293a38f7252661e21337f57b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/46_02ba4d8d49523c6bb02f17ad92a25e61.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/46_839c85ce670045f973f55e3e52d9e651.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/46_7415b1c179bbab58d6845ead1fabf81f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/46_e02ee69b8e0dd796bf981c4ca8f5c3d2.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/46_e67a0a3a0d9014d7c260af1662498900.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/46_e238ad0094721ee759b7fa55d3e76f48.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Prairie-Public/93328308021",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/prairiepublic",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e61363e0b3e948e181ca1a6dbd2f74c3",
+            "href": "https://playerservices.streamtheworld.com/pls/KCNDHD3.pls",
+            "isPrimaryStream": false,
+            "title": "KDSU-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c098233479cb407aab35f6d390516c21",
+            "href": "https://playerservices.streamtheworld.com/pls/KCNDHD2.pls",
+            "isPrimaryStream": true,
+            "title": "PPB News Channel",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ed35b7b886f44e2e9e38ca81c86fd5a1",
+            "href": "https://playerservices.streamtheworld.com/pls/KCNDFM.pls",
+            "isPrimaryStream": false,
+            "title": "PPB FM 2: Roots, Rock, and Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "b7efa9cd288545cc96557c54fb5660cf",
+            "href": "https://ndpr.drupal.publicbroadcasting.net/podcasts/89501/rss.xml",
+            "title": "Dakota Datebook",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4e94af9b75ce433aa8a2fefa608e94e8",
+            "href": "https://ndpr.drupal.publicbroadcasting.net/podcasts/89525/rss.xml",
+            "title": "Plains Folk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "252299bd5855480798dadddc886706fa",
+            "href": "https://ndpr.drupal.publicbroadcasting.net/podcasts/89526/rss.xml",
+            "title": "Matt Olien's Movie Reviews",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "82bb2a07509a427a9a343c00431008f6",
+            "href": "https://ndpr.drupal.publicbroadcasting.net/podcasts/term/1603/rss.xml",
+            "title": "Natural North Dakota",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d84fbb21e14b4e64990476fd9587fa87",
+            "href": "https://ndpr.drupal.publicbroadcasting.net/podcasts/11132/rss.xml",
+            "title": "Why? Philosophical Discussions About Everyday Life",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a31fc66fb1d74e42b801ea0fea9dc6ec",
+            "href": "https://ndpr.drupal.publicbroadcasting.net/podcasts/19744/rss.xml",
+            "title": "Main Street",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "22436632526a4b6288206b8d682cf7c9",
+            "href": "https://PrairiePublic.secureallegiance.com/pptv/WebModule/Donate.aspx?P=WEBRD&PAGETYPE=PLG&CHECK=fMfqRA7apNTiQl%2byqVkEd4HJipnY8PNT",
+            "title": "Pledge Online",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b93fdf9aabe14d6daf384eafb2a11d2c",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/46_2660f79087bdbf8e263f5b4a3380ed2b.mp4",
+            "title": "NPR One funder update 7-17",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "321ba14210dc45f09a42cab4ed30d43f",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/46_10c8208c13065007f668cfb9bd0097c6.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

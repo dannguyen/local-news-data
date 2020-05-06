@@ -1,0 +1,1576 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "MD"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/725",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wypr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "725",
+        "network": {
+          "inheritingFrom": "725",
+          "usesInheritance": false,
+          "currentOrgId": "725",
+          "tier1": {
+            "name": "WYPR-FM",
+            "id": "725",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WYPF-FM",
+                "id": "1015",
+                "usesInheritance": true
+              },
+              {
+                "name": "WYPO-FM",
+                "id": "1033",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf70121c7d422d882714f077d6edef",
+        "brand": {
+          "band": "FM",
+          "call": "WYPR",
+          "frequency": "88.1",
+          "marketCity": "Baltimore",
+          "marketState": "MD",
+          "name": "WYPR - 88.1 FM Baltimore",
+          "tagline": "WYPR 88.1 FM Your NPR News Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a9954b6a01494ba5a835b66c3f82e02b",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYPR_HD1.mp3"
+              }
+            ],
+            "guid": "4fcf716818be482b8454d0bd1e2608d5",
+            "title": "WYPO-FM 106.9",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0cb87c198d484aabbb3cd2c90c332bd7",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYPR_HD3.mp3"
+              }
+            ],
+            "guid": "4fcf714017a84927a8a8a5a016b0394a",
+            "title": "WYPR HD3 (Classical)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5c611ebff896481d8a58648013b2be5a",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYPR_HD2.mp3"
+              }
+            ],
+            "guid": "4fcf7140160646198d09ddb2d5321329",
+            "title": "WYPR HD2 (BBC)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "255258712bf84d519466a08aa80f7a07",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYPR_HD1.mp3"
+              }
+            ],
+            "guid": "514afff904ae4dcb9c20ba18731f90a7",
+            "title": "WYPR (News-Talk)",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wypr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wypr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wypr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/725_16292535be481646beb3d6456c51c248.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/725_18df581b0344f1ded701978055ce2a16.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/725_1bc208c1a7f17a978bc0e2d9e110a1cd.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/725_8c0a4712a3b128d451a9b24539ff636e.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WYPR881Baltimore",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/ WYPR881FM",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a9954b6a01494ba5a835b66c3f82e02b",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYPR_HD1.mp3",
+            "isPrimaryStream": false,
+            "title": "WYPO-FM 106.9",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "0cb87c198d484aabbb3cd2c90c332bd7",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYPR_HD3.mp3",
+            "isPrimaryStream": false,
+            "title": "WYPR HD3 (Classical)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5c611ebff896481d8a58648013b2be5a",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYPR_HD2.mp3",
+            "isPrimaryStream": false,
+            "title": "WYPR HD2 (BBC)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "255258712bf84d519466a08aa80f7a07",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WYPR_HD1.mp3",
+            "isPrimaryStream": true,
+            "title": "WYPR (News-Talk)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "a44e89be528c4730ac5557d9c5ae3612",
+            "href": "https://audiostaq.com/feeds/clearpathyourroadmaptohealthandwellness",
+            "title": "ClearPath - Your Roadmap to Health & Wealth",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6fe2dcd3af494e26a2ef832bf1dcf4fc",
+            "href": "https://audiostaq.com/feeds/joyinmedicine",
+            "title": "Joy In Medicine",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "19fe30d0018446b5adead25fd1d37219",
+            "href": "https://audiostaq.com/feeds/ontherecord",
+            "title": "On The Record",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b9eaebd5b51b401aaa08438d8cbd1d39",
+            "href": "https://audiostaq.com/feeds/lifeinthebalance",
+            "title": "Life In The Balance",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0470017f5a0a49288a2fecf7da0b0e2b",
+            "href": "https://audiostaq.com/feeds/humanitiesconnection",
+            "title": "Humanities Connection",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "908f1600027841b4beed961bbbe0ffc4",
+            "href": "https://audiostaq.com/feeds/artmatters",
+            "title": "Art Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "57d2a20556564704b20cb95404f35124",
+            "href": "https://audiostaq.com/feeds/theweeklyreader",
+            "title": "The Weekly Reader",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e0c43c10e5f74bd18557528151c90c43",
+            "href": "https://audiostaq.com/feeds/inspiringmoments",
+            "title": "Inspiring Moments",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "79ab85447d214eafb96b8b5b27a2d8ff",
+            "href": "https://audiostaq.com/feeds/poetheatreontheair",
+            "title": "Poe Theatre on the Air",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1c50f279eeaa413f8c17dcf79d071645",
+            "href": "https://audiostaq.com/feeds/cellarnotes",
+            "title": "Cellar Notes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c5df4b4227414420b980c2aeaf7c6312",
+            "href": "https://audiostaq.com/feeds/foodandwine",
+            "title": "Foreman and Wolf on Food and Wine",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0a4d4de561bc4bf88684645ce783072d",
+            "href": "https://feed.audiostaq.com/higher_purpose",
+            "title": "Higher Purpose",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "593a063e0afd4228b0d64df87d18c4ab",
+            "href": "https://audiostaq.com/feeds/knockknockwhosthere",
+            "title": "Knock Knock Who's There",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e9dc0d8662ab4e2b941366774bb1b9c7",
+            "href": "https://audiostaq.com/feeds/beyondtheballot",
+            "title": "Beyond The Ballot",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2e29d20502ed4f138964ad5d641b94da",
+            "href": "https://audiostaq.com/feeds/midday",
+            "title": "Midday",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "88131a0f4ffc405fbc454efc85aa9a9c",
+            "href": "https://audiostaq.com/feeds/truthandreconciliation",
+            "title": "Truth and Reconciliation",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c69d648711eb48f2970944a8b49b9833",
+            "href": "https://audiostaq.com/feeds/yourmaryland",
+            "title": "Your Maryland",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5b5f84a3374947739d2a5bea8b842e06",
+            "href": "https://audiostaq.com/feeds/publiccommentary",
+            "title": "Public Commentary on WYPR",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "14cb8e6abf8a4446904efeae94101b35",
+            "href": "https://audiostaq.com/feeds/sportsatlarge",
+            "title": "Sports at Large on WYPR",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ac057ea09252489faeead29918107d5c",
+            "href": "https://audiostaq.com/feeds/ablueview",
+            "title": "A Blue View on WYPR",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "892a6f7720744c3ba18dfb0042aebbcb",
+            "href": "https://audiostaq.com/feeds/essentialtremors",
+            "title": "Essential Tremors",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "486a00dc9f4841ac8f08ae6a98287136",
+            "href": "https://audiostaq.com/feeds/openaccess",
+            "title": "Open Access",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fedf8a953f4b43489a362b56a68b1781",
+            "href": "https://audiostaq.com/feeds/baltimorestories",
+            "title": "Gil Sandler's Baltimore Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "24ff5a30c4ff4d89a6b949d7d975c068",
+            "href": "https://audiostaq.com/feeds/avaluableperspective",
+            "title": "A Valuable Perspective",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cd30d33af81e4f779fd56593c679a0cc",
+            "href": "https://feeds.feedburner.com/OOTB",
+            "title": "Out of The Blocks",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0eeaffa0507a449fb835d7a96d7c4d78",
+            "href": "https://audiostaq.com/feeds/radiokitchen",
+            "title": "Radio Kitchen",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9b6825529fb44425b5a253efeff338b9",
+            "href": "https://audiostaq.com/feeds/onedayatatimeinrecoveryinbaltimore",
+            "title": "One Day at a Time:  In Recovery in Baltimore",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "332458e49f6346bebb9f78fe2bf0e921",
+            "href": "https://audiostaq.com/feeds/townofthebighouse",
+            "title": "Town of the Big House",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "eace05cbffe34a57aceba09c3464280f",
+            "href": "https://audiostaq.com/feeds/thenoirandbizarre",
+            "title": "The Noir and Bizarre",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "175f57ff767c4c01b3e7b1a61e299c61",
+            "href": "https://audiostaq.com/feeds/theenvironmentinfocus",
+            "title": "The Environment in Focus",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ac51c9adce0d48adb12600aef03d97e4",
+            "href": "https://feed.audiostaq.com/the_daily_dose_",
+            "title": "The Daily Dose: Maryland Confronts COVID-19",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "90479788120a4df585b7c636872f3af2",
+            "href": "https://audiostaq.com/feeds/livingquestions",
+            "title": "Living Questions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4eb8d605a5d24d5ba85d836bad3df6bb",
+            "href": "https://audiostaq.com/feeds/futurecity",
+            "title": "Future City",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "dff5d2a2c36045b0ace148faa5a39006",
+            "href": "https://audiostaq.com/feeds/thenatureofthings",
+            "title": "The Nature of Things",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "10690674eea244e2ab6aa084d0d16dd2",
+            "href": "https://donate.nprstations.org/wypr/",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "ee42a675759e4401a95bc2d254ba577a",
+            "href": "https://donate.nprstations.org/wypr/wypr-mobile",
+            "title": "Donate to WYPR",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/725.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1162",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "1162",
+        "network": {
+          "name": "WAMU 88.5",
+          "inheritingFrom": "305",
+          "usesInheritance": true,
+          "currentOrgId": "1162",
+          "tier1": {
+            "name": "WAMU-FM",
+            "id": "305",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WRAU-FM",
+                "id": "1162",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "305",
+          "recency": 360
+        },
+        "guid": "4fcf701420b741d1966b0a682bdca9b9",
+        "brand": {
+          "band": "FM",
+          "call": "WRAU",
+          "frequency": "88.3",
+          "marketCity": "Ocean City",
+          "marketState": "MD",
+          "name": "WAMU 88.5",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cdd555a05d1e4fe4bcb6f23de62fea13",
+                "typeId": "10",
+                "href": "https://static.wamu.org/streams/live/1/live_ssl.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "b48940f0091f4c6c91b65bdf06281bc6",
+                "typeId": "13",
+                "href": "https://static.wamu.org/streams/live/1/live_aac_ssl.pls"
+              }
+            ],
+            "guid": "4fcf71471a22460b8c99eb9f58fac6ca",
+            "title": "WAMU 88.5 (HD 88.5-1)",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wamu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wamu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wamu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/305_0ebaeb04e8f8d376fe34aa8ab3a2f02b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/305_af61215cc407f283516024d5f828cf3a.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/305_a4924814fbbc77c33cb299459e3b9387.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/305_1ae975a0ef9f5644bad5c43946902a4f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/305_b47b02018ee90b1602b750589d2174c8.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/305.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wamu885",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wamu885",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "cdd555a05d1e4fe4bcb6f23de62fea13",
+            "href": "https://static.wamu.org/streams/live/1/live_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "WAMU 88.5 (HD 88.5-1)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b48940f0091f4c6c91b65bdf06281bc6",
+            "href": "https://static.wamu.org/streams/live/1/live_aac_ssl.pls",
+            "isPrimaryStream": true,
+            "title": "WAMU 88.5 (HD 88.5-1)",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "675985eb0b2141c9923749c8bd8c4945",
+            "href": "https://wamu.org/feed/podcast/unprecedented",
+            "title": "Unprecedented",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "bfee88ec87b14a63a2799a578fb1aee1",
+            "href": "https://thekojonnamdishow.org/rss/npr/kn_podcast.php",
+            "title": "The Kojo Nnamdi Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "dbc6f4c500fd4fb2a616b0286f0d73d6",
+            "href": "https://wamu.org/feed/podcast/dating-while-gray",
+            "title": "Dating While Gray",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c930caec4e384e8b87d21c738410a9fd",
+            "href": "https://thekojonnamdishow.org/rss/npr/kns_dc_politics.xml",
+            "title": "The Kojo Nnamdi Show: Politics Hour",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "82fb21a0a38b4c9ea8f9b7f16459585b",
+            "href": "https://dianerehm.org/rss/npr/dr_podcast.xml",
+            "title": "Diane Rehm: On My Mind",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "38ee12a2be67449f9c689e2e80ce6c9b",
+            "href": "https://wamu.org/rss/npr/metropocalypse.rss",
+            "title": "Metropocalypse",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ff9694108b0d4f49ae39c0fd616b6908",
+            "href": "https://podshop.libsyn.com/rss",
+            "title": "The Podshop",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9ea7820b04bc4ced865ee654e688ff7d",
+            "href": "https://wamu.org/feed/podcast/whats-with-washington",
+            "title": "What's With Washington",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e8be392c6e274a16915b90ef34bc2697",
+            "href": "https://wamu.org/feed/podcast/dishcity",
+            "title": "Dish City",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fd9c8d890ac145be90a39c57c58bb37d",
+            "href": "https://wamu.org/rss/npr/mobile/wamu_news_podcast.rss",
+            "title": "Local News from WAMU 88.5",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d084a56ff1644d33a4a5bcf1c491f68e",
+            "href": "https://wamu.org/donate/npr",
+            "title": "Support  WAMU",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "baffa8f9391849d08335ab672947004d",
+            "href": "https://wamu.org/donate/npr",
+            "title": "Support WAMU",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "11cbe7694c0d47c2a97973742280216b",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/305_76864242220cb7300ab379409f880a7d.mp4",
+            "title": "Jeffrey Katz - Comprehensive Journalism",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "f1b28fcfcd6d44c4bc78a517c507b564",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/305_8b25f907d2e072fc463bdf33c092d945.mp4",
+            "title": "Kathleen Boyles - NPR One",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "8ffc12dd72744ff79015e11cbb8eabf7",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/305_0d5d4eeec116addb8a2ebbf87b27c329.mp4",
+            "title": "Eva Sullivan - NPR One",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "4dc91f3ff4594b77933b4a42a4335196",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/305_94862a34a5f672a1f39aa16eb24810db.mp4",
+            "title": "Kojo Nnamdi - WAMU Mission (NPR One)",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "33bdacd25f4d42de8a1e298998bd312a",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/305_bdbc599654abf5acab87ba794a1f5d17.mp4",
+            "title": "Tyler Koch - NPR One",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "f577cfa5ec994e04a524561d693d5ce4",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/305_1cec36b6f874c3cd14def6ac850d7dbe.mp4",
+            "title": "Samantha Powers - NPR One",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "95d6abfaca444606a1aae90a1aaff5ae",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/305_41441acb667fad00b57343fa07b2ba33.mp4",
+            "title": "Matt McCleskey - CAFB NPR One",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "9bff1d4cbec9432587f5f618591884aa",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/305_b841e4b5b889067aa98a027d9aa62952.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "dda0502616604012b0e345e0caa3b8d6",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/305_2e75d169294cfa52a26e710317bda63e.mp4?1553528585613",
+            "title": "Kojo Nnamdi - Your Support (NPR One)",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "674a90f4604e40368fee94bbdf9bf1e7",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/305_ceb921a4ffb6e4a8817ca06ccf20ea0a.mp4",
+            "title": "Ari Shapiro - Remarkable Times",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/305.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/361",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf7010116c4e37b7ec380ffb3c9705",
+        "brand": {
+          "band": "FM",
+          "call": "WEAA",
+          "frequency": "88.9",
+          "marketCity": "Baltimore",
+          "marketState": "MD",
+          "name": "WEAA",
+          "tagline": "WEAA 88.9 FM The Voice Of The Community"
+        },
+        "orgId": "361",
+        "network": {
+          "inheritingFrom": "361",
+          "usesInheritance": false,
+          "currentOrgId": "361",
+          "tier1": {
+            "name": "WEAA-FM",
+            "id": "361",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.weaa.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/weaa_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/361.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WEAA-889-FM-The-Voice-of-the-Community/106346777785",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WEAA_FM",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "8f4f8f7edb3a4406b4f2f1e0cd9b1c8d",
+            "href": "https://17939.thankyou4caring.org/sslpage.aspx?pid=298",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/361.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/608",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wscl-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "608",
+        "network": {
+          "inheritingFrom": "608",
+          "usesInheritance": false,
+          "currentOrgId": "608",
+          "tier1": {
+            "name": "WSCL-FM",
+            "id": "608",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WSDL-FM",
+                "id": "609",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf7012019e44fdb7dc089dac4cf6cf",
+        "brand": {
+          "band": "FM",
+          "call": "WSCL",
+          "frequency": "89.5",
+          "marketCity": "Salisbury",
+          "marketState": "MD",
+          "name": "Delmarva Public Radio",
+          "tagline": "Fine Arts and Culture"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b3f3131e324a418fbfde658f5698be35",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WSCLFM.pls"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5070978fdb9441c990c3c6548af5b8db",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSCLFM_ADP.m3u8"
+              }
+            ],
+            "guid": "4fcf71550542479996d3d03b77d371d3",
+            "title": "WSCL 89.5 FM",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f336fd390fe24639ae8e740da821e999",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSDLFM_ADP.m3u8"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "fc0f11e649a3416e9cca9644797f69b0",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WSDLFM.pls"
+              }
+            ],
+            "guid": "4fcf715508fe40cbba45327049392f5c",
+            "title": "WSDL 90.7 FM",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.delmarvapublicradio.net/#stream/0",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wscl_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wscl_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/608.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Delmarva-Public-Radio/208233155887451",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wscl_wsdl",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "b3f3131e324a418fbfde658f5698be35",
+            "href": "https://playerservices.streamtheworld.com/pls/WSCLFM.pls",
+            "isPrimaryStream": true,
+            "title": "WSCL 89.5 FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5070978fdb9441c990c3c6548af5b8db",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSCLFM_ADP.m3u8",
+            "isPrimaryStream": true,
+            "title": "WSCL 89.5 FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f336fd390fe24639ae8e740da821e999",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WSDLFM_ADP.m3u8",
+            "isPrimaryStream": false,
+            "title": "WSDL 90.7 FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "fc0f11e649a3416e9cca9644797f69b0",
+            "href": "https://playerservices.streamtheworld.com/pls/WSDLFM.pls",
+            "isPrimaryStream": false,
+            "title": "WSDL 90.7 FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "33d02ba375be4763824d3055c28b58e9",
+            "href": "https://wsdl.drupal.publicbroadcasting.net/podcasts/term/20/rss.xml",
+            "title": "Delmarva Today",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "05662e8fa82c4417b31d6651a9a7b158",
+            "href": "https://interland3.donorperfect.net/weblink/weblink.aspx?name=E4130&id=4",
+            "title": "Support DPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "1a81324609d54c238d16ac6b1850a39a",
+            "href": "https://interland3.donorperfect.net/weblink/weblink.aspx?name=E4130&id=4",
+            "title": "Support DPR",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/608.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/371",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wesm-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "371",
+        "network": {
+          "inheritingFrom": "371",
+          "usesInheritance": false,
+          "currentOrgId": "371",
+          "tier1": {
+            "name": "WESM-FM",
+            "id": "371",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf701013db4ded9da6742a84fb76a3",
+        "brand": {
+          "band": "FM",
+          "call": "WESM",
+          "frequency": "91.3",
+          "marketCity": "Princess Anne",
+          "marketState": "MD",
+          "name": "WESM 91.3 FM",
+          "tagline": "Your Source for Jazz, Blues & NPR News"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ae2f406a2bd647b7a7e96c6850718fce",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WESMFM.pls"
+              }
+            ],
+            "guid": "a9461bd01781446390c78c524b98460d",
+            "title": "WESM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wesm913.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wesm_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/371.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WESM-913-FM/56213144882",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "ae2f406a2bd647b7a7e96c6850718fce",
+            "href": "https://playerservices.streamtheworld.com/pls/WESMFM.pls",
+            "isPrimaryStream": true,
+            "title": "WESM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "301359e5dad64dde8184b02498924ca7",
+            "href": "https://wesm.drupal.publicbroadcasting.net/podcasts",
+            "title": "WESM",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "8c0092165a494ee1b7bbda493884ca44",
+            "href": "https://donate.nprstations.org/wesm/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/371.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/939",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701321404d7f856317153c9ba11a",
+        "brand": {
+          "band": "FM",
+          "call": "WTMD",
+          "frequency": "89.7",
+          "marketCity": "Towson",
+          "marketState": "MD",
+          "name": "WTMD",
+          "tagline": "Radio for Music People  -- 89.7 WTMD"
+        },
+        "orgId": "939",
+        "network": {
+          "inheritingFrom": "939",
+          "usesInheritance": false,
+          "currentOrgId": "939",
+          "tier1": {
+            "name": "WTMD-FM",
+            "id": "939",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7953f04636154acdb7864fc569322f86",
+                "typeId": "10",
+                "href": "https://wtmd-ice.streamguys1.com/wtmd.mp3"
+              }
+            ],
+            "guid": "7ea87b47445c42318fae5c7d0a5bd5ce",
+            "title": "WTMD 89.7 FM: Radio for Music People",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2b37567a8f4e457296df5939c79a3c16",
+                "typeId": "10",
+                "href": "https://wtmd-ice.streamguys1.com/hd2.mp3"
+              }
+            ],
+            "guid": "4776b03067c84c81b3e1c4e1ca7b1266",
+            "title": "WTMD HD2: The Baltimore Channel",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wtmd.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wtmd_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/939.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wtmdradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WTMD",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "7953f04636154acdb7864fc569322f86",
+            "href": "https://wtmd-ice.streamguys1.com/wtmd.mp3",
+            "isPrimaryStream": true,
+            "title": "WTMD 89.7 FM: Radio for Music People",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "2b37567a8f4e457296df5939c79a3c16",
+            "href": "https://wtmd-ice.streamguys1.com/hd2.mp3",
+            "isPrimaryStream": false,
+            "title": "WTMD HD2: The Baltimore Channel",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "e15f91611d234e618fdb3ed367f2cb32",
+            "href": "http://wtmd.org/radio/why-support/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/939.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/373",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "373",
+        "network": {
+          "name": "Classical WETA",
+          "inheritingFrom": "372",
+          "usesInheritance": true,
+          "currentOrgId": "373",
+          "tier1": {
+            "name": "WETA-FM",
+            "id": "372",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WGMS-FM",
+                "id": "373",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf70101461477c91b4ffcd9754af64",
+        "brand": {
+          "band": "FM",
+          "call": "WGMS",
+          "frequency": "89.1",
+          "marketCity": "Hagerstown",
+          "marketState": "MD",
+          "name": "Classical WETA",
+          "tagline": "Classical for Washington"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3d5ec777e6f7444d9753220b6bd46119",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WETAVLV.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "b8a233ac5cd74c489280c129a0944b3e",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WETAVLVAAC.aac"
+              }
+            ],
+            "guid": "c34a5ef8249043a3a5d30b8aa86dd4e9",
+            "title": "VivaLaVoce",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "dca7de034085424e82085c4cba379e47",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "7b0415f6633140279f5131a1e8f0cdab",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFMAAC.aac"
+              }
+            ],
+            "guid": "808eb32aba46479dad9f0a953c4a7084",
+            "title": "Classical WETA",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://weta.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/weta_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/weta_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/372_a49204ddc48f892b3cc54fa9ac937860.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Classical-WETA-and-WETA-Public-Television/34740117468",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/wetatvfm",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3d5ec777e6f7444d9753220b6bd46119",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WETAVLV.mp3",
+            "isPrimaryStream": false,
+            "title": "VivaLaVoce",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dca7de034085424e82085c4cba379e47",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFM.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical WETA",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7b0415f6633140279f5131a1e8f0cdab",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WETAFMAAC.aac",
+            "isPrimaryStream": true,
+            "title": "Classical WETA",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "b8a233ac5cd74c489280c129a0944b3e",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WETAVLVAAC.aac",
+            "isPrimaryStream": false,
+            "title": "VivaLaVoce",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "33559cf985224b06ba6621816184392d",
+            "href": "https://weta.org/podcasts/classicalbreakdown.xml",
+            "title": "Classical Breakdown",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3bbe5a5472794df690fba85db52f3e87",
+            "href": "https://blogs.weta.org/tellyvisions/podcast.xml",
+            "title": "Telly Visions: The Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "5b1e51b70aeb4daea3694b8a8cd6f405",
+            "href": "https://weta.org/npr",
+            "title": "Support Classical WETA",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/372.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/716",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Grade School (K-12)",
+          "status": "15",
+          "musicOnly": false
+        },
+        "guid": "4fcf70121a4f4e90aa35b1d97cf50ede",
+        "brand": {
+          "band": "FM",
+          "call": "WKHS",
+          "frequency": "90.5",
+          "marketCity": "Worton",
+          "marketState": "MD",
+          "name": "XPN",
+          "tagline": "It's All About The Music"
+        },
+        "orgId": "716",
+        "network": {
+          "inheritingFrom": "716",
+          "usesInheritance": false,
+          "currentOrgId": "716"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cb240d6add2f4ee4b88d0939f4e784b8",
+                "typeId": "10",
+                "href": "https://xpn2hi.xpn.org/listen.pls"
+              }
+            ],
+            "guid": "13efb515e25035d44d6a940ffed563f0",
+            "title": "XPN2: XPoNential Radio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "76d213d00ef949ff8317618fc3759bc4",
+                "typeId": "10",
+                "href": "https://wxpnhi.xpn.org/listen.pls"
+              }
+            ],
+            "guid": "4fcf715317fe44b794b610e14c4fb34e",
+            "title": "WXPN-FM 88.5",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.xpn.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/716.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/pages/WXPN/32171784063",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "cb240d6add2f4ee4b88d0939f4e784b8",
+            "href": "https://xpn2hi.xpn.org/listen.pls",
+            "isPrimaryStream": false,
+            "title": "XPN2: XPoNential Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "76d213d00ef949ff8317618fc3759bc4",
+            "href": "https://wxpnhi.xpn.org/listen.pls",
+            "isPrimaryStream": false,
+            "title": "WXPN-FM 88.5",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "f8ac4195cdd848348203d1b298d70aa8",
+            "href": "http://xpn.org/support-xpn/discover-membership",
+            "title": "Support WXPN",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/716.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

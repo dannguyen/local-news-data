@@ -1,0 +1,402 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "ME"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/496",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wmea-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "496",
+        "network": {
+          "name": "Maine Public",
+          "inheritingFrom": "495",
+          "usesInheritance": true,
+          "currentOrgId": "496",
+          "tier1": {
+            "name": "Maine Public Broadcasting Network",
+            "id": "495",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WMEA-FM",
+                "id": "496",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WBQF-FM",
+                    "id": "1549",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WBQE-FM",
+                    "id": "1555",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WBQA-FM",
+                    "id": "1574",
+                    "usesInheritance": false
+                  }
+                ]
+              },
+              {
+                "name": "WMEH-FM",
+                "id": "497",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WMED-FM",
+                    "id": "498",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WMEF-FM",
+                    "id": "499",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WMEM-FM",
+                    "id": "500",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WMEW-FM",
+                    "id": "501",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WMEP-FM",
+                    "id": "875",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "495",
+          "recency": 120
+        },
+        "guid": "4fcf70110e134f9e96058572b97350f9",
+        "brand": {
+          "band": "FM",
+          "call": "WMEA",
+          "frequency": "90.1",
+          "marketCity": "Lewiston",
+          "marketState": "ME",
+          "name": "Maine Public",
+          "tagline": "Stay connected with Maine Public!"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1c8a15e0bdf04e0e841d2aa2eeedb889",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEA_CLASSICAL.mp3"
+              }
+            ],
+            "guid": "1424de07e71017945cdb421c098e90f9",
+            "title": "Maine Public Classical",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2053d613d7e14253907b70977ea6ec3f",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEAFM.mp3"
+              }
+            ],
+            "guid": "148603a81d00090492fb94eb60450d93",
+            "title": "Maine Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://mainepublic.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/mpbn.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/mpbn.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/MainePublicBroadcastingNetwork",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/MPBNnews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1c8a15e0bdf04e0e841d2aa2eeedb889",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEA_CLASSICAL.mp3",
+            "isPrimaryStream": false,
+            "title": "Maine Public Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "2053d613d7e14253907b70977ea6ec3f",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEAFM.mp3",
+            "isPrimaryStream": true,
+            "title": "Maine Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "91a7e87e145f40b2875065a97cf0e1df",
+            "href": "https://mpbn.drupal.publicbroadcasting.net/podcasts/68139/rss.xml",
+            "title": "Maine's Political Pulse",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e6c9abc0bbb1446fbc2383207c4cf653",
+            "href": "https://mpbn.drupal.publicbroadcasting.net/podcasts/1171/rss.xml",
+            "title": "Speaking in Maine",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6139b10f7e7e40d2821f1aeae7eacaac",
+            "href": "https://mpbn.drupal.publicbroadcasting.net/podcasts/7/rss.xml",
+            "title": "Maine Calling",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ccd20246b8664599ac6885ce2079076d",
+            "href": "https://mpbn.drupal.publicbroadcasting.net/podcasts/71670/rss.xml",
+            "title": "SoundBites",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "873caa4ac1ea44b7974bd9fe2ebeb706",
+            "href": "https://feeds.feedburner.com/ThisDayinMaine",
+            "title": "This Day in Maine",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "afb4cd8bb47d4472b1d431e03f020328",
+            "href": "https://www.callswithoutwalls.com/pledgeCart3/?campaign=ADF0CB77-2EF2-4CD5-A73E-6879D1CB6CFA&source=",
+            "title": "Donate to Maine Public",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "35d9bc22183540509f03d25b7c11b730",
+            "href": "https://www.callswithoutwalls.com/pledgeCart3/?campaign=ADF0CB77-2EF2-4CD5-A73E-6879D1CB6CFA&source=",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1574",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "58bfd3e61587457c9afaa2d254d598cf",
+        "brand": {
+          "band": "FM",
+          "call": "WBQA",
+          "frequency": "96.7",
+          "marketCity": "Boothbay Harbor",
+          "marketState": "ME",
+          "name": "WBQA-FM",
+          "tagline": null
+        },
+        "orgId": "1574",
+        "network": {
+          "inheritingFrom": "1574",
+          "usesInheritance": false,
+          "currentOrgId": "1574"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1555",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "1155b7cd080c4b7f861f1a9a4ee3afc1",
+        "brand": {
+          "band": "FM",
+          "call": "WBQE",
+          "frequency": "93.7",
+          "marketCity": "Milbridge",
+          "marketState": "ME",
+          "name": "WBQE-FM",
+          "tagline": null
+        },
+        "orgId": "1555",
+        "network": {
+          "inheritingFrom": "1555",
+          "usesInheritance": false,
+          "currentOrgId": "1555"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1549",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "5735ce6fb7434b15881d164a5ee3ec96",
+        "brand": {
+          "band": "FM",
+          "call": "WBQF",
+          "frequency": "91.5",
+          "marketCity": "Fryeburg",
+          "marketState": "ME",
+          "name": "Maine Public",
+          "tagline": null
+        },
+        "orgId": "1549",
+        "network": {
+          "inheritingFrom": "1549",
+          "usesInheritance": false,
+          "currentOrgId": "1549"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1c8a15e0bdf04e0e841d2aa2eeedb889",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEA_CLASSICAL.mp3"
+              }
+            ],
+            "guid": "1424de07e71017945cdb421c098e90f9",
+            "title": "Maine Public Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://mainepublic.org/schedule/classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wfyb_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wfyb_fm.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1c8a15e0bdf04e0e841d2aa2eeedb889",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WMEA_CLASSICAL.mp3",
+            "isPrimaryStream": true,
+            "title": "Maine Public Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3e0eff271aa04c14bd58b39b53e2cf62",
+            "href": "https://www.callswithoutwalls.com/pledgeCart3/?campaign=ADF0CB77-2EF2-4CD5-A73E-6879D1CB6CFA&source=",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "cbd7417fcd6c4ba98c66df9d7bb09e5f",
+            "href": "https://www.callswithoutwalls.com/pledgeCart3/?campaign=ADF0CB77-2EF2-4CD5-A73E-6879D1CB6CFA&source=",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

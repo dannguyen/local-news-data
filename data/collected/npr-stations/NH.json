@@ -1,0 +1,310 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "NH"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/376",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wevo-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "376",
+        "network": {
+          "name": "New Hampshire Public Radio",
+          "inheritingFrom": "375",
+          "usesInheritance": true,
+          "currentOrgId": "376",
+          "tier1": {
+            "name": "New Hampshire Public Radio",
+            "id": "375",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WEVO-FM",
+                "id": "376",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WEVC-FM",
+                    "id": "377",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WEVH-FM",
+                    "id": "378",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WEVN-FM",
+                    "id": "379",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WEVJ-FM",
+                    "id": "808",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WEVS-FM",
+                    "id": "946",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WEVF-FM",
+                    "id": "1239",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WEVQ-FM",
+                    "id": "1283",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WCNH-FM",
+                    "id": "1478",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "StateImpact New Hampshire",
+                    "id": "20003",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "375",
+          "recency": 240
+        },
+        "guid": "4fcf70101510449dae07d2ce3f8d1a9d",
+        "brand": {
+          "band": "FM",
+          "call": "WEVO",
+          "frequency": "89.1",
+          "marketCity": "Concord",
+          "marketState": "NH",
+          "name": "New Hampshire Public Radio",
+          "tagline": "New Hampshire Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f7f04bcd1ffa44669f3244835ed72224",
+                "typeId": "10",
+                "href": "https://nhpr-ice.streamguys1.com/nhpr"
+              }
+            ],
+            "guid": "4fcf713d03ea47fc85731a707dd9d6d5",
+            "title": "NHPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nhpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nhpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/375.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/nhpublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.nhpr.org/nhpr",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f7f04bcd1ffa44669f3244835ed72224",
+            "href": "https://nhpr-ice.streamguys1.com/nhpr",
+            "isPrimaryStream": true,
+            "title": "NHPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "1fe26b23e58045468d0ae862ab8b5dcf",
+            "href": "https://feeds.megaphone.fm/ADL2362946801",
+            "title": "Supervision",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d7b998a50eed4cf7b8e30d44c4f0d983",
+            "href": "https://feeds.megaphone.fm/PPY5156495451",
+            "title": "Outside/In",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fe672600e1064f29befe82e312b45385",
+            "href": "https://feeds.megaphone.fm/ADL1256921019",
+            "title": "Stranglehold",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6bc0308c256e470dadd01b7c4cf4526c",
+            "href": "https://nhpr.drupal.publicbroadcasting.net/podcasts/114/rss.xml",
+            "title": "The Exchange",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "74aa5eb7f1344b15b1e56bc606bd9d9e",
+            "href": "https://feeds.megaphone.fm/ADL2418094798",
+            "title": "Second Greatest Show On Earth",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8afce3ef9b4149b0a88149d88df70ac5",
+            "href": "https://feeds.megaphone.fm/PPY1168790592",
+            "title": "Civics 101",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "624492e7d92341beb7450d38201bc415",
+            "href": "https://feeds.megaphone.fm/patientzero",
+            "title": "Patient Zero: Lyme Disease",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2c48f4275b8d4a0699422d390a8ca120",
+            "href": "https://feeds.megaphone.fm/PPY4168247956",
+            "title": "10 Minute Writer's Workshop",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7a35b12aabbd44168a434d58ff1f6138",
+            "href": "https://feeds.megaphone.fm/bearbrook",
+            "title": "Bear Brook",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "266ea983d689419bbcf76d440de9874e",
+            "href": "http://nhpr.convio.net/site/Donation2?df_id=3566&mfc_pref=T&3566.donation=form1&s_src=NPR&s_subsrc=COVID",
+            "title": "Support NHPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "e0505c07dbdf4bcda7533fda28b9a3f4",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/375_c9d6e978de043491d2b95f8e6031e92c.mp4",
+            "title": "Give during crisis  GANLEY",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "5574843c3ebe45178851da42ec23e280",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/375_e694f3ba989e40bcbc6af88bf8c5e714.mp4",
+            "title": "Give during crisis  KNOY",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "b0f557a276044bc39860a82168bf2357",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/375_df540dc603af04b27eec3380cdb25582.mp4",
+            "title": "Give during crisis  BIELLO",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "b6eb8515fae647ce860ddacb79af053c",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/375_23984b54ce22038ffca38bc586c619f2.mp4",
+            "title": "Community JOurnalsim sustain #2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "75eb608c149e41efb2e1a006aee7aa78",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/375_98900e79ebe06d92dec03756993b9a78.mp4",
+            "title": "Community JOurnalsim sustain #1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1478",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "5423193410a446929a70a80a25f71bc1",
+        "brand": {
+          "band": "FM",
+          "call": "WCNH",
+          "frequency": "91.5",
+          "marketCity": "Bow",
+          "marketState": "NH",
+          "name": "WCNH-FM",
+          "tagline": null
+        },
+        "orgId": "1478",
+        "network": {
+          "inheritingFrom": "1478",
+          "usesInheritance": false,
+          "currentOrgId": "1478"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

@@ -1,0 +1,375 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "NE"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/94",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kios-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "94",
+        "network": {
+          "inheritingFrom": "94",
+          "usesInheritance": false,
+          "currentOrgId": "94",
+          "tier1": {
+            "name": "KIOS-FM",
+            "id": "94",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf700e19ab4162a38f4c3312ebd99f",
+        "brand": {
+          "band": "FM",
+          "call": "KIOS",
+          "frequency": "91.5",
+          "marketCity": "Omaha",
+          "marketState": "NE",
+          "name": "KIOS",
+          "tagline": "Omaha Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "8b71f901b7c44c0bb80c453509fec6c4",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KIOSFM.pls"
+              }
+            ],
+            "guid": "4fcf7159241a4870ac5fd352889fe465",
+            "title": "KIOS-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kios.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kios_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kios_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/94.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KIOS-Omaha/396943800873",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KIOSOmaha",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "8b71f901b7c44c0bb80c453509fec6c4",
+            "href": "https://playerservices.streamtheworld.com/pls/KIOSFM.pls",
+            "isPrimaryStream": true,
+            "title": "KIOS-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "b19de28a273040f19e3381e988f8ba36",
+            "href": "https://kios.drupal.publicbroadcasting.net/podcasts/119389/rss.xml",
+            "title": "Made in the Middle",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "9cbf124dbdb84e57b63e86d72323f79c",
+            "href": "https://kios.secureallegiance.com/kios/WebModule/Donate.aspx?P=KIOSNPR20&PAGETYPE=PLG&CHECK=xHSr6l9MnUjLLxZsvbv6hK1gzMC6uhq5nDjkJobrCdg%3d",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/94.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/204",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kucv-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "204",
+        "network": {
+          "name": "NET Radio",
+          "inheritingFrom": "203",
+          "usesInheritance": true,
+          "currentOrgId": "204",
+          "tier1": {
+            "name": "Nebraska Public Radio Network",
+            "id": "203",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KUCV-FM",
+                "id": "204",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KCNE-FM",
+                    "id": "205",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KHNE-FM",
+                    "id": "206",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLNE-FM",
+                    "id": "207",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KMNE-FM",
+                    "id": "208",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPNE-FM",
+                    "id": "209",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KRNE-FM",
+                    "id": "210",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTNE-FM",
+                    "id": "211",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KXNE-FM",
+                    "id": "212",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "203",
+          "recency": 120
+        },
+        "guid": "4fcf700f12294fd7b21cc8123ddf4131",
+        "brand": {
+          "band": "FM",
+          "call": "KUCV",
+          "frequency": "91.1",
+          "marketCity": "Lincoln",
+          "marketState": "NE",
+          "name": "NET Radio",
+          "tagline": "Nebraska's NPR Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "20548ce525d44101940a58608eae5a65",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUCVHD2.mp3"
+              }
+            ],
+            "guid": "4fcf71611f1543db9aec59a4246bd5d8",
+            "title": "NET Radio HD2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "fd7bbfba94eb4a688032103af7d65eac",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUCVFM.mp3"
+              }
+            ],
+            "guid": "4fcf7161150e4d21a94e079d05ddba40",
+            "title": "NET Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://netnebraska.org/basic-page/radio/radio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/net.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/net.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/NET-Radio/58056117013",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/netnewsnebraska",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "20548ce525d44101940a58608eae5a65",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUCVHD2.mp3",
+            "isPrimaryStream": false,
+            "title": "NET Radio HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "fd7bbfba94eb4a688032103af7d65eac",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KUCVFM.mp3",
+            "isPrimaryStream": true,
+            "title": "NET Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "24603ced43144d75857ce00b9e3f7eb1",
+            "href": "https://feeds.feedburner.com/news_features",
+            "title": "Nebraska News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ff704a06d07e4ee4bf2e3ad7b0fb3887",
+            "href": "https://feeds.feedburner.com/friday_live",
+            "title": "Friday LIVE",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0bcfbe2e515349e9b2914b56a0209e4a",
+            "href": "https://feeds.feedburner.com/all_about_books",
+            "title": "All About Books",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e556932ff87547a8af5104d73f5b40df",
+            "href": "https://www.spreaker.com/show/3599528/episodes/feed",
+            "title": "The PlainStory",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2c54907f34044b1a94fd8ef52450a42d",
+            "href": "https://feeds.feedburner.com/humanities_desk",
+            "title": "Humanities Desk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8915431180da496ca2d747a8bc8f18cc",
+            "href": "https://feeds.feedburner.com/big_red",
+            "title": "Big Red Wrap-Up",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3b3f87986e5d416cad6539ea4df4e3ec",
+            "href": "https://feeds.feedburner.com/friday_live_extra",
+            "title": "Friday LIVE Extra",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "aaf9277e8d3e46128943397eb29248a5",
+            "href": "https://netsync.unl.edu/on-the-table.rss",
+            "title": "On The Table",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "279bfa90862c495d929f8e4e9349d86b",
+            "href": "https://netnebraska.org/donate",
+            "title": "Support NET Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

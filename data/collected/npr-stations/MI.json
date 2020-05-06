@@ -1,0 +1,2838 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "MI"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/666",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wuom-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "666",
+        "network": {
+          "name": "Michigan Radio",
+          "inheritingFrom": "665",
+          "usesInheritance": true,
+          "currentOrgId": "666",
+          "tier1": {
+            "name": "Michigan Radio",
+            "id": "665",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WUOM-FM",
+                "id": "666",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WFUM-FM",
+                    "id": "667",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVGR-FM",
+                    "id": "668",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRSX-FM",
+                    "id": "1585",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "665",
+          "recency": 360
+        },
+        "guid": "4fcf70120f4b488e95f7b1178defb3b9",
+        "brand": {
+          "band": "FM",
+          "call": "WUOM",
+          "frequency": "91.7",
+          "marketCity": "Ann Arbor",
+          "marketState": "MI",
+          "name": "Michigan Radio",
+          "tagline": "Michigan's NPR News Leader"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0d6391142ea047afa2e965ea5eee15ac",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUOMFM.mp3"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "70be5795b6f34a3fab0a2ec48994b8d1",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WUOMFM.pls"
+              }
+            ],
+            "guid": "4fcf714e03bb4907aa621bf9d14b1856",
+            "title": "Michigan Radio - Live Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.michiganradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/mr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/mr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/665_40c54f65b8128389fc99d205be7e668e.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/665_20884bb990be9c24df8df07e66f70e70.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/michiganradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/michiganradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "0d6391142ea047afa2e965ea5eee15ac",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WUOMFM.mp3",
+            "isPrimaryStream": true,
+            "title": "Michigan Radio - Live Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "70be5795b6f34a3fab0a2ec48994b8d1",
+            "href": "https://playerservices.streamtheworld.com/pls/WUOMFM.pls",
+            "isPrimaryStream": true,
+            "title": "Michigan Radio - Live Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "fa752df7de224f06af27fe350bdc7634",
+            "href": "https://michigan.drupal.publicbroadcasting.net/podcasts/35061/rss.xml",
+            "title": "MorningSide 48224",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3141a91992c6408581eaab8fa3b4111e",
+            "href": "https://michigan.drupal.publicbroadcasting.net/podcasts/11343/rss.xml",
+            "title": "The Environment Report",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "68a6e7e80fca4a8794b95f97fe0370df",
+            "href": "https://michigan.drupal.publicbroadcasting.net/podcasts/term/5967/rss.xml",
+            "title": "Stateside from Michigan Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "eb2cb783bc4146c3bf2e3e309cb5232c",
+            "href": "https://michigan.drupal.publicbroadcasting.net/podcasts/12732/rss.xml",
+            "title": "It's Just Politics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e303f300841e4ab1bf3d3c0113424e62",
+            "href": "https://michigan.drupal.publicbroadcasting.net/podcasts/15090/rss.xml",
+            "title": "Issues & Ale",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "69d1543f16704577ad776ad40d276dc8",
+            "href": "https://michigan.drupal.publicbroadcasting.net/podcasts/12776/rss.xml",
+            "title": "John U. Bacon Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e3bde76cf80e495f99dc517333885750",
+            "href": "https://omny.fm/shows/same-same-different/playlists/podcast.rss",
+            "title": "Same Same Different",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f56e09ebee5d46bfb93fa1d124001c5a",
+            "href": "https://michigan.drupal.publicbroadcasting.net/podcasts/12731/rss.xml",
+            "title": "That's What They Say",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "dc2768e674ba46828b556e5e792a39c1",
+            "href": "https://www.michiganradio.org/podcasts",
+            "title": "Michigan Radio News and Features",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "4ae180731c444433a5a7edd3183d37ea",
+            "href": "https://michiganradio.secureallegiance.com/wuom/WebModule/Donate.aspx?P=SUSTAINER&PAGETYPE=PLG&CHECK=7xZmO7zqt1vzhRN6l0Ol+61gzMC6uhq5nDjkJobrCdg=",
+            "title": "Membership and support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "93111107e11a476ea657e289872b4907",
+            "href": "https://michiganradio.secureallegiance.com/wuom/WebModule/Donate.aspx?P=SUSTAINER&PAGETYPE=PLG&CHECK=7xZmO7zqt1vzhRN6l0Ol+61gzMC6uhq5nDjkJobrCdg=",
+            "title": "Membership and Support",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "50d11f135bd6444cb637562849cf3c57",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/665_aa9f54e036b8e7dd2bd9d66027c7f0ba.mp4",
+            "title": "Paulette Parker - Knowledge is Power",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "57854eca4bdf43438af1bbe858d7e380",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/665_4a8b3002c9d4f9e14c558398197f3aad.mp4",
+            "title": "Tyler Scott - Public Radio and You",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/358",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wdet-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "358",
+        "network": {
+          "inheritingFrom": "358",
+          "usesInheritance": false,
+          "currentOrgId": "358",
+          "tier1": {
+            "name": "WDET-FM",
+            "id": "358",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "358",
+          "recency": 240
+        },
+        "guid": "4fcf7010107e4e82824dabdbf069c9a2",
+        "brand": {
+          "band": "FM",
+          "call": "WDET",
+          "frequency": "101.9",
+          "marketCity": "Detroit",
+          "marketState": "MI",
+          "name": "WDET 101.9 FM",
+          "tagline": "Detroit's Public Radio Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "01ebdd62b7eb4159a795c9991909b968",
+                "typeId": "13",
+                "href": "https://wdet.streamguys1.com/live-aac2"
+              }
+            ],
+            "guid": "4fcf713000354d86bd124529c1c1f01f",
+            "title": "WDET FM 101.9 Detroit",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://wdet.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wdet_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wdet_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/358_fcc67e68e1de7a8d896cbc2018745398.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/358_5cce3213c1ec877baeb6872f1fe029b2.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/358_3c4db1276bc20fc4c6b03a927cce7b05.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/358_023f10d52a43cf739821a9d8b73a895d.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WDETFM",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/WDET",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "01ebdd62b7eb4159a795c9991909b968",
+            "href": "https://wdet.streamguys1.com/live-aac2",
+            "isPrimaryStream": true,
+            "title": "WDET FM 101.9 Detroit",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "cd429d66c321463a80e2096151bea37d",
+            "href": "https://wdet-rss.streamguys1.com/Podcast/TwistedStorytellers/twisted-storytellers-npr.xml",
+            "title": "Twisted Storytellers",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a9a718534a0d45aea02024470609cff2",
+            "href": "https://wdet-rss.streamguys1.com/Podcast/MichMash/michmash-npr.xml",
+            "title": "MichMash",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "34fd883a1481444ab6d4534011b64a7f",
+            "href": "https://wdet-rss.streamguys1.com/Podcast/EssentialConversations/essential-conversations-npr.xml",
+            "title": "Ann Delisi's Essential Conversations",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0699720e6da141bba52257591e3acfeb",
+            "href": "https://wdet-rss.streamguys1.com/Podcast/StoryCorps/sc-detroit-npr.xml",
+            "title": "StoryCorps Detroit",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "57f10b970b314cf8959616c876c0553f",
+            "href": "https://wdet-rss.streamguys1.com/Podcast/CreatedEqual/created-equal-npr.xml",
+            "title": "Created Equal",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1adf4a56db2e431bb7d615f8634dad71",
+            "href": "https://wdet-rss.streamguys1.com/Podcast/CuriosiD/curiosid-npr.xml",
+            "title": "CuriosiD",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9ff4dd1c86bf4099a47a4fb058e9307e",
+            "href": "https://wdet-rss.streamguys1.com/Podcast/DetroitToday/detroittoday-npr.xml",
+            "title": "Detroit Today with Stephen Henderson",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "c5701fefc58a40c2874eaa9f9b24411c",
+            "href": "https://wdet.secureallegiance.com/wdet/WebModule/Donate.aspx?P=NPRSUFY20&PAGETYPE=PLG&CHECK=NpAVZ5vRMftf%2f8X8rhf4ya1gzMC6uhq5nDjkJobrCdg%3d",
+            "title": "Support WDET ",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "9a3db58e51a940179cd524d1b846b452",
+            "href": "https://wdet.secureallegiance.com/wdet/WebModule/Donate.aspx?P=NPRSUFY20&PAGETYPE=PLG&CHECK=NpAVZ5vRMftf%2f8X8rhf4ya1gzMC6uhq5nDjkJobrCdg%3d",
+            "title": "Support WDET",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "0909defddce84b5cbd40936212611741",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/358_7b16f05c72f4a8ff90710a7cb0ceec83.mp4",
+            "title": "NPR-ONE Hello",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "5f27f8780fcb402e8901f49fa3fc8f17",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/358_1f69073272f78642cd7b99a5f79b426c.mp4",
+            "title": "Donate",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/358.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/463",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wkar-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "463",
+        "network": {
+          "name": "WKAR Public Media",
+          "inheritingFrom": "461",
+          "usesInheritance": true,
+          "currentOrgId": "463",
+          "tier1": {
+            "name": "WKAR Radio",
+            "id": "461",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WKAR-AM",
+                "id": "462",
+                "usesInheritance": true
+              },
+              {
+                "name": "WKAR-FM",
+                "id": "463",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "461",
+          "recency": 120
+        },
+        "guid": "4fcf701106aa4430980bfc460e27eac7",
+        "brand": {
+          "band": "FM",
+          "call": "WKAR",
+          "frequency": "90.5",
+          "marketCity": "East Lansing",
+          "marketState": "MI",
+          "name": "WKAR Public Media",
+          "tagline": "from Michigan State University"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f8e35f7e551d4a8ba82141ccc5983363",
+                "typeId": "10",
+                "href": "https://streaming.wkar.msu.edu/wkar-fm-mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "3cd3fec5630749d1a77956425053ea5a",
+                "typeId": "13",
+                "href": "https://streaming.wkar.msu.edu/wkar-fm-aac256"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "06cafa324d6b4a5082c2c27346be5f1d",
+                "typeId": "13",
+                "href": "https://streaming.wkar.msu.edu/wkar-fm-aac32"
+              }
+            ],
+            "guid": "4fcf714f24924d489afd446537558651",
+            "title": "WKAR-FM 90.5",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wkar.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wkar.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wkar.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WKARPUBLICMEDIA",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f8e35f7e551d4a8ba82141ccc5983363",
+            "href": "https://streaming.wkar.msu.edu/wkar-fm-mp3",
+            "isPrimaryStream": true,
+            "title": "WKAR-FM 90.5",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "3cd3fec5630749d1a77956425053ea5a",
+            "href": "https://streaming.wkar.msu.edu/wkar-fm-aac256",
+            "isPrimaryStream": true,
+            "title": "WKAR-FM 90.5",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "06cafa324d6b4a5082c2c27346be5f1d",
+            "href": "https://streaming.wkar.msu.edu/wkar-fm-aac32",
+            "isPrimaryStream": true,
+            "title": "WKAR-FM 90.5",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "7325656a96094c89a7c87e0eb7ff1187",
+            "href": "https://wkar.drupal.publicbroadcasting.net/podcasts/60/rss.xml",
+            "title": "Off the Record",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3e95c5cdfbee4c5a8cf4fc25ff51c5e8",
+            "href": "https://wkar.drupal.publicbroadcasting.net/podcasts/116410/rss.xml",
+            "title": "Serving Up Science",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "4785346af8584a978354ad56349d37c4",
+            "href": "https://support.wkar.org/allegpublic/WebModule/Donate.aspx?P=NPR&PAGETYPE=PLG&CHECK=xbv059%2fwXxgVQycLjeawDdW0piuR9ZMb&utm_source=NPR&utm_campaign=RDGIVE",
+            "title": "Give Now to WKAR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/412",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "412",
+        "network": {
+          "name": "WGVU News",
+          "inheritingFrom": "409",
+          "usesInheritance": true,
+          "currentOrgId": "412",
+          "tier1": {
+            "name": "WGVU Public Media",
+            "id": "409",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WGVU-AM",
+                "id": "410",
+                "usesInheritance": false,
+                "tier3": [
+                  {
+                    "name": "WGVS-AM",
+                    "id": "411",
+                    "usesInheritance": false
+                  }
+                ]
+              },
+              {
+                "name": "WGVU-FM",
+                "id": "412",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WGVS-FM",
+                    "id": "413",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "409",
+          "recency": 360
+        },
+        "guid": "4fcf701020bc43e683ac75942a12b18c",
+        "brand": {
+          "band": "FM",
+          "call": "WGVU",
+          "frequency": "88.5",
+          "marketCity": "Allendale",
+          "marketState": "MI",
+          "name": "WGVU News",
+          "tagline": "WGVU News"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c92c95b1608b489f93f531db3e7e1983",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WGVUFM.pls"
+              }
+            ],
+            "guid": "514afffd19864d369f1cc0ecda4d0374",
+            "title": "WGVU-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wgvunews.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wgvu.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wgvu.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WGVU/101191063709",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "c92c95b1608b489f93f531db3e7e1983",
+            "href": "https://playerservices.streamtheworld.com/pls/WGVUFM.pls",
+            "isPrimaryStream": true,
+            "title": "WGVU-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "01e78ed4246140f58cb2aeef7ac40906",
+            "href": "https://wgvu.drupal.publicbroadcasting.net/podcasts/58509/rss.xml",
+            "title": "Break it Down, Make it Better",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5c13b1c43be04545a56309cb692f0d1b",
+            "href": "https://wgvu.drupal.publicbroadcasting.net/podcasts/35539/rss.xml",
+            "title": "Field Notes in Philanthropy",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b4cf602e83ed4789a5bcbb1464fe47e9",
+            "href": "https://wgvu.drupal.publicbroadcasting.net/podcasts/49281/rss.xml",
+            "title": "By Leaps & Bounds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "312f28e317934c8dbf3cd7ea903012c5",
+            "href": "https://www.pledgecart.org/pledgeCart3/?campaign=E0B0B4D1-EB78-4C7B-AFF0-AB9FDC6E4E01andsource=",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "0ca43306c7804ad5998c110f9a18fd28",
+            "href": "https://www.pledgecart.org/pledgeCart3/?campaign=E0B0B4D1-EB78-4C7B-AFF0-AB9FDC6E4E01andsource=",
+            "title": "Support WGVU FM, NPR for West Michigan Now!",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/364",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "364",
+        "network": {
+          "inheritingFrom": "364",
+          "usesInheritance": false,
+          "currentOrgId": "364",
+          "tier1": {
+            "name": "WEMU-FM",
+            "id": "364",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "364",
+          "recency": 360
+        },
+        "guid": "4fcf7010122e4577bca945691772b1b8",
+        "brand": {
+          "band": "FM",
+          "call": "WEMU",
+          "frequency": "89.1",
+          "marketCity": "Ypsilanti",
+          "marketState": "MI",
+          "name": "89.1 WEMU",
+          "tagline": "Your Community NPR Station. "
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "141066005af14854959f9d9746b5961d",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM_ADP.m3u8"
+              }
+            ],
+            "guid": "14879cb9397032f441eb073028c44cbb",
+            "title": "89.1 WEMU Your Community NPR Station",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "851ead50f6a64da88fece53b2f93bc19",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WEMUFM.pls"
+              }
+            ],
+            "guid": "4fcf714b1cd545bb959fdf833e804956",
+            "title": "89.1 WEMU Your Community NPR Station",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wemu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wemu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wemu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/364_49f00e70639b38e3d4096aad03b0d97e.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WEMUFM",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/WEMU891",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "141066005af14854959f9d9746b5961d",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEMUFM_ADP.m3u8",
+            "isPrimaryStream": true,
+            "title": "89.1 WEMU Your Community NPR Station",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "851ead50f6a64da88fece53b2f93bc19",
+            "href": "https://playerservices.streamtheworld.com/pls/WEMUFM.pls",
+            "isPrimaryStream": false,
+            "title": "89.1 WEMU Your Community NPR Station",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e4dc18e3018f49ddbff278d3d9a10e41",
+            "href": "https://wemu.drupal.publicbroadcasting.net/podcasts/93695/rss.xml",
+            "title": "creative:impact",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "42ccab5c5fcb4b9089279484dbaa5e5d",
+            "href": "https://wemu.drupal.publicbroadcasting.net/podcasts/66401/rss.xml",
+            "title": "Art & Soul",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "72017bcfb88b488784b078f94456e19b",
+            "href": "https://wemu.drupal.publicbroadcasting.net/podcasts/37311/rss.xml",
+            "title": "First Friday Focus on the Environment",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ea51d01504f9461284dd6ad154cd61aa",
+            "href": "https://wemu.drupal.publicbroadcasting.net/podcasts/24501/rss.xml",
+            "title": "The Green Room",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9761d863838d4ce2b83593d1c6ca7afd",
+            "href": "https://wemu.drupal.publicbroadcasting.net/podcasts/92775/rss.xml",
+            "title": "Civic Matters: The CivCity Initiative On WEMU",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "48f47233fb9f4f54b9d810e8873fb07e",
+            "href": "https://wemu.drupal.publicbroadcasting.net/podcasts/9730/rss.xml",
+            "title": "Cinema Chat",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5549e45cc2e24c7282452089eecb86db",
+            "href": "https://wemu.drupal.publicbroadcasting.net/podcasts/9728/rss.xml",
+            "title": "Issues of the Environment",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "67f718f541d246bd90e09c44b483557e",
+            "href": "https://donate.nprstations.org/wemu/",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "30e54c97338c4572b970acc90671d658",
+            "href": "https://donate.nprstations.org/wemu/",
+            "title": "Donate to 89.1 WEMU",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/364.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/436",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wica-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "436",
+        "network": {
+          "name": "Interlochen Public Radio",
+          "inheritingFrom": "434",
+          "usesInheritance": true,
+          "currentOrgId": "436",
+          "tier1": {
+            "name": "Interlochen Public Radio",
+            "id": "434",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WIAA-FM",
+                "id": "1282",
+                "usesInheritance": false,
+                "tier3": [
+                  {
+                    "name": "WHBP-FM",
+                    "id": "435",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WICA-FM",
+                    "id": "436",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WIAB-FM",
+                    "id": "945",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WLMN-FM",
+                    "id": "1180",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "434",
+          "recency": 360
+        },
+        "guid": "4fcf7010267f454f9ccb894a1b6a47d8",
+        "brand": {
+          "band": "FM",
+          "call": "WICA",
+          "frequency": "91.5",
+          "marketCity": "Traverse City",
+          "marketState": "MI",
+          "name": "Interlochen Public Radio",
+          "tagline": "News and Classical Music from northern Michigan"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "dddb518d1b414255bfb42547491f68d9",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WICAFM.pls"
+              }
+            ],
+            "guid": "4fcf715717f84145bbf014a649cb7c4d",
+            "title": "IPR News Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://interlochenpublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/ilpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ilpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/434_a7f75a63cba57e37ae4030302b6c1f68.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/InterlochenPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/IPRNewsRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "dddb518d1b414255bfb42547491f68d9",
+            "href": "https://playerservices.streamtheworld.com/pls/WICAFM.pls",
+            "isPrimaryStream": true,
+            "title": "IPR News Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d3194e5dca774d7eb110151822a06834",
+            "href": "https://secure3.convio.net/ica/site/Donation2?df_id=1400&1400.donation=form1",
+            "title": null,
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "5e83491c81f14aa7b0a3f504e038ff64",
+            "href": "https://secure3.convio.net/ica/site/Donation2?df_id=1400&1400.donation=form1",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "8e7021d9ea4d401e83e943f05218a4bc",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/434_5ef52210f802b02e2bb51db15798e5f7.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/523",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "523",
+        "network": {
+          "inheritingFrom": "523",
+          "usesInheritance": false,
+          "currentOrgId": "523",
+          "tier1": {
+            "name": "WMUK-FM",
+            "id": "523",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "523",
+          "recency": 240
+        },
+        "guid": "4fcf7011156349fdb367f1646dd670bf",
+        "brand": {
+          "band": "FM",
+          "call": "WMUK",
+          "frequency": "102.1",
+          "marketCity": "Kalamazoo",
+          "marketState": "MI",
+          "name": "WMUK",
+          "tagline": "Public radio from Western Michigan University"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2a94a3a3b1b9403cb04cbb8d2e30a47c",
+                "typeId": "10",
+                "href": "https://ice2.wmuk.org:8443/mp32"
+              }
+            ],
+            "guid": "4fcf71501114472ebe07ade4cf7bd6db",
+            "title": "WMUK-2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7186e6d9554c475586b52f448fb5d868",
+                "typeId": "10",
+                "href": "https://ice2.wmuk.org:8443/mp31"
+              }
+            ],
+            "guid": "ede1977d16e54fc2b1b68e7d50837ea3",
+            "title": "WMUK-1",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wmuk.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wmuk_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wmuk_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/523_0cd56ec069921ccbc884c83f03f95f24.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WMUK-1021-FM/350098887561",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wmuk1021",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "2a94a3a3b1b9403cb04cbb8d2e30a47c",
+            "href": "https://ice2.wmuk.org:8443/mp32",
+            "isPrimaryStream": false,
+            "title": "WMUK-2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7186e6d9554c475586b52f448fb5d868",
+            "href": "https://ice2.wmuk.org:8443/mp31",
+            "isPrimaryStream": true,
+            "title": "WMUK-1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "891f6d2dc9ee49e398abc1df759b4ada",
+            "href": "https://wmuk.drupal.publicbroadcasting.net/podcasts/6936/rss.xml",
+            "title": "WMUK's WestSouthwest",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "36c52bc287854d05935d610352adcd69",
+            "href": "https://donate.wmuk.org/pledge/",
+            "title": "Listener Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "405c437b680a4edca9ba7443ac0cf468",
+            "href": "https://donate.wmuk.org/pledge/",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/523.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/342",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wcmu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "342",
+        "network": {
+          "name": "WCMU",
+          "inheritingFrom": "341",
+          "usesInheritance": true,
+          "currentOrgId": "342",
+          "tier1": {
+            "name": "CMU Public Radio",
+            "id": "341",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WCMU-FM",
+                "id": "342",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WCMB-FM",
+                    "id": "343",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WCML-FM",
+                    "id": "344",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WCMW-FM",
+                    "id": "345",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WCMZ-FM",
+                    "id": "346",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WUCX-FM",
+                    "id": "347",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WWCM-FM",
+                    "id": "348",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "341",
+          "recency": 360
+        },
+        "guid": "4fcf70100ccb4cab96da6bacebaef20a",
+        "brand": {
+          "band": "FM",
+          "call": "WCMU",
+          "frequency": "89.5",
+          "marketCity": "Mount Pleasant",
+          "marketState": "MI",
+          "name": "WCMU",
+          "tagline": "Music and NPR News for Central and Northern Michigan"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "72b7fa8988494c1eaed20bfa5804c30d",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WCMUHD2.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "25ac8fb4632943fab51712cc6abe7e88",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/WCMUHD2_ADP.pls"
+              }
+            ],
+            "guid": "514afffe1e914f6db3adae375b7b5399",
+            "title": "WCMU News & Talk",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5add8c05012d480eb7aeb7728a1d2aa1",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WCMUFM.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "f3160f8e8b524ad3888c7d8b5eda6883",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/WCMUFM_ADP.pls"
+              }
+            ],
+            "guid": "a543016fa7cc49b19afb430326fccba2",
+            "title": "WCMU Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://radio.wcmu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/cmupr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/cmupr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/cmupublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/WCMUNews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "72b7fa8988494c1eaed20bfa5804c30d",
+            "href": "https://playerservices.streamtheworld.com/pls/WCMUHD2.pls",
+            "isPrimaryStream": false,
+            "title": "WCMU News & Talk",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5add8c05012d480eb7aeb7728a1d2aa1",
+            "href": "https://playerservices.streamtheworld.com/pls/WCMUFM.pls",
+            "isPrimaryStream": true,
+            "title": "WCMU Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "25ac8fb4632943fab51712cc6abe7e88",
+            "href": "https://playerservices.streamtheworld.com/pls/WCMUHD2_ADP.pls",
+            "isPrimaryStream": false,
+            "title": "WCMU News & Talk",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "f3160f8e8b524ad3888c7d8b5eda6883",
+            "href": "https://playerservices.streamtheworld.com/pls/WCMUFM_ADP.pls",
+            "isPrimaryStream": true,
+            "title": "WCMU Public Radio",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "997ef663858d46e89a122cf64c38ed1d",
+            "href": "https://www.callswithoutwalls.com/pledgeCart3/?campaign=5E27243A-0F96-416C-B237-59ED4EA8B1E4&source=#/home",
+            "title": "Support CMU Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/347",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "347",
+        "network": {
+          "inheritingFrom": "347",
+          "usesInheritance": false,
+          "currentOrgId": "347"
+        },
+        "newscast": {
+          "id": "347",
+          "recency": 360
+        },
+        "guid": "4fcf70100de64081a82cdcfbf66d1c4a",
+        "brand": {
+          "band": "FM",
+          "call": "WUCX",
+          "frequency": "90.1",
+          "marketCity": "Bay City",
+          "marketState": "MI",
+          "name": "Q-90.1 FM",
+          "tagline": "Quality Public Radio."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5add8c05012d480eb7aeb7728a1d2aa1",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WCMUFM.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "f3160f8e8b524ad3888c7d8b5eda6883",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/WCMUFM_ADP.pls"
+              }
+            ],
+            "guid": "a543016fa7cc49b19afb430326fccba2",
+            "title": "WCMU Public Radio",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1d968c350745441a93f745f3d5510eca",
+                "typeId": "10",
+                "href": "https://wucx.streamguys1.com/live"
+              }
+            ],
+            "guid": "19fa87befe604a0d85f2b2b7a677e364",
+            "title": "Delta College Public Radio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "72b7fa8988494c1eaed20bfa5804c30d",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WCMUHD2.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "25ac8fb4632943fab51712cc6abe7e88",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/WCMUHD2_ADP.pls"
+              }
+            ],
+            "guid": "514afffe1e914f6db3adae375b7b5399",
+            "title": "WCMU News & Talk",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.deltabroadcasting.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wucx_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/cmupr.gif?1540569904300",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/Q90.1WUCX",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wucx",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "5add8c05012d480eb7aeb7728a1d2aa1",
+            "href": "https://playerservices.streamtheworld.com/pls/WCMUFM.pls",
+            "isPrimaryStream": true,
+            "title": "WCMU Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1d968c350745441a93f745f3d5510eca",
+            "href": "https://wucx.streamguys1.com/live",
+            "isPrimaryStream": false,
+            "title": "Delta College Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "72b7fa8988494c1eaed20bfa5804c30d",
+            "href": "https://playerservices.streamtheworld.com/pls/WCMUHD2.pls",
+            "isPrimaryStream": false,
+            "title": "WCMU News & Talk",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "25ac8fb4632943fab51712cc6abe7e88",
+            "href": "https://playerservices.streamtheworld.com/pls/WCMUHD2_ADP.pls",
+            "isPrimaryStream": false,
+            "title": "WCMU News & Talk",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "f3160f8e8b524ad3888c7d8b5eda6883",
+            "href": "https://playerservices.streamtheworld.com/pls/WCMUFM_ADP.pls",
+            "isPrimaryStream": true,
+            "title": "WCMU Public Radio",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "6a35af7284ef43f29257718cecf9a36f",
+            "href": "http://www.deltabroadcasting.org/support/donate/",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/347.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/545",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wnmu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "545",
+        "network": {
+          "name": "Public Radio 90, WNMU",
+          "inheritingFrom": "544",
+          "usesInheritance": true,
+          "currentOrgId": "545",
+          "tier1": {
+            "name": "Public Radio 90",
+            "id": "544",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WNMU-FM",
+                "id": "545",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "544",
+          "recency": 240
+        },
+        "guid": "4fcf70111a5546d2927035efde77a48b",
+        "brand": {
+          "band": "FM",
+          "call": "WNMU",
+          "frequency": "90.1",
+          "marketCity": "Marquette",
+          "marketState": "MI",
+          "name": "Public Radio 90, WNMU",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9727550816514a0a8c64db0b5f492217",
+                "typeId": "10",
+                "href": "https://war.streamguys1.com:7405/wnmu-fm"
+              }
+            ],
+            "guid": "1be4f55462ab458bb8acce24c365962f",
+            "title": "WNMU-FM/Public Radio 90",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wnmufm.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/pr90.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/wnmufm",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "9727550816514a0a8c64db0b5f492217",
+            "href": "https://war.streamguys1.com:7405/wnmu-fm",
+            "isPrimaryStream": true,
+            "title": "WNMU-FM/Public Radio 90",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "f9fe409b9ca349acb8060c0a9c6b7577",
+            "href": "https://wnmu.drupal.publicbroadcasting.net/podcasts/45/rss.xml",
+            "title": "Classiclectic",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d86a907b202940ca86b0ef438c2ad830",
+            "href": "https://wnmu.secureallegiance.com/wnmu/WebModule/Donate.aspx?P=MAIN&PAGETYPE=PLG&CHECK=r7ZyK9McKTWqK20krF35cqUOstgWaB20",
+            "title": null,
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/319",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf7010076b4e76a90f61ad6e88dc75",
+        "brand": {
+          "band": "FM",
+          "call": "WBLU",
+          "frequency": "88.9",
+          "marketCity": "Grand Rapids",
+          "marketState": "MI",
+          "name": "Blue Lake Public Radio",
+          "tagline": "Blue Lake Public Radio"
+        },
+        "orgId": "319",
+        "network": {
+          "name": "Blue Lake Public Radio",
+          "inheritingFrom": "318",
+          "usesInheritance": true,
+          "currentOrgId": "319",
+          "tier1": {
+            "name": "WBLV-FM",
+            "id": "318",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WBLU-FM",
+                "id": "319",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "db983b11e08149f4a6546e98be8ced93",
+                "typeId": "10",
+                "href": "https://wblv.streamguys1.com/live"
+              }
+            ],
+            "guid": "e0ee7190702b4702a11178784d35f73f",
+            "title": "Blue Lake Public Radio",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.bluelake.org/radio.html",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wblv_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/318.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/group.php?gid=226367040796",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "db983b11e08149f4a6546e98be8ced93",
+            "href": "https://wblv.streamguys1.com/live",
+            "isPrimaryStream": false,
+            "title": "Blue Lake Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "907120849d754831a34f79a8ac7bc61a",
+            "href": "https://www.bluelake.org/pledge/pledge.php",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/318.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/124",
+      "attributes": {
+        "donation": {
+          "paymentGatewayToken": "A9qp9ijp71Hp9Khx87gaSMZ7XCw"
+        },
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/know-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "124",
+        "network": {
+          "name": "MPR News",
+          "inheritingFrom": "111",
+          "usesInheritance": true,
+          "currentOrgId": "124",
+          "tier1": {
+            "name": "Minnesota Public Radio",
+            "id": "111",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KNOW-FM",
+                "id": "112",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KCCD-FM",
+                    "id": "114",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLNI-FM",
+                    "id": "115",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNBJ-FM",
+                    "id": "116",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNCM-FM",
+                    "id": "117",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNGA-FM",
+                    "id": "118",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSR-FM",
+                    "id": "119",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSW-FM",
+                    "id": "120",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNTN-FM",
+                    "id": "121",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KXLC-FM",
+                    "id": "122",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZSE-FM",
+                    "id": "123",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WGGL-FM",
+                    "id": "124",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WIRN-FM",
+                    "id": "125",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSCN-FM",
+                    "id": "126",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KBPN-FM",
+                    "id": "868",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNWF-FM",
+                    "id": "1051",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WLSN-FM",
+                    "id": "1065",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSE-FM",
+                    "id": "1066",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KAUR-FM",
+                    "id": "1221",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WGRH-FM",
+                    "id": "1223",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KRFI-FM",
+                    "id": "1224",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KRXW-FM",
+                    "id": "1225",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KITF-FM",
+                    "id": "1226",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "KSJN-FM",
+                "id": "818",
+                "usesInheritance": false,
+                "tier3": [
+                  {
+                    "name": "KBPR-FM",
+                    "id": "113",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCCM-FM",
+                    "id": "823",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCMF-FM",
+                    "id": "824",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCRB-FM",
+                    "id": "825",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KGAC-FM",
+                    "id": "826",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KLSE-FM",
+                    "id": "828",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KQMN-FM",
+                    "id": "829",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KRSD-FM",
+                    "id": "830",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KRSW-FM",
+                    "id": "831",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KSJR-FM",
+                    "id": "832",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KWRV-FM",
+                    "id": "833",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WIRR-FM",
+                    "id": "834",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WMLS-FM",
+                    "id": "835",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WSCD-FM",
+                    "id": "836",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KRSU-FM",
+                    "id": "867",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCMP-FM",
+                    "id": "936",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KMSE-FM",
+                    "id": "1064",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KLCD-FM",
+                    "id": "1421",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "111",
+          "recency": 360
+        },
+        "guid": "4fcf700e2214401aa9ad04c57a2fc137",
+        "brand": {
+          "band": "FM",
+          "call": "WGGL",
+          "frequency": "91.1",
+          "marketCity": "Houghton",
+          "marketState": "MI",
+          "name": "MPR News",
+          "tagline": "Discovering what matters. Member supported."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a8e0249292dd42aea4aa3b4a80e05b13",
+                "typeId": "10",
+                "href": "https://nis.stream.publicradio.org/nis-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "8962217e3b8548d6824f45c2fc7fc8f6",
+                "typeId": "13",
+                "href": "https://nis.stream.publicradio.org/nis-npr.aac"
+              }
+            ],
+            "guid": "4fcf714211174cf7a82cba19685314ba",
+            "title": "MPR News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mprnews.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/mpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/mpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/111_ce1ea75fa8285453a35cd078f7bd9618.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/111_bdb68c8e7e900ef8428045b2b4beb643.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/111_87d91485e7f5824a60ee898dbb5293aa.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/111_b011929305572b31743c223f623ed722.mp4?1532637763871",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/111_02382d1cd4f66be217c00de35db23040.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/111_f41d1851ddcf21cb1b5c59a8b4d0f49c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/111_c35e68539bfccb2b573d163da0f8ad39.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/MPRnews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": false,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a8e0249292dd42aea4aa3b4a80e05b13",
+            "href": "https://nis.stream.publicradio.org/nis-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "MPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "8962217e3b8548d6824f45c2fc7fc8f6",
+            "href": "https://nis.stream.publicradio.org/nis-npr.aac",
+            "isPrimaryStream": true,
+            "title": "MPR News",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": false,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "308f3f98096f4370a6134d55ad5452b2",
+            "href": "https://feeds.publicradio.org/public_feeds/song-of-the-day/npr/rss",
+            "title": "The Current's Song of the Day",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a41512e80ea7438bb7a9b0f2ea421ae8",
+            "href": "https://feeds.publicradio.org/public_feeds/policast/npr/rss",
+            "title": "Policast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "650893150144478ea79621254264e48d",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-with-kerri-miller/npr/rss",
+            "title": "MPR News with Kerri Miller",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7922619f76934839a9ed59e769f7d9f4",
+            "href": "https://feeds.publicradio.org/public_feeds/fieldwork/rss/rss.rss",
+            "title": "Field Work",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3921a120a581406d882eb3f93a3e8473",
+            "href": "https://feeds.publicradio.org/public_feeds/art-hounds/npr/rss",
+            "title": "Art Hounds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbe4f0dffec14aefbb2b1bfccc93d315",
+            "href": "https://feeds.publicradio.org/public_feeds/counter-stories/npr/rss",
+            "title": "Counter Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2972aded0e5644939d69d448c077ca5c",
+            "href": "https://feeds.publicradio.org/public_feeds/cube-critics/npr/rss",
+            "title": "Cube Critics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbf5acb80b8c48dab1b41c4fe1ef430f",
+            "href": "https://feeds.publicradio.org/public_feeds/the-current-rewind/npr/rss.rss",
+            "title": "The Current Rewind",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ccb31e5c7b9f4be7b58532dab4a73df5",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-with-angela-davis/itunes/rss.rss",
+            "title": "MPR News with Angela Davis",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7356d6afd62a4f608233f40b41d0128c",
+            "href": "https://feeds.publicradio.org/public_feeds/the-current-music-news/npr/rss",
+            "title": "The Current Music News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9808ad77b05944dc987d9ac26d9f80be",
+            "href": "https://feeds.publicradio.org/public_feeds/brains-on/npr/rss",
+            "title": "Brains On!",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "509b3edcc3454ef68deb521df1280149",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-update/npr/rss.rss",
+            "title": "Minnesota Today",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e03fb03a277446bcbc95e086ef853452",
+            "href": "https://feeds.publicradio.org/public_feeds/climate-cast/npr/rss",
+            "title": "Climate Cast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "928bbfa549334d37ae3f4ad576921168",
+            "href": "https://support.mpr.org/npr-main",
+            "title": "Contribute Now",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b0359382e34c40e78ff310b276c607fd",
+            "href": "https://support.mpr.org/npr-main",
+            "title": "Support MPR News",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "dd0616915bc24d1298223b9039898ffd",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/111_666e3390b608cec4246ab6bef7dc2568.mp4",
+            "title": "sanni 03072019",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "4668b4a10154424790b2225a3329306d",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/111_9ee024273de9201471e38e9ba3a1d970.mp4?1552076637243",
+            "title": "Bissoy 03082019",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "2a0a010440214ebf91167c1bd7857d35",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/111_54f7a2d27ff8934b6b7eef5f62838875.mp4",
+            "title": "McPherson",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1282",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70150e304788bae982dc0513da9a",
+        "brand": {
+          "band": "FM",
+          "call": "WIAA",
+          "frequency": "88.7",
+          "marketCity": "Interlochen",
+          "marketState": "MI",
+          "name": "Interlochen Public Radio",
+          "tagline": "News and Classical Music from northern Michigan"
+        },
+        "orgId": "1282",
+        "network": {
+          "inheritingFrom": "1282",
+          "usesInheritance": false,
+          "currentOrgId": "1282"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "dddb518d1b414255bfb42547491f68d9",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WICAFM.pls"
+              }
+            ],
+            "guid": "4fcf715717f84145bbf014a649cb7c4d",
+            "title": "IPR News Radio",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "68d347b08bc94719ab53a4e1626cebc0",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIAAFM.mp3"
+              }
+            ],
+            "guid": "13e3dc0e2e2012a4d19b1eb5a8003e89",
+            "title": "Classical IPR -  Interlochen Public Radio",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://interlochenpublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wiaa_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wiaa_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1282.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "dddb518d1b414255bfb42547491f68d9",
+            "href": "https://playerservices.streamtheworld.com/pls/WICAFM.pls",
+            "isPrimaryStream": true,
+            "title": "IPR News Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "68d347b08bc94719ab53a4e1626cebc0",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIAAFM.mp3",
+            "isPrimaryStream": false,
+            "title": "Classical IPR -  Interlochen Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "22f655eeb2d1499ba32e03611477c26a",
+            "href": "http://interlochenpublicradio.org/make-gift-online",
+            "title": "Support IPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "cff2f15c92be45cc81f7a5302aeb9ae7",
+            "href": "https://secure3.convio.net/ica/site/Donation2?df_id=1400&1400.donation=form1",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1282.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/945",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701322674207b5b7f4da9648bad9",
+        "brand": {
+          "band": "FM",
+          "call": "WIAB",
+          "frequency": "88.5",
+          "marketCity": "Mackinaw City",
+          "marketState": "MI",
+          "name": "Interlochen Public Radio",
+          "tagline": "Classical IPR"
+        },
+        "orgId": "945",
+        "network": {
+          "inheritingFrom": "945",
+          "usesInheritance": false,
+          "currentOrgId": "945"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "68d347b08bc94719ab53a4e1626cebc0",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIAAFM.mp3"
+              }
+            ],
+            "guid": "13e3dc0e2e2012a4d19b1eb5a8003e89",
+            "title": "Classical IPR -  Interlochen Public Radio",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://interlochenpublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wiab_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/945.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/InterlochenPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "68d347b08bc94719ab53a4e1626cebc0",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WIAAFM.mp3",
+            "isPrimaryStream": false,
+            "title": "Classical IPR -  Interlochen Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "be329272e36a4577979de65b753c9b0f",
+            "href": "http://interlochenpublicradio.org/make-gift-online",
+            "title": "Support IPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/945.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/410",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Oldies",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70102044450482f0abdb373392fa",
+        "brand": {
+          "band": "AM",
+          "call": "WGVU",
+          "frequency": "1480",
+          "marketCity": "Kentwood",
+          "marketState": "MI",
+          "name": "WGVU AM - Real Oldies",
+          "tagline": "Music from the 50s, 60s, and 70s"
+        },
+        "orgId": "410",
+        "network": {
+          "inheritingFrom": "410",
+          "usesInheritance": false,
+          "currentOrgId": "410"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "71435cc2998f439c9d07c63a7f38b9fe",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGVUAM.mp3"
+              }
+            ],
+            "guid": "0c551f9a9bfc4ab0baf5bc99f374fc29",
+            "title": "WGVU Real Oldies 1480",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wgvu.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wgvu_am.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wgvu_am.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/410.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WGVU/101191063709",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WGVUPublicMedia",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "71435cc2998f439c9d07c63a7f38b9fe",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WGVUAM.mp3",
+            "isPrimaryStream": true,
+            "title": "WGVU Real Oldies 1480",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "e19811dbf9cf4ac0a4caaa7e7fc7f858",
+            "href": "https://www.callswithoutwalls.com/pledgecart/?projectId=399&clear",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "050ee22d0ad145a8b1bb899f8153ea50",
+            "href": "https://www.callswithoutwalls.com/pledgecart/?projectId=399&clear",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/411",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Oldies",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf7010208146a7b66c51bd22298bc9",
+        "brand": {
+          "band": "AM",
+          "call": "WGVS",
+          "frequency": "850",
+          "marketCity": "Muskegon",
+          "marketState": "MI",
+          "name": "WGVU AM - Real Oldies",
+          "tagline": "Real Oldies, the way they were meant to be heard"
+        },
+        "orgId": "411",
+        "network": {
+          "inheritingFrom": "411",
+          "usesInheritance": false,
+          "currentOrgId": "411"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wgvu.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wgvs_am.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wgvs_am.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WGVU/101191063709",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3efe1f8b8c16409bbb9292350fb2e607",
+            "href": "https://www.callswithoutwalls.com/pledgecart/?projectId=399&clear",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "db924d24986d4297a39739270f864eed",
+            "href": "https://www.callswithoutwalls.com/pledgecart/?projectId=399&clear",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1585",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "15",
+          "musicOnly": false
+        },
+        "guid": "3fd0561f49ab4ec48e6f88535769e8e9",
+        "brand": {
+          "band": "FM",
+          "call": "WRSX",
+          "frequency": "91.3",
+          "marketCity": "Port Huron",
+          "marketState": "MI",
+          "name": "WRSX-FM",
+          "tagline": null
+        },
+        "orgId": "1585",
+        "network": {
+          "inheritingFrom": "1585",
+          "usesInheritance": false,
+          "currentOrgId": "1585"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

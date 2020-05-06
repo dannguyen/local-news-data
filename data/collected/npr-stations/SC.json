@@ -1,0 +1,386 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "SC"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/488",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wltr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "488",
+        "network": {
+          "name": "South Carolina Public Radio",
+          "inheritingFrom": "486",
+          "usesInheritance": true,
+          "currentOrgId": "488",
+          "tier1": {
+            "name": "SOUTH CAROLINA EDUCATIONAL TV COMMISSION",
+            "id": "486",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WLTR-FM",
+                "id": "487",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WEPR-FM",
+                    "id": "488",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WHMC-FM",
+                    "id": "489",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WJWJ-FM",
+                    "id": "490",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WLJK-FM",
+                    "id": "491",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WNSC-FM",
+                    "id": "492",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRJA-FM",
+                    "id": "493",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSCI-FM",
+                    "id": "494",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "486",
+          "recency": 120
+        },
+        "guid": "4fcf70110c3b4f26bb1c50f1aaf40b7b",
+        "brand": {
+          "band": "FM",
+          "call": "WEPR",
+          "frequency": "90.1",
+          "marketCity": "Greenville",
+          "marketState": "SC",
+          "name": "South Carolina Public Radio",
+          "tagline": "South Carolina Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "977d3b04b1664062aefcfa8e63f3847f",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WRJAFM.pls"
+              }
+            ],
+            "guid": "1499bbaada2000a440bbf90fb72744b2",
+            "title": "South Carolina Public Radio: News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "8de3f1fa0b334c37af909fdd64abca7c",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WLTRFM.pls"
+              }
+            ],
+            "guid": "1499bb447b102b94e998bdfab0f55100",
+            "title": "South Carolina Public Radio: Classical",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.southcarolinapublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/scpub.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/scern.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/486_2a8901377f9fe0c42d2bccf73c03b512.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/486_9eef159c12aab34c89466c0cb9f4043a.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/SouthCarolinaETV",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/scetvradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "977d3b04b1664062aefcfa8e63f3847f",
+            "href": "https://playerservices.streamtheworld.com/pls/WRJAFM.pls",
+            "isPrimaryStream": true,
+            "title": "South Carolina Public Radio: News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "8de3f1fa0b334c37af909fdd64abca7c",
+            "href": "https://playerservices.streamtheworld.com/pls/WLTRFM.pls",
+            "isPrimaryStream": false,
+            "title": "South Carolina Public Radio: Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "273a944a9cb04dde95a2b13aea71996b",
+            "href": "https://wltr.drupal.publicbroadcasting.net/podcasts/814/rss.xml",
+            "title": "South Carolina from A to Z",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a71722b5630842c29f3e25a704a8cbdf",
+            "href": "https://wltr.drupal.publicbroadcasting.net/podcasts/80033/rss.xml",
+            "title": "My Telehealth Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0c77f431f3af4676bde4f968c9518989",
+            "href": "https://wltr.drupal.publicbroadcasting.net/podcasts/813/rss.xml",
+            "title": "A Minute with Miles",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "be29f0ab9654476cbda921d4826051b1",
+            "href": "https://wltr.drupal.publicbroadcasting.net/podcasts/7617/rss.xml",
+            "title": "State House Week",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "769dabbe02a348b3a18816dbb0481215",
+            "href": "https://wltr.drupal.publicbroadcasting.net/podcasts/38377/rss.xml",
+            "title": "Narrative",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8b3535a9355544529d2be5ea616c58e8",
+            "href": "https://wltr.drupal.publicbroadcasting.net/podcasts/654/rss.xml",
+            "title": "NatureNotes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1d94434222f04136873518d43a2e1318",
+            "href": "https://wltr.drupal.publicbroadcasting.net/podcasts/12597/rss.xml",
+            "title": "The South Carolina Business Review",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9a8dd995fd754bbcb3486abb8bce6ae4",
+            "href": "https://wltr.drupal.publicbroadcasting.net/podcasts/76884/rss.xml",
+            "title": "South Carolina Lede",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "456a50cdfe7f405488e73385189b474c",
+            "href": "https://wltr.drupal.publicbroadcasting.net/podcasts/11367/rss.xml",
+            "title": "South Carolina Focus",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2333249212ad4e94bfc455ab1e764803",
+            "href": "https://wltr.drupal.publicbroadcasting.net/podcasts/657/rss.xml",
+            "title": "\"Making it Grow\" Minutes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8e74c1271c5b4b24817d9e3250c1913c",
+            "href": "https://wltr.drupal.publicbroadcasting.net/podcasts/363/rss.xml",
+            "title": "Walter Edgar's Journal",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6fb55d9d5f1e4cdc9f6774e513839733",
+            "href": "https://wltr.drupal.publicbroadcasting.net/podcasts/9529/rss.xml",
+            "title": "Health Focus",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d648c8ca647e4610be830e6eec7142cc",
+            "href": "https://etvendowment.thankyou4caring.org/npr",
+            "title": "Support South Carolina Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "da7dade9524d4929ab448f9b2dfb22ca",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/486_6d68a6a47dc414b55c957783c4229a93.mp4",
+            "title": "NPR One 13 Greene",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "726aa187303042eeab3a5d51234c8064",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/486_79b01e41203517f2e639e27c8e3c32f2.mp4",
+            "title": "PLEDGE - Short - Turner",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "2fd2e23cbb5141a4a2f91b2666e1005d",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/486_6e3fed9af9d2763a66702dd008a98434.mp4",
+            "title": "NPR One 18 Eaddy",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "564e21d469114aae9f2fba16f93696de",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/486_1da3a9f5518bbe78ccc417f8ff1e45be.mp4",
+            "title": "NPR One Eisenberg",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/778",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701301604cf6b7ef2521445b520a",
+        "brand": {
+          "band": "FM",
+          "call": "WSSB",
+          "frequency": "90.3",
+          "marketCity": "Orangeburg",
+          "marketState": "SC",
+          "name": "WSSB",
+          "tagline": "South Carolina's Jazz Station"
+        },
+        "orgId": "778",
+        "network": {
+          "inheritingFrom": "778",
+          "usesInheritance": false,
+          "currentOrgId": "778",
+          "tier1": {
+            "name": "WSSB-FM",
+            "id": "778",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wssbradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wssb_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/778.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WSSB-Radio-903-FM/110667559000009",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "e698ebba861c4a39bc4c2d436d37b4ae",
+            "href": "https://scstateconnect.scsu.edu/sslpage.aspx?pid=378",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/778.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

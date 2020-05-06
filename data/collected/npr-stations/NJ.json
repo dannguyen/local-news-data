@@ -1,0 +1,2393 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "NJ"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/314",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "314",
+        "network": {
+          "name": "WBGO",
+          "inheritingFrom": "313",
+          "usesInheritance": true,
+          "currentOrgId": "314",
+          "tier1": {
+            "name": "Newark Public Radio",
+            "id": "313",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WBGO-FM",
+                "id": "314",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf701006234a26a2f8c9bcfddc462f",
+        "brand": {
+          "band": "FM",
+          "call": "WBGO",
+          "frequency": "88.3",
+          "marketCity": "Newark",
+          "marketState": "NJ",
+          "name": "WBGO",
+          "tagline": "The Jazz Source"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c143f6ea919f45f4b9466fcc0fa2974e",
+                "typeId": "10",
+                "href": "https://wbgo.streamguys1.com/wbgo128"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "5311cd8ff4314434bc4fdb8202fd1ec6",
+                "typeId": "13",
+                "href": "https://wbgo.streamguys1.com/wbgo"
+              }
+            ],
+            "guid": "4fcf714b0fed46aabb40d8dccfd2b653",
+            "title": "WBGO Jazz 88.3FM",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f13b4f57921c49508a2f0cf1f1bb7fbc",
+                "typeId": "10",
+                "href": "https://wbgo.streamguys1.com/thejazzstream"
+              }
+            ],
+            "guid": "514afffb1a10483192fee5ed8c2888ba",
+            "title": "WBGO HD2",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wbgo.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wbgo.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wbgo.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wbgojazz",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/wbgo",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "c143f6ea919f45f4b9466fcc0fa2974e",
+            "href": "https://wbgo.streamguys1.com/wbgo128",
+            "isPrimaryStream": true,
+            "title": "WBGO Jazz 88.3FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f13b4f57921c49508a2f0cf1f1bb7fbc",
+            "href": "https://wbgo.streamguys1.com/thejazzstream",
+            "isPrimaryStream": false,
+            "title": "WBGO HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5311cd8ff4314434bc4fdb8202fd1ec6",
+            "href": "https://wbgo.streamguys1.com/wbgo",
+            "isPrimaryStream": true,
+            "title": "WBGO Jazz 88.3FM",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "b54eec56a1cf48de93aaf251fdeababf",
+            "href": "https://wbgo.drupal.publicbroadcasting.net/podcasts/106/rss.xml",
+            "title": "WBGO Journal",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "71812b6106f241faa62a1e5b19f13ce4",
+            "href": "https://wbgo.drupal.publicbroadcasting.net/podcasts/84/rss.xml",
+            "title": "The Checkout",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "449e05c210df40f2ab013840b470ff52",
+            "href": "https://wbgo.drupal.publicbroadcasting.net/podcasts/436/rss.xml",
+            "title": "SportsJam",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "595dc81966a743b1bc21055df62f4793",
+            "href": "https://pledge.wbgo.org/epledgenow",
+            "title": "Support the Music You Love",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1243",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wnyc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1243",
+        "network": {
+          "inheritingFrom": "1243",
+          "usesInheritance": false,
+          "currentOrgId": "1243"
+        },
+        "newscast": {
+          "id": "1243",
+          "recency": 120
+        },
+        "guid": "4fcf7015057940baaa1da2ab65bb6f21",
+        "brand": {
+          "band": "FM",
+          "call": "WNJT",
+          "frequency": "88.1",
+          "marketCity": "Trenton",
+          "marketState": "NJ",
+          "name": "WNJT Radio - FM",
+          "tagline": "New York Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7eac5e2bb5264e94b21ffcd2b3175285",
+                "typeId": "10",
+                "href": "https://tjc.wnyc.org/js-stream-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "28730d52028f4e60b0ac0e457a46b270",
+                "typeId": "13",
+                "href": "https://tjc.wnyc.org/js-stream-npr.aac"
+              }
+            ],
+            "guid": "1425873e8f90259465eaf73fdce28e0f",
+            "title": "WNYC New Standards",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "758a86b96ebc43d38be38e89c2a3e177",
+                "typeId": "10",
+                "href": "https://am820.wnyc.org/wnycam-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "0cdbe08426ba4170aaca6ce21daf7a92",
+                "typeId": "13",
+                "href": "https://am820.wnyc.org/wnycam-npr.aac"
+              }
+            ],
+            "guid": "4fcf71501b73444aa87f4dddb8165a39",
+            "title": "WNYC-AM 820",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "53d57b44bdad4ac596532c45a1db7b64",
+                "typeId": "10",
+                "href": "https://fm939.wnyc.org/wnycfm-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "ad504f7dfd974875b24781c8eb94d765",
+                "typeId": "13",
+                "href": "https://fm939.wnyc.org/wnycfm-npr.aac"
+              }
+            ],
+            "guid": "4fcf71501fed40a38998ea7960473a4a",
+            "title": "WNYC-FM 93.9",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ec1cad3994c849ffb2b4a3856d491164",
+                "typeId": "10",
+                "href": "https://njpr.wnyc.org/njprweb-npr"
+              }
+            ],
+            "guid": "4fcf715013c04799af5adece6a5e6404",
+            "title": "NJPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wnyc.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wnjt_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wnjt_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1243.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "7eac5e2bb5264e94b21ffcd2b3175285",
+            "href": "https://tjc.wnyc.org/js-stream-npr",
+            "isPrimaryStream": false,
+            "title": "WNYC New Standards",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "758a86b96ebc43d38be38e89c2a3e177",
+            "href": "https://am820.wnyc.org/wnycam-npr",
+            "isPrimaryStream": false,
+            "title": "WNYC-AM 820",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "53d57b44bdad4ac596532c45a1db7b64",
+            "href": "https://fm939.wnyc.org/wnycfm-npr",
+            "isPrimaryStream": false,
+            "title": "WNYC-FM 93.9",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ec1cad3994c849ffb2b4a3856d491164",
+            "href": "https://njpr.wnyc.org/njprweb-npr",
+            "isPrimaryStream": true,
+            "title": "NJPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "0cdbe08426ba4170aaca6ce21daf7a92",
+            "href": "https://am820.wnyc.org/wnycam-npr.aac",
+            "isPrimaryStream": false,
+            "title": "WNYC-AM 820",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "28730d52028f4e60b0ac0e457a46b270",
+            "href": "https://tjc.wnyc.org/js-stream-npr.aac",
+            "isPrimaryStream": false,
+            "title": "WNYC New Standards",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "ad504f7dfd974875b24781c8eb94d765",
+            "href": "https://fm939.wnyc.org/wnycfm-npr.aac",
+            "isPrimaryStream": false,
+            "title": "WNYC-FM 93.9",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "0bb48a0e54ab4fdda259398591a5656a",
+            "href": "https://feeds.feedburner.com/fishko",
+            "title": "Fishko Files",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "68e7627a8d3b4ed5b9c1d463d7202cd2",
+            "href": "https://feeds.feedburner.com/orbitinghumancircus",
+            "title": "The Orbiting Human Circus",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f4526f88bc8f4b60b96a2c6a15d637cf",
+            "href": "https://feeds.feedburner.com/allofit_podcast",
+            "title": "All Of It",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "33b89cc5cdb841fa975d2816e3321262",
+            "href": "https://feeds.feedburner.com/2dopequeens",
+            "title": "2 Dope Queens",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e550f1df976847f0be66f184d9906151",
+            "href": "https://feeds.feedburner.com/aftereffect_podcast",
+            "title": "Aftereffect",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "10ad4c622d1a4fcaa691155e5367b9ac",
+            "href": "https://feeds.feedburner.com/pri/undiscovered",
+            "title": "Undiscovered",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "00170a9b454241f4a54c17123484aa09",
+            "href": "https://feeds.feedburner.com/adulting-podcast",
+            "title": "Adulting",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ed22c79b656a4f7ead5a8ff5e04fbc6a",
+            "href": "https://feeds.feedburner.com/wnyc_neighborhood",
+            "title": "There Goes the Neighborhood",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "56267680adad4ade97cfcfdc27f82b2e",
+            "href": "https://feeds.feedburner.com/onthemedia",
+            "title": "On the Media",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "193b6911d9c1483daa7952b328bc3470",
+            "href": "https://feeds.feedburner.com/caught-podcast",
+            "title": "Caught",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8682ce644d754815a787aa106e3e0465",
+            "href": "https://feeds.feedburner.com/freakonomicsradio",
+            "title": "Freakonomics Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "69efdefbd53640f9ba636c3f77a3fbdb",
+            "href": "https://feeds.feedburner.com/wnyc_soundcheck",
+            "title": "Soundcheck",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f4743a8fa652428c9e27299ac1ed9354",
+            "href": "https://feeds.feedburner.com/radiolab",
+            "title": "Radiolab",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "348713753ae046778d7d45b29e9aea0e",
+            "href": "https://feeds.feedburner.com/latenightwhenever",
+            "title": "Late Night Whenever",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e69c8c20fafa4ba692fa5d01326ab6b0",
+            "href": "https://feeds.feedburner.com/wnyc/news/local/rss",
+            "title": "News from WNYC New York Public Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "aac86292e8ff4a799fe7f1028a31b780",
+            "href": "https://feeds.feedburner.com/notetoself-podcast",
+            "title": "Note To Self",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "016f5f33244d4985a390b927c83e902a",
+            "href": "https://feeds.feedburner.com/moreperfect",
+            "title": "More Perfect",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ed77d57adab642b487d9dc94f52d6789",
+            "href": "https://feeds.feedburner.com/tnyfiction",
+            "title": "The New Yorker: Fiction",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "db0363666bff470dbb6d811025efb3f7",
+            "href": "https://feeds.feedburner.com/radiorookies",
+            "title": "Radio Rookies",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "99e893f5a06a46bfa1841df8bba01019",
+            "href": "https://feeds.feedburner.com/trumpinc",
+            "title": "Trump, Inc.",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0f18ac0b8d8042ebaef59e4c4a9411cc",
+            "href": "https://feeds.feedburner.com/politics_brief",
+            "title": "Politics Brief",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "704d7ff1c4714ea2bd4cf39cb36f10cf",
+            "href": "https://feeds.feedburner.com/apieceofwork",
+            "title": "A Piece of Work",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f5896621bb6b4e4ab14c2729234af7fd",
+            "href": "https://feeds.feedburner.com/aria-code",
+            "title": "Aria Code",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3c4f620791c447a595318055c33e3f7d",
+            "href": "https://feeds.feedburner.com/snap-judgment-spooked",
+            "title": "Snap Judgment Presents: Spooked",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e97ecadfa3534be6b44dbbacc52f9cc7",
+            "href": "https://feeds.feedburner.com/therealnesspodcast",
+            "title": "The Realness",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "13858e8f062b4089a3325034f2b04e33",
+            "href": "https://feeds.feedburner.com/the-stakes",
+            "title": "The Stakes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0173327583d34dd0aee9935fce3e974e",
+            "href": "https://feeds.feedburner.com/snapjudgment-wnyc",
+            "title": "Snap Judgment",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "76b307cf0057469fbc6fdd2efa9c36af",
+            "href": "https://feeds.feedburner.com/latenightwhenever",
+            "title": "Late Night Whenever",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ed7fccd3a81945cead7657124b836f95",
+            "href": "https://feeds.feedburner.com/Scishow-Tangents",
+            "title": "SciShow Tangents",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5b7478675c284659a494eff461d4e7c1",
+            "href": "https://feeds.feedburner.com/money-talking",
+            "title": "Money Talking",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "291143fb80d544448762b8bae00070a1",
+            "href": "https://feeds.feedburner.com/pleaseexplain_lopate",
+            "title": "Please Explain (The Leonard Lopate Show)",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "dc32e6871d2e425eb26d7b2a445a0917",
+            "href": "https://feeds.feedburner.com/science-friday",
+            "title": "Science Friday",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0f5f2b9a1c804611bfbea5a29f0687c8",
+            "href": "https://feeds.feedburner.com/10-things-scare-me",
+            "title": "10 Things That Scare Me",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9ca20217cf5f47309ea3eafdd3969a52",
+            "href": "https://feeds.feedburner.com/wnyc_bl",
+            "title": "The Brian Lehrer Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7360c60ef43344f4bfaea4900ff94acb",
+            "href": "https://feeds.feedburner.com/dearhankandjohn",
+            "title": "Dear Hank & John",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f5e880b5b89d4915a07ca6af06847284",
+            "href": "https://feeds.feedburner.com/theanthropocenereviewed",
+            "title": "The Anthropocene Reviewed",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "45f06db2294b495191f353428378bc5a",
+            "href": "https://feeds.feedburner.com/wnycheresthething",
+            "title": "Here's The Thing with Alec Baldwin",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "eab4b84870de4fce8fb0731b4614f0c8",
+            "href": "https://feeds.feedburner.com/newyorkerradiohour",
+            "title": "The New Yorker Radio Hour",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "be5322121ffa41f9956528559a9ba4db",
+            "href": "https://feeds.feedburner.com/Politics-Amy-Walter",
+            "title": "Politics with Amy Walter",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "04ba3e95ca9f4d4590d2ea8e399fe279",
+            "href": "https://feeds.feedburner.com/stonewall-fifty",
+            "title": "The Sound of Pride: Stonewall at 50",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7a8ce755b9f54d4aa76b2a4a0d5f5c4f",
+            "href": "https://feeds.feedburner.com/only-human",
+            "title": "Only Human",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "610fa0df99c14dd49dd332aab093913c",
+            "href": "https://feeds.feedburner.com/american-fiasco",
+            "title": "American Fiasco",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f0f19cdbe9c94b20baedaf35fa587696",
+            "href": "https://feeds.feedburner.com/theseason-podcast",
+            "title": "The Season",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2c9f7f4ea91f415e919a6897255a25e8",
+            "href": "https://feeds.feedburner.com/tnypoetry",
+            "title": "The New Yorker: Poetry",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e4ebe37174a849b59637bd2c8f8242a3",
+            "href": "https://feeds.feedburner.com/wnyc/newsounds",
+            "title": "New Sounds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0f8123955bf34822a9da9e6886022598",
+            "href": "https://feeds.feedburner.com/wnyc_lopate",
+            "title": "Midday on WNYC",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1829628022744caa82e01ed0d1a22181",
+            "href": "https://feeds.feedburner.com/scishow-tangents",
+            "title": "SciShow Tangents",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c482a4e8e4f449a4ac12c001bacfdde8",
+            "href": "https://feeds.feedburner.com/deathsexmoney",
+            "title": "Death, Sex & Money",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "148ff3c7052c4914a94c3782ba7e9a28",
+            "href": "https://pledge3.wnyc.org/donate/npr-wnyc/onestep/?utm_source=npr.org&utm_medium=referral&utm_campaign=pledge&utm_content=nprpledge",
+            "title": "Support NJPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "9d21d0fd6add4028998a91e8d3f531de",
+            "href": "https://pledge3.wnyc.org/donate/npr-one-wnyc/onestep/",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1243.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1130",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wnyc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1130",
+        "network": {
+          "inheritingFrom": "1130",
+          "usesInheritance": false,
+          "currentOrgId": "1130"
+        },
+        "guid": "4fcf70141c6c4792b34b0c2d010ea015",
+        "brand": {
+          "band": "FM",
+          "call": "WQXR",
+          "frequency": "105.9",
+          "marketCity": "Newark",
+          "marketState": "NJ",
+          "name": "WQXR Radio",
+          "tagline": "The Classical Music Station of NYC"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b6300680709f4e32980807e5e276cf3b",
+                "typeId": "10",
+                "href": "https://opera-stream.wqxr.org/operavore-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "a7ed59856e464704af23ae661e0ed0a3",
+                "typeId": "13",
+                "href": "https://opera-stream.wqxr.org/operavore-npr.aac"
+              }
+            ],
+            "guid": "5a700462400e47b5a3f019834e6e3f4b",
+            "title": "Operavore",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "92c9222a1f174a31afa34ea95a37d18b",
+                "typeId": "10",
+                "href": "https://stream.wqxr.org/qxr-special"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "811bc5baa0a34089a68ac604dcc00f48",
+                "typeId": "13",
+                "href": "https://stream.wqxr.org/qxr-special.aac"
+              }
+            ],
+            "guid": "bca3cd67d0504093a105dc46fec7cb4a",
+            "title": "WQXR's Holiday Channel",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "232459acc86a440c92888babbae91bf3",
+                "typeId": "10",
+                "href": "https://q2stream.wqxr.org/q2-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "78dbd3d87ba14a3baf4f8e8095f0aef3",
+                "typeId": "13",
+                "href": "https://q2stream.wqxr.org/q2-npr.aac"
+              }
+            ],
+            "guid": "4fcf7150247746b988de842a0dfe0c72",
+            "title": "New Sounds",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7aa800f670c044bdb87cbccc3fb11425",
+                "typeId": "10",
+                "href": "https://stream.wqxr.org/wqxr-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "ab2894b82e9849c69f3b7ff01a44d7b6",
+                "typeId": "13",
+                "href": "https://stream.wqxr.org/wqxr-npr.aac"
+              }
+            ],
+            "guid": "4fcf7151007341b7b570e4b15b3078c9",
+            "title": "WQXR: New York's Classical Station",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wqxr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wqxr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1130.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/WQXRClassical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WQXR",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "b6300680709f4e32980807e5e276cf3b",
+            "href": "https://opera-stream.wqxr.org/operavore-npr",
+            "isPrimaryStream": false,
+            "title": "Operavore",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "92c9222a1f174a31afa34ea95a37d18b",
+            "href": "https://stream.wqxr.org/qxr-special",
+            "isPrimaryStream": false,
+            "title": "WQXR's Holiday Channel",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "232459acc86a440c92888babbae91bf3",
+            "href": "https://q2stream.wqxr.org/q2-npr",
+            "isPrimaryStream": false,
+            "title": "New Sounds",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7aa800f670c044bdb87cbccc3fb11425",
+            "href": "https://stream.wqxr.org/wqxr-npr",
+            "isPrimaryStream": true,
+            "title": "WQXR: New York's Classical Station",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "78dbd3d87ba14a3baf4f8e8095f0aef3",
+            "href": "https://q2stream.wqxr.org/q2-npr.aac",
+            "isPrimaryStream": false,
+            "title": "New Sounds",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "a7ed59856e464704af23ae661e0ed0a3",
+            "href": "https://opera-stream.wqxr.org/operavore-npr.aac",
+            "isPrimaryStream": false,
+            "title": "Operavore",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "811bc5baa0a34089a68ac604dcc00f48",
+            "href": "https://stream.wqxr.org/qxr-special.aac",
+            "isPrimaryStream": false,
+            "title": "WQXR's Holiday Channel",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "ab2894b82e9849c69f3b7ff01a44d7b6",
+            "href": "https://stream.wqxr.org/wqxr-npr.aac",
+            "isPrimaryStream": true,
+            "title": "WQXR: New York's Classical Station",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "4e72584221324d718cad2b855a662533",
+            "href": "https://feeds.feedburner.com/aroundbroadway",
+            "title": "Around Broadway",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fe6be19ac336476da5f3d33126c3a3c2",
+            "href": "https://feeds.feedburner.com/wqxr-meetthecomposer",
+            "title": "Meet The Composer",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3e96b99a4d434188959e7d473b4a9df8",
+            "href": "https://feeds.feedburner.com/WQXRsTheWashingtonReport",
+            "title": "The Washington Report",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4747afe5b95248e8a8e11834d3fd5e4b",
+            "href": "https://feeds.feedburner.com/cafeconcerts",
+            "title": "Cafe Concerts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "ee68818d763b4f78a5deaa2c8f79cf05",
+            "href": "http://www.wqxr.org/epledge/desktop/npr-wqxr/?utm_source=npr&utm_medium=npr-&utm_campaign=pledge&utm_content=nprpledge",
+            "title": "105.9FM WQXR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1130.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/781",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701301e54b71ae18cb0dfedf4fce",
+        "brand": {
+          "band": "FM",
+          "call": "WXPJ",
+          "frequency": "91.9",
+          "marketCity": "Hackettstown",
+          "marketState": "NJ",
+          "name": "WNTI",
+          "tagline": "Public Radio from Centenary College"
+        },
+        "orgId": "781",
+        "network": {
+          "inheritingFrom": "781",
+          "usesInheritance": false,
+          "currentOrgId": "781"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "76d213d00ef949ff8317618fc3759bc4",
+                "typeId": "10",
+                "href": "https://wxpnhi.xpn.org/listen.pls"
+              }
+            ],
+            "guid": "4fcf715317fe44b794b610e14c4fb34e",
+            "title": "WXPN-FM 88.5",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cb240d6add2f4ee4b88d0939f4e784b8",
+                "typeId": "10",
+                "href": "https://xpn2hi.xpn.org/listen.pls"
+              }
+            ],
+            "guid": "13efb515e25035d44d6a940ffed563f0",
+            "title": "XPN2: XPoNential Radio",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wnti.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/781.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "76d213d00ef949ff8317618fc3759bc4",
+            "href": "https://wxpnhi.xpn.org/listen.pls",
+            "isPrimaryStream": false,
+            "title": "WXPN-FM 88.5",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cb240d6add2f4ee4b88d0939f4e784b8",
+            "href": "https://xpn2hi.xpn.org/listen.pls",
+            "isPrimaryStream": false,
+            "title": "XPN2: XPoNential Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/781.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/918",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70131c104d059471122f69ae608c",
+        "brand": {
+          "band": "FM",
+          "call": "WWFM",
+          "frequency": "89.1",
+          "marketCity": "Trenton",
+          "marketState": "NJ",
+          "name": "WWFM The Classical Network",
+          "tagline": "WWFM The Classical Network"
+        },
+        "orgId": "918",
+        "network": {
+          "inheritingFrom": "918",
+          "usesInheritance": false,
+          "currentOrgId": "918",
+          "tier1": {
+            "name": "WWFM-FM",
+            "id": "918",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WWNJ-FM",
+                "id": "977",
+                "usesInheritance": false
+              },
+              {
+                "name": "WWCJ-FM",
+                "id": "978",
+                "usesInheritance": false
+              },
+              {
+                "name": "WWPJ-FM",
+                "id": "1044",
+                "usesInheritance": false
+              }
+            ]
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wwfm.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wwfm_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/918.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WWFM-The-Classical-Network/93029131926",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1a404dd8f99a43fc8fb04e7c1847516d",
+            "href": "https://secure.publicbroadcasting.net/wwfm/form.pledgemain?action=pledge&pg=pledgeForm",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/918.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/599",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf701126694a6daf0b6a166af26fc7",
+        "brand": {
+          "band": "FM",
+          "call": "WRTQ",
+          "frequency": "91.3",
+          "marketCity": "Ocean City",
+          "marketState": "NJ",
+          "name": "WRTI Your Classical and Jazz Source",
+          "tagline": "Your Member-Supported Classical & Jazz Source"
+        },
+        "orgId": "599",
+        "network": {
+          "name": "WRTI Your Classical and Jazz Source",
+          "inheritingFrom": "596",
+          "usesInheritance": true,
+          "currentOrgId": "599",
+          "tier1": {
+            "name": "Temple University Public Radio",
+            "id": "596",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WRTI-FM",
+                "id": "597",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WJAZ-FM",
+                    "id": "598",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRTQ-FM",
+                    "id": "599",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRTX-FM",
+                    "id": "600",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRTY-FM",
+                    "id": "601",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRTJ-FM",
+                    "id": "1148",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRTL-FM",
+                    "id": "1149",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d14703918140455fbf14e128aba3364a",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WRTI_JAZZ.pls"
+              }
+            ],
+            "guid": "4fcf71670e8640288e97d8a2e62b66b1",
+            "title": "WRTI Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bd265b402a94406d849d4b4ad1baec60",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WRTI_CLASSICAL.pls"
+              }
+            ],
+            "guid": "4fcf7167072149d79cf30787888ac482",
+            "title": "WRTI Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wrti.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wrti.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wrti.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WRTImusic",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wrtimusic",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "d14703918140455fbf14e128aba3364a",
+            "href": "https://playerservices.streamtheworld.com/pls/WRTI_JAZZ.pls",
+            "isPrimaryStream": false,
+            "title": "WRTI Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bd265b402a94406d849d4b4ad1baec60",
+            "href": "https://playerservices.streamtheworld.com/pls/WRTI_CLASSICAL.pls",
+            "isPrimaryStream": true,
+            "title": "WRTI Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "bafd39df159147ffbe34d054692737f5",
+            "href": "https://wrti.secureallegiance.com/wrti/WebModule/Donate.aspx?P=STNDNPR&PAGETYPE=PLG&CHECK=P3OoUfZNiCPytilwxMSziuzWDeZ%2beA1M",
+            "title": "Support WRTI",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/977",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701401aa4f87a6bc1738cf1c07ef",
+        "brand": {
+          "band": "FM",
+          "call": "WWNJ",
+          "frequency": "91.1",
+          "marketCity": "Dover Township",
+          "marketState": "NJ",
+          "name": "WWFM The Classical Network",
+          "tagline": "WWFM The Classical Network"
+        },
+        "orgId": "977",
+        "network": {
+          "inheritingFrom": "977",
+          "usesInheritance": false,
+          "currentOrgId": "977"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wwfm.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/977.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WWFM-The-Classical-Network/93029131926",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "925168fb4baf47f7be420f7679d383ea",
+            "href": "https://secure.publicbroadcasting.net/wwfm/form.pledgemain?action=pledge&pg=pledgeForm",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/977.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/978",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701401e54b2aaefd7c4d22fdea17",
+        "brand": {
+          "band": "FM",
+          "call": "WWCJ",
+          "frequency": "89.1",
+          "marketCity": "Cape May",
+          "marketState": "NJ",
+          "name": "WWFM The Classical Network",
+          "tagline": "WWFM The Classical Network"
+        },
+        "orgId": "978",
+        "network": {
+          "inheritingFrom": "978",
+          "usesInheritance": false,
+          "currentOrgId": "978"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wwfm.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/978.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WWFM-The-Classical-Network/93029131926",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "37e6c2495fb649799b88c809589a04bc",
+            "href": "https://secure.publicbroadcasting.net/wwfm/form.pledgemain?action=pledge&pg=pledgeForm",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/978.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/317",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701006d640c8bb3351ea19a08c88",
+        "brand": {
+          "band": "FM",
+          "call": "WBJB",
+          "frequency": "90.5",
+          "marketCity": "Lincroft",
+          "marketState": "NJ",
+          "name": "90.5 The Night",
+          "tagline": "90.5 The Night"
+        },
+        "orgId": "317",
+        "network": {
+          "inheritingFrom": "317",
+          "usesInheritance": false,
+          "currentOrgId": "317"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.90.5TheNIGHT.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wbjb_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/317.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/BrookdalePublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/wbjb",
+            "content-type": "text/html"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "a56b2e3a36694a4fa81f08770e70afd4",
+            "href": "http://wbjb.org/home.php/?feed=rss2",
+            "title": "Local News Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "e4773434eff54a5da3ba742ab43614ba",
+            "href": "http://wbjb.org/pledge/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/317.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/539",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/whyy-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "539",
+        "network": {
+          "name": "WHYY",
+          "inheritingFrom": "432",
+          "usesInheritance": true,
+          "currentOrgId": "539",
+          "tier1": {
+            "name": "WHYY, Inc.",
+            "id": "432",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WHYY-FM",
+                "id": "433",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WNJB-FM",
+                    "id": "537",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WNJM-FM",
+                    "id": "538",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WNJN-FM",
+                    "id": "539",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WNJS-FM",
+                    "id": "541",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WNJZ-FM",
+                    "id": "542",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "432",
+          "recency": 120
+        },
+        "guid": "4fcf701118d4444b838e33a64e67ae84",
+        "brand": {
+          "band": "FM",
+          "call": "WNJN",
+          "frequency": "89.7",
+          "marketCity": "Atlantic City",
+          "marketState": "NJ",
+          "name": "WHYY",
+          "tagline": "Public Media serving Southeastern Pennsylvania, Delaware, South Jersey and the world"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3a4bbeb3c46b4319b6e105abc342d258",
+                "typeId": "10",
+                "href": "https://whyy-hd.streamguys1.com/whyy-hd-mp3"
+              }
+            ],
+            "guid": "1df86d9cafcb413887404ab2153ade08",
+            "title": "WHYY Plus",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a31f05fd685c44e3947f10cc4ff1f437",
+                "typeId": "10",
+                "href": "https://whyy.streamguys1.com/whyy-mp3?dist=npr_org"
+              }
+            ],
+            "guid": "4fcf713517374aeea549cae46ed92e27",
+            "title": "WHYY-FM: News and Talk for the Greater Philadelphia region",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://whyy.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/whyy.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/whyy.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/432_690abbe076aa3d77ad0d4edd6233a925.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/whyypublicmedia",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/whyy",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3a4bbeb3c46b4319b6e105abc342d258",
+            "href": "https://whyy-hd.streamguys1.com/whyy-hd-mp3",
+            "isPrimaryStream": false,
+            "title": "WHYY Plus",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a31f05fd685c44e3947f10cc4ff1f437",
+            "href": "https://whyy.streamguys1.com/whyy-mp3?dist=npr_org",
+            "isPrimaryStream": true,
+            "title": "WHYY-FM: News and Talk for the Greater Philadelphia region",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "0b2b2a0179e049bea98ecf3e9bcdba6d",
+            "href": "https://whyy.org/wp-content/uploads/rss/cosby.rss",
+            "title": "Cosby Unraveled",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "db7d20e25e484a14bc56edd36489c55b",
+            "href": "https://whyy.org/podcast-feeds/skytalk/feed/",
+            "title": "Skytalk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "774a022b492f4737b7b6c4533af5d90a",
+            "href": "https://whyy.org/podcast-feeds/the-pulse/feed/",
+            "title": "The Pulse",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "46f64822c5e844a68c1187b0d86b69fa",
+            "href": "https://whyy.org/wp-content/uploads/rss/voices.rss",
+            "title": "Voices in the Family",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f7732e690a864158ae8da7a59f1097cc",
+            "href": "https://whyy.org/podcast-feeds/radio-times/feed/",
+            "title": "Radio Times with Marty Moss-Coane",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8c9224ff6ea04c2582e663e982ec16df",
+            "href": "https://whyy.org/podcast-feeds/the-why/feed/",
+            "title": "The Why",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b09c4f9388e84f30a340786ff13e846b",
+            "href": "https://whyy.org/podcast-feeds/eleanor-amplified/feed/",
+            "title": "Eleanor Amplified",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ff36047cb8d44a0fabf0dde3bd857bc4",
+            "href": "https://whyy.org/wp-content/uploads/rss/grapple.rss",
+            "title": "Grapple",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2ededca322a042a183a892947e84cecb",
+            "href": "https://acommonspace.org/feed/podcast/",
+            "title": "Commonspace",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ffdf8721e32643ffa10dc968250cfadd",
+            "href": "https://whyy.org/wp-content/uploads/rss/schooled.rss",
+            "title": "Schooled",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "8f73b4cc260e4cb08d672b8224f0adaf",
+            "href": "https://us.netdonor.net/page/12775/donate/1?supporter.appealCode=TMI0000NPR01",
+            "title": "Support WHYY",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "2bb32060d54f40d09a0012954397e8c5",
+            "href": "https://us.netdonor.net/page/12775/donate/1?supporter.appealCode=TMI0000NPR01",
+            "title": "Support WHYY",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "bc44de14014e4ee69a75f445e6919afc",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/432_ed70ebb416a60616843611d0dd0428e2.mp4",
+            "title": "NPR One Pledge Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/540",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wnyc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "540",
+        "network": {
+          "inheritingFrom": "540",
+          "usesInheritance": false,
+          "currentOrgId": "540"
+        },
+        "newscast": {
+          "id": "540",
+          "recency": 120
+        },
+        "guid": "4fcf7011191846d696047a13cd95f4d7",
+        "brand": {
+          "band": "FM",
+          "call": "WNJP",
+          "frequency": "88.5",
+          "marketCity": "Sussex",
+          "marketState": "NJ",
+          "name": "WNJP Radio - FM",
+          "tagline": "New York Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "758a86b96ebc43d38be38e89c2a3e177",
+                "typeId": "10",
+                "href": "https://am820.wnyc.org/wnycam-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "0cdbe08426ba4170aaca6ce21daf7a92",
+                "typeId": "13",
+                "href": "https://am820.wnyc.org/wnycam-npr.aac"
+              }
+            ],
+            "guid": "4fcf71501b73444aa87f4dddb8165a39",
+            "title": "WNYC-AM 820",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "53d57b44bdad4ac596532c45a1db7b64",
+                "typeId": "10",
+                "href": "https://fm939.wnyc.org/wnycfm-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "ad504f7dfd974875b24781c8eb94d765",
+                "typeId": "13",
+                "href": "https://fm939.wnyc.org/wnycfm-npr.aac"
+              }
+            ],
+            "guid": "4fcf71501fed40a38998ea7960473a4a",
+            "title": "WNYC-FM 93.9",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "232459acc86a440c92888babbae91bf3",
+                "typeId": "10",
+                "href": "https://q2stream.wqxr.org/q2-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "78dbd3d87ba14a3baf4f8e8095f0aef3",
+                "typeId": "13",
+                "href": "https://q2stream.wqxr.org/q2-npr.aac"
+              }
+            ],
+            "guid": "4fcf7150247746b988de842a0dfe0c72",
+            "title": "New Sounds",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7eac5e2bb5264e94b21ffcd2b3175285",
+                "typeId": "10",
+                "href": "https://tjc.wnyc.org/js-stream-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "28730d52028f4e60b0ac0e457a46b270",
+                "typeId": "13",
+                "href": "https://tjc.wnyc.org/js-stream-npr.aac"
+              }
+            ],
+            "guid": "1425873e8f90259465eaf73fdce28e0f",
+            "title": "WNYC New Standards",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ec1cad3994c849ffb2b4a3856d491164",
+                "typeId": "10",
+                "href": "https://njpr.wnyc.org/njprweb-npr"
+              }
+            ],
+            "guid": "4fcf715013c04799af5adece6a5e6404",
+            "title": "NJPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wnyc.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wnjp_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wnjp_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/540.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "758a86b96ebc43d38be38e89c2a3e177",
+            "href": "https://am820.wnyc.org/wnycam-npr",
+            "isPrimaryStream": false,
+            "title": "WNYC-AM 820",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "53d57b44bdad4ac596532c45a1db7b64",
+            "href": "https://fm939.wnyc.org/wnycfm-npr",
+            "isPrimaryStream": false,
+            "title": "WNYC-FM 93.9",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "232459acc86a440c92888babbae91bf3",
+            "href": "https://q2stream.wqxr.org/q2-npr",
+            "isPrimaryStream": false,
+            "title": "New Sounds",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "7eac5e2bb5264e94b21ffcd2b3175285",
+            "href": "https://tjc.wnyc.org/js-stream-npr",
+            "isPrimaryStream": false,
+            "title": "WNYC New Standards",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ec1cad3994c849ffb2b4a3856d491164",
+            "href": "https://njpr.wnyc.org/njprweb-npr",
+            "isPrimaryStream": true,
+            "title": "NJPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "0cdbe08426ba4170aaca6ce21daf7a92",
+            "href": "https://am820.wnyc.org/wnycam-npr.aac",
+            "isPrimaryStream": false,
+            "title": "WNYC-AM 820",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "78dbd3d87ba14a3baf4f8e8095f0aef3",
+            "href": "https://q2stream.wqxr.org/q2-npr.aac",
+            "isPrimaryStream": false,
+            "title": "New Sounds",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "28730d52028f4e60b0ac0e457a46b270",
+            "href": "https://tjc.wnyc.org/js-stream-npr.aac",
+            "isPrimaryStream": false,
+            "title": "WNYC New Standards",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "ad504f7dfd974875b24781c8eb94d765",
+            "href": "https://fm939.wnyc.org/wnycfm-npr.aac",
+            "isPrimaryStream": false,
+            "title": "WNYC-FM 93.9",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "68e7627a8d3b4ed5b9c1d463d7202cd2",
+            "href": "https://feeds.feedburner.com/orbitinghumancircus",
+            "title": "The Orbiting Human Circus",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ed7fccd3a81945cead7657124b836f95",
+            "href": "https://feeds.feedburner.com/Scishow-Tangents",
+            "title": "SciShow Tangents",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2c9f7f4ea91f415e919a6897255a25e8",
+            "href": "https://feeds.feedburner.com/tnypoetry",
+            "title": "The New Yorker: Poetry",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "dc32e6871d2e425eb26d7b2a445a0917",
+            "href": "https://feeds.feedburner.com/science-friday",
+            "title": "Science Friday",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0f8123955bf34822a9da9e6886022598",
+            "href": "https://feeds.feedburner.com/wnyc_lopate",
+            "title": "Midday on WNYC",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "99e893f5a06a46bfa1841df8bba01019",
+            "href": "https://feeds.feedburner.com/trumpinc",
+            "title": "Trump, Inc.",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "00170a9b454241f4a54c17123484aa09",
+            "href": "https://feeds.feedburner.com/adulting-podcast",
+            "title": "Adulting",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f5e880b5b89d4915a07ca6af06847284",
+            "href": "https://feeds.feedburner.com/theanthropocenereviewed",
+            "title": "The Anthropocene Reviewed",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "eab4b84870de4fce8fb0731b4614f0c8",
+            "href": "https://feeds.feedburner.com/newyorkerradiohour",
+            "title": "The New Yorker Radio Hour",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "be5322121ffa41f9956528559a9ba4db",
+            "href": "https://feeds.feedburner.com/Politics-Amy-Walter",
+            "title": "Politics with Amy Walter",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0bb48a0e54ab4fdda259398591a5656a",
+            "href": "https://feeds.feedburner.com/fishko",
+            "title": "Fishko Files",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "69efdefbd53640f9ba636c3f77a3fbdb",
+            "href": "https://feeds.feedburner.com/wnyc_soundcheck",
+            "title": "Soundcheck",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f0f19cdbe9c94b20baedaf35fa587696",
+            "href": "https://feeds.feedburner.com/theseason-podcast",
+            "title": "The Season",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "33b89cc5cdb841fa975d2816e3321262",
+            "href": "https://feeds.feedburner.com/2dopequeens",
+            "title": "2 Dope Queens",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e4ebe37174a849b59637bd2c8f8242a3",
+            "href": "https://feeds.feedburner.com/wnyc/newsounds",
+            "title": "New Sounds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "10ad4c622d1a4fcaa691155e5367b9ac",
+            "href": "https://feeds.feedburner.com/pri/undiscovered",
+            "title": "Undiscovered",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "016f5f33244d4985a390b927c83e902a",
+            "href": "https://feeds.feedburner.com/moreperfect",
+            "title": "More Perfect",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "76b307cf0057469fbc6fdd2efa9c36af",
+            "href": "https://feeds.feedburner.com/latenightwhenever",
+            "title": "Late Night Whenever",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "56267680adad4ade97cfcfdc27f82b2e",
+            "href": "https://feeds.feedburner.com/onthemedia",
+            "title": "On the Media",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c482a4e8e4f449a4ac12c001bacfdde8",
+            "href": "https://feeds.feedburner.com/deathsexmoney",
+            "title": "Death, Sex & Money",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8682ce644d754815a787aa106e3e0465",
+            "href": "https://feeds.feedburner.com/freakonomicsradio",
+            "title": "Freakonomics Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "704d7ff1c4714ea2bd4cf39cb36f10cf",
+            "href": "https://feeds.feedburner.com/apieceofwork",
+            "title": "A Piece of Work",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f4526f88bc8f4b60b96a2c6a15d637cf",
+            "href": "https://feeds.feedburner.com/allofit_podcast",
+            "title": "All Of It",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "348713753ae046778d7d45b29e9aea0e",
+            "href": "https://feeds.feedburner.com/latenightwhenever",
+            "title": "Late Night Whenever",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e550f1df976847f0be66f184d9906151",
+            "href": "https://feeds.feedburner.com/aftereffect_podcast",
+            "title": "Aftereffect",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "13858e8f062b4089a3325034f2b04e33",
+            "href": "https://feeds.feedburner.com/the-stakes",
+            "title": "The Stakes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9ca20217cf5f47309ea3eafdd3969a52",
+            "href": "https://feeds.feedburner.com/wnyc_bl",
+            "title": "The Brian Lehrer Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0173327583d34dd0aee9935fce3e974e",
+            "href": "https://feeds.feedburner.com/snapjudgment-wnyc",
+            "title": "Snap Judgment",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ed22c79b656a4f7ead5a8ff5e04fbc6a",
+            "href": "https://feeds.feedburner.com/wnyc_neighborhood",
+            "title": "There Goes the Neighborhood",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5b7478675c284659a494eff461d4e7c1",
+            "href": "https://feeds.feedburner.com/money-talking",
+            "title": "Money Talking",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0f18ac0b8d8042ebaef59e4c4a9411cc",
+            "href": "https://feeds.feedburner.com/politics_brief",
+            "title": "Politics Brief",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f4743a8fa652428c9e27299ac1ed9354",
+            "href": "https://feeds.feedburner.com/radiolab",
+            "title": "Radiolab",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3c4f620791c447a595318055c33e3f7d",
+            "href": "https://feeds.feedburner.com/snap-judgment-spooked",
+            "title": "Snap Judgment Presents: Spooked",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e69c8c20fafa4ba692fa5d01326ab6b0",
+            "href": "https://feeds.feedburner.com/wnyc/news/local/rss",
+            "title": "News from WNYC New York Public Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1829628022744caa82e01ed0d1a22181",
+            "href": "https://feeds.feedburner.com/scishow-tangents",
+            "title": "SciShow Tangents",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "aac86292e8ff4a799fe7f1028a31b780",
+            "href": "https://feeds.feedburner.com/notetoself-podcast",
+            "title": "Note To Self",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "04ba3e95ca9f4d4590d2ea8e399fe279",
+            "href": "https://feeds.feedburner.com/stonewall-fifty",
+            "title": "The Sound of Pride: Stonewall at 50",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7a8ce755b9f54d4aa76b2a4a0d5f5c4f",
+            "href": "https://feeds.feedburner.com/only-human",
+            "title": "Only Human",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "610fa0df99c14dd49dd332aab093913c",
+            "href": "https://feeds.feedburner.com/american-fiasco",
+            "title": "American Fiasco",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ed77d57adab642b487d9dc94f52d6789",
+            "href": "https://feeds.feedburner.com/tnyfiction",
+            "title": "The New Yorker: Fiction",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "291143fb80d544448762b8bae00070a1",
+            "href": "https://feeds.feedburner.com/pleaseexplain_lopate",
+            "title": "Please Explain (The Leonard Lopate Show)",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "db0363666bff470dbb6d811025efb3f7",
+            "href": "https://feeds.feedburner.com/radiorookies",
+            "title": "Radio Rookies",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0f5f2b9a1c804611bfbea5a29f0687c8",
+            "href": "https://feeds.feedburner.com/10-things-scare-me",
+            "title": "10 Things That Scare Me",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7360c60ef43344f4bfaea4900ff94acb",
+            "href": "https://feeds.feedburner.com/dearhankandjohn",
+            "title": "Dear Hank & John",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f5896621bb6b4e4ab14c2729234af7fd",
+            "href": "https://feeds.feedburner.com/aria-code",
+            "title": "Aria Code",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "45f06db2294b495191f353428378bc5a",
+            "href": "https://feeds.feedburner.com/wnycheresthething",
+            "title": "Here's The Thing with Alec Baldwin",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e97ecadfa3534be6b44dbbacc52f9cc7",
+            "href": "https://feeds.feedburner.com/therealnesspodcast",
+            "title": "The Realness",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "193b6911d9c1483daa7952b328bc3470",
+            "href": "https://feeds.feedburner.com/caught-podcast",
+            "title": "Caught",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "7b6e650c1d41486e8358ba722c835d2d",
+            "href": "https://pledge3.wnyc.org/donate/npr-wnyc/onestep/?utm_source=npr.org&utm_medium=referral&utm_campaign=pledge&utm_content=nprpledge",
+            "title": "Support NJPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "d88370e043144dd1adcda00cef88d54d",
+            "href": "https://pledge3.wnyc.org/donate/npr-one-wnyc/onestep/",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/540.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

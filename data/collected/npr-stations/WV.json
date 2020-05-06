@@ -1,0 +1,345 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "WV"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/688",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvpb-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "688",
+        "network": {
+          "name": "West Virginia Public Broadcasting",
+          "inheritingFrom": "681",
+          "usesInheritance": true,
+          "currentOrgId": "688",
+          "tier1": {
+            "name": "West Virginia Public Broadcasting",
+            "id": "681",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WVPB-FM",
+                "id": "682",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WVDS-FM",
+                    "id": "683",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVEP-FM",
+                    "id": "684",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVNP-FM",
+                    "id": "685",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVBY-FM",
+                    "id": "686",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVPG-FM",
+                    "id": "687",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVPM-FM",
+                    "id": "688",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVPW-FM",
+                    "id": "689",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVWV-FM",
+                    "id": "690",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVBL-FM",
+                    "id": "1456",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVWS-FM",
+                    "id": "1457",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVKM-FM",
+                    "id": "1567",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "681",
+          "recency": 360
+        },
+        "guid": "4fcf701214f54e558f0fd29aeb26e554",
+        "brand": {
+          "band": "FM",
+          "call": "WVPM",
+          "frequency": "90.9",
+          "marketCity": "Morgantown",
+          "marketState": "WV",
+          "name": "West Virginia Public Broadcasting",
+          "tagline": "Telling West Virginia's Story"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "54bad8dcae814662ba6adb9a64b32c6b",
+                "typeId": "10",
+                "href": "https://s2.radio.co/sd4fccca83/listen"
+              }
+            ],
+            "guid": "5b6ece581b8341108971883b6738740b",
+            "title": "Mountain State Radio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2d565efc847a4a2888f87dfbc5427131",
+                "typeId": "10",
+                "href": "https://wvpublic.streamguys1.com/wvpb"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "eca0cc487f964f548a1fe54e85223573",
+                "typeId": "13",
+                "href": "https://wvpublic.streamguys1.com/wvpb64k.aac"
+              }
+            ],
+            "guid": "148f0be433303cb44d1b831fafaa54af",
+            "title": "West Virginia Public Broadcasting",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wvpublic.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wvpb.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wvpb.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/681_d900722aa9eabcd5298b1d316b8bdf19.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wvpublic",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wvpublicnews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "54bad8dcae814662ba6adb9a64b32c6b",
+            "href": "https://s2.radio.co/sd4fccca83/listen",
+            "isPrimaryStream": false,
+            "title": "Mountain State Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "2d565efc847a4a2888f87dfbc5427131",
+            "href": "https://wvpublic.streamguys1.com/wvpb",
+            "isPrimaryStream": true,
+            "title": "West Virginia Public Broadcasting",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "eca0cc487f964f548a1fe54e85223573",
+            "href": "https://wvpublic.streamguys1.com/wvpb64k.aac",
+            "isPrimaryStream": true,
+            "title": "West Virginia Public Broadcasting",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "eda9ba45cd2e4ab9b8180e2943af5561",
+            "href": "https://feeds.feedburner.com/usthempodcast",
+            "title": "Us & Them",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5f9d5cc6e31443e898cdbbe3a2ff6518",
+            "href": "https://feedpress.me/thefrontporchpodcast",
+            "title": "The Front Porch",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "82ced992654647a1bd631b9cb1c01b4b",
+            "href": "https://feedpress.me/viewpoint",
+            "title": "Viewpoint",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4dfebe0d6a4a478db46d916a6fa73aa0",
+            "href": "https://feedpress.me/legtodaypodcast",
+            "title": "The Legislature Today",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6cb4018bc0e449869aff7e0ab57a6178",
+            "href": "https://feedpress.me/WestVirginaMorning",
+            "title": "West Virginia Morning",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "af3322f01d064cf68cf4779a4a9ab5df",
+            "href": "https://feedpress.me/mountainstagepodcast",
+            "title": "Mountain Stage Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ed8ddae4769f4c979955ebd7fc69d81b",
+            "href": "https://feedpress.me/InsideAppalachia",
+            "title": "Inside Appalachia",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "42764d62e64e469b89f3e3d45dbaab7c",
+            "href": "https://afg.secureallegiance.com/wvpb/WebModule/Donate.aspx?P=WVPBGVGTUE&PAGETYPE=PLG&CHECK=1s4aTkc5iRkUCiTeBD%2bOlb1YhDw50SikSh2nq0qouhg%3d",
+            "title": "Pledge Online",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "1968b1ea543b4442818e4d08a6d2deda",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/681_0409cfa6a9bc71c57bcd752cd61cba02.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "c3cba85e568a4dbaaa201399d30b09f2",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/681_f85700a373060d2c9b206496446161fd.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "d5b47c7f30c74d158b6e7b0df51af429",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/681_618c764cec123e61d8e4b699a8819939.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "52828a5be2c44c219795d932f0bfccdb",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/681_ff207826581e1e6cad95611678e24e83.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1567",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "a654bdc4d70144408ce63340f5dd8c65",
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvpb-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "brand": {
+          "band": "FM",
+          "call": "WVKM",
+          "frequency": "106.7",
+          "marketCity": "Matewan",
+          "marketState": "WV",
+          "name": "WVKM-FM",
+          "tagline": null
+        },
+        "orgId": "1567",
+        "network": {
+          "inheritingFrom": "1567",
+          "usesInheritance": false,
+          "currentOrgId": "1567"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

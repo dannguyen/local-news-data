@@ -1,0 +1,3265 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "FL"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/482",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wlrn-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "482",
+        "network": {
+          "name": "WLRN 91.3 FM",
+          "inheritingFrom": "481",
+          "usesInheritance": true,
+          "currentOrgId": "482",
+          "tier1": {
+            "name": "WLRN Public Radio",
+            "id": "481",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WLRN-FM",
+                "id": "482",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WKWM-FM",
+                    "id": "1074",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "481",
+          "recency": 240
+        },
+        "guid": "4fcf70110ac54c95b642bf2b560e3049",
+        "brand": {
+          "band": "FM",
+          "call": "WLRN",
+          "frequency": "91.3",
+          "marketCity": "Miami",
+          "marketState": "FL",
+          "name": "WLRN 91.3 FM",
+          "tagline": "WLRN Public Media"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9750089549bc49b5aa58f9f49416fc1a",
+                "typeId": "10",
+                "href": "https://stream.wlrn.mobi/WLRNFMMP3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "d0e261f0bc5b4ed2809e4c8f2b19b579",
+                "typeId": "13",
+                "href": "https://stream.wlrn.mobi/WLRNFMAAC64"
+              }
+            ],
+            "guid": "13dcbf0e6c5018d4bf989c43bda1c731",
+            "title": "WLRN 91.3 HD1",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ae055375b7204b468efc1285b4271d5f",
+                "typeId": "10",
+                "href": "https://stream.wlrn.mobi/WLRNHD2MP3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "4acdc24050424e76aa666ed1ecaa7947",
+                "typeId": "13",
+                "href": "https://stream.wlrn.mobi/WLRNHD2AAC64"
+              }
+            ],
+            "guid": "13dcbf47aec03a44b13ab5fa9c2b2c0c",
+            "title": "WLRN Classical HD2",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wlrn.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wlrn.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wlrn.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/481_62dce2cb27cca33c8a396a5b470846ea.mp4?1573252759157",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/481_f9710234807638b12e0154224f45c680.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WLRNmedia",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wlrn",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "9750089549bc49b5aa58f9f49416fc1a",
+            "href": "https://stream.wlrn.mobi/WLRNFMMP3",
+            "isPrimaryStream": true,
+            "title": "WLRN 91.3 HD1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ae055375b7204b468efc1285b4271d5f",
+            "href": "https://stream.wlrn.mobi/WLRNHD2MP3",
+            "isPrimaryStream": false,
+            "title": "WLRN Classical HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "4acdc24050424e76aa666ed1ecaa7947",
+            "href": "https://stream.wlrn.mobi/WLRNHD2AAC64",
+            "isPrimaryStream": false,
+            "title": "WLRN Classical HD2",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "d0e261f0bc5b4ed2809e4c8f2b19b579",
+            "href": "https://stream.wlrn.mobi/WLRNFMAAC64",
+            "isPrimaryStream": true,
+            "title": "WLRN 91.3 HD1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "7496849bd4674b16b386666502e797a5",
+            "href": "https://wlrn.drupal.publicbroadcasting.net/feeds/32251/rss.xml",
+            "title": "Latin America Report | WLRN",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a40aa18fcea64855a5da79f8cb8d6da6",
+            "href": "https://wlrn.drupal.publicbroadcasting.net/feeds/18511/rss.xml",
+            "title": "The Sunshine Economy",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c178b79598e44b9480e45c14c2007e49",
+            "href": "https://wlrn.drupal.publicbroadcasting.net/feeds/172/rss.xml",
+            "title": "The South Florida Roundup",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "39abb57980e74102bd5c7b4816d4e39c",
+            "href": "https://wlrn.drupal.publicbroadcasting.net/feeds/97062/rss.xml",
+            "title": "Sundial | WLRN",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f38582245c724abaaea91c7938a44d43",
+            "href": "https://wlrn.drupal.publicbroadcasting.net/podcasts/172/rss.xml",
+            "title": "The Florida Roundup",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "bc2d86b0953245fabdfd358ce3cf8c94",
+            "href": "https://wlrn.secureallegiance.com/wlrn/WebModule/Donate.aspx?P=NPR19&PAGETYPE=PLG&CHECK=4bv4rAsdS%2bfiQl%2byqVkEd4HJipnY8PNT",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "6169fcf2d5c94f15b3e34f900bd82b21",
+            "href": "https://wlrn.secureallegiance.com/wlrn/WebModule/Donate.aspx?P=NPR19&PAGETYPE=PLG&CHECK=4bv4rAsdS%2bfiQl%2byqVkEd4HJipnY8PNT",
+            "title": "Support WLRN",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "18eed605c1664bf697fb7e4f22392b11",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/481_cb1f58af56396fe8a3f31eae25b957a8.mp4",
+            "title": "Giving Tuesday 2020",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/671",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wusf-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "671",
+        "network": {
+          "inheritingFrom": "671",
+          "usesInheritance": false,
+          "currentOrgId": "671",
+          "tier1": {
+            "name": "WUSF-FM",
+            "id": "671",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WSMR-FM",
+                "id": "1184",
+                "usesInheritance": false
+              },
+              {
+                "name": "StateImpact Florida",
+                "id": "20008",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "671",
+          "recency": 240
+        },
+        "guid": "4fcf701210a04f2299b9859be3a01949",
+        "brand": {
+          "band": "FM",
+          "call": "WUSF",
+          "frequency": "89.7",
+          "marketCity": "Tampa",
+          "marketState": "FL",
+          "name": "WUSF Public Media - WUSF 89.7",
+          "tagline": "News, Information & All Night Jazz"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "05a9a6986c754ccd8ffe5f540f7dd81d",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WUSFFM_ADP.pls"
+              }
+            ],
+            "guid": "4fcf71431bca43fdaadb14715f38f4b1",
+            "title": "WUSF 89.7",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://wusf.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wusf_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wusf_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/671.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/WUSF",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/wusf",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "05a9a6986c754ccd8ffe5f540f7dd81d",
+            "href": "https://playerservices.streamtheworld.com/pls/WUSFFM_ADP.pls",
+            "isPrimaryStream": true,
+            "title": "WUSF 89.7",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "f5b72295998741018d37253c133163a9",
+            "href": "https://www.wusf.usf.edu/podcasts/radio/university_beat/podcast.xml",
+            "title": "University Beat",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c2396e6896fa46d6b52f1b3d46bbd091",
+            "href": "https://www.wusf.usf.edu/podcasts/latest_news/all/podcast.xml",
+            "title": "Latest Local News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1d5dcb2e740f4effabdc74ef9b57ef09",
+            "href": "https://www.wusf.usf.edu/podcasts/radio/florida_matters/podcast.xml",
+            "title": "Florida Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "dceef5edca3447c491162311990ac8e1",
+            "href": "https://www.wusf.org/ways-to-support/",
+            "title": "Are you a member yet?",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "59ef949699674147baceb766340c3daa",
+            "href": "https://wusf.secureallegiance.com/wusf/WebModule/Donate.aspx?P=NPRGIFTS&PAGETYPE=PLG&CHECK=zq4UN%2bqkw3iDky%2bMCTICJW3L5BYddGq6PVAl6UEf65g%3d",
+            "title": "Support WUSF, Donate Now",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/671.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/502",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wmfe-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "502",
+        "network": {
+          "inheritingFrom": "502",
+          "usesInheritance": false,
+          "currentOrgId": "502",
+          "tier1": {
+            "name": "WMFE-FM",
+            "id": "502",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WMFV-FM",
+                "id": "1577",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "guid": "4fcf70110f844c04a49b352c67a9256b",
+        "brand": {
+          "band": "FM",
+          "call": "WMFE",
+          "frequency": "90.7",
+          "marketCity": "Orlando",
+          "marketState": "FL",
+          "name": "WMFE",
+          "tagline": "Public Radio for Central Florida"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0aa13e6d0092434fa50cbd6c1de535d2",
+                "typeId": "10",
+                "href": "https://wmfe-iad.streamguys1.com/wmfe2"
+              }
+            ],
+            "guid": "4fcf71400f34417e8653c19e7df2e015",
+            "title": "WMFE 90.7 Classical Music",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a21d40dc2236428683c8395b4488bcec",
+                "typeId": "10",
+                "href": "https://wmfe-iad.streamguys1.com/wmfe"
+              }
+            ],
+            "guid": "4fcf71400ba44129a0a66eb7c1b45547",
+            "title": "WMFE 90.7 FM News and Talk",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wmfe.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wmfe_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wmfe_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/502.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/907news",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wmfeorlando",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "0aa13e6d0092434fa50cbd6c1de535d2",
+            "href": "https://wmfe-iad.streamguys1.com/wmfe2",
+            "isPrimaryStream": false,
+            "title": "WMFE 90.7 Classical Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a21d40dc2236428683c8395b4488bcec",
+            "href": "https://wmfe-iad.streamguys1.com/wmfe",
+            "isPrimaryStream": true,
+            "title": "WMFE 90.7 FM News and Talk",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "1a9283f70028494da59ba43aba883121",
+            "href": "https://www.wmfe.org/category/growing-bolder/feed/podcast",
+            "title": "Growing Bolder",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "760d4094ef0c441d9b08b13320f266e4",
+            "href": "https://orlandowineblog.com/category/unwineding-a-covid-19-podcast/feed/",
+            "title": "UnWineding: Chronicles of COVID-19",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "09083b346ca54b1c92ff0ace4dabb443",
+            "href": "https://www.wmfe.org/category/wmfe-intersection-podcast/feed/podcast",
+            "title": "90.7 WMFE's Intersection",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a26165036584487786f758b23d810f76",
+            "href": "https://www.wmfe.org/category/are-we-there-yet/feed/podcast",
+            "title": "Are We There Yet?",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8240d71fe5d549fcb3e6c67fb7e99a85",
+            "href": "https://www.wmfe.org/category/orlando-un-ano-despues/feed",
+            "title": "Orlando \u2013 Un A\u00f1o Despu\u00e9s",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9df4779c25b847e1b1da6b1d010929fe",
+            "href": "https://www.wmfe.org/category/life-after-pulse/feed/",
+            "title": "Life After Pulse",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "719821644ce84d54ab864a403428d9be",
+            "href": "https://www.wmfeindepth.org/category/storycorps/feed",
+            "title": "WMFE presents StoryCorps: Orlando",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "8e27657c900647dcaba72f682412ca90",
+            "href": "https://www.wmfe.org/donate/?utm_source=NPR&utm_medium=nprportal",
+            "title": "Support WMFE",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "21398a37471146e89f9c02fb4053443f",
+            "href": "https://www.wmfe.org/donate/?utm_source=NPR&utm_medium=nprportal",
+            "title": "Support WMFE",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/502.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/447",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wjct-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "447",
+        "network": {
+          "inheritingFrom": "447",
+          "usesInheritance": false,
+          "currentOrgId": "447",
+          "tier1": {
+            "name": "WJCT-FM",
+            "id": "447",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "447",
+          "recency": 240
+        },
+        "guid": "4fcf701102b34484bae32a8625938a49",
+        "brand": {
+          "band": "FM",
+          "call": "WJCT",
+          "frequency": "89.9",
+          "marketCity": "Jacksonville",
+          "marketState": "FL",
+          "name": "WJCT 89.9 FM Jacksonville",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "50851a66b51448e6b0217e11fd690efd",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJCTHD3.mp3"
+              }
+            ],
+            "guid": "cc1823c2de5e47369c9f0fab66c96236",
+            "title": "WJCT Anthology",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b019ae385a2743f2975fb313eba87acd",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJCTFM.mp3"
+              }
+            ],
+            "guid": "4fcf715e19eb4064bd568e3d8bacfb5f",
+            "title": "WJCT News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f8da08992afa4d17871396222628e969",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJCT_HD4.mp3"
+              }
+            ],
+            "guid": "552d7474bf344fae90fa0fdecaa6aaec",
+            "title": "WJCT Electro Lounge Radio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b6e7df1c996e42e080305dc94b23b134",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJCT_RRS.mp3"
+              }
+            ],
+            "guid": "cf62699e638f4b8db90fa360284980a9",
+            "title": "WJCT Radio Reading Service",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3ee0cf7e3d0d42058df3e471e2dcefb5",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJCT_HD2.mp3"
+              }
+            ],
+            "guid": "272cdb2be373448587ac93b05f603b6e",
+            "title": "WJCT Classical 24",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wjct.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wjct_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wjct_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/447_c0b44cee8d8207d841cc89de6cfef5f6.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/447_2df080f4f3c82af004fe963a08170bf4.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wjctpublicbroadcasting",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WJCTJax",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "50851a66b51448e6b0217e11fd690efd",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJCTHD3.mp3",
+            "isPrimaryStream": false,
+            "title": "WJCT Anthology",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b019ae385a2743f2975fb313eba87acd",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJCTFM.mp3",
+            "isPrimaryStream": true,
+            "title": "WJCT News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f8da08992afa4d17871396222628e969",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJCT_HD4.mp3",
+            "isPrimaryStream": false,
+            "title": "WJCT Electro Lounge Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b6e7df1c996e42e080305dc94b23b134",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJCT_RRS.mp3",
+            "isPrimaryStream": false,
+            "title": "WJCT Radio Reading Service",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "3ee0cf7e3d0d42058df3e471e2dcefb5",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WJCT_HD2.mp3",
+            "isPrimaryStream": false,
+            "title": "WJCT Classical 24",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e32052166d6d4796828df114080b6609",
+            "href": "https://wjct.drupal.publicbroadcasting.net/podcasts/87436/rss.xml",
+            "title": "ADAPT",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d9c620a534e74af0953983ae1a03a85b",
+            "href": "https://news.wjct.org/podcasts/79671/rss.xml",
+            "title": "Odd Ball",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e01c52db68ff4a0aafc866dd65199586",
+            "href": "https://wjct.drupal.publicbroadcasting.net/podcasts/14/rss.xml",
+            "title": "First Coast Connect",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8718ed9488e142938a564f4e44370f67",
+            "href": "https://wjct.drupal.publicbroadcasting.net/podcasts/39197/rss.xml",
+            "title": "The Florida Roundup",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cd2d4582276a4cd6b16534cc54d77934",
+            "href": "https://wjct.drupal.publicbroadcasting.net/podcasts/term/9398/rss.xml",
+            "title": "What's It Like",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "c82269f3eb024b51b22bd99b91cbadb1",
+            "href": "https://wjct.org/donate",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/447.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/400",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wgcu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "400",
+        "network": {
+          "name": "WGCU",
+          "inheritingFrom": "399",
+          "usesInheritance": true,
+          "currentOrgId": "400",
+          "tier1": {
+            "name": "WGCU Public Broadcasting",
+            "id": "399",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WGCU-FM",
+                "id": "400",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WMKO-FM",
+                    "id": "401",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "399",
+          "recency": 360
+        },
+        "guid": "4fcf70101dc64636872c2e13a1625302",
+        "brand": {
+          "band": "FM",
+          "call": "WGCU",
+          "frequency": "90.1",
+          "marketCity": "Fort Myers",
+          "marketState": "FL",
+          "name": "WGCU",
+          "tagline": "WGCU Public Media"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "84b5b6c148554381b48aceccc206bc80",
+                "typeId": "10",
+                "href": "https://16923.live.streamtheworld.com/WGCUFM.mp3"
+              }
+            ],
+            "guid": "4fcf714e17684f22967552fff128408e",
+            "title": "WGCU-FM - News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a53c019ba728448288e78e7384ef0d59",
+                "typeId": "10",
+                "href": "https://17993.live.streamtheworld.com:443/WGCUHD3_SC"
+              }
+            ],
+            "guid": "1414b61834903314316839520b4cf43b",
+            "title": "WGCU Radio Reading Service",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "aefcc0bc1b93416e804c11505c3a88c9",
+                "typeId": "10",
+                "href": "https://17533.live.streamtheworld.com/WGCUFM_CLASSICAL.mp3"
+              }
+            ],
+            "guid": "6d19b2ade98048d2adda1c9488e8e942",
+            "title": "WGCU-HD - Classical",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wgcu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wgcu.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wgcu.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/399.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wgcupublicmedia",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/wgcu",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "84b5b6c148554381b48aceccc206bc80",
+            "href": "https://16923.live.streamtheworld.com/WGCUFM.mp3",
+            "isPrimaryStream": true,
+            "title": "WGCU-FM - News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a53c019ba728448288e78e7384ef0d59",
+            "href": "https://17993.live.streamtheworld.com:443/WGCUHD3_SC",
+            "isPrimaryStream": false,
+            "title": "WGCU Radio Reading Service",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "aefcc0bc1b93416e804c11505c3a88c9",
+            "href": "https://17533.live.streamtheworld.com/WGCUFM_CLASSICAL.mp3",
+            "isPrimaryStream": false,
+            "title": "WGCU-HD - Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e565d113064d45059abd0d09fef2a66a",
+            "href": "https://threesongstories.podbean.com/feed.xml",
+            "title": "Three Song Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9efc1cceb45f45d7b8dc437ca7ecf505",
+            "href": "https://wgcu.drupal.publicbroadcasting.net/podcasts/12/rss.xml",
+            "title": "Amy Bennett Williams Essays",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e62bba3e625d4ee68ab51a064c29dc94",
+            "href": "https://wgcu.drupal.publicbroadcasting.net/podcasts/8/rss.xml",
+            "title": "Gulf Coast Live",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbafb540b6b242cb931386702c725125",
+            "href": "https://grapeminds.podbean.com/feed.xml",
+            "title": "Grape Minds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "968679b3b90247a9993553e190f4d901",
+            "href": "https://wgcu.drupal.publicbroadcasting.net/podcasts/39964/rss.xml",
+            "title": "StoryCorps Southwest Florida",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "9a5015ea06e44310ab7c7c98e2916ad3",
+            "href": "http://goo.gl/JIwWbv",
+            "title": "Support WGCU",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "913dd1a053dc455d93bee56976df88bd",
+            "href": "http://goo.gl/JIwWbv",
+            "title": "Support WGCU",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/587",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wqcs-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "587",
+        "network": {
+          "inheritingFrom": "587",
+          "usesInheritance": false,
+          "currentOrgId": "587",
+          "tier1": {
+            "name": "WQCS-FM",
+            "id": "587",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf701123c04c4abacf3f067b2be375",
+        "brand": {
+          "band": "FM",
+          "call": "WQCS",
+          "frequency": "88.9",
+          "marketCity": "Fort Pierce",
+          "marketState": "FL",
+          "name": "WQCS",
+          "tagline": "NPR for the Treasure Coast."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3aa8600890174fc6bafd68dab76c7e48",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WQCSFM_HD3.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "42458b5b5b9c46a49a5aa35dd40d646e",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/WQCSFM_HD3AAC.pls"
+              }
+            ],
+            "guid": "4ce93d27f3084aa69324eb658b07decc",
+            "title": "WQCS-FM HD3 (The River)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3bd9aa2333fd41369fa245923effa2ea",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WQCSFM_RRS.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "2053b2a3aead4a6a9fdeb56833df33fb",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/WQCSFM_RRSAAC.pls"
+              }
+            ],
+            "guid": "01102cd581834690b6bd8092bef58b09",
+            "title": "WQCS-FM RRS (Radio Reading Service)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b87ce4b0572f40ddb2dbe08237e489fe",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WQCSFM.pls"
+              }
+            ],
+            "guid": "4fcf71661f0549249e12d66aac4eef28",
+            "title": "WQCS-FM 88.9 (NPR & Classical)",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f1609c3f78314cf5a9a824940818ce70",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WQCSHD2.pls"
+              }
+            ],
+            "guid": "4fcf716621e94636b611effe1588775c",
+            "title": "WQCS-FM HD2 (News)",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wqcs.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wqcs_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wqcs_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wqcsnews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3aa8600890174fc6bafd68dab76c7e48",
+            "href": "https://playerservices.streamtheworld.com/pls/WQCSFM_HD3.pls",
+            "isPrimaryStream": false,
+            "title": "WQCS-FM HD3 (The River)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "3bd9aa2333fd41369fa245923effa2ea",
+            "href": "https://playerservices.streamtheworld.com/pls/WQCSFM_RRS.pls",
+            "isPrimaryStream": false,
+            "title": "WQCS-FM RRS (Radio Reading Service)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b87ce4b0572f40ddb2dbe08237e489fe",
+            "href": "https://playerservices.streamtheworld.com/pls/WQCSFM.pls",
+            "isPrimaryStream": true,
+            "title": "WQCS-FM 88.9 (NPR & Classical)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f1609c3f78314cf5a9a824940818ce70",
+            "href": "https://playerservices.streamtheworld.com/pls/WQCSHD2.pls",
+            "isPrimaryStream": false,
+            "title": "WQCS-FM HD2 (News)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "42458b5b5b9c46a49a5aa35dd40d646e",
+            "href": "https://playerservices.streamtheworld.com/pls/WQCSFM_HD3AAC.pls",
+            "isPrimaryStream": false,
+            "title": "WQCS-FM HD3 (The River)",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "2053b2a3aead4a6a9fdeb56833df33fb",
+            "href": "https://playerservices.streamtheworld.com/pls/WQCSFM_RRSAAC.pls",
+            "isPrimaryStream": false,
+            "title": "WQCS-FM RRS (Radio Reading Service)",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b22cc953a91f4fa280886d6e0e750056",
+            "href": "https://wqcs.secureallegiance.com/wqcs/WebModule/Donate.aspx?P=PLDG1711&PAGETYPE=PLG&CHECK=Ypy9EVin9QhuqfPz8fqqY23L5BYddGq6PVAl6UEf65g%3d",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "2c0c3aceb936408d9f779b981dfb7a4e",
+            "href": "https://wqcs.secureallegiance.com/wqcs/WebModule/Donate.aspx?P=PLDG1711&PAGETYPE=PLG&CHECK=Ypy9EVin9QhuqfPz8fqqY23L5BYddGq6PVAl6UEf65g%3d",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/587.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/390",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wfsu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "390",
+        "network": {
+          "inheritingFrom": "390",
+          "usesInheritance": false,
+          "currentOrgId": "390",
+          "tier1": {
+            "name": "WFSU-FM",
+            "id": "390",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WFSQ-FM",
+                "id": "391",
+                "usesInheritance": false
+              },
+              {
+                "name": "WFSW-FM",
+                "id": "392",
+                "usesInheritance": true
+              },
+              {
+                "name": "WFSL-FM",
+                "id": "975",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "390",
+          "recency": 240
+        },
+        "guid": "4fcf701018e34bfd887a71de1db68493",
+        "brand": {
+          "band": "FM",
+          "call": "WFSU",
+          "frequency": "88.9",
+          "marketCity": "Tallahassee",
+          "marketState": "FL",
+          "name": "WFSU",
+          "tagline": "Your News & Information Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "41599e3d21c543fea09bfd388be14941",
+                "typeId": "10",
+                "href": "https://mp3stream.wfsu.org:8443/889hi"
+              }
+            ],
+            "guid": "d5ccf8ec4d4e4a0c82c359f7bf9dcf90",
+            "title": "WFSU-FM",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d45389cbf2184139b493b0043c257d58",
+                "typeId": "10",
+                "href": "https://mp3stream.wfsu.org:8443/891hi"
+              }
+            ],
+            "guid": "d5712305268b44c79b92ce9c9bc681a4",
+            "title": "WFSW-FM",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wfsu.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wfsu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wfsu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/390.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WFSUMedia",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/WFSUmedia",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "41599e3d21c543fea09bfd388be14941",
+            "href": "https://mp3stream.wfsu.org:8443/889hi",
+            "isPrimaryStream": true,
+            "title": "WFSU-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "d45389cbf2184139b493b0043c257d58",
+            "href": "https://mp3stream.wfsu.org:8443/891hi",
+            "isPrimaryStream": false,
+            "title": "WFSW-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "b5d2c2807ba8448cae30922db3369f2b",
+            "href": "https://wfsu.drupal.publicbroadcasting.net/podcasts/term/32/rss.xml",
+            "title": "WFSU State News (Florida)",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "65725e0ae9e84eec8a7022fba50334d3",
+            "href": "https://wfsu.drupal.publicbroadcasting.net/podcasts/1898/rss.xml",
+            "title": "WFSU Perspectives",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "721ed47a7f544960b5de0ff830b9177b",
+            "href": "https://wfsu.drupal.publicbroadcasting.net/podcasts/1911/rss.xml",
+            "title": "Capital Report - WFSU/FPRN",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d09129d7d5064e2ab1fc8f84484e13aa",
+            "href": "https://wfsu.drupal.publicbroadcasting.net/podcasts/110221/rss.xml",
+            "title": "Startup Capital Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b23e122f19654fef8e7f3f1d8ccd63a0",
+            "href": "https://wfsu.drupal.publicbroadcasting.net/podcasts/term/36/rss.xml",
+            "title": "WFSU Local News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "c55a0f2bff994e07ab5445753b89c937",
+            "href": "https://wfsu.secureallegiance.com/wfsu/WebModule/Donate.aspx?P=FMWEB&PAGETYPE=PLG&CHECK=ekRAVG1IVZLiQl%2ByqVkEd4HJipnY8PNT",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "657b95a20c594f43ad517ef56a3cb1a6",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/390_09420e9d720af2ad25cc41d959472e51.mp4",
+            "title": "MOD 4",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "74cae1ac8f2a4b4b939d13aba2a2b9b7",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/390_e255e9b9ab5621552092195229fabfa2.mp4",
+            "title": "MOD 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/390.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/650",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wuft-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "650",
+        "network": {
+          "inheritingFrom": "650",
+          "usesInheritance": false,
+          "currentOrgId": "650",
+          "tier1": {
+            "name": "WUFT-FM",
+            "id": "650",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WJUF-FM",
+                "id": "651",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "650",
+          "recency": 120
+        },
+        "guid": "4fcf70120b91479e8e81f1f29f4a7064",
+        "brand": {
+          "band": "FM",
+          "call": "WUFT",
+          "frequency": "89.1",
+          "marketCity": "Gainesville",
+          "marketState": "FL",
+          "name": "WUFT 89.1",
+          "tagline": "NPR News and Talk for Gainesville and Ocala"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0440c3d192414759baaddb4323d663fe",
+                "typeId": "10",
+                "href": "https://ais-sa1.streamon.fm/7646_64k.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "6071033d0c5f471280414ed21d4d6a82",
+                "typeId": "13",
+                "href": "https://ais-sa1.streamon.fm/7646_48k.aac"
+              }
+            ],
+            "guid": "e1c3653c28be49a98ece2890f78f546f",
+            "title": "WUFT 90.1",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6df0dd8bce294b63b8688de9ca478e6b",
+                "typeId": "10",
+                "href": "https://ais-sa1.streamon.fm/7647_64k.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "6efe1c789622438d9f3dc499bcee04f7",
+                "typeId": "13",
+                "href": "https://ais-sa1.streamon.fm/7647_48k.aac"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "c8fd017b357e4da4893adc2213a8f89a",
+                "typeId": "13",
+                "href": "https://ais-sa1.streamon.fm/7647_48k.aac/playlist.m3u8"
+              }
+            ],
+            "guid": "4fcf715b136842d5a311e6fc430f5c66",
+            "title": "WUFT 89.1",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6e999290c978478b93c448a8c4a6bf23",
+                "typeId": "10",
+                "href": "https://ais-sa1.streamon.fm/7648_64k.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "156190feb8d6453eb5d72c8ac3078ab2",
+                "typeId": "13",
+                "href": "https://ais-sa1.streamon.fm/7648_48k.aac/playlist.m3u8"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "cd7c77eea7e140bdb6874bc779eac952",
+                "typeId": "13",
+                "href": "https://ais-sa1.streamon.fm/7648_48k.aac"
+              }
+            ],
+            "guid": "4fcf715b19d84e738e7198f238beeeb2",
+            "title": "WUFT Classic (89.1-2 WUFT-HD2)",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wuft.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wuft_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wuft_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/650_d8efa287602d23eed47969936104a6b6.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/650_3a26869a4e4307337788c1565d13c5b1.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/650_8534cccbc7980ab64e926909667953d9.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/650_ac1eebcaaedd713093b8744d731a9023.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/650_99a275523323c0ae1942e40ea48d82fc.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/650_d32902c49ab75c4ef99964441c87d345.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/650_c798eeac9e949607a88d3bfdc614def1.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/650_36cd067e2eb43cf945857deeca06877e.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/650_2ad979660333221fcf37e56a6dfc9963.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WUFTMedia",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/WUFTNews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "0440c3d192414759baaddb4323d663fe",
+            "href": "https://ais-sa1.streamon.fm/7646_64k.mp3",
+            "isPrimaryStream": false,
+            "title": "WUFT 90.1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6df0dd8bce294b63b8688de9ca478e6b",
+            "href": "https://ais-sa1.streamon.fm/7647_64k.mp3",
+            "isPrimaryStream": true,
+            "title": "WUFT 89.1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6e999290c978478b93c448a8c4a6bf23",
+            "href": "https://ais-sa1.streamon.fm/7648_64k.mp3",
+            "isPrimaryStream": false,
+            "title": "WUFT Classic (89.1-2 WUFT-HD2)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6efe1c789622438d9f3dc499bcee04f7",
+            "href": "https://ais-sa1.streamon.fm/7647_48k.aac",
+            "isPrimaryStream": true,
+            "title": "WUFT 89.1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "c8fd017b357e4da4893adc2213a8f89a",
+            "href": "https://ais-sa1.streamon.fm/7647_48k.aac/playlist.m3u8",
+            "isPrimaryStream": true,
+            "title": "WUFT 89.1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "6071033d0c5f471280414ed21d4d6a82",
+            "href": "https://ais-sa1.streamon.fm/7646_48k.aac",
+            "isPrimaryStream": false,
+            "title": "WUFT 90.1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "156190feb8d6453eb5d72c8ac3078ab2",
+            "href": "https://ais-sa1.streamon.fm/7648_48k.aac/playlist.m3u8",
+            "isPrimaryStream": false,
+            "title": "WUFT Classic (89.1-2 WUFT-HD2)",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "cd7c77eea7e140bdb6874bc779eac952",
+            "href": "https://ais-sa1.streamon.fm/7648_48k.aac",
+            "isPrimaryStream": false,
+            "title": "WUFT Classic (89.1-2 WUFT-HD2)",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "3ad43c70c1f44e9cad0c938fc53fab1c",
+            "href": "https://podcasts.ufhealth.org/category/animal-airwaves/feed/",
+            "title": "Animal Airwaves",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "aaa5ae1ee24d4162b56c7f78df7356bd",
+            "href": "https://cnem.chem.ufl.edu/tinytechpodcast.xml",
+            "title": "Tiny Tech Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4ac02b7829514434b602bdd3db94b4c0",
+            "href": "https://podcasts.ufhealth.org/category/health-in-a-heartbeat/feed/",
+            "title": "Health in a Heartbeat",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f03cf68480c841eeb9e78e516df63c23",
+            "href": "https://www.wuft.org/news/category/podcast/unvarnished/feed/",
+            "title": "Unvarnished",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "db42aa4256414dfebf053567e41a595c",
+            "href": "https://www.wuft.org/blog/category/tell-me-about-it/feed/",
+            "title": "Tell Me About It - WUFT Media",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cbb23c9fb6434159ab316fb3963daa69",
+            "href": "https://www.wuft.org/news/category/the-point/feed/",
+            "title": "The Point \u2013 WUFT News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "db8f465e9c1347c2995b230ed3ba3be2",
+            "href": "https://post.futurimedia.com/wuft/playlist/rss/9.xml",
+            "title": "From the Front Lines - WUFT News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d60062a23b89409dab97f3fa4cf24e45",
+            "href": "https://wuft.secureallegiance.com/wuft/WebModule/Donate.aspx?P=FMPLDG16&PAGETYPE=PLG&CHECK=lf6NCfPGei4mLBtZgh2Oim3L5BYddGq6PVAl6UEf65g%3d",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "e12f7cc4975144b18536c074cac0cfba",
+            "href": "https://wuft.secureallegiance.com/wuft/WebModule/Donate.aspx?P=FMPLDG16&PAGETYPE=PLG&CHECK=lf6NCfPGei4mLBtZgh2Oim3L5BYddGq6PVAl6UEf65g%3d",
+            "title": "Support WUFT",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "1a9c0e8d192e49ada7ec18f5c679254e",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/650_7e3addc1cc9c5b7b05dea7181d3b2cc9.mp4",
+            "title": "Donate (PC)",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "cdcabb78ba4b4e89a1a75cb5366388b6",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/650_1ed8c49f140b112d1451c742579de684.mp4",
+            "title": "Donation Audio (GR)",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "202061a561f84d9e94c99c94bbad312c",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/650_cc6a77de04486822de4e923c52d3e732.mp4",
+            "title": "Support Online - RW",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/650.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/673",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wuwf-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "673",
+        "network": {
+          "inheritingFrom": "673",
+          "usesInheritance": false,
+          "currentOrgId": "673",
+          "tier1": {
+            "name": "WUWF-FM",
+            "id": "673",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf7012111c4449adb86ff78a518cbe",
+        "brand": {
+          "band": "FM",
+          "call": "WUWF",
+          "frequency": "88.1",
+          "marketCity": "Pensacola",
+          "marketState": "FL",
+          "name": "WUWF",
+          "tagline": "NPR for Florida's Great Northwest"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "fc7b850bc43840a6a71012e31a2798e9",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WUWFFM.pls"
+              }
+            ],
+            "guid": "4fcf71541d8d4986b4df25af79688dfa",
+            "title": "WUWF-FM HD1 (News and Information)",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "89c00ec03716408abb4ca1ef0cec0325",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WUWFHD3.pls"
+              }
+            ],
+            "guid": "77be6bcedfe14a76a7015810f54d8e78",
+            "title": "WUWF-FM HD3 (SightLine)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9cbdc209f4474802aa1331118a3fc9e1",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WUWFHD2.pls"
+              }
+            ],
+            "guid": "4fcf715421644306941664694567310e",
+            "title": "WUWF-FM HD2 (Classical)",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wuwf.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wuwf_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wuwf_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/673.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WUWF-Public-Media/120056494685247",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "fc7b850bc43840a6a71012e31a2798e9",
+            "href": "https://playerservices.streamtheworld.com/pls/WUWFFM.pls",
+            "isPrimaryStream": true,
+            "title": "WUWF-FM HD1 (News and Information)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "89c00ec03716408abb4ca1ef0cec0325",
+            "href": "https://playerservices.streamtheworld.com/pls/WUWFHD3.pls",
+            "isPrimaryStream": false,
+            "title": "WUWF-FM HD3 (SightLine)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "9cbdc209f4474802aa1331118a3fc9e1",
+            "href": "https://playerservices.streamtheworld.com/pls/WUWFHD2.pls",
+            "isPrimaryStream": false,
+            "title": "WUWF-FM HD2 (Classical)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "26eed019a8fe48a19ccc35422e8782b3",
+            "href": "https://radiolive.org/podcasts/eco/eco.xml",
+            "title": "Eco Minute",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "896142bf4a5440c5b7aa0e54b422f3a0",
+            "href": "https://radiolive.org/podcasts/rl/rl.xml",
+            "title": "RadioLive",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "177c9cac51e1476fafa3e771165b5748",
+            "href": "https://radiolive.org/podcasts/ai/ais.xml",
+            "title": "Acoustic Interlude Sessions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "353bd8dc189a4b0792ee373407f30494",
+            "href": "https://radiolive.org/podcasts/gsm/gsm.xml",
+            "title": "Gulf Stories Moments",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1694c4bf2d5d45ca8eea5e0a5f45cb4e",
+            "href": "https://donate.nprstations.org/wuwf/?__utma=250226432.437508842.1437492098.1437492098.1437499448.2&__utmb=250226432.93.5.1437505705515&__utmc=250226432&__utmx=-&__utmz=250226432.1437492098.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)&__utmv=-&__utmk=94259038",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/673.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/384",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wfit-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "384",
+        "network": {
+          "inheritingFrom": "384",
+          "usesInheritance": false,
+          "currentOrgId": "384",
+          "tier1": {
+            "name": "WFIT-FM",
+            "id": "384",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "384",
+          "recency": 360
+        },
+        "guid": "4fcf70101713438397089d5011895830",
+        "brand": {
+          "band": "FM",
+          "call": "WFIT",
+          "frequency": "89.5",
+          "marketCity": "Melbourne",
+          "marketState": "FL",
+          "name": "WFIT",
+          "tagline": "Public Radio for The Florida Space Coast"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f53e70539da5481e9fba7ec7b8c4218c",
+                "typeId": "10",
+                "href": "https://streaming.wfit.org/wfit-fm"
+              }
+            ],
+            "guid": "4fcf71641162484abb204d06064be4a9",
+            "title": "WFIT - Public Radio for The Florida Space Coast",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e501fb195a2e4b818492eda963f59b36",
+                "typeId": "10",
+                "href": "https://streaming.wfit.org/wfit-hd2"
+              }
+            ],
+            "guid": "09200de843084dff8e4dd370112dd813",
+            "title": "WFIT-FM HD2",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wfit.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wfit_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wfit_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/384_4373e4a8daacb65f68dcc2412873cbe6.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/384_dd3a8b8e08f8e0293e492155ce855492.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/384_7af5a220eb6990d1b1854de4ca775415.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/384_55d3b2a1f5efa95e1e8c3460090b7906.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/384_f566cae6f4754c7292861e2a5708b8d6.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/384_19398a52766b3ee463601d3934be0136.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WFITFM",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WFIT895FM",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f53e70539da5481e9fba7ec7b8c4218c",
+            "href": "https://streaming.wfit.org/wfit-fm",
+            "isPrimaryStream": true,
+            "title": "WFIT - Public Radio for The Florida Space Coast",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "e501fb195a2e4b818492eda963f59b36",
+            "href": "https://streaming.wfit.org/wfit-hd2",
+            "isPrimaryStream": false,
+            "title": "WFIT-FM HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "86314bb1024849bcb6e7a6e071cbe66e",
+            "href": "http://www.wfit.org/why-support-wfit",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "e67df2e30b574105beb5e9576568dc76",
+            "href": "http://www.wfit.org/why-support-wfit",
+            "title": "Donate to WFIT",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/384.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1577",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "1577",
+        "network": {
+          "inheritingFrom": "1577",
+          "usesInheritance": false,
+          "currentOrgId": "1577"
+        },
+        "guid": "2ffc83b826c8429ba76aef296f4556d7",
+        "brand": {
+          "band": "FM",
+          "call": "WMFV",
+          "frequency": "89.5",
+          "marketCity": "Cedar Creek",
+          "marketState": "FL",
+          "name": "WMFV-FM",
+          "tagline": "Serving The Villages, Leesburg and The Golden Triangle areas of Central Florida"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ce04472b22ae4aee96a585aa0f49fd61",
+                "typeId": "10",
+                "href": "https://wmfe-iad.streamguys1.com/wmfv"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "96f4b8e88c394ba989d2a6ac9d2a056c",
+                "typeId": "13",
+                "href": "https://wmfe-iad.streamguys1.com/wmfv"
+              }
+            ],
+            "guid": "a7b0d6c8969d4088b8525b2b01ba172c",
+            "title": "WMFV 89.5",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wmfv.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wmfv_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wmfv_fm.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "ce04472b22ae4aee96a585aa0f49fd61",
+            "href": "https://wmfe-iad.streamguys1.com/wmfv",
+            "isPrimaryStream": true,
+            "title": "WMFV 89.5",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "96f4b8e88c394ba989d2a6ac9d2a056c",
+            "href": "https://wmfe-iad.streamguys1.com/wmfv",
+            "isPrimaryStream": true,
+            "title": "WMFV 89.5",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "760d4094ef0c441d9b08b13320f266e4",
+            "href": "https://orlandowineblog.com/category/unwineding-a-covid-19-podcast/feed/",
+            "title": "UnWineding: Chronicles of COVID-19",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1a9283f70028494da59ba43aba883121",
+            "href": "https://www.wmfe.org/category/growing-bolder/feed/podcast",
+            "title": "Growing Bolder",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "719821644ce84d54ab864a403428d9be",
+            "href": "https://www.wmfeindepth.org/category/storycorps/feed",
+            "title": "WMFE presents StoryCorps: Orlando",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "71b10e45d5fb40c08a9a11f633958274",
+            "href": "https://www.wmfv.org/support",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/651",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "651",
+        "network": {
+          "inheritingFrom": "651",
+          "usesInheritance": false,
+          "currentOrgId": "651"
+        },
+        "newscast": {
+          "id": "651",
+          "recency": 120
+        },
+        "guid": "4fcf70120bce4d15962f16eecba12aec",
+        "brand": {
+          "band": "FM",
+          "call": "WJUF",
+          "frequency": "90.1",
+          "marketCity": "Inverness",
+          "marketState": "FL",
+          "name": "WUFT 90.1",
+          "tagline": "NPR News & Talk for the Nature Coast and The Villages"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6e999290c978478b93c448a8c4a6bf23",
+                "typeId": "10",
+                "href": "https://ais-sa1.streamon.fm/7648_64k.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "cd7c77eea7e140bdb6874bc779eac952",
+                "typeId": "13",
+                "href": "https://ais-sa1.streamon.fm/7648_48k.aac"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "156190feb8d6453eb5d72c8ac3078ab2",
+                "typeId": "13",
+                "href": "https://ais-sa1.streamon.fm/7648_48k.aac/playlist.m3u8"
+              }
+            ],
+            "guid": "4fcf715b19d84e738e7198f238beeeb2",
+            "title": "WUFT Classic (89.1-2 WUFT-HD2)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0440c3d192414759baaddb4323d663fe",
+                "typeId": "10",
+                "href": "https://ais-sa1.streamon.fm/7646_64k.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "6071033d0c5f471280414ed21d4d6a82",
+                "typeId": "13",
+                "href": "https://ais-sa1.streamon.fm/7646_48k.aac"
+              }
+            ],
+            "guid": "e1c3653c28be49a98ece2890f78f546f",
+            "title": "WUFT 90.1",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6df0dd8bce294b63b8688de9ca478e6b",
+                "typeId": "10",
+                "href": "https://ais-sa1.streamon.fm/7647_64k.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "6efe1c789622438d9f3dc499bcee04f7",
+                "typeId": "13",
+                "href": "https://ais-sa1.streamon.fm/7647_48k.aac"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "c8fd017b357e4da4893adc2213a8f89a",
+                "typeId": "13",
+                "href": "https://ais-sa1.streamon.fm/7647_48k.aac/playlist.m3u8"
+              }
+            ],
+            "guid": "4fcf715b136842d5a311e6fc430f5c66",
+            "title": "WUFT 89.1",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wuft.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wjuf_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wjuf_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/651.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WUFTMedia",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "6e999290c978478b93c448a8c4a6bf23",
+            "href": "https://ais-sa1.streamon.fm/7648_64k.mp3",
+            "isPrimaryStream": false,
+            "title": "WUFT Classic (89.1-2 WUFT-HD2)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "0440c3d192414759baaddb4323d663fe",
+            "href": "https://ais-sa1.streamon.fm/7646_64k.mp3",
+            "isPrimaryStream": false,
+            "title": "WUFT 90.1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6df0dd8bce294b63b8688de9ca478e6b",
+            "href": "https://ais-sa1.streamon.fm/7647_64k.mp3",
+            "isPrimaryStream": true,
+            "title": "WUFT 89.1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cd7c77eea7e140bdb6874bc779eac952",
+            "href": "https://ais-sa1.streamon.fm/7648_48k.aac",
+            "isPrimaryStream": false,
+            "title": "WUFT Classic (89.1-2 WUFT-HD2)",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "6efe1c789622438d9f3dc499bcee04f7",
+            "href": "https://ais-sa1.streamon.fm/7647_48k.aac",
+            "isPrimaryStream": true,
+            "title": "WUFT 89.1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "156190feb8d6453eb5d72c8ac3078ab2",
+            "href": "https://ais-sa1.streamon.fm/7648_48k.aac/playlist.m3u8",
+            "isPrimaryStream": false,
+            "title": "WUFT Classic (89.1-2 WUFT-HD2)",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "c8fd017b357e4da4893adc2213a8f89a",
+            "href": "https://ais-sa1.streamon.fm/7647_48k.aac/playlist.m3u8",
+            "isPrimaryStream": true,
+            "title": "WUFT 89.1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "6071033d0c5f471280414ed21d4d6a82",
+            "href": "https://ais-sa1.streamon.fm/7646_48k.aac",
+            "isPrimaryStream": false,
+            "title": "WUFT 90.1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "3ad43c70c1f44e9cad0c938fc53fab1c",
+            "href": "https://podcasts.ufhealth.org/category/animal-airwaves/feed/",
+            "title": "Animal Airwaves",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "aaa5ae1ee24d4162b56c7f78df7356bd",
+            "href": "https://cnem.chem.ufl.edu/tinytechpodcast.xml",
+            "title": "Tiny Tech Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "db42aa4256414dfebf053567e41a595c",
+            "href": "https://www.wuft.org/blog/category/tell-me-about-it/feed/",
+            "title": "Tell Me About It - WUFT Media",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4ac02b7829514434b602bdd3db94b4c0",
+            "href": "https://podcasts.ufhealth.org/category/health-in-a-heartbeat/feed/",
+            "title": "Health in a Heartbeat",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f03cf68480c841eeb9e78e516df63c23",
+            "href": "https://www.wuft.org/news/category/podcast/unvarnished/feed/",
+            "title": "Unvarnished",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cbb23c9fb6434159ab316fb3963daa69",
+            "href": "https://www.wuft.org/news/category/the-point/feed/",
+            "title": "The Point \u2013 WUFT News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "80dc1c2c499c447c93bb4160423bba16",
+            "href": "https://wuft.secureallegiance.com/wuft/WebModule/Donate.aspx?P=FMPLDG16&PAGETYPE=PLG&CHECK=lf6NCfPGei4mLBtZgh2Oim3L5BYddGq6PVAl6UEf65g%3d",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "f0ab31bf274140b58ea376b396b46804",
+            "href": "https://wuft.secureallegiance.com/wuft/WebModule/Donate.aspx?P=FMPLDG16&PAGETYPE=PLG&CHECK=lf6NCfPGei4mLBtZgh2Oim3L5BYddGq6PVAl6UEf65g%3d",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/651.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1184",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf7014237f451686439400913ced81",
+        "brand": {
+          "band": "FM",
+          "call": "WSMR",
+          "frequency": "89.1",
+          "marketCity": "Venice",
+          "marketState": "FL",
+          "name": "Classical WSMR",
+          "tagline": "Classical WSMR 89.1 & 103.9"
+        },
+        "orgId": "1184",
+        "network": {
+          "inheritingFrom": "1184",
+          "usesInheritance": false,
+          "currentOrgId": "1184"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "aa5b722477c641e1b667af1985b735d9",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WSMRFM.pls"
+              }
+            ],
+            "guid": "4fcf71431fb74663ba54ebaadbaf79d7",
+            "title": "Classical WSMR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wsmr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wsmr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wsmr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1184.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/WUSF",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/wusf",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "aa5b722477c641e1b667af1985b735d9",
+            "href": "https://playerservices.streamtheworld.com/pls/WSMRFM.pls",
+            "isPrimaryStream": true,
+            "title": "Classical WSMR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d7f1bed4d6714e3193f1b9b5915ca4ad",
+            "href": "https://www.wsmr.org/ways-to-support/",
+            "title": "Are you a member yet?",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "34e3390dfe5342cb879625734a77b7d0",
+            "href": "https://wusf.secureallegiance.com/wusf/WebModule/Donate.aspx?P=NPRWSMR&PAGETYPE=PLG&CHECK=jKOFBrnWtRoVdBiR%2b2RvmOzWDeZ%2beA1M",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1184.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/464",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wkgc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "464",
+        "network": {
+          "inheritingFrom": "464",
+          "usesInheritance": false,
+          "currentOrgId": "464",
+          "tier1": {
+            "name": "WKGC-FM",
+            "id": "464",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf701106e641bc85d742011cce64ab",
+        "brand": {
+          "band": "FM",
+          "call": "WKGC",
+          "frequency": "90.7",
+          "marketCity": "Panama City",
+          "marketState": "FL",
+          "name": "WKGC",
+          "tagline": "Here When You Need Us"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "408415eaae0f4fe5a6a1b767e0ef5917",
+                "typeId": "10",
+                "href": "https://icecast.gulfcoast.edu:8443/wkgchd1.mp3"
+              }
+            ],
+            "guid": "49acd26fb01c4ce98e08604882dfc2f3",
+            "title": "WKGC-FM / HD1",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wkgc.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wkgc_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wkgc_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WKGC-Public-Radio-907-FM1480-AM/99906221607",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "408415eaae0f4fe5a6a1b767e0ef5917",
+            "href": "https://icecast.gulfcoast.edu:8443/wkgchd1.mp3",
+            "isPrimaryStream": true,
+            "title": "WKGC-FM / HD1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "0f8a555331d64d6c8661cd809c1dffb4",
+            "href": "https://www.gulfcoast.edu/campus-life/wkgc/pledge.html",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/649",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Jazz",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70120b594c6aa3c3650716e0ca1a",
+        "brand": {
+          "band": "FM",
+          "call": "WUCF",
+          "frequency": "89.9",
+          "marketCity": "Orlando",
+          "marketState": "FL",
+          "name": "WUCF FM",
+          "tagline": "89.9 Jazz & More"
+        },
+        "orgId": "649",
+        "network": {
+          "inheritingFrom": "649",
+          "usesInheritance": false,
+          "currentOrgId": "649",
+          "tier1": {
+            "name": "WUCF-FM",
+            "id": "649",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "61a7de74c2db4e56bdb24d99d2ed443a",
+                "typeId": "10",
+                "href": "https://peridot.streamguys1.com:7835/WUCF-HD2_QL"
+              }
+            ],
+            "guid": "8fdf566d5d80469d923975e9847d0ebd",
+            "title": "WUCF HD2 Latin Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "edb4ae0d8bd54f20a8a058113e188d8d",
+                "typeId": "10",
+                "href": "https://peridot.streamguys1.com:7835/WUCF_QL"
+              }
+            ],
+            "guid": "0dc474e85a824b9cb438d64ae147d66e",
+            "title": "WUCF FM Jazz & More",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wucf.org/listen/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wucf_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wucf_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/649.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WUCF-FM-899-Jazz-and-More/66529761042",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WUCF",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "61a7de74c2db4e56bdb24d99d2ed443a",
+            "href": "https://peridot.streamguys1.com:7835/WUCF-HD2_QL",
+            "isPrimaryStream": false,
+            "title": "WUCF HD2 Latin Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "edb4ae0d8bd54f20a8a058113e188d8d",
+            "href": "https://peridot.streamguys1.com:7835/WUCF_QL",
+            "isPrimaryStream": true,
+            "title": "WUCF FM Jazz & More",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "0a7fb722358b48bca85e45f4ae6d8fce",
+            "href": "https://www.wucf.org/support/membership",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/649.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/391",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701019294b71903049c8327f0e30",
+        "brand": {
+          "band": "FM",
+          "call": "WFSQ",
+          "frequency": "91.5",
+          "marketCity": "Tallahassee",
+          "marketState": "FL",
+          "name": "WFSQ",
+          "tagline": "Your Classical Music Source"
+        },
+        "orgId": "391",
+        "network": {
+          "inheritingFrom": "391",
+          "usesInheritance": false,
+          "currentOrgId": "391"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "29f3e182cff04697af8568407518c46a",
+                "typeId": "10",
+                "href": "https://mp3stream.wfsu.org:8443/915hi"
+              }
+            ],
+            "guid": "96ac9884680e4e01866ba9cdc72ac308",
+            "title": "WFSQ-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wfsu.org/radio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wfsq_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wfsq_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/391.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "29f3e182cff04697af8568407518c46a",
+            "href": "https://mp3stream.wfsu.org:8443/915hi",
+            "isPrimaryStream": true,
+            "title": "WFSQ-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1d6018c5c2fa4678b20c58e2eae55850",
+            "href": "https://wfsu.secureallegiance.com/wfsu/WebModule/Donate.aspx?P=FMWEB&PAGETYPE=PLG&CHECK=ekRAVG1IVZLiQl%2ByqVkEd4HJipnY8PNT",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/391.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/507",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "507",
+        "network": {
+          "inheritingFrom": "507",
+          "usesInheritance": false,
+          "currentOrgId": "507",
+          "tier1": {
+            "name": "WMNF-FM",
+            "id": "507",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf7011119642b98f1e4757e76dcebe",
+        "brand": {
+          "band": "FM",
+          "call": "WMNF",
+          "frequency": "88.5",
+          "marketCity": "Tampa",
+          "marketState": "FL",
+          "name": "WMNF",
+          "tagline": "Community Conscious Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "cfdb259d4e064fdbafa41bf7a00d2eec",
+                "typeId": "10",
+                "href": "https://stream.wmnf.org:4443/wmnf_hd2"
+              }
+            ],
+            "guid": "3625a5e3105b496b9236b8dd6c6bfaa4",
+            "title": "WMNF 88.5 FM Tampa HD-2 New Sounds of the Left Coast",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5a45e92f99714ef29328e7b9ab66c943",
+                "typeId": "10",
+                "href": "https://stream.wmnf.org:4443/wmnf_hd3"
+              }
+            ],
+            "guid": "185286ff474a4bdeb79c0cf7676c54e4",
+            "title": "WMNF 88.5 FM Tampa HD-3 The Source",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "80dcc875fcb147bd9c1e50f07f15c43d",
+                "typeId": "10",
+                "href": "https://stream.wmnf.org:4443/wmnf_hd4"
+              }
+            ],
+            "guid": "522918008c434a0eb87e50d48bd6fb39",
+            "title": "WMNF 88.5 FM Tampa HD-4 Soul School",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "09bc6c458cab42f6af2a6d22caaa3c5b",
+                "typeId": "10",
+                "href": "https://stream.wmnf.org:4443/wmnf_high_quality"
+              }
+            ],
+            "guid": "8ff6cc6599564b39a7b545e972fcd9bd",
+            "title": "WMNF 88.5 FM Tampa - Community Conscious Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wmnf.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wmnf_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/507.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WMNF-Community-radio/123991212520",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "cfdb259d4e064fdbafa41bf7a00d2eec",
+            "href": "https://stream.wmnf.org:4443/wmnf_hd2",
+            "isPrimaryStream": false,
+            "title": "WMNF 88.5 FM Tampa HD-2 New Sounds of the Left Coast",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5a45e92f99714ef29328e7b9ab66c943",
+            "href": "https://stream.wmnf.org:4443/wmnf_hd3",
+            "isPrimaryStream": false,
+            "title": "WMNF 88.5 FM Tampa HD-3 The Source",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "80dcc875fcb147bd9c1e50f07f15c43d",
+            "href": "https://stream.wmnf.org:4443/wmnf_hd4",
+            "isPrimaryStream": false,
+            "title": "WMNF 88.5 FM Tampa HD-4 Soul School",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "09bc6c458cab42f6af2a6d22caaa3c5b",
+            "href": "https://stream.wmnf.org:4443/wmnf_high_quality",
+            "isPrimaryStream": true,
+            "title": "WMNF 88.5 FM Tampa - Community Conscious Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "1105a0f94f1140ffa5ded0673a8dab5f",
+            "href": "https://feeds.feedburner.com/wmnf/LiveMusicShowcase",
+            "title": "Live Music Showcase",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4a53da2c75904e90940b4af8e641e257",
+            "href": "https://feeds.feedburner.com/midpointwithwmnfnews",
+            "title": "MidPoint from WMNF News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "01a7c3a7a2684d98b9ef97af38cb789f",
+            "href": "https://feeds.feedburner.com/wmnf/urban_cafe",
+            "title": "Urban Cafe",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "79e9721313f247409c34b031d2369d16",
+            "href": "https://feeds.feedburner.com/artinyourear",
+            "title": "Art In Your Ear",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1342b9b22bcf4a4b8f26bf9c9538959c",
+            "href": "https://feeds.feedburner.com/sustainable_living_alternative_health",
+            "title": "Sustainable Living & Alternative Health",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d1103482eff5414696c4319acaaf0cce",
+            "href": "https://feeds.feedburner.com/wmnf/womens_pov",
+            "title": "From A Woman\u2019s Point of View",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "66a86fef185747e2a2aabcfe29b7271b",
+            "href": "https://feeds.feedburner.com/wmnfsundayforum",
+            "title": "Sunday Forum",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "855279bc6ef64104a716de4464c7bff7",
+            "href": "https://feeds.feedburner.com/truetalk",
+            "title": "True Talk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6c3d165654614fe480b5f2a088a39f2a",
+            "href": "https://feeds.feedburner.com/wmnf/life_elsewhere",
+            "title": "Life Elsewhere",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0ebae859b82642e58cf999518134fc23",
+            "href": "https://feeds.feedburner.com/radioactivity",
+            "title": "Radio Activity",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "78096059f61b41f28b82d15df7a2aad0",
+            "href": "https://feeds.feedburner.com/talkinganimals",
+            "title": "Talking Animals",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "06ce2629b5364d149a6644b0a74fa322",
+            "href": "https://www.wmnf.org/support/donation/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/507.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

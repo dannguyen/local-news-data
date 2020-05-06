@@ -1,0 +1,414 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "MT"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/215",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kufm-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "215",
+        "network": {
+          "name": "Montana Public Radio",
+          "inheritingFrom": "214",
+          "usesInheritance": true,
+          "currentOrgId": "215",
+          "tier1": {
+            "name": "Montana Public Radio",
+            "id": "214",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KUFM-FM",
+                "id": "215",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KAPC-FM",
+                    "id": "216",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUFN-FM",
+                    "id": "217",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUHM-FM",
+                    "id": "218",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUKL-FM",
+                    "id": "219",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KGPR-FM",
+                    "id": "795",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPJH-FM",
+                    "id": "1440",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUFL-FM",
+                    "id": "1441",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700f14f14b4ca61dfcf3888954ad",
+        "brand": {
+          "band": "FM",
+          "call": "KUFM",
+          "frequency": "89.1",
+          "marketCity": "Missoula",
+          "marketState": "MT",
+          "name": "Montana Public Radio",
+          "tagline": "Learn something new every day."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "acb11ba9fb804f42ad92bcf36e6843aa",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KUFMFM.pls"
+              }
+            ],
+            "guid": "4fcf716904ad46ea9e33790f9a437eac",
+            "title": "Montana Public Radio Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.mtpr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/mtpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/mtpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/214_421e9d2cb10434215571c62d039c2795.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/214_bc456bf1d4692bc518a5f2ca16088189.mp4?1512515260923",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/214_66f5c46ad01c9e9b0abf3b84a2f35d83.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/214_1e52ba672a9b1686563708cb6d1b29e8.mp4?1512515063960",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/mtpublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/mtpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "acb11ba9fb804f42ad92bcf36e6843aa",
+            "href": "https://playerservices.streamtheworld.com/pls/KUFMFM.pls",
+            "isPrimaryStream": true,
+            "title": "Montana Public Radio Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "ff17e71878d14991b3fd5e520a0a5c1b",
+            "href": "https://kufm.drupal.publicbroadcasting.net/podcasts/3484/rss.xml",
+            "title": "Field Notes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "54f0aa90c8c04aa490e9e17a6a62baac",
+            "href": "https://kufm.drupal.publicbroadcasting.net/podcasts/36564/rss.xml",
+            "title": "Montana Wildfire News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e93737e965274841adb1bd9788e09099",
+            "href": "https://kufm.drupal.publicbroadcasting.net/podcasts/68741/rss.xml",
+            "title": "SubSurface: Resisting Montana's Underwater Invaders",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "be3fc6cc94ac418e8e78d744f9f21462",
+            "href": "https://kufm.drupal.publicbroadcasting.net/podcasts/term/50/rss.xml",
+            "title": "Montana News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1ad04a2c3ba54448a96f552932e88a63",
+            "href": "https://kufm.drupal.publicbroadcasting.net/podcasts/598/rss.xml",
+            "title": "Musician's Spotlight",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ec8e465b001e4492ac2b3ba06b43c8ec",
+            "href": "https://kufm.drupal.publicbroadcasting.net/podcasts/term/209/rss.xml",
+            "title": "Montana Public Radio Evening Newscasts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c0ec866541a04fa0ae697ad2d15afeaf",
+            "href": "https://kufm.drupal.publicbroadcasting.net/podcasts/3483/rss.xml",
+            "title": "Front Row Center",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f1b8b2edb98a41daa9ce83456092c21f",
+            "href": "https://kufm.drupal.publicbroadcasting.net/podcasts/67143/rss.xml",
+            "title": "Can Do: Lessons From Savvy Montana Entrepreneurs",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4dc466b78308484297cef3ed95728987",
+            "href": "https://kufm.drupal.publicbroadcasting.net/podcasts/83869/rss.xml",
+            "title": "Richest Hill",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8c026d562329425aa53103d9ac0188b5",
+            "href": "https://kufm.drupal.publicbroadcasting.net/podcasts/43771/rss.xml",
+            "title": "Campaign Beat",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "29f381ceba1b413f9d0f52daae80b113",
+            "href": "https://thresholdpodcast.libsyn.com/rss",
+            "title": "Threshold",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f7d03aa6e7514621940eaee67c89a484",
+            "href": "https://kufm.drupal.publicbroadcasting.net/podcasts/1788/rss.xml",
+            "title": "The Write Question",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e5ad9ec39a26481e8605b2c6429b1672",
+            "href": "https://kufm.drupal.publicbroadcasting.net/podcasts/56954/rss.xml",
+            "title": "Capitol Talk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3774d463881645d1bd8c320df73cd1e6",
+            "href": "http://mtpr.org/donate-mtpr",
+            "title": "MTPR Donation Page",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "3c69e024a2424a568836543850fcc950",
+            "href": "https://www.mtpr.org/donate-mtpr?utm_source=npr&utm_medium=donate",
+            "title": "Pledge Online",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "a58467856559422cac079d202f685181",
+            "href": "https://www.mtpr.org/donate-mtpr?utm_source=npr&utm_medium=donate",
+            "title": "Donate to MTPR",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/71",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kemc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "71",
+        "network": {
+          "name": "Yellowstone Public Radio",
+          "inheritingFrom": "70",
+          "usesInheritance": true,
+          "currentOrgId": "71",
+          "tier1": {
+            "name": "Yellowstone Public Radio",
+            "id": "70",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KEMC-FM",
+                "id": "71",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KBMC-FM",
+                    "id": "72",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KYPR-FM",
+                    "id": "73",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPRQ-FM",
+                    "id": "1056",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700e1253430aa32f81247683a1af",
+        "brand": {
+          "band": "FM",
+          "call": "KEMC",
+          "frequency": "91.7",
+          "marketCity": "Billings",
+          "marketState": "MT",
+          "name": "Yellowstone Public Radio",
+          "tagline": "Yellowstone Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "105fd2816b6e44d3a7c2570b7bdd652a",
+                "typeId": "10",
+                "href": "https://ypr.streamguys1.com/live"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "f107c215d857440da8018fb4f6833522",
+                "typeId": "13",
+                "href": "https://ypr.streamguys1.com/live-aac"
+              }
+            ],
+            "guid": "4fcf71540f114dd29dd3d0d1b45055d6",
+            "title": "KEMC Yellowstone Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://ypradio.org/",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "105fd2816b6e44d3a7c2570b7bdd652a",
+            "href": "https://ypr.streamguys1.com/live",
+            "isPrimaryStream": true,
+            "title": "KEMC Yellowstone Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f107c215d857440da8018fb4f6833522",
+            "href": "https://ypr.streamguys1.com/live-aac",
+            "isPrimaryStream": true,
+            "title": "KEMC Yellowstone Public Radio",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "97be3266f9884abbb01ce99fac6d94ea",
+            "href": "http://ypradio.org/support",
+            "title": "Pledge Online",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

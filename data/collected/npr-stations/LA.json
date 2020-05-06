@@ -1,0 +1,993 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "LA"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/711",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wwno-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "711",
+        "network": {
+          "inheritingFrom": "711",
+          "usesInheritance": false,
+          "currentOrgId": "711",
+          "tier1": {
+            "name": "WWNO-FM",
+            "id": "711",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KTLN-FM",
+                "id": "712",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "711",
+          "recency": 120
+        },
+        "guid": "4fcf70121923405e948e941cccdb89e4",
+        "brand": {
+          "band": "FM",
+          "call": "WWNO",
+          "frequency": "89.9",
+          "marketCity": "New Orleans",
+          "marketState": "LA",
+          "name": "WWNO - New Orleans Public Radio",
+          "tagline": "NPR news, music and culture for New Orleans and Southeast Louisiana."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "00699374873f49e596265b9523fc0bf6",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5145/wwnolive"
+              }
+            ],
+            "guid": "4fcf71440959424a8eadf4d79423fdef",
+            "title": "WWNO 89.9 FM | News, Culture & Music",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b59b5557a36f4837b170439bb5296133",
+                "typeId": "10",
+                "href": "https://tektite.streamguys1.com:5145/wwnojazz"
+              }
+            ],
+            "guid": "4fcf71440d6646df86d04045d75538e7",
+            "title": "Jazz WWNO: Jazz Music From New Orleans",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "fc3bdade110c4a6ea9bdb5cf81abf7d5",
+                "typeId": "13",
+                "href": "https://tektite.streamguys1.com:5145/wwnoclassical"
+              }
+            ],
+            "guid": "4fcf71440bf641b0ad0b93e189fd83fe",
+            "title": "Classical 104.9",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://wwno.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wwno_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wwno_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/711.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/899wwno",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wwno",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "00699374873f49e596265b9523fc0bf6",
+            "href": "https://tektite.streamguys1.com:5145/wwnolive",
+            "isPrimaryStream": true,
+            "title": "WWNO 89.9 FM | News, Culture & Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b59b5557a36f4837b170439bb5296133",
+            "href": "https://tektite.streamguys1.com:5145/wwnojazz",
+            "isPrimaryStream": false,
+            "title": "Jazz WWNO: Jazz Music From New Orleans",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "fc3bdade110c4a6ea9bdb5cf81abf7d5",
+            "href": "https://tektite.streamguys1.com:5145/wwnoclassical",
+            "isPrimaryStream": false,
+            "title": "Classical 104.9",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e15797638edd411bb7d2ead57b89702f",
+            "href": "https://wwno.drupal.publicbroadcasting.net/podcasts/88432/rss.xml",
+            "title": "TriPod: New Orleans at 300",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3fb330f4a08048af87be390ec1cf8439",
+            "href": "https://wwno.drupal.publicbroadcasting.net/podcasts/3524/rss.xml",
+            "title": "Louisiana Eats!",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e78fe62c36f0421ea4876b7c063e1c91",
+            "href": "https://wwno.drupal.publicbroadcasting.net/podcasts/14246/rss.xml",
+            "title": "Out to Lunch",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "22277660e9c2415c958ec86fbd6abc9e",
+            "href": "https://wwno.drupal.publicbroadcasting.net/podcasts/3557/rss.xml",
+            "title": "The Reading Life",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a1abc1789f2d43ba985251184cf59af4",
+            "href": "https://feeds.podtrac.com/4S-hYvoS7-rh",
+            "title": "WWNO's Le Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5fc229a20e2c4095b4f2f311d7943db9",
+            "href": "https://wwno.drupal.publicbroadcasting.net/podcasts/6094/rss.xml",
+            "title": "WWNO: Latest News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b92e1f08e0724a85962c26873c7373ba",
+            "href": "https://wwno.drupal.publicbroadcasting.net/podcasts/6101/rss.xml",
+            "title": "Community Impact",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4e2073ccd5ee4539901d0a703e6bd6fe",
+            "href": "https://wwno.drupal.publicbroadcasting.net/podcasts/151142/rss.xml",
+            "title": "Sticky Wicket",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "12aa7d6eeeb444e0b36dd5be75a2f689",
+            "href": "https://wwno.drupal.publicbroadcasting.net/podcasts/3573/rss.xml",
+            "title": "All  Things New Orleans",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7340cead34c44d9eb72d06f6670c2877",
+            "href": "https://wwno.drupal.publicbroadcasting.net/podcasts/7089/rss.xml",
+            "title": "Notes From New Orleans",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7ec7f683ad3345a1af75f6465eb2bdb1",
+            "href": "https://wwno.drupal.publicbroadcasting.net/podcasts/6095/rss.xml",
+            "title": "Where Y'Eat",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5354d600e4b14b4ba5ec9bf3cfaa3c3a",
+            "href": "https://wwno.drupal.publicbroadcasting.net/podcasts/6099/rss.xml",
+            "title": "Inside The Arts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "bed7c21767664785aae141f53c7865a4",
+            "href": "http://wwno.org/donate",
+            "title": "Support WWNO",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "aa6c103f2e624c1eb5c87e03fb3dc218",
+            "href": "http://wwno.org/donate",
+            "title": "Support New Orleans Public Radio",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "57e091f4018a4eb396563d0c69ac642a",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/711_30c1739352e9ce79bb0c85ab2812b98b.mp4",
+            "title": "MEMBERSHIP EG #41 899",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "8824738ff77c4724a07f5342f97fb6e1",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/711_53d6c80239a61891b6982bbcaca00e64.mp4",
+            "title": "MEMBERSHIP EG #31 899",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "d01bb79fcc704864a7620b9a42d0c242",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/711_c4d01ecb8109fb9793deac40296b0801.mp4",
+            "title": "MEMBERSHIP EG #42 899",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "bca92e8ff24f45998e79b377d1e5c8fd",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/711_813d69e6f0156eb88e20e042d75ed86e.mp4",
+            "title": "MEMBERSHIP EG #32 899",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/711.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/595",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wrkf-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "595",
+        "network": {
+          "name": "WRKF",
+          "inheritingFrom": "594",
+          "usesInheritance": true,
+          "currentOrgId": "595",
+          "tier1": {
+            "name": "WRKF Public Radio",
+            "id": "594",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WRKF-FM",
+                "id": "595",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "594",
+          "recency": 360
+        },
+        "guid": "4fcf7011258348599673eaaa0d70f553",
+        "brand": {
+          "band": "FM",
+          "call": "WRKF",
+          "frequency": "89.3",
+          "marketCity": "Baton Rouge",
+          "marketState": "LA",
+          "name": "WRKF",
+          "tagline": "40 years of NPR for Baton Rouge."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3a53d938a7214936aad04b55a76089e9",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WRKFFM.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "a507139f91614ce5a79f470c885e2af9",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRKFFM_ADP.aac"
+              }
+            ],
+            "guid": "4fcf7166268d4f1e87734cdf01a6bad2",
+            "title": "89.3 WRKF Baton Rouge",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "368533a236d440a1a26741afa467a6c4",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WRKFHD2.pls"
+              }
+            ],
+            "guid": "145d81550b603064ac48b20004f39c54",
+            "title": "WRKF-HD2 89.3",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wrkf.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wrkf.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wrkf.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/594.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/WRKF893",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/wrkf",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3a53d938a7214936aad04b55a76089e9",
+            "href": "https://playerservices.streamtheworld.com/pls/WRKFFM.pls",
+            "isPrimaryStream": true,
+            "title": "89.3 WRKF Baton Rouge",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "368533a236d440a1a26741afa467a6c4",
+            "href": "https://playerservices.streamtheworld.com/pls/WRKFHD2.pls",
+            "isPrimaryStream": false,
+            "title": "WRKF-HD2 89.3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a507139f91614ce5a79f470c885e2af9",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRKFFM_ADP.aac",
+            "isPrimaryStream": true,
+            "title": "89.3 WRKF Baton Rouge",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "c7b97c047d8b474ea2d16052941908ff",
+            "href": "https://wrkf.drupal.publicbroadcasting.net/podcasts/614/rss.xml",
+            "title": "Bayou Garden",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1ff8e3598b064352962be6323ca15c17",
+            "href": "https://wrkf.drupal.publicbroadcasting.net/podcasts/65810/rss.xml",
+            "title": "Talk Louisiana",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "71cbe36e63514bd280bd0ec406087cf0",
+            "href": "https://wrkf.drupal.publicbroadcasting.net/podcasts/8551/rss.xml",
+            "title": "Capitol Access",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "e929646c8de94484afe4aec87fdd9631",
+            "href": "https://wrkf.secureallegiance.com/wrkf/WebModule/Donate.aspx?P=WEB2019&PAGETYPE=PLG&CHECK=RmCkD65dLKSq6cgDKOfqnuzWDeZ%2beA1M",
+            "title": "WRKF Donation Form",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "74584f5633ed4878a6ca4af7d3feba2d",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/594_dd9033272f5490c254f7e610d917f7af.mp4",
+            "title": null,
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/166",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf700f077144b7867661a8f4c9eecc",
+        "brand": {
+          "band": "FM",
+          "call": "KRVS",
+          "frequency": "88.7",
+          "marketCity": "Lafayette",
+          "marketState": "LA",
+          "name": "KRVS",
+          "tagline": "Radio Acadie"
+        },
+        "orgId": "166",
+        "network": {
+          "inheritingFrom": "166",
+          "usesInheritance": false,
+          "currentOrgId": "166",
+          "tier1": {
+            "name": "KRVS-FM",
+            "id": "166",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "8fb4ef69bda34a4d9f7b85c9a0485806",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KRVSFM.pls"
+              }
+            ],
+            "guid": "4fcf715a215649649bcd60a459a13bef",
+            "title": "KRVS-FM - MP3 Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.krvs.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/krvs_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/krvs_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/166.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/group.php?gid=33407333130",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "8fb4ef69bda34a4d9f7b85c9a0485806",
+            "href": "https://playerservices.streamtheworld.com/pls/KRVSFM.pls",
+            "isPrimaryStream": true,
+            "title": "KRVS-FM - MP3 Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "7ea8d80ec4044dc386ba342b623f015c",
+            "href": "http://krvs.org/support-krvs",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/166.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/62",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "62",
+        "network": {
+          "name": "Red River Radio",
+          "inheritingFrom": "61",
+          "usesInheritance": true,
+          "currentOrgId": "62",
+          "tier1": {
+            "name": "Red River Radio Network",
+            "id": "61",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KDAQ-FM",
+                "id": "62",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KBSA-FM",
+                    "id": "63",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLDN-FM",
+                    "id": "64",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLSA-FM",
+                    "id": "65",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "61",
+          "recency": 360
+        },
+        "guid": "4fcf700e0fbb4e839bc50129b0bd8a3d",
+        "brand": {
+          "band": "FM",
+          "call": "KDAQ",
+          "frequency": "89.9",
+          "marketCity": "Shreveport",
+          "marketState": "LA",
+          "name": "Red River Radio",
+          "tagline": "Your source for great music and in-depth news."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d147636331da4875bf5a2a2ecb9f3e66",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQHD2.mp3"
+              }
+            ],
+            "guid": "308efd7d9c234bf28ed6d1e6e7b4be6f",
+            "title": "Red River Radio HD2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c609c2945d7f42adb6052782571358ea",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQHD3.mp3"
+              }
+            ],
+            "guid": "6c70b632a2f247f0a7448bb983c41c06",
+            "title": "Red River Radio HD3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "805ab8b968054c259a079161b907e201",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQFM.mp3"
+              }
+            ],
+            "guid": "e9b4428366034826857faf8ee2d817de",
+            "title": "Red River Radio HD1",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://redriverradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/rrr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/rrr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/61_8991016fb868157c59b53fdf19559900.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Red-River-Radio/110583654120",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/rrrpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "d147636331da4875bf5a2a2ecb9f3e66",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQHD2.mp3",
+            "isPrimaryStream": false,
+            "title": "Red River Radio HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c609c2945d7f42adb6052782571358ea",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQHD3.mp3",
+            "isPrimaryStream": false,
+            "title": "Red River Radio HD3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "805ab8b968054c259a079161b907e201",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQFM.mp3",
+            "isPrimaryStream": true,
+            "title": "Red River Radio HD1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "03858221f65441cf935154da7efa9cca",
+            "href": "http://www.publicbroadcasting.net/rrr/.jukebox?action=viewPodcast&podcastId=461",
+            "title": "The Commentaries of Dr. Archie McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2ad11808c33146b98129c17fe15e6eab",
+            "href": "http://www.publicbroadcasting.net/rrr/.jukebox?action=viewPodcast&podcastId=461",
+            "title": "The Commentaries of Dr. Archie McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ffcb5bad07114c1f944ee4d2bf08e1c9",
+            "href": "http://www.publicbroadcasting.net/rrr/.jukebox?action=viewPodcast&podcastId=461",
+            "title": "The Commentaries of Dr. Archie McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a07f6cc0f0334be392997c4ee94f1322",
+            "href": "http://www.publicbroadcasting.net/rrr/.jukebox?action=viewPodcast&podcastId=461",
+            "title": "The Commentaries of Dr. Archie McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "c5650f4e34fc4965a704e85a231aa783",
+            "href": "https://donate.nprstations.org/rrr/",
+            "title": "Support Red River Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "61f12a54d5704cd195b7663e0c84f8fc",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/61_09f798adfd7e9dff547f38c09bd27735.mp4",
+            "title": "Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/66",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "66",
+        "network": {
+          "inheritingFrom": "66",
+          "usesInheritance": false,
+          "currentOrgId": "66",
+          "tier1": {
+            "name": "KEDM-FM",
+            "id": "66",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "66",
+          "recency": 360
+        },
+        "guid": "4fcf700e11074bf1b1a4f104948164c7",
+        "brand": {
+          "band": "FM",
+          "call": "KEDM",
+          "frequency": "90.3",
+          "marketCity": "Monroe",
+          "marketState": "LA",
+          "name": "KEDM Public Radio",
+          "tagline": "NPR News, Classical and Jazz in the Delta"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3526d3a4ca7b4c188cbb11e42ae12802",
+                "typeId": "10",
+                "href": "https://stream.kedm.org/listen"
+              }
+            ],
+            "guid": "8ea52d144a9548caba537d949bcf52bf",
+            "title": "KEDM",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d288b3d328994e1499d0f12447364193",
+                "typeId": "10",
+                "href": "https://stream.kedm.org/listen2"
+              }
+            ],
+            "guid": "edea9f94a5fd41559a063e7b34148673",
+            "title": "KEDM Ideas",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kedm.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kedm_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kedm_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/66_dc0ebad8fce8d83d196a60644671e483.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KEDM-Public-Radio/329717171484",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/kedmpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3526d3a4ca7b4c188cbb11e42ae12802",
+            "href": "https://stream.kedm.org/listen",
+            "isPrimaryStream": true,
+            "title": "KEDM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "d288b3d328994e1499d0f12447364193",
+            "href": "https://stream.kedm.org/listen2",
+            "isPrimaryStream": false,
+            "title": "KEDM Ideas",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "3f8efd008d2a4af4970814d0cd6605d1",
+            "href": "https://kedm.drupal.publicbroadcasting.net/podcasts/63/rss.xml",
+            "title": "Bayou-Diversity",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d95331efa2a440fbb9bb55e064c32932",
+            "href": "https://kedm.drupal.publicbroadcasting.net/podcasts/49/rss.xml",
+            "title": "Lagniappe",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8e5aba78cf1c49a38e1c523882bc95e6",
+            "href": "https://kedm.drupal.publicbroadcasting.net/podcasts/87587/rss.xml",
+            "title": "Life Transitions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0ba3809bc8ac41b3b4a8958e53353d48",
+            "href": "https://kedm.drupal.publicbroadcasting.net/podcasts/90994/rss.xml",
+            "title": "Time to Talk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "dbb06d7e7cc9408286754ec241cd8218",
+            "href": "https://kedm.drupal.publicbroadcasting.net/podcasts/407/rss.xml",
+            "title": "Wisdom on Wealth",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f70086ed2f5e4dbc8e2f51f1dc9f3cf7",
+            "href": "https://kedm.drupal.publicbroadcasting.net/podcasts/92039/rss.xml",
+            "title": "Byway Blues",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "8302bf87876c451ea69aafa152c4a4cb",
+            "href": "https://webservices.ulm.edu/support-kedm/",
+            "title": "Support KEDM",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b4cdc1511cb04c2da94633460be68f23",
+            "href": "https://webservices.ulm.edu/support-kedm/",
+            "title": "Give the Joy of Learning",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/66.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

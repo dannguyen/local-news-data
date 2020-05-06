@@ -1,0 +1,2423 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "MA"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/330",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wbur-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "330",
+        "network": {
+          "name": "WBUR",
+          "inheritingFrom": "329",
+          "usesInheritance": true,
+          "currentOrgId": "330",
+          "tier1": {
+            "name": "WBUR",
+            "id": "329",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WBUR-FM",
+                "id": "330",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WCCT-FM",
+                    "id": "332",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WBUA-FM",
+                    "id": "1375",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WBUH-FM",
+                    "id": "1581",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "329",
+          "recency": 120
+        },
+        "guid": "4fcf70100aa8456b8ce1c8ffebbbccbf",
+        "brand": {
+          "band": "FM",
+          "call": "WBUR",
+          "frequency": "90.9",
+          "marketCity": "Boston",
+          "marketState": "MA",
+          "name": "WBUR",
+          "tagline": "Boston's NPR News Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e420ca7fa570417d91f1d3f384b72362",
+                "typeId": "10",
+                "href": "https://icecast-stream.wbur.org/wbur_nprorg"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "1ece4a1938054785affc0e49659b8eee",
+                "typeId": "13",
+                "href": "https://icecast-stream.wbur.org/wbur.aac"
+              }
+            ],
+            "guid": "4fcf716b025e4953a43696cd3bc11900",
+            "title": "90.9 WBUR, Boston's NPR News Station",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wbur.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wbur.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wbur.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/329_343a16921d67f77b6b082089e672bfe1.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/329_9b97fccea7067ec8e41025e55f02049b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/329_58fcbf4681f31a02376de1b5df0c1ef7.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/329_1fd8ee824e34946b0ab8149fd0aa59a9.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/329_367077ea499db3b85b4731fc8851d725.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/329_a9d0e6948d5e67edfa4a6eb1abc6e478.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/wburnews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e420ca7fa570417d91f1d3f384b72362",
+            "href": "https://icecast-stream.wbur.org/wbur_nprorg",
+            "isPrimaryStream": true,
+            "title": "90.9 WBUR, Boston's NPR News Station",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1ece4a1938054785affc0e49659b8eee",
+            "href": "https://icecast-stream.wbur.org/wbur.aac",
+            "isPrimaryStream": true,
+            "title": "90.9 WBUR, Boston's NPR News Station",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "9d819b213a88472fb7a7e6696fdc9d35",
+            "href": "https://rss.wbur.org/morningconditions/podcast",
+            "title": "Morning Conditions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2bf94522338942c69bb2ad1ac3110aff",
+            "href": "https://rss.wbur.org/lastseen/podcast",
+            "title": "Last Seen",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f26a56c2dfae4e9eaae383865a2758c7",
+            "href": "https://rss.wbur.org/radioboston/podcast",
+            "title": "Radio Boston Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b2a077d91bb14337a6347175a5d367e1",
+            "href": "https://rss.wbur.org/onpoint/books/podcast",
+            "title": "On Point: Books",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3cc8aa9c97aa47f6aa06ca8dd7139319",
+            "href": "https://rss.wbur.org/magicpill/podcast",
+            "title": "The Magic Pill",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e09d255f640245cc98dda2a0ea9a8d07",
+            "href": "https://rss.wbur.org/onpoint/week-in-the-news/podcast",
+            "title": "On Point: Week in the News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a992f9131aa34b2dbfe0b037faa6e3df",
+            "href": "https://rss.wbur.org/circleround/podcast",
+            "title": "Circle Round",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "53616196f602470aa5752e02aade4ad2",
+            "href": "https://rss.wbur.org/coronavirusbriefly/podcast",
+            "title": "Coronavirus, Briefly",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2c7ffeb517ee4297acd2e90425faa172",
+            "href": "https://rss.wbur.org/seasonticket/podcast",
+            "title": "Season Ticket",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0d027325710f4c7a90e9732fc4c0f287",
+            "href": "https://rss.wbur.org/news/podcast",
+            "title": "WBUR News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1f597f8e1c84489abdd33a696c3e8efb",
+            "href": "https://rss.wbur.org/freakout/podcast",
+            "title": "Freak Out and Carry On",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "aa1e68193b244416adaf82f3a35b7e17",
+            "href": "https://rss.art19.com/dear-sugars",
+            "title": "Dear Sugar Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f8904128149d437a983b3b84c0625de9",
+            "href": "https://rss.wbur.org/geoffedgers/podcast",
+            "title": "Edge of Fame",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "80ae56e1a769436b9e09f2a1be13cdac",
+            "href": "https://rss.wbur.org/modernlove/podcast",
+            "title": "Modern Love",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "20fa246d1aa5478882925de59b2508cc",
+            "href": "https://rss.wbur.org/investigations/podcast",
+            "title": "WBUR Investigations",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e3e2cc5ad3374df5a3b0438ba6b52e3a",
+            "href": "https://rss.wbur.org/kindworld/podcast",
+            "title": "Kind World",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "15b8b0cd3489469bba5f833ccd4c726b",
+            "href": "https://rss.wbur.org/foodtalk/podcast",
+            "title": "Food, We Need To Talk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "945ca843c2aa46e08a7b844566b7f6c2",
+            "href": "https://rss.wbur.org/morningconditions/podcast",
+            "title": "Morning Conditions",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4ab69e75616945babf0b54467ec0800d",
+            "href": "https://rss.wbur.org/onpoint/podcast",
+            "title": "On Point",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "af100bed5a85464c8d84ced48b572c1a",
+            "href": "https://rss.wbur.org/endlessthread/podcast",
+            "title": "Endless Thread",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "dee160bfc1184df09a4450588c60b0a7",
+            "href": "https://secure.wbur.org/WebModule/Donate.aspx?P=NPRWEB&PAGETYPE=PLG&CHECK=VHzRQqjZUo2a7VhFRwh3BhiCxtaFReuS",
+            "title": "Support WBUR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "451a815b3e6449c58a43bb90a633a08a",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/329_68ff1ae7236b1efc525915ba04856f43.mp4",
+            "title": "Donation MC-10-tap",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "55d513126b6b40b29b58b99d8778ca6c",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/329_0af0d670480566a9e000bfbc829e2acc.mp4",
+            "title": "Donation MC-11-email",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "2f804970fb2c4292b81458a1372653d4",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/329_6606c0d1f27cca255b1dbfbec5694157.mp4",
+            "title": "Donation JH-14b-tap",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "627f58b75a6e4e55b95d252d409fe2bb",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/329_e32cdbab8de9d8ff5844cb466e9f3a39.mp4",
+            "title": "Donation JH-11a-email",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/396",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wgbh-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "396",
+        "network": {
+          "name": "WGBH Radio",
+          "inheritingFrom": "395",
+          "usesInheritance": true,
+          "currentOrgId": "396",
+          "tier1": {
+            "name": "WGBH Radio",
+            "id": "395",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WGBH-FM",
+                "id": "396",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WCAI-FM",
+                    "id": "397",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WNAN-FM",
+                    "id": "398",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WZAI-FM",
+                    "id": "1040",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WCRB-FM",
+                    "id": "1142",
+                    "usesInheritance": false
+                  }
+                ]
+              },
+              {
+                "name": "Classical New England",
+                "id": "168809220",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "395",
+          "recency": 120
+        },
+        "guid": "4fcf70101c244d7686c748bb88a50795",
+        "brand": {
+          "band": "FM",
+          "call": "WGBH",
+          "frequency": "89.7",
+          "marketCity": "Boston",
+          "marketState": "MA",
+          "name": "WGBH Radio",
+          "tagline": "Listen Live: Boston's Local NPR"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c9c748b8e9394fcb84246a99a324a389",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org/BostonEarlyMusic-8112"
+              }
+            ],
+            "guid": "0bcaf3720f6746b2b549c24ccee86359",
+            "title": "Boston Early Music from WCRB",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1413ee87652744769a61b7a1ca0d1c42",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org:8200/wgbh-npr1"
+              }
+            ],
+            "guid": "14b79c94bd1010146c592f11fc322a99",
+            "title": "WGBH News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "287bacffae6b4f86b5002552d015b316",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org/jazz-npr1"
+              }
+            ],
+            "guid": "1272855b373b4c5481bb610c7e8a2b20",
+            "title": "Eric in the Evening Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bca58770b7a34f4da5ce25f886637f0d",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org:8204/wcrb-npr1"
+              }
+            ],
+            "guid": "4fcf714d02774ab990ab770d3d09844d",
+            "title": "WCRB - Boston's Classical Station",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wgbhnews.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wgbh.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wgbh.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/395_a924ac288646695c858b2c554632fcf6.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WGBHNews",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wgbhnews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "c9c748b8e9394fcb84246a99a324a389",
+            "href": "https://streams.audio.wgbh.org/BostonEarlyMusic-8112",
+            "isPrimaryStream": false,
+            "title": "Boston Early Music from WCRB",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1413ee87652744769a61b7a1ca0d1c42",
+            "href": "https://streams.audio.wgbh.org:8200/wgbh-npr1",
+            "isPrimaryStream": true,
+            "title": "WGBH News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "287bacffae6b4f86b5002552d015b316",
+            "href": "https://streams.audio.wgbh.org/jazz-npr1",
+            "isPrimaryStream": false,
+            "title": "Eric in the Evening Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bca58770b7a34f4da5ce25f886637f0d",
+            "href": "https://streams.audio.wgbh.org:8204/wcrb-npr1",
+            "isPrimaryStream": false,
+            "title": "WCRB - Boston's Classical Station",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "0341ab6564c0485187602a1f1770ad41",
+            "href": "https://feeds.wgbh.org/86/feed-rss.xml",
+            "title": "The Frontline Dispatch",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "be1d94bcf7e84ea1b602aa30fdd2ada3",
+            "href": "https://feeds.wgbh.org/156/feed-rss.xml",
+            "title": "GroundTruth",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a39ccf1cabe545dc8a1332189cd92ff8",
+            "href": "https://feeds.wgbh.org/250/feed-rss.xml",
+            "title": "The Creeping Hour",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "237a983f469a45718aad6e8b22c8cd83",
+            "href": "https://feeds.wgbh.org/170/feed-rss.xml",
+            "title": "Basic Black",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fc5a1a868b204652a61c1e31cb2ee47f",
+            "href": "https://feeds.wgbh.org/181/feed-rss.xml",
+            "title": "Under the Radar with Callie Crossley",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b8cef463408f4224a8f2ea7fe2726bb5",
+            "href": "https://feeds.wgbh.org/193/feed-rss.xml",
+            "title": "Molly of Denali",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "737ed58400f940758dcf712073ba692e",
+            "href": "https://feeds.wgbh.org/106/feed-rss.xml",
+            "title": "Innovation Hub",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a5a82b65867f4eb68733598dd28c9f2f",
+            "href": "https://feeds.wgbh.org/103/feed-rss.xml",
+            "title": "The Scrum",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b9d4b5360ad8438fbab49fc1bbadb43d",
+            "href": "https://feeds.wgbh.org/191/feed-rss.xml",
+            "title": "Mining Poldark",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "80520bec154c45fa9c5eaece46f042b9",
+            "href": "https://feeds.wgbh.org/154/feed-rss.xml",
+            "title": "Boston Public Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d4c96f38f07d4392b4b76e0c8266931c",
+            "href": "https://feeds.wgbh.org/290/feed-rss.xml",
+            "title": "In it Together",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1918fd308a3e48839a6edb3644730515",
+            "href": "https://feeds.wgbh.org/252/feed-rss.xml",
+            "title": "WGBH News Presents: Fire In The Valley.",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a8ac79069229426792189d863af73be5",
+            "href": "https://feeds.wgbh.org/99/feed-rss.xml",
+            "title": "Masterpiece Studio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4627ed08816f4adc984b3d4911d882c7",
+            "href": "https://feeds.wgbh.org/225/feed-rss.xml",
+            "title": "All Rev'd Up",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9345d6e76e7845179ca7124b25f3c380",
+            "href": "https://feeds.wgbh.org/163/feed-rss.xml",
+            "title": "Classical Performance",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "22c4c33748fe4e03af6ba09ad97eeb54",
+            "href": "https://www.wgbh.org/support/donate-to-wgbh-from-npr",
+            "title": null,
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/382",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wfcr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "382",
+        "network": {
+          "inheritingFrom": "382",
+          "usesInheritance": false,
+          "currentOrgId": "382",
+          "tier1": {
+            "name": "WFCR-FM",
+            "id": "382",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WNNZ-AM",
+                "id": "1068",
+                "usesInheritance": true
+              },
+              {
+                "name": "WNNZ-FM",
+                "id": "1196",
+                "usesInheritance": true
+              },
+              {
+                "name": "WAIC-FM",
+                "id": "1310",
+                "usesInheritance": true
+              },
+              {
+                "name": "WNNU-FM",
+                "id": "1388",
+                "usesInheritance": true
+              },
+              {
+                "name": "WNNI-FM",
+                "id": "1470",
+                "usesInheritance": true
+              },
+              {
+                "name": "WAMH-FM",
+                "id": "1521",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "382",
+          "recency": 360
+        },
+        "guid": "4fcf7010168349a3ba11270d1005df46",
+        "brand": {
+          "band": "FM",
+          "call": "WFCR",
+          "frequency": "88.5",
+          "marketCity": "Amherst",
+          "marketState": "MA",
+          "name": "New England Public Radio",
+          "tagline": "Listen Up."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ba4b12d84a024c96a6fdbb5707bb95e3",
+                "typeId": "10",
+                "href": "https://nepr.streamguys1.com/WNNZ.mp3"
+              }
+            ],
+            "guid": "4fcf716611404e448141cf689bd5d18c",
+            "title": "NEPR News Network",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "40873e366e124ccfb63b102c67891866",
+                "typeId": "10",
+                "href": "https://nepr.streamguys1.com/WFCR.mp3"
+              }
+            ],
+            "guid": "4fcf7164089a4bf1840888c5cf132470",
+            "title": "New England Public Radio - NEPR",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ff884d0cb2534478ab0b3065e49049ef",
+                "typeId": "10",
+                "href": "https://nepr.streamguys1.com/WFCR-HD.mp3"
+              }
+            ],
+            "guid": "4fcf71640f4c4028a786fc688cb1c28c",
+            "title": "NEPR's All Classical HD2",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://nepr.net/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wfcr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wfcr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/382.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/newenglandpublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/wfcr885",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "ba4b12d84a024c96a6fdbb5707bb95e3",
+            "href": "https://nepr.streamguys1.com/WNNZ.mp3",
+            "isPrimaryStream": false,
+            "title": "NEPR News Network",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "40873e366e124ccfb63b102c67891866",
+            "href": "https://nepr.streamguys1.com/WFCR.mp3",
+            "isPrimaryStream": true,
+            "title": "New England Public Radio - NEPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ff884d0cb2534478ab0b3065e49049ef",
+            "href": "https://nepr.streamguys1.com/WFCR-HD.mp3",
+            "isPrimaryStream": false,
+            "title": "NEPR's All Classical HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "3d35c3bbe6da4b14b86bfdd25c07e359",
+            "href": "https://wfcr.drupal.publicbroadcasting.net/podcasts/1073/rss.xml",
+            "title": "Words in Transit",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e94afa2ea0bb4813883f44c4a53d0944",
+            "href": "https://wfcr.drupal.publicbroadcasting.net/podcasts/16416/rss.xml",
+            "title": "Presto!",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5cabb0de45944977bc3c8cc0857b70bc",
+            "href": "https://wfcr.drupal.publicbroadcasting.net/podcasts/767/rss.xml",
+            "title": "JazzBeat with Tom Reney",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "daca2e734c3f4cf8b58b4c6881bc41c7",
+            "href": "https://wfcr.drupal.publicbroadcasting.net/podcasts/768/rss.xml",
+            "title": "NEPR News Now: Stories You Really Shouldn't Miss",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5d56016e87ac40c38d3e666b8395d3f4",
+            "href": "https://wfcr.drupal.publicbroadcasting.net/podcasts/769/rss.xml",
+            "title": "The Short List: NEPR's Week In Review",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "447098e77cac466cb9414681d8ed3460",
+            "href": "https://wfcr.drupal.publicbroadcasting.net/podcasts/16909/rss.xml",
+            "title": "Beacon Hill In 5",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "de01a23008124a64b0d9613ebce9af9a",
+            "href": "https://wfcr.drupal.publicbroadcasting.net/podcasts/15877/rss.xml",
+            "title": "In Contrast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "31954cb71ce34db9985efc6549ffde7a",
+            "href": "https://wfcr.drupal.publicbroadcasting.net/podcasts/3997/rss.xml",
+            "title": "Media Lab Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cf2b824e9e4246819b6618f656ab07ea",
+            "href": "https://wfcr.drupal.publicbroadcasting.net/podcasts/771/rss.xml",
+            "title": "Valley Voices",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5664f4902ba74007b6e43a87c04af240",
+            "href": "https://wfcr.drupal.publicbroadcasting.net/podcasts/766/rss.xml",
+            "title": "College Connection",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "fdd8f3144ec641f993dcf469977ca94f",
+            "href": "https://be.nepm.org/nepr/index.html",
+            "title": "Contribute to NEPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "bdc624452e544ea0a7cc4d8b10edf541",
+            "href": "https://be.nepm.org/nepr/index.html",
+            "title": "Support NEPR",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "5887d8895bcc4fc3b770a779629b0927",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/382_0a52c84acd22a2856a3eb1b677a9f1cc.mp4?1559665811960",
+            "title": "Jill Kaufman3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/382.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/397",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wgbh-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "397",
+        "network": {
+          "inheritingFrom": "397",
+          "usesInheritance": false,
+          "currentOrgId": "397"
+        },
+        "guid": "4fcf70101cac4082abb637311b67d853",
+        "brand": {
+          "band": "FM",
+          "call": "WCAI",
+          "frequency": "90.1",
+          "marketCity": "Woods Hole",
+          "marketState": "MA",
+          "name": "WCAI",
+          "tagline": "Local NPR for the Cape, the Coast, and the Islands"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1413ee87652744769a61b7a1ca0d1c42",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org:8200/wgbh-npr1"
+              }
+            ],
+            "guid": "14b79c94bd1010146c592f11fc322a99",
+            "title": "WGBH News",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e11ce76d98a84d55aff3da62eb33a58d",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org:8202/wcai"
+              }
+            ],
+            "guid": "4fcf714d0aab4838a4b3549ad87fe1fb",
+            "title": "WCAI-FM",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bca58770b7a34f4da5ce25f886637f0d",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org:8204/wcrb-npr1"
+              }
+            ],
+            "guid": "4fcf714d02774ab990ab770d3d09844d",
+            "title": "WCRB - Boston's Classical Station",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c9c748b8e9394fcb84246a99a324a389",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org/BostonEarlyMusic-8112"
+              }
+            ],
+            "guid": "0bcaf3720f6746b2b549c24ccee86359",
+            "title": "Boston Early Music from WCRB",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.capeandislands.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wcai_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wcai_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/397_a2efd367dc507bb8cacb75a2bc5421c9.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WCAI.NPR",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WCAI_NPR",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1413ee87652744769a61b7a1ca0d1c42",
+            "href": "https://streams.audio.wgbh.org:8200/wgbh-npr1",
+            "isPrimaryStream": false,
+            "title": "WGBH News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "e11ce76d98a84d55aff3da62eb33a58d",
+            "href": "https://streams.audio.wgbh.org:8202/wcai",
+            "isPrimaryStream": true,
+            "title": "WCAI-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bca58770b7a34f4da5ce25f886637f0d",
+            "href": "https://streams.audio.wgbh.org:8204/wcrb-npr1",
+            "isPrimaryStream": false,
+            "title": "WCRB - Boston's Classical Station",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c9c748b8e9394fcb84246a99a324a389",
+            "href": "https://streams.audio.wgbh.org/BostonEarlyMusic-8112",
+            "isPrimaryStream": false,
+            "title": "Boston Early Music from WCRB",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "30138131302f4662b19ceb830ab62218",
+            "href": "https://wcai.drupal.publicbroadcasting.net/podcasts/88523/rss.xml",
+            "title": "The Forgetting",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e67d9fa8f4d1448ea03f2bc1d979ddd8",
+            "href": "https://wcai.drupal.publicbroadcasting.net/podcasts/321/rss.xml",
+            "title": "The Point on WCAI",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e86cbf0df547408098f8077294a2af77",
+            "href": "https://wcai.drupal.publicbroadcasting.net/podcasts/125/rss.xml",
+            "title": "Living Lab Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "57ef97ccc69a4a0286c48485832e7a23",
+            "href": "https://be.wgbh.org/wcaidonate/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/397.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/300",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "300",
+        "network": {
+          "name": "WAMC Northeast Public Radio",
+          "inheritingFrom": "297",
+          "usesInheritance": true,
+          "currentOrgId": "300",
+          "tier1": {
+            "name": "Northeast Public Radio",
+            "id": "297",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WAMC-FM",
+                "id": "298",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WAMK-FM",
+                    "id": "299",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WAMQ-FM",
+                    "id": "300",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WANC-FM",
+                    "id": "301",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WCAN-FM",
+                    "id": "302",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WCEL-FM",
+                    "id": "303",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WOSR-FM",
+                    "id": "304",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WAMC-AM",
+                    "id": "841",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRUN-FM",
+                    "id": "1082",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WANZ-FM",
+                    "id": "1230",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WWES-FM",
+                    "id": "1231",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WANR-FM",
+                    "id": "1480",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf701002814eec9fc38ea07c6bc75a",
+        "brand": {
+          "band": "FM",
+          "call": "WAMQ",
+          "frequency": "105.1",
+          "marketCity": "Great Barrington",
+          "marketState": "MA",
+          "name": "WAMC Northeast Public Radio",
+          "tagline": "WAMC/Northeast Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e5f1df7f86b841d895b2382e01b46297",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WAMCHD2.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "1d35374daab34a668552d41a51273f0c",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/WAMCHD2AAC.pls"
+              }
+            ],
+            "guid": "14b506ffe5d0365414c97a7982b36415",
+            "title": "WAMC-HD2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f6e9897c2c6e425cb525a136c6e8d69d",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WAMCFM.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "b43f22a3330d46a3944ceb2cccadd3e4",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/WAMCFMAAC.pls"
+              }
+            ],
+            "guid": "13dcc5b8752013a4a85ab4625893396b",
+            "title": "WAMC-FM Main Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wamc.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/nepr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/nepr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/297_3fb292497b29f232ed86b700488330c9.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/297_d07f31e0e3cf4b616169d62ac13d58b5.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/297_c930441ed9826987dabf82fafc1f021a.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WAMCradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e5f1df7f86b841d895b2382e01b46297",
+            "href": "https://playerservices.streamtheworld.com/pls/WAMCHD2.pls",
+            "isPrimaryStream": false,
+            "title": "WAMC-HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f6e9897c2c6e425cb525a136c6e8d69d",
+            "href": "https://playerservices.streamtheworld.com/pls/WAMCFM.pls",
+            "isPrimaryStream": true,
+            "title": "WAMC-FM Main Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1d35374daab34a668552d41a51273f0c",
+            "href": "https://playerservices.streamtheworld.com/pls/WAMCHD2AAC.pls",
+            "isPrimaryStream": false,
+            "title": "WAMC-HD2",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "b43f22a3330d46a3944ceb2cccadd3e4",
+            "href": "https://playerservices.streamtheworld.com/pls/WAMCFMAAC.pls",
+            "isPrimaryStream": true,
+            "title": "WAMC-FM Main Stream",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "18b5d7b264b244af942119e9f2660aee",
+            "href": "https://wamcpodcasts.org/feed/podcast/retconned",
+            "title": "Retconned Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "df33d81c81b743bfb0423e6c9d11de83",
+            "href": "https://wamcpodcasts.org/feed/podcast/the-creative-process",
+            "title": "The Creative Process",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "acec5483406c41258a409e2997568a68",
+            "href": "https://wamcpodcasts.org/feed/podcast/food-friday-leftovers",
+            "title": "Food Friday: Leftovers",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0e1fcfd63aa2411385782fd1b1e8aeb2",
+            "href": "https://wamc.drupal.publicbroadcasting.net/podcasts/782/rss.xml",
+            "title": "51 Percent",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fb67667ebd8e49958eeceb7b2caf5020",
+            "href": "https://wamc.drupal.publicbroadcasting.net/podcasts/35255/rss.xml",
+            "title": "Any Questions?",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "81b883f767e54b59afab483264ade7b6",
+            "href": "https://feeds.podtrac.com/QmfGSr4GxepC",
+            "title": "The Roundtable",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "741509600b9a4da7bfbc87473e264e34",
+            "href": "https://wamc.drupal.publicbroadcasting.net/podcasts/781/rss.xml",
+            "title": "Book Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "102e0ad5997a42dcb795f079bd5edf4a",
+            "href": "https://feeds.podtrac.com/hhrYob1felGG",
+            "title": "WAMC's In Conversation With...",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ff9c5ec9dec24beb9d025a5e8948923f",
+            "href": "https://wamc.drupal.publicbroadcasting.net/podcasts/780/rss.xml",
+            "title": "Media Project",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c69b7c539e6b4a97904437ca62eb41c9",
+            "href": "https://feeds.podtrac.com/t6YoYfESH-a3",
+            "title": "The Academic Minute",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f169b4e1634748ed806b3bdded7f46ae",
+            "href": "https://feeds.podtrac.com/o8yqQ5qLcw-j",
+            "title": "Earthwise",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7829b9ba066d4c5cae1c221e10fb3cd2",
+            "href": "https://feeds.podtrac.com/n_XNwEGTUxWf",
+            "title": "Vox Pop",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "107313d0155e417b97cc459362ebf758",
+            "href": "https://wamcpodcasts.org/feed/podcast/a-new-york-minute-in-history",
+            "title": "A New York Minute In History",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "cc333517c3f34c9e90a9c1f87a3fdf1b",
+            "href": "https://feeds.podtrac.com/_QpdMS3ZPiL9",
+            "title": "The Best of Our Knowledge",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "97a622a9c61f4f2aab736c2daba863c9",
+            "href": "https://wamcpodcasts.org/feed/podcast/everythingexplained",
+            "title": "Everything Explained Podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "41d78a08e3ca44529394e2bb8d60f1db",
+            "href": "https://wamcpodcasts.org/feed/podcast/llo",
+            "title": "Listen With The Lights On",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "15509838ea7a4ba9861a78dce0d85585",
+            "href": "https://wamc.drupal.publicbroadcasting.net/podcasts/807/rss.xml",
+            "title": "Legislative Gazette",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "da0d860dc7664963ada00e1aafbe7832",
+            "href": "https://wamcpodcasts.org/feed/podcast/wrlf",
+            "title": "Watch Read Listen Feed",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a0d1320870e04483bf2d8196b0efc228",
+            "href": "https://wamcpodcasts.org/feed/podcast/postcards-from-the-road",
+            "title": "Postcards From The Road",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "478c6bf1f36f45ba93a7df5c1d536262",
+            "href": "https://wamc.drupal.publicbroadcasting.net/podcasts/808/rss.xml",
+            "title": "Capitol Connection",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "7c8c923f98944d5fa55757720be23ced",
+            "href": "https://wamcpledge.wamc.org/alleg/WebModule/Donate.aspx?P=NPRPLEDGE&PAGETYPE=PLG&CHECK=Mip9C13noQxEzdPd5eMdba1gzMC6uhq5nDjkJobrCdg%3d",
+            "title": "Support WAMC",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "af74e4f8eb954024b2cf7f86db8bd2e5",
+            "href": "https://wamcpledge.wamc.org/alleg/WebModule/Donate.aspx?P=NPR1&PAGETYPE=PLG&CHECK=qeGG9a8KTtyqK20krF35cqUOstgWaB20",
+            "title": "Support Your Station",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1142",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wgbh-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1142",
+        "network": {
+          "inheritingFrom": "1142",
+          "usesInheritance": false,
+          "currentOrgId": "1142"
+        },
+        "guid": "4fcf70141dac4634a15fccf80b7cfe4e",
+        "brand": {
+          "band": "FM",
+          "call": "WCRB",
+          "frequency": "99.5",
+          "marketCity": "Lowell",
+          "marketState": "MA",
+          "name": "WCRB",
+          "tagline": "Classical Radio Boston"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bca58770b7a34f4da5ce25f886637f0d",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org:8204/wcrb-npr1"
+              }
+            ],
+            "guid": "4fcf714d02774ab990ab770d3d09844d",
+            "title": "WCRB - Boston's Classical Station",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c9c748b8e9394fcb84246a99a324a389",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org/BostonEarlyMusic-8112"
+              }
+            ],
+            "guid": "0bcaf3720f6746b2b549c24ccee86359",
+            "title": "Boston Early Music from WCRB",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wgbh.org/995/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wcrb_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wcrb_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1142.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "bca58770b7a34f4da5ce25f886637f0d",
+            "href": "https://streams.audio.wgbh.org:8204/wcrb-npr1",
+            "isPrimaryStream": true,
+            "title": "WCRB - Boston's Classical Station",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c9c748b8e9394fcb84246a99a324a389",
+            "href": "https://streams.audio.wgbh.org/BostonEarlyMusic-8112",
+            "isPrimaryStream": false,
+            "title": "Boston Early Music from WCRB",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "f6570b1671c74092b9528fd38e90dbf9",
+            "href": "https://wcrb.drupal.publicbroadcasting.net/podcasts/69/rss.xml",
+            "title": "The Bach Hour",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "78497ee1ec274239b22ff4f06c41333f",
+            "href": "https://wcrb.drupal.publicbroadcasting.net/podcasts/64/rss.xml",
+            "title": "In Concert",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "63cdd04ef92549fdba3ba600e2a9138a",
+            "href": "https://www.wgbh.org/support/wcrb-donate?_ga=2.41871458.1704956952.1580739452-1637740828.1565814713",
+            "title": "Support WCRB",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1142.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1458",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "539619ec144d47bf9815ec38b7c55a38",
+        "brand": {
+          "band": "FM",
+          "call": "WNCK",
+          "frequency": "89.5",
+          "marketCity": "Nantucket",
+          "marketState": "MA",
+          "name": "Nantucket Public Radio",
+          "tagline": "The Cape and Islands NPR Stations"
+        },
+        "orgId": "1458",
+        "network": {
+          "inheritingFrom": "1458",
+          "usesInheritance": false,
+          "currentOrgId": "1458",
+          "tier1": {
+            "name": "WNCK-FM",
+            "id": "1458",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.nantucketnpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wnck_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wnck_fm.gif",
+            "content-type": "image/gif"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1474",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "542319340f9d4f1a903c83539cac58be",
+        "brand": {
+          "band": "FM",
+          "call": "WMVY",
+          "frequency": "88.7",
+          "marketCity": "Tisbury",
+          "marketState": "MA",
+          "name": "WMVY-FM",
+          "tagline": "mvyradio - Martha's Vineyard & The World"
+        },
+        "orgId": "1474",
+        "network": {
+          "inheritingFrom": "1474",
+          "usesInheritance": false,
+          "currentOrgId": "1474",
+          "tier1": {
+            "name": "WMVY-FM",
+            "id": "1474",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mvyradio.com/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wmvy_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wmvy_fm.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "6e9543c4f6374641be182e79cf63c4af",
+            "href": "http://www.friendsofmvyradio.org/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1716",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "College",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "ef4f4e6c81154a8494a50888d48d8fc5",
+        "brand": {
+          "band": "FM",
+          "call": "WERS",
+          "frequency": "88.9",
+          "marketCity": "Boston",
+          "marketState": "MA",
+          "name": "WERS",
+          "tagline": "new.music.discovery"
+        },
+        "orgId": "1716",
+        "network": {
+          "inheritingFrom": "1716",
+          "usesInheritance": false,
+          "currentOrgId": "1716",
+          "tier1": {
+            "name": "WERS-FM",
+            "id": "1716",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "95eda36c75734e898bc4bc840dc525b8",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WERSFMAAC.aac"
+              }
+            ],
+            "guid": "4cc5f25317f24e4883a00779ccda3411",
+            "title": "WERS 88.9FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wers.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wers_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wers_fm.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "95eda36c75734e898bc4bc840dc525b8",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/WERSFMAAC.aac",
+            "isPrimaryStream": true,
+            "title": "WERS 88.9FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "99c4aac483774eec956e365f54ab92e8",
+            "href": "https://wers.secureallegiance.com/wers/WebModule/Donate.aspx?P=PWEB&PAGETYPE=PLG&CHECK=2K4aeb%2biam2qK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "8e69f3e6373f47cdb24e1c1eb560d1d6",
+            "href": "https://wers.secureallegiance.com/wers/WebModule/Donate.aspx?P=PWEB&PAGETYPE=PLG&CHECK=2K4aeb%2biam2qK20krF35cqUOstgWaB20",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1581",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "856fcc88daaf464a95faaab62d05f84e",
+        "brand": {
+          "band": "FM",
+          "call": "WBUH",
+          "frequency": "89.1",
+          "marketCity": "Brewster",
+          "marketState": "MA",
+          "name": "WBUH-FM",
+          "tagline": null
+        },
+        "orgId": "1581",
+        "network": {
+          "inheritingFrom": "1581",
+          "usesInheritance": false,
+          "currentOrgId": "1581"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/168809220",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude everywhere",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "50eb2d0300d0468d9e0a2d1f3212fbc3",
+        "brand": {
+          "band": null,
+          "call": "WGBH",
+          "frequency": "89.7",
+          "marketCity": "Boston",
+          "marketState": "MA",
+          "name": "WGBH",
+          "tagline": "89.7, WGBH - Boston Public Radio"
+        },
+        "orgId": "168809220",
+        "network": {
+          "inheritingFrom": "168809220",
+          "usesInheritance": false,
+          "currentOrgId": "168809220"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wgbh.org/995/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wgbh_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wgbh_fm.gif",
+            "content-type": "image/gif"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/398",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wgbh-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "398",
+        "network": {
+          "inheritingFrom": "398",
+          "usesInheritance": false,
+          "currentOrgId": "398"
+        },
+        "newscast": {
+          "id": "398",
+          "recency": 120
+        },
+        "guid": "4fcf70101d2e4bb698e89aeedbd1a821",
+        "brand": {
+          "band": "FM",
+          "call": "WNAN",
+          "frequency": "91.1",
+          "marketCity": "Nantucket",
+          "marketState": "MA",
+          "name": "WCAI",
+          "tagline": "Local NPR for the Cape, the Coast, and the Islands"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bca58770b7a34f4da5ce25f886637f0d",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org:8204/wcrb-npr1"
+              }
+            ],
+            "guid": "4fcf714d02774ab990ab770d3d09844d",
+            "title": "WCRB - Boston's Classical Station",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1413ee87652744769a61b7a1ca0d1c42",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org:8200/wgbh-npr1"
+              }
+            ],
+            "guid": "14b79c94bd1010146c592f11fc322a99",
+            "title": "WGBH News",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e11ce76d98a84d55aff3da62eb33a58d",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org:8202/wcai"
+              }
+            ],
+            "guid": "4fcf714d0aab4838a4b3549ad87fe1fb",
+            "title": "WCAI-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.capeandislands.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wnan_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wnan_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/398.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WCAI.NPR",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WCAI_NPR",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "bca58770b7a34f4da5ce25f886637f0d",
+            "href": "https://streams.audio.wgbh.org:8204/wcrb-npr1",
+            "isPrimaryStream": false,
+            "title": "WCRB - Boston's Classical Station",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1413ee87652744769a61b7a1ca0d1c42",
+            "href": "https://streams.audio.wgbh.org:8200/wgbh-npr1",
+            "isPrimaryStream": false,
+            "title": "WGBH News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "e11ce76d98a84d55aff3da62eb33a58d",
+            "href": "https://streams.audio.wgbh.org:8202/wcai",
+            "isPrimaryStream": true,
+            "title": "WCAI-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "30138131302f4662b19ceb830ab62218",
+            "href": "https://wcai.drupal.publicbroadcasting.net/podcasts/88523/rss.xml",
+            "title": "The Forgetting",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e67d9fa8f4d1448ea03f2bc1d979ddd8",
+            "href": "https://wcai.drupal.publicbroadcasting.net/podcasts/321/rss.xml",
+            "title": "The Point on WCAI",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e86cbf0df547408098f8077294a2af77",
+            "href": "https://wcai.drupal.publicbroadcasting.net/podcasts/125/rss.xml",
+            "title": "Living Lab Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b8eae7d9deed4c2c99459d72d63e6c25",
+            "href": "http://www.wgbh.org/donatewcai",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/398.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1040",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wgbh-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1040",
+        "network": {
+          "inheritingFrom": "1040",
+          "usesInheritance": false,
+          "currentOrgId": "1040"
+        },
+        "newscast": {
+          "id": "1040",
+          "recency": 120
+        },
+        "guid": "4fcf70140d444c3e863d9c3c6095519b",
+        "brand": {
+          "band": "FM",
+          "call": "WZAI",
+          "frequency": "94.3",
+          "marketCity": "Brewster",
+          "marketState": "MA",
+          "name": "WCAI",
+          "tagline": "Local NPR for the Cape, the Coast, and the Islands"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1413ee87652744769a61b7a1ca0d1c42",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org:8200/wgbh-npr1"
+              }
+            ],
+            "guid": "14b79c94bd1010146c592f11fc322a99",
+            "title": "WGBH News",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e11ce76d98a84d55aff3da62eb33a58d",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org:8202/wcai"
+              }
+            ],
+            "guid": "4fcf714d0aab4838a4b3549ad87fe1fb",
+            "title": "WCAI-FM",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bca58770b7a34f4da5ce25f886637f0d",
+                "typeId": "10",
+                "href": "https://streams.audio.wgbh.org:8204/wcrb-npr1"
+              }
+            ],
+            "guid": "4fcf714d02774ab990ab770d3d09844d",
+            "title": "WCRB - Boston's Classical Station",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://capeandislands.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wzai_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wzai_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1040.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WCAI.NPR",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WCAI_NPR",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1413ee87652744769a61b7a1ca0d1c42",
+            "href": "https://streams.audio.wgbh.org:8200/wgbh-npr1",
+            "isPrimaryStream": false,
+            "title": "WGBH News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "e11ce76d98a84d55aff3da62eb33a58d",
+            "href": "https://streams.audio.wgbh.org:8202/wcai",
+            "isPrimaryStream": true,
+            "title": "WCAI-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bca58770b7a34f4da5ce25f886637f0d",
+            "href": "https://streams.audio.wgbh.org:8204/wcrb-npr1",
+            "isPrimaryStream": false,
+            "title": "WCRB - Boston's Classical Station",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e86cbf0df547408098f8077294a2af77",
+            "href": "https://wcai.drupal.publicbroadcasting.net/podcasts/125/rss.xml",
+            "title": "Living Lab Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "30138131302f4662b19ceb830ab62218",
+            "href": "https://wcai.drupal.publicbroadcasting.net/podcasts/88523/rss.xml",
+            "title": "The Forgetting",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e67d9fa8f4d1448ea03f2bc1d979ddd8",
+            "href": "https://wcai.drupal.publicbroadcasting.net/podcasts/321/rss.xml",
+            "title": "The Point on WCAI",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "da59677416b1451c8aa1866334081e5c",
+            "href": "http://www.wgbh.org/donatewcai",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1040.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1095",
+      "attributes": {
+        "newscast": {
+          "id": "1072",
+          "recency": 120
+        },
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "15",
+          "musicOnly": false
+        },
+        "guid": "4fcf701417bc46a496096812a099a598",
+        "brand": {
+          "band": "FM",
+          "call": "WBSL",
+          "frequency": "91.7",
+          "marketCity": "Sheffield",
+          "marketState": "MA",
+          "name": "WHDD",
+          "tagline": "Robin Hood Radio"
+        },
+        "orgId": "1095",
+        "network": {
+          "name": "WHDD",
+          "inheritingFrom": "1072",
+          "usesInheritance": true,
+          "currentOrgId": "1095",
+          "tier1": {
+            "name": "WHDD-FM",
+            "id": "1072",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WHDD-AM",
+                "id": "1073",
+                "usesInheritance": true
+              },
+              {
+                "name": "WBSL-FM",
+                "id": "1095",
+                "usesInheritance": true
+              },
+              {
+                "name": "WLHV-FM",
+                "id": "1359",
+                "usesInheritance": true
+              }
+            ]
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://robinhoodradio.com",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/whdd_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1072.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/WHDD-robinhoodradiocom/101953475811",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/whdd",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b59c2a7f4ab240d6a9aece0f7b7612f2",
+            "href": "http://www.robinhoodradio.com/donate.html",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1072.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

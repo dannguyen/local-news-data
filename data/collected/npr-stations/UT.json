@@ -1,0 +1,1199 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "UT"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/213",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kuer-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "213",
+        "network": {
+          "inheritingFrom": "213",
+          "usesInheritance": false,
+          "currentOrgId": "213",
+          "tier1": {
+            "name": "KUER-FM",
+            "id": "213",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KUOU-FM",
+                "id": "1461",
+                "usesInheritance": true
+              },
+              {
+                "name": "KUHU-FM",
+                "id": "1462",
+                "usesInheritance": true
+              },
+              {
+                "name": "KUEU-FM",
+                "id": "1463",
+                "usesInheritance": true
+              },
+              {
+                "name": "KUXU-FM",
+                "id": "1464",
+                "usesInheritance": true
+              },
+              {
+                "name": "KUQU-FM",
+                "id": "1586",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "213",
+          "recency": 360
+        },
+        "guid": "4fcf700f146f4645b4d52f5fbd3ae988",
+        "brand": {
+          "band": "FM",
+          "call": "KUER",
+          "frequency": "90.1",
+          "marketCity": "Salt Lake City",
+          "marketState": "UT",
+          "name": "KUER 90.1",
+          "tagline": "NPR Utah"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f490032b31d24eaab939e979f02c3528",
+                "typeId": "10",
+                "href": "https://audio.kuer.org/kuer4low"
+              },
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "78c71901ee6c4cca86d61c99409ab54d",
+                "typeId": "10",
+                "href": "https://audio.kuer.org/kuer4high"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "3a55801256aa49bfbcaedfee478dd171",
+                "typeId": "13",
+                "href": "https://audio.kuer.org/kuer4highaac"
+              }
+            ],
+            "guid": "93c5a39bc0694ed7b3219966ca01d14b",
+            "title": "BBC World Service 24/7",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6e428816800b45adb0115f75f0e03d22",
+                "typeId": "10",
+                "href": "https://audio.kuer.org/high"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "4de3f0db936c4ae48edcba1c99e0e2e6",
+                "typeId": "13",
+                "href": "https://audio.kuer.org/low"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "e96ab5f2ef9f4bf297938676cca5b030",
+                "typeId": "13",
+                "href": "https://audio.kuer.org/highaac"
+              }
+            ],
+            "guid": "4fcf713925b646cd9285ba2ba589c7ee",
+            "title": "KUER 90.1",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bcac7d57c3da43f38a4aa94d5b62ef19",
+                "typeId": "10",
+                "href": "https://audio.kuer.org/kuer2high"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "b37d55fd51724aa9b1a97f7bd510d084",
+                "typeId": "13",
+                "href": "https://audio.kuer.org/kuer2highaac"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "e2edeef8ef1443a0a7dfeb2b2ae1c074",
+                "typeId": "13",
+                "href": "https://audio.kuer.org/kuer2low"
+              }
+            ],
+            "guid": "4fcf713a0469458e96e145feebe29d84",
+            "title": "KUER-2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6ff0aff387a64b81a6ea7ca775ffe1ad",
+                "typeId": "10",
+                "href": "https://audio.kuer.org/kuer3high"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "761e99b6f8df416fb3bd981b51d43350",
+                "typeId": "13",
+                "href": "https://audio.kuer.org/kuer3low"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "42a0ebd6e4e44cc9af8e7bc83f86f4e6",
+                "typeId": "13",
+                "href": "https://audio.kuer.org/kuer3highaac"
+              }
+            ],
+            "guid": "4fcf713a07514fd88bdeac6e50f54f0a",
+            "title": "KUER-3 Classical KUER",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kuer.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kuer_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kuer_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/213_61525feb4d317c27c2b44539d43316ee.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kuer90.1",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KUER_FM",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f490032b31d24eaab939e979f02c3528",
+            "href": "https://audio.kuer.org/kuer4low",
+            "isPrimaryStream": false,
+            "title": "BBC World Service 24/7",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "78c71901ee6c4cca86d61c99409ab54d",
+            "href": "https://audio.kuer.org/kuer4high",
+            "isPrimaryStream": false,
+            "title": "BBC World Service 24/7",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6e428816800b45adb0115f75f0e03d22",
+            "href": "https://audio.kuer.org/high",
+            "isPrimaryStream": true,
+            "title": "KUER 90.1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bcac7d57c3da43f38a4aa94d5b62ef19",
+            "href": "https://audio.kuer.org/kuer2high",
+            "isPrimaryStream": false,
+            "title": "KUER-2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6ff0aff387a64b81a6ea7ca775ffe1ad",
+            "href": "https://audio.kuer.org/kuer3high",
+            "isPrimaryStream": false,
+            "title": "KUER-3 Classical KUER",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "3a55801256aa49bfbcaedfee478dd171",
+            "href": "https://audio.kuer.org/kuer4highaac",
+            "isPrimaryStream": false,
+            "title": "BBC World Service 24/7",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "761e99b6f8df416fb3bd981b51d43350",
+            "href": "https://audio.kuer.org/kuer3low",
+            "isPrimaryStream": false,
+            "title": "KUER-3 Classical KUER",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "42a0ebd6e4e44cc9af8e7bc83f86f4e6",
+            "href": "https://audio.kuer.org/kuer3highaac",
+            "isPrimaryStream": false,
+            "title": "KUER-3 Classical KUER",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "b37d55fd51724aa9b1a97f7bd510d084",
+            "href": "https://audio.kuer.org/kuer2highaac",
+            "isPrimaryStream": false,
+            "title": "KUER-2",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "e2edeef8ef1443a0a7dfeb2b2ae1c074",
+            "href": "https://audio.kuer.org/kuer2low",
+            "isPrimaryStream": false,
+            "title": "KUER-2",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "4de3f0db936c4ae48edcba1c99e0e2e6",
+            "href": "https://audio.kuer.org/low",
+            "isPrimaryStream": true,
+            "title": "KUER 90.1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "e96ab5f2ef9f4bf297938676cca5b030",
+            "href": "https://audio.kuer.org/highaac",
+            "isPrimaryStream": true,
+            "title": "KUER 90.1",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "55a2d2a032cc4109923a0c02ad423c53",
+            "href": "https://kuer.drupal.publicbroadcasting.net/podcasts/108376/rss.xml",
+            "title": "Next Door Strangers",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "041547a6828749c3b6dd21c8fb3150ac",
+            "href": "https://kuer.drupal.publicbroadcasting.net/podcasts/term/3514/rss.xml",
+            "title": "Hear Me Now",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ad2f241f88af40fe8b2309a6bd22282f",
+            "href": "https://kuer.drupal.publicbroadcasting.net/podcasts/term/3763/rss.xml",
+            "title": "More To Say",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "085bfac78cc6468394fc0b76b1d75b85",
+            "href": "https://feed.preachpod.org/",
+            "title": "Preach",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7eb33565afb24cacbdea886019f7bf66",
+            "href": "https://radiowest.drupal.publicbroadcasting.net/podcasts/220/rss.xml",
+            "title": "RadioWest",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b7a6c57aa8b243a4ab6fbdba0eebd2c9",
+            "href": "https://radiowest.drupal.publicbroadcasting.net/podcasts/2325/rss.xml",
+            "title": "RadioWest Friday",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "523d716dcad94e29b838a5876a4d7faa",
+            "href": "https://kuer.drupal.publicbroadcasting.net/podcasts/term/3365/rss.xml",
+            "title": "45 Days",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "086fde97b9b045a49268be57f938012c",
+            "href": "https://kuer.secureallegiance.com/kuer/WebModule/Donate.aspx?P=KUERNPR&PAGETYPE=PLG&CHECK=EIw3ZCMgLgTytilwxMSziuzWDeZ%2beA1M",
+            "title": "Support KUER",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "eea22d28ac9d46faa5f688eb14c7e8c7",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/213_0137178d215cc08b8923793fcfd56dc9.mp4",
+            "title": "Roddy Donation Ask",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/213.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/250",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "250",
+        "network": {
+          "name": "Utah Public Radio",
+          "inheritingFrom": "249",
+          "usesInheritance": true,
+          "currentOrgId": "250",
+          "tier1": {
+            "name": "Utah Public Radio",
+            "id": "249",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KUSU-FM",
+                "id": "250",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KUSR-FM",
+                    "id": "251",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUSK-FM",
+                    "id": "1510",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KUSL-FM",
+                    "id": "1511",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KUST-FM",
+                    "id": "1512",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCEU-FM",
+                    "id": "1513",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700f1cc946faa35af462e8bf46a9",
+        "brand": {
+          "band": "FM",
+          "call": "KUSU",
+          "frequency": "91.5",
+          "marketCity": "Logan",
+          "marketState": "UT",
+          "name": "Utah Public Radio",
+          "tagline": "Utah Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5fddf667c74e48178fc5d388da9c0f54",
+                "typeId": "10",
+                "href": "https://uprxstreamer.usu.edu:8022/"
+              }
+            ],
+            "guid": "19f05585986f4b52a90c1b1804a90263",
+            "title": "UPR Too",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4f1c0650adb54c7f8f238e0733d90cc5",
+                "typeId": "10",
+                "href": "https://uprxstreamer.usu.edu:8020"
+              }
+            ],
+            "guid": "e7e7b56f6b76489fa112ff9986eb1cdd",
+            "title": "UPR Live",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.upr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/upr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/upr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/249_6581391a2024269e732463c42142bb77.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/utahpublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/utahpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "5fddf667c74e48178fc5d388da9c0f54",
+            "href": "https://uprxstreamer.usu.edu:8022/",
+            "isPrimaryStream": false,
+            "title": "UPR Too",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "4f1c0650adb54c7f8f238e0733d90cc5",
+            "href": "https://uprxstreamer.usu.edu:8020",
+            "isPrimaryStream": true,
+            "title": "UPR Live",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "c87ca25698f1429bb0976f6e90fea9b6",
+            "href": "https://upr.drupal.publicbroadcasting.net/podcasts",
+            "title": "UPR ALL",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "29ee38c88d334e0ca3c64893395e4239",
+            "href": "https://donate.nprstations.org/upr/support-upr?_ga=1.182083879.1007758987.1450223626",
+            "title": "Make a Pledge",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "2e2e2e604b0b438da100b28e88d79c98",
+            "href": "https://donate.nprstations.org/upr/support-upr-1?_ga=1.182083879.1007758987.1450223626",
+            "title": "Make a Pledge",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1511",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "0c97cf29a43147d58cf080fe8ca238ce",
+        "brand": {
+          "band": "FM",
+          "call": "KUSL",
+          "frequency": "89.3",
+          "marketCity": "Richfield",
+          "marketState": "UT",
+          "name": "KUSL-FM",
+          "tagline": null
+        },
+        "orgId": "1511",
+        "network": {
+          "inheritingFrom": "1511",
+          "usesInheritance": false,
+          "currentOrgId": "1511"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/974",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "974",
+        "network": {
+          "name": "Nevada Public Radio",
+          "inheritingFrom": "127",
+          "usesInheritance": true,
+          "currentOrgId": "974",
+          "tier1": {
+            "name": "Nevada Public Radio",
+            "id": "127",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KNPR-FM",
+                "id": "128",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KLNR-FM",
+                    "id": "129",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTPH-FM",
+                    "id": "130",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KWPR-FM",
+                    "id": "131",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSGU-FM",
+                    "id": "974",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLKR-FM",
+                    "id": "1414",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KVNV-FM",
+                    "id": "1561",
+                    "usesInheritance": false
+                  }
+                ]
+              },
+              {
+                "name": "KCNV-FM",
+                "id": "887",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "127",
+          "recency": 360
+        },
+        "guid": "4fcf701401114d5bbf3a02feaf3b6b66",
+        "brand": {
+          "band": "FM",
+          "call": "KSGU",
+          "frequency": "90.3",
+          "marketCity": "St. George",
+          "marketState": "UT",
+          "name": "Nevada Public Radio",
+          "tagline": "Nevada Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "332e51fc24ca45049f6afbcd6707fc83",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KNPRFM.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "ae08bde700d04748b90f90bbdd6ff47d",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNPRFMAAC.aac"
+              }
+            ],
+            "guid": "4fcf713624ea4549806a9080f9252f7e",
+            "title": "KNPR-FM News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.knpr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/knpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/knpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/127_e8213d2396b116c46250de9df50707e3.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Nevada-Public-Radio/14503967975",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "332e51fc24ca45049f6afbcd6707fc83",
+            "href": "https://playerservices.streamtheworld.com/pls/KNPRFM.pls",
+            "isPrimaryStream": true,
+            "title": "KNPR-FM News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ae08bde700d04748b90f90bbdd6ff47d",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNPRFMAAC.aac",
+            "isPrimaryStream": true,
+            "title": "KNPR-FM News",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "e04a0b4c223e4166ad874018148e7586",
+            "href": "https://www.knpr.org/discussions.xml",
+            "title": "KNPR's State of Nevada",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "db40aee65f514400b0313068e7832457",
+            "href": "https://www.knpr.org/features.xml",
+            "title": "KNPR Features",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1e804e0f6e124b68801d679ec8b55e0c",
+            "href": "https://knpr.org/support",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "955a0971d39e4a0eb5365c67f0ec56ea",
+            "href": "https://knpr.org/support",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "6aed3d015ea3485d8e1876a10b4ae58a",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/127_621ddfcdce24c0b353a5f3c327fea5e6.mp4",
+            "title": "Generic donation 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "714394075c61488a89c440ea1e2830f0",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/127_72c769184dc1f1d90ed9aa100efe0efd.mp4",
+            "title": "Generic donation 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/146",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kpcw-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "146",
+        "network": {
+          "inheritingFrom": "146",
+          "usesInheritance": false,
+          "currentOrgId": "146",
+          "tier1": {
+            "name": "KPCW-FM",
+            "id": "146",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf700f02084fdf8e57012bc5472b21",
+        "brand": {
+          "band": "FM",
+          "call": "KPCW",
+          "frequency": "91.7",
+          "marketCity": "Park City",
+          "marketState": "UT",
+          "name": "KPCW",
+          "tagline": "Listen Like a Local"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f39120703b21444d8ad20b16ae91b32d",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KPCWFM.pls"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "6be4b126266d4d7583ff7b33b56ebf96",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/pls/KPCWFMAAC.pls"
+              }
+            ],
+            "guid": "0c850ef16a2d4b76a59b0bcedae05a94",
+            "title": "KPCW",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kpcw.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kpcw_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kpcw_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/146_f28739b0681da79051a39de3dba5efb8.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/kpcwradio?sk=wall",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/KPCWRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f39120703b21444d8ad20b16ae91b32d",
+            "href": "https://playerservices.streamtheworld.com/pls/KPCWFM.pls",
+            "isPrimaryStream": true,
+            "title": "KPCW",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "6be4b126266d4d7583ff7b33b56ebf96",
+            "href": "https://playerservices.streamtheworld.com/pls/KPCWFMAAC.pls",
+            "isPrimaryStream": true,
+            "title": "KPCW",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "4a7387c35d8d495cba1ca24dc10b7011",
+            "href": "https://kpcw.drupal.publicbroadcasting.net/podcasts/2504/rss.xml",
+            "title": "KPCW Cool Science Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ba59a1440f0d49329ea975eff19607f8",
+            "href": "https://kpcw.drupal.publicbroadcasting.net/podcasts/977/rss.xml",
+            "title": "KPCW Local News Hour",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "075a15aa83f740e180fae4b2754cdd60",
+            "href": "https://kpcw.drupal.publicbroadcasting.net/podcasts/1209/rss.xml",
+            "title": "KPCW The Mountain Life",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e37a68599c694beaa4f9b04e51beb637",
+            "href": "https://kpcw.drupal.publicbroadcasting.net/podcasts/53941/rss.xml",
+            "title": "KPCW Sundance Reel",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a320b2ae8b3d4d4eb1135bba6b8cd1f6",
+            "href": "https://kpcw.drupal.publicbroadcasting.net/podcasts/1964/rss.xml",
+            "title": "KPCW Cada Domingo",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f80b2fc90ecb438b8221444395aca398",
+            "href": "https://kpcw.drupal.publicbroadcasting.net/podcasts/1204/rss.xml",
+            "title": "KPCW This Green Earth",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ed1ba5d308014cddbc985963705f9a44",
+            "href": "https://kpcw.drupal.publicbroadcasting.net/podcasts/18519/rss.xml",
+            "title": "KPCW The Morning Mix",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "445cee7542294426b55cf53e5220206e",
+            "href": "https://kpcw.drupal.publicbroadcasting.net/podcasts/1202/rss.xml",
+            "title": "KPCW Mountain Money",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "090afcf3df3d4be1962af2b61d858d05",
+            "href": "https://donate.nprstations.org/kpcw/evergreen-donation-form",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/146.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1510",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "cbf58ee314de4aab93a045df232c058f",
+        "brand": {
+          "band": "FM",
+          "call": "KUSK",
+          "frequency": "88.5",
+          "marketCity": "Vernal",
+          "marketState": "UT",
+          "name": "KUSK-FM",
+          "tagline": null
+        },
+        "orgId": "1510",
+        "network": {
+          "inheritingFrom": "1510",
+          "usesInheritance": false,
+          "currentOrgId": "1510"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1267",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Variety",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70150b4c4658926ee4b64a00974d",
+        "brand": {
+          "band": "FM",
+          "call": "KRCL",
+          "frequency": "90.9",
+          "marketCity": "Salt Lake City",
+          "marketState": "UT",
+          "name": "KRCL",
+          "tagline": "Community Connection - Music Discovery"
+        },
+        "orgId": "1267",
+        "network": {
+          "inheritingFrom": "1267",
+          "usesInheritance": false,
+          "currentOrgId": "1267",
+          "tier1": {
+            "name": "KRCL-FM",
+            "id": "1267",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "60b78d2443654909aa9ccc8880372996",
+                "typeId": "10",
+                "href": "https://stream.xmission.com/krcl-high"
+              }
+            ],
+            "guid": "5bd7b5e290cc4c4fbb763061501c66b3",
+            "title": "KRCL - Listen Live",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://krcl.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/krcl_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/krcl_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1267.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "60b78d2443654909aa9ccc8880372996",
+            "href": "https://stream.xmission.com/krcl-high",
+            "isPrimaryStream": false,
+            "title": "KRCL - Listen Live",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "a8754758cfb14450a2beb5017a4dce74",
+            "href": "https://krcl.org/support-1/",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "20aecd0ad07c439e8431bf7e238b2622",
+            "href": "https://krcl.org/support-1/",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1267.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1513",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "351d3183f297492abf17f545d7b328a4",
+        "brand": {
+          "band": "FM",
+          "call": "KCEU",
+          "frequency": "89.7",
+          "marketCity": "Price",
+          "marketState": "UT",
+          "name": "KCEU-FM",
+          "tagline": null
+        },
+        "orgId": "1513",
+        "network": {
+          "inheritingFrom": "1513",
+          "usesInheritance": false,
+          "currentOrgId": "1513"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1512",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "678e512930be46588479ef3d430feed8",
+        "brand": {
+          "band": "FM",
+          "call": "KUST",
+          "frequency": "88.7",
+          "marketCity": "Moab",
+          "marketState": "UT",
+          "name": "KUST-FM",
+          "tagline": null
+        },
+        "orgId": "1512",
+        "network": {
+          "inheritingFrom": "1512",
+          "usesInheritance": false,
+          "currentOrgId": "1512"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

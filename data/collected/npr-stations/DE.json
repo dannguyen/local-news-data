@@ -1,0 +1,343 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "DE"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1333",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "1333",
+        "network": {
+          "inheritingFrom": "1333",
+          "usesInheritance": false,
+          "currentOrgId": "1333",
+          "tier1": {
+            "name": "WDDE-FM",
+            "id": "1333",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "WMPH-FM",
+                "id": "1420",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "1333",
+          "recency": 360
+        },
+        "guid": "503e284e059740e8af5dda6c864866ca",
+        "brand": {
+          "band": "FM",
+          "call": "WDDE",
+          "frequency": "91.1",
+          "marketCity": "Dover",
+          "marketState": "DE",
+          "name": "Delaware Public Media",
+          "tagline": "Delaware's NPR News station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d643c0fffb17474a895fcb5d1d4e1ad1",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WDDEFM.pls"
+              }
+            ],
+            "guid": "13f5cfa2bd602064d36af42879862023",
+            "title": "Delaware Public Media",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://delawarepublic.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wdde_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wdde_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1333.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/WDDE911",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WDDE911",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "d643c0fffb17474a895fcb5d1d4e1ad1",
+            "href": "https://playerservices.streamtheworld.com/pls/WDDEFM.pls",
+            "isPrimaryStream": true,
+            "title": "Delaware Public Media",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "f4d07c81c7b741489f0eb2a3e49790c4",
+            "href": "https://wdde.drupal.publicbroadcasting.net/podcasts/495/rss.xml",
+            "title": "The Green",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "f0f325cbd5d848cb8f83218d1a3aeb51",
+            "href": "https://donate.firstgiving.com/secure/donate/9d045cc8-2023-11e0-a279-4061860da51d?parentPath=http://www.wdde.org/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "146f80bbdcfc4d68b30d5385cdd4520b",
+            "href": "https://donate.firstgiving.com/secure/donate/9d045cc8-2023-11e0-a279-4061860da51d?parentPath=http://www.wdde.org/",
+            "title": "Delaware Public Media Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1333.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/600",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf701126a14de8b4bf0c580de65392",
+        "brand": {
+          "band": "FM",
+          "call": "WRTX",
+          "frequency": "91.7",
+          "marketCity": "Dover",
+          "marketState": "DE",
+          "name": "WRTI Your Classical and Jazz Source",
+          "tagline": "Your Member-Supported Classical & Jazz Source"
+        },
+        "orgId": "600",
+        "network": {
+          "name": "WRTI Your Classical and Jazz Source",
+          "inheritingFrom": "596",
+          "usesInheritance": true,
+          "currentOrgId": "600",
+          "tier1": {
+            "name": "Temple University Public Radio",
+            "id": "596",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WRTI-FM",
+                "id": "597",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WJAZ-FM",
+                    "id": "598",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRTQ-FM",
+                    "id": "599",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRTX-FM",
+                    "id": "600",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRTY-FM",
+                    "id": "601",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRTJ-FM",
+                    "id": "1148",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRTL-FM",
+                    "id": "1149",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d14703918140455fbf14e128aba3364a",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WRTI_JAZZ.pls"
+              }
+            ],
+            "guid": "4fcf71670e8640288e97d8a2e62b66b1",
+            "title": "WRTI Jazz",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bd265b402a94406d849d4b4ad1baec60",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/WRTI_CLASSICAL.pls"
+              }
+            ],
+            "guid": "4fcf7167072149d79cf30787888ac482",
+            "title": "WRTI Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.wrti.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wrti.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wrti.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/WRTImusic",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/wrtimusic",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "d14703918140455fbf14e128aba3364a",
+            "href": "https://playerservices.streamtheworld.com/pls/WRTI_JAZZ.pls",
+            "isPrimaryStream": false,
+            "title": "WRTI Jazz",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bd265b402a94406d849d4b4ad1baec60",
+            "href": "https://playerservices.streamtheworld.com/pls/WRTI_CLASSICAL.pls",
+            "isPrimaryStream": true,
+            "title": "WRTI Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "bafd39df159147ffbe34d054692737f5",
+            "href": "https://wrti.secureallegiance.com/wrti/WebModule/Donate.aspx?P=STNDNPR&PAGETYPE=PLG&CHECK=P3OoUfZNiCPytilwxMSziuzWDeZ%2beA1M",
+            "title": "Support WRTI",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1420",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Grade School (K-12)",
+          "status": "15",
+          "musicOnly": false
+        },
+        "guid": "5329c04b20ca49d588333aef11afc0da",
+        "brand": {
+          "band": "FM",
+          "call": "WMPH",
+          "frequency": "91.7",
+          "marketCity": "Wilmington",
+          "marketState": "DE",
+          "name": "WMPH-FM",
+          "tagline": null
+        },
+        "orgId": "1420",
+        "network": {
+          "inheritingFrom": "1420",
+          "usesInheritance": false,
+          "currentOrgId": "1420"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

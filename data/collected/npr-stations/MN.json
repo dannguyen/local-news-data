@@ -1,0 +1,2654 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "MN"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/112",
+      "attributes": {
+        "donation": {
+          "paymentGatewayToken": "A9qp9ijp71Hp9Khx87gaSMZ7XCw"
+        },
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/know-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "112",
+        "network": {
+          "name": "MPR News",
+          "inheritingFrom": "111",
+          "usesInheritance": true,
+          "currentOrgId": "112",
+          "tier1": {
+            "name": "Minnesota Public Radio",
+            "id": "111",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KNOW-FM",
+                "id": "112",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KCCD-FM",
+                    "id": "114",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLNI-FM",
+                    "id": "115",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNBJ-FM",
+                    "id": "116",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNCM-FM",
+                    "id": "117",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNGA-FM",
+                    "id": "118",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSR-FM",
+                    "id": "119",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSW-FM",
+                    "id": "120",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNTN-FM",
+                    "id": "121",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KXLC-FM",
+                    "id": "122",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZSE-FM",
+                    "id": "123",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WGGL-FM",
+                    "id": "124",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WIRN-FM",
+                    "id": "125",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSCN-FM",
+                    "id": "126",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KBPN-FM",
+                    "id": "868",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNWF-FM",
+                    "id": "1051",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WLSN-FM",
+                    "id": "1065",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSE-FM",
+                    "id": "1066",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KAUR-FM",
+                    "id": "1221",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WGRH-FM",
+                    "id": "1223",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KRFI-FM",
+                    "id": "1224",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KRXW-FM",
+                    "id": "1225",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KITF-FM",
+                    "id": "1226",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "KSJN-FM",
+                "id": "818",
+                "usesInheritance": false,
+                "tier3": [
+                  {
+                    "name": "KBPR-FM",
+                    "id": "113",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCCM-FM",
+                    "id": "823",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCMF-FM",
+                    "id": "824",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCRB-FM",
+                    "id": "825",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KGAC-FM",
+                    "id": "826",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KLSE-FM",
+                    "id": "828",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KQMN-FM",
+                    "id": "829",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KRSD-FM",
+                    "id": "830",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KRSW-FM",
+                    "id": "831",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KSJR-FM",
+                    "id": "832",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KWRV-FM",
+                    "id": "833",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WIRR-FM",
+                    "id": "834",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WMLS-FM",
+                    "id": "835",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WSCD-FM",
+                    "id": "836",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KRSU-FM",
+                    "id": "867",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCMP-FM",
+                    "id": "936",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KMSE-FM",
+                    "id": "1064",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KLCD-FM",
+                    "id": "1421",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "111",
+          "recency": 360
+        },
+        "guid": "4fcf700e1e8347f6a9c524277d758f44",
+        "brand": {
+          "band": "FM",
+          "call": "KNOW",
+          "frequency": "91.1",
+          "marketCity": "St. Paul",
+          "marketState": "MN",
+          "name": "MPR News",
+          "tagline": "Discovering what matters. Member supported."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a8e0249292dd42aea4aa3b4a80e05b13",
+                "typeId": "10",
+                "href": "https://nis.stream.publicradio.org/nis-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "8962217e3b8548d6824f45c2fc7fc8f6",
+                "typeId": "13",
+                "href": "https://nis.stream.publicradio.org/nis-npr.aac"
+              }
+            ],
+            "guid": "4fcf714211174cf7a82cba19685314ba",
+            "title": "MPR News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mprnews.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/mpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/mpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/111_ce1ea75fa8285453a35cd078f7bd9618.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/111_bdb68c8e7e900ef8428045b2b4beb643.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/111_87d91485e7f5824a60ee898dbb5293aa.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/111_b011929305572b31743c223f623ed722.mp4?1532637763871",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/111_02382d1cd4f66be217c00de35db23040.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/111_f41d1851ddcf21cb1b5c59a8b4d0f49c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/111_c35e68539bfccb2b573d163da0f8ad39.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/MPRnews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": false,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a8e0249292dd42aea4aa3b4a80e05b13",
+            "href": "https://nis.stream.publicradio.org/nis-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "MPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "8962217e3b8548d6824f45c2fc7fc8f6",
+            "href": "https://nis.stream.publicradio.org/nis-npr.aac",
+            "isPrimaryStream": true,
+            "title": "MPR News",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": false,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "308f3f98096f4370a6134d55ad5452b2",
+            "href": "https://feeds.publicradio.org/public_feeds/song-of-the-day/npr/rss",
+            "title": "The Current's Song of the Day",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a41512e80ea7438bb7a9b0f2ea421ae8",
+            "href": "https://feeds.publicradio.org/public_feeds/policast/npr/rss",
+            "title": "Policast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "650893150144478ea79621254264e48d",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-with-kerri-miller/npr/rss",
+            "title": "MPR News with Kerri Miller",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7922619f76934839a9ed59e769f7d9f4",
+            "href": "https://feeds.publicradio.org/public_feeds/fieldwork/rss/rss.rss",
+            "title": "Field Work",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3921a120a581406d882eb3f93a3e8473",
+            "href": "https://feeds.publicradio.org/public_feeds/art-hounds/npr/rss",
+            "title": "Art Hounds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbe4f0dffec14aefbb2b1bfccc93d315",
+            "href": "https://feeds.publicradio.org/public_feeds/counter-stories/npr/rss",
+            "title": "Counter Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2972aded0e5644939d69d448c077ca5c",
+            "href": "https://feeds.publicradio.org/public_feeds/cube-critics/npr/rss",
+            "title": "Cube Critics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbf5acb80b8c48dab1b41c4fe1ef430f",
+            "href": "https://feeds.publicradio.org/public_feeds/the-current-rewind/npr/rss.rss",
+            "title": "The Current Rewind",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ccb31e5c7b9f4be7b58532dab4a73df5",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-with-angela-davis/itunes/rss.rss",
+            "title": "MPR News with Angela Davis",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7356d6afd62a4f608233f40b41d0128c",
+            "href": "https://feeds.publicradio.org/public_feeds/the-current-music-news/npr/rss",
+            "title": "The Current Music News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9808ad77b05944dc987d9ac26d9f80be",
+            "href": "https://feeds.publicradio.org/public_feeds/brains-on/npr/rss",
+            "title": "Brains On!",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "509b3edcc3454ef68deb521df1280149",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-update/npr/rss.rss",
+            "title": "Minnesota Today",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e03fb03a277446bcbc95e086ef853452",
+            "href": "https://feeds.publicradio.org/public_feeds/climate-cast/npr/rss",
+            "title": "Climate Cast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "928bbfa549334d37ae3f4ad576921168",
+            "href": "https://support.mpr.org/npr-main",
+            "title": "Contribute Now",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b0359382e34c40e78ff310b276c607fd",
+            "href": "https://support.mpr.org/npr-main",
+            "title": "Support MPR News",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "dd0616915bc24d1298223b9039898ffd",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/111_666e3390b608cec4246ab6bef7dc2568.mp4",
+            "title": "sanni 03072019",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "4668b4a10154424790b2225a3329306d",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/111_9ee024273de9201471e38e9ba3a1d970.mp4?1552076637243",
+            "title": "Bissoy 03082019",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "2a0a010440214ebf91167c1bd7857d35",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/111_54f7a2d27ff8934b6b7eef5f62838875.mp4",
+            "title": "McPherson",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/818",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "818",
+        "network": {
+          "inheritingFrom": "818",
+          "usesInheritance": false,
+          "currentOrgId": "818"
+        },
+        "guid": "4fcf7013096b4ec5a59e17bceb16c1e4",
+        "brand": {
+          "band": "FM",
+          "call": "KSJN",
+          "frequency": "99.5",
+          "marketCity": "St. Paul",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "Member supported"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.classicalmpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/ksjn_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ksjn_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/818.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/classicalmpr",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "3921a120a581406d882eb3f93a3e8473",
+            "href": "https://feeds.publicradio.org/public_feeds/art-hounds/npr/rss",
+            "title": "Art Hounds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbe4f0dffec14aefbb2b1bfccc93d315",
+            "href": "https://feeds.publicradio.org/public_feeds/counter-stories/npr/rss",
+            "title": "Counter Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7922619f76934839a9ed59e769f7d9f4",
+            "href": "https://feeds.publicradio.org/public_feeds/fieldwork/rss/rss.rss",
+            "title": "Field Work",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbf5acb80b8c48dab1b41c4fe1ef430f",
+            "href": "https://feeds.publicradio.org/public_feeds/the-current-rewind/npr/rss.rss",
+            "title": "The Current Rewind",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9808ad77b05944dc987d9ac26d9f80be",
+            "href": "https://feeds.publicradio.org/public_feeds/brains-on/npr/rss",
+            "title": "Brains On!",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ccb31e5c7b9f4be7b58532dab4a73df5",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-with-angela-davis/itunes/rss.rss",
+            "title": "MPR News with Angela Davis",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "650893150144478ea79621254264e48d",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-with-kerri-miller/npr/rss",
+            "title": "MPR News with Kerri Miller",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a41512e80ea7438bb7a9b0f2ea421ae8",
+            "href": "https://feeds.publicradio.org/public_feeds/policast/npr/rss",
+            "title": "Policast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2972aded0e5644939d69d448c077ca5c",
+            "href": "https://feeds.publicradio.org/public_feeds/cube-critics/npr/rss",
+            "title": "Cube Critics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7356d6afd62a4f608233f40b41d0128c",
+            "href": "https://feeds.publicradio.org/public_feeds/the-current-music-news/npr/rss",
+            "title": "The Current Music News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "308f3f98096f4370a6134d55ad5452b2",
+            "href": "https://feeds.publicradio.org/public_feeds/song-of-the-day/npr/rss",
+            "title": "The Current's Song of the Day",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e03fb03a277446bcbc95e086ef853452",
+            "href": "https://feeds.publicradio.org/public_feeds/climate-cast/npr/rss",
+            "title": "Climate Cast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "5350e5c586bb49919aef7b544103cd99",
+            "href": "https://contribute.publicradio.org",
+            "title": "Contribute Now",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/818.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/14",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kaxe-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "14",
+        "network": {
+          "inheritingFrom": "14",
+          "usesInheritance": false,
+          "currentOrgId": "14",
+          "tier1": {
+            "name": "KAXE-FM",
+            "id": "14",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KBXE-FM",
+                "id": "1305",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "14",
+          "recency": 120
+        },
+        "guid": "4fcf700e00cc4242a6d996f225d4c168",
+        "brand": {
+          "band": "FM",
+          "call": "KAXE",
+          "frequency": "91.7",
+          "marketCity": "Grand Rapids",
+          "marketState": "MN",
+          "name": "KAXE",
+          "tagline": "Connecting you to Northern Minnesota."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d0b36b6a59a04d9da78d7ef5f50b3342",
+                "typeId": "10",
+                "href": "https://live.streamguys1.com:2753/kaxe"
+              }
+            ],
+            "guid": "4fcf71351c55449b96d33cbf5b1868a1",
+            "title": "KAXE Folk, rock, blues, jazz and world mix",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kaxe.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kaxe_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kaxe_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/14_3c7d5e527f6b8ec3a2138024974e042a.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/14_0b712803c27be84f00e3da2154d6621c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/917kaxe",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/kaxe",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "d0b36b6a59a04d9da78d7ef5f50b3342",
+            "href": "https://live.streamguys1.com:2753/kaxe",
+            "isPrimaryStream": true,
+            "title": "KAXE Folk, rock, blues, jazz and world mix",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "20a80592403c4018b29a3c4ac0e2b768",
+            "href": "https://kaxe.drupal.publicbroadcasting.net/podcasts/26/rss.xml",
+            "title": "91.7 KAXE/90.5 KBXE Morning Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "4d2584d3c67b4f07bddff3828c64f602",
+            "href": "http://kaxe.org/membership",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "4973cf991906414ca71b33139d7b0ec3",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/14_9810b763b551f13d92a1ee16734efdc1.mp4",
+            "title": "Dang_Donate",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "19338a4111bc485dad853f155cf54f20",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/14_4c0e064f9d57b1dc65ca9409e3493f8e.mp4",
+            "title": "Why donate",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "7d9f7bd9934f4ccc94e46bd8af2d238b",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/14_b4e24211b0c33560d0b8f3d8fac8e149.mp4",
+            "title": "JP_Donate 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "dcbc9e3111b745e7a175ae791b5fc1af",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/14_106d253430c8c6aa7517742e8e3d7234.mp4",
+            "title": "JP_Donate",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "3db8b1ae74894a4bb7d57e600334453a",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/14_4dadfeccb765955a5b2e0848d8a80ad8.mp4",
+            "title": "KH Donate",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "4fce188d80be40c19905b287c1a6124f",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/14_4ef36e8aaf51d06074ee145035b047ed.mp4",
+            "title": "Sonja donate",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/14.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/836",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70130d734c81a6d91b8a5a2379dc",
+        "brand": {
+          "band": "FM",
+          "call": "WSCD",
+          "frequency": "92.9",
+          "marketCity": "Duluth",
+          "marketState": "MN",
+          "name": "Minnesota Public Radio",
+          "tagline": "Member supported."
+        },
+        "orgId": "836",
+        "network": {
+          "inheritingFrom": "836",
+          "usesInheritance": false,
+          "currentOrgId": "836"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://minnesota.publicradio.org/radio/services/cms/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wscd_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wscd_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/836.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "19f3aa8dd2aa4c0a8a62e3f54dea949c",
+            "href": "http://minnesota.publicradio.org/support/",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/836.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/823",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70130a6b441a82479a84329aadb0",
+        "brand": {
+          "band": "FM",
+          "call": "KCCM",
+          "frequency": "91.1",
+          "marketCity": "Moorhead",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "Member supported."
+        },
+        "orgId": "823",
+        "network": {
+          "inheritingFrom": "823",
+          "usesInheritance": false,
+          "currentOrgId": "823"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kccm_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kccm_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/823.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "c9ff9a7655804db2941a4859b695fbd8",
+            "href": "http://minnesota.publicradio.org/support/",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/823.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/832",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70130c994ceda81dbff0d047142c",
+        "brand": {
+          "band": "FM",
+          "call": "KSJR",
+          "frequency": "90.1",
+          "marketCity": "Collegeville-St. Cloud",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "member supported"
+        },
+        "orgId": "832",
+        "network": {
+          "inheritingFrom": "832",
+          "usesInheritance": false,
+          "currentOrgId": "832"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/ksjr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ksjr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/832.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d6a4191e32794ac6a3f40bea017904da",
+            "href": "http://minnesota.publicradio.org/support/",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/832.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/828",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70130b94467390707151994c8813",
+        "brand": {
+          "band": "FM",
+          "call": "KLSE",
+          "frequency": "90.7",
+          "marketCity": "Rochester",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "member supported"
+        },
+        "orgId": "828",
+        "network": {
+          "inheritingFrom": "828",
+          "usesInheritance": false,
+          "currentOrgId": "828"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/klse_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/klse_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/828.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "72d6a7e2f6d14edcaa6354112ce6f9cf",
+            "href": "http://minnesota.publicradio.org/support/",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/828.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/829",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70130bed4b40a68c30b4c7ddfe13",
+        "brand": {
+          "band": "FM",
+          "call": "KQMN",
+          "frequency": "91.5",
+          "marketCity": "Thief River Falls",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "Member supported"
+        },
+        "orgId": "829",
+        "network": {
+          "inheritingFrom": "829",
+          "usesInheritance": false,
+          "currentOrgId": "829"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kqmn_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kqmn_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/829.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d422bfe3326e4828ba5d0dea0db27be2",
+            "href": "http://minnesota.publicradio.org/support/",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/829.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/831",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70130c5c463ea54a13b120b45605",
+        "brand": {
+          "band": "FM",
+          "call": "KRSW",
+          "frequency": "89.3",
+          "marketCity": "Worthington-Marshall",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "Member supported"
+        },
+        "orgId": "831",
+        "network": {
+          "inheritingFrom": "831",
+          "usesInheritance": false,
+          "currentOrgId": "831"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/krsw_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/krsw_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/831.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "5b562c87184a478fbbc482879ceac5bb",
+            "href": "http://minnesota.publicradio.org/support/",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/831.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/835",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70130d37421e9e79f1bd489245a5",
+        "brand": {
+          "band": "FM",
+          "call": "WMLS",
+          "frequency": "88.7",
+          "marketCity": "Grand Marais",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "Member supported"
+        },
+        "orgId": "835",
+        "network": {
+          "inheritingFrom": "835",
+          "usesInheritance": false,
+          "currentOrgId": "835"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wmls_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wmls_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/835.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "12660e16887b4c7c9fffab795b6c9082",
+            "href": "http://minnesota.publicradio.org/support/",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/835.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/113",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf700e1ec541d8ab4ff6f417d0b003",
+        "brand": {
+          "band": "FM",
+          "call": "KBPR",
+          "frequency": "90.7",
+          "marketCity": "Brainerd",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "Member supported"
+        },
+        "orgId": "113",
+        "network": {
+          "inheritingFrom": "113",
+          "usesInheritance": false,
+          "currentOrgId": "113"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kbpr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kbpr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/113.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "dfbdbafd3b1949a98499aeb5f727f62c",
+            "href": "https://contribute.publicradio.org/contribute.php?",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "e98c94dd6b1642839984bf7489ed4c76",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/113.mp4",
+            "title": "Station Pledge Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/936",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70132080440e896b985bc645a539",
+        "brand": {
+          "band": "FM",
+          "call": "KCMP",
+          "frequency": "89.3",
+          "marketCity": "Northfield-Minneapolis-St. Pau",
+          "marketState": "MN",
+          "name": "The Current",
+          "tagline": "Great music lives here"
+        },
+        "orgId": "936",
+        "network": {
+          "inheritingFrom": "936",
+          "usesInheritance": false,
+          "currentOrgId": "936"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f15b2e5c996c4b7b8f1b09648eeb1584",
+                "typeId": "10",
+                "href": "https://radioheartland.stream.publicradio.org/radioheartland-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "9bef0c938c624dfebc6f6fde37461ad8",
+                "typeId": "13",
+                "href": "https://radioheartland.stream.publicradio.org/radioheartland-npr.aac"
+              }
+            ],
+            "guid": "4fcf71411eb5469cbddfec74ea1afed9",
+            "title": "Radio Heartland",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "70f8092dc9b94f02a98d2a7e5ca963ed",
+                "typeId": "10",
+                "href": "https://current.stream.publicradio.org/current-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "a1aa2eda02d24c69aa95b0328154db61",
+                "typeId": "13",
+                "href": "https://current.stream.publicradio.org/current-npr.aac"
+              }
+            ],
+            "guid": "4fcf714225f048d5999ee032db4ccba4",
+            "title": "The Current ",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "dc0dc929809247c388ffe74dd720df4d",
+                "typeId": "10",
+                "href": "https://www.thecurrent.org/listen/rock-the-cradle"
+              }
+            ],
+            "guid": "7aef5055dd244894928f93f4a2c88c61",
+            "title": "Rock the Cradle",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.thecurrent.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kcmp_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kcmp_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/936.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "f15b2e5c996c4b7b8f1b09648eeb1584",
+            "href": "https://radioheartland.stream.publicradio.org/radioheartland-npr.mp3",
+            "isPrimaryStream": false,
+            "title": "Radio Heartland",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "70f8092dc9b94f02a98d2a7e5ca963ed",
+            "href": "https://current.stream.publicradio.org/current-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "The Current ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dc0dc929809247c388ffe74dd720df4d",
+            "href": "https://www.thecurrent.org/listen/rock-the-cradle",
+            "isPrimaryStream": false,
+            "title": "Rock the Cradle",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "9bef0c938c624dfebc6f6fde37461ad8",
+            "href": "https://radioheartland.stream.publicradio.org/radioheartland-npr.aac",
+            "isPrimaryStream": false,
+            "title": "Radio Heartland",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "a1aa2eda02d24c69aa95b0328154db61",
+            "href": "https://current.stream.publicradio.org/current-npr.aac",
+            "isPrimaryStream": true,
+            "title": "The Current ",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "8b8f2f55bc594dbba6bea0dd1cc47344",
+            "href": "https://contribute.publicradio.org/contribute.php?refId=current",
+            "title": "Support The Current",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/936.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1064",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf701411c24d55bce565707740a2dd",
+        "brand": {
+          "band": "FM",
+          "call": "KMSE",
+          "frequency": "88.7",
+          "marketCity": "Rochester",
+          "marketState": "MN",
+          "name": "The Current",
+          "tagline": "Great music lives here."
+        },
+        "orgId": "1064",
+        "network": {
+          "inheritingFrom": "1064",
+          "usesInheritance": false,
+          "currentOrgId": "1064"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kmse_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kmse_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1064.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "eb7b71ed853e473c98500617f227c031",
+            "href": "https://contribute.publicradio.org/contribute.php?WT.mc_id=currentHTherm&WT.mc_ev=click&refId=current",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1064.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/826",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "826",
+        "network": {
+          "inheritingFrom": "826",
+          "usesInheritance": false,
+          "currentOrgId": "826"
+        },
+        "guid": "4fcf70130b1f4b2faafa851eef96cb8e",
+        "brand": {
+          "band": "FM",
+          "call": "KGAC",
+          "frequency": "91.5",
+          "marketCity": "Saint Peter",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "Member supported"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "dc0dc929809247c388ffe74dd720df4d",
+                "typeId": "10",
+                "href": "https://www.thecurrent.org/listen/rock-the-cradle"
+              }
+            ],
+            "guid": "7aef5055dd244894928f93f4a2c88c61",
+            "title": "Rock the Cradle",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.classicalmpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kgac_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/mpr.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "dc0dc929809247c388ffe74dd720df4d",
+            "href": "https://www.thecurrent.org/listen/rock-the-cradle",
+            "isPrimaryStream": false,
+            "title": "Rock the Cradle",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "3921a120a581406d882eb3f93a3e8473",
+            "href": "https://feeds.publicradio.org/public_feeds/art-hounds/npr/rss",
+            "title": "Art Hounds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbe4f0dffec14aefbb2b1bfccc93d315",
+            "href": "https://feeds.publicradio.org/public_feeds/counter-stories/npr/rss",
+            "title": "Counter Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a41512e80ea7438bb7a9b0f2ea421ae8",
+            "href": "https://feeds.publicradio.org/public_feeds/policast/npr/rss",
+            "title": "Policast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "650893150144478ea79621254264e48d",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-with-kerri-miller/npr/rss",
+            "title": "MPR News with Kerri Miller",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbf5acb80b8c48dab1b41c4fe1ef430f",
+            "href": "https://feeds.publicradio.org/public_feeds/the-current-rewind/npr/rss.rss",
+            "title": "The Current Rewind",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7356d6afd62a4f608233f40b41d0128c",
+            "href": "https://feeds.publicradio.org/public_feeds/the-current-music-news/npr/rss",
+            "title": "The Current Music News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2972aded0e5644939d69d448c077ca5c",
+            "href": "https://feeds.publicradio.org/public_feeds/cube-critics/npr/rss",
+            "title": "Cube Critics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e03fb03a277446bcbc95e086ef853452",
+            "href": "https://feeds.publicradio.org/public_feeds/climate-cast/npr/rss",
+            "title": "Climate Cast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7922619f76934839a9ed59e769f7d9f4",
+            "href": "https://feeds.publicradio.org/public_feeds/fieldwork/rss/rss.rss",
+            "title": "Field Work",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "308f3f98096f4370a6134d55ad5452b2",
+            "href": "https://feeds.publicradio.org/public_feeds/song-of-the-day/npr/rss",
+            "title": "The Current's Song of the Day",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9808ad77b05944dc987d9ac26d9f80be",
+            "href": "https://feeds.publicradio.org/public_feeds/brains-on/npr/rss",
+            "title": "Brains On!",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ccb31e5c7b9f4be7b58532dab4a73df5",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-with-angela-davis/itunes/rss.rss",
+            "title": "MPR News with Angela Davis",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "23ac5dfd1ddd42c8b4eeb697426e54fd",
+            "href": "https://contribute.publicradio.org",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/824",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70130aa54319a597dc5dccdbba96",
+        "brand": {
+          "band": "FM",
+          "call": "KCMF",
+          "frequency": "89.7",
+          "marketCity": "Fergus Falls",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "Member supported"
+        },
+        "orgId": "824",
+        "network": {
+          "inheritingFrom": "824",
+          "usesInheritance": false,
+          "currentOrgId": "824"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kcmf_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kcmf_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/824.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "912d0af220ff44a595b380111e59d945",
+            "href": "http://minnesota.publicradio.org/support/",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/824.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/825",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70130ae24f5f83f6ad0b4b421fbb",
+        "brand": {
+          "band": "FM",
+          "call": "KCRB",
+          "frequency": "88.5",
+          "marketCity": "Bemidji",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "Member supported"
+        },
+        "orgId": "825",
+        "network": {
+          "inheritingFrom": "825",
+          "usesInheritance": false,
+          "currentOrgId": "825"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kcrb_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kcrb_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/825.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "41b4d24391cc49e789229911d096f22c",
+            "href": "http://minnesota.publicradio.org/support/",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/825.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/834",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf70130d0045faa659576a47e7731b",
+        "brand": {
+          "band": "FM",
+          "call": "WIRR",
+          "frequency": "90.9",
+          "marketCity": "Virginia-Hibbing",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "Member supported"
+        },
+        "orgId": "834",
+        "network": {
+          "inheritingFrom": "834",
+          "usesInheritance": false,
+          "currentOrgId": "834"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wirr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wirr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/834.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3ca53729cb4b4182a59d691882d5215f",
+            "href": "http://minnesota.publicradio.org/support/",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/834.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/867",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "4fcf7013136b4be98e8da6ec4b96fbdf",
+        "brand": {
+          "band": "FM",
+          "call": "KRSU",
+          "frequency": "88.5",
+          "marketCity": "Appleton",
+          "marketState": "MN",
+          "name": "Classical MPR",
+          "tagline": "Member supported"
+        },
+        "orgId": "867",
+        "network": {
+          "inheritingFrom": "867",
+          "usesInheritance": false,
+          "currentOrgId": "867"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/krsu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/krsu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/867.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": true,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "886f48ef8e8646538e8b694afe150397",
+            "href": "http://minnesota.publicradio.org/support/",
+            "title": "Support MPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/867.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

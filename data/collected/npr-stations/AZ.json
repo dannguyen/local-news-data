@@ -1,0 +1,987 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "AZ"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/95",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kjzz-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "95",
+        "network": {
+          "inheritingFrom": "95",
+          "usesInheritance": false,
+          "currentOrgId": "95",
+          "tier1": {
+            "name": "KJZZ-FM",
+            "id": "95",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "95",
+          "recency": 240
+        },
+        "guid": "4fcf700e19f24236a381d3e8cc93a32a",
+        "brand": {
+          "band": "FM",
+          "call": "KJZZ",
+          "frequency": "91.5",
+          "marketCity": "Phoenix",
+          "marketState": "AZ",
+          "name": "KJZZ",
+          "tagline": "Your News and Information Station: Informed, Accurate, Credible"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bc85167fd3974aa8908cab96b58e1459",
+                "typeId": "10",
+                "href": "https://kjzz.streamguys1.com/kbaq_mp3_128"
+              }
+            ],
+            "guid": "4fcf714520a34e12bdfeba6d5c2c1c33",
+            "title": "KBAQ FM - Classical",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "605798e274cb452a99f2934a555af6be",
+                "typeId": "10",
+                "href": "https://kjzz.streamguys1.com/kjzz_mp3_128"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "f51092d4c1b74ed4995c09963b7866ec",
+                "typeId": "13",
+                "href": "https://kjzz.streamguys1.com/kjzz_aac_64"
+              }
+            ],
+            "guid": "4fcf713e001e4e9bb2e5f72c49588be1",
+            "title": "KJZZ FM - News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kjzz.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kjzz_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kjzz_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/95_2fb58545a97563cff83c74d053770721.mp4?1549070421608",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KJZZ-915/171816374480",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "bc85167fd3974aa8908cab96b58e1459",
+            "href": "https://kjzz.streamguys1.com/kbaq_mp3_128",
+            "isPrimaryStream": false,
+            "title": "KBAQ FM - Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "605798e274cb452a99f2934a555af6be",
+            "href": "https://kjzz.streamguys1.com/kjzz_mp3_128",
+            "isPrimaryStream": true,
+            "title": "KJZZ FM - News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f51092d4c1b74ed4995c09963b7866ec",
+            "href": "https://kjzz.streamguys1.com/kjzz_aac_64",
+            "isPrimaryStream": true,
+            "title": "KJZZ FM - News",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "74e8bb65782b449e94ef3b6dbf703138",
+            "href": "https://theshow.kjzz.org/podcast/friday_newscap.xml",
+            "title": "KJZZ's The Show: Friday Newscap",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ac7aba125e6e4c87b043d5899be8e631",
+            "href": "https://kjzz.org/podcast/changing_woman.xml",
+            "title": "KJZZ's Fronteras Desk: Changing Woman",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4204d4da3cb5440dab325df4792b3ac4",
+            "href": "https://www.omnycontent.com/d/playlist/6fe3d50a-e9b5-4e9f-bf31-aa7a012db0b0/c0bdcd96-33f9-485d-9c34-aa7a015aec95/264c5c44-30ea-4ca7-b89f-aa7e010ac402/podcast.rss",
+            "title": "(Un)Affordable",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "754a79edfa4b40ffa0ff37efc25b19bc",
+            "href": "https://kjzz.org/podcast/sunup.xml",
+            "title": "KJZZ's Sun Up",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8d3b4002b9a14bc4b5dce7347fb1eec1",
+            "href": "https://www.omnycontent.com/d/playlist/6fe3d50a-e9b5-4e9f-bf31-aa7a012db0b0/c0bdcd96-33f9-485d-9c34-aa7a015aec95/e3ae546c-23a2-4223-aa6e-aa7a015d4f3b/podcast.rss",
+            "title": "Aging",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "56e2e99f100e49d5b78d7a5601c47fe4",
+            "href": "https://www.omnycontent.com/d/playlist/6fe3d50a-e9b5-4e9f-bf31-aa7a012db0b0/c0bdcd96-33f9-485d-9c34-aa7a015aec95/affe186d-f7fb-4156-87b5-ab590163400f/podcast.rss",
+            "title": "UnSheltered",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "edb41d08f0a742e5aa95ab1fb5cda6d0",
+            "href": "https://www.omnycontent.com/d/playlist/6fe3d50a-e9b5-4e9f-bf31-aa7a012db0b0/c0bdcd96-33f9-485d-9c34-aa7a015aec95/27765e50-2d30-4a86-a615-ab05014486f8/podcast.rss",
+            "title": "(In)Accessible",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "94c6e09cc8394c42a921b906c2b4cd64",
+            "href": "https://kjzz.org/podcast/untoldaz.xml",
+            "title": "KJZZ's Untold Arizona",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a11794ac5c824d89af24d6e7114c766c",
+            "href": "https://theshow.kjzz.org/podcast/theshow.xml",
+            "title": "KJZZ's The Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b91413d221824d8da700297eb93e0ce8",
+            "href": "https://secure.kjzz.org/alleg/WebModule/Donate.aspx?P=ZNPRWEB&PAGETYPE=PLG&CHECK=%2f8xQbpk9YD07IwNM1Kmg6uzWDeZ%2beA1M",
+            "title": "Support KJZZ",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "ada47199becf4d8ab037e0d6ad23a4e5",
+            "href": "https://secure.kjzz.org/alleg/WebModule/Donate.aspx?P=ZNPRONEAPP&PAGETYPE=PLG&CHECK=ADdZHZn1iVayBunC%2fRqgf71YhDw50SikSh2nq0qouhg%3d",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "3226d6abef414be2a7fd76e38ded4703",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/95_b9f000a8d2d663932f2baa88ee7b0519.mp4",
+            "title": "Giving Tuesday Now_May 2020_3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "03053bdc53b645c2b40e181203a01c60",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/95_4d6bb3b7994296ed31bea80a6c0f36ca.mp4",
+            "title": "Giving Tuesday Now_May 2020",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "439824f364a44515a5f26effc1fea9c7",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/95_4f8e91e47f815fb0a08489beb4f0575a.mp4",
+            "title": "Giving Tuesday Now_May 2020_2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/95.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/201",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kuaz-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "201",
+        "network": {
+          "name": "Arizona Public Media",
+          "inheritingFrom": "1126",
+          "usesInheritance": true,
+          "currentOrgId": "201",
+          "tier1": {
+            "name": "Arizona Public Media",
+            "id": "1126",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KUAZ-FM",
+                "id": "201",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KUAZ-AM",
+                    "id": "202",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUAS-FM",
+                    "id": "1717",
+                    "usesInheritance": false
+                  }
+                ]
+              },
+              {
+                "name": "KUAT-FM",
+                "id": "896",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "1126",
+          "recency": 120
+        },
+        "guid": "4fcf700f117649c89627b6ad21374bec",
+        "brand": {
+          "band": "FM",
+          "call": "KUAZ",
+          "frequency": "89.1",
+          "marketCity": "Tucson",
+          "marketState": "AZ",
+          "name": "Arizona Public Media",
+          "tagline": "Your Source for NPR News and Genuine Jazz"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d9d47a2f768a426ba36e034a8dbe0d07",
+                "typeId": "10",
+                "href": "https://streaming.azpm.org:443/kuaz128.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "1161acbb2e794bc9b7eb0d48687b448f",
+                "typeId": "13",
+                "href": "https://hls.azpm.org/z-stream/kuaz.m3u8"
+              }
+            ],
+            "guid": "4fcf714908eb49dbbb51209b1882cbb6",
+            "title": "KUAZ Arizona Public Media",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://radio.azpm.org/kuaz/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/azpm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/azpm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1126_2f840240ead32e4d9d86f30cb1fa23a4.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "d9d47a2f768a426ba36e034a8dbe0d07",
+            "href": "https://streaming.azpm.org:443/kuaz128.mp3",
+            "isPrimaryStream": true,
+            "title": "KUAZ Arizona Public Media",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1161acbb2e794bc9b7eb0d48687b448f",
+            "href": "https://hls.azpm.org/z-stream/kuaz.m3u8",
+            "isPrimaryStream": true,
+            "title": "KUAZ Arizona Public Media",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "07473d3d7d6a418aa18ac9f1726d5834",
+            "href": "https://media.azpm.org/master/doc//arizona-science.xml",
+            "title": "Arizona Science",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f460ee9a84794435844c7e4a10a8cd8b",
+            "href": "https://media.azpm.org/master/doc/buzz.xml",
+            "title": "The Buzz",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1478ab65c3544965a6908750ffc56b2a",
+            "href": "https://media.azpm.org/master/doc/az-spotlight-podcast.xml",
+            "title": "Arizona Spotlight | Interviews, Music, and Headlines from Southern Arizona",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "214dad05088847ffb2344b4145f1090f",
+            "href": "https://media.azpm.org/master/doc/dimelo.xml",
+            "title": "D\u00edmelo: Stories of the Southwest",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "198532ba84ca4450a2811f0532d94357",
+            "href": "https://support.azpm.org/",
+            "title": null,
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/105",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/knau-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "105",
+        "network": {
+          "name": "KNAU News Talk",
+          "inheritingFrom": "645",
+          "usesInheritance": true,
+          "currentOrgId": "105",
+          "tier1": {
+            "name": "Arizona Public Radio",
+            "id": "645",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KNAU-FM",
+                "id": "105",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KNAA-FM",
+                    "id": "106",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNAD-FM",
+                    "id": "107",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNAG-FM",
+                    "id": "108",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNAQ-FM",
+                    "id": "109",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPUB-FM",
+                    "id": "110",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUYI-FM",
+                    "id": "903",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700e1c8343789ad960a90534b588",
+        "brand": {
+          "band": "FM",
+          "call": "KNAU",
+          "frequency": "88.7",
+          "marketCity": "Flagstaff",
+          "marketState": "AZ",
+          "name": "KNAU News Talk",
+          "tagline": "Arizona Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3891fe0f504645d8bdd68a1ad4ad2a07",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KNAUFM_128.pls"
+              }
+            ],
+            "guid": "140798c275903c94f228a473afc677c0",
+            "title": "KNAU Classical Music",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "85a9b8a1b3d44cdda057ec75ce7fbdd2",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KPUBFM_128.pls"
+              }
+            ],
+            "guid": "4fcf715a164a4a2bb776b12070fa5285",
+            "title": "KNAU News and Talk",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://knau.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/azpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/azpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KNAU-Arizona-Public-Radio/98642777805",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3891fe0f504645d8bdd68a1ad4ad2a07",
+            "href": "https://playerservices.streamtheworld.com/pls/KNAUFM_128.pls",
+            "isPrimaryStream": false,
+            "title": "KNAU Classical Music",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "85a9b8a1b3d44cdda057ec75ce7fbdd2",
+            "href": "https://playerservices.streamtheworld.com/pls/KPUBFM_128.pls",
+            "isPrimaryStream": true,
+            "title": "KNAU News and Talk",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "9a09ba2676694495848aeca3d51238e6",
+            "href": "https://knau.drupal.publicbroadcasting.net/podcasts/term/48/rss.xml",
+            "title": "Scott Thybony Commentaries",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2d07d0306c9d47f59700744b1fbdcb7f",
+            "href": "https://knau.drupal.publicbroadcasting.net/podcasts/term/45/rss.xml",
+            "title": "KNAU and Arizona News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "813abf530e6b4648b8be743ca3dc5fd5",
+            "href": "https://knau.drupal.publicbroadcasting.net/podcasts/term/21/rss.xml",
+            "title": "Earth Notes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e95fde29c627414eaaf7ac874136a22f",
+            "href": "https://knau.drupal.publicbroadcasting.net/podcasts/term/20/rss.xml",
+            "title": "Arizona State Capitol News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "67adf2cbbad64a2086906bb623ee0c63",
+            "href": "https://foundation.nau.edu/knau/donate",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/13",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kawc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "13",
+        "network": {
+          "inheritingFrom": "13",
+          "usesInheritance": false,
+          "currentOrgId": "13",
+          "tier1": {
+            "name": "KAWC-FM",
+            "id": "13",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KOFA-AM",
+                "id": "12",
+                "usesInheritance": false
+              },
+              {
+                "name": "KAWP-FM",
+                "id": "1530",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700e0077497bbda5e4ea9da75994",
+        "brand": {
+          "band": "FM",
+          "call": "KAWC",
+          "frequency": "88.9",
+          "marketCity": "Yuma",
+          "marketState": "AZ",
+          "name": "KAWC",
+          "tagline": "Colorado River Public Media"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "74daa26837d64e4daac168094915dbce",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KAWCFM.pls"
+              }
+            ],
+            "guid": "514b000018644eb9b299086d5966f749",
+            "title": "KAWC - Trusted News for Yuma and La Paz Counties",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kawc.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kawc_am.png?1485462330875",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kawc_am.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/13_7ad8196807de39604a99c90ec6daa145.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KAWCRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "74daa26837d64e4daac168094915dbce",
+            "href": "https://playerservices.streamtheworld.com/pls/KAWCFM.pls",
+            "isPrimaryStream": true,
+            "title": "KAWC - Trusted News for Yuma and La Paz Counties",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "7f866065be5c481fa8d553434ccb25c9",
+            "href": "http://kawc.org/support-kawc",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "7ee807287b9e4cdca43529423bba762b",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/13_eea16757b9e27890a8c180dc941857af.mp4",
+            "title": "Donate 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "9a23cd4168744e40bdf9beec4f378ec5",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/13_117ad188162f81137f1ce741ac61c228.mp4",
+            "title": "Donate 3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "a71364e9caab459b8f8d0e005723f5f5",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/13_89de2552df69e5ffd4301856c9bdd985.mp4",
+            "title": "Donate 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/13.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1717",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "5947fc69437348b1a8e8b2c0a7510377",
+        "brand": {
+          "band": "FM",
+          "call": "KUAS",
+          "frequency": "88.9",
+          "marketCity": "Sierra Vista",
+          "marketState": "AZ",
+          "name": "KUAS-FM",
+          "tagline": null
+        },
+        "orgId": "1717",
+        "network": {
+          "inheritingFrom": "1717",
+          "usesInheritance": false,
+          "currentOrgId": "1717"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/12",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf700d26d0446ba7e44f3bc1a6dfb4",
+        "brand": {
+          "band": "AM",
+          "call": "KOFA",
+          "frequency": "1320",
+          "marketCity": "Yuma",
+          "marketState": "AZ",
+          "name": "KOFA",
+          "tagline": "Border Radio"
+        },
+        "orgId": "12",
+        "network": {
+          "inheritingFrom": "12",
+          "usesInheritance": false,
+          "currentOrgId": "12"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "3a1493101e054f97b7202e35be8d576a",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KAWCAM.pls"
+              }
+            ],
+            "guid": "4fcf715819a2486096ec7e83703bad35",
+            "title": "KOFA Border Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.borderradioaz.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kofa_am.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kofa_am.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/12_3c8a4996253360684eed27f1a3e2dd5f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KAWCRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "3a1493101e054f97b7202e35be8d576a",
+            "href": "https://playerservices.streamtheworld.com/pls/KAWCAM.pls",
+            "isPrimaryStream": true,
+            "title": "KOFA Border Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "fc67bb1fc1b847119c2d7a2989fd1ad1",
+            "href": "https://donate.nprstations.org/kawc/border-radio-support",
+            "title": "Support KAWC",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "0b43000b717a43e8a2ba187eea944974",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/12_66e83ef99a2cffb7d2752cbb21195abb.mp4",
+            "title": "BR Donate 3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "1086f0602e1e4769ba6057094bf8b26c",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/12_1f517119284aa1a1de1efc610ad0348c.mp4",
+            "title": "BR Donate 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "258e179b3ee74ea2a241f62e76e92320",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/12_63a28f0bca569d0c4d2bb8a055effc37.mp4",
+            "title": "BR Donate 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/896",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "12",
+          "musicOnly": true
+        },
+        "guid": "4fcf7013180c42189d78210a702d7f45",
+        "brand": {
+          "band": "FM",
+          "call": "KUAT",
+          "frequency": "90.5",
+          "marketCity": "Tucson",
+          "marketState": "AZ",
+          "name": "KUAT",
+          "tagline": "Southern Arizona's Classical Music Station"
+        },
+        "orgId": "896",
+        "network": {
+          "inheritingFrom": "896",
+          "usesInheritance": false,
+          "currentOrgId": "896"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://radio.azpm.org/classical/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kuat_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/896.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KUAZ-AMFM-KUAT-FM-Classical/46835571983",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/AZPMnews",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "cda26df012424c98abb3b8857db55eb2",
+            "href": "https://support.azpm.org/",
+            "title": "Support AZPM",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/896.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

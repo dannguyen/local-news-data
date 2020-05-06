@@ -1,0 +1,2095 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "IA"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/558",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/woi-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "558",
+        "network": {
+          "name": "Iowa Public Radio News",
+          "inheritingFrom": "556",
+          "usesInheritance": true,
+          "currentOrgId": "558",
+          "tier1": {
+            "name": "Iowa Public Radio",
+            "id": "556",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WOI-FM",
+                "id": "558",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KRNI-AM",
+                    "id": "225",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSM-FM",
+                    "id": "226",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KNSK-FM",
+                    "id": "559",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSC-FM",
+                    "id": "815",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSL-FM",
+                    "id": "931",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KICJ-FM",
+                    "id": "987",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KNSY-FM",
+                    "id": "990",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUNI-FM",
+                    "id": "1017",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WOI-AM",
+                    "id": "1018",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSUI-AM",
+                    "id": "1019",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSZ-FM",
+                    "id": "1105",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KICW-FM",
+                    "id": "1106",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KNSB-FM",
+                    "id": "1237",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KICP-FM",
+                    "id": "1291",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KICL-FM",
+                    "id": "1292",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KICG-FM",
+                    "id": "1378",
+                    "usesInheritance": false
+                  }
+                ]
+              },
+              {
+                "name": "KHKE-FM",
+                "id": "1020",
+                "usesInheritance": false
+              },
+              {
+                "name": "KSUI-FM",
+                "id": "1029",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "556",
+          "recency": 120
+        },
+        "guid": "4fcf70111d1d44ca82e3267b1ea96232",
+        "brand": {
+          "band": "FM",
+          "call": "WOI",
+          "frequency": "90.1",
+          "marketCity": "Ames",
+          "marketState": "IA",
+          "name": "Iowa Public Radio News",
+          "tagline": "Iowa Public Radio enriches the civic and cultural life in Iowa through high quality news and cultural programming."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1c49a55ff87a466ba8116af7297ccbd5",
+                "typeId": "10",
+                "href": "https://studioone-stream.iowapublicradio.org/StudioOne.mp3"
+              }
+            ],
+            "guid": "30c598bc79e145ab94b92363b1588bde",
+            "title": "IPR Studio One",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b5da24aacdb74b44b83896412dc6d4ec",
+                "typeId": "10",
+                "href": "https://news-stream.iowapublicradio.org/News.mp3"
+              }
+            ],
+            "guid": "13deb7a22e403944dd7a887aa9746abb",
+            "title": "IPR News",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "defbb87c7154499b8ff4b87dda370370",
+                "typeId": "10",
+                "href": "https://news-stream.iowapublicradio.org/News.mp3"
+              }
+            ],
+            "guid": "9717f4c310f84c5a85634a40dc5d971a",
+            "title": "IPR News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.iowapublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/woi.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/woi.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/556_287c6853d98f85d1cbd1196129d27b84.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Iowa-Public-Radio/158021610875925",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/IowaPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1c49a55ff87a466ba8116af7297ccbd5",
+            "href": "https://studioone-stream.iowapublicradio.org/StudioOne.mp3",
+            "isPrimaryStream": false,
+            "title": "IPR Studio One",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b5da24aacdb74b44b83896412dc6d4ec",
+            "href": "https://news-stream.iowapublicradio.org/News.mp3",
+            "isPrimaryStream": true,
+            "title": "IPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "defbb87c7154499b8ff4b87dda370370",
+            "href": "https://news-stream.iowapublicradio.org/News.mp3",
+            "isPrimaryStream": true,
+            "title": "IPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "7e7e07785513496d950867e03dc1656e",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/36/rss.xml",
+            "title": "River to River",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a52666c26979487b9d6ee3d3cae545db",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/121643/rss.xml",
+            "title": "Bike Shorts",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "42323288d0f64059a67bf120532835b3",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/113114/rss.xml",
+            "title": "Unsettled: Mapping #MeToo",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "82ca557a48ee43cd95cdbd228dd289be",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/term/5279/rss.xml",
+            "title": "Studio One Live Sets",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1c6fe90ae2c14948895eaca5caf0a50a",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/120144/rss.xml",
+            "title": "Caucus Land",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "33b7fd3de4224535a22f8cbe4c27052d",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/84851/rss.xml",
+            "title": "Under the Golden Dome",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ec3b1cd1f0964878bfc9ff453b1ca789",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/31/rss.xml",
+            "title": "Talk of Iowa",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "ad5ddef989eb40889220cd0ad69c4f1e",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": "Support IPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "c8e87ed7006740678ceb386d2a463db8",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": "Support IPR",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "ccf4f8b548a44a2599958c7fbc90b00f",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/556_260a4d1dcc1852aa05d7033b136323e3.mp4",
+            "title": "CM PUBLIC SERVICE 13",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "b6892a7fee5e4c418a4a2625a3c6d0b4",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/556_230cb2af6da38a53d985237a654714cb.mp4",
+            "title": "CM SEC WHAT YOU EXPECT 12",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "68fa7cf6a44d42b09b0808ba3383d7e1",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/556_bbf3e966d2853c1c7ab3056c2e403f02.mp4",
+            "title": "DR PUBLIC SERVICE",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/277",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "277",
+        "network": {
+          "inheritingFrom": "277",
+          "usesInheritance": false,
+          "currentOrgId": "277",
+          "tier1": {
+            "name": "KWIT-FM",
+            "id": "277",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KOJI-FM",
+                "id": "853",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "277",
+          "recency": 240
+        },
+        "guid": "4fcf700f235a425186a163ac3930bf5e",
+        "brand": {
+          "band": "FM",
+          "call": "KWIT",
+          "frequency": "90.3",
+          "marketCity": "Sioux City",
+          "marketState": "IA",
+          "name": "KWIT",
+          "tagline": "A station for everyone"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ea7e4d2c33fe4cbda5e8e7e91f54e45e",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KWITFM.pls"
+              }
+            ],
+            "guid": "4fcf713320be4bb793c88b4bfbb53b94",
+            "title": "KWIT-FM - MP3 Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kwit.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kwit_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kwit_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/277.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Kwit-Koji-FM-90/140018052702857",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/kwitkoji",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "ea7e4d2c33fe4cbda5e8e7e91f54e45e",
+            "href": "https://playerservices.streamtheworld.com/pls/KWITFM.pls",
+            "isPrimaryStream": true,
+            "title": "KWIT-FM - MP3 Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "0820327bb44449c8a5b9b89775702df0",
+            "href": "https://kwit.drupal.publicbroadcasting.net/podcasts/129906/rss.xml",
+            "title": "Mix Tape Dance Party",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c0bd303fe2c84f72af97dbdbd2c04a2e",
+            "href": "https://kwit.drupal.publicbroadcasting.net/podcasts/139030/rss.xml",
+            "title": "Art + Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4bfbf94472884f4fbaf10f36d42bce98",
+            "href": "https://kwit.drupal.publicbroadcasting.net/podcasts/142568/rss.xml",
+            "title": "The First Fifty Pages",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f0657412742b4248b1a4a748080169e9",
+            "href": "https://kwit.drupal.publicbroadcasting.net/podcasts/103028/rss.xml",
+            "title": "We Are Not A Monolith",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c9ddbe92fa9140de840d77276708f2e7",
+            "href": "https://kwit.drupal.publicbroadcasting.net/podcasts/106832/rss.xml",
+            "title": "Small Wonders",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "515b5fd21c144e27b5505b8d59334b0b",
+            "href": "https://kwit.drupal.publicbroadcasting.net/podcasts/99959/rss.xml",
+            "title": "The Exchange",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "1c40cc0b8bd541ecbb5cb236845b14bd",
+            "href": "https://kwit.drupal.publicbroadcasting.net/podcasts/63856/rss.xml",
+            "title": "Siouxland Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "44ab8a55d98e45ff85d3cca889197ecd",
+            "href": "https://kwit.drupal.publicbroadcasting.net/podcasts/145721/rss.xml",
+            "title": "Siouxland Public Media News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e349248a6f294150bb5db70138db325c",
+            "href": "https://kwit.drupal.publicbroadcasting.net/podcasts/405/rss.xml",
+            "title": "10 O'Clock Blues",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "7e44a6adb9664b5b86de25c550851f76",
+            "href": "https://donate.nprstations.org/kwit/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "4b5de81db1454945b5ff095c0e600929",
+            "href": "https://donate.nprstations.org/kwit/?_ga=1.77108821.1959808757.1428713259",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "637fcfb40ccc407ba964ebbd5a29a306",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/277_8eb28482b2243e9e90934b24569be719.mp4",
+            "title": "Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/277.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1421",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "5329c04b21604e219fad9d4a4bf49742",
+        "brand": {
+          "band": "FM",
+          "call": "KLCD",
+          "frequency": "89.5",
+          "marketCity": "Decorah",
+          "marketState": "IA",
+          "name": "Classical MPR",
+          "tagline": "Member supported"
+        },
+        "orgId": "1421",
+        "network": {
+          "inheritingFrom": "1421",
+          "usesInheritance": false,
+          "currentOrgId": "1421"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.classicalmpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/klcd_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/klcd_fm.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "6139667d589c4866ae0bb41873a2a58e",
+            "href": "https://contribute.publicradio.org",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/115",
+      "attributes": {
+        "donation": {
+          "paymentGatewayToken": "A9qp9ijp71Hp9Khx87gaSMZ7XCw"
+        },
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/know-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "115",
+        "network": {
+          "name": "MPR News",
+          "inheritingFrom": "111",
+          "usesInheritance": true,
+          "currentOrgId": "115",
+          "tier1": {
+            "name": "Minnesota Public Radio",
+            "id": "111",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KNOW-FM",
+                "id": "112",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KCCD-FM",
+                    "id": "114",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLNI-FM",
+                    "id": "115",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNBJ-FM",
+                    "id": "116",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNCM-FM",
+                    "id": "117",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNGA-FM",
+                    "id": "118",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSR-FM",
+                    "id": "119",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSW-FM",
+                    "id": "120",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNTN-FM",
+                    "id": "121",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KXLC-FM",
+                    "id": "122",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZSE-FM",
+                    "id": "123",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WGGL-FM",
+                    "id": "124",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WIRN-FM",
+                    "id": "125",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSCN-FM",
+                    "id": "126",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KBPN-FM",
+                    "id": "868",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNWF-FM",
+                    "id": "1051",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WLSN-FM",
+                    "id": "1065",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KNSE-FM",
+                    "id": "1066",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KAUR-FM",
+                    "id": "1221",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WGRH-FM",
+                    "id": "1223",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KRFI-FM",
+                    "id": "1224",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KRXW-FM",
+                    "id": "1225",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KITF-FM",
+                    "id": "1226",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "KSJN-FM",
+                "id": "818",
+                "usesInheritance": false,
+                "tier3": [
+                  {
+                    "name": "KBPR-FM",
+                    "id": "113",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCCM-FM",
+                    "id": "823",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCMF-FM",
+                    "id": "824",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCRB-FM",
+                    "id": "825",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KGAC-FM",
+                    "id": "826",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KLSE-FM",
+                    "id": "828",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KQMN-FM",
+                    "id": "829",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KRSD-FM",
+                    "id": "830",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KRSW-FM",
+                    "id": "831",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KSJR-FM",
+                    "id": "832",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KWRV-FM",
+                    "id": "833",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WIRR-FM",
+                    "id": "834",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WMLS-FM",
+                    "id": "835",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WSCD-FM",
+                    "id": "836",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KRSU-FM",
+                    "id": "867",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KCMP-FM",
+                    "id": "936",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KMSE-FM",
+                    "id": "1064",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KLCD-FM",
+                    "id": "1421",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "111",
+          "recency": 360
+        },
+        "guid": "4fcf700e1f8445a78e39e5f3b1ba6f5a",
+        "brand": {
+          "band": "FM",
+          "call": "KLNI",
+          "frequency": "88.7",
+          "marketCity": "Decorah",
+          "marketState": "IA",
+          "name": "MPR News",
+          "tagline": "Discovering what matters. Member supported."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a68b15f946004a17a4cc0fae3581ff39",
+                "typeId": "10",
+                "href": "https://cms.stream.publicradio.org/cms-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+                "typeId": "13",
+                "href": "https://cms.stream.publicradio.org/cms-npr.aac"
+              }
+            ],
+            "guid": "4fcf714123f54bc69e2913e58703bd8b",
+            "title": "Classical MPR",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a8e0249292dd42aea4aa3b4a80e05b13",
+                "typeId": "10",
+                "href": "https://nis.stream.publicradio.org/nis-npr.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "8962217e3b8548d6824f45c2fc7fc8f6",
+                "typeId": "13",
+                "href": "https://nis.stream.publicradio.org/nis-npr.aac"
+              }
+            ],
+            "guid": "4fcf714211174cf7a82cba19685314ba",
+            "title": "MPR News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.mprnews.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/mpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/mpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/111_ce1ea75fa8285453a35cd078f7bd9618.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/111_bdb68c8e7e900ef8428045b2b4beb643.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/111_87d91485e7f5824a60ee898dbb5293aa.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/111_b011929305572b31743c223f623ed722.mp4?1532637763871",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/111_02382d1cd4f66be217c00de35db23040.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/111_f41d1851ddcf21cb1b5c59a8b4d0f49c.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/111_c35e68539bfccb2b573d163da0f8ad39.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/MPRnews",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a68b15f946004a17a4cc0fae3581ff39",
+            "href": "https://cms.stream.publicradio.org/cms-npr.mp3",
+            "isPrimaryStream": false,
+            "title": "Classical MPR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a8e0249292dd42aea4aa3b4a80e05b13",
+            "href": "https://nis.stream.publicradio.org/nis-npr.mp3",
+            "isPrimaryStream": true,
+            "title": "MPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "8962217e3b8548d6824f45c2fc7fc8f6",
+            "href": "https://nis.stream.publicradio.org/nis-npr.aac",
+            "isPrimaryStream": true,
+            "title": "MPR News",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "dfcd3a2ae0694e91b6bb7beeb0562feb",
+            "href": "https://cms.stream.publicradio.org/cms-npr.aac",
+            "isPrimaryStream": false,
+            "title": "Classical MPR",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "308f3f98096f4370a6134d55ad5452b2",
+            "href": "https://feeds.publicradio.org/public_feeds/song-of-the-day/npr/rss",
+            "title": "The Current's Song of the Day",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a41512e80ea7438bb7a9b0f2ea421ae8",
+            "href": "https://feeds.publicradio.org/public_feeds/policast/npr/rss",
+            "title": "Policast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "650893150144478ea79621254264e48d",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-with-kerri-miller/npr/rss",
+            "title": "MPR News with Kerri Miller",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7922619f76934839a9ed59e769f7d9f4",
+            "href": "https://feeds.publicradio.org/public_feeds/fieldwork/rss/rss.rss",
+            "title": "Field Work",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3921a120a581406d882eb3f93a3e8473",
+            "href": "https://feeds.publicradio.org/public_feeds/art-hounds/npr/rss",
+            "title": "Art Hounds",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbe4f0dffec14aefbb2b1bfccc93d315",
+            "href": "https://feeds.publicradio.org/public_feeds/counter-stories/npr/rss",
+            "title": "Counter Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2972aded0e5644939d69d448c077ca5c",
+            "href": "https://feeds.publicradio.org/public_feeds/cube-critics/npr/rss",
+            "title": "Cube Critics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbf5acb80b8c48dab1b41c4fe1ef430f",
+            "href": "https://feeds.publicradio.org/public_feeds/the-current-rewind/npr/rss.rss",
+            "title": "The Current Rewind",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ccb31e5c7b9f4be7b58532dab4a73df5",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-with-angela-davis/itunes/rss.rss",
+            "title": "MPR News with Angela Davis",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7356d6afd62a4f608233f40b41d0128c",
+            "href": "https://feeds.publicradio.org/public_feeds/the-current-music-news/npr/rss",
+            "title": "The Current Music News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9808ad77b05944dc987d9ac26d9f80be",
+            "href": "https://feeds.publicradio.org/public_feeds/brains-on/npr/rss",
+            "title": "Brains On!",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "509b3edcc3454ef68deb521df1280149",
+            "href": "https://feeds.publicradio.org/public_feeds/mpr-news-update/npr/rss.rss",
+            "title": "Minnesota Today",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e03fb03a277446bcbc95e086ef853452",
+            "href": "https://feeds.publicradio.org/public_feeds/climate-cast/npr/rss",
+            "title": "Climate Cast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "928bbfa549334d37ae3f4ad576921168",
+            "href": "https://support.mpr.org/npr-main",
+            "title": "Contribute Now",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "b0359382e34c40e78ff310b276c607fd",
+            "href": "https://support.mpr.org/npr-main",
+            "title": "Support MPR News",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "dd0616915bc24d1298223b9039898ffd",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/111_666e3390b608cec4246ab6bef7dc2568.mp4",
+            "title": "sanni 03072019",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "4668b4a10154424790b2225a3329306d",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/111_9ee024273de9201471e38e9ba3a1d970.mp4?1552076637243",
+            "title": "Bissoy 03082019",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "2a0a010440214ebf91167c1bd7857d35",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/111_54f7a2d27ff8934b6b7eef5f62838875.mp4",
+            "title": "McPherson",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1291",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/woi-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1291",
+        "network": {
+          "inheritingFrom": "1291",
+          "usesInheritance": false,
+          "currentOrgId": "1291"
+        },
+        "guid": "4fcf70150fca447b969e2ff156a03771",
+        "brand": {
+          "band": "FM",
+          "call": "KICP",
+          "frequency": "105.9",
+          "marketCity": "Patterson",
+          "marketState": "IA",
+          "name": "Iowa Public Radio Classical",
+          "tagline": "Iowa Public Radio informs, enriches and engages Iowans through high quality news and cultural programming."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "19164cefed2b495081911cd42fae9280",
+                "typeId": "10",
+                "href": "https://classical-stream.iowapublicradio.org/Classical.mp3"
+              }
+            ],
+            "guid": "ab52b531ae0b45aeb902916f17a98a24",
+            "title": "IPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://iowapublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kicp_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1291.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/IowaPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/IPRClassical",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "19164cefed2b495081911cd42fae9280",
+            "href": "https://classical-stream.iowapublicradio.org/Classical.mp3",
+            "isPrimaryStream": true,
+            "title": "IPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "4dc9355550904ed4b4bd5fccdfcc4a07",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": "Support Iowa Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "ae3a4467b847448b989923d90103728b",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1291.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1292",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/woi-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1292",
+        "network": {
+          "inheritingFrom": "1292",
+          "usesInheritance": false,
+          "currentOrgId": "1292"
+        },
+        "guid": "4fcf70151003421aaa36538d66f99886",
+        "brand": {
+          "band": "FM",
+          "call": "KICL",
+          "frequency": "96.3",
+          "marketCity": "Pleasantville",
+          "marketState": "IA",
+          "name": "Iowa Public Radio Classical",
+          "tagline": "Iowa Public Radio informs, enriches and engages Iowans through high quality news and cultural programming."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "19164cefed2b495081911cd42fae9280",
+                "typeId": "10",
+                "href": "https://classical-stream.iowapublicradio.org/Classical.mp3"
+              }
+            ],
+            "guid": "ab52b531ae0b45aeb902916f17a98a24",
+            "title": "IPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://iowapublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kicl_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1292.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/IowaPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/IPRClassical",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "19164cefed2b495081911cd42fae9280",
+            "href": "https://classical-stream.iowapublicradio.org/Classical.mp3",
+            "isPrimaryStream": true,
+            "title": "IPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "558187e27215421380f24ce438f91abf",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": "Support Iowa Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "c9206b84c5594533b7d770defac36937",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1292.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1378",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/woi-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1378",
+        "network": {
+          "inheritingFrom": "1378",
+          "usesInheritance": false,
+          "currentOrgId": "1378"
+        },
+        "guid": "51af468322fc47e690d2261082c086b7",
+        "brand": {
+          "band": "FM",
+          "call": "KICG",
+          "frequency": "91.7",
+          "marketCity": "Perry",
+          "marketState": "IA",
+          "name": "Iowa Public Radio Classical",
+          "tagline": "Iowa Public Radio informs, enriches and engages Iowans through high quality news and cultural programming."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "19164cefed2b495081911cd42fae9280",
+                "typeId": "10",
+                "href": "https://classical-stream.iowapublicradio.org/Classical.mp3"
+              }
+            ],
+            "guid": "ab52b531ae0b45aeb902916f17a98a24",
+            "title": "IPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://iowapublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kicg_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1378.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/IowaPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/IPRClassical",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "19164cefed2b495081911cd42fae9280",
+            "href": "https://classical-stream.iowapublicradio.org/Classical.mp3",
+            "isPrimaryStream": true,
+            "title": "IPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "4afaf15c5ade47eba618698eef3fae30",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": "Support Iowa Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "dbceb620f6114dc4aaf87e78340d7382",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1378.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1106",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/woi-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1106",
+        "network": {
+          "inheritingFrom": "1106",
+          "usesInheritance": false,
+          "currentOrgId": "1106"
+        },
+        "guid": "4fcf701419bc481685abfca6e2d994e1",
+        "brand": {
+          "band": "FM",
+          "call": "KICW",
+          "frequency": "91.1",
+          "marketCity": "Ottumwa",
+          "marketState": "IA",
+          "name": "Iowa Public Radio Classical",
+          "tagline": "Iowa Public Radio informs, enriches and engages Iowans through high quality news and cultural programming."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "19164cefed2b495081911cd42fae9280",
+                "typeId": "10",
+                "href": "https://classical-stream.iowapublicradio.org/Classical.mp3"
+              }
+            ],
+            "guid": "ab52b531ae0b45aeb902916f17a98a24",
+            "title": "IPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.iowapublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kicw_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1106.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/IowaPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/IPRClassical",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "19164cefed2b495081911cd42fae9280",
+            "href": "https://classical-stream.iowapublicradio.org/Classical.mp3",
+            "isPrimaryStream": true,
+            "title": "IPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "7cdaa676fafd4391b880527117d851cb",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": "Support Iowa Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "3c7ffbd321c1470ca1c78d6497f084a6",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1106.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/226",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "15",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/woi-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "226",
+        "network": {
+          "inheritingFrom": "226",
+          "usesInheritance": false,
+          "currentOrgId": "226"
+        },
+        "guid": "4fcf700f17da4c2fb55262ad32194e78",
+        "brand": {
+          "band": "FM",
+          "call": "KNSM",
+          "frequency": "91.5",
+          "marketCity": "Iowa City",
+          "marketState": "IA",
+          "name": "Iowa Public Radio Studio One",
+          "tagline": "Iowa Public Radio informs, enriches and engages Iowans through high quality news and cultural programming."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1c49a55ff87a466ba8116af7297ccbd5",
+                "typeId": "10",
+                "href": "https://studioone-stream.iowapublicradio.org/StudioOne.mp3"
+              }
+            ],
+            "guid": "30c598bc79e145ab94b92363b1588bde",
+            "title": "IPR Studio One",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://iowapublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "http://media.npr.org/images/stations/nprone_logos/woi.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "http://media.npr.org/images/stations/logos/woi.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/226.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/IowaPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/IowaPublicRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1c49a55ff87a466ba8116af7297ccbd5",
+            "href": "https://studioone-stream.iowapublicradio.org/StudioOne.mp3",
+            "isPrimaryStream": true,
+            "title": "IPR Studio One",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "ad9368809575465497e08a37aa785559",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": "Support Iowa Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "e8e660e466154b9db908aa60081877e8",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/226.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1029",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "15",
+          "musicOnly": true
+        },
+        "orgId": "1029",
+        "network": {
+          "inheritingFrom": "1029",
+          "usesInheritance": false,
+          "currentOrgId": "1029"
+        },
+        "guid": "4fcf70140b4943a0b373dafb38f9e88e",
+        "brand": {
+          "band": "FM",
+          "call": "KSUI",
+          "frequency": "91.7",
+          "marketCity": "Iowa City",
+          "marketState": "IA",
+          "name": "Iowa Public Radio",
+          "tagline": "Iowa Public Radio enriches the civic and cultural life in Iowa through high quality news and cultural programming."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "19164cefed2b495081911cd42fae9280",
+                "typeId": "10",
+                "href": "https://classical-stream.iowapublicradio.org/Classical.mp3"
+              }
+            ],
+            "guid": "ab52b531ae0b45aeb902916f17a98a24",
+            "title": "IPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.iowapublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "http://media.npr.org/images/stations/nprone_logos/woi.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "http://media.npr.org/images/stations/logos/woi.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1029.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/IowaPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/IPRClassical",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "19164cefed2b495081911cd42fae9280",
+            "href": "https://classical-stream.iowapublicradio.org/Classical.mp3",
+            "isPrimaryStream": true,
+            "title": "IPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "82ca557a48ee43cd95cdbd228dd289be",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/term/5279/rss.xml",
+            "title": "Studio One Live Sets",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ec3b1cd1f0964878bfc9ff453b1ca789",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/31/rss.xml",
+            "title": "Talk of Iowa",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "33b7fd3de4224535a22f8cbe4c27052d",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/84851/rss.xml",
+            "title": "Under the Golden Dome",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7e7e07785513496d950867e03dc1656e",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/36/rss.xml",
+            "title": "River to River",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d80e014c0edb4c2d9d1bc9ba971b4c29",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": "Support Iowa Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "1a94663549a44c6cafc0fe9109830920",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1029.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1020",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "15",
+          "musicOnly": true
+        },
+        "orgId": "1020",
+        "network": {
+          "inheritingFrom": "1020",
+          "usesInheritance": false,
+          "currentOrgId": "1020"
+        },
+        "guid": "4fcf70140a9f4921bbaf6666e90442cd",
+        "brand": {
+          "band": "FM",
+          "call": "KHKE",
+          "frequency": "89.5",
+          "marketCity": "Cedar Falls",
+          "marketState": "IA",
+          "name": "Iowa Public Radio Classical",
+          "tagline": "Iowa Public Radio enriches the civic and cultural life in Iowa through high quality news and cultural programming."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "19164cefed2b495081911cd42fae9280",
+                "typeId": "10",
+                "href": "https://classical-stream.iowapublicradio.org/Classical.mp3"
+              }
+            ],
+            "guid": "ab52b531ae0b45aeb902916f17a98a24",
+            "title": "IPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.iowapublicradio.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "http://media.npr.org/images/stations/nprone_logos/woi.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "http://media.npr.org/images/stations/logos/woi.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1020.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/IowaPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/IPRClassical",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "19164cefed2b495081911cd42fae9280",
+            "href": "https://classical-stream.iowapublicradio.org/Classical.mp3",
+            "isPrimaryStream": true,
+            "title": "IPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "82ca557a48ee43cd95cdbd228dd289be",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/term/5279/rss.xml",
+            "title": "Studio One Live Sets",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "33b7fd3de4224535a22f8cbe4c27052d",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/84851/rss.xml",
+            "title": "Under the Golden Dome",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7e7e07785513496d950867e03dc1656e",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/36/rss.xml",
+            "title": "River to River",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ec3b1cd1f0964878bfc9ff453b1ca789",
+            "href": "https://ipr.drupal.publicbroadcasting.net/podcasts/31/rss.xml",
+            "title": "Talk of Iowa",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d042ae4f996f406ab3ed77799a75c26e",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": "Support Iowa Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "6a277feccc3b4ae3b2573eef31cb692a",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1020.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/987",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "15",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/woi-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "987",
+        "network": {
+          "inheritingFrom": "987",
+          "usesInheritance": false,
+          "currentOrgId": "987"
+        },
+        "guid": "4fcf7014039f4ff6961a1c6584523b32",
+        "brand": {
+          "band": "FM",
+          "call": "KICJ",
+          "frequency": "88.9",
+          "marketCity": "Mitchellville",
+          "marketState": "IA",
+          "name": "Iowa Public Radio Classical",
+          "tagline": "Iowa Public Radio informs, enriches and engages Iowans through high quality news and cultural programming."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "19164cefed2b495081911cd42fae9280",
+                "typeId": "10",
+                "href": "https://classical-stream.iowapublicradio.org/Classical.mp3"
+              }
+            ],
+            "guid": "ab52b531ae0b45aeb902916f17a98a24",
+            "title": "IPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://iowapublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kicj_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/987.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/IowaPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/IPRClassical",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "19164cefed2b495081911cd42fae9280",
+            "href": "https://classical-stream.iowapublicradio.org/Classical.mp3",
+            "isPrimaryStream": true,
+            "title": "IPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "4ff340d704ff4ac79822f0899bdb685c",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": "Support Iowa Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "4ef80c6a180241509ae95cdc084f3168",
+            "href": "https://members.iowapublicradio.org/ccon/addPledge.do?action=makeNewPledge&scenario=selectfund&ccn_fund_id=48&new_session=true",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/987.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

@@ -1,0 +1,3846 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "TX"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/78",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kera-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "78",
+        "network": {
+          "name": "KERA",
+          "inheritingFrom": "77",
+          "usesInheritance": true,
+          "currentOrgId": "78",
+          "tier1": {
+            "name": "KERA",
+            "id": "77",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KERA-FM",
+                "id": "78",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KKXT-FM",
+                    "id": "1131",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "77",
+          "recency": 360
+        },
+        "guid": "4fcf700e13f544adba68fab7dafd4a59",
+        "brand": {
+          "band": "FM",
+          "call": "KERA",
+          "frequency": "90.1",
+          "marketCity": "Dallas",
+          "marketState": "TX",
+          "name": "KERA",
+          "tagline": "NPR, News and Information for North Texas"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "84035c34ec0f4a75bd0dbd43769583d0",
+                "typeId": "10",
+                "href": "https://kera-ice.streamguys1.com/keralive"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "1f512b9c4bc34a17b7491f855d49ee37",
+                "typeId": "13",
+                "href": "https://kera-ice.streamguys1.com/keraliveaacplus"
+              }
+            ],
+            "guid": "4fcf713d1db5458c9da54e038f7cfbc5",
+            "title": "KERA - NPR News and Information Radio for North Texas",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kera.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kera.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kera.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/77_048cc593615cce6d09586953d079ea11.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://facebook.com/keratx",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/keratx",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "84035c34ec0f4a75bd0dbd43769583d0",
+            "href": "https://kera-ice.streamguys1.com/keralive",
+            "isPrimaryStream": true,
+            "title": "KERA - NPR News and Information Radio for North Texas",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1f512b9c4bc34a17b7491f855d49ee37",
+            "href": "https://kera-ice.streamguys1.com/keraliveaacplus",
+            "isPrimaryStream": true,
+            "title": "KERA - NPR News and Information Radio for North Texas",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "9b33c35b1fa34664a810e21115b1c283",
+            "href": "https://thebigscreen.libsyn.com/rss",
+            "title": "The Big Screen",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b1c4987a43864243ae37e56ec13d3a51",
+            "href": "https://feeds.feedburner.com/KERA-Anything",
+            "title": "Anything You Ever Wanted to Know",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b213e0d51692490798fd9f76a5f4b93e",
+            "href": "https://feeds.feedburner.com/KERA-Think",
+            "title": "Think",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "932c9e1dcce744edae3777a17c1568e2",
+            "href": "https://www.kera.org/donate/",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "4a6b69db3745432eb7b2e80de63fb3e9",
+            "href": "https://www.kera.org/donate/",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/252",
+      "attributes": {
+        "donation": {
+          "paymentGatewayToken": "Qk78Fk4Ghswa9jEFfFPQkjYtwXS"
+        },
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kut-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "252",
+        "network": {
+          "inheritingFrom": "252",
+          "usesInheritance": false,
+          "currentOrgId": "252",
+          "tier1": {
+            "name": "KUT-FM",
+            "id": "252",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KUTX-FM",
+                "id": "1280",
+                "usesInheritance": false
+              },
+              {
+                "name": "KXBT-FM",
+                "id": "1450",
+                "usesInheritance": false
+              },
+              {
+                "name": "StateImpact Texas",
+                "id": "20002",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "252",
+          "recency": 240
+        },
+        "guid": "4fcf700f1d4245e09670ee2533280160",
+        "brand": {
+          "band": "FM",
+          "call": "KUT",
+          "frequency": "90.5",
+          "marketCity": "Austin",
+          "marketState": "TX",
+          "name": "KUT 90.5",
+          "tagline": "Austin's NPR Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ddf7f2c3f23b4c078401c6e1ba1f137d",
+                "typeId": "10",
+                "href": "https://kut.streamguys1.com/kut-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "600b1482bcef448794ca53f3ad2be5d6",
+                "typeId": "13",
+                "href": "https://kut.streamguys1.com/kut-npr.aac"
+              }
+            ],
+            "guid": "4fcf713f1253488a9f0f6e7eafa9fcdb",
+            "title": "KUT 90.5 Austin's NPR Station",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kut.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kut_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kut_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/252_df8da47a8eb46a8e689fa5f3a6f4335b.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kutradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/kut",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "ddf7f2c3f23b4c078401c6e1ba1f137d",
+            "href": "https://kut.streamguys1.com/kut-npr",
+            "isPrimaryStream": true,
+            "title": "KUT 90.5 Austin's NPR Station",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "600b1482bcef448794ca53f3ad2be5d6",
+            "href": "https://kut.streamguys1.com/kut-npr.aac",
+            "isPrimaryStream": true,
+            "title": "KUT 90.5 Austin's NPR Station",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "3422887eda064e19ae44115ed8565da8",
+            "href": "https://feeds.podtrac.com/gfvngP1GjUqB",
+            "title": "The Write Up",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a7eac5157b714130834ed46c4b6b26f8",
+            "href": "https://feeds.podtrac.com/ebQsSwH4mS95",
+            "title": "Song of the Day",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0097f45bfe344d3795ede44d35492905",
+            "href": "https://feeds.podtrac.com/QlzT-9XVNJNC",
+            "title": "The Provability Gap",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "906134895c7b4e11b06437e839d92d02",
+            "href": "https://feeds.podtrac.com/o2IyQpvaxQuj",
+            "title": "The Breaks",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "65510515e0354a39a0a4e85d24c18743",
+            "href": "https://feeds.podtrac.com/DYqWlnI0jRcN",
+            "title": "Liner Notes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "376aeb6e19f24a1e96f3ff54abba0e94",
+            "href": "https://feeds.podtrac.com/n6sMUszXoiGf",
+            "title": "ATXplained",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a85340899d354199b3e5eb88aceac86f",
+            "href": "https://feeds.podtrac.com/Uw3YhgkxGcFT",
+            "title": "This Song",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8cefa9dc313a444ab8d688e1ff54e16c",
+            "href": "https://feeds.podtrac.com/4iq-2I-M_c_i",
+            "title": "Texas Standard \u00bb Stories from Texas",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e70e7755495b42bd83c9f3d12c1b2498",
+            "href": "https://feeds.podtrac.com/rcRTXzIk6P6t",
+            "title": "Texas Standard",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "39fdbd9bf1e044428d19fcf55ba23421",
+            "href": "https://feeds.podtrac.com/dpXhnuyAve52",
+            "title": "Texas Standard \u00bb Typewriter Rodeo",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b9953502bfc142618ce4f6339470cbe3",
+            "href": "https://feeds.podtrac.com/wRtiWcwKMPPB",
+            "title": "Song Confessional",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5d572258bcbb486ba5377ec9597a17e1",
+            "href": "https://feeds.podtrac.com/rGx1tCTtoias",
+            "title": "Austin Music Minute",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "236a79c83c1443808d6ee8478f263bf3",
+            "href": "https://feeds.podtrac.com/hmspxHHla7iG",
+            "title": "KUT Weekend",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e8ae8c7dee1a4f51875c6e1ed06b70e1",
+            "href": "https://feeds.podtrac.com/pjXQUOJYuQqm",
+            "title": "Views and Brews",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3a7f1de3e45d483f8ca61831a36597c8",
+            "href": "https://feeds.podtrac.com/v5ifZ7MWZd2_",
+            "title": "Stuart Hall: In Conversations",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d71f26072d79478190c71467704f42c9",
+            "href": "https://feeds.podtrac.com/aZsPPzqpLqtp",
+            "title": "The Secret Ingredient",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8f8d64eaf6f44bf68f9b5df3f1b4fdb7",
+            "href": "https://feeds.podtrac.com/jJqM8ZWvQYWM",
+            "title": "Higher Ed",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8851c5879f264de6b45434ca59cf020e",
+            "href": "https://feeds.podtrac.com/CdByDiS74JsJ",
+            "title": "Two Guys on Your Head",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3fe5ba3bdd3f4b7eab716a9376eed8c4",
+            "href": "https://feeds.podtrac.com/KI7jz9r_HEQo",
+            "title": "In Perspective",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "dcc6c134067c46e385726e35512071d3",
+            "href": "https://feeds.podtrac.com/JzKciMU4lUEn",
+            "title": "In Black America",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8ffbd2643fe04c49a036b78e420f4ff3",
+            "href": "https://feeds.podtrac.com/_Rr2Wx9-P0T9",
+            "title": "On My Block",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6191ca2c35e44bd3bbdcdd38310e965c",
+            "href": "https://feeds.podtrac.com/IijmRPk5FK8i",
+            "title": "This is Just to Say",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "897add77b6d544b1b2ad458f778425d2",
+            "href": "https://kut.secureallegiance.com/kut/WebModule/Donate.aspx?P=NPR&PAGETYPE=PLG&CHECK=xbv059%2fwXxgVQycLjeawDdW0piuR9ZMb",
+            "title": "Support KUT",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "42e33ff19c904968977b842e0c3e52f2",
+            "href": "https://kut.secureallegiance.com/kut/WebModule/Donate.aspx?P=NPRONE&PAGETYPE=PLG&CHECK=nypELGXM3xAhrOSvjvOZaxiCxtaFReuS",
+            "title": "Support KUT and NPR One",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "9ada4d4538c54c16a57a7a7afde849fd",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/252_b1d834a10d5c9ad57be5591f4d3a7bbe.mp4",
+            "title": "NPR One Pledge Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "9b772bbf1dda4710b1b8a6c3a1c10451",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/252_a2f68a7cad800d516bda76c9066b36a0.mp4",
+            "title": "NPR One Pledge Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/252.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/220",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kuhf-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "220",
+        "network": {
+          "inheritingFrom": "220",
+          "usesInheritance": false,
+          "currentOrgId": "220",
+          "tier1": {
+            "name": "KUHF-FM",
+            "id": "220",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "220",
+          "recency": 240
+        },
+        "guid": "4fcf700f16424bacb754eeebd9ac3c31",
+        "brand": {
+          "band": "FM",
+          "call": "KUHF",
+          "frequency": "88.7",
+          "marketCity": "Houston",
+          "marketState": "TX",
+          "name": "Houston Public Media News 88.7",
+          "tagline": "Public Media for Houston "
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1ea312fc5555419c9522000d6dce0e16",
+                "typeId": "10",
+                "href": "https://stream.houstonpublicmedia.org/classical-mp3?source=npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "3ae2f556f5fd4f278477c57ac3956064",
+                "typeId": "13",
+                "href": "https://stream.houstonpublicmedia.org/classical-aac?source=npr"
+              }
+            ],
+            "guid": "4fcf713110c243cb85bdd689887d3a2b",
+            "title": "Houston Public Media Classical",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "4f25a86684504b97b97531531f671b59",
+                "typeId": "10",
+                "href": "https://stream.houstonpublicmedia.org/news-mp3?source=npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "31f9e174d78d4781b9a499d3d61f1f1a",
+                "typeId": "13",
+                "href": "https://stream.houstonpublicmedia.org/news-aac?source=npr"
+              }
+            ],
+            "guid": "4fcf7131196a40d9844d35adb6e93bd3",
+            "title": "Houston Public Media News 88.7",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "811119f4d34a498299dff632cc5644bc",
+                "typeId": "10",
+                "href": "https://stream.houstonpublicmedia.org/mixtape-mp3?source=npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "f2831b98286c4a7682b05b084889401f",
+                "typeId": "13",
+                "href": "https://stream.houstonpublicmedia.org/mixtape-aac?source=npr"
+              }
+            ],
+            "guid": "4fcf713115394435a8938fa6aceb2a1b",
+            "title": "Houston Public Media Mixtape",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.houstonpublicmedia.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kuhf_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kuhf_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/220_3def64e754f1851bf18cee9f206205c7.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/HoustonNews887",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/HPMNews887",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "1ea312fc5555419c9522000d6dce0e16",
+            "href": "https://stream.houstonpublicmedia.org/classical-mp3?source=npr",
+            "isPrimaryStream": false,
+            "title": "Houston Public Media Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "4f25a86684504b97b97531531f671b59",
+            "href": "https://stream.houstonpublicmedia.org/news-mp3?source=npr",
+            "isPrimaryStream": true,
+            "title": "Houston Public Media News 88.7",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "811119f4d34a498299dff632cc5644bc",
+            "href": "https://stream.houstonpublicmedia.org/mixtape-mp3?source=npr",
+            "isPrimaryStream": false,
+            "title": "Houston Public Media Mixtape",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "3ae2f556f5fd4f278477c57ac3956064",
+            "href": "https://stream.houstonpublicmedia.org/classical-aac?source=npr",
+            "isPrimaryStream": false,
+            "title": "Houston Public Media Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "f2831b98286c4a7682b05b084889401f",
+            "href": "https://stream.houstonpublicmedia.org/mixtape-aac?source=npr",
+            "isPrimaryStream": false,
+            "title": "Houston Public Media Mixtape",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "31f9e174d78d4781b9a499d3d61f1f1a",
+            "href": "https://stream.houstonpublicmedia.org/news-aac?source=npr",
+            "isPrimaryStream": true,
+            "title": "Houston Public Media News 88.7",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "b0cca4713d2545a9ae78a9993bba487e",
+            "href": "https://www.houstonpublicmedia.org/podcasts/engines-of-our-ingenuity",
+            "title": "Engines of Our Ingenuity",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6da0889dacc44805a3696b49930ad490",
+            "href": "https://www.houstonpublicmedia.org/podcasts/next-question/",
+            "title": "Next Question with Ernie Manouse",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c28e49a722e8443293199be03ca93c09",
+            "href": "https://www.houstonpublicmedia.org/podcasts/party-politics/",
+            "title": "Party Politics",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "82970a9b1cbd47348f22e6b6e3adc1cd",
+            "href": "https://www.houstonpublicmedia.org/podcasts/encore-houston/",
+            "title": "Encore Houston",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b30a7d0974c449fb8890334bab68175d",
+            "href": "https://classicalclassroom.libsyn.com/rss",
+            "title": "Classical Classroom",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9668b443956544819cb7019067e7e217",
+            "href": "https://www.houstonpublicmedia.org/podcasts/stories-from-the-storm/",
+            "title": "Stories from the Storm",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d84c49d0fa0343019c6f4fa0bab28070",
+            "href": "https://www.houstonpublicmedia.org/podcasts/moonwalk/",
+            "title": "Moonwalk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b821f847c8584e5c893f3c27019da62f",
+            "href": "https://www.houstonpublicmedia.org/podcasts/hurricane-season/",
+            "title": "Hurricane Season",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "3321cef84d02430c8d75198edf360e15",
+            "href": "https://www.houstonpublicmedia.org/podcasts/unwrap-your-candies-now/",
+            "title": "Unwrap Your Candies Now",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9cfddbeaf74e41fd8ee02ebb15d851ab",
+            "href": "https://www.houstonpublicmedia.org/podcasts/houston-matters/",
+            "title": "Houston Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "497ccd71d8f341c1b321b48f85f0105a",
+            "href": "https://www.houstonpublicmedia.org/npr-web",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "be27984920a14a68a6265e4e2dc4ab4c",
+            "href": "https://www.houstonpublicmedia.org/npr-web",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "2ada4197eea044beb026acdd446956ce",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/220_ae5f60ade2d054578ac8c792377097d7.mp4",
+            "title": "Donation Ask 1 (Hey)",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "b489391b3244427f82f97831fe5966d8",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/220_9f7f0b3d2aa2a7930a8eeb10c14c36a8.mp4",
+            "title": "Donation Ask 2 (Hi)",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/220.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/189",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kstx-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "189",
+        "network": {
+          "name": "Texas Public Radio",
+          "inheritingFrom": "188",
+          "usesInheritance": true,
+          "currentOrgId": "189",
+          "tier1": {
+            "name": "Texas Public Radio",
+            "id": "188",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KSTX-FM",
+                "id": "189",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KTXI-FM",
+                    "id": "190",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTPR-FM",
+                    "id": "1381",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KVHL-FM",
+                    "id": "1416",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTPD-FM",
+                    "id": "1548",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KCTI-AM",
+                    "id": "1564",
+                    "usesInheritance": true
+                  }
+                ]
+              },
+              {
+                "name": "KPAC-FM",
+                "id": "822",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "188",
+          "recency": 360
+        },
+        "guid": "4fcf700f0dab4c6ea7bc538a84b0eb9a",
+        "brand": {
+          "band": "FM",
+          "call": "KSTX",
+          "frequency": "89.1",
+          "marketCity": "San Antonio",
+          "marketState": "TX",
+          "name": "Texas Public Radio",
+          "tagline": "Hear Yourself Think"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b9021113ddf24f7a884f7ed42dfc01c5",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTPDFM.mp3"
+              }
+            ],
+            "guid": "4fdcb0a44b3a499b8db147ab10a44ea4",
+            "title": "KTPD - Del Rio",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "00128352db99486094e1e9ecbfcbc8f4",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVHLFM.mp3"
+              }
+            ],
+            "guid": "33417b996b3344fcbbf81006a1bcf1bd",
+            "title": "KVHL - Highland Lakes",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "485b8034c52044dca85c1194ccb6a75d",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTXFM.mp3"
+              }
+            ],
+            "guid": "514b00001bf8413e9324f8834227aaff",
+            "title": "KSTX - San Antonio",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "63efeac1abfa4a6c89cdba2dff3f735b",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCTIAM.mp3"
+              }
+            ],
+            "guid": "3099b743f7b54a338eb31d3863d7b127",
+            "title": "KCTI - Gonzales",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "55cc8010427647d89a01e730d1bf3553",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTPRFM.mp3"
+              }
+            ],
+            "guid": "0e0afb32855245d28be29cf46f415b7a",
+            "title": "KTPR - Big Country",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "f7fcf14107d140598900fa8dae830cb2",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTXIFM.mp3"
+              }
+            ],
+            "guid": "4fcf714d23e64d939af6520e34439768",
+            "title": "KTXI - Hill Country",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "1a45fc4f27794ee28414ccc879b77680",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPACFM.mp3"
+              }
+            ],
+            "guid": "4fcf714d1f10490e9cacea420f01bde3",
+            "title": "KPAC - San Antonio",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.tpr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/tpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/tpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/texaspublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "b9021113ddf24f7a884f7ed42dfc01c5",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTPDFM.mp3",
+            "isPrimaryStream": false,
+            "title": "KTPD - Del Rio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "00128352db99486094e1e9ecbfcbc8f4",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KVHLFM.mp3",
+            "isPrimaryStream": false,
+            "title": "KVHL - Highland Lakes",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "485b8034c52044dca85c1194ccb6a75d",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KSTXFM.mp3",
+            "isPrimaryStream": true,
+            "title": "KSTX - San Antonio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "63efeac1abfa4a6c89cdba2dff3f735b",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KCTIAM.mp3",
+            "isPrimaryStream": false,
+            "title": "KCTI - Gonzales",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "55cc8010427647d89a01e730d1bf3553",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTPRFM.mp3",
+            "isPrimaryStream": false,
+            "title": "KTPR - Big Country",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f7fcf14107d140598900fa8dae830cb2",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTXIFM.mp3",
+            "isPrimaryStream": false,
+            "title": "KTXI - Hill Country",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1a45fc4f27794ee28414ccc879b77680",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KPACFM.mp3",
+            "isPrimaryStream": false,
+            "title": "KPAC - San Antonio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "6166db7b0f764772b5bd1c271af68b48",
+            "href": "https://kstx.drupal.publicbroadcasting.net/podcasts/38/rss.xml",
+            "title": "TPR: Texas Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0d0bfbd6359545688e30f5e4043f38b7",
+            "href": "https://kstx.drupal.publicbroadcasting.net/podcasts/102178/rss.xml",
+            "title": "TPR Takes On: Fiesta",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f77f7d1a114c4238b0c1e64a81a9b1c7",
+            "href": "https://kstx.drupal.publicbroadcasting.net/podcasts/134014/rss.xml",
+            "title": "Petrie Dish",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "126dd8e16310449496f81165724d37a1",
+            "href": "https://kstx.drupal.publicbroadcasting.net/podcasts/54/rss.xml",
+            "title": "TPR: The Source",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "80141b5c82874d56992c2eda0b698ce9",
+            "href": "https://kstx.drupal.publicbroadcasting.net/podcasts/63/rss.xml",
+            "title": "TPR: Fronteras",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "a182bfe1eb5547d7b8c6435347de3a81",
+            "href": "https://secure.tpr.org/pledge/?src=NPR20",
+            "title": "Support TPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "a0b9be3751b0481196ed69049203dbea",
+            "href": "https://secure.tpr.org/pledge/?src=NPR20",
+            "title": "Support TPR",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "5c921a9f732c4068823ebb8ea6cb17dd",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/188_e9303d1dbc01eab644a371cd99d75684.mp4",
+            "title": "Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/194",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/ktep-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "194",
+        "network": {
+          "inheritingFrom": "194",
+          "usesInheritance": false,
+          "currentOrgId": "194",
+          "tier1": {
+            "name": "KTEP-FM",
+            "id": "194",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf700f0f8844238d95dc2f7bb1da99",
+        "brand": {
+          "band": "FM",
+          "call": "KTEP",
+          "frequency": "88.5",
+          "marketCity": "El Paso",
+          "marketState": "TX",
+          "name": "KTEP",
+          "tagline": "Your NPR Station for the Southwest"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "56601aeb792a4f01a0f0a3eda12d2529",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KTEPFM.pls"
+              }
+            ],
+            "guid": "4fcf715723944a88a31d22b1da10f88d",
+            "title": "KTEP",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.ktep.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/ktep_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ktep_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/194.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "56601aeb792a4f01a0f0a3eda12d2529",
+            "href": "https://playerservices.streamtheworld.com/pls/KTEPFM.pls",
+            "isPrimaryStream": true,
+            "title": "KTEP",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3a2b8643ac6e43c2b764557fb39b3638",
+            "href": "https://apps.ktep.org/pledge-form",
+            "title": "Support KTEP",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "e011c6a7eb9d423cbf4f4825ae23214e",
+            "href": "https://apps.ktep.org/pledge-form",
+            "title": "Support KTEP",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/194.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/68",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kedt-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "68",
+        "network": {
+          "name": "KEDT",
+          "inheritingFrom": "67",
+          "usesInheritance": true,
+          "currentOrgId": "68",
+          "tier1": {
+            "name": "South Texas Public Broadcasting System",
+            "id": "67",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KEDT-FM",
+                "id": "68",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KVRT-FM",
+                    "id": "69",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700e119343db8518326aecf12ca2",
+        "brand": {
+          "band": "FM",
+          "call": "KEDT",
+          "frequency": "90.3",
+          "marketCity": "Corpus Christi",
+          "marketState": "TX",
+          "name": "KEDT",
+          "tagline": "Your Community-owned station  "
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b23ef65bbcb64122bb1d6522d81c6219",
+                "typeId": "10",
+                "href": "https://kedt.streamguys1.com/live-mp3"
+              }
+            ],
+            "guid": "cf05c4c366c94fb2b374018259bdef55",
+            "title": "KEDT News Talk ",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kedt.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/stpb.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "b23ef65bbcb64122bb1d6522d81c6219",
+            "href": "https://kedt.streamguys1.com/live-mp3",
+            "isPrimaryStream": true,
+            "title": "KEDT News Talk ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "aec35075accc4cf4b2a5a991d9d2d098",
+            "href": "https://nupledges.com/KEDT/Donation.aspx?Source=Radio",
+            "title": "",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1131",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kera-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1131",
+        "network": {
+          "inheritingFrom": "1131",
+          "usesInheritance": false,
+          "currentOrgId": "1131"
+        },
+        "guid": "4fcf70141ca94e51a0ec8c17a2939b2c",
+        "brand": {
+          "band": "FM",
+          "call": "KKXT",
+          "frequency": "91.7",
+          "marketCity": "Dallas",
+          "marketState": "TX",
+          "name": "KXT 91.7",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "2b884e7b4c4b498d8e4b68bcefa9cb2b",
+                "typeId": "10",
+                "href": "https://kera-ice.streamguys1.com/kxtlive128"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "8d413ded56c742848e7d6ca5ec789da8",
+                "typeId": "13",
+                "href": "https://kera-ice.streamguys1.com/kxtlive64aacplus"
+              }
+            ],
+            "guid": "4fcf713d203a4a0492ff8a248fefe7ff",
+            "title": "KXT: Alt and Indie from North Texas",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kxt.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kkxt_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kkxt_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1131.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kxtradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/kxtradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "2b884e7b4c4b498d8e4b68bcefa9cb2b",
+            "href": "https://kera-ice.streamguys1.com/kxtlive128",
+            "isPrimaryStream": true,
+            "title": "KXT: Alt and Indie from North Texas",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "8d413ded56c742848e7d6ca5ec789da8",
+            "href": "https://kera-ice.streamguys1.com/kxtlive64aacplus",
+            "isPrimaryStream": true,
+            "title": "KXT: Alt and Indie from North Texas",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "0efad5488e6145b4a151b1269d567075",
+            "href": "http://kxt.org/donate/",
+            "title": "Donate to KXT",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1131.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/3",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "9b6073e27c644a43920ed40d36a1b8d7",
+        "brand": {
+          "band": "FM",
+          "call": "KAMU",
+          "frequency": "90.9",
+          "marketCity": "College Station",
+          "marketState": "TX",
+          "name": "KAMU",
+          "tagline": "Public Media for the Brazos Valley - The Quality Choice"
+        },
+        "orgId": "3",
+        "network": {
+          "inheritingFrom": "3",
+          "usesInheritance": false,
+          "currentOrgId": "3",
+          "tier1": {
+            "name": "KAMU-FM",
+            "id": "3",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KTRL-FM",
+                "id": "1181",
+                "usesInheritance": false
+              }
+            ]
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://kamu.tamu.edu/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kamu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kamu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/3.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KAMUfanpage",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "f97abf3a830a47619ce603186869414c",
+            "href": "https://www.kamufm.org/online-donation-options-kamu-tvfm",
+            "title": "Pledge Now",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "e4cf659c6eeb4410af0dfa6b3b61323e",
+            "href": "https://www.kamufm.org/online-donation-options-kamu-tvfm",
+            "title": null,
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/3.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/275",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "275",
+        "network": {
+          "inheritingFrom": "275",
+          "usesInheritance": false,
+          "currentOrgId": "275",
+          "tier1": {
+            "name": "KWBU-FM",
+            "id": "275",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf700f22a34bd5980fd8bacca972af",
+        "brand": {
+          "band": "FM",
+          "call": "KWBU",
+          "frequency": "103.3",
+          "marketCity": "Waco",
+          "marketState": "TX",
+          "name": "KWBU",
+          "tagline": "103.3 Waco Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b1c424b669214e83a37bcd90570f2121",
+                "typeId": "10",
+                "href": "https://radio.clevr.me/kwbu"
+              }
+            ],
+            "guid": "4fcf714e00e94ec693a9e645b20c66b2",
+            "title": "103.3 KWBU-FM HD1",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kwbu.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kwbu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/275.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/kwbufm",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KWBU",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "b1c424b669214e83a37bcd90570f2121",
+            "href": "https://radio.clevr.me/kwbu",
+            "isPrimaryStream": true,
+            "title": "103.3 KWBU-FM HD1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "8eb1e6f3d0e049c1a87de87798435727",
+            "href": "https://kwbu.drupal.publicbroadcasting.net/podcasts/44358/rss.xml",
+            "title": "Downtown Depot",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e2c3a364883f423da359d1eace863418",
+            "href": "https://kwbu.drupal.publicbroadcasting.net/podcasts/396/rss.xml",
+            "title": "Business Review",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a8a47b00d3e845caa60d953ebdaf5328",
+            "href": "https://kwbu.drupal.publicbroadcasting.net/podcasts/290/rss.xml",
+            "title": "Central Texas Leadership Series",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f2610efbfe0c4ac298fb98e48a8c04d6",
+            "href": "https://kwbu.drupal.publicbroadcasting.net/podcasts/291/rss.xml",
+            "title": "Likely Stories",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "837799bb10c54574ae7647685357a3ed",
+            "href": "https://kwbu.drupal.publicbroadcasting.net/podcasts/69642/rss.xml",
+            "title": "Conversations With Creative Waco",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fce3a8e7a5ed44ee9393d1ba7c569c5f",
+            "href": "https://kwbu.drupal.publicbroadcasting.net/podcasts/68393/rss.xml",
+            "title": "Baylor Connections",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8569a8c74bac407295947b790342df5a",
+            "href": "https://kwbu.drupal.publicbroadcasting.net/podcasts/45160/rss.xml",
+            "title": "Shout! Black Gospel Music Moments",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4ec86fe44b0d4683bc559ac3c8d50998",
+            "href": "https://kwbu.drupal.publicbroadcasting.net/podcasts/76372/rss.xml",
+            "title": "David and Art",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8d6ac2d2f51c42e2b06364b525ebed83",
+            "href": "https://kwbu.drupal.publicbroadcasting.net/podcasts/55481/rss.xml",
+            "title": "Business of Health Care",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "80ff52d31d9c4c8ea4d0250e2dd74baf",
+            "href": "https://www.baylor.edu/kwbupledge/index.php",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/275.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/133",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "133",
+        "network": {
+          "inheritingFrom": "133",
+          "usesInheritance": false,
+          "currentOrgId": "133",
+          "tier1": {
+            "name": "KTTZ-FM",
+            "id": "133",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KNCH-FM",
+                "id": "1161",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "guid": "4fcf700e24b140fda947feefef484d93",
+        "brand": {
+          "band": "FM",
+          "call": "KTTZ",
+          "frequency": "89.1",
+          "marketCity": "Lubbock",
+          "marketState": "TX",
+          "name": "KTTZ 89.1FM",
+          "tagline": "Texas Tech Public Media"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "795e527d177c44dfadcfc241539db47c",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTZHD3.mp3"
+              }
+            ],
+            "guid": "9af3dfb11cac4b6e82561506b679e975",
+            "title": "KTTZ-FM HD3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5802eaa2870a44a9a49c6871aea02d56",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTZHD2.mp3"
+              }
+            ],
+            "guid": "4fcf715a1f8e4eb79064b0e10578e2ed",
+            "title": "KTTZ-FM HD2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5e5a02c2d9604a32a550fe5f6d415970",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTZHD1.mp3"
+              }
+            ],
+            "guid": "4fcf715a1d0d411bab93167e3e723953",
+            "title": "KTTZ-FM HD1",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kttz.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kttz_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kttz_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/133.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KTTZ",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "795e527d177c44dfadcfc241539db47c",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTZHD3.mp3",
+            "isPrimaryStream": false,
+            "title": "KTTZ-FM HD3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5802eaa2870a44a9a49c6871aea02d56",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTZHD2.mp3",
+            "isPrimaryStream": false,
+            "title": "KTTZ-FM HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5e5a02c2d9604a32a550fe5f6d415970",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTZHD1.mp3",
+            "isPrimaryStream": true,
+            "title": "KTTZ-FM HD1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "6fecf37e19f84591a47c40cf957888e5",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/73254/rss.xml",
+            "title": "Music Crossroads of Texas",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "40f95bb46cc946a49c898b1e6abc9662",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/105415/rss.xml",
+            "title": "Beyond the Report",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "11c631bde81c42b8b3f9e6fadc195fcb",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/60855/rss.xml",
+            "title": "The Front Row",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "93a4cb9147fd4a89a4263d9302c8873a",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/1023/rss.xml",
+            "title": "Inside Texas Tech",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e78c994a32d14976b5a44ffe30f96b5f",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/68261/rss.xml",
+            "title": "Noche de Tango",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "95742614341c476fadd84a3e37255ce9",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/94920/rss.xml",
+            "title": "For the Pages",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "26be4e39521d4038996ed0f2ee1fd251",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/111846/rss.xml",
+            "title": "TTU Public Media News Coverage",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "66e362b89e4b4a48bc5c10ea06be88bd",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/20060/rss.xml",
+            "title": "Faith Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "e5ee0e59360c427587feba93826bb3cb",
+            "href": "https://radio.kttz.org/which-station-are-you-donating",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/133.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/932",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "932",
+        "network": {
+          "name": "High Plains Public Radio",
+          "inheritingFrom": "8",
+          "usesInheritance": true,
+          "currentOrgId": "932",
+          "tier1": {
+            "name": "High Plains Public Radio",
+            "id": "8",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KANZ-FM",
+                "id": "9",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KZNA-FM",
+                    "id": "10",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTOT-FM",
+                    "id": "854",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZAN-FM",
+                    "id": "855",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KJJP-FM",
+                    "id": "932",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTXP-FM",
+                    "id": "981",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KGUY-FM",
+                    "id": "1406",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZCK-FM",
+                    "id": "1407",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZNZ-FM",
+                    "id": "1408",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KTDH-FM",
+                    "id": "1409",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KCSE-FM",
+                    "id": "1410",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KZNK-FM",
+                    "id": "1411",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf70131ffa4ade8706553291b15d5f",
+        "brand": {
+          "band": "FM",
+          "call": "KJJP",
+          "frequency": "105.7",
+          "marketCity": "Amarillo",
+          "marketState": "TX",
+          "name": "High Plains Public Radio",
+          "tagline": "In touch with the world, at home on the High Plains."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "02cce909af3d4b1eb164a3010920e2ca",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANZFM_HPPR2.mp3"
+              }
+            ],
+            "guid": "e06c6da55d59488e8d36e34ae19572bf",
+            "title": "HPPR Connect (News & Information)",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b9b86ef677274f00b215523dcb2c006f",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANZFM_HPPR.mp3"
+              }
+            ],
+            "guid": "4fcf7158013749df96cd0b37e9686a81",
+            "title": "High Plains Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.hppr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/hppr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/hppr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/8_0b79e164d0dc14c0338a960eaeac3108.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/HighPlainsPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://www.twitter.com/hppr",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "02cce909af3d4b1eb164a3010920e2ca",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANZFM_HPPR2.mp3",
+            "isPrimaryStream": false,
+            "title": "HPPR Connect (News & Information)",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b9b86ef677274f00b215523dcb2c006f",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KANZFM_HPPR.mp3",
+            "isPrimaryStream": true,
+            "title": "High Plains Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "bb97a35af8ec4a4c90e3f181eb55c35e",
+            "href": "https://hppr.drupal.publicbroadcasting.net/feeds/50769/rss.xml",
+            "title": "HPPR Radio Readers Book Club",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "59faf99bfaa34d14857bb64127b16e3b",
+            "href": "https://hppr.drupal.publicbroadcasting.net/feeds/84719/rss.xml",
+            "title": "Little Spouse on the Prairie",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "126998a5e0bc494780a3f176d20f9d3f",
+            "href": "https://hppr.drupal.publicbroadcasting.net/feeds/5123/rss.xml",
+            "title": "High Plains Outdoors",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "1cfde9bb7ec840cd96fea7c43212ef1e",
+            "href": "https://donate.nprstations.org/hppr/",
+            "title": "High Plains Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/271",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf700f21b34ffea0fd383b9428d7fd",
+        "brand": {
+          "band": "FM",
+          "call": "KVLU",
+          "frequency": "91.3",
+          "marketCity": "Beaumont",
+          "marketState": "TX",
+          "name": "KVLU",
+          "tagline": "Supported by listeners like you"
+        },
+        "orgId": "271",
+        "network": {
+          "inheritingFrom": "271",
+          "usesInheritance": false,
+          "currentOrgId": "271",
+          "tier1": {
+            "name": "KVLU-FM",
+            "id": "271",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "35eab27c8ac649a4b2e929cb776b2a2a",
+                "typeId": "10",
+                "href": "https://kvlustream.lamar.edu:8443/stream"
+              }
+            ],
+            "guid": "4fcf713a14d148a8a07b6b2455571b1b",
+            "title": "91.3 KVLU-FM ",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kvlu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kvlu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kvlu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/271.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/913KVLU",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "www.twitter.com/913kvlu",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "35eab27c8ac649a4b2e929cb776b2a2a",
+            "href": "https://kvlustream.lamar.edu:8443/stream",
+            "isPrimaryStream": true,
+            "title": "91.3 KVLU-FM ",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "cb8b05ef9e60448a977caff080a04383",
+            "href": "https://kvlu-org.cgi-data.com/webform/2565959.cgi",
+            "title": "Membership",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/271.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/757",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "757",
+        "network": {
+          "inheritingFrom": "757",
+          "usesInheritance": false,
+          "currentOrgId": "757",
+          "tier1": {
+            "name": "KACU-FM",
+            "id": "757",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "guid": "4fcf701223884dd191df66109dade748",
+        "brand": {
+          "band": "FM",
+          "call": "KACU",
+          "frequency": "89.5",
+          "marketCity": "Abilene",
+          "marketState": "TX",
+          "name": "KACU",
+          "tagline": "Abilene Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7f0b3f2361f04345b032cb1e5c532a2e",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KACUFM.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "c287a177da5f480f99d22e3bbaa747e3",
+                "typeId": "13",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KACUFMAAC.aac"
+              }
+            ],
+            "guid": "4fcf71450f6541d9b5f4618e348fb3c4",
+            "title": "KACU",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kacu.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kacu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kacu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/757.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KACUFM",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/KACUFM",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "7f0b3f2361f04345b032cb1e5c532a2e",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KACUFM.mp3",
+            "isPrimaryStream": true,
+            "title": "KACU",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c287a177da5f480f99d22e3bbaa747e3",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KACUFMAAC.aac",
+            "isPrimaryStream": true,
+            "title": "KACU",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "b7d4b5f8b34c46f286b9f272a51c50d1",
+            "href": "https://kacu.drupal.publicbroadcasting.net/podcasts/71090/rss.xml",
+            "title": "History In Plain Sight",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9b1c3a1cd1c24d08ba79a29b3061e894",
+            "href": "https://kacu.drupal.publicbroadcasting.net/podcasts/71089/rss.xml",
+            "title": "Abilene People",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ebddd1b29a0a4f13b857d3155d3d8b25",
+            "href": "https://kacu.drupal.publicbroadcasting.net/podcasts/71094/rss.xml",
+            "title": "The Texasphile",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b7535589e99a4f49b47fef06f4a7a273",
+            "href": "https://donate.nprstations.org/kacu/",
+            "title": "Support KACU",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/757.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/758",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "758",
+        "network": {
+          "name": "Marfa Public Radio",
+          "inheritingFrom": "957",
+          "usesInheritance": true,
+          "currentOrgId": "758",
+          "tier1": {
+            "name": "KRTS-FM",
+            "id": "957",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KXWT-FM",
+                "id": "758",
+                "usesInheritance": true
+              },
+              {
+                "name": "KDKY-FM",
+                "id": "1531",
+                "usesInheritance": false
+              },
+              {
+                "name": "KRTP-FM",
+                "id": "1532",
+                "usesInheritance": false
+              },
+              {
+                "name": "KOJP-FM",
+                "id": "1721",
+                "usesInheritance": false
+              }
+            ]
+          }
+        },
+        "guid": "4fcf701223cd4cd19c674e94b7fc459c",
+        "brand": {
+          "band": "FM",
+          "call": "KXWT",
+          "frequency": "91.3",
+          "marketCity": "Odessa",
+          "marketState": "TX",
+          "name": "Marfa Public Radio",
+          "tagline": "Radio for a Wide Range"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "16a9cab558dc45eaa534346784f10b7f",
+                "typeId": "10",
+                "href": "https://marfapr-ice.streamguys1.com/krts"
+              }
+            ],
+            "guid": "4fcf71691dad4981bb739d0e2c0bd41f",
+            "title": "KRTS-FM Marfa Public Radio",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e9726b6377fd45528669461e47ab1d1a",
+                "typeId": "10",
+                "href": "https://marfapr-ice.streamguys1.com/kxwt"
+              }
+            ],
+            "guid": "514b00021cff4adb9413c0c0aea69f23",
+            "title": "KXWT-FM West Texas Public Radio",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.marfapublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/krts_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/krts_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/957.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Marfa-Public-Radio-KRTS/42822870949",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/MarfaRadio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "16a9cab558dc45eaa534346784f10b7f",
+            "href": "https://marfapr-ice.streamguys1.com/krts",
+            "isPrimaryStream": true,
+            "title": "KRTS-FM Marfa Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "e9726b6377fd45528669461e47ab1d1a",
+            "href": "https://marfapr-ice.streamguys1.com/kxwt",
+            "isPrimaryStream": false,
+            "title": "KXWT-FM West Texas Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "47c47e0818b24902bc1eb6dac06cc6d2",
+            "href": "https://westtexaspublicradio.org/programs/nature-notes/nature-notes-podcast-feed/",
+            "title": "Nature Notes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2638229e253144a7a4123427f3ff97f1",
+            "href": "https://westtexaspublicradio.org/programs/west-texas-talk/west-texas-talk-podcast-feed/",
+            "title": "West  Texas Talk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ebf4fdd98377489bb6d2f0a0765457c2",
+            "href": "https://marfapublicradio.org/programs/west-texas-talk/west-texas-talk-podcast/",
+            "title": "West Texas Talk",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6eca9b2bac4b41d8bdc26c561d0dfdd1",
+            "href": "https://marfapublicradio.org/programs/rambling-boy/rambling-boy-podcast-feed/",
+            "title": "The Rambling Boy",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "99f3a30a2cf144f3a7e875910ca4dfe7",
+            "href": "https://app.etapestry.com/cart/MarfaPublicRadio/default/index.php",
+            "title": "Support Marfa Public Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "a195465ce94d4a8cb7473793b6fe825c",
+            "href": "https://app.etapestry.com/cart/MarfaPublicRadio/default/index.php",
+            "title": "Support Marfa Public Radio",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/957.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/888",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/ketr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "888",
+        "network": {
+          "inheritingFrom": "888",
+          "usesInheritance": false,
+          "currentOrgId": "888",
+          "tier1": {
+            "name": "KETR-FM",
+            "id": "888",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        },
+        "newscast": {
+          "id": "888",
+          "recency": 240
+        },
+        "guid": "4fcf701316d3435cbc2ea3de4b9ddff6",
+        "brand": {
+          "band": "FM",
+          "call": "KETR",
+          "frequency": "88.9",
+          "marketCity": "Commerce",
+          "marketState": "TX",
+          "name": "88.9 KETR",
+          "tagline": "Your Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "0b7896df5e3347cd83458c409653b686",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KETRFM.pls"
+              }
+            ],
+            "guid": "4fcf7149165b4469a2a7cbed911f3cd2",
+            "title": "88.9 KETR",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://ketr.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/ketr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ketr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/888_0ea46ae1c05546c6b030ac1af78f05ba.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/888_988927e16a1ac6dcbc608a09da397fac.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/888_58ec2ef3c3d37d8a285f5401ee22b5b2.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/888_66cf2b295c66b1fa6b59fb632dceba7e.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/888_7719cb18d528fd6ed6bd6c5222e5d831.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/888_11597fdbbddd64efc01620b26d23b623.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Your-Station-889-KETR/229830585873",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/ketrradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "0b7896df5e3347cd83458c409653b686",
+            "href": "https://playerservices.streamtheworld.com/pls/KETRFM.pls",
+            "isPrimaryStream": true,
+            "title": "88.9 KETR",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "7c0b223ca0294f859b9a05afa5523cd6",
+            "href": "https://ketr.drupal.publicbroadcasting.net/podcasts/80669/rss.xml",
+            "title": "KETR's North by Northeast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "06b9cd1bb3cd4404abf4d84e9b37aaa1",
+            "href": "https://ketr.drupal.publicbroadcasting.net/podcasts/term/3526/rss.xml",
+            "title": "The Blacklands Caf\u00e9",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "31d05ffa52a6448f93e331b8e3b6306a",
+            "href": "https://ketr.drupal.publicbroadcasting.net/podcasts/102004/rss.xml",
+            "title": "Lions Roar",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c87355b988ae4ff2bd8f4467e27459a9",
+            "href": "https://ketr.drupal.publicbroadcasting.net/podcasts/110991/rss.xml",
+            "title": "Crawfish Nachos",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4344f9cb92de4c14a716402288830e30",
+            "href": "https://feeds.simplecast.com/B_5_xFWZ",
+            "title": "Buried",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "8736faca321c40e3a4363d4daf402c0d",
+            "href": "https://ketr.drupal.publicbroadcasting.net/podcasts/104248/rss.xml",
+            "title": "Points of Interest",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "57ad8a0cc36f418ca0933957609f33a5",
+            "href": "https://ketr.drupal.publicbroadcasting.net/podcasts/33/rss.xml",
+            "title": "Notably Texan",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "12022dca6e8f47afab17a223afb2a4cd",
+            "href": "https://ketr.drupal.publicbroadcasting.net/podcasts/105366/rss.xml",
+            "title": "Convo",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f7c007a8379f4f66ae3f91bad63614c7",
+            "href": "https://ketr.drupal.publicbroadcasting.net/podcasts/31/rss.xml",
+            "title": "The President's Perspective",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "08e08fc984c346b2b10addea4a444efb",
+            "href": "https://donate.nprstations.org/ketr/thanks-making-online-contribution-ketr?__utma=26710951.786291937.1433533086.1438715692.1438788015.38&__utmb=26710951.51.8.1438788538570&__utmc=26710951&__utmx=-&__utmz=26710951.1438715693.37.8.utmcsr=facebook.com|utmccn=(referral)|utmcmd=referral|utmcct=/&__utmv=-&__utmk=260087694",
+            "title": "Donate",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "fdf87c8bf67e4dc4a509d76a326a31ca",
+            "href": "https://donate.nprstations.org/ketr/thanks-making-online-contribution-ketr",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "8ff8d015bb6344dc83345378155c46cc",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/888_95002e889a5f2e5e0f2ff0d4c44c18b5.mp4",
+            "title": "KETR Donation Ask Oct. 2019",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/888.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1280",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "orgId": "1280",
+        "network": {
+          "inheritingFrom": "1280",
+          "usesInheritance": false,
+          "currentOrgId": "1280"
+        },
+        "guid": "5187cbd4174943f099008861e49767bf",
+        "brand": {
+          "band": "FM",
+          "call": "KUTX",
+          "frequency": "98.9",
+          "marketCity": "Leander",
+          "marketState": "TX",
+          "name": "KUTX 98.9",
+          "tagline": "The Austin Music Experience"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b4500d17a9694ef3987798ef77236b5c",
+                "typeId": "10",
+                "href": "https://kut.streamguys1.com/amx-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "ae091d925521427d943e0e5afbc0cf32",
+                "typeId": "13",
+                "href": "https://kut.streamguys1.com/amx-npr.aac"
+              }
+            ],
+            "guid": "4fcf713f176a425d863a11d753967f76",
+            "title": "KUTX HD2 The Austin Music Experience",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "ff89597a19e546689107658ad89409ff",
+                "typeId": "10",
+                "href": "https://kut.streamguys1.com/kutx-npr"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "f55fefb39a404f86ac59556a2130ff4e",
+                "typeId": "13",
+                "href": "https://kut.streamguys1.com/kutx-npr.aac"
+              }
+            ],
+            "guid": "4fcf713f157a400ea510541bfd337134",
+            "title": "KUTX 98.9 The Austin Music Experience",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kutx.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kutx_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kutx_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1280.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KUTX989",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/KUTX",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "b4500d17a9694ef3987798ef77236b5c",
+            "href": "https://kut.streamguys1.com/amx-npr",
+            "isPrimaryStream": false,
+            "title": "KUTX HD2 The Austin Music Experience",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "ff89597a19e546689107658ad89409ff",
+            "href": "https://kut.streamguys1.com/kutx-npr",
+            "isPrimaryStream": true,
+            "title": "KUTX 98.9 The Austin Music Experience",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f55fefb39a404f86ac59556a2130ff4e",
+            "href": "https://kut.streamguys1.com/kutx-npr.aac",
+            "isPrimaryStream": true,
+            "title": "KUTX 98.9 The Austin Music Experience",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "ae091d925521427d943e0e5afbc0cf32",
+            "href": "https://kut.streamguys1.com/amx-npr.aac",
+            "isPrimaryStream": false,
+            "title": "KUTX HD2 The Austin Music Experience",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "906134895c7b4e11b06437e839d92d02",
+            "href": "https://feeds.podtrac.com/o2IyQpvaxQuj",
+            "title": "The Breaks",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "5d572258bcbb486ba5377ec9597a17e1",
+            "href": "https://feeds.podtrac.com/rGx1tCTtoias",
+            "title": "Austin Music Minute",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a7eac5157b714130834ed46c4b6b26f8",
+            "href": "https://feeds.podtrac.com/ebQsSwH4mS95",
+            "title": "Song of the Day",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "65510515e0354a39a0a4e85d24c18743",
+            "href": "https://feeds.podtrac.com/DYqWlnI0jRcN",
+            "title": "Liner Notes",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a85340899d354199b3e5eb88aceac86f",
+            "href": "https://feeds.podtrac.com/Uw3YhgkxGcFT",
+            "title": "This Song",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b9953502bfc142618ce4f6339470cbe3",
+            "href": "https://feeds.podtrac.com/wRtiWcwKMPPB",
+            "title": "Song Confessional",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "7604c73071a648269028aca933933a0f",
+            "href": "https://kut.secureallegiance.com/kut/WebModule/Donate.aspx?P=NPRKUTX&PAGETYPE=PLG&CHECK=tbsNIY2NFbd2dnagIaIbrOzWDeZ%2beA1M",
+            "title": "Support KUTX",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1280.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/64",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "64",
+        "network": {
+          "name": "Red River Radio",
+          "inheritingFrom": "61",
+          "usesInheritance": true,
+          "currentOrgId": "64",
+          "tier1": {
+            "name": "Red River Radio Network",
+            "id": "61",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KDAQ-FM",
+                "id": "62",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KBSA-FM",
+                    "id": "63",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLDN-FM",
+                    "id": "64",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KLSA-FM",
+                    "id": "65",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "61",
+          "recency": 360
+        },
+        "guid": "4fcf700e106e4dd4aac410c3a92e6571",
+        "brand": {
+          "band": "FM",
+          "call": "KLDN",
+          "frequency": "88.9",
+          "marketCity": "Lufkin",
+          "marketState": "TX",
+          "name": "Red River Radio",
+          "tagline": "Your source for great music and in-depth news."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "d147636331da4875bf5a2a2ecb9f3e66",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQHD2.mp3"
+              }
+            ],
+            "guid": "308efd7d9c234bf28ed6d1e6e7b4be6f",
+            "title": "Red River Radio HD2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "c609c2945d7f42adb6052782571358ea",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQHD3.mp3"
+              }
+            ],
+            "guid": "6c70b632a2f247f0a7448bb983c41c06",
+            "title": "Red River Radio HD3",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "805ab8b968054c259a079161b907e201",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQFM.mp3"
+              }
+            ],
+            "guid": "e9b4428366034826857faf8ee2d817de",
+            "title": "Red River Radio HD1",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://redriverradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/rrr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/rrr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/61_8991016fb868157c59b53fdf19559900.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/Red-River-Radio/110583654120",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/rrrpublicradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "d147636331da4875bf5a2a2ecb9f3e66",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQHD2.mp3",
+            "isPrimaryStream": false,
+            "title": "Red River Radio HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "c609c2945d7f42adb6052782571358ea",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQHD3.mp3",
+            "isPrimaryStream": false,
+            "title": "Red River Radio HD3",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "805ab8b968054c259a079161b907e201",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KDAQFM.mp3",
+            "isPrimaryStream": true,
+            "title": "Red River Radio HD1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "03858221f65441cf935154da7efa9cca",
+            "href": "http://www.publicbroadcasting.net/rrr/.jukebox?action=viewPodcast&podcastId=461",
+            "title": "The Commentaries of Dr. Archie McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "2ad11808c33146b98129c17fe15e6eab",
+            "href": "http://www.publicbroadcasting.net/rrr/.jukebox?action=viewPodcast&podcastId=461",
+            "title": "The Commentaries of Dr. Archie McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "ffcb5bad07114c1f944ee4d2bf08e1c9",
+            "href": "http://www.publicbroadcasting.net/rrr/.jukebox?action=viewPodcast&podcastId=461",
+            "title": "The Commentaries of Dr. Archie McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a07f6cc0f0334be392997c4ee94f1322",
+            "href": "http://www.publicbroadcasting.net/rrr/.jukebox?action=viewPodcast&podcastId=461",
+            "title": "The Commentaries of Dr. Archie McDonald",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "c5650f4e34fc4965a704e85a231aa783",
+            "href": "https://donate.nprstations.org/rrr/",
+            "title": "Support Red River Radio",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "61f12a54d5704cd195b7663e0c84f8fc",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/61_09f798adfd7e9dff547f38c09bd27735.mp4",
+            "title": "Donation Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1161",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "1161",
+        "network": {
+          "inheritingFrom": "1161",
+          "usesInheritance": false,
+          "currentOrgId": "1161"
+        },
+        "guid": "4fcf7014207a47b78e33ee7cfec3345a",
+        "brand": {
+          "band": "FM",
+          "call": "KNCH",
+          "frequency": "90.1",
+          "marketCity": "San Angelo",
+          "marketState": "TX",
+          "name": "KTTZ",
+          "tagline": "Texas Tech Public Broadcasting"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "7f4bbf0a58fa425da8f45de8e8d39784",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNCHFM.mp3"
+              }
+            ],
+            "guid": "ba7bf68a6ac74f8eac8a703df65f4933",
+            "title": "KNCH 90.1FM",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5802eaa2870a44a9a49c6871aea02d56",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTZHD2.mp3"
+              }
+            ],
+            "guid": "4fcf715a1f8e4eb79064b0e10578e2ed",
+            "title": "KTTZ-FM HD2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "5e5a02c2d9604a32a550fe5f6d415970",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTZHD1.mp3"
+              }
+            ],
+            "guid": "4fcf715a1d0d411bab93167e3e723953",
+            "title": "KTTZ-FM HD1",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kttz.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/knch_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/knch_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1161_6bb57844351e710e05dadc7128db16d7.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "7f4bbf0a58fa425da8f45de8e8d39784",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KNCHFM.mp3",
+            "isPrimaryStream": false,
+            "title": "KNCH 90.1FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5802eaa2870a44a9a49c6871aea02d56",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTZHD2.mp3",
+            "isPrimaryStream": false,
+            "title": "KTTZ-FM HD2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "5e5a02c2d9604a32a550fe5f6d415970",
+            "href": "https://playerservices.streamtheworld.com/api/livestream-redirect/KTTZHD1.mp3",
+            "isPrimaryStream": true,
+            "title": "KTTZ-FM HD1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "11c631bde81c42b8b3f9e6fadc195fcb",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/60855/rss.xml",
+            "title": "The Front Row",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "93a4cb9147fd4a89a4263d9302c8873a",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/1023/rss.xml",
+            "title": "Inside Texas Tech",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "e78c994a32d14976b5a44ffe30f96b5f",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/68261/rss.xml",
+            "title": "Noche de Tango",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "95742614341c476fadd84a3e37255ce9",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/94920/rss.xml",
+            "title": "For the Pages",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "66e362b89e4b4a48bc5c10ea06be88bd",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/20060/rss.xml",
+            "title": "Faith Matters",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "40f95bb46cc946a49c898b1e6abc9662",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/105415/rss.xml",
+            "title": "Beyond the Report",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6fecf37e19f84591a47c40cf957888e5",
+            "href": "https://kohm.drupal.publicbroadcasting.net/podcasts/73254/rss.xml",
+            "title": "Music Crossroads of Texas",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "da10964fa078475d950073e618ba3493",
+            "href": "https://donate.nprstations.org/kttz/knch-fm?_ga=2.40136106.908733110.1582574924-1848635133.1501881014",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1161.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/869",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "orgId": "869",
+        "network": {
+          "name": "KCCU",
+          "inheritingFrom": "28",
+          "usesInheritance": true,
+          "currentOrgId": "869",
+          "tier1": {
+            "name": "KCCU-FM",
+            "id": "28",
+            "usesInheritance": false,
+            "status": "1",
+            "tier2": [
+              {
+                "name": "KLCU-FM",
+                "id": "31",
+                "usesInheritance": true
+              },
+              {
+                "name": "KOCU-FM",
+                "id": "809",
+                "usesInheritance": true
+              },
+              {
+                "name": "KMCU-FM",
+                "id": "869",
+                "usesInheritance": true
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "28",
+          "recency": 360
+        },
+        "guid": "4fcf701313e241db8520440dddfda28c",
+        "brand": {
+          "band": "FM",
+          "call": "KMCU",
+          "frequency": "88.7",
+          "marketCity": "Wichita Falls",
+          "marketState": "TX",
+          "name": "KCCU",
+          "tagline": "Your Public Radio Station"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "6d270a20b50242a69fd0daacbe764bb4",
+                "typeId": "10",
+                "href": "https://playerservices.streamtheworld.com/pls/KCCUFM.pls"
+              }
+            ],
+            "guid": "13dcc6ea338028045d0a23450ed29a4c",
+            "title": "KCCU-FM",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.kccu.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kccu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/28.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/pages/KCCU/76165160801",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "6d270a20b50242a69fd0daacbe764bb4",
+            "href": "https://playerservices.streamtheworld.com/pls/KCCUFM.pls",
+            "isPrimaryStream": true,
+            "title": "KCCU-FM",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "3214bdf575b84767876886f01ce670b7",
+            "href": "https://www.cameron.edu/CU/kccu/giving_to_cu.php",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/28.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/765",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4fcf70122529465394d47859481e30ac",
+        "brand": {
+          "band": "FM",
+          "call": "KPVU",
+          "frequency": "91.3",
+          "marketCity": "Prairie View",
+          "marketState": "TX",
+          "name": "KPVU",
+          "tagline": "Prairie View A&M University"
+        },
+        "orgId": "765",
+        "network": {
+          "inheritingFrom": "765",
+          "usesInheritance": false,
+          "currentOrgId": "765",
+          "tier1": {
+            "name": "KPVU-FM",
+            "id": "765",
+            "usesInheritance": false,
+            "status": "1"
+          }
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.kpvu.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/kpvu_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/765.mp4",
+            "content-type": "audio/aac"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2e708fabaafb4256b4c3d75d9a5138d6",
+            "href": "https://secure.touchnet.com/C20166_ustores/web/classic/product_detail.jsp?PRODUCTID=348",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/765.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1532",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "b0524a4d7d144a95831d6bac22de048b",
+        "brand": {
+          "band": "FM",
+          "call": "KRTP",
+          "frequency": "91.7",
+          "marketCity": "Alpine",
+          "marketState": "TX",
+          "name": "KRTP-FM",
+          "tagline": null
+        },
+        "orgId": "1532",
+        "network": {
+          "inheritingFrom": "1532",
+          "usesInheritance": false,
+          "currentOrgId": "1532"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1450",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Adult Album Alternative",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "539619ec10b94c568702157437613842",
+        "brand": {
+          "band": "FM",
+          "call": "KXBT",
+          "frequency": "88.1",
+          "marketCity": "Somerville",
+          "marketState": "TX",
+          "name": "KXBT-FM",
+          "tagline": null
+        },
+        "orgId": "1450",
+        "network": {
+          "inheritingFrom": "1450",
+          "usesInheritance": false,
+          "currentOrgId": "1450"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1531",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "4cc92b0b9b5f4e9abfa78641e40a95de",
+        "brand": {
+          "band": "FM",
+          "call": "KDKY",
+          "frequency": "91.5",
+          "marketCity": "Marathon",
+          "marketState": "TX",
+          "name": "KDKY-FM",
+          "tagline": null
+        },
+        "orgId": "1531",
+        "network": {
+          "inheritingFrom": "1531",
+          "usesInheritance": false,
+          "currentOrgId": "1531"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1721",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "1b3776c12cac4890bf2501402ba0a70b",
+        "brand": {
+          "band": "FM",
+          "call": "KOJP",
+          "frequency": "95.3",
+          "marketCity": "Presidio",
+          "marketState": "TX",
+          "name": "KOJP-FM",
+          "tagline": null
+        },
+        "orgId": "1721",
+        "network": {
+          "inheritingFrom": "1721",
+          "usesInheritance": false,
+          "currentOrgId": "1721"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1181",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "15",
+          "musicOnly": false
+        },
+        "guid": "4fcf701423454082806c428d113b5d7f",
+        "brand": {
+          "band": "FM",
+          "call": "KTRL",
+          "frequency": "90.5",
+          "marketCity": "Stephenville",
+          "marketState": "TX",
+          "name": "KAMU",
+          "tagline": "Public Media for the Brazos Valley - The Quality Choice"
+        },
+        "orgId": "1181",
+        "network": {
+          "inheritingFrom": "1181",
+          "usesInheritance": false,
+          "currentOrgId": "1181"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://kamu.tamu.edu/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/kamu_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ktrl_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/3.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/KAMUfanpage",
+            "content-type": "text/html"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "c3703445cd7c4a05ad502a3eaf475844",
+            "href": "http://kamu.drupal.publicbroadcasting.net/online-donation-options-kamu",
+            "title": null,
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "05140d6fb02b46d4b1b1614531bafa10",
+            "href": "http://kamu.drupal.publicbroadcasting.net/online-donation-options-kamu",
+            "title": "",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1181.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

@@ -1,0 +1,1458 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "VT"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/692",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvps-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "692",
+        "network": {
+          "name": "Vermont Public Radio",
+          "inheritingFrom": "691",
+          "usesInheritance": true,
+          "currentOrgId": "692",
+          "tier1": {
+            "name": "Vermont Public Radio",
+            "id": "691",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WVPS-FM",
+                "id": "692",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WBTN-FM",
+                    "id": "693",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WRVT-FM",
+                    "id": "694",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVPA-FM",
+                    "id": "695",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVPR-FM",
+                    "id": "696",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WNCH-FM",
+                    "id": "894",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WVTQ-FM",
+                    "id": "1003",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WOXR-FM",
+                    "id": "1031",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WVTI-FM",
+                    "id": "1116",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WOXM-FM",
+                    "id": "1163",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WVXR-FM",
+                    "id": "1176",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WVBA-FM",
+                    "id": "1369",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WVNK-FM",
+                    "id": "1370",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "WOXM-FM",
+                    "id": "1490",
+                    "usesInheritance": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "691",
+          "recency": 360
+        },
+        "guid": "4fcf701215ef4256a07506c9c3a90a16",
+        "brand": {
+          "band": "FM",
+          "call": "WVPS",
+          "frequency": "107.9",
+          "marketCity": "Burlington",
+          "marketState": "VT",
+          "name": "Vermont Public Radio",
+          "tagline": ""
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "78206daad2f54c86913a6d01972fb0c0",
+                "typeId": "10",
+                "href": "https://vpr.streamguys1.com/vpr64.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "f6e206d4b697452785d0ed42b8e21c29",
+                "typeId": "13",
+                "href": "https://vpr.streamguys1.com/vpr64.aac"
+              }
+            ],
+            "guid": "48bbf18a64eb49aaba0da6300e0fc713",
+            "title": "VPR News",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.vpr.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/vpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/vpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/691_cfe7a806ad7e7120dd4485496d4e4f00.mp4?1527686530598",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "station-message-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/message/691_8a0bd2986750d7c3f6d206361edfe02a.mp4?1546530279752",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/691_74f11ff6231360dada996e2fed11de8d.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/691_9f434fd9764ca069792c274f416bda96.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/691_48749ffb961923e3448d76f8ace74db4.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/691_0c15372893b7f23843c68c0ca2f2a18b.mp4?1498506496628",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/vpr.net",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/vprnet",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "78206daad2f54c86913a6d01972fb0c0",
+            "href": "https://vpr.streamguys1.com/vpr64.mp3",
+            "isPrimaryStream": true,
+            "title": "VPR News",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f6e206d4b697452785d0ed42b8e21c29",
+            "href": "https://vpr.streamguys1.com/vpr64.aac",
+            "isPrimaryStream": true,
+            "title": "VPR News",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "f09a12269ba84600ac16b6d56cdec106",
+            "href": "https://podcasts.vpr.net/the-frequency",
+            "title": "The Frequency: Daily Vermont News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "c43ec419555d498bab796556844873d5",
+            "href": "https://podcasts.vpr.net/all-things-gardening",
+            "title": "All Things Gardening",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0207df9da3174e9a875cfade6931f0b6",
+            "href": "https://podcasts.vpr.net/outdoor-radio",
+            "title": "Outdoor Radio",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "fbe3c2cc4d484e938bdadb77f9f87cfc",
+            "href": "https://podcasts.vpr.net/but-why",
+            "title": "But Why: A Podcast For Curious Kids",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d209e50ca63c465a8ea5a8a6541084ee",
+            "href": "https://podcasts.vpr.net/brave-little-state",
+            "title": "Brave Little State",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "03c832504522426ea76d444e00b41889",
+            "href": "https://podcasts.vpr.net/timeline",
+            "title": "Timeline",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "0504484e8740460d875906d07d5cc083",
+            "href": "https://podcasts.vpr.net/my-heart-still-beats",
+            "title": "My Heart Still Beats",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b230fdbe07ba4a62a9eaa34b50f89841",
+            "href": "https://podcasts.vpr.net/vermont-edition",
+            "title": "Vermont Edition",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "a1989945b4d9468685b4a5ff52cfdaf3",
+            "href": "https://podcasts.vpr.net/jolted",
+            "title": "JOLTED",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2552a5aa75294181b1bf5038237030ba",
+            "href": "https://donate.vpr.org/",
+            "title": "Support VPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "76a7f3f8cf7b447090a1591c47d88736",
+            "href": "https://donate.vpr.org/",
+            "title": "Support VPR",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "a99cea6b03814f14b6cc7878f58fabed",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/691_98bbf4d50e5e7f032848789f259c67e0.mp4",
+            "title": "Sustainer Appeal 4",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "c048c5d86f544f5d975219398553dde6",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/691_d3521f65eee63e30ad5a83db990f184f.mp4",
+            "title": "Sustainer Appeal 1",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "4ab7a18ea2b14f1db2be2c55a10ee671",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/691_364de3f83f6a86a4dfb2043c26ea1c6c.mp4",
+            "title": "Sustainer Appeal 5",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "8cf75980e30a45409a9932886fdaa4df",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/691_fa305983ba7f86b89b6a60491eff087d.mp4",
+            "title": "Sustainer Appeal 3",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "581d76e9749d43a68ccd5d64870aa792",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/691_2141a3a6c55f8bc3d5cebd4f9c71076c.mp4",
+            "title": "Jean Funding 101",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          },
+          {
+            "guid": "f95ba0985ebd4549baee47c7f851ef0b",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/691_b90e566ad5670810a344bb8ff7a08a8b.mp4",
+            "title": "Sustainer Appeal 2",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/894",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvps-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "894",
+        "network": {
+          "inheritingFrom": "894",
+          "usesInheritance": false,
+          "currentOrgId": "894"
+        },
+        "guid": "4fcf701317894d46971c9e12afd3c270",
+        "brand": {
+          "band": "FM",
+          "call": "WNCH",
+          "frequency": "88.1",
+          "marketCity": "Norwich",
+          "marketState": "VT",
+          "name": "VPR Classical",
+          "tagline": "VPR Classical on WNCH Norwich 88.1FM"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9d700678d93a410cb9127b7ec262994e",
+                "typeId": "10",
+                "href": "https://vpr.streamguys1.com/vpr64.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "cbab9f421591425aaaaac2d4c6c22345",
+                "typeId": "13",
+                "href": "https://vprclassical.streamguys1.com/vprclassical64.aac"
+              }
+            ],
+            "guid": "400ba972905346dda8d2cf2c31ba1ab8",
+            "title": "VPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://digital.vpr.net/programs/vpr-classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wnch_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wnch_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/894.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/vprclassical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/vprnet",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "9d700678d93a410cb9127b7ec262994e",
+            "href": "https://vpr.streamguys1.com/vpr64.mp3",
+            "isPrimaryStream": true,
+            "title": "VPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cbab9f421591425aaaaac2d4c6c22345",
+            "href": "https://vprclassical.streamguys1.com/vprclassical64.aac",
+            "isPrimaryStream": true,
+            "title": "VPR Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "9af35863659844bc8ec8793166d0e6b4",
+            "href": "https://donate.vpr.net/",
+            "title": "Support VPR Classical",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/894.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1003",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvps-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1003",
+        "network": {
+          "inheritingFrom": "1003",
+          "usesInheritance": false,
+          "currentOrgId": "1003"
+        },
+        "guid": "4fcf70140799408cb90813399fdf563e",
+        "brand": {
+          "band": "FM",
+          "call": "WVTQ",
+          "frequency": "95.1",
+          "marketCity": "Sunderland/Mancheste",
+          "marketState": "VT",
+          "name": "VPR Classical",
+          "tagline": "VPR Classical on WVTQ Sunderland/Manchester 95.1FM"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9d700678d93a410cb9127b7ec262994e",
+                "typeId": "10",
+                "href": "https://vpr.streamguys1.com/vpr64.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "cbab9f421591425aaaaac2d4c6c22345",
+                "typeId": "13",
+                "href": "https://vprclassical.streamguys1.com/vprclassical64.aac"
+              }
+            ],
+            "guid": "400ba972905346dda8d2cf2c31ba1ab8",
+            "title": "VPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://digital.vpr.net/programs/vpr-classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wvtq_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wvtq_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1003.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/vprclassical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/vprnet",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "9d700678d93a410cb9127b7ec262994e",
+            "href": "https://vpr.streamguys1.com/vpr64.mp3",
+            "isPrimaryStream": true,
+            "title": "VPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cbab9f421591425aaaaac2d4c6c22345",
+            "href": "https://vprclassical.streamguys1.com/vprclassical64.aac",
+            "isPrimaryStream": true,
+            "title": "VPR Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "067c3d585d9d4656a2e36f7135a03820",
+            "href": "https://donate.vpr.net/",
+            "title": "Support VPR Classical",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1003.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1176",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvps-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1176",
+        "network": {
+          "inheritingFrom": "1176",
+          "usesInheritance": false,
+          "currentOrgId": "1176"
+        },
+        "guid": "4fcf7014223348f684f3abe7300de578",
+        "brand": {
+          "band": "FM",
+          "call": "WVXR",
+          "frequency": "102.1",
+          "marketCity": "Randolph",
+          "marketState": "VT",
+          "name": "VPR Classical",
+          "tagline": "VPR Classical on WVXR Randolph 102.1FM"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9d700678d93a410cb9127b7ec262994e",
+                "typeId": "10",
+                "href": "https://vpr.streamguys1.com/vpr64.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "cbab9f421591425aaaaac2d4c6c22345",
+                "typeId": "13",
+                "href": "https://vprclassical.streamguys1.com/vprclassical64.aac"
+              }
+            ],
+            "guid": "400ba972905346dda8d2cf2c31ba1ab8",
+            "title": "VPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://digital.vpr.net/programs/vpr-classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wvxr_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wvxr_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1176.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/vprclassical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/vprnet",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "9d700678d93a410cb9127b7ec262994e",
+            "href": "https://vpr.streamguys1.com/vpr64.mp3",
+            "isPrimaryStream": true,
+            "title": "VPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cbab9f421591425aaaaac2d4c6c22345",
+            "href": "https://vprclassical.streamguys1.com/vprclassical64.aac",
+            "isPrimaryStream": true,
+            "title": "VPR Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "bcd4fdf9c1fd4177b0093321d44450ee",
+            "href": "https://donate.vpr.net/",
+            "title": "Support VPR Classical",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1176.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1163",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvps-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1163",
+        "network": {
+          "inheritingFrom": "1163",
+          "usesInheritance": false,
+          "currentOrgId": "1163"
+        },
+        "guid": "4fcf701420f042c4bd2f3d9a7c9224be",
+        "brand": {
+          "band": "FM",
+          "call": "WOXM",
+          "frequency": "90.1",
+          "marketCity": "Middlebury",
+          "marketState": "VT",
+          "name": "VPR Classical",
+          "tagline": "VPR Classical on WOXM Middlebury 90.1FM"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9d700678d93a410cb9127b7ec262994e",
+                "typeId": "10",
+                "href": "https://vpr.streamguys1.com/vpr64.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "cbab9f421591425aaaaac2d4c6c22345",
+                "typeId": "13",
+                "href": "https://vprclassical.streamguys1.com/vprclassical64.aac"
+              }
+            ],
+            "guid": "400ba972905346dda8d2cf2c31ba1ab8",
+            "title": "VPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://digital.vpr.net/programs/vpr-classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/woxm_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/woxm_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1163.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/vprclassical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/vprnet",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "9d700678d93a410cb9127b7ec262994e",
+            "href": "https://vpr.streamguys1.com/vpr64.mp3",
+            "isPrimaryStream": true,
+            "title": "VPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cbab9f421591425aaaaac2d4c6c22345",
+            "href": "https://vprclassical.streamguys1.com/vprclassical64.aac",
+            "isPrimaryStream": true,
+            "title": "VPR Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2c39b52569224524adcf81f58c6332b5",
+            "href": "https://donate.vpr.net/",
+            "title": "Support VPR Classical",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1163.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1370",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvps-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1370",
+        "network": {
+          "inheritingFrom": "1370",
+          "usesInheritance": false,
+          "currentOrgId": "1370"
+        },
+        "guid": "51af46d722ad4d7096e44633f00cf0e0",
+        "brand": {
+          "band": "FM",
+          "call": "WVNK",
+          "frequency": "91.1",
+          "marketCity": "Manchester",
+          "marketState": "VT",
+          "name": "VPR Classical",
+          "tagline": "VPR Classical on 91.1FM in Manchester."
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9d700678d93a410cb9127b7ec262994e",
+                "typeId": "10",
+                "href": "https://vpr.streamguys1.com/vpr64.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "cbab9f421591425aaaaac2d4c6c22345",
+                "typeId": "13",
+                "href": "https://vprclassical.streamguys1.com/vprclassical64.aac"
+              }
+            ],
+            "guid": "400ba972905346dda8d2cf2c31ba1ab8",
+            "title": "VPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://digital.vpr.net/programs/vpr-classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wvnk_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wvnk_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1370.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/vprclassical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/vprnet",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "9d700678d93a410cb9127b7ec262994e",
+            "href": "https://vpr.streamguys1.com/vpr64.mp3",
+            "isPrimaryStream": true,
+            "title": "VPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cbab9f421591425aaaaac2d4c6c22345",
+            "href": "https://vprclassical.streamguys1.com/vprclassical64.aac",
+            "isPrimaryStream": true,
+            "title": "VPR Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "fdf5b521040c4f97921ff815ff9b4487",
+            "href": "https://donate.vpr.net/",
+            "title": "Support VPR Classical",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1370.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1490",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvps-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1490",
+        "network": {
+          "inheritingFrom": "1490",
+          "usesInheritance": false,
+          "currentOrgId": "1490"
+        },
+        "guid": "1e0acccfdeb543918d972f2c1144d7b5",
+        "brand": {
+          "band": "FM",
+          "call": "WOXM",
+          "frequency": "90.1",
+          "marketCity": "Middlebury",
+          "marketState": "VT",
+          "name": "VPR Classical",
+          "tagline": "VPR Classical on WVXM Middlebury 90.1 FM"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9d700678d93a410cb9127b7ec262994e",
+                "typeId": "10",
+                "href": "https://vpr.streamguys1.com/vpr64.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "cbab9f421591425aaaaac2d4c6c22345",
+                "typeId": "13",
+                "href": "https://vprclassical.streamguys1.com/vprclassical64.aac"
+              }
+            ],
+            "guid": "400ba972905346dda8d2cf2c31ba1ab8",
+            "title": "VPR Classical",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://digital.vpr.net/programs/vpr-classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wvxm_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wvxm_fm.gif",
+            "content-type": "image/gif"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "9d700678d93a410cb9127b7ec262994e",
+            "href": "https://vpr.streamguys1.com/vpr64.mp3",
+            "isPrimaryStream": false,
+            "title": "VPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cbab9f421591425aaaaac2d4c6c22345",
+            "href": "https://vprclassical.streamguys1.com/vprclassical64.aac",
+            "isPrimaryStream": false,
+            "title": "VPR Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "e05630a022c3486c997653c0bbf3adf5",
+            "href": "http://donate.vpr.net/",
+            "title": "Support VPR Classical",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1116",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wvps-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1116",
+        "network": {
+          "inheritingFrom": "1116",
+          "usesInheritance": false,
+          "currentOrgId": "1116"
+        },
+        "guid": "4fcf70141b354c8f9fa0b66c9ce834ab",
+        "brand": {
+          "band": "FM",
+          "call": "WVTI",
+          "frequency": "106.9",
+          "marketCity": "Brighton/Island Pond",
+          "marketState": "VT",
+          "name": "VPR Classical",
+          "tagline": "VPR Classical on WVTI Island Pond/Brighton 106.9FM"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "9d700678d93a410cb9127b7ec262994e",
+                "typeId": "10",
+                "href": "https://vpr.streamguys1.com/vpr64.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "cbab9f421591425aaaaac2d4c6c22345",
+                "typeId": "13",
+                "href": "https://vprclassical.streamguys1.com/vprclassical64.aac"
+              }
+            ],
+            "guid": "400ba972905346dda8d2cf2c31ba1ab8",
+            "title": "VPR Classical",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://digital.vpr.net/programs/vpr-classical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wvti_fm.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wvti_fm.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/1116.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/vprclassical",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/vprnet",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "9d700678d93a410cb9127b7ec262994e",
+            "href": "https://vpr.streamguys1.com/vpr64.mp3",
+            "isPrimaryStream": true,
+            "title": "VPR Classical",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "cbab9f421591425aaaaac2d4c6c22345",
+            "href": "https://vprclassical.streamguys1.com/vprclassical64.aac",
+            "isPrimaryStream": true,
+            "title": "VPR Classical",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "5ea5dea9f6844d279b41896c0cb43f4c",
+            "href": "https://donate.vpr.net/",
+            "title": "Support VPR Classical",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1116.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1091",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/wslu-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1091",
+        "network": {
+          "name": "NCPR",
+          "inheritingFrom": "625",
+          "usesInheritance": true,
+          "currentOrgId": "1091",
+          "tier1": {
+            "name": "North Country Public Radio",
+            "id": "625",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "WSLU-FM",
+                "id": "626",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "WSLJ-FM",
+                    "id": "627",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSLL-FM",
+                    "id": "628",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSLO-FM",
+                    "id": "629",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WXLG-FM",
+                    "id": "630",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WXLH-FM",
+                    "id": "631",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WXLU-FM",
+                    "id": "632",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WXLQ-FM",
+                    "id": "1091",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WXLB-FM",
+                    "id": "1092",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WXLS-FM",
+                    "id": "1138",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSLZ-FM",
+                    "id": "1187",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WXLL-FM",
+                    "id": "1294",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WSLG-FM",
+                    "id": "1295",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WXLD-FM",
+                    "id": "1296",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WREM-FM",
+                    "id": "1297",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "WXLE-FM",
+                    "id": "1454",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "625",
+          "recency": 360
+        },
+        "guid": "4fcf7014170c4e469d371d3e39f554ff",
+        "brand": {
+          "band": "FM",
+          "call": "WXLQ",
+          "frequency": "90.5",
+          "marketCity": "Bristol",
+          "marketState": "VT",
+          "name": "NCPR",
+          "tagline": "North Country Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bc5a2b528b064f0db58d7dbc9de1b3b9",
+                "typeId": "10",
+                "href": "https://ncpr-ice.streamguys1.com/ncpr-96k.mp3"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "1bd747830d8d4c12861e1306852f443c",
+                "typeId": "13",
+                "href": "https://ncpr-ice.streamguys1.com/ncpr-64k.aac"
+              }
+            ],
+            "guid": "4fcf716105464458abcaa39a8bc27f7c",
+            "title": "NCPR Live Stream",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://www.northcountrypublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/ncpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/ncpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/625.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/NorthCountryPublicRadio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://twitter.com/ncpr",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "bc5a2b528b064f0db58d7dbc9de1b3b9",
+            "href": "https://ncpr-ice.streamguys1.com/ncpr-96k.mp3",
+            "isPrimaryStream": true,
+            "title": "NCPR Live Stream",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "1bd747830d8d4c12861e1306852f443c",
+            "href": "https://ncpr-ice.streamguys1.com/ncpr-64k.aac",
+            "isPrimaryStream": true,
+            "title": "NCPR Live Stream",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "6bd2986c27fa45079cdb1c0994a3fbef",
+            "href": "https://www.northcountrypublicradio.org/sotdRSS.php",
+            "title": "NCPR's Story of the Day",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "9b323111d8b240eaae634446f0425cfe",
+            "href": "https://www.northcountrypublicradio.org/8OHpodcast.php",
+            "title": "The Eight O'Clock Hour",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "6dcdf8d442d24f089efa073342f1ff25",
+            "href": "https://www.northcountrypublicradio.org/natselectRSS.php?podcast=true",
+            "title": "Natural Selections from NCPR",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "b76785de2d5e47c2aeb45474f0aa73cb",
+            "href": "https://www.northcountrypublicradio.org/hillarytrialRSSPodcast.php",
+            "title": "Day-by-Day: The Nick Hillary Trial",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "b846ef7766684f6bad4a5ac49397360c",
+            "href": "http://ncpr.org/give",
+            "title": "Donate to NCPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "412168d767844516b0ef67f14bad98ab",
+            "href": "http://ncpr.org/give",
+            "title": "Donate to NCPR",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/625.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

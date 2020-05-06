@@ -1,0 +1,1279 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "HI"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/88",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/khpr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "88",
+        "network": {
+          "name": "Hawaii Public Radio",
+          "inheritingFrom": "87",
+          "usesInheritance": true,
+          "currentOrgId": "88",
+          "tier1": {
+            "name": "Hawaii Public Radio",
+            "id": "87",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KHPR-FM",
+                "id": "88",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KANO-FM",
+                    "id": "89",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KIPO-FM",
+                    "id": "90",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KKUA-FM",
+                    "id": "91",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KIPH-FM",
+                    "id": "1346",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KIPM-FM",
+                    "id": "1347",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KAHU-FM",
+                    "id": "1412",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KHPH-FM",
+                    "id": "1527",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KIPL-FM",
+                    "id": "1551",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KJHF-FM",
+                    "id": "1725",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "87",
+          "recency": 360
+        },
+        "guid": "4fcf700e17ef444fa84ccc35594a7b43",
+        "brand": {
+          "band": "FM",
+          "call": "KHPR",
+          "frequency": "88.1",
+          "marketCity": "Honolulu",
+          "marketState": "HI",
+          "name": "Hawaii Public Radio",
+          "tagline": "Radio with vision, listen and see"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e418f85d145c4b52b384a84092d36848",
+                "typeId": "10",
+                "href": "https://khpr-ice.streamguys1.com/kipo2"
+              }
+            ],
+            "guid": "4fcf7157089c41bc8214faadd43a30a1",
+            "title": "Hawaii Public Radio: HPR-2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a5c7d966d1444d4bb68733eb626232e0",
+                "typeId": "10",
+                "href": "https://khpr-ice.streamguys1.com/khpr2"
+              }
+            ],
+            "guid": "4fcf7157048740a08b7b3d7cd4e9539c",
+            "title": "Hawaii Public Radio: HPR-1",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "379cef77bd3549d981cfc5b78e6ac84e",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/kipo64-aac"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "7bf2570b7ef44299aff224356d154535",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/kipo256"
+              }
+            ],
+            "guid": "f0fd97e0e39d49b6b321cf8ba94e463e",
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "9d882482f7e642d3bb983dd6c5a7a764",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/khpr64-aac"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "e86c013d076d42299a76f3461736c605",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/khpr256"
+              }
+            ],
+            "guid": "af6ce574e1c7497ca392d87d57a536ae",
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.hawaiipublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/hpr.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/hpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/87_48270ed809c142e21f2344569144441f.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/hawaiipublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "http://www.twitter.com/hipubradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e418f85d145c4b52b384a84092d36848",
+            "href": "https://khpr-ice.streamguys1.com/kipo2",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a5c7d966d1444d4bb68733eb626232e0",
+            "href": "https://khpr-ice.streamguys1.com/khpr2",
+            "isPrimaryStream": true,
+            "title": "Hawaii Public Radio: HPR-1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "379cef77bd3549d981cfc5b78e6ac84e",
+            "href": "https://khpr-ice.streamguys1.com/kipo64-aac",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "7bf2570b7ef44299aff224356d154535",
+            "href": "https://khpr-ice.streamguys1.com/kipo256",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "9d882482f7e642d3bb983dd6c5a7a764",
+            "href": "https://khpr-ice.streamguys1.com/khpr64-aac",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "e86c013d076d42299a76f3461736c605",
+            "href": "https://khpr-ice.streamguys1.com/khpr256",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "53369dd403d24ab795cc02878a8a59c2",
+            "href": "https://feeds.feedburner.com/HPRNews",
+            "title": "HPR News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4be7233ee9224031a78a65495861c996",
+            "href": "http://feeds.feedburner.com/HawaiiPublicRadioBytemarksCafe",
+            "title": "Bytemarks Cafe",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "712a573f5e6c44dcaaaacdd20acf614f",
+            "href": "http://feeds.feedburner.com/Hawaiipublicradioorg-TheBodyShow",
+            "title": "The Body Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d90075118cf54dfbb71812f275b36900",
+            "href": "http://feeds.feedburner.com/theconversationhpr",
+            "title": "The Converstation",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4ed653ce1bf846a0816060d2ca22a9e6",
+            "href": "http://feeds.feedburner.com/HPRTalkShows",
+            "title": "Hawaii Public Radio's Talk Shows podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "2fc5ed94aefa462784b7c298d8719c15",
+            "href": "https://members.hawaiipublicradio.org/",
+            "title": "Support HPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "22d1d85e7144465b8ea01b47086971d8",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/87_3bbbf46445d41e22ed1988308f0e3a2d.mp4",
+            "title": "Donation Ask",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/90",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/khpr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "90",
+        "network": {
+          "inheritingFrom": "90",
+          "usesInheritance": false,
+          "currentOrgId": "90"
+        },
+        "newscast": {
+          "id": "90",
+          "recency": 360
+        },
+        "guid": "4fcf700e18874f75a7963632b6d6186a",
+        "brand": {
+          "band": "FM",
+          "call": "KIPO",
+          "frequency": "89.3",
+          "marketCity": "Honolulu",
+          "marketState": "HI",
+          "name": "Hawaii Public Radio",
+          "tagline": "Radio with vision, listen and see"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e418f85d145c4b52b384a84092d36848",
+                "typeId": "10",
+                "href": "https://khpr-ice.streamguys1.com/kipo2"
+              }
+            ],
+            "guid": "4fcf7157089c41bc8214faadd43a30a1",
+            "title": "Hawaii Public Radio: HPR-2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a5c7d966d1444d4bb68733eb626232e0",
+                "typeId": "10",
+                "href": "https://khpr-ice.streamguys1.com/khpr2"
+              }
+            ],
+            "guid": "4fcf7157048740a08b7b3d7cd4e9539c",
+            "title": "Hawaii Public Radio: HPR-1",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "9d882482f7e642d3bb983dd6c5a7a764",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/khpr64-aac"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "e86c013d076d42299a76f3461736c605",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/khpr256"
+              }
+            ],
+            "guid": "af6ce574e1c7497ca392d87d57a536ae",
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "379cef77bd3549d981cfc5b78e6ac84e",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/kipo64-aac"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "7bf2570b7ef44299aff224356d154535",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/kipo256"
+              }
+            ],
+            "guid": "f0fd97e0e39d49b6b321cf8ba94e463e",
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.hawaiipublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/hpr.png?1487097544640",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/hpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "http://www.facebook.com/hawaiipublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/hipubradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e418f85d145c4b52b384a84092d36848",
+            "href": "https://khpr-ice.streamguys1.com/kipo2",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a5c7d966d1444d4bb68733eb626232e0",
+            "href": "https://khpr-ice.streamguys1.com/khpr2",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "9d882482f7e642d3bb983dd6c5a7a764",
+            "href": "https://khpr-ice.streamguys1.com/khpr64-aac",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "379cef77bd3549d981cfc5b78e6ac84e",
+            "href": "https://khpr-ice.streamguys1.com/kipo64-aac",
+            "isPrimaryStream": true,
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "e86c013d076d42299a76f3461736c605",
+            "href": "https://khpr-ice.streamguys1.com/khpr256",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "7bf2570b7ef44299aff224356d154535",
+            "href": "https://khpr-ice.streamguys1.com/kipo256",
+            "isPrimaryStream": true,
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "4be7233ee9224031a78a65495861c996",
+            "href": "http://feeds.feedburner.com/HawaiiPublicRadioBytemarksCafe",
+            "title": "Bytemarks Cafe",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4ed653ce1bf846a0816060d2ca22a9e6",
+            "href": "http://feeds.feedburner.com/HPRTalkShows",
+            "title": "Hawaii Public Radio's Talk Shows podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d90075118cf54dfbb71812f275b36900",
+            "href": "http://feeds.feedburner.com/theconversationhpr",
+            "title": "The Converstation",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "53369dd403d24ab795cc02878a8a59c2",
+            "href": "https://feeds.feedburner.com/HPRNews",
+            "title": "HPR News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "712a573f5e6c44dcaaaacdd20acf614f",
+            "href": "http://feeds.feedburner.com/Hawaiipublicradioorg-TheBodyShow",
+            "title": "The Body Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "16a08683a0e54229af3e1a02b7176778",
+            "href": "https://members.hawaiipublicradio.org/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/90.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1346",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/khpr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1346",
+        "network": {
+          "inheritingFrom": "1346",
+          "usesInheritance": false,
+          "currentOrgId": "1346"
+        },
+        "newscast": {
+          "id": "1346",
+          "recency": 360
+        },
+        "guid": "505f5b18111e4d68a54e172415cd02cc",
+        "brand": {
+          "band": "FM",
+          "call": "KIPH",
+          "frequency": "88.3",
+          "marketCity": "Hana",
+          "marketState": "HI",
+          "name": "Hawaii Public Radio",
+          "tagline": "Radio with vision, listen and see"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e418f85d145c4b52b384a84092d36848",
+                "typeId": "10",
+                "href": "https://khpr-ice.streamguys1.com/kipo2"
+              }
+            ],
+            "guid": "4fcf7157089c41bc8214faadd43a30a1",
+            "title": "Hawaii Public Radio: HPR-2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a5c7d966d1444d4bb68733eb626232e0",
+                "typeId": "10",
+                "href": "https://khpr-ice.streamguys1.com/khpr2"
+              }
+            ],
+            "guid": "4fcf7157048740a08b7b3d7cd4e9539c",
+            "title": "Hawaii Public Radio: HPR-1",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "379cef77bd3549d981cfc5b78e6ac84e",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/kipo64-aac"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "7bf2570b7ef44299aff224356d154535",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/kipo256"
+              }
+            ],
+            "guid": "f0fd97e0e39d49b6b321cf8ba94e463e",
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "e86c013d076d42299a76f3461736c605",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/khpr256"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "9d882482f7e642d3bb983dd6c5a7a764",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/khpr64-aac"
+              }
+            ],
+            "guid": "af6ce574e1c7497ca392d87d57a536ae",
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.hawaiipublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/hpr.png?1487097544640",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/hpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/87.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/hawaiipublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/hipubradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e418f85d145c4b52b384a84092d36848",
+            "href": "https://khpr-ice.streamguys1.com/kipo2",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a5c7d966d1444d4bb68733eb626232e0",
+            "href": "https://khpr-ice.streamguys1.com/khpr2",
+            "isPrimaryStream": true,
+            "title": "Hawaii Public Radio: HPR-1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "379cef77bd3549d981cfc5b78e6ac84e",
+            "href": "https://khpr-ice.streamguys1.com/kipo64-aac",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "e86c013d076d42299a76f3461736c605",
+            "href": "https://khpr-ice.streamguys1.com/khpr256",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "7bf2570b7ef44299aff224356d154535",
+            "href": "https://khpr-ice.streamguys1.com/kipo256",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "9d882482f7e642d3bb983dd6c5a7a764",
+            "href": "https://khpr-ice.streamguys1.com/khpr64-aac",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "4be7233ee9224031a78a65495861c996",
+            "href": "http://feeds.feedburner.com/HawaiiPublicRadioBytemarksCafe",
+            "title": "Bytemarks Cafe",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "712a573f5e6c44dcaaaacdd20acf614f",
+            "href": "http://feeds.feedburner.com/Hawaiipublicradioorg-TheBodyShow",
+            "title": "The Body Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4ed653ce1bf846a0816060d2ca22a9e6",
+            "href": "http://feeds.feedburner.com/HPRTalkShows",
+            "title": "Hawaii Public Radio's Talk Shows podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d90075118cf54dfbb71812f275b36900",
+            "href": "http://feeds.feedburner.com/theconversationhpr",
+            "title": "The Converstation",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "53369dd403d24ab795cc02878a8a59c2",
+            "href": "https://feeds.feedburner.com/HPRNews",
+            "title": "HPR News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "f9e19c444e2f4337935fe1099ba0c824",
+            "href": "https://members.hawaiipublicradio.org/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1346.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1347",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/khpr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1347",
+        "network": {
+          "inheritingFrom": "1347",
+          "usesInheritance": false,
+          "currentOrgId": "1347"
+        },
+        "newscast": {
+          "id": "1347",
+          "recency": 360
+        },
+        "guid": "505f5b1816a44925ae457003eba321ec",
+        "brand": {
+          "band": "FM",
+          "call": "KIPM",
+          "frequency": "89.7",
+          "marketCity": "Waikapu",
+          "marketState": "HI",
+          "name": "Hawaii Public Radio",
+          "tagline": "Radio with vision, listen and see"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e418f85d145c4b52b384a84092d36848",
+                "typeId": "10",
+                "href": "https://khpr-ice.streamguys1.com/kipo2"
+              }
+            ],
+            "guid": "4fcf7157089c41bc8214faadd43a30a1",
+            "title": "Hawaii Public Radio: HPR-2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a5c7d966d1444d4bb68733eb626232e0",
+                "typeId": "10",
+                "href": "https://khpr-ice.streamguys1.com/khpr2"
+              }
+            ],
+            "guid": "4fcf7157048740a08b7b3d7cd4e9539c",
+            "title": "Hawaii Public Radio: HPR-1",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "e86c013d076d42299a76f3461736c605",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/khpr256"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "9d882482f7e642d3bb983dd6c5a7a764",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/khpr64-aac"
+              }
+            ],
+            "guid": "af6ce574e1c7497ca392d87d57a536ae",
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "7bf2570b7ef44299aff224356d154535",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/kipo256"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "379cef77bd3549d981cfc5b78e6ac84e",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/kipo64-aac"
+              }
+            ],
+            "guid": "f0fd97e0e39d49b6b321cf8ba94e463e",
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.hawaiipublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/hpr.png?1487097544640",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/hpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/87.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/hawaiipublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/hipubradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "e418f85d145c4b52b384a84092d36848",
+            "href": "https://khpr-ice.streamguys1.com/kipo2",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "a5c7d966d1444d4bb68733eb626232e0",
+            "href": "https://khpr-ice.streamguys1.com/khpr2",
+            "isPrimaryStream": true,
+            "title": "Hawaii Public Radio: HPR-1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "e86c013d076d42299a76f3461736c605",
+            "href": "https://khpr-ice.streamguys1.com/khpr256",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "7bf2570b7ef44299aff224356d154535",
+            "href": "https://khpr-ice.streamguys1.com/kipo256",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "379cef77bd3549d981cfc5b78e6ac84e",
+            "href": "https://khpr-ice.streamguys1.com/kipo64-aac",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "9d882482f7e642d3bb983dd6c5a7a764",
+            "href": "https://khpr-ice.streamguys1.com/khpr64-aac",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "4ed653ce1bf846a0816060d2ca22a9e6",
+            "href": "http://feeds.feedburner.com/HPRTalkShows",
+            "title": "Hawaii Public Radio's Talk Shows podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "53369dd403d24ab795cc02878a8a59c2",
+            "href": "https://feeds.feedburner.com/HPRNews",
+            "title": "HPR News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d90075118cf54dfbb71812f275b36900",
+            "href": "http://feeds.feedburner.com/theconversationhpr",
+            "title": "The Converstation",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4be7233ee9224031a78a65495861c996",
+            "href": "http://feeds.feedburner.com/HawaiiPublicRadioBytemarksCafe",
+            "title": "Bytemarks Cafe",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "712a573f5e6c44dcaaaacdd20acf614f",
+            "href": "http://feeds.feedburner.com/Hawaiipublicradioorg-TheBodyShow",
+            "title": "The Body Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "d5415ee452b642b1b0e6db5a96f9715c",
+            "href": "https://members.hawaiipublicradio.org/",
+            "title": "Support",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1347.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1412",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/khpr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1412",
+        "network": {
+          "inheritingFrom": "1412",
+          "usesInheritance": false,
+          "currentOrgId": "1412"
+        },
+        "newscast": {
+          "id": "1412",
+          "recency": 360
+        },
+        "guid": "52a9e6fd0d0e44e9acabd7613cd49334",
+        "brand": {
+          "band": "FM",
+          "call": "KAHU",
+          "frequency": "91.3",
+          "marketCity": "Pahala",
+          "marketState": "HI",
+          "name": "Hawaii Public Radio",
+          "tagline": "Radio with vision, listen and see"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "a5c7d966d1444d4bb68733eb626232e0",
+                "typeId": "10",
+                "href": "https://khpr-ice.streamguys1.com/khpr2"
+              }
+            ],
+            "guid": "4fcf7157048740a08b7b3d7cd4e9539c",
+            "title": "Hawaii Public Radio: HPR-1",
+            "primary": true
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "e418f85d145c4b52b384a84092d36848",
+                "typeId": "10",
+                "href": "https://khpr-ice.streamguys1.com/kipo2"
+              }
+            ],
+            "guid": "4fcf7157089c41bc8214faadd43a30a1",
+            "title": "Hawaii Public Radio: HPR-2",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "379cef77bd3549d981cfc5b78e6ac84e",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/kipo64-aac"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "7bf2570b7ef44299aff224356d154535",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/kipo256"
+              }
+            ],
+            "guid": "f0fd97e0e39d49b6b321cf8ba94e463e",
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "e86c013d076d42299a76f3461736c605",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/khpr256"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "9d882482f7e642d3bb983dd6c5a7a764",
+                "typeId": "13",
+                "href": "https://khpr-ice.streamguys1.com/khpr64-aac"
+              }
+            ],
+            "guid": "af6ce574e1c7497ca392d87d57a536ae",
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "primary": false
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.hawaiipublicradio.org/",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/hpr.png?1487097544640",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/hpr.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "hello-id-audio",
+            "href": "https://ondemand.npr.org/npr-mp4/stationid/87.mp4",
+            "content-type": "audio/aac"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/hawaiipublicradio",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/hipubradio",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "a5c7d966d1444d4bb68733eb626232e0",
+            "href": "https://khpr-ice.streamguys1.com/khpr2",
+            "isPrimaryStream": true,
+            "title": "Hawaii Public Radio: HPR-1",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "e418f85d145c4b52b384a84092d36848",
+            "href": "https://khpr-ice.streamguys1.com/kipo2",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "379cef77bd3549d981cfc5b78e6ac84e",
+            "href": "https://khpr-ice.streamguys1.com/kipo64-aac",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "e86c013d076d42299a76f3461736c605",
+            "href": "https://khpr-ice.streamguys1.com/khpr256",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "9d882482f7e642d3bb983dd6c5a7a764",
+            "href": "https://khpr-ice.streamguys1.com/khpr64-aac",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-1 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          },
+          {
+            "guid": "7bf2570b7ef44299aff224356d154535",
+            "href": "https://khpr-ice.streamguys1.com/kipo256",
+            "isPrimaryStream": false,
+            "title": "Hawaii Public Radio: HPR-2 aac streams",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "53369dd403d24ab795cc02878a8a59c2",
+            "href": "https://feeds.feedburner.com/HPRNews",
+            "title": "HPR News",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "d90075118cf54dfbb71812f275b36900",
+            "href": "http://feeds.feedburner.com/theconversationhpr",
+            "title": "The Converstation",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "712a573f5e6c44dcaaaacdd20acf614f",
+            "href": "http://feeds.feedburner.com/Hawaiipublicradioorg-TheBodyShow",
+            "title": "The Body Show",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4be7233ee9224031a78a65495861c996",
+            "href": "http://feeds.feedburner.com/HawaiiPublicRadioBytemarksCafe",
+            "title": "Bytemarks Cafe",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "4ed653ce1bf846a0816060d2ca22a9e6",
+            "href": "http://feeds.feedburner.com/HPRTalkShows",
+            "title": "Hawaii Public Radio's Talk Shows podcast",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "841e7ccf91134ddf8969d58d5dd8e9fb",
+            "href": "https://members.hawaiipublicradio.org/",
+            "title": "Support HPR",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "href": "https://ondemand.npr.org/npr-mp4/thankyou/1412.mp4",
+            "typeId": "29",
+            "typeName": "Station Thank You Audio"
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}

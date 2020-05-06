@@ -1,0 +1,648 @@
+{
+  "version": "1.0",
+  "href": "https://api.npr.org/stationfinder/v3/stations",
+  "attributes": {
+    "query": "WY"
+  },
+  "items": [
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/256",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kuwr-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "256",
+        "network": {
+          "name": "Wyoming Public Radio",
+          "inheritingFrom": "255",
+          "usesInheritance": true,
+          "currentOrgId": "256",
+          "tier1": {
+            "name": "Wyoming Public Radio Network",
+            "id": "255",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KUWR-FM",
+                "id": "256",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KBUW-FM",
+                    "id": "257",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KDUW-FM",
+                    "id": "258",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KSUW-FM",
+                    "id": "259",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWA-FM",
+                    "id": "260",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWC-FM",
+                    "id": "261",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWD-FM",
+                    "id": "262",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWG-FM",
+                    "id": "263",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWJ-FM",
+                    "id": "264",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWN-FM",
+                    "id": "265",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWP-FM",
+                    "id": "266",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWT-FM",
+                    "id": "267",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWX-FM",
+                    "id": "268",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWZ-FM",
+                    "id": "269",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWY-FM",
+                    "id": "1057",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWL-FM",
+                    "id": "1058",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWI-FM",
+                    "id": "1417",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KUWE-FM",
+                    "id": "1537",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KUWV-FM",
+                    "id": "1538",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KZUW-FM",
+                    "id": "1543",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KUWW-FM",
+                    "id": "1544",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KUWK-FM",
+                    "id": "1545",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KEUW-FM",
+                    "id": "1546",
+                    "usesInheritance": false
+                  },
+                  {
+                    "name": "KAIW-FM",
+                    "id": "1714",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "newscast": {
+          "id": "255",
+          "recency": 240
+        },
+        "guid": "4fcf700f1dfc44dda771f8ce3cddcd68",
+        "brand": {
+          "band": "FM",
+          "call": "KUWR",
+          "frequency": "91.9",
+          "marketCity": "Laramie",
+          "marketState": "WY",
+          "name": "Wyoming Public Radio",
+          "tagline": "Wyoming Public Media Statewide Network"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "000ca24a6bdc44d0bbd380293895f4f2",
+                "typeId": "10",
+                "href": "https://wyoming-public-ice.streamguys1.com/JZZ128MP3"
+              }
+            ],
+            "guid": "4fcf7152031542988296837ae0dd52ad",
+            "title": "Jazz Wyoming",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "89437f8116694d828d540175cdd080c9",
+                "typeId": "10",
+                "href": "https://wyoming-public-ice.streamguys1.com/WYS128MP3"
+              }
+            ],
+            "guid": "df8dd1c3d0954abb8382b95b245d5bc7",
+            "title": "Wyoming Sounds",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "b62bae2982ec4bc79657e00bf49346f6",
+                "typeId": "10",
+                "href": "https://wyoming-public-ice.streamguys1.com/CLS128MP3"
+              }
+            ],
+            "guid": "13f0fb3328c02244ea988707b7816b25",
+            "title": "Classical Wyoming",
+            "primary": false
+          },
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "bdbf36f5490e48de8468716d6fc7bf83",
+                "typeId": "10",
+                "href": "https://wyoming-public-ice.streamguys1.com/WPR128MP3"
+              }
+            ],
+            "guid": "4fcf715118864bbbb504f32d22a19868",
+            "title": "Wyoming Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "https://www.wyomingpublicmedia.org",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "logo",
+            "href": "https://media.npr.org/images/stations/nprone_logos/wprn.png",
+            "content-type": "image/png"
+          },
+          {
+            "rel": "small-logo",
+            "href": "https://media.npr.org/images/stations/logos/wprn.gif",
+            "content-type": "image/gif"
+          },
+          {
+            "rel": "facebook",
+            "href": "https://www.facebook.com/WyomingPublicMedia",
+            "content-type": "text/html"
+          },
+          {
+            "rel": "twitter",
+            "href": "https://twitter.com/WYPublicMedia",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "000ca24a6bdc44d0bbd380293895f4f2",
+            "href": "https://wyoming-public-ice.streamguys1.com/JZZ128MP3",
+            "isPrimaryStream": false,
+            "title": "Jazz Wyoming",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "89437f8116694d828d540175cdd080c9",
+            "href": "https://wyoming-public-ice.streamguys1.com/WYS128MP3",
+            "isPrimaryStream": false,
+            "title": "Wyoming Sounds",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "b62bae2982ec4bc79657e00bf49346f6",
+            "href": "https://wyoming-public-ice.streamguys1.com/CLS128MP3",
+            "isPrimaryStream": false,
+            "title": "Classical Wyoming",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "bdbf36f5490e48de8468716d6fc7bf83",
+            "href": "https://wyoming-public-ice.streamguys1.com/WPR128MP3",
+            "isPrimaryStream": true,
+            "title": "Wyoming Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          }
+        ],
+        "podcasts": [
+          {
+            "guid": "725aff9d0f344810aee5ec1a12cee165",
+            "href": "https://feeds.podtrac.com/0HsQUhE5lGnQ",
+            "title": "HumaNature",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "f95b8211823e49d0a9e4a8b4ca851884",
+            "href": "https://feeds.podtrac.com/IDG2gabM8Gsg",
+            "title": "Open Spaces",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "dc72592d8e6946ae8433776dac0899ac",
+            "href": "https://feeds.podtrac.com/nVrxU9wSWwad",
+            "title": "Spoken Words",
+            "typeId": "9",
+            "typeName": "Podcast"
+          },
+          {
+            "guid": "7833ad6f02244869812d84c8b4ece199",
+            "href": "https://feeds.podtrac.com/tEYH22ImV_a0",
+            "title": "The Modern West",
+            "typeId": "9",
+            "typeName": "Podcast"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "90c77baff48349068ee202e6d3417ab0",
+            "href": "https://donate.nprstations.org/wpr/wyomingpublicradio",
+            "title": "Donate ",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          },
+          {
+            "guid": "f3397e80e0b944e9ac9c0f2789833377",
+            "href": "https://donate.nprstations.org/wpr/wyomingpublicradio",
+            "title": "Donate",
+            "typeId": "27",
+            "typeName": "Station NPR One Pledge Page"
+          },
+          {
+            "guid": "1ecd3437689b41bc82a23fa4b3014ebf",
+            "href": "https://ondemand.npr.org/npr-mp4/donation/255_acbcb1bd4c0281e81a32c5c3c6809abd.mp4",
+            "title": "NPR One Pledge Audio",
+            "typeId": "28",
+            "typeName": "Station Pledge Audio"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1546",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "8f962fd76b174e5ebc3c2864b48ab914",
+        "brand": {
+          "band": "FM",
+          "call": "KEUW",
+          "frequency": "89.9",
+          "marketCity": "Torrington",
+          "marketState": "WY",
+          "name": "KEUW-FM",
+          "tagline": null
+        },
+        "orgId": "1546",
+        "network": {
+          "inheritingFrom": "1546",
+          "usesInheritance": false,
+          "currentOrgId": "1546"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1544",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "d5f343d3e8b44b15b89d3cf30724cdab",
+        "brand": {
+          "band": "FM",
+          "call": "KUWW",
+          "frequency": "90.9",
+          "marketCity": "Fort Washakie",
+          "marketState": "WY",
+          "name": "KUWW-FM",
+          "tagline": null
+        },
+        "orgId": "1544",
+        "network": {
+          "inheritingFrom": "1544",
+          "usesInheritance": false,
+          "currentOrgId": "1544"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1056",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "",
+          "status": "1",
+          "musicOnly": false
+        },
+        "programFeeds": [
+          {
+            "href": "https://replay.omny.fm/feeds/npr/morning-edition/kemc-fm.rss",
+            "programId": "morningedition"
+          }
+        ],
+        "orgId": "1056",
+        "network": {
+          "name": "Yellowstone Public Radio",
+          "inheritingFrom": "70",
+          "usesInheritance": true,
+          "currentOrgId": "1056",
+          "tier1": {
+            "name": "Yellowstone Public Radio",
+            "id": "70",
+            "usesInheritance": false,
+            "status": "10",
+            "tier2": [
+              {
+                "name": "KEMC-FM",
+                "id": "71",
+                "usesInheritance": true,
+                "tier3": [
+                  {
+                    "name": "KBMC-FM",
+                    "id": "72",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KYPR-FM",
+                    "id": "73",
+                    "usesInheritance": true
+                  },
+                  {
+                    "name": "KPRQ-FM",
+                    "id": "1056",
+                    "usesInheritance": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "guid": "4fcf701410e041a690f404a22c86b8ef",
+        "brand": {
+          "band": "FM",
+          "call": "KPRQ",
+          "frequency": "88.1",
+          "marketCity": "Sheridan",
+          "marketState": "WY",
+          "name": "Yellowstone Public Radio",
+          "tagline": "Yellowstone Public Radio"
+        },
+        "streamsV2": [
+          {
+            "urls": [
+              {
+                "typeName": "Audio MP3 Stream",
+                "guid": "105fd2816b6e44d3a7c2570b7bdd652a",
+                "typeId": "10",
+                "href": "https://ypr.streamguys1.com/live"
+              },
+              {
+                "typeName": "Audio AAC Stream",
+                "guid": "f107c215d857440da8018fb4f6833522",
+                "typeId": "13",
+                "href": "https://ypr.streamguys1.com/live-aac"
+              }
+            ],
+            "guid": "4fcf71540f114dd29dd3d0d1b45055d6",
+            "title": "KEMC Yellowstone Public Radio",
+            "primary": true
+          }
+        ]
+      },
+      "items": [],
+      "links": {
+        "brand": [
+          {
+            "rel": "homepage",
+            "href": "http://ypradio.org/",
+            "content-type": "text/html"
+          }
+        ],
+        "streams": [
+          {
+            "guid": "105fd2816b6e44d3a7c2570b7bdd652a",
+            "href": "https://ypr.streamguys1.com/live",
+            "isPrimaryStream": true,
+            "title": "KEMC Yellowstone Public Radio",
+            "typeId": "10",
+            "typeName": "Audio MP3 Stream"
+          },
+          {
+            "guid": "f107c215d857440da8018fb4f6833522",
+            "href": "https://ypr.streamguys1.com/live-aac",
+            "isPrimaryStream": true,
+            "title": "KEMC Yellowstone Public Radio",
+            "typeId": "13",
+            "typeName": "Audio AAC Stream"
+          }
+        ],
+        "donation": [
+          {
+            "guid": "97be3266f9884abbb01ce99fac6d94ea",
+            "href": "http://ypradio.org/support",
+            "title": "Pledge Online",
+            "typeId": "4",
+            "typeName": "Pledge Page"
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1543",
+      "attributes": {
+        "eligibility": {
+          "localization": "Exclude from news contexts",
+          "nprOne": false,
+          "format": "Classical",
+          "status": "1",
+          "musicOnly": true
+        },
+        "guid": "12f78ecfec0b4f84ae2e5bcadde43699",
+        "brand": {
+          "band": "FM",
+          "call": "KZUW",
+          "frequency": "88.5",
+          "marketCity": "Reliance",
+          "marketState": "WY",
+          "name": "KZUW-FM",
+          "tagline": null
+        },
+        "orgId": "1543",
+        "network": {
+          "inheritingFrom": "1543",
+          "usesInheritance": false,
+          "currentOrgId": "1543"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1537",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "c55d3bc9f230466281a6cc2a0e353024",
+        "brand": {
+          "band": "FM",
+          "call": "KUWE",
+          "frequency": "89.7",
+          "marketCity": "Evanston",
+          "marketState": "WY",
+          "name": "KUWE-FM",
+          "tagline": null
+        },
+        "orgId": "1537",
+        "network": {
+          "inheritingFrom": "1537",
+          "usesInheritance": false,
+          "currentOrgId": "1537"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    },
+    {
+      "version": "1.0",
+      "href": "https://api.npr.org/stationfinder/v3/stations/1538",
+      "attributes": {
+        "eligibility": {
+          "localization": "Show everywhere",
+          "nprOne": true,
+          "format": "Public Radio",
+          "status": "1",
+          "musicOnly": false
+        },
+        "guid": "6904748b211b42d59d2f01532d42c714",
+        "brand": {
+          "band": "FM",
+          "call": "KUWV",
+          "frequency": "90.7",
+          "marketCity": "Lingle",
+          "marketState": "WY",
+          "name": "KUWV-FM",
+          "tagline": null
+        },
+        "orgId": "1538",
+        "network": {
+          "inheritingFrom": "1538",
+          "usesInheritance": false,
+          "currentOrgId": "1538"
+        }
+      },
+      "items": [],
+      "links": {
+        "brand": []
+      },
+      "errors": []
+    }
+  ],
+  "links": {},
+  "errors": []
+}
