@@ -22,6 +22,12 @@ def main():
             atts = item['attributes']
             s['org_id'] = atts['orgId']
 
+            brand = atts['brand']
+            s['name'] = brand['name']
+            s['band'] = brand['band']
+            s['callsign'] = brand['call']
+            s['tagline'] = brand['tagline']
+
             net = atts['network']
             s['network_name'] = net.get('name')
             # s['tier1_name'] = net['tier1']['name']
@@ -31,11 +37,6 @@ def main():
             s['estatus'] = el['status']
             s['music_only'] = el['musicOnly']
 
-            brand = atts['brand']
-            s['name'] = brand['name']
-            s['band'] = brand['band']
-            s['callsign'] = brand['call']
-            s['tagline'] = brand['tagline']
             stations.append(s)
 
     with open(DEST_PATH, 'w') as dest:
